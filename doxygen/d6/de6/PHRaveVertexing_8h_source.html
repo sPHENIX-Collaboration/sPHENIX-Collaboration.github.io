@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d6/de6/PHRaveVertexing_8h_source.html'
 <div class="title">PHRaveVertexing.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d6/de6/PHRaveVertexing_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../d6/de6/PHRaveVertexing_8h.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHRaveVertexing.h">the newest version in sPHENIX GitHub for file PHRaveVertexing.h</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef TRACKRECO_PHRAVEVERTEXING_H</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TRACKRECO_PHRAVEVERTEXING_H</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span></div>
@@ -205,7 +205,7 @@ $(document).ready(function(){initNavTree('d6/de6/PHRaveVertexing_8h_source.html'
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../d5/daa/classPHRaveVertexing.html#a9b4d2ba5dc7275e980d497fab294f69a" title="Create New nodes.">CreateNodes</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>*);</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  genfit::Track* <a class="code" href="../../d5/daa/classPHRaveVertexing.html#af3ca2c60b8b69efdf6fdaf781f19948c">TranslateSvtxToGenFitTrack</a>(<a class="code" href="../../d2/db8/classSvtxTrack.html">SvtxTrack</a>* svtx);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <a class="code" href="../../d6/d8a/classgenfit_1_1Track.html" title="Collection of TrackPoint objects, AbsTrackRep objects and FitStatus objects.">genfit::Track</a>* <a class="code" href="../../d5/daa/classPHRaveVertexing.html#af3ca2c60b8b69efdf6fdaf781f19948c">TranslateSvtxToGenFitTrack</a>(<a class="code" href="../../d2/db8/classSvtxTrack.html">SvtxTrack</a>* svtx);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="../../d5/daa/classPHRaveVertexing.html#ae0dfbdeba5060b396c4e3e5de573c289" title="Fill SvtxVertexMap from GFRaveVertexes and Tracks.">FillSvtxVertexMap</a>(</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      <span class="keyword">const</span> std::vector&lt;genfit::GFRaveVertex*&gt;&amp; rave_vertices,</div>
@@ -219,7 +219,7 @@ $(document).ready(function(){initNavTree('d6/de6/PHRaveVertexing_8h_source.html'
 <div class="line"><a name="l00122"></a><span class="lineno"><a class="code" href="../../d5/daa/classPHRaveVertexing.html#a458e417a22618d82d20b25a0f3b15d3f">  122</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../d5/daa/classPHRaveVertexing.html#a458e417a22618d82d20b25a0f3b15d3f">_primary_pid_guess</a>;</div>
 <div class="line"><a name="l00123"></a><span class="lineno"><a class="code" href="../../d5/daa/classPHRaveVertexing.html#a4d4593eece9cd0b72c5ba8970b9dd063">  123</a></span>&#160;  <span class="keywordtype">double</span> <a class="code" href="../../d5/daa/classPHRaveVertexing.html#a4d4593eece9cd0b72c5ba8970b9dd063">_vertex_min_ndf</a>;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno"><a class="code" href="../../d5/daa/classPHRaveVertexing.html#a7baf5ed61839e35aeb5279fbc1858e28">  125</a></span>&#160;  genfit::GFRaveVertexFactory* <a class="code" href="../../d5/daa/classPHRaveVertexing.html#a7baf5ed61839e35aeb5279fbc1858e28">_vertex_finder</a>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="code" href="../../d5/daa/classPHRaveVertexing.html#a7baf5ed61839e35aeb5279fbc1858e28">  125</a></span>&#160;  <a class="code" href="../../d1/d19/classgenfit_1_1GFRaveVertexFactory.html" title="Vertex factory for producing GFRaveVertex objects from Track objects.">genfit::GFRaveVertexFactory</a>* <a class="code" href="../../d5/daa/classPHRaveVertexing.html#a7baf5ed61839e35aeb5279fbc1858e28">_vertex_finder</a>;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
 <div class="line"><a name="l00128"></a><span class="lineno"><a class="code" href="../../d5/daa/classPHRaveVertexing.html#a8660f5ec0ba9b3cfa16b9bfd4efb6386">  128</a></span>&#160;  std::string <a class="code" href="../../d5/daa/classPHRaveVertexing.html#a8660f5ec0ba9b3cfa16b9bfd4efb6386" title="https://rave.hepforge.org/trac/wiki/RaveMethods">_vertexing_method</a>;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
@@ -244,7 +244,7 @@ $(document).ready(function(){initNavTree('d6/de6/PHRaveVertexing_8h_source.html'
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_1bd7b5579a8a17b34b83494541f84522.html">trackreco</a></li><li class="navelem"><a class="el" href="../../d6/de6/PHRaveVertexing_8h.html">PHRaveVertexing.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:21</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:27</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

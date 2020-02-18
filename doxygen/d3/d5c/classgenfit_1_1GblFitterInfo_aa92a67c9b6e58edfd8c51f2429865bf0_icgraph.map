@@ -1,0 +1,5 @@
+<map id="genfit::GblFitterInfo::hasBackwardPrediction" name="genfit::GblFitterInfo::hasBackwardPrediction">
+<area shape="rect" id="node2" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a0b5726c3d074424593c56673073e8aaf" title="genfit::GblFitterInfo\l::hasBackwardUpdate" alt="" coords="240,5,409,49"/>
+<area shape="rect" id="node3" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#ae39b26b41d91428bf3bef9d06c0cba70" title="genfit::GblFitterInfo\l::hasPredictionsAndUpdates" alt="" coords="457,36,668,80"/>
+<area shape="rect" id="node4" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a3b0730f0b9265d33ce512dbe2bfc014b" title="genfit::GblFitterInfo\l::hasUpdate" alt="" coords="248,125,401,169"/>
+</map>

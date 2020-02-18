@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('df/d89/draw__G4__bjet__truth__tagging_
 <div class="title">draw_G4_bjet_truth_tagging.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/d89/draw__G4__bjet__truth__tagging_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;TFile.h&quot;</span></div>
+<a href="../../df/d89/draw__G4__bjet__truth__tagging_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/HF-Jet/HighDCATrackCounting/macros/draw_G4_bjet_truth_tagging.C">the newest version in sPHENIX GitHub for file draw_G4_bjet_truth_tagging.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;TFile.h&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;TTree.h&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;TGraph.h&quot;</span></div>
@@ -150,9 +150,9 @@ $(document).ready(function(){initNavTree('df/d89/draw__G4__bjet__truth__tagging_
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        };</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="code" href="../../df/d89/draw__G4__bjet__truth__tagging_8C.html#a03d73ac0e8be8cffab606d515ccbe1fc">   39</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../df/d89/draw__G4__bjet__truth__tagging_8C.html#a03d73ac0e8be8cffab606d515ccbe1fc">binorminal_error</a>(<span class="keywordtype">float</span> a, <span class="keywordtype">float</span> b) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="code" href="../../df/d89/draw__G4__bjet__truth__tagging_8C.html#a03d73ac0e8be8cffab606d515ccbe1fc">   39</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../df/d89/draw__G4__bjet__truth__tagging_8C.html#a03d73ac0e8be8cffab606d515ccbe1fc">binorminal_error</a>(<span class="keywordtype">float</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a6d2496198d1982fd950acfb79033902b">a</a>, <span class="keywordtype">float</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>) {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">if</span>(a &gt; b || a &lt; 0 || b &lt; 0) <span class="keywordflow">return</span> 9999.;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">float</span> e = a/b;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">float</span> e = a/<a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span> sqrt(e*(1-e)/b);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
@@ -1379,7 +1379,7 @@ $(document).ready(function(){initNavTree('df/d89/draw__G4__bjet__truth__tagging_
 <div class="line"><a name="l01281"></a><span class="lineno"> 1281</span>&#160;</div>
 <div class="line"><a name="l01282"></a><span class="lineno"> 1282</span>&#160;        <span class="comment">//bjetE_vs_ljetE</span></div>
 <div class="line"><a name="l01283"></a><span class="lineno"> 1283</span>&#160;        TH1D *hFrame_bjetE_vs_ljetE = <span class="keyword">new</span> TH1D(<span class="stringliteral">&quot;hFrame_bjetE_vs_ljetE&quot;</span>,<span class="stringliteral">&quot;;#it{b}-jet efficiency;#it{l}-jet efficiency&quot;</span>,1,0,1.05);</div>
-<div class="line"><a name="l01284"></a><span class="lineno"> 1284</span>&#160;        hFrame_bjetE_vs_ljetE-&gt;GetYaxis()-&gt;SetRangeUser(1<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a>-4,1.05);</div>
+<div class="line"><a name="l01284"></a><span class="lineno"> 1284</span>&#160;        hFrame_bjetE_vs_ljetE-&gt;GetYaxis()-&gt;SetRangeUser(1<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a>-4,1.05);</div>
 <div class="line"><a name="l01285"></a><span class="lineno"> 1285</span>&#160;</div>
 <div class="line"><a name="l01286"></a><span class="lineno"> 1286</span>&#160;        hFrame_bjetE_vs_ljetE-&gt;Draw();</div>
 <div class="line"><a name="l01287"></a><span class="lineno"> 1287</span>&#160;</div>
@@ -1417,7 +1417,7 @@ $(document).ready(function(){initNavTree('df/d89/draw__G4__bjet__truth__tagging_
 <div class="line"><a name="l01319"></a><span class="lineno"> 1319</span>&#160;</div>
 <div class="line"><a name="l01320"></a><span class="lineno"> 1320</span>&#160;        <span class="comment">//bjetE_vs_cjetE</span></div>
 <div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;        TH1D *hFrame_bjetE_vs_cjetE = <span class="keyword">new</span> TH1D(<span class="stringliteral">&quot;hFrame_bjetE_vs_cjetE&quot;</span>,<span class="stringliteral">&quot;;#it{b}-jet efficiency;#it{c}-jet efficiency&quot;</span>,1,0,1.05);</div>
-<div class="line"><a name="l01322"></a><span class="lineno"> 1322</span>&#160;        hFrame_bjetE_vs_cjetE-&gt;GetYaxis()-&gt;SetRangeUser(1<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a>-3,1.05);</div>
+<div class="line"><a name="l01322"></a><span class="lineno"> 1322</span>&#160;        hFrame_bjetE_vs_cjetE-&gt;GetYaxis()-&gt;SetRangeUser(1<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a>-3,1.05);</div>
 <div class="line"><a name="l01323"></a><span class="lineno"> 1323</span>&#160;</div>
 <div class="line"><a name="l01324"></a><span class="lineno"> 1324</span>&#160;        hFrame_bjetE_vs_cjetE-&gt;Draw();</div>
 <div class="line"><a name="l01325"></a><span class="lineno"> 1325</span>&#160;</div>
@@ -1960,7 +1960,7 @@ $(document).ready(function(){initNavTree('df/d89/draw__G4__bjet__truth__tagging_
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_3960358290b25100780bba0b0e7e61b7.html">HF-Jet</a></li><li class="navelem"><a class="el" href="../../dir_eba919629b187c2f90f227a83c57cbd1.html">HighDCATrackCounting</a></li><li class="navelem"><a class="el" href="../../dir_11ddd157b77b6e3f8d9b597820a505ec.html">macros</a></li><li class="navelem"><a class="el" href="../../df/d89/draw__G4__bjet__truth__tagging_8C.html">draw_G4_bjet_truth_tagging.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:04</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

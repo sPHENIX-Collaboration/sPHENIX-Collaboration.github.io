@@ -1,0 +1,6 @@
+<map id="CylinderGeom_Mvtx::get_local_coords_from_pixel" name="CylinderGeom_Mvtx::get_local_coords_from_pixel">
+<area shape="rect" id="node2" href="$d5/d35/classSegmentationAlpide.html#a7f552678d6282c2338d376e1ff1b9454" title="SegmentationAlpide\l::detectorToLocal" alt="" coords="264,40,423,84"/>
+<area shape="rect" id="node3" href="$d5/d35/classSegmentationAlpide.html#a4cfc724394f8660b3e204d810caa9c5d" title="SegmentationAlpide\l::detectorToLocalUnchecked" alt="" coords="471,40,681,84"/>
+<area shape="rect" id="node4" href="$d5/d35/classSegmentationAlpide.html#affc4fc9ec09c04ca27cd31785053e915" title="SegmentationAlpide\l::getFirstRowCoordinate" alt="" coords="729,5,912,49"/>
+<area shape="rect" id="node5" href="$d5/d35/classSegmentationAlpide.html#aa414d95515124921e3b4cf43ecc22c4c" title="SegmentationAlpide\l::getFirstColCoordinate" alt="" coords="733,73,909,117"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="genfit::KalmanFitterInfo::setMeasurementsOnPlane" name="genfit::KalmanFitterInfo::setMeasurementsOnPlane">
+<area shape="rect" id="node2" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a1f44bf7870a622e602aecd32e63b301b" title="genfit::KalmanFitterInfo\l::addMeasurementOnPlane" alt="" coords="260,39,464,83"/>
+<area shape="rect" id="node5" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a69cadbddb22fb66f753859fd9a099f4f" title="genfit::KalmanFitterInfo\l::deleteMeasurementInfo" alt="" coords="267,107,457,151"/>
+<area shape="rect" id="node3" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a30c7e8d87fa50205baa927d4ceccb594" title="genfit::StateOnPlane\l::getPlane" alt="" coords="512,5,673,49"/>
+<area shape="rect" id="node4" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#af02a4a29abfa1c31c8208baf757a21c5" title="genfit::AbsFitterInfo\l::setPlane" alt="" coords="515,73,670,117"/>
+</map>

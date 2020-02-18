@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('de/dc1/DrawTPCFEE_8C_source.html','../
 <div class="title">DrawTPCFEE.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../de/dc1/DrawTPCFEE_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<a href="../../de/dc1/DrawTPCFEE_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//prototype/blob/master/macros/tpc2019/DrawTPCFEE.C">the newest version in sPHENIX GitHub for file DrawTPCFEE.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * DrawTPCFEE.C</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *  Created on: Sep 22, 2018</span></div>
@@ -184,9 +184,9 @@ $(document).ready(function(){initNavTree('de/dc1/DrawTPCFEE_8C_source.html','../
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="../../de/de0/Draw__EICRate_8C.html#a708c2a4a4e5d318da3b656d059849946">_file0</a>-&gt;SetName(infile);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    TObjArray *fileElements = <a class="code" href="../../de/dc1/DrawTPCFEE_8C.html#ac97d249c451864211ad63ad7e20369f7">eventT</a>-&gt;GetListOfFiles();</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    TIter next(fileElements);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    TIter <a class="code" href="../../dc/d19/KFPInputData_8h.html#a0e4bb534e415cd121281a876b7469df2" title="Link to the nex object in the linked list.">next</a>(fileElements);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    TChainElement *chEl = 0;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">while</span> ((chEl = (TChainElement *) next()))</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">while</span> ((chEl = (TChainElement *) <a class="code" href="../../dc/d19/KFPInputData_8h.html#a0e4bb534e415cd121281a876b7469df2" title="Link to the nex object in the linked list.">next</a>()))</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    {</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      TFile f(chEl-&gt;GetTitle());</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
@@ -672,7 +672,7 @@ $(document).ready(function(){initNavTree('de/dc1/DrawTPCFEE_8C_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_9aca75ba370bf8e181613d44218f2f4a.html">prototype</a></li><li class="navelem"><a class="el" href="../../dir_32a0e629f48aaf51e8563fa582f6c0dc.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_d16e641b794a0d5a9a53ac33cf9aa65b.html">master</a></li><li class="navelem"><a class="el" href="../../dir_4a5a1dc7b371c3a6134a0109ce604fde.html">macros</a></li><li class="navelem"><a class="el" href="../../dir_5783fc0e835ea6c74f838863c148f07f.html">tpc2019</a></li><li class="navelem"><a class="el" href="../../de/dc1/DrawTPCFEE_8C.html">DrawTPCFEE.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:26</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:34</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

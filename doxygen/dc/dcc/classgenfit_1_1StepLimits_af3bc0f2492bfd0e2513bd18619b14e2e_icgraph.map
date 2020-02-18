@@ -1,0 +1,13 @@
+<map id="genfit::StepLimits::removeLimit" name="genfit::StepLimits::removeLimit">
+<area shape="rect" id="node2" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a37357f3b52f71699afd587716babde3f" title="genfit::RKTrackRep\l::estimateStep" alt="" coords="195,209,343,253"/>
+<area shape="rect" id="node3" href="$d2/d12/classgenfit_1_1RKTrackRep.html#ae3384d3819bb9c4d8aa9e1981913331b" title="Propagates the particle through the magnetic field." alt="" coords="391,180,539,224"/>
+<area shape="rect" id="node4" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a8aab6f587db26d572214ede92f4877fc" title="Handles propagation and material effects." alt="" coords="587,180,735,224"/>
+<area shape="rect" id="node5" href="$d2/d12/classgenfit_1_1RKTrackRep.html#afb21945e3f605f45b1a5bbbe7741793f" title="Extrapolates the state by step (cm) and returns the extrapolation length and, via reference..." alt="" coords="1005,5,1153,49"/>
+<area shape="rect" id="node6" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a44091ce8605a38c40d4a4f1692af448b" title="Extrapolates the state to the cone surface, and returns the extrapolation length and, via reference, the extrapolated state." alt="" coords="1001,73,1157,117"/>
+<area shape="rect" id="node7" href="$d2/d12/classgenfit_1_1RKTrackRep.html#abb4665294ae573dc5423f2975bb8b3e7" title="Extrapolates the state to the cylinder surface, and returns the extrapolation length and..." alt="" coords="989,141,1168,185"/>
+<area shape="rect" id="node8" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a216b86da9a7238ff9cf24e944b0f9e4b" title="Extrapolates the state to the POCA to a line, and returns the extrapolation length and..." alt="" coords="1003,209,1154,253"/>
+<area shape="rect" id="node9" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a03a1d1eb5b7169ba697ccf114de5066c" title="Extrapolates the state to plane, and returns the extrapolation length and, via reference, the extrapolated state." alt="" coords="783,180,941,224"/>
+<area shape="rect" id="node10" href="$d2/d12/classgenfit_1_1RKTrackRep.html#aaa34d4913daa972f1947554c4b1e23a8" title="Extrapolates the state to the sphere surface, and returns the extrapolation length and..." alt="" coords="994,277,1163,321"/>
+<area shape="rect" id="node11" href="$d2/d12/classgenfit_1_1RKTrackRep.html#abb38b9cdcf9cfa490b795530579bcd73" title="genfit::RKTrackRep\l::extrapToPoint" alt="" coords="1005,345,1153,389"/>
+<area shape="rect" id="node12" href="$d2/d12/classgenfit_1_1RKTrackRep.html#aff9f0db2e194bd9889386cc73ed2d0cd" title="Extrapolates the state to the POCA to a point, and returns the extrapolation length and..." alt="" coords="1216,345,1372,389"/>
+</map>

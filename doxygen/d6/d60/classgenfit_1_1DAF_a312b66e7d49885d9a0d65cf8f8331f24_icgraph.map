@@ -1,0 +1,4 @@
+<map id="genfit::DAF::addProbCut" name="genfit::DAF::addProbCut">
+<area shape="rect" id="node2" href="$d6/d60/classgenfit_1_1DAF.html#ab72f1be8ee0645fb744845036060d294" title="Set the probability cut for the weight calculation for the hits." alt="" coords="237,5,416,33"/>
+<area shape="rect" id="node3" href="$d6/d60/classgenfit_1_1DAF.html#a1a91cff499427561e86b8bc117fd27e0" title="Create DAF. Per default, use KalmanFitterRefTrack as fitter." alt="" coords="464,5,596,33"/>
+</map>

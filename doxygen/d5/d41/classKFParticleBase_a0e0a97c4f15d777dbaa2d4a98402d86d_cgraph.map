@@ -1,0 +1,21 @@
+<map id="KFParticleBase::Construct" name="KFParticleBase::Construct">
+<area shape="rect" id="node2" href="$d5/d41/classKFParticleBase.html#a24a5ddb6e508939d630fdbeffb5cae30" title="KFParticleBase::AddDaughter" alt="" coords="248,139,468,167"/>
+<area shape="rect" id="node13" href="$d5/d41/classKFParticleBase.html#ab6aedf51539e2164935c6469e6b0d374" title="KFParticleBase::SetMassConstraint" alt="" coords="787,5,1043,33"/>
+<area shape="rect" id="node15" href="$d5/d41/classKFParticleBase.html#a0ed85901f073ae1c6011ed7f216644d7" title="KFParticleBase::SetProduction\lVertex" alt="" coords="516,436,739,480"/>
+<area shape="rect" id="node3" href="$d5/d41/classKFParticleBase.html#afe25065680801ce33287e480ca0534e4" title="KFParticleBase::AddDaughter\lWithEnergyFit" alt="" coords="517,199,737,243"/>
+<area shape="rect" id="node10" href="$d5/d41/classKFParticleBase.html#a97b4d2ef119c13e0117b0367473cb153" title="Returns charge of the particle." alt="" coords="833,109,997,137"/>
+<area shape="rect" id="node12" href="$d5/d41/classKFParticleBase.html#a143d70c6bd591a3294c4c0f89c8edcda" title="KFParticleBase::AddDaughter\lWithEnergyFitMC" alt="" coords="517,131,737,175"/>
+<area shape="rect" id="node4" href="$d5/d41/classKFParticleBase.html#a4589ae9c9872e56468d6c5dc17adcfff" title="KFParticleBase::GetMeasurement" alt="" coords="791,213,1038,241"/>
+<area shape="rect" id="node8" href="$d5/d41/classKFParticleBase.html#ad059627ac0eb3810051cea5fbfdedc77" title="KFParticleBase::IJ" alt="" coords="1401,109,1539,137"/>
+<area shape="rect" id="node11" href="$d5/d41/classKFParticleBase.html#aa0ed9e611a76fd44e0eaac9d6f504929" title="KFParticleBase::InvertCholetsky3" alt="" coords="793,265,1036,293"/>
+<area shape="rect" id="node5" href="$d5/d41/classKFParticleBase.html#ada459a0ed2508dbc79ff582a3a32c574" title="KFParticleBase::GetDStoParticle" alt="" coords="1091,161,1325,189"/>
+<area shape="rect" id="node6" href="$d5/d41/classKFParticleBase.html#a4c022cf8371927f3bfdca7f7901db99a" title="KFParticleBase::Transport" alt="" coords="1373,627,1567,655"/>
+<area shape="rect" id="node7" href="$d5/d41/classKFParticleBase.html#a724258bdfad283642d00e119a74f6335" title="KFParticleBase::MultQSQt" alt="" coords="1111,316,1305,344"/>
+<area shape="rect" id="node9" href="$d5/d41/classKFParticleBase.html#ae4235191e7d6baaa1054507e3cb92dc9" title="KFParticleBase::GetDStoPoint" alt="" coords="1098,368,1318,396"/>
+<area shape="rect" id="node14" href="$d5/d41/classKFParticleBase.html#aeab9a3989e50d30810c3affb483254c7" title="KFParticleBase::Cij" alt="" coords="1135,5,1281,33"/>
+<area shape="rect" id="node16" href="$d5/d41/classKFParticleBase.html#af6de8b429c89b13c29f7f8d9f6aa24c7" title="KFParticleBase::Transport\lToDecayVertex" alt="" coords="818,679,1011,723"/>
+<area shape="rect" id="node18" href="$d5/d41/classKFParticleBase.html#af624ef17e57f675476a2a0e597ce2983" title="Retruns X coordinate of the particle, fP[0]." alt="" coords="845,471,984,499"/>
+<area shape="rect" id="node19" href="$d5/d41/classKFParticleBase.html#ad7d7e1a209955c43efac37d6136ac406" title="Retruns Y coordinate of the particle, fP[1]." alt="" coords="845,523,984,551"/>
+<area shape="rect" id="node20" href="$d5/d41/classKFParticleBase.html#a96e631c939d83ff67c82701ed8255200" title="Retruns Z coordinate of the particle, fP[2]." alt="" coords="845,575,984,603"/>
+<area shape="rect" id="node17" href="$d5/d41/classKFParticleBase.html#a0048b51a7253c7ac3af2c3c539f57cc7" title="KFParticleBase::TransportToDS" alt="" coords="1095,683,1321,711"/>
+</map>

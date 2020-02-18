@@ -146,8 +146,8 @@ $(document).ready(function(){initNavTree('db/d07/classPHTruthVertexing.html','..
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2c28eaaaf7b912ce38baa1a102ef7907"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/classPHTruthVertexing.html#a2c28eaaaf7b912ce38baa1a102ef7907">PHTruthVertexing</a> (const std::string &amp;<a class="el" href="../../df/d69/DNL__CorrectionArray_8C.html#aeaf846aa21a7d016a52f0b5b0c2f5544">name</a>=&quot;PHTruthVertexing&quot;)</td></tr>
 <tr class="separator:a2c28eaaaf7b912ce38baa1a102ef7907"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bd340ebb158fa3d5de41506f287a0c4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/classPHTruthVertexing.html#a6bd340ebb158fa3d5de41506f287a0c4">~PHTruthVertexing</a> ()</td></tr>
-<tr class="separator:a6bd340ebb158fa3d5de41506f287a0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ac23907144b6ddc1561a31a1f7ea58"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/classPHTruthVertexing.html#a55ac23907144b6ddc1561a31a1f7ea58">~PHTruthVertexing</a> ()</td></tr>
+<tr class="separator:a55ac23907144b6ddc1561a31a1f7ea58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad48e70eb3e1d5f2cf414ee0da3f1b6fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/classPHTruthVertexing.html#ad48e70eb3e1d5f2cf414ee0da3f1b6fb">set_vertex_error</a> (const float &amp;x_err, const float &amp;y_err, const float &amp;z_err)</td></tr>
 <tr class="separator:ad48e70eb3e1d5f2cf414ee0da3f1b6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19e5a51a47806425e5c6fd1497982672"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/classPHTruthVertexing.html#a19e5a51a47806425e5c6fd1497982672">get_vertex_error</a> () const </td></tr>
@@ -219,6 +219,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:afa3e956a48a4436d8d42a241437a0759"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/classPHTruthVertexing.html#afa3e956a48a4436d8d42a241437a0759">_vertex_error</a></td></tr>
 <tr class="memdesc:afa3e956a48a4436d8d42a241437a0759"><td class="mdescLeft">&#160;</td><td class="mdescRight">manually assigned vertex error (standard dev), cm  <a href="#afa3e956a48a4436d8d42a241437a0759"></a><br/></td></tr>
 <tr class="separator:afa3e956a48a4436d8d42a241437a0759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07ebebfbd16a3c878af6478da4752272"><td class="memItemLeft" align="right" valign="top">gsl_rng *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/classPHTruthVertexing.html#a07ebebfbd16a3c878af6478da4752272">m_RandomGenerator</a></td></tr>
+<tr class="separator:a07ebebfbd16a3c878af6478da4752272"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -243,7 +245,9 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Vertexing using truth info. </p>
 
-<p>Definition at line <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00024">24</a> of file <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html">PHTruthVertexing.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00029">29</a> of file <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html">PHTruthVertexing.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.h#l29">29</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.h">PHTruthVertexing.h</a></p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a2c28eaaaf7b912ce38baa1a102ef7907"></a>
 <div class="memitem">
@@ -261,9 +265,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00028">28</a> of file <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html">PHTruthVertexing.cc</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.cc#l28">28</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.cc">PHTruthVertexing.cc</a></p>
+
 </div>
 </div>
-<a class="anchor" id="a6bd340ebb158fa3d5de41506f287a0c4"></a>
+<a class="anchor" id="a55ac23907144b6ddc1561a31a1f7ea58"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -271,7 +277,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual PHTruthVertexing::~PHTruthVertexing </td>
+          <td class="memname">PHTruthVertexing::~PHTruthVertexing </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -279,12 +285,16 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00028">28</a> of file <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html">PHTruthVertexing.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00043">43</a> of file <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html">PHTruthVertexing.cc</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.cc#l43">43</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.cc">PHTruthVertexing.cc</a></p>
+
+<p>References <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00066">m_RandomGenerator</a>.</p>
 
 </div>
 </div>
@@ -315,6 +325,12 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a99bfd765c7cc22d20a8e4feace7461e7">SubsysReco</a>.</p>
 
+<p>Definition at line <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00193">193</a> of file <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html">PHTruthVertexing.cc</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.cc#l193">193</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.cc">PHTruthVertexing.cc</a></p>
+
+<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00012">Fun4AllReturnCodes::EVENT_OK</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a19e5a51a47806425e5c6fd1497982672"></a>
@@ -338,9 +354,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00038">38</a> of file <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html">PHTruthVertexing.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00043">43</a> of file <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html">PHTruthVertexing.h</a>.</p>
 
-<p>References <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00058">_vertex_error</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.h#l43">43</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.h">PHTruthVertexing.h</a></p>
+
+<p>References <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00063">_vertex_error</a>.</p>
 
 </div>
 </div>
@@ -368,6 +386,24 @@ Additional Inherited Members</h2></td></tr>
 
 <p>fetch node pointers </p>
 
+<p>Definition at line <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00182">182</a> of file <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html">PHTruthVertexing.cc</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.cc#l182">182</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.cc">PHTruthVertexing.cc</a></p>
+
+<p>References <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00060">_g4truth_container</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00011">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00012">Fun4AllReturnCodes::EVENT_OK</a>, and <a class="el" href="../../d5/d6f/phool_8h_source.html#l00032">PHWHERE</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00047">Setup()</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d07/classPHTruthVertexing_ab08ce554ae7d0096447e7ef889227d35_icgraph.svg" width="459" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a9c11845b84b07f6c25633052dd09ede4"></a>
@@ -394,6 +430,22 @@ Additional Inherited Members</h2></td></tr>
 <p>process event interface for trackers, called in process_event. implemented in derived classes </p>
 
 <p>Implements <a class="el" href="../../d1/d94/classPHInitVertexing.html#ae4e990b88f2cfe1813be772df6aa1e68">PHInitVertexing</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00058">58</a> of file <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html">PHTruthVertexing.cc</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.cc#l58">58</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.cc">PHTruthVertexing.cc</a></p>
+
+<p>References <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00060">_g4truth_container</a>, <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00063">_vertex_error</a>, <a class="el" href="../../dc/dd6/PHInitVertexing_8h_source.html#l00047">PHInitVertexing::_vertex_map</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00012">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d0/d25/PHG4TruthInfoContainer_8h_source.html#l00119">PHG4TruthInfoContainer::GetPrimaryVtxRange()</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">i</a>, <a class="el" href="../../d0/d19/SvtxVertexMap_8h_source.html#l00019">SvtxVertexMap::identify()</a>, <a class="el" href="../../d0/d19/SvtxVertexMap_8h_source.html#l00036">SvtxVertexMap::insert()</a>, <a class="el" href="../../d7/d02/PHG4TruthInfoContainer_8cc_source.html#l00300">PHG4TruthInfoContainer::isEmbededVtx()</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">j</a>, <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00066">m_RandomGenerator</a>, <a class="el" href="../../dc/d11/Prototype2_2EMCal_2macros_2SaveCanvas_8m_source.html#l00012">pos</a>, <a class="el" href="../../dc/dc1/SvtxVertex_8h_source.html#l00049">SvtxVertex::set_chisq()</a>, <a class="el" href="../../dc/dc1/SvtxVertex_8h_source.html#l00058">SvtxVertex::set_error()</a>, <a class="el" href="../../dc/dc1/SvtxVertex_8h_source.html#l00034">SvtxVertex::set_id()</a>, <a class="el" href="../../dc/dc1/SvtxVertex_8h_source.html#l00052">SvtxVertex::set_ndof()</a>, <a class="el" href="../../dc/dc1/SvtxVertex_8h_source.html#l00037">SvtxVertex::set_t0()</a>, <a class="el" href="../../dc/dc1/SvtxVertex_8h_source.html#l00040">SvtxVertex::set_x()</a>, <a class="el" href="../../dc/dc1/SvtxVertex_8h_source.html#l00043">SvtxVertex::set_y()</a>, <a class="el" href="../../dc/dc1/SvtxVertex_8h_source.html#l00046">SvtxVertex::set_z()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00065">Fun4AllBase::Verbosity()</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d07/classPHTruthVertexing_a9c11845b84b07f6c25633052dd09ede4_cgraph.svg" width="443" height="695"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -435,9 +487,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00030">30</a> of file <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html">PHTruthVertexing.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00035">35</a> of file <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html">PHTruthVertexing.h</a>.</p>
 
-<p>References <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00058">_vertex_error</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.h#l35">35</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.h">PHTruthVertexing.h</a></p>
+
+<p>References <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00063">_vertex_error</a>.</p>
 
 </div>
 </div>
@@ -466,6 +520,22 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d1/d94/classPHInitVertexing.html#a09664773ec7308f9cfc5a302a26da6a7">PHInitVertexing</a>.</p>
 
+<p>Definition at line <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00047">47</a> of file <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html">PHTruthVertexing.cc</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.cc#l47">47</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.cc">PHTruthVertexing.cc</a></p>
+
+<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00012">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00182">GetNodes()</a>, and <a class="el" href="../../d8/d2a/PHInitVertexing_8cc_source.html#l00039">PHInitVertexing::Setup()</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d07/classPHTruthVertexing_a3dec0e93742609d6be7318814e85b45b_cgraph.svg" width="1211" height="219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -487,7 +557,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00055">55</a> of file <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html">PHTruthVertexing.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00060">60</a> of file <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html">PHTruthVertexing.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.h#l60">60</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.h">PHTruthVertexing.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00182">GetNodes()</a>, and <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00058">Process()</a>.</p>
 
 </div>
 </div>
@@ -511,9 +585,37 @@ Additional Inherited Members</h2></td></tr>
 
 <p>manually assigned vertex error (standard dev), cm </p>
 
-<p>Definition at line <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00058">58</a> of file <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html">PHTruthVertexing.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00063">63</a> of file <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html">PHTruthVertexing.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00038">get_vertex_error()</a>, and <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00030">set_vertex_error()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.h#l63">63</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.h">PHTruthVertexing.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00043">get_vertex_error()</a>, <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00058">Process()</a>, and <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00035">set_vertex_error()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a07ebebfbd16a3c878af6478da4752272"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gsl_rng* PHTruthVertexing::m_RandomGenerator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html#l00066">66</a> of file <a class="el" href="../../d4/db5/PHTruthVertexing_8h_source.html">PHTruthVertexing.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.h#l66">66</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthVertexing.h">PHTruthVertexing.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00058">Process()</a>, and <a class="el" href="../../d1/d0a/PHTruthVertexing_8cc_source.html#l00043">~PHTruthVertexing()</a>.</p>
 
 </div>
 </div>
@@ -531,7 +633,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../db/d07/classPHTruthVertexing.html">PHTruthVertexing</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:44</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:55</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

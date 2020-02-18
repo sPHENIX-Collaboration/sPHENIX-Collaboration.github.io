@@ -1,0 +1,5 @@
+<map id="genfit::TrackPoint::setScatterer" name="genfit::TrackPoint::setScatterer">
+<area shape="rect" id="node2" href="$d1/dc8/classgenfit_1_1GblFitter.html#a224cad1dcba8a38a34650fea7bfad61e" title="Remove all previous gbl fitter data from track Also removes trackpoints without measurement." alt="" coords="192,5,327,49"/>
+<area shape="rect" id="node3" href="$d1/dc8/classgenfit_1_1GblFitter.html#a5da35921dc77781efca0650aefff823a" title="Propagate seed, populate track with scatterers and GblFitterInfos with reference state set..." alt="" coords="192,73,327,117"/>
+<area shape="rect" id="node4" href="$d5/dd2/GenFit_2blob_2master_2test_2streamerTest_2main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="232,141,287,169"/>
+</map>

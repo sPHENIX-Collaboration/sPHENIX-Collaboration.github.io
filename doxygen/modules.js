@@ -11,5 +11,9 @@ var modules =
     [ "Variables for {@link _signalCutTree}", "d8/ddd/group__signalTreeVars.html", "d8/ddd/group__signalTreeVars" ],
     [ "Variables for {@link _signalCutTree}", "de/d40/group__backTreeVars.html", "de/d40/group__backTreeVars" ],
     [ "Genfit", "df/d36/group__genfit.html", "df/d36/group__genfit" ],
-    [ "component", "d3/d69/group__clustered.html", "d3/d69/group__clustered" ]
+    [ "component", "d3/d69/group__clustered.html", "d3/d69/group__clustered" ],
+    [ "EventDisplay", "d9/d80/group__EventDisplay.html", "d9/d80/group__EventDisplay" ],
+    [ "GFRave", "dc/d65/group__GFRave.html", "dc/d65/group__GFRave" ],
+    [ "RKTrackRep", "d4/d3f/group__RKTrackRep.html", "d4/d3f/group__RKTrackRep" ],
+    [ "Utilities", "dc/d39/group__utilities.html", "dc/d39/group__utilities" ]
 ];

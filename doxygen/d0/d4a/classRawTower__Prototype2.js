@@ -1,7 +1,7 @@
 var classRawTower__Prototype2 =
 [
     [ "signal_type", "d0/d4a/classRawTower__Prototype2.html#ac4b44692ba5c13c1c2af23fd942236fc", null ],
-    [ "NSAMPLES", "d0/d4a/classRawTower__Prototype2.html#aeece6376ace27c385b105319d5f64943a11d929c0ba27970e8ce6584ef97da1ac", null ],
+    [ "NSAMPLES", "d0/d4a/classRawTower__Prototype2.html#a94561a43e188cf649df5e118376e45e3a11d929c0ba27970e8ce6584ef97da1ac", null ],
     [ "RawTower_Prototype2", "d0/d4a/classRawTower__Prototype2.html#aaefb5e9c488ed4bc9ec69469357616a1", null ],
     [ "RawTower_Prototype2", "d0/d4a/classRawTower__Prototype2.html#a652c028336d776aca82411435c63c7dc", null ],
     [ "RawTower_Prototype2", "d0/d4a/classRawTower__Prototype2.html#a3b01d086fc3ef3932df4e44a28feccba", null ],

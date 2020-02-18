@@ -139,8 +139,8 @@ $(document).ready(function(){initNavTree('df/d9b/classCylinderGeom__Mvtx.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a36b61bc8ba47d3693882be5fedb16326"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a36b61bc8ba47d3693882be5fedb16326">CylinderGeom_Mvtx</a> (int <a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#aa5c4e17684e8165ef71e88f5b2bf18aa">layer</a>, int <a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a88ec5b168f4e877c92d7043cba07b245">stave_type</a>, int in_Nstaves, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> in_layer_nominal_radius, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> in_phistep, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> in_phitilt, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> in_pixel_x, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> in_pixel_z, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> in_pixel_thickness)</td></tr>
-<tr class="separator:a36b61bc8ba47d3693882be5fedb16326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18599067cbffea8461ab3fed2617fe2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a18599067cbffea8461ab3fed2617fe2e">CylinderGeom_Mvtx</a> (int <a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#aa5c4e17684e8165ef71e88f5b2bf18aa">layer</a>, int in_Nstaves, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> in_layer_nominal_radius, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> in_phistep, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> in_phitilt, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> in_phi0)</td></tr>
+<tr class="separator:a18599067cbffea8461ab3fed2617fe2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a866063cd254a550f7253a717dcf99a40"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a866063cd254a550f7253a717dcf99a40">CylinderGeom_Mvtx</a> ()</td></tr>
 <tr class="memdesc:a866063cd254a550f7253a717dcf99a40"><td class="mdescLeft">&#160;</td><td class="mdescRight">default ctor to allow <a class="el" href="../../d0/d10/namespaceROOT.html">ROOT</a> stream of this class. Implemented using c++11 feature of delegating constructors  <a href="#a866063cd254a550f7253a717dcf99a40"></a><br/></td></tr>
 <tr class="separator:a866063cd254a550f7253a717dcf99a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,10 +152,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5ae0ac26d7f45c935a577263cdba5d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aede358e384b225e6555bed9292f0310c"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#aede358e384b225e6555bed9292f0310c">get_world_from_local_coords</a> (int stave, int half_stave, int module, int chip, TVector3 sensor_local)</td></tr>
 <tr class="separator:aede358e384b225e6555bed9292f0310c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa84f117adfc81d69bba8444f0c4186b2"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#aa84f117adfc81d69bba8444f0c4186b2">get_local_from_world_coords</a> (int stave, int chip, TVector3 world_location)</td></tr>
+<tr class="separator:aa84f117adfc81d69bba8444f0c4186b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7666151b00cdc9b3d74faac4c347050"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#ad7666151b00cdc9b3d74faac4c347050">get_world_from_local_coords</a> (int stave, int chip, TVector3 sensor_local)</td></tr>
+<tr class="separator:ad7666151b00cdc9b3d74faac4c347050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf1913f398a29ab68e5d20eb0257fd6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#adcf1913f398a29ab68e5d20eb0257fd6">get_pixel_from_local_coords</a> (TVector3 sensor_local, int &amp;iRow, int &amp;iCol)</td></tr>
+<tr class="separator:adcf1913f398a29ab68e5d20eb0257fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4abb4cdffed9d08997a74e5bda7d1f9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#ac4abb4cdffed9d08997a74e5bda7d1f9">get_pixel_from_local_coords</a> (TVector3 sensor_local)</td></tr>
 <tr class="separator:ac4abb4cdffed9d08997a74e5bda7d1f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57c4360f58914dd88fabd4b3001e49b8"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a57c4360f58914dd88fabd4b3001e49b8">get_local_coords_from_pixel</a> (int NXZ)</td></tr>
 <tr class="separator:a57c4360f58914dd88fabd4b3001e49b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74fa6b5bc83f171d95dc95c685a9d229"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a74fa6b5bc83f171d95dc95c685a9d229">get_local_coords_from_pixel</a> (int iRow, int iCol)</td></tr>
+<tr class="separator:a74fa6b5bc83f171d95dc95c685a9d229"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af559c0b9554152f1269785d71bb26a96"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#af559c0b9554152f1269785d71bb26a96">get_pixel_X_from_pixel_number</a> (int NXZ)</td></tr>
 <tr class="separator:af559c0b9554152f1269785d71bb26a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5545da6f1b8fca9ec720d87874899b01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a5545da6f1b8fca9ec720d87874899b01">get_pixel_Z_from_pixel_number</a> (int NXZ)</td></tr>
@@ -176,6 +184,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab8c2178e6194ce35d9abb6d07289ff19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1c7c0b68aa74bd674206214ffabfe6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#aa1c7c0b68aa74bd674206214ffabfe6d">get_stave_phi_tilt</a> () const </td></tr>
 <tr class="separator:aa1c7c0b68aa74bd674206214ffabfe6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af59cc8d161d887886076b5dab97b4d02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#af59cc8d161d887886076b5dab97b4d02">get_stave_phi_0</a> () const </td></tr>
+<tr class="separator:af59cc8d161d887886076b5dab97b4d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1150e439cca14fd949b34850312dae9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a1150e439cca14fd949b34850312dae9c">get_ladder_phi_index</a> (int stave, int half_stave, int chip)</td></tr>
 <tr class="separator:a1150e439cca14fd949b34850312dae9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd305a1dcf19dcccf6c47c8efd871565"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#acd305a1dcf19dcccf6c47c8efd871565">get_ladder_z_index</a> (int module, int chip)</td></tr>
@@ -291,22 +301,18 @@ Public Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:aa5c4e17684e8165ef71e88f5b2bf18aa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#aa5c4e17684e8165ef71e88f5b2bf18aa">layer</a></td></tr>
 <tr class="separator:aa5c4e17684e8165ef71e88f5b2bf18aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88ec5b168f4e877c92d7043cba07b245"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a88ec5b168f4e877c92d7043cba07b245">stave_type</a></td></tr>
-<tr class="separator:a88ec5b168f4e877c92d7043cba07b245"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e80f59c8e7d9f651441f5d20ebaf97b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a8e80f59c8e7d9f651441f5d20ebaf97b">N_staves</a></td></tr>
 <tr class="separator:a8e80f59c8e7d9f651441f5d20ebaf97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a125b834d11b91e8abfa8c87a18fe7efe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a125b834d11b91e8abfa8c87a18fe7efe">N_half_staves</a></td></tr>
 <tr class="separator:a125b834d11b91e8abfa8c87a18fe7efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a759070e48f8ddec6ef9fb8270358be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a8a759070e48f8ddec6ef9fb8270358be">Xsensor</a></td></tr>
-<tr class="separator:a8a759070e48f8ddec6ef9fb8270358be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61b0a6341fd870e6259b33f634e29e9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a61b0a6341fd870e6259b33f634e29e9b">Zsensor</a></td></tr>
-<tr class="separator:a61b0a6341fd870e6259b33f634e29e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a109078b54c884ba874daa4f7e0cc6bcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a109078b54c884ba874daa4f7e0cc6bcc">layer_radius</a></td></tr>
 <tr class="separator:a109078b54c884ba874daa4f7e0cc6bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dc6b5be8c6aaceecc463cd493f13cee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a6dc6b5be8c6aaceecc463cd493f13cee">stave_phi_step</a></td></tr>
 <tr class="separator:a6dc6b5be8c6aaceecc463cd493f13cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eb5ec4aae0e6f6e1fb92b9390634f13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a9eb5ec4aae0e6f6e1fb92b9390634f13">stave_phi_tilt</a></td></tr>
 <tr class="separator:a9eb5ec4aae0e6f6e1fb92b9390634f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7981eb4a24dc9df372441a58b1679e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#af7981eb4a24dc9df372441a58b1679e9">stave_phi_0</a></td></tr>
+<tr class="separator:af7981eb4a24dc9df372441a58b1679e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d417d01047332745c1b64909e64d013"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a0d417d01047332745c1b64909e64d013">loc_sensor_in_chip</a> [3]</td></tr>
 <tr class="separator:a0d417d01047332745c1b64909e64d013"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5a6bc9601e8305f8282bd39092ebef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#ac5a6bc9601e8305f8282bd39092ebef9">inner_loc_chip_in_module</a> [9][3]</td></tr>
@@ -315,18 +321,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a88dc54c28afe9c4e6365ce6c2c8000e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9650cd638f2d7d06cd3939504375b23a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a9650cd638f2d7d06cd3939504375b23a">inner_loc_halfstave_in_stave</a> [3]</td></tr>
 <tr class="separator:a9650cd638f2d7d06cd3939504375b23a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7875ff05f659e03626674fe135b5e245"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a7875ff05f659e03626674fe135b5e245">middle_loc_chip_in_module</a> [14][3]</td></tr>
-<tr class="separator:a7875ff05f659e03626674fe135b5e245"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab171c740829861a920ee8df4d10a1acc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#ab171c740829861a920ee8df4d10a1acc">middle_loc_module_in_halfstave</a> [4][3]</td></tr>
-<tr class="separator:ab171c740829861a920ee8df4d10a1acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40b0497bc977a002526c33cd9e995e1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a40b0497bc977a002526c33cd9e995e1f">middle_loc_halfstave_in_stave</a> [2][3]</td></tr>
-<tr class="separator:a40b0497bc977a002526c33cd9e995e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e4d4cc031ea82bbf060cbd9326237e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a8e4d4cc031ea82bbf060cbd9326237e5">outer_loc_chip_in_module</a> [14][3]</td></tr>
-<tr class="separator:a8e4d4cc031ea82bbf060cbd9326237e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42cb1765ffde1c3d107b18757de9f146"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a42cb1765ffde1c3d107b18757de9f146">outer_loc_module_in_halfstave</a> [7][3]</td></tr>
-<tr class="separator:a42cb1765ffde1c3d107b18757de9f146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a659b8cf4106ec488e8238b0889c28401"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a659b8cf4106ec488e8238b0889c28401">outer_loc_halfstave_in_stave</a> [2][3]</td></tr>
-<tr class="separator:a659b8cf4106ec488e8238b0889c28401"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f71111a349a48e46e1a94f33b1c8970"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a0f71111a349a48e46e1a94f33b1c8970">pixel_x</a></td></tr>
 <tr class="separator:a0f71111a349a48e46e1a94f33b1c8970"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b76298fca5a46bf94c1728bf780ddda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html#a7b76298fca5a46bf94c1728bf780ddda">pixel_z</a></td></tr>
@@ -343,8 +337,10 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00010">10</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l10">10</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a36b61bc8ba47d3693882be5fedb16326"></a>
+<a class="anchor" id="a18599067cbffea8461ab3fed2617fe2e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -353,12 +349,6 @@ Additional Inherited Members</h2></td></tr>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>layer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>stave_type</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -388,19 +378,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td>
-          <td class="paramname"><em>in_pixel_x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td>
-          <td class="paramname"><em>in_pixel_z</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td>
-          <td class="paramname"><em>in_pixel_thickness</em>&#160;</td>
+          <td class="paramname"><em>in_phi0</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -410,9 +388,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">11</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00014">14</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
 
-<p>References <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">i</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00084">inner_loc_chip_in_module</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00086">inner_loc_halfstave_in_stave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00085">inner_loc_module_in_halfstave</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">j</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00080">loc_sensor_in_chip</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00090">middle_loc_chip_in_module</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00092">middle_loc_halfstave_in_stave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00091">middle_loc_module_in_halfstave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00066">N_half_staves</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00096">outer_loc_chip_in_module</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00098">outer_loc_halfstave_in_stave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00097">outer_loc_module_in_halfstave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00064">stave_type</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00068">Xsensor</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00069">Zsensor</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l14">14</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
+
+<p>References <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">i</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00099">inner_loc_chip_in_module</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00101">inner_loc_halfstave_in_stave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00100">inner_loc_module_in_halfstave</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">j</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00096">loc_sensor_in_chip</a>.</p>
 
 </div>
 </div>
@@ -439,7 +419,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>default ctor to allow <a class="el" href="../../d0/d10/namespaceROOT.html">ROOT</a> stream of this class. Implemented using c++11 feature of delegating constructors </p>
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00016">16</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00023">23</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l23">23</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
 
 </div>
 </div>
@@ -464,7 +446,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00030">30</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00034">34</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l34">34</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
 
 </div>
 </div>
@@ -511,11 +495,13 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00638">638</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00253">253</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
 
-<p>References <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l253">253</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
 
-<p>Referenced by <a class="el" href="../../df/db4/MvtxClusterizer_8cc_source.html#l00197">MvtxClusterizer::ClusterMvtx()</a>, <a class="el" href="../../de/d7a/SVReco_8C_source.html#l00405">SVReco::MakeGenFitTrack()</a>, <a class="el" href="../../d0/d52/PHGenFitTrkFitter_8cc_source.html#l00895">PHGenFitTrkFitter::ReFitTrack()</a>, and <a class="el" href="../../da/d80/PHGenFitTrkProp_8cc_source.html#l01458">PHGenFitTrkProp::TrkrClusterToPHGenFitMeasurement()</a>.</p>
+<p>References <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00124">get_world_from_local_coords()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/db4/MvtxClusterizer_8cc_source.html#l00197">MvtxClusterizer::ClusterMvtx()</a>, <a class="el" href="../../de/d7a/SVReco_8C_source.html#l00405">SVReco::MakeGenFitTrack()</a>, <a class="el" href="../../d0/d52/PHGenFitTrkFitter_8cc_source.html#l00895">PHGenFitTrkFitter::ReFitTrack()</a>, and <a class="el" href="../../da/d80/PHGenFitTrkProp_8cc_source.html#l01461">PHGenFitTrkProp::TrkrClusterToPHGenFitMeasurement()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -542,6 +528,9 @@ Additional Inherited Members</h2></td></tr>
 <a class="anchor" id="a1150e439cca14fd949b34850312dae9c"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int CylinderGeom_Mvtx::get_ladder_phi_index </td>
@@ -567,17 +556,25 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00613">613</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00073">73</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00064">stave_type</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l73">73</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
 
 </div>
 </div>
 <a class="anchor" id="acd305a1dcf19dcccf6c47c8efd871565"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int CylinderGeom_Mvtx::get_ladder_z_index </td>
@@ -597,11 +594,16 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00588">588</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00074">74</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00064">stave_type</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l74">74</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
 
 </div>
 </div>
@@ -628,9 +630,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/d30/classPHG4CylinderGeom.html#a1ab06f4805659f8006faf3cb3df1dab2">PHG4CylinderGeom</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00046">46</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00068">68</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00063">layer</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l68">68</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00085">layer</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
 
@@ -660,9 +664,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00540">540</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00218">218</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
 
-<p>References <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00060">get_NX()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00059">get_NZ()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00100">pixel_x</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00101">pixel_z</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l218">218</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
+
+<p>References <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00272">get_NX()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/db4/MvtxClusterizer_8cc_source.html#l00197">MvtxClusterizer::ClusterMvtx()</a>, and <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
 
@@ -671,7 +677,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a57c4360f58914dd88fabd4b3001e49b8_cgraph.svg" width="435" height="175"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a57c4360f58914dd88fabd4b3001e49b8_cgraph.svg" width="435" height="55"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -682,6 +688,48 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a57c4360f58914dd88fabd4b3001e49b8_icgraph.svg" width="720" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a74fa6b5bc83f171d95dc95c685a9d229"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TVector3 CylinderGeom_Mvtx::get_local_coords_from_pixel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iRow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iCol</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00226">226</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l226">226</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
+
+<p>References <a class="el" href="../../d3/dba/SegmentationAlpide_8h_source.html#l00127">SegmentationAlpide::detectorToLocal()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00096">loc_sensor_in_chip</a>, and <a class="el" href="../../d5/d6f/phool_8h_source.html#l00032">PHWHERE</a>.</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a74fa6b5bc83f171d95dc95c685a9d229_cgraph.svg" width="918" height="123"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -730,28 +778,86 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">197</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00074">74</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
 
-<p>References <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00084">inner_loc_chip_in_module</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00086">inner_loc_halfstave_in_stave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00085">inner_loc_module_in_halfstave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00072">layer_radius</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00080">loc_sensor_in_chip</a>, <a class="el" href="../../dd/de6/CylindricalHough_8h_source.html#l00010">M_PI</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00090">middle_loc_chip_in_module</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00092">middle_loc_halfstave_in_stave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00091">middle_loc_module_in_halfstave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00096">outer_loc_chip_in_module</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00098">outer_loc_halfstave_in_stave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00097">outer_loc_module_in_halfstave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00073">stave_phi_step</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00074">stave_phi_tilt</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00064">stave_type</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l74">74</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
 
-<p>Referenced by <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
+<p>References <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00099">inner_loc_chip_in_module</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00101">inner_loc_halfstave_in_stave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00100">inner_loc_module_in_halfstave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00090">layer_radius</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00096">loc_sensor_in_chip</a>, <a class="el" href="../../dd/de6/CylindricalHough_8h_source.html#l00010">M_PI</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00093">stave_phi_0</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00091">stave_phi_step</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00092">stave_phi_tilt</a>.</p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p>Referenced by <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00040">get_local_from_world_coords()</a>, and <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a5ae0ac26d7f45c935a577263cdba5d72_cgraph.svg" width="292" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a5ae0ac26d7f45c935a577263cdba5d72_icgraph.svg" width="428" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a5ae0ac26d7f45c935a577263cdba5d72_icgraph.svg" width="428" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa84f117adfc81d69bba8444f0c4186b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TVector3 CylinderGeom_Mvtx::get_local_from_world_coords </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>stave</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>chip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TVector3&#160;</td>
+          <td class="paramname"><em>world_location</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00040">40</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l40">40</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>References <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00074">get_local_from_world_coords()</a>.</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_aa84f117adfc81d69bba8444f0c4186b2_cgraph.svg" width="506" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -779,9 +885,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00055">55</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00079">79</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00066">N_half_staves</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l79">79</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00087">N_half_staves</a>.</p>
 
 </div>
 </div>
@@ -806,18 +914,17 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00054">54</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00078">78</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00065">N_staves</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l78">78</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00086">N_staves</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="acff5517b65e513c7c84c70723c953c02"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int CylinderGeom_Mvtx::get_NX </td>
@@ -826,24 +933,21 @@ Additional Inherited Members</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00060">60</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00272">272</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00100">pixel_x</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00068">Xsensor</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l272">272</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
 
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00540">get_local_coords_from_pixel()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00505">get_pixel_from_local_coords()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00475">get_pixel_number_from_xbin_zbin()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00485">get_pixel_X_from_pixel_number()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00495">get_pixel_Z_from_pixel_number()</a>, and <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
+<p>References <a class="el" href="../../d3/dba/SegmentationAlpide_8h_source.html#l00015">SegmentationAlpide::NRows</a>.</p>
 
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00218">get_local_coords_from_pixel()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00199">get_pixel_from_local_coords()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00287">get_pixel_number_from_xbin_zbin()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00277">get_pixel_X_from_pixel_number()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00282">get_pixel_Z_from_pixel_number()</a>, and <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
+
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_acff5517b65e513c7c84c70723c953c02_icgraph.svg" width="934" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -854,9 +958,6 @@ Additional Inherited Members</h2></td></tr>
 <a class="anchor" id="a6ca4f1e9e40e3d1c8c75919b8ba4c59d"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int CylinderGeom_Mvtx::get_NZ </td>
@@ -865,25 +966,82 @@ Additional Inherited Members</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00059">59</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00267">267</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00101">pixel_z</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00069">Zsensor</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l267">267</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
 
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00540">get_local_coords_from_pixel()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00505">get_pixel_from_local_coords()</a>, and <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
+<p>References <a class="el" href="../../d3/dba/SegmentationAlpide_8h_source.html#l00014">SegmentationAlpide::NCols</a>.</p>
 
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00199">get_pixel_from_local_coords()</a>, and <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
+
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a6ca4f1e9e40e3d1c8c75919b8ba4c59d_icgraph.svg" width="934" height="191"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a6ca4f1e9e40e3d1c8c75919b8ba4c59d_icgraph.svg" width="428" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="adcf1913f398a29ab68e5d20eb0257fd6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CylinderGeom_Mvtx::get_pixel_from_local_coords </td>
+          <td>(</td>
+          <td class="paramtype">TVector3&#160;</td>
+          <td class="paramname"><em>sensor_local</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>iRow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>iCol</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00176">176</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l176">176</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
+
+<p>References <a class="el" href="../../d3/dba/SegmentationAlpide_8h_source.html#l00022">SegmentationAlpide::ActiveMatrixSizeCols</a>, <a class="el" href="../../d3/dba/SegmentationAlpide_8h_source.html#l00023">SegmentationAlpide::ActiveMatrixSizeRows</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00096">loc_sensor_in_chip</a>, and <a class="el" href="../../d3/dba/SegmentationAlpide_8h_source.html#l00092">SegmentationAlpide::localToDetector()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00199">get_pixel_from_local_coords()</a>, and <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
+
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_adcf1913f398a29ab68e5d20eb0257fd6_cgraph.svg" width="383" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_adcf1913f398a29ab68e5d20eb0257fd6_icgraph.svg" width="428" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -904,28 +1062,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00505">505</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00199">199</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00060">get_NX()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00059">get_NZ()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00100">pixel_x</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00101">pixel_z</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l199">199</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
 
-<p>Referenced by <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
+<p>References <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00272">get_NX()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00267">get_NZ()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00176">get_pixel_from_local_coords()</a>, and <a class="el" href="../../d5/d6f/phool_8h_source.html#l00032">PHWHERE</a>.</p>
 
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_ac4abb4cdffed9d08997a74e5bda7d1f9_cgraph.svg" width="390" height="123"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_ac4abb4cdffed9d08997a74e5bda7d1f9_icgraph.svg" width="428" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_ac4abb4cdffed9d08997a74e5bda7d1f9_cgraph.svg" width="596" height="207"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -956,28 +1104,30 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00475">475</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00287">287</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00060">get_NX()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l287">287</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
 
-<p>Referenced by <a class="el" href="../../df/db4/MvtxClusterizer_8cc_source.html#l00197">MvtxClusterizer::ClusterMvtx()</a>, and <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
+<p>References <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00272">get_NX()</a>.</p>
 
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p>Referenced by <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
+
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_aa0c4bdda48c848625153de08fdfa2203_cgraph.svg" width="404" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_aa0c4bdda48c848625153de08fdfa2203_icgraph.svg" width="690" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_aa0c4bdda48c848625153de08fdfa2203_icgraph.svg" width="443" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1007,17 +1157,19 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/d30/classPHG4CylinderGeom.html#a93b665d079abe5bb08f0f527952471ae">PHG4CylinderGeom</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00043">43</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00065">65</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00102">pixel_thickness</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l65">65</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00105">pixel_thickness</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/db4/MvtxClusterizer_8cc_source.html#l00197">MvtxClusterizer::ClusterMvtx()</a>.</p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a9c09eb746257ea37328bafbd66e69a3e_icgraph.svg" width="675" height="55"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1048,17 +1200,19 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/d30/classPHG4CylinderGeom.html#a66c0e9b04057cd3b2fffdbd6727e7f94">PHG4CylinderGeom</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00041">41</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00063">63</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00100">pixel_x</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l63">63</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00103">pixel_x</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/db4/MvtxClusterizer_8cc_source.html#l00197">MvtxClusterizer::ClusterMvtx()</a>, and <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a1c597212fb9dfe8c8a84398a6a93de62_icgraph.svg" width="675" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1080,27 +1234,29 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00485">485</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00277">277</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00060">get_NX()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l277">277</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
+
+<p>References <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00272">get_NX()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
 
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_af559c0b9554152f1269785d71bb26a96_cgraph.svg" width="399" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_af559c0b9554152f1269785d71bb26a96_icgraph.svg" width="438" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1131,17 +1287,19 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/d30/classPHG4CylinderGeom.html#a1d1dc2445ceddae56db4cc483fbbb13f">PHG4CylinderGeom</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00042">42</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00064">64</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00101">pixel_z</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l64">64</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00104">pixel_z</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/db4/MvtxClusterizer_8cc_source.html#l00197">MvtxClusterizer::ClusterMvtx()</a>, and <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
 
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a6741718d8418e52e578021aa114dc60e_icgraph.svg" width="675" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1163,27 +1321,29 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00495">495</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00282">282</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00060">get_NX()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l282">282</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
+
+<p>References <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00272">get_NX()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
 
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a5545da6f1b8fca9ec720d87874899b01_cgraph.svg" width="399" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a5545da6f1b8fca9ec720d87874899b01_icgraph.svg" width="438" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1214,9 +1374,40 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/d30/classPHG4CylinderGeom.html#ad978ad904b4a70184d716c095a75874d">PHG4CylinderGeom</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00047">47</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00069">69</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00072">layer_radius</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l69">69</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00090">layer_radius</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af59cc8d161d887886076b5dab97b4d02"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> CylinderGeom_Mvtx::get_stave_phi_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00071">71</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l71">71</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00093">stave_phi_0</a>.</p>
 
 </div>
 </div>
@@ -1241,17 +1432,19 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00048">48</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00070">70</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00074">stave_phi_tilt</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l70">70</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
 
-<p>Referenced by <a class="el" href="../../df/db4/MvtxClusterizer_8cc_source.html#l00197">MvtxClusterizer::ClusterMvtx()</a>, <a class="el" href="../../de/d7a/SVReco_8C_source.html#l00405">SVReco::MakeGenFitTrack()</a>, <a class="el" href="../../d0/d52/PHGenFitTrkFitter_8cc_source.html#l00895">PHGenFitTrkFitter::ReFitTrack()</a>, and <a class="el" href="../../da/d80/PHGenFitTrkProp_8cc_source.html#l01458">PHGenFitTrkProp::TrkrClusterToPHGenFitMeasurement()</a>.</p>
+<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00092">stave_phi_tilt</a>.</p>
 
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p>Referenced by <a class="el" href="../../df/db4/MvtxClusterizer_8cc_source.html#l00197">MvtxClusterizer::ClusterMvtx()</a>, <a class="el" href="../../de/d7a/SVReco_8C_source.html#l00405">SVReco::MakeGenFitTrack()</a>, <a class="el" href="../../d0/d52/PHGenFitTrkFitter_8cc_source.html#l00895">PHGenFitTrkFitter::ReFitTrack()</a>, and <a class="el" href="../../da/d80/PHGenFitTrkProp_8cc_source.html#l01461">PHGenFitTrkProp::TrkrClusterToPHGenFitMeasurement()</a>.</p>
+
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_aa1c7c0b68aa74bd674206214ffabfe6d_icgraph.svg" width="1224" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1301,28 +1494,86 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">329</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00124">124</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
 
-<p>References <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00084">inner_loc_chip_in_module</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00086">inner_loc_halfstave_in_stave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00085">inner_loc_module_in_halfstave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00072">layer_radius</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00080">loc_sensor_in_chip</a>, <a class="el" href="../../dd/de6/CylindricalHough_8h_source.html#l00010">M_PI</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00090">middle_loc_chip_in_module</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00092">middle_loc_halfstave_in_stave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00091">middle_loc_module_in_halfstave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00096">outer_loc_chip_in_module</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00098">outer_loc_halfstave_in_stave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00097">outer_loc_module_in_halfstave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00073">stave_phi_step</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00074">stave_phi_tilt</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00064">stave_type</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l124">124</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
 
-<p>Referenced by <a class="el" href="../../df/db4/MvtxClusterizer_8cc_source.html#l00197">MvtxClusterizer::ClusterMvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00638">find_sensor_center()</a>, and <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
+<p>References <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00099">inner_loc_chip_in_module</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00101">inner_loc_halfstave_in_stave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00100">inner_loc_module_in_halfstave</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00090">layer_radius</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00096">loc_sensor_in_chip</a>, <a class="el" href="../../dd/de6/CylindricalHough_8h_source.html#l00010">M_PI</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00093">stave_phi_0</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00091">stave_phi_step</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00092">stave_phi_tilt</a>.</p>
 
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p>Referenced by <a class="el" href="../../df/db4/MvtxClusterizer_8cc_source.html#l00197">MvtxClusterizer::ClusterMvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00253">find_sensor_center()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00046">get_world_from_local_coords()</a>, and <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
+
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_aede358e384b225e6555bed9292f0310c_cgraph.svg" width="292" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_aede358e384b225e6555bed9292f0310c_icgraph.svg" width="1476" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad7666151b00cdc9b3d74faac4c347050"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TVector3 CylinderGeom_Mvtx::get_world_from_local_coords </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>stave</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>chip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TVector3&#160;</td>
+          <td class="paramname"><em>sensor_local</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00046">46</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l46">46</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>References <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00124">get_world_from_local_coords()</a>.</p>
+
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_ad7666151b00cdc9b3d74faac4c347050_cgraph.svg" width="506" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1360,17 +1611,19 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/d30/classPHG4CylinderGeom.html#a79e396bee72c06e99741e53c8de0f43e">PHG4CylinderGeom</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00574">574</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00240">240</a> of file <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html">CylinderGeom_Mvtx.cc</a>.</p>
 
-<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00063">layer</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00072">layer_radius</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00066">N_half_staves</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00065">N_staves</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00102">pixel_thickness</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00100">pixel_x</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00101">pixel_z</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00064">stave_type</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc#l240">240</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.cc">CylinderGeom_Mvtx.cc</a></p>
+
+<p>References <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00085">layer</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00090">layer_radius</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00087">N_half_staves</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00086">N_staves</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00105">pixel_thickness</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00103">pixel_x</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00104">pixel_z</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d9/d0d/PHG4MvtxHitReco_8cc_source.html#l00124">PHG4MvtxHitReco::process_event()</a>.</p>
 
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d9b/classCylinderGeom__Mvtx_a4642f211b3b670f91bbe7eab1d6507b7_icgraph.svg" width="428" height="55"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1402,7 +1655,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/d30/classPHG4CylinderGeom.html#a895b261e61edef72e564ced68e55ab66">PHG4CylinderGeom</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00045">45</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00067">67</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l67">67</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
 
 <p>References <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">i</a>.</p>
 
@@ -1427,9 +1682,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00084">84</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00099">99</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l99">99</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00014">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00074">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00124">get_world_from_local_coords()</a>.</p>
 
 </div>
 </div>
@@ -1451,9 +1708,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00086">86</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00101">101</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l101">101</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00014">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00074">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00124">get_world_from_local_coords()</a>.</p>
 
 </div>
 </div>
@@ -1475,9 +1734,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00085">85</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00100">100</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l100">100</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00014">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00074">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00124">get_world_from_local_coords()</a>.</p>
 
 </div>
 </div>
@@ -1499,9 +1760,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00063">63</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00085">85</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00046">get_layer()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00574">identify()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l85">85</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00068">get_layer()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00240">identify()</a>.</p>
 
 </div>
 </div>
@@ -1523,9 +1786,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00072">72</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00090">90</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00047">get_radius()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00574">identify()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l90">90</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00074">get_local_from_world_coords()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00069">get_radius()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00124">get_world_from_local_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00240">identify()</a>.</p>
 
 </div>
 </div>
@@ -1547,81 +1812,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00080">80</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00096">96</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l96">96</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
 
-</div>
-</div>
-<a class="anchor" id="a7875ff05f659e03626674fe135b5e245"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> CylinderGeom_Mvtx::middle_loc_chip_in_module[14][3]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00090">90</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a40b0497bc977a002526c33cd9e995e1f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> CylinderGeom_Mvtx::middle_loc_halfstave_in_stave[2][3]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00092">92</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab171c740829861a920ee8df4d10a1acc"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> CylinderGeom_Mvtx::middle_loc_module_in_halfstave[4][3]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00091">91</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00014">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00226">get_local_coords_from_pixel()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00074">get_local_from_world_coords()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00176">get_pixel_from_local_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00124">get_world_from_local_coords()</a>.</p>
 
 </div>
 </div>
@@ -1643,9 +1838,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00066">66</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00087">87</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00055">get_N_half_staves()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00574">identify()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l87">87</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00079">get_N_half_staves()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00240">identify()</a>.</p>
 
 </div>
 </div>
@@ -1667,81 +1864,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00065">65</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00086">86</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00054">get_N_staves()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00574">identify()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l86">86</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
 
-</div>
-</div>
-<a class="anchor" id="a8e4d4cc031ea82bbf060cbd9326237e5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> CylinderGeom_Mvtx::outer_loc_chip_in_module[14][3]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00096">96</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a659b8cf4106ec488e8238b0889c28401"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> CylinderGeom_Mvtx::outer_loc_halfstave_in_stave[2][3]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00098">98</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a42cb1765ffde1c3d107b18757de9f146"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> CylinderGeom_Mvtx::outer_loc_module_in_halfstave[7][3]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00097">97</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00078">get_N_staves()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00240">identify()</a>.</p>
 
 </div>
 </div>
@@ -1763,9 +1890,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00102">102</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00105">105</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00043">get_pixel_thickness()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00574">identify()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l105">105</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00065">get_pixel_thickness()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00240">identify()</a>.</p>
 
 </div>
 </div>
@@ -1787,9 +1916,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00100">100</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00103">103</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00540">get_local_coords_from_pixel()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00060">get_NX()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00505">get_pixel_from_local_coords()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00041">get_pixel_x()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00574">identify()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l103">103</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00063">get_pixel_x()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00240">identify()</a>.</p>
 
 </div>
 </div>
@@ -1811,9 +1942,37 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00101">101</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00104">104</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00540">get_local_coords_from_pixel()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00059">get_NZ()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00505">get_pixel_from_local_coords()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00042">get_pixel_z()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00574">identify()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l104">104</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00064">get_pixel_z()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00240">identify()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af7981eb4a24dc9df372441a58b1679e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> CylinderGeom_Mvtx::stave_phi_0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00093">93</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l93">93</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00074">get_local_from_world_coords()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00071">get_stave_phi_0()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00124">get_world_from_local_coords()</a>.</p>
 
 </div>
 </div>
@@ -1835,9 +1994,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00073">73</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00091">91</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l91">91</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
+
+<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00074">get_local_from_world_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00124">get_world_from_local_coords()</a>.</p>
 
 </div>
 </div>
@@ -1859,81 +2020,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00074">74</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00092">92</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00048">get_stave_phi_tilt()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h#l92">92</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/CylinderGeom_Mvtx.h">CylinderGeom_Mvtx.h</a></p>
 
-</div>
-</div>
-<a class="anchor" id="a88ec5b168f4e877c92d7043cba07b245"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int CylinderGeom_Mvtx::stave_type</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00064">64</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00613">get_ladder_phi_index()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00588">get_ladder_z_index()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00197">get_local_from_world_coords()</a>, <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00329">get_world_from_local_coords()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00574">identify()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8a759070e48f8ddec6ef9fb8270358be"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> CylinderGeom_Mvtx::Xsensor</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00068">68</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00060">get_NX()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a61b0a6341fd870e6259b33f634e29e9b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> CylinderGeom_Mvtx::Zsensor</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00069">69</a> of file <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html">CylinderGeom_Mvtx.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00011">CylinderGeom_Mvtx()</a>, and <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00059">get_NZ()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00074">get_local_from_world_coords()</a>, <a class="el" href="../../d8/df2/CylinderGeom__Mvtx_8h_source.html#l00070">get_stave_phi_tilt()</a>, and <a class="el" href="../../de/d4b/CylinderGeom__Mvtx_8cc_source.html#l00124">get_world_from_local_coords()</a>.</p>
 
 </div>
 </div>
@@ -1951,7 +2042,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../df/d9b/classCylinderGeom__Mvtx.html">CylinderGeom_Mvtx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:35</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:44</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

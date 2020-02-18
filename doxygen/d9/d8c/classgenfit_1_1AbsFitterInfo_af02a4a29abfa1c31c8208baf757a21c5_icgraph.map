@@ -1,0 +1,32 @@
+<map id="genfit::AbsFitterInfo::setPlane" name="genfit::AbsFitterInfo::setPlane">
+<area shape="rect" id="node2" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a1f44bf7870a622e602aecd32e63b301b" title="genfit::KalmanFitterInfo\l::addMeasurementOnPlane" alt="" coords="223,192,427,236"/>
+<area shape="rect" id="node9" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a4187266598070cc9e3467bcc3fe36ec6" title="Deep copy ctor for polymorphic class." alt="" coords="249,633,402,677"/>
+<area shape="rect" id="node10" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a285e0c635839e6a93ff31f2f58f7034f" title="genfit::KalmanFitterInfo\l::setBackwardPrediction" alt="" coords="234,378,417,422"/>
+<area shape="rect" id="node17" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a004eaefb3659b99b2cb4c4823abb3657" title="genfit::KalmanFitterInfo\l::setBackwardUpdate" alt="" coords="235,300,415,344"/>
+<area shape="rect" id="node19" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#adfeff50debbfa4199a261980b7929c2a" title="genfit::KalmanFitterInfo\l::setForwardPrediction" alt="" coords="235,468,415,512"/>
+<area shape="rect" id="node21" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a2c1f358fe1473c76b8eee6f2aa3bc772" title="genfit::KalmanFitterInfo\l::setForwardUpdate" alt="" coords="235,565,415,609"/>
+<area shape="rect" id="node24" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a4b233a7221a2f10ed24e0ecd66d39891" title="genfit::KalmanFitterInfo\l::setReferenceState" alt="" coords="235,70,415,114"/>
+<area shape="rect" id="node27" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a80fd6a7510eb55797dc0f57a8740b74f" title="SHOULD BE USED ONLY INTERNALY! Update the plane from measurement constructed with state or take plane..." alt="" coords="208,805,443,849"/>
+<area shape="rect" id="node3" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a7aa212dc18c5471a5a4e9d067f33da4a" title="Deep copy ctor for polymorphic class." alt="" coords="507,293,687,337"/>
+<area shape="rect" id="node4" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a1f53fb36db7dc1c1cb1e413de9ab79d2" title="genfit::KalmanFitterInfo\l::setMeasurementsOnPlane" alt="" coords="493,89,700,133"/>
+<area shape="rect" id="node5" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a39ba7c028a3325b3dc7dbd5d9e2b8a44" title="genfit::KalmanFitterInfo\l::addMeasurementsOnPlane" alt="" coords="491,157,703,201"/>
+<area shape="rect" id="node6" href="$d7/dd5/classPHGenFit_1_1Track.html#ac24ac1591f867e1e0641112d6e12f6aa" title="PHGenFit::Track::updateOne\lMeasurementKalman" alt="" coords="752,448,963,492"/>
+<area shape="rect" id="node7" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ab28798fe239a0577ef7a9c254c235491" title="Prepare the track." alt="" coords="1012,126,1225,170"/>
+<area shape="rect" id="node8" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ad3a24181b5370cc95f01f49ea148c011" title="genfit::KalmanFitterRefTrack\l::processTrackWithRep" alt="" coords="1535,353,1748,397"/>
+<area shape="rect" id="node11" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a56ec44c6b55ebe6d3fa0155b25dc62b6" title="genfit::KalmanFitterInfo\l::setPrediction" alt="" coords="507,533,687,577"/>
+<area shape="rect" id="node15" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a697c5639ce3353e8ce90ac224061d568" title="genfit::KalmanFitterInfo\l::deleteBackwardInfo" alt="" coords="507,225,687,269"/>
+<area shape="rect" id="node16" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a808f9e337cfe81a20671d34022d1d89b" title="genfit::KalmanFitterInfo\l::deletePredictions" alt="" coords="507,413,687,457"/>
+<area shape="rect" id="node12" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#a0dffe53c54ee6afe2fc252e643b5b790" title="genfit::KalmanFitterRefTrack\l::processTrackPoint" alt="" coords="1012,538,1225,582"/>
+<area shape="rect" id="node14" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#adc865a1152d111df9d724e047decaf3e" title="genfit::KalmanFitterRefTrack\l::processTrackPointSqrt" alt="" coords="751,568,964,612"/>
+<area shape="rect" id="node13" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#affda7c9ad9495fd91828d1b43adcc904" title="Fit the track." alt="" coords="1273,502,1487,546"/>
+<area shape="rect" id="node18" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#aee594ab537802880fe773d9465029c40" title="genfit::KalmanFitterInfo\l::setUpdate" alt="" coords="507,601,687,645"/>
+<area shape="rect" id="node20" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#aed090b3ccfeef0c4d22c05374b3c6614" title="genfit::KalmanFitterInfo\l::deleteForwardInfo" alt="" coords="507,669,687,713"/>
+<area shape="rect" id="node22" href="$d5/daa/classPHRaveVertexing.html#af3ca2c60b8b69efdf6fdaf781f19948c" title="PHRaveVertexing::Translate\lSvtxToGenFitTrack" alt="" coords="493,737,701,781"/>
+<area shape="rect" id="node23" href="$d5/daa/classPHRaveVertexing.html#afefcb6ce27ac34016e62172d8519fae8" title="Process Event, called for each event." alt="" coords="758,737,957,781"/>
+<area shape="rect" id="node25" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ad77484ec4444c6c2cd0875ea24eb1eb6" title="genfit::KalmanFitterInfo\l::deleteReferenceInfo" alt="" coords="507,21,687,65"/>
+<area shape="rect" id="node26" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#a6112774ee2e5b98aa7592038ea49a52a" title="Remove referenceStates if they are too far from smoothed states." alt="" coords="751,28,964,72"/>
+<area shape="rect" id="node28" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#ace7d8c155c827ea69739eb6d81fd13be" title="Set the prediction and plane (from measurement if any) You should use the user constructor instead..." alt="" coords="519,805,674,849"/>
+<area shape="rect" id="node30" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a6a5ecb1dd2d2c36cec4582037cc226e0" title="Re&#45;extrapolates between prevFitterInfo and this point using forward state to update the Jacobian (if ..." alt="" coords="516,873,677,917"/>
+<area shape="rect" id="node29" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#ab8cd3c4356cd1aaffdc89906f48a6252" title="Default user constructor." alt="" coords="781,805,934,849"/>
+<area shape="rect" id="node31" href="$d1/dc8/classgenfit_1_1GblFitter.html#a4be6bdc46ad9f13aef275aea2b01f438" title="genfit::GblFitter::\lprocessTrackWithRep" alt="" coords="775,873,940,917"/>
+</map>

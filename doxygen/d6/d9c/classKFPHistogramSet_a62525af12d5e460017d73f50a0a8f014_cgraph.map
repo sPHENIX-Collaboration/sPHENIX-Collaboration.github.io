@@ -1,0 +1,4 @@
+<map id="KFPHistogramSet::SetHistogramMemory" name="KFPHistogramSet::SetHistogramMemory">
+<area shape="rect" id="node2" href="$d5/dea/classKFPHistogram1D.html#a769c84f3b2ebab737d0dba48372c1c33" title="Returns number of bins plus underflow and overflow bins." alt="" coords="308,5,512,33"/>
+<area shape="rect" id="node3" href="$d5/dea/classKFPHistogram1D.html#a3203f9911b5bd3fbd42d2065c0e2cf8c" title="Sets the pointer to the memory with the histogram." alt="" coords="292,57,528,101"/>
+</map>

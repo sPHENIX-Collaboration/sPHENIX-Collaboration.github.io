@@ -1,0 +1,5 @@
+<map id="genfit::DetPlane::dist" name="genfit::DetPlane::dist">
+<area shape="rect" id="node2" href="$dd/d25/classgenfit_1_1DetPlane.html#a62468d1f6a0b81357d3930f8f7b52c0d" title="transform from Lab system into plane" alt="" coords="219,5,433,33"/>
+<area shape="rect" id="node4" href="$dd/d25/classgenfit_1_1DetPlane.html#a0cbd5917bc5b3a686aaa455525cadc60" title="transform from plane coordinates to lab system" alt="" coords="237,57,415,85"/>
+<area shape="rect" id="node3" href="$dd/d25/classgenfit_1_1DetPlane.html#a41acccc467938cb06f78b4a8f422b9c1" title="projecting a direction onto the plane:" alt="" coords="481,5,668,33"/>
+</map>

@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('df/da3/EMCalLikelihood_8C_source.html'
 <div class="title">EMCalLikelihood.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/da3/EMCalLikelihood_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d5b/EMCalLikelihood_8h.html">EMCalLikelihood.h</a>&quot;</span></div>
+<a href="../../df/da3/EMCalLikelihood_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/EMCal-analysis/EMCalAna/EMCalLikelihood.C">the newest version in sPHENIX GitHub for file EMCalLikelihood.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d5b/EMCalLikelihood_8h.html">EMCalLikelihood.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d8c/EMCalTrk_8h.html">EMCalTrk.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dd/dd4/getClass_8h.html">phool/getClass.h</a>&gt;</span></div>
@@ -412,9 +412,9 @@ $(document).ready(function(){initNavTree('df/da3/EMCalLikelihood_8C_source.html'
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;  h_merge_direction-&gt;Fill(merge_plus_eta, merge_plus_phi);</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> ieta = 0; ieta &lt; trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a3bd8ff501621da17741e963466a5b539ad3f537ce27701b67556a31078da3d96f">Max_N_Tower</a>; ++ieta)</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> ieta = 0; ieta &lt; trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a083e542a54d53b3652f80ea996e2ba43ad3f537ce27701b67556a31078da3d96f">Max_N_Tower</a>; ++ieta)</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    {</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> iphi = 0; iphi &lt; trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a3bd8ff501621da17741e963466a5b539ad3f537ce27701b67556a31078da3d96f">Max_N_Tower</a>; ++iphi)</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> iphi = 0; iphi &lt; trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a083e542a54d53b3652f80ea996e2ba43ad3f537ce27701b67556a31078da3d96f">Max_N_Tower</a>; ++iphi)</div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        {</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;          <span class="keywordtype">bool</span> out_of_edge = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
@@ -426,7 +426,7 @@ $(document).ready(function(){initNavTree('df/da3/EMCalLikelihood_8C_source.html'
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;            {</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;              <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> fetch_eta = <a class="code" href="../../dd/d5d/classEMCalLikelihood.html#abe99f6316361c1cfe2268ce33de8d693" title="eta and phi ganging">_ganging_size</a>.first * ieta + dieta + merge_plus_eta;</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;              <span class="keywordflow">if</span> ( fetch_eta&gt;= trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a3bd8ff501621da17741e963466a5b539ad3f537ce27701b67556a31078da3d96f">Max_N_Tower</a> or out_of_edge)</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;              <span class="keywordflow">if</span> ( fetch_eta&gt;= trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a083e542a54d53b3652f80ea996e2ba43ad3f537ce27701b67556a31078da3d96f">Max_N_Tower</a> or out_of_edge)</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                {</div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                  out_of_edge = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                  <span class="keywordflow">break</span>;</div>
@@ -436,7 +436,7 @@ $(document).ready(function(){initNavTree('df/da3/EMCalLikelihood_8C_source.html'
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                {</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                  <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> fetch_phi = <a class="code" href="../../dd/d5d/classEMCalLikelihood.html#abe99f6316361c1cfe2268ce33de8d693" title="eta and phi ganging">_ganging_size</a>.first * iphi + diphi + merge_plus_phi;</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                  <span class="keywordflow">if</span> (fetch_phi&gt;= trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a3bd8ff501621da17741e963466a5b539ad3f537ce27701b67556a31078da3d96f">Max_N_Tower</a> or out_of_edge)</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                  <span class="keywordflow">if</span> (fetch_phi&gt;= trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a083e542a54d53b3652f80ea996e2ba43ad3f537ce27701b67556a31078da3d96f">Max_N_Tower</a> or out_of_edge)</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;                    {</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                      out_of_edge = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;                      <span class="keywordflow">break</span>;</div>
@@ -476,9 +476,9 @@ $(document).ready(function(){initNavTree('df/da3/EMCalLikelihood_8C_source.html'
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;  trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a29c6ca2435401d69ac5a761b7948aa5c">hcalin_sum_energy</a> = 0;</div>
 <div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;  trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#ab1ca554613afac5d097f09e1d6ac58cf">hcalin_sum_n_tower</a> = 0;</div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> ieta = 0; ieta &lt; trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a3bd8ff501621da17741e963466a5b539ad3f537ce27701b67556a31078da3d96f">Max_N_Tower</a>; ++ieta)</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> ieta = 0; ieta &lt; trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a083e542a54d53b3652f80ea996e2ba43ad3f537ce27701b67556a31078da3d96f">Max_N_Tower</a>; ++ieta)</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    {</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> iphi = 0; iphi &lt; trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a3bd8ff501621da17741e963466a5b539ad3f537ce27701b67556a31078da3d96f">Max_N_Tower</a>; ++iphi)</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> iphi = 0; iphi &lt; trk-&gt;<a class="code" href="../../d4/d76/classEMCalTrk.html#a083e542a54d53b3652f80ea996e2ba43ad3f537ce27701b67556a31078da3d96f">Max_N_Tower</a>; ++iphi)</div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        {</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;          <span class="comment">//cemc</span></div>
@@ -580,7 +580,7 @@ $(document).ready(function(){initNavTree('df/da3/EMCalLikelihood_8C_source.html'
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_80dbd681590cd38f36b55ace290cc73c.html">EMCal-analysis</a></li><li class="navelem"><a class="el" href="../../dir_700cc4b2f2193173a8c3302b69c5571f.html">EMCalAna</a></li><li class="navelem"><a class="el" href="../../df/da3/EMCalLikelihood_8C.html">EMCalLikelihood.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:04</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

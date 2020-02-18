@@ -1,0 +1,6 @@
+<map id="genfit::RKTrackRep::getMomMag" name="genfit::RKTrackRep::getMomMag">
+<area shape="rect" id="node2" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a92cf35857098de08b8a98b9c6dac3d6e" title="Get the (fitted) charge of a state. This is not always equal the pdg charge (e.g. if the charge sign ..." alt="" coords="201,76,349,120"/>
+<area shape="rect" id="node4" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="397,141,559,185"/>
+<area shape="rect" id="node3" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a6a0edfbf9193760cf666ff40e3ff3568" title="Get the charge of the particle of the pdg code." alt="" coords="400,5,556,49"/>
+<area shape="rect" id="node5" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="406,73,550,117"/>
+</map>

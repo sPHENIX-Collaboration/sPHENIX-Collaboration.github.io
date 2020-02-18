@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d6/de5/PHG4PrimaryGeneratorAction_8cc_
 <div class="title">PHG4PrimaryGeneratorAction.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d6/de5/PHG4PrimaryGeneratorAction_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d92/PHG4PrimaryGeneratorAction_8h.html">PHG4PrimaryGeneratorAction.h</a>&quot;</span></div>
+<a href="../../d6/de5/PHG4PrimaryGeneratorAction_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4main/PHG4PrimaryGeneratorAction.cc">the newest version in sPHENIX GitHub for file PHG4PrimaryGeneratorAction.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d92/PHG4PrimaryGeneratorAction_8h.html">PHG4PrimaryGeneratorAction.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d4f/PHG4InEvent_8h.html">PHG4InEvent.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dd/d05/PHG4Particle_8h.html">PHG4Particle.h</a>&quot;</span></div>
@@ -202,7 +202,7 @@ $(document).ready(function(){initNavTree('d6/de5/PHG4PrimaryGeneratorAction_8cc_
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                             (*particle_iter-&gt;second).get_pz() * (*particle_iter-&gt;second).get_pz());</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;          <span class="comment">// expected momentum unit is GeV</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;          g4part-&gt;SetKineticEnergy(ekin * GeV);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;          g4part-&gt;SetKineticEnergy(ekin * <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;          g4part-&gt;SetMass(mass);</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;          G4ThreeVector <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a3c6b45b9ca29094a66f0366e1c3d1744">v</a>((*particle_iter-&gt;second).get_px(), (*particle_iter-&gt;second).get_py(), (*particle_iter-&gt;second).get_pz());</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;          G4ThreeVector vunit = <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a3c6b45b9ca29094a66f0366e1c3d1744">v</a>.unit();</div>
@@ -229,16 +229,16 @@ $(document).ready(function(){initNavTree('d6/de5/PHG4PrimaryGeneratorAction_8cc_
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;          G4ParticleDefinition* ion = G4IonTable::GetIonTable()-&gt;GetIon((*particle_iter-&gt;second).get_Z(), (*particle_iter-&gt;second).get_A(), (*particle_iter-&gt;second).get_ExcitEnergy());</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;          g4part = <span class="keyword">new</span> G4PrimaryParticle(ion);</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;          g4part-&gt;SetCharge((*particle_iter-&gt;second).get_IonCharge());</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;          g4part-&gt;SetMomentum((*particle_iter-&gt;second).get_px() * GeV,</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                              (*particle_iter-&gt;second).get_py() * GeV,</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                              (*particle_iter-&gt;second).get_pz() * GeV);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;          g4part-&gt;SetMomentum((*particle_iter-&gt;second).get_px() * <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>,</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                              (*particle_iter-&gt;second).get_py() * <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>,</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                              (*particle_iter-&gt;second).get_pz() * <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        }</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        {</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;          g4part = <span class="keyword">new</span> G4PrimaryParticle((*particle_iter-&gt;second).get_pid(),</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                                         (*particle_iter-&gt;second).get_px() * GeV,</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                                         (*particle_iter-&gt;second).get_py() * GeV,</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                                         (*particle_iter-&gt;second).get_pz() * GeV);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                                         (*particle_iter-&gt;second).get_px() * <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>,</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                                         (*particle_iter-&gt;second).get_py() * <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>,</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                                         (*particle_iter-&gt;second).get_pz() * <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        }</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      }</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;      <span class="comment">//if (inEvent-&gt;isEmbeded(particle_iter-&gt;second))</span></div>
@@ -266,7 +266,7 @@ $(document).ready(function(){initNavTree('d6/de5/PHG4PrimaryGeneratorAction_8cc_
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_d7c39552d8b30c84b73c0b1367a66a4d.html">g4main</a></li><li class="navelem"><a class="el" href="../../d6/de5/PHG4PrimaryGeneratorAction_8cc.html">PHG4PrimaryGeneratorAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:25</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:31</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

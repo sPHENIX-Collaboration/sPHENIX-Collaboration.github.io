@@ -1,0 +1,5 @@
+<map id="PHGenFit::Track::get_chi2" name="PHGenFit::Track::get_chi2">
+<area shape="rect" id="node2" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="489,33,707,61"/>
+<area shape="rect" id="node3" href="$d0/d8d/classgenfit_1_1FitStatus.html#abbeeda61574c284f1d762088b3644770" title="Get chi^2 of the fit." alt="" coords="276,25,412,69"/>
+<area shape="rect" id="node4" href="$d6/d8a/classgenfit_1_1Track.html#ad06e7a012624bdb03960826b5c9fcd93" title="Get FitStatus for a AbsTrackRep. Per default, return FitStatus for cardinalRep." alt="" coords="247,93,441,121"/>
+</map>

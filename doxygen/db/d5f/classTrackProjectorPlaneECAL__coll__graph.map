@@ -1,3 +1,6 @@
 <map id="TrackProjectorPlaneECAL" name="TrackProjectorPlaneECAL">
-<area shape="rect" id="node2" href="$d1/d35/classPHGenFit_1_1Fitter.html" title="PHGenFit::Fitter" alt="" coords="37,5,163,33"/>
+<area shape="rect" id="node2" href="$d1/d35/classPHGenFit_1_1Fitter.html" title="PHGenFit::Fitter" alt="" coords="129,205,255,233"/>
+<area shape="rect" id="node3" href="$d2/df7/classgenfit_1_1AbsKalmanFitter.html" title="Abstract base class for Kalman fitter and derived fitting algorithms." alt="" coords="5,113,187,141"/>
+<area shape="rect" id="node4" href="$d0/dba/classgenfit_1_1AbsFitter.html" title="Abstract base class for fitters." alt="" coords="31,13,161,41"/>
+<area shape="rect" id="node5" href="$d4/d1a/classgenfit_1_1EventDisplay.html" title="Event display designed to run with Genfit." alt="" coords="211,113,370,141"/>
 </map>

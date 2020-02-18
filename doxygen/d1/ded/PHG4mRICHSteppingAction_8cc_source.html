@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d1/ded/PHG4mRICHSteppingAction_8cc_sou
 <div class="title">PHG4mRICHSteppingAction.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d1/ded/PHG4mRICHSteppingAction_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*===============================================================*</span></div>
+<a href="../../d1/ded/PHG4mRICHSteppingAction_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4detectors/PHG4mRICHSteppingAction.cc">the newest version in sPHENIX GitHub for file PHG4mRICHSteppingAction.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*===============================================================*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *                       March 19th 2017                         *</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">    mRICH Stepping Action created by Cheuk-Ping Wong @GSU        *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *===============================================================*/</span></div>
@@ -205,8 +205,8 @@ $(document).ready(function(){initNavTree('d1/ded/PHG4mRICHSteppingAction_8cc_sou
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  <span class="keywordflow">if</span> ( isactive &gt; <a class="code" href="../../d9/deb/classPHG4mRICHDetector.html#afe461b45d1c31a61a911599c7b56c5deaad45c363ff6fc09bd34bf1f78cc37756">PHG4mRICHDetector::INACTIVE</a> ) </div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  {</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="comment">// collect energy and track length step by step</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    G4double edep = aStep-&gt;GetTotalEnergyDeposit() / GeV;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    G4double eion = (aStep-&gt;GetTotalEnergyDeposit() - aStep-&gt;GetNonIonizingEnergyDeposit()) / GeV;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    G4double edep = aStep-&gt;GetTotalEnergyDeposit() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    G4double eion = (aStep-&gt;GetTotalEnergyDeposit() - aStep-&gt;GetNonIonizingEnergyDeposit()) / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keyword">const</span> G4Track* aTrack = aStep-&gt;GetTrack();</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
@@ -233,7 +233,7 @@ $(document).ready(function(){initNavTree('d1/ded/PHG4mRICHSteppingAction_8cc_sou
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="comment">// if this block stops everything, just put all kinetic energy into edep</span></div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d3/df6/classPHG4mRICHSteppingAction.html#a86b09c2b6a20dd98de83695ddf290d87">IsBlackHole</a>) </div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    {</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      edep = aTrack-&gt;GetKineticEnergy() / GeV;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      edep = aTrack-&gt;GetKineticEnergy() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;      G4Track* killtrack = <span class="keyword">const_cast&lt;</span>G4Track *<span class="keyword">&gt;</span> (aTrack);</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      killtrack-&gt;SetTrackStatus(fStopAndKill);</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    }</div>
@@ -269,7 +269,7 @@ $(document).ready(function(){initNavTree('d1/ded/PHG4mRICHSteppingAction_8cc_sou
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;          <a class="code" href="../../d3/df6/classPHG4mRICHSteppingAction.html#afcff91a3456a687c885dc7cde64b193d">savehitcontainer</a> = <a class="code" href="../../d3/df6/classPHG4mRICHSteppingAction.html#a4e4bf78ed00afdb66d8d564bcdba4ab4" title="pointer to hit container">hits_</a>;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;          <span class="keywordflow">if</span>(PID == 0)</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;          {</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            edep = aTrack-&gt;GetKineticEnergy() / GeV;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            edep = aTrack-&gt;GetKineticEnergy() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            G4Track* killtrack = <span class="keyword">const_cast&lt;</span>G4Track *<span class="keyword">&gt;</span> (aTrack);</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            killtrack-&gt;SetTrackStatus(fStopAndKill);</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            <a class="code" href="../../d3/df6/classPHG4mRICHSteppingAction.html#a6d6e0c0121cc48a754e15caf394597f3">hit</a>-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#acb136829baab1de2639e7fd5de3a74b5">set_scint_id</a>(module_id);</div>
@@ -483,7 +483,7 @@ $(document).ready(function(){initNavTree('d1/ded/PHG4mRICHSteppingAction_8cc_sou
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_9c7fb2020439b18d33da5551fbb1c41b.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../d1/ded/PHG4mRICHSteppingAction_8cc.html">PHG4mRICHSteppingAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:23</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:29</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

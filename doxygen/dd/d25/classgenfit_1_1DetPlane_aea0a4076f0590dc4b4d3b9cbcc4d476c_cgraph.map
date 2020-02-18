@@ -1,0 +1,6 @@
+<map id="genfit::DetPlane::isInActive" name="genfit::DetPlane::isInActive">
+<area shape="rect" id="node2" href="$dd/d25/classgenfit_1_1DetPlane.html#a7cc4455980d9ee114323396148670829" title="intersect in the active area? C.f. AbsFinitePlane" alt="" coords="257,32,461,60"/>
+<area shape="rect" id="node3" href="$dd/d25/classgenfit_1_1DetPlane.html#a27f5ea23611fdc0605de4d6901e06a6f" title="gives u,v coordinates of the intersection point of a straight line with plane" alt="" coords="509,24,701,68"/>
+<area shape="rect" id="node4" href="$dd/d25/classgenfit_1_1DetPlane.html#a67147844a30d48c6d067e150d82a7e5a" title="genfit::DetPlane::getNormal" alt="" coords="749,5,959,33"/>
+<area shape="rect" id="node5" href="$dd/d25/classgenfit_1_1DetPlane.html#a41acccc467938cb06f78b4a8f422b9c1" title="projecting a direction onto the plane:" alt="" coords="761,57,947,85"/>
+</map>

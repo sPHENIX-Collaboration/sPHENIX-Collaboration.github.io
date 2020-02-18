@@ -1,0 +1,4 @@
+<map id="genfit::TrackCand::set6DSeedAndPdgCode" name="genfit::TrackCand::set6DSeedAndPdgCode">
+<area shape="rect" id="node2" href="$d3/da2/classgenfit_1_1TrackCand.html#a1fb72516c0581c7c657cee5b7f94bea8" title="This function works the same as set6DSeed but instead of a charge hypothesis you can set a pdg code w..." alt="" coords="235,5,449,49"/>
+<area shape="rect" id="node3" href="$d6/d8a/classgenfit_1_1Track.html#add7d00317241e4ba90b83f51d53e0425" title="Construct a new TrackCand containing the hit IDs of the measurements." alt="" coords="497,5,675,49"/>
+</map>

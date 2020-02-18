@@ -1,0 +1,44 @@
+<map id="genfit::DAF::calcWeights" name="genfit::DAF::calcWeights">
+<area shape="rect" id="node2" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ae6282ca7ac8e4893cd6ced8f5d65d0af" title="Are the weights fixed?" alt="" coords="259,5,439,49"/>
+<area shape="rect" id="node3" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#adea48432beb9b8fc30bc4bf05b4c5547" title="genfit::MeasuredStateOnPlane\l::getCov" alt="" coords="1029,192,1256,236"/>
+<area shape="rect" id="node4" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ac7f94b10aafb0b75efd90f491b456834" title="genfit::KalmanFitterInfo\l::getMeasurementOnPlane" alt="" coords="249,1024,450,1068"/>
+<area shape="rect" id="node5" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a5342748d35f74e34dd5fcf7601d1896a" title="genfit::KalmanFitterInfo\l::getNumMeasurements" alt="" coords="257,1092,441,1136"/>
+<area shape="rect" id="node6" href="$d6/d8a/classgenfit_1_1Track.html#af8d0e80206b8523b225f1b380fb89d62" title="genfit::Track::getPoints\lWithMeasurement" alt="" coords="261,1160,438,1204"/>
+<area shape="rect" id="node7" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a6f8067ff3ebb42f7957fbde01d5c6f49" title="Get unbiased (default) or biased residual from ith measurement." alt="" coords="259,465,439,509"/>
+<area shape="rect" id="node26" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="1062,116,1223,160"/>
+<area shape="rect" id="node27" href="$db/d45/namespacegenfit_1_1tools.html#ad70b08610012fcd630091c66be5cd0c4" title="Invert a matrix, throwing an Exception when inversion fails. Optional calculation of determinant..." alt="" coords="1046,876,1239,904"/>
+<area shape="rect" id="node38" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html#a0be1bb0d92ae38bc3a373237430b65f5" title="genfit::MeasurementOnPlane\l::getWeight" alt="" coords="507,913,725,957"/>
+<area shape="rect" id="node40" href="$d8/db3/classgenfit_1_1Exception.html#afc635b1574316fa449d258e32e2608a6" title="Print information in the exception object." alt="" coords="264,1228,435,1256"/>
+<area shape="rect" id="node42" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html#aa7fe8ce59e9166fc9f88d5bfa43a2840" title="genfit::MeasurementOnPlane\l::setWeight" alt="" coords="240,1280,459,1324"/>
+<area shape="rect" id="node43" href="$d8/db3/classgenfit_1_1Exception.html#a5cb44accc5d69d5742ed883a2d4ff88a" title="Standard error message handling for exceptions. use like &quot;std::cerr &lt;&lt; e.what();&quot;." alt="" coords="260,1348,439,1376"/>
+<area shape="rect" id="node8" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a2076ecca63ef159ab37fae40a38c0ea0" title="Get unbiased or biased (default) smoothed state." alt="" coords="526,845,706,889"/>
+<area shape="rect" id="node24" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a30c7e8d87fa50205baa927d4ceccb594" title="genfit::StateOnPlane\l::getPlane" alt="" coords="1062,755,1223,799"/>
+<area shape="rect" id="node25" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a14f25e4575846dcb14bd91ddb2a534d2" title="genfit::StateOnPlane\l::getRep" alt="" coords="1062,260,1223,304"/>
+<area shape="rect" id="node34" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html#a647892a99b2f5f53930e469db79b66f6" title="genfit::MeasurementOnPlane\l::getHMatrix" alt="" coords="507,465,725,509"/>
+<area shape="rect" id="node35" href="$d9/dc6/classgenfit_1_1AbsHMatrix.html#a77182cba40576805f0099203fe0e59ec" title="H*v." alt="" coords="529,413,703,441"/>
+<area shape="rect" id="node37" href="$d9/dc6/classgenfit_1_1AbsHMatrix.html#a2f614f0f44289851392895dc4598223b" title="genfit::AbsHMatrix\l::clone" alt="" coords="543,277,689,321"/>
+<area shape="rect" id="node39" href="$d9/dc6/classgenfit_1_1AbsHMatrix.html#a4b9d01543fd58d6da6805eb16f46b6f5" title="similarity: H*M*H^t" alt="" coords="543,345,689,389"/>
+<area shape="rect" id="node9" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#abef5146e9139a0995c5446d8e6fdf78a" title="genfit::AbsFitterInfo\l::getTrackPoint" alt="" coords="800,944,955,988"/>
+<area shape="rect" id="node10" href="$db/d40/classgenfit_1_1TrackPoint.html#a2540c1979de60b5456130b1e648c783d" title="genfit::TrackPoint\l::getTrack" alt="" coords="808,1012,947,1056"/>
+<area shape="rect" id="node11" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#afea691164c74306d2031439ca40d1687" title="genfit::AbsFitterInfo\l::getRep" alt="" coords="800,1080,955,1124"/>
+<area shape="rect" id="node12" href="$d6/d8a/classgenfit_1_1Track.html#ad06e7a012624bdb03960826b5c9fcd93" title="Get FitStatus for a AbsTrackRep. Per default, return FitStatus for cardinalRep." alt="" coords="780,1336,975,1364"/>
+<area shape="rect" id="node14" href="$d0/d8d/classgenfit_1_1FitStatus.html#aab5247319ec0d2b1afc1e7b558168956" title="genfit::FitStatus::\lgetPruneFlags" alt="" coords="809,1148,945,1192"/>
+<area shape="rect" id="node15" href="$d6/d51/structgenfit_1_1PruneFlags.html#af4ac9db88e17d2c54f805601615b7da5" title="check if any of the flags is set" alt="" coords="805,1216,949,1260"/>
+<area shape="rect" id="node16" href="$d6/d8a/classgenfit_1_1Track.html#a30a99be76e2dbd190d6567830eaeb0fc" title="genfit::Track::getNumPoints" alt="" coords="773,636,981,664"/>
+<area shape="rect" id="node17" href="$d6/d51/structgenfit_1_1PruneFlags.html#afb7f2a8148397b833eff8bff099e02f4" title="genfit::PruneFlags\l::Print" alt="" coords="805,688,949,732"/>
+<area shape="rect" id="node18" href="$d6/d51/structgenfit_1_1PruneFlags.html#a8f468c1a77b6a573dc5de81bf07e8c94" title="check if all the given flags are set" alt="" coords="805,756,949,800"/>
+<area shape="rect" id="node19" href="$d6/d8a/classgenfit_1_1Track.html#ad8961b1ff4809ccde5f6f100ffbccb9d" title="genfit::Track::getPointWith\lFitterInfo" alt="" coords="777,876,977,920"/>
+<area shape="rect" id="node20" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="1325,841,1469,885"/>
+<area shape="rect" id="node21" href="$dc/d22/namespacegenfit.html#ab9be5ccf8961ab01c0401d938a1f628f" title="Calculate weighted average between two MeasuredStateOnPlanes." alt="" coords="783,532,971,560"/>
+<area shape="rect" id="node13" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="1034,1132,1251,1160"/>
+<area shape="rect" id="node22" href="$d7/dd8/bk_8f.html#a084aa72b16f800aa352c4efed50eb2af" title="bk" alt="" coords="1545,672,1583,700"/>
+<area shape="rect" id="node23" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a2801bf4fa1196147472cc1807281e23d" title="genfit::StateOnPlane\l::getAuxInfo" alt="" coords="1062,328,1223,372"/>
+<area shape="rect" id="node28" href="$db/d45/namespacegenfit_1_1tools.html#a409cdc24f5908845f845bf0c4a2d4961" title="Replaces A with an upper right matrix connected to A by an orthongonal transformation. I.e., it computes R from a QR decomposition of A = QR, replacing A." alt="" coords="1331,531,1463,559"/>
+<area shape="rect" id="node29" href="$da/d55/TPCRateLayered_8m.html#a7507ef556477c204b499f1e189d40796" title="sum" alt="" coords="1539,583,1589,611"/>
+<area shape="rect" id="node30" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#aa50d18e563eb6659dcb1dc64660f400e" title="genfit::MeasuredStateOnPlane\l::setCov" alt="" coords="1029,396,1256,440"/>
+<area shape="rect" id="node31" href="$de/dd5/classgenfit_1_1StateOnPlane.html#ad93a356012617fff04a557d34bd84ce5" title="genfit::StateOnPlane\l::setState" alt="" coords="1062,464,1223,508"/>
+<area shape="rect" id="node32" href="$db/d45/namespacegenfit_1_1tools.html#a98e2c1ec0611289beb34a8bfb13980a7" title="Inverts the transpose of the upper right matrix R into inv." alt="" coords="1049,635,1236,679"/>
+<area shape="rect" id="node33" href="$db/d45/namespacegenfit_1_1tools.html#a97e35224c7d7ec5d63f23ffda85aef4c" title="Solves R^t x = b, replacing b with the solution for x. R is assumed to be upper diagonal." alt="" coords="1304,635,1491,679"/>
+<area shape="rect" id="node36" href="$d9/dc6/classgenfit_1_1AbsHMatrix.html#a5e04e261388034ab5c4aaa51f714f0e6" title="Get the actual matrix representation." alt="" coords="804,376,951,420"/>
+<area shape="rect" id="node41" href="$db/d5d/test__style_8C.html#aa587a93d9563c8d433bd1736432c4acd" title="Print" alt="" coords="589,1228,643,1256"/>
+</map>

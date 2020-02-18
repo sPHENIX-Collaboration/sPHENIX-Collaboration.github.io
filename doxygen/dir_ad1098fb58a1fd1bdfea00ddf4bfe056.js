@@ -15,6 +15,11 @@ var dir_ad1098fb58a1fd1bdfea00ddf4bfe056 =
       [ "QAG4SimulationJet", "d4/d28/classQAG4SimulationJet.html", "d4/d28/classQAG4SimulationJet" ]
     ] ],
     [ "QAG4SimulationJetLinkDef.h", "d9/d7d/QAG4SimulationJetLinkDef_8h.html", null ],
+    [ "QAG4SimulationTracking.cc", "d8/d04/QAG4SimulationTracking_8cc.html", null ],
+    [ "QAG4SimulationTracking.h", "d4/d03/QAG4SimulationTracking_8h.html", [
+      [ "QAG4SimulationTracking", "de/dbf/classQAG4SimulationTracking.html", "de/dbf/classQAG4SimulationTracking" ]
+    ] ],
+    [ "QAG4SimulationTrackingLinkDef.h", "d6/d0c/QAG4SimulationTrackingLinkDef_8h.html", null ],
     [ "QAHistManagerDef.cc", "d4/dd8/QAHistManagerDef_8cc.html", "d4/dd8/QAHistManagerDef_8cc" ],
     [ "QAHistManagerDef.h", "d5/d3f/QAHistManagerDef_8h.html", "d5/d3f/QAHistManagerDef_8h" ],
     [ "QAHistManagerDefLinkDef.h", "d9/d97/QAHistManagerDefLinkDef_8h.html", null ]

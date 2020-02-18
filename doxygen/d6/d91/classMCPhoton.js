@@ -1,6 +1,6 @@
 var classMCPhoton =
 [
-    [ "Max_N_Tower", "d6/d91/classMCPhoton.html#a65e88b9b750cd29301882ceb5499f80fa5a0806c9f404d4a3f68b316f74cb2be7", null ],
+    [ "Max_N_Tower", "d6/d91/classMCPhoton.html#ada0c6afebe3d845460e5fa6179caff01a5a0806c9f404d4a3f68b316f74cb2be7", null ],
     [ "MCPhoton", "d6/d91/classMCPhoton.html#a61e8ac6872a5230dbb5938634c3ca200", null ],
     [ "~MCPhoton", "d6/d91/classMCPhoton.html#af3a4fbfe3e9efc5e12ec1299a4b50b6e", null ],
     [ "Clear", "d6/d91/classMCPhoton.html#abc7e731096e1eb87fe26e6a5121f7a29", null ],

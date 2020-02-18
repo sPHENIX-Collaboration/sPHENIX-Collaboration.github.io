@@ -1,0 +1,9 @@
+<map id="gbl::BorderedBandMatrix::getBlockMatrix" name="gbl::BorderedBandMatrix::getBlockMatrix">
+<area shape="rect" id="node2" href="$dc/d6b/classgbl_1_1GblTrajectory.html#aef06def2fdf675b62ea048ed8cd5d974" title="Get residual and errors from data block." alt="" coords="244,73,385,117"/>
+<area shape="rect" id="node8" href="$dc/d6b/classgbl_1_1GblTrajectory.html#ae105372c2dab895e886ea5ab2782cf9d" title="Get fit results at point." alt="" coords="433,141,575,185"/>
+<area shape="rect" id="node3" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a27b8fe464f7dcccdfc78c1f63c2e6200" title="Get residuals from fit at point for measurement." alt="" coords="433,73,575,117"/>
+<area shape="rect" id="node7" href="$dc/d6b/classgbl_1_1GblTrajectory.html#ac3207c5ceb28e874b246b6abb6b45665" title="Get (kink) residuals from fit at point for scatterer." alt="" coords="433,5,575,49"/>
+<area shape="rect" id="node4" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a685cb7459baa2d2526bde668a3dbd2cb" title="Update fitter info from GBL fit results." alt="" coords="650,73,803,117"/>
+<area shape="rect" id="node6" href="$d3/d7b/classgenfit_1_1GFGbl.html#a0fbc16a1bcfe612c536b616be8239689" title="genfit::GFGbl::processTrack\lWithRep" alt="" coords="623,141,831,185"/>
+<area shape="rect" id="node5" href="$d1/dc8/classgenfit_1_1GblFitter.html#a3659ddc725865c305b8ce4ce55c3de52" title="Populate all fitter infos in track for rep with results of trajectory fit." alt="" coords="879,73,1013,117"/>
+</map>

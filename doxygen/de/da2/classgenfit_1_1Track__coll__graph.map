@@ -1,0 +1,10 @@
+<map id="genfit::Track" name="genfit::Track">
+<area shape="rect" id="node9" href="$db/d40/classgenfit_1_1TrackPoint.html" title="Object containing AbsMeasurement and AbsFitterInfo objects." alt="" coords="1309,367,1448,395"/>
+<area shape="rect" id="node6" href="$d1/d25/classgenfit_1_1AbsTrackRep.html" title="Abstract base class for a track representation." alt="" coords="288,215,444,243"/>
+<area shape="rect" id="node11" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html" title="This class collects all information needed and produced by a specific AbsFitter and is specific to on..." alt="" coords="1633,166,1788,194"/>
+<area shape="rect" id="node13" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html" title="Contains the measurement and covariance in raw detector coordinates." alt="" coords="1617,494,1805,522"/>
+<area shape="rect" id="node15" href="$d6/d15/classgenfit_1_1ThinScatterer.html" title="Thin or thick scatterer." alt="" coords="285,431,447,459"/>
+<area shape="rect" id="node4" href="$d0/d8d/classgenfit_1_1FitStatus.html" title="Class where important numbers and properties of a fit can be stored." alt="" coords="302,7,430,35"/>
+<area shape="rect" id="node5" href="$d6/d51/structgenfit_1_1PruneFlags.html" title="Info which information has been pruned from the Track." alt="" coords="5,7,149,35"/>
+<area shape="rect" id="node16" href="$da/d5d/structgenfit_1_1Material.html" title="genfit::Material" alt="" coords="15,539,139,567"/>
+</map>

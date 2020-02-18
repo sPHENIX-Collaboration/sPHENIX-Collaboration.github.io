@@ -1,0 +1,6 @@
+<map id="KFParticleBaseSIMD::GetArmenterosPodolanski" name="KFParticleBaseSIMD::GetArmenterosPodolanski">
+<area shape="rect" id="node2" href="$d2/dbb/classKFParticleBaseSIMD.html#a4bd7f392f848910230c1c0bd8daf3d65" title="Returns energy of the particle, fP[6]." alt="" coords="257,5,429,33"/>
+<area shape="rect" id="node3" href="$d2/dbb/classKFParticleBaseSIMD.html#adf7d8c12dcfa4f8696d83326847f4b48" title="Returns the sum of masses of the daughters." alt="" coords="266,57,421,101"/>
+<area shape="rect" id="node4" href="$d2/dbb/classKFParticleBaseSIMD.html#aabb7573a7dd045b4b9c2762e5a626159" title="Returns the sum of masses of the daughters." alt="" coords="266,125,421,169"/>
+<area shape="rect" id="node5" href="$d2/dbb/classKFParticleBaseSIMD.html#a829cb413174d40b78bf34f14fd536619" title="Returns the sum of masses of the daughters." alt="" coords="266,193,421,237"/>
+</map>

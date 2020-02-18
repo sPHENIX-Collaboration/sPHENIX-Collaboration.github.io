@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('de/d58/Plot-FastTrack__Efficiency_8cpp
 <div class="title">Plot-FastTrack_Efficiency.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<a href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/EICAnalysis/macros/tracking_analysis/Plot-FastTrack_Efficiency.cpp">the newest version in sPHENIX GitHub for file Plot-FastTrack_Efficiency.cpp</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;cstdlib&gt;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
@@ -136,8 +136,8 @@ $(document).ready(function(){initNavTree('de/d58/Plot-FastTrack__Efficiency_8cpp
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;/sphenix/user/gregtom3/SBU/research/macros/macros/sPHENIXStyle/sPhenixStyle.C&quot;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;TTree *<a class="code" href="../../d2/d2c/LivePlot-Energy-EMC_8C.html#a54c0e7ebd0f1cc22a5ca8fbda9dbd671">load_tree</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *<span class="keyword">const</span> file_name, <span class="keyword">const</span> <span class="keywordtype">char</span> *<span class="keyword">const</span> tree_name);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">const</span> <span class="keywordtype">char</span> *<span class="keyword">const</span> fasttrack_file_path </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="code" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#a2b55876b879042af991c49f0316c7a93">   26</a></span>&#160;        {<span class="stringliteral">&quot;/sphenix/user/gregtom3/data/Summer2018/fasttrack-efficiency-10GeV/fasttrack.root&quot;</span>};</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">const</span> <span class="keywordtype">char</span> *<span class="keyword">const</span> <a class="code" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#a96bcdc85c1b70ebeb8dc2260e72a5383">fasttrack_file_path</a> </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="code" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#a96bcdc85c1b70ebeb8dc2260e72a5383">   26</a></span>&#160;        {<span class="stringliteral">&quot;/sphenix/user/gregtom3/data/Summer2018/fasttrack-efficiency-10GeV/fasttrack.root&quot;</span>};</div>
 <div class="line"><a name="l00027"></a><span class="lineno"><a class="code" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#aed98f1b0abc5ffed80c498b0e1bbe374">   27</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#aed98f1b0abc5ffed80c498b0e1bbe374">MOMENTUM_MARGIN</a> {0.01};</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="code" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#a98f103ab50433f92dfd80cf15b63066b">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#a98f103ab50433f92dfd80cf15b63066b">Plot_FastTrack_Efficiency</a>()</div>
@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('de/d58/Plot-FastTrack__Efficiency_8cpp
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="../../d1/d95/sPhenixStyle_8C.html#a40c9ca7bea26e6a08182ceb8298869e7" title="sPHENIX Style, based on a style file from ATLAS by Peter Steinberg">SetsPhenixStyle</a>();</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        gROOT-&gt;SetBatch(<span class="keyword">true</span>);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        TTree *<span class="keyword">const</span> <a class="code" href="../../d0/d34/tracks_8C.html#ac926d763061c5568ecb5f5e062e9c778">tracks</a> {<a class="code" href="../../d2/d2c/LivePlot-Energy-EMC_8C.html#a54c0e7ebd0f1cc22a5ca8fbda9dbd671">load_tree</a>(fasttrack_file_path, <span class="stringliteral">&quot;tracks&quot;</span>)};</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        TTree *<span class="keyword">const</span> <a class="code" href="../../d0/d34/tracks_8C.html#ac926d763061c5568ecb5f5e062e9c778">tracks</a> {<a class="code" href="../../d2/d2c/LivePlot-Energy-EMC_8C.html#a54c0e7ebd0f1cc22a5ca8fbda9dbd671">load_tree</a>(<a class="code" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#a96bcdc85c1b70ebeb8dc2260e72a5383">fasttrack_file_path</a>, <span class="stringliteral">&quot;tracks&quot;</span>)};</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        Long64_t ntracks {<a class="code" href="../../d0/d34/tracks_8C.html#ac926d763061c5568ecb5f5e062e9c778">tracks</a>-&gt;GetEntries()};</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
@@ -267,7 +267,7 @@ $(document).ready(function(){initNavTree('de/d58/Plot-FastTrack__Efficiency_8cpp
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_1a5005e4eb45e581e130aefdcac35c9d.html">EICAnalysis</a></li><li class="navelem"><a class="el" href="../../dir_1e5d4d28c1bade64ee2538b75bff0d86.html">macros</a></li><li class="navelem"><a class="el" href="../../dir_0ee00c77e6183abe768cf7ad3a0bfbf8.html">tracking_analysis</a></li><li class="navelem"><a class="el" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html">Plot-FastTrack_Efficiency.cpp</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:04</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

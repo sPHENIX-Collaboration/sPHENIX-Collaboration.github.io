@@ -1,0 +1,24 @@
+<map id="GPUTPCTrackParam::Rotate" name="GPUTPCTrackParam::Rotate">
+<area shape="rect" id="node2" href="$d4/d60/classGPUTPCTrackParam.html#a4b66856dccf7d372da03b8620f151da6" title="GPUTPCTrackParam::DzDs" alt="" coords="275,13,473,41"/>
+<area shape="rect" id="node4" href="$d4/d60/classGPUTPCTrackParam.html#abd70f63eee16a4313601e170b5073612" title="GPUTPCTrackParam::GetCosPhi" alt="" coords="259,65,489,93"/>
+<area shape="rect" id="node5" href="$d4/d60/classGPUTPCTrackParam.html#ab999cb5fde7bf1a6722d7b2991c7e4f2" title="GPUTPCTrackParam::SinPhi" alt="" coords="546,91,749,119"/>
+<area shape="rect" id="node7" href="$d4/d60/classGPUTPCTrackParam.html#ab58848889eee0d630ccfddf8e486eb64" title="GPUTPCTrackParam::QPt" alt="" coords="281,169,467,197"/>
+<area shape="rect" id="node9" href="$d4/d60/classGPUTPCTrackParam.html#a2f7fdd45ddf6251ab1695f5e1bd53b11" title="GPUTPCTrackParam::SetDzDs" alt="" coords="265,221,483,249"/>
+<area shape="rect" id="node11" href="$d4/d60/classGPUTPCTrackParam.html#af26aa1c63307dbb2222f09cbb9664c0d" title="GPUTPCTrackParam::SetQPt" alt="" coords="269,273,479,301"/>
+<area shape="rect" id="node13" href="$d4/d60/classGPUTPCTrackParam.html#a0bc0e6627fad9cdb639c051b46818673" title="GPUTPCTrackParam::SetSign\lCosPhi" alt="" coords="267,325,481,369"/>
+<area shape="rect" id="node14" href="$d4/d60/classGPUTPCTrackParam.html#a7372069e152058de5324082d33f13d1d" title="GPUTPCTrackParam::SetSinPhi" alt="" coords="261,393,487,421"/>
+<area shape="rect" id="node16" href="$d4/d60/classGPUTPCTrackParam.html#ab075cd6bfe0125da9c6dbf2ea145ad2a" title="GPUTPCTrackParam::SetX" alt="" coords="277,445,471,473"/>
+<area shape="rect" id="node18" href="$d4/d60/classGPUTPCTrackParam.html#af5e7e5ba1541757fd562e2985f166296" title="GPUTPCTrackParam::SetY" alt="" coords="277,497,471,525"/>
+<area shape="rect" id="node20" href="$d4/d60/classGPUTPCTrackParam.html#a7826bf74f3c1f54eac6300e8991b97f5" title="GPUTPCTrackParam::X" alt="" coords="288,553,460,581"/>
+<area shape="rect" id="node22" href="$d4/d60/classGPUTPCTrackParam.html#ad2beefed9de1d003dc2ef4fb4e570ad3" title="GPUTPCTrackParam::Y" alt="" coords="289,605,459,633"/>
+<area shape="rect" id="node3" href="$d3/dbf/classGPUTPCBaseTrackParam.html#a0ebcee5a776f32e8dfc25b1b3a4a1987" title="GPUTPCBaseTrackParam\l::DzDs" alt="" coords="554,5,741,49"/>
+<area shape="rect" id="node6" href="$d3/dbf/classGPUTPCBaseTrackParam.html#a55024cab5ff7847d2c33e644c1394657" title="GPUTPCBaseTrackParam\l::SinPhi" alt="" coords="805,83,992,127"/>
+<area shape="rect" id="node8" href="$d3/dbf/classGPUTPCBaseTrackParam.html#ad94185617b6167b4dfcf9547961895f3" title="GPUTPCBaseTrackParam::QPt" alt="" coords="537,161,757,189"/>
+<area shape="rect" id="node10" href="$d3/dbf/classGPUTPCBaseTrackParam.html#a41cfc34f3e5c1edcede8aefcbe75b9d4" title="GPUTPCBaseTrackParam\l::SetDzDs" alt="" coords="554,213,741,257"/>
+<area shape="rect" id="node12" href="$d3/dbf/classGPUTPCBaseTrackParam.html#ab38055e5d5fef48124cd978a5d731734" title="GPUTPCBaseTrackParam\l::SetQPt" alt="" coords="554,281,741,325"/>
+<area shape="rect" id="node15" href="$d3/dbf/classGPUTPCBaseTrackParam.html#a7e9006bfe1d7d4d8d876eb4a4ada026c" title="GPUTPCBaseTrackParam\l::SetSinPhi" alt="" coords="554,353,741,397"/>
+<area shape="rect" id="node17" href="$d3/dbf/classGPUTPCBaseTrackParam.html#a92b3c3e895118fdbc0e6aa2065f3aec2" title="GPUTPCBaseTrackParam\l::SetX" alt="" coords="554,421,741,465"/>
+<area shape="rect" id="node19" href="$d3/dbf/classGPUTPCBaseTrackParam.html#acb5c5e7da4856b3a5b0e13aabf20a8d0" title="GPUTPCBaseTrackParam\l::SetY" alt="" coords="554,489,741,533"/>
+<area shape="rect" id="node21" href="$d3/dbf/classGPUTPCBaseTrackParam.html#ac57749169af8c984ef3ebb820183b3b6" title="GPUTPCBaseTrackParam::X" alt="" coords="545,557,749,585"/>
+<area shape="rect" id="node23" href="$d3/dbf/classGPUTPCBaseTrackParam.html#ac6a732638c2b29de60b2c66504b5b3b3" title="GPUTPCBaseTrackParam::Y" alt="" coords="545,609,749,637"/>
+</map>

@@ -1,15 +1,41 @@
 <map id="PHRaveVertexing::TranslateSvtxToGenFitTrack" name="PHRaveVertexing::TranslateSvtxToGenFitTrack">
-<area shape="rect" id="node2" href="$d2/db8/classSvtxTrack.html#ab58cd75322e76233882ce8d4eac51c2d" title="SvtxTrack::begin_states" alt="" coords="261,5,443,33"/>
-<area shape="rect" id="node3" href="$d2/db8/classSvtxTrack.html#a2c1a7863a506e3133e6bc0259c89c741" title="SvtxTrack::end_states" alt="" coords="267,57,437,85"/>
-<area shape="rect" id="node4" href="$d2/db8/classSvtxTrack.html#ab6a08270648338e6acee123ddbeea833" title="SvtxTrack::get_charge" alt="" coords="267,109,437,137"/>
-<area shape="rect" id="node5" href="$d2/db8/classSvtxTrack.html#ab0dfef96ff528427922596ca5b2fb3c7" title="SvtxTrack::get_chisq" alt="" coords="273,161,431,189"/>
-<area shape="rect" id="node6" href="$d2/dac/classSvtxTrackState.html#a0c2f9473cd23f4f3bcce11ba7c198407" title="SvtxTrackState::get\l_error" alt="" coords="275,213,429,257"/>
-<area shape="rect" id="node7" href="$d2/db8/classSvtxTrack.html#a65bd7f7464194995552b517c05183067" title="SvtxTrack::get_ndf" alt="" coords="279,281,425,309"/>
-<area shape="rect" id="node8" href="$d2/dac/classSvtxTrackState.html#ab2730cb99b4cc11f13ba5fb0db291312" title="SvtxTrackState::get\l_pathlength" alt="" coords="275,333,429,377"/>
-<area shape="rect" id="node9" href="$d2/dac/classSvtxTrackState.html#a90ec49cc2f193b8a18c222924d0d9864" title="SvtxTrackState::get_px" alt="" coords="264,401,440,429"/>
-<area shape="rect" id="node10" href="$d2/dac/classSvtxTrackState.html#a50a9eb1d16c05e5a491d3601dbac29cc" title="SvtxTrackState::get_py" alt="" coords="264,453,440,481"/>
-<area shape="rect" id="node11" href="$d2/dac/classSvtxTrackState.html#a694965552056ceac9c3da88d9cdded9c" title="SvtxTrackState::get_pz" alt="" coords="264,505,440,533"/>
-<area shape="rect" id="node12" href="$d2/dac/classSvtxTrackState.html#a0ce6512ed8f63cfa5b4d021cb9e6099b" title="SvtxTrackState::get_x" alt="" coords="268,557,436,585"/>
-<area shape="rect" id="node13" href="$d2/dac/classSvtxTrackState.html#ae114ff5fe76c67eca4c7d679df5ba67c" title="SvtxTrackState::get_y" alt="" coords="268,609,436,637"/>
-<area shape="rect" id="node14" href="$d2/dac/classSvtxTrackState.html#a03b70edad9df096ac77bc022be0ba3a3" title="SvtxTrackState::get_z" alt="" coords="269,661,435,689"/>
+<area shape="rect" id="node2" href="$d2/db8/classSvtxTrack.html#ab58cd75322e76233882ce8d4eac51c2d" title="SvtxTrack::begin_states" alt="" coords="284,5,465,33"/>
+<area shape="rect" id="node3" href="$d2/db8/classSvtxTrack.html#a2c1a7863a506e3133e6bc0259c89c741" title="SvtxTrack::end_states" alt="" coords="290,57,459,85"/>
+<area shape="rect" id="node4" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#a55e9082a5f1a51acf5123e6c87c1f513" title="genfit::MeasuredStateOnPlane\l::get6DCov" alt="" coords="261,177,488,221"/>
+<area shape="rect" id="node7" href="$d2/db8/classSvtxTrack.html#ab6a08270648338e6acee123ddbeea833" title="SvtxTrack::get_charge" alt="" coords="289,313,460,341"/>
+<area shape="rect" id="node8" href="$d2/db8/classSvtxTrack.html#ab0dfef96ff528427922596ca5b2fb3c7" title="SvtxTrack::get_chisq" alt="" coords="295,365,454,393"/>
+<area shape="rect" id="node9" href="$d2/dac/classSvtxTrackState.html#a0c2f9473cd23f4f3bcce11ba7c198407" title="SvtxTrackState::get\l_error" alt="" coords="298,417,451,461"/>
+<area shape="rect" id="node10" href="$d2/db8/classSvtxTrack.html#a65bd7f7464194995552b517c05183067" title="SvtxTrack::get_ndf" alt="" coords="301,485,448,513"/>
+<area shape="rect" id="node11" href="$d2/dac/classSvtxTrackState.html#ab2730cb99b4cc11f13ba5fb0db291312" title="SvtxTrackState::get\l_pathlength" alt="" coords="298,537,451,581"/>
+<area shape="rect" id="node12" href="$d2/dac/classSvtxTrackState.html#a90ec49cc2f193b8a18c222924d0d9864" title="SvtxTrackState::get_px" alt="" coords="287,605,463,633"/>
+<area shape="rect" id="node13" href="$d2/dac/classSvtxTrackState.html#a50a9eb1d16c05e5a491d3601dbac29cc" title="SvtxTrackState::get_py" alt="" coords="287,657,463,685"/>
+<area shape="rect" id="node14" href="$d2/dac/classSvtxTrackState.html#a694965552056ceac9c3da88d9cdded9c" title="SvtxTrackState::get_pz" alt="" coords="287,709,463,737"/>
+<area shape="rect" id="node15" href="$d2/dac/classSvtxTrackState.html#a0ce6512ed8f63cfa5b4d021cb9e6099b" title="SvtxTrackState::get_x" alt="" coords="291,761,459,789"/>
+<area shape="rect" id="node16" href="$d2/dac/classSvtxTrackState.html#ae114ff5fe76c67eca4c7d679df5ba67c" title="SvtxTrackState::get_y" alt="" coords="291,813,459,841"/>
+<area shape="rect" id="node17" href="$d2/dac/classSvtxTrackState.html#a03b70edad9df096ac77bc022be0ba3a3" title="SvtxTrackState::get_z" alt="" coords="291,865,458,893"/>
+<area shape="rect" id="node18" href="$d6/d8a/classgenfit_1_1Track.html#a7e61ada0d84db561ede923db92c4ab01" title="Insert TrackPoint BEFORE TrackPoint with position id, if id &gt;= 0." alt="" coords="281,917,468,945"/>
+<area shape="rect" id="node26" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#af7fb7f4101eb24f1b97f20aaefa51d16" title="genfit::MeasuredStateOnPlane\l::Print" alt="" coords="261,109,488,153"/>
+<area shape="rect" id="node28" href="$d0/d8d/classgenfit_1_1FitStatus.html#aff2d2f3d3941cd7c3bf02883b023a802" title="genfit::FitStatus::\lsetCharge" alt="" coords="307,969,443,1013"/>
+<area shape="rect" id="node29" href="$d0/d8d/classgenfit_1_1FitStatus.html#af0e35eadc8fe007e1bf2c388c414c93b" title="genfit::FitStatus::\lsetChi2" alt="" coords="307,1037,443,1081"/>
+<area shape="rect" id="node30" href="$d6/d8a/classgenfit_1_1Track.html#afea3810872179a5ae960eb290e78b038" title="genfit::Track::setFitStatus" alt="" coords="278,1105,471,1133"/>
+<area shape="rect" id="node31" href="$db/d40/classgenfit_1_1TrackPoint.html#aa480a46a18b44a5a8ac39a5500a015a6" title="Takes Ownership." alt="" coords="305,1157,444,1201"/>
+<area shape="rect" id="node34" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a2c1f358fe1473c76b8eee6f2aa3bc772" title="genfit::KalmanFitterInfo\l::setForwardUpdate" alt="" coords="285,1225,465,1269"/>
+<area shape="rect" id="node36" href="$d0/d8d/classgenfit_1_1FitStatus.html#ae0caaea22f07f6aacb515e2ccec911d7" title="genfit::FitStatus::\lsetIsFitConvergedFully" alt="" coords="288,1293,461,1337"/>
+<area shape="rect" id="node37" href="$d0/d8d/classgenfit_1_1FitStatus.html#a94613203b0d5fe6160facd78b55d018a" title="genfit::FitStatus::\lsetIsFitted" alt="" coords="307,1361,443,1405"/>
+<area shape="rect" id="node38" href="$d0/d8d/classgenfit_1_1FitStatus.html#a022656bd1e29a1a1b30f37ee51edab88" title="genfit::FitStatus::\lsetNdf" alt="" coords="307,1429,443,1473"/>
+<area shape="rect" id="node39" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#a79c5ecd4015686f30cf2c5f5ce29d866" title="genfit::MeasuredStateOnPlane\l::setPosMomCov" alt="" coords="261,245,488,289"/>
+<area shape="rect" id="node5" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a14f25e4575846dcb14bd91ddb2a534d2" title="genfit::StateOnPlane\l::getRep" alt="" coords="580,144,741,188"/>
+<area shape="rect" id="node6" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#ad7b167d43973371da9284279ca352b0c" title="Get the 6D covariance." alt="" coords="583,212,739,256"/>
+<area shape="rect" id="node19" href="$db/d40/classgenfit_1_1TrackPoint.html#a70f6a8e9214edad4fce38eafeeee820e" title="genfit::TrackPoint\l::setTrack" alt="" coords="591,719,730,763"/>
+<area shape="rect" id="node20" href="$d6/d8a/classgenfit_1_1Track.html#ad4ead0ee2abc2bcb6b616f8976bc559a" title="genfit::Track::trackHasChanged" alt="" coords="833,865,1067,893"/>
+<area shape="rect" id="node21" href="$db/d40/classgenfit_1_1TrackPoint.html#ada7b4d8c988a1798e455fb70929f88b7" title="genfit::TrackPoint\l::hasRawMeasurements" alt="" coords="569,995,752,1039"/>
+<area shape="rect" id="node22" href="$d6/d8a/classgenfit_1_1Track.html#aef6313a66e86853f9eef2e38f519bc37" title="genfit::Track::deleteReferenceInfo" alt="" coords="536,943,785,971"/>
+<area shape="rect" id="node23" href="$d6/d8a/classgenfit_1_1Track.html#ad6ac9e44842a18fbba2577a887f008c5" title="genfit::Track::deleteForwardInfo" alt="" coords="543,787,779,815"/>
+<area shape="rect" id="node24" href="$d6/d8a/classgenfit_1_1Track.html#a409abb47dc8fb5134031f8af1ce9b44a" title="genfit::Track::deleteBackwardInfo" alt="" coords="537,839,785,867"/>
+<area shape="rect" id="node25" href="$d6/d8a/classgenfit_1_1Track.html#aebe51cd12b541bb8821c1b919480371d" title="genfit::Track::fillPoints\lWithMeasurement" alt="" coords="575,1063,746,1107"/>
+<area shape="rect" id="node27" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#ae6f4c4eeb3e4fbadcc930f53e2ca4ad7" title="Translates MeasuredStateOnPlane into 3D position, momentum and 6x6 covariance." alt="" coords="583,76,739,120"/>
+<area shape="rect" id="node32" href="$db/d40/classgenfit_1_1TrackPoint.html#a07c95b54534e11149e4081baed75001e" title="genfit::TrackPoint\l::hasFitterInfo" alt="" coords="591,1131,730,1175"/>
+<area shape="rect" id="node33" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#afea691164c74306d2031439ca40d1687" title="genfit::AbsFitterInfo\l::getRep" alt="" coords="583,1199,738,1243"/>
+<area shape="rect" id="node35" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#af02a4a29abfa1c31c8208baf757a21c5" title="genfit::AbsFitterInfo\l::setPlane" alt="" coords="583,1267,738,1311"/>
+<area shape="rect" id="node40" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#aa64680a087ba9a9a91b77f80977e19cc" title="Set position, momentum and covariance of state." alt="" coords="583,280,739,324"/>
 </map>

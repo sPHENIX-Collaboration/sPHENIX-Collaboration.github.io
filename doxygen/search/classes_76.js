@@ -8,7 +8,10 @@ var searchData=
   ['vertexfinder',['VertexFinder',['../d9/d02/classVertexFinder.html',1,'']]],
   ['vertexfitfunc',['VertexFitFunc',['../d8/d29/classVertexFitFunc.html',1,'']]],
   ['vertexfitter',['VertexFitter',['../d7/d8c/classVertexFitter.html',1,'']]],
+  ['vmatrix',['VMatrix',['../db/d4d/classgbl_1_1VMatrix.html',1,'gbl']]],
+  ['vsymmatrix',['VSymMatrix',['../d8/d90/classgbl_1_1VSymMatrix.html',1,'gbl']]],
   ['vtxregressor',['VtxRegressor',['../d7/dd4/classVtxRegressor.html',1,'']]],
   ['vtxtest',['VtxTest',['../d2/d6d/classVtxTest.html',1,'']]],
-  ['vtxtrackfinder',['VtxTrackFinder',['../db/d6f/classVtxTrackFinder.html',1,'']]]
+  ['vtxtrackfinder',['VtxTrackFinder',['../db/d6f/classVtxTrackFinder.html',1,'']]],
+  ['vvector',['VVector',['../d8/d27/classgbl_1_1VVector.html',1,'gbl']]]
 ];

@@ -1,6 +1,6 @@
 var dir_51453c60f4824a72fb165991566266ad =
 [
-    [ "CylinderGeom_Mvtx.cc", "de/d4b/CylinderGeom__Mvtx_8cc.html", null ],
+    [ "CylinderGeom_Mvtx.cc", "de/d4b/CylinderGeom__Mvtx_8cc.html", "de/d4b/CylinderGeom__Mvtx_8cc" ],
     [ "CylinderGeom_Mvtx.h", "d8/df2/CylinderGeom__Mvtx_8h.html", [
       [ "CylinderGeom_Mvtx", "df/d9b/classCylinderGeom__Mvtx.html", "df/d9b/classCylinderGeom__Mvtx" ]
     ] ],
@@ -17,5 +17,9 @@ var dir_51453c60f4824a72fb165991566266ad =
     [ "MvtxHit.h", "dc/dec/MvtxHit_8h.html", [
       [ "MvtxHit", "d3/d74/classMvtxHit.html", "d3/d74/classMvtxHit" ]
     ] ],
-    [ "MvtxHitLinkDef.h", "d3/df0/MvtxHitLinkDef_8h.html", null ]
+    [ "MvtxHitLinkDef.h", "d3/df0/MvtxHitLinkDef_8h.html", null ],
+    [ "SegmentationAlpide.cc", "d5/d58/SegmentationAlpide_8cc.html", null ],
+    [ "SegmentationAlpide.h", "d3/dba/SegmentationAlpide_8h.html", [
+      [ "SegmentationAlpide", "d5/d35/classSegmentationAlpide.html", "d5/d35/classSegmentationAlpide" ]
+    ] ]
 ];

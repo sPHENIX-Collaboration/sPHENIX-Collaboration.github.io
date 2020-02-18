@@ -1,0 +1,6 @@
+<map id="BDiJetModule::GetSVMass_mom" name="BDiJetModule::GetSVMass_mom">
+<area shape="rect" id="node2" href="$d8/d8c/classgenfit_1_1GFRaveTrackParameters.html#aaa4317aacf0f546736d9c9857c1602ed" title="genfit::GFRaveTrackParameters\l::getMom" alt="" coords="291,5,524,49"/>
+<area shape="rect" id="node3" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a47ada7742989e3e294a3cc9f1342fee7" title="Number of tracks the vertex is made of." alt="" coords="325,73,490,117"/>
+<area shape="rect" id="node4" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a14875bcfb7c0b9373ec2bb6010c78d8d" title="genfit::GFRaveVertex\l::getParameters" alt="" coords="325,141,490,185"/>
+<area shape="rect" id="node5" href="$d8/d8c/classgenfit_1_1GFRaveTrackParameters.html#ad0f0bc629e7836a06363cb4b7fc09429" title="genfit::GFRaveTrackParameters\l::getWeight" alt="" coords="291,209,524,253"/>
+</map>

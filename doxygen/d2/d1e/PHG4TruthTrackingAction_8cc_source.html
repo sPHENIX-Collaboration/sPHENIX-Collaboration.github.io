@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d2/d1e/PHG4TruthTrackingAction_8cc_sou
 <div class="title">PHG4TruthTrackingAction.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d2/d1e/PHG4TruthTrackingAction_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/d82/PHG4TruthTrackingAction_8h.html">PHG4TruthTrackingAction.h</a>&quot;</span></div>
+<a href="../../d2/d1e/PHG4TruthTrackingAction_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4main/PHG4TruthTrackingAction.cc">the newest version in sPHENIX GitHub for file PHG4TruthTrackingAction.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/d82/PHG4TruthTrackingAction_8h.html">PHG4TruthTrackingAction.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dd/d05/PHG4Particle_8h.html">PHG4Particle.h</a>&quot;</span>                        <span class="comment">// for PHG4Particle</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d3b/PHG4Particlev2_8h.html">PHG4Particlev2.h</a>&quot;</span></div>
@@ -188,9 +188,9 @@ $(document).ready(function(){initNavTree('d2/d1e/PHG4TruthTrackingAction_8cc_sou
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  {</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    ti = <span class="keyword">new</span> <a class="code" href="../../d1/db9/classPHG4Particlev2.html">PHG4Particlev2</a>;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  }</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  ti-&gt;<a class="code" href="../../de/dc9/classPHG4Particle.html#af31b6defcc11e390aba98f174758e512">set_px</a>(pdir[0] / GeV);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  ti-&gt;<a class="code" href="../../de/dc9/classPHG4Particle.html#ac770ea1bf23f97f632266874287ffab8">set_py</a>(pdir[1] / GeV);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  ti-&gt;<a class="code" href="../../de/dc9/classPHG4Particle.html#afa639bd82e60cd2a24777a530b1f5851">set_pz</a>(pdir[2] / GeV);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  ti-&gt;<a class="code" href="../../de/dc9/classPHG4Particle.html#af31b6defcc11e390aba98f174758e512">set_px</a>(pdir[0] / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  ti-&gt;<a class="code" href="../../de/dc9/classPHG4Particle.html#ac770ea1bf23f97f632266874287ffab8">set_py</a>(pdir[1] / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  ti-&gt;<a class="code" href="../../de/dc9/classPHG4Particle.html#afa639bd82e60cd2a24777a530b1f5851">set_pz</a>(pdir[2] / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  ti-&gt;<a class="code" href="../../de/dc9/classPHG4Particle.html#ae8c7ae2b08b94a22cf92f21a7e02e032">set_track_id</a>(trackid);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  ti-&gt;<a class="code" href="../../de/dc9/classPHG4Particle.html#a42a0b07912626f856e2fb7b5298ab6df">set_parent_id</a>(track-&gt;GetParentID());</div>
@@ -215,7 +215,7 @@ $(document).ready(function(){initNavTree('d2/d1e/PHG4TruthTrackingAction_8cc_sou
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  ti-&gt;<a class="code" href="../../de/dc9/classPHG4Particle.html#a46b6688accb92b757c61c937b2096cfd">set_pid</a>(pdgid);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  ti-&gt;<a class="code" href="../../de/dc9/classPHG4Particle.html#aee8ffddf6f6d6f13e10d836e029b1f85">set_name</a>(def-&gt;GetParticleName());</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  ti-&gt;<a class="code" href="../../de/dc9/classPHG4Particle.html#a7d23cfc1ee659e728ccce239388bce98">set_e</a>(track-&gt;GetTotalEnergy() / GeV);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  ti-&gt;<a class="code" href="../../de/dc9/classPHG4Particle.html#a7d23cfc1ee659e728ccce239388bce98">set_e</a>(track-&gt;GetTotalEnergy() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <span class="keywordflow">if</span> (!track-&gt;GetParentID())</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  {</div>
@@ -358,7 +358,7 @@ $(document).ready(function(){initNavTree('d2/d1e/PHG4TruthTrackingAction_8cc_sou
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_d7c39552d8b30c84b73c0b1367a66a4d.html">g4main</a></li><li class="navelem"><a class="el" href="../../d2/d1e/PHG4TruthTrackingAction_8cc.html">PHG4TruthTrackingAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:25</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:31</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

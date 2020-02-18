@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('db/d51/EICPhysicsList_8cc_source.html'
 <div class="title">EICPhysicsList.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../db/d51/EICPhysicsList_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $</span></div>
+<a href="../../db/d51/EICPhysicsList_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/EICPhysicsList/EICPhysicsList.cc">the newest version in sPHENIX GitHub for file EICPhysicsList.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span><span class="comment">//                                                                            //</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//  File:        EICPhysicsList.hh                                            //</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Description: Geant4 physics list for Electron Ion Collider detectors      //</span></div>
@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('db/d51/EICPhysicsList_8cc_source.html'
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  </div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="comment">//add new units for radioActive decays</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="comment">//</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keyword">new</span> G4UnitDefinition( <span class="stringliteral">&quot;millielectronVolt&quot;</span>, <span class="stringliteral">&quot;meV&quot;</span>, <span class="stringliteral">&quot;Energy&quot;</span>, 1.e-3*eV);   </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keyword">new</span> G4UnitDefinition( <span class="stringliteral">&quot;millielectronVolt&quot;</span>, <span class="stringliteral">&quot;meV&quot;</span>, <span class="stringliteral">&quot;Energy&quot;</span>, 1.e-3*<a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#af356ad2d06b7e1f0580d6d2d0cfa6dbd">eV</a>);   </div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="comment">// </span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keyword">const</span> G4double minute = 60*second;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keyword">const</span> G4double hour   = 60*minute;</div>
@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('db/d51/EICPhysicsList_8cc_source.html'
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="comment">// Half-life threshold must be set small or many short-lived isomers </span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="comment">// will not be assigned life times (default to 0) </span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  G4NuclideTable::GetInstance()-&gt;SetThresholdOfHalfLife(0.1*picosecond);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  G4NuclideTable::GetInstance()-&gt;SetLevelTolerance(1.0*eV);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  G4NuclideTable::GetInstance()-&gt;SetLevelTolerance(1.0*<a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#af356ad2d06b7e1f0580d6d2d0cfa6dbd">eV</a>);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;          </div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="comment">// EM physics</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  RegisterPhysics(<span class="keyword">new</span> G4EmStandardPhysics());</div>
@@ -258,7 +258,7 @@ $(document).ready(function(){initNavTree('db/d51/EICPhysicsList_8cc_source.html'
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_78e9e80105547a23d6856f244a654eaa.html">EICPhysicsList</a></li><li class="navelem"><a class="el" href="../../db/d51/EICPhysicsList_8cc.html">EICPhysicsList.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:21</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:28</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

@@ -1,0 +1,8 @@
+<map id="genfit::WireMeasurementNew::constructMeasurementsOnPlane" name="genfit::WireMeasurementNew::constructMeasurementsOnPlane">
+<area shape="rect" id="node2" href="$d9/d77/classgenfit_1_1WireMeasurementNew.html#aa120244fc44b057a147f2e7510541970" title="genfit::WireMeasurementNew\l::constructHMatrix" alt="" coords="303,5,525,49"/>
+<area shape="rect" id="node3" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a30c7e8d87fa50205baa927d4ceccb594" title="genfit::StateOnPlane\l::getPlane" alt="" coords="333,73,495,117"/>
+<area shape="rect" id="node4" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a05ccf319f193393dda831baac1871d5d" title="genfit::AbsMeasurement\l::getRawHitCoords" alt="" coords="320,141,508,185"/>
+<area shape="rect" id="node5" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a5af29313dd9377ea3d55a80d5d73b5ea" title="genfit::AbsMeasurement\l::getRawHitCov" alt="" coords="320,209,508,253"/>
+<area shape="rect" id="node6" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a14f25e4575846dcb14bd91ddb2a534d2" title="genfit::StateOnPlane\l::getRep" alt="" coords="333,277,495,321"/>
+<area shape="rect" id="node7" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html#aa7fe8ce59e9166fc9f88d5bfa43a2840" title="genfit::MeasurementOnPlane\l::setWeight" alt="" coords="305,345,523,389"/>
+</map>

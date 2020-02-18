@@ -1,0 +1,13 @@
+<map id="genfit::RKTrackRep::setPosMom" name="genfit::RKTrackRep::setPosMom">
+<area shape="rect" id="node2" href="$d2/d12/classgenfit_1_1RKTrackRep.html#ad2cc3eb57d807aa027b2f258a774e471" title="Set position and momentum of state." alt="" coords="201,245,349,289"/>
+<area shape="rect" id="node3" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a2801bf4fa1196147472cc1807281e23d" title="genfit::StateOnPlane\l::getAuxInfo" alt="" coords="816,171,977,215"/>
+<area shape="rect" id="node4" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a92cf35857098de08b8a98b9c6dac3d6e" title="Get the (fitted) charge of a state. This is not always equal the pdg charge (e.g. if the charge sign ..." alt="" coords="404,125,552,169"/>
+<area shape="rect" id="node6" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="607,201,768,245"/>
+<area shape="rect" id="node7" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="615,65,759,109"/>
+<area shape="rect" id="node8" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a30c7e8d87fa50205baa927d4ceccb594" title="genfit::StateOnPlane\l::getPlane" alt="" coords="607,269,768,313"/>
+<area shape="rect" id="node9" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a14f25e4575846dcb14bd91ddb2a534d2" title="genfit::StateOnPlane\l::getRep" alt="" coords="397,313,559,357"/>
+<area shape="rect" id="node10" href="$d2/d12/classgenfit_1_1RKTrackRep.html#aaf5c992cb42e13dd08b6ec155a3e838d" title="genfit::RKTrackRep\l::getState5" alt="" coords="404,245,552,289"/>
+<area shape="rect" id="node11" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a83f3ee506ea2867fa8dc125b9a284466" title="genfit::RKTrackRep\l::setSpu" alt="" coords="613,337,761,381"/>
+<area shape="rect" id="node12" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a0123543a15df51f8beaa98660cfa89b7" title="genfit::StateOnPlane\l::setPlane" alt="" coords="397,483,559,527"/>
+<area shape="rect" id="node5" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a6a0edfbf9193760cf666ff40e3ff3568" title="Get the charge of the particle of the pdg code." alt="" coords="609,133,765,177"/>
+</map>

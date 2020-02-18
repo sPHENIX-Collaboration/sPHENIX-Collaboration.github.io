@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d3/d0a/DetermineTowerBackground_8cc_so
 <div class="title">DetermineTowerBackground.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d3/d0a/DetermineTowerBackground_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/dfc/DetermineTowerBackground_8h.html" title="UE background calculator.">DetermineTowerBackground.h</a>&quot;</span></div>
+<a href="../../d3/d0a/DetermineTowerBackground_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/jetbackground/DetermineTowerBackground.cc">the newest version in sPHENIX GitHub for file DetermineTowerBackground.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/dfc/DetermineTowerBackground_8h.html" title="UE background calculator.">DetermineTowerBackground.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/d75/TowerBackground_8h.html">TowerBackground.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/d81/TowerBackgroundv1_8h.html">TowerBackgroundv1.h</a>&quot;</span></div>
@@ -567,7 +567,7 @@ $(document).ready(function(){initNavTree('d3/d0a/DetermineTowerBackground_8cc_so
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;</div>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    <span class="keywordtype">float</span> Q_x = 0;</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <span class="keywordtype">float</span> Q_y = 0;</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a> = 0;</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a> = 0;</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>() &gt; 0)</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;      std::cout &lt;&lt; <span class="stringliteral">&quot;DetermineTowerBackground::process_event: # of strips (summed over layers) available / unavailable for flow determination: &quot;</span> &lt;&lt; nStripsAvailableForFlow &lt;&lt; <span class="stringliteral">&quot; / &quot;</span> &lt;&lt; nStripsUnavailableForFlow &lt;&lt; std::endl;</div>
@@ -635,7 +635,7 @@ $(document).ready(function(){initNavTree('d3/d0a/DetermineTowerBackground_8cc_so
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;        sum_cos2dphi += <a class="code" href="../../d6/d02/classDetermineTowerBackground.html#adadced27fb5d678ec1ac55fbda25783c">_FULLCALOFLOW_PHI_E</a>[iphi] * cos(2 * (<a class="code" href="../../d6/d02/classDetermineTowerBackground.html#a51ba98f65698aa114d8c3441bdd67240">_FULLCALOFLOW_PHI_VAL</a>[iphi] - <a class="code" href="../../d6/d02/classDetermineTowerBackground.html#a2579035cbb7eb10e00226ab827c2dd0a">_Psi2</a>));</div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;      }</div>
 <div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;</div>
-<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;      <a class="code" href="../../d6/d02/classDetermineTowerBackground.html#a2cb70dbbd2fbb14ceccbc10841806026">_v2</a> = sum_cos2dphi / <a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a>;</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;      <a class="code" href="../../d6/d02/classDetermineTowerBackground.html#a2cb70dbbd2fbb14ceccbc10841806026">_v2</a> = sum_cos2dphi / <a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a>;</div>
 <div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;</div>
 <div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;      <a class="code" href="../../d6/d02/classDetermineTowerBackground.html#a0eed03fcc9d050279dbbe9f7488aeb76">_nStrips</a> = nStripsAvailableForFlow;</div>
 <div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;    }</div>
@@ -810,7 +810,7 @@ $(document).ready(function(){initNavTree('d3/d0a/DetermineTowerBackground_8cc_so
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_d71b44511a32717989be36b4f894b627.html">jetbackground</a></li><li class="navelem"><a class="el" href="../../d3/d0a/DetermineTowerBackground_8cc.html">DetermineTowerBackground.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:20</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:26</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

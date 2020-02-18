@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dd/dc9/oncsSub__idmvtxv0_8cc_source.ht
 <div class="title">oncsSub_idmvtxv0.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dd/dc9/oncsSub__idmvtxv0_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d03/oncsSub__idmvtxv0_8h.html">oncsSub_idmvtxv0.h</a>&quot;</span></div>
+<a href="../../dd/dc9/oncsSub__idmvtxv0_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//online_distribution/blob/master/newbasic/oncsSub_idmvtxv0.cc">the newest version in sPHENIX GitHub for file oncsSub_idmvtxv0.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d03/oncsSub__idmvtxv0_8h.html">oncsSub_idmvtxv0.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;cstring&gt;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;bitset&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
@@ -212,7 +212,7 @@ $(document).ready(function(){initNavTree('dd/dc9/oncsSub__idmvtxv0_8cc_source.ht
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="comment">//pos = (unsigned char *) payload;</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> b;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    vector&lt;unsigned char&gt; ruchn_stream[<a class="code" href="../../d4/d03/oncsSub__idmvtxv0_8h.html#a9cc2f29007968c6b1f678db38d3d7206">MAXRUCHN</a>+1];</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
@@ -315,7 +315,7 @@ $(document).ready(function(){initNavTree('dd/dc9/oncsSub__idmvtxv0_8cc_source.ht
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                {</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dd/dc9/oncsSub__idmvtxv0_8cc.html#abe5096f41b357519d9c67b932f54452c">CHIPHEADER</a>:</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                        <a class="code" href="../../d5/dce/classoncsSub__idmvtxv0.html#aa17f4c0fcaa43a401bdd61fa63471c3a">_bunchcounter</a>[ruchn] = b;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                        <a class="code" href="../../d5/dce/classoncsSub__idmvtxv0.html#aa17f4c0fcaa43a401bdd61fa63471c3a">_bunchcounter</a>[ruchn] = <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                        <span class="comment">//cout &lt;&lt; __FILE__ &lt;&lt; &quot; &quot; &lt;&lt; __LINE__ &lt;&lt; &quot; chip header, ruchn= &quot; &lt;&lt; ruchn &lt;&lt; &quot; bunchctr= &quot; &lt;&lt; hex &lt;&lt; _bunchcounter[ruchn] &lt;&lt; dec &lt;&lt; endl;</span></div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                        <span class="keywordflow">if</span> ( (<span class="keywordtype">int</span>)ruchn &gt; <a class="code" href="../../d5/dce/classoncsSub__idmvtxv0.html#ad644193fc95b47a7c14178eb4a19d5b1">_highest_chip</a>) </div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                        {</div>
@@ -327,7 +327,7 @@ $(document).ready(function(){initNavTree('dd/dc9/oncsSub__idmvtxv0_8cc_source.ht
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dd/dc9/oncsSub__idmvtxv0_8cc.html#abf274a3bc789ebccca78dc40c427f4cd">CHIPEMPTYFRAME</a>:</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                        <a class="code" href="../../d5/dce/classoncsSub__idmvtxv0.html#aa17f4c0fcaa43a401bdd61fa63471c3a">_bunchcounter</a>[ruchn] = b;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                        <a class="code" href="../../d5/dce/classoncsSub__idmvtxv0.html#aa17f4c0fcaa43a401bdd61fa63471c3a">_bunchcounter</a>[ruchn] = <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>;</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                        <span class="comment">// cout &lt;&lt; __FILE__ &lt;&lt; &quot; &quot; &lt;&lt; __LINE__ &lt;&lt; &quot; chip empty frame &quot; &lt;&lt; hex &lt;&lt; ruchn &lt;&lt; &quot; &quot; &lt;&lt; _bunchcounter[ruchn] &lt;&lt; dec &lt;&lt; endl;</span></div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                        <span class="keywordflow">if</span> ( (<span class="keywordtype">int</span>)ruchn &gt; <a class="code" href="../../d5/dce/classoncsSub__idmvtxv0.html#ad644193fc95b47a7c14178eb4a19d5b1">_highest_chip</a>) </div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                        {</div>
@@ -341,7 +341,7 @@ $(document).ready(function(){initNavTree('dd/dc9/oncsSub__idmvtxv0_8cc_source.ht
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dd/dc9/oncsSub__idmvtxv0_8cc.html#a8da7ea4ec6a0773eaa9165415c4acbcc">DATASHORT</a>:</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                        address += b;   </div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                        address += <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>;   </div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                        <span class="comment">//cout &lt;&lt; __FILE__ &lt;&lt; &quot; &quot; &lt;&lt; __LINE__ &lt;&lt; &quot; data short report, hex:&quot; &lt;&lt; hex &lt;&lt; address &lt;&lt; dec &lt;&lt; &quot; enc. id &quot; &lt;&lt; encoder_id &lt;&lt; &quot; address= &quot; &lt;&lt; address &lt;&lt; &quot; the_region:&quot; &lt;&lt; the_region &lt;&lt; &quot; ruchn:&quot; &lt;&lt; ruchn;</span></div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                        <span class="keywordflow">if</span> ( the_region &gt;= 0 &amp;&amp; encoder_id &gt;=0 ) </div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                        {</div>
@@ -368,7 +368,7 @@ $(document).ready(function(){initNavTree('dd/dc9/oncsSub__idmvtxv0_8cc_source.ht
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dd/dc9/oncsSub__idmvtxv0_8cc.html#a1e18b0e564dce1099026aa9b9912b11a">DATALONG0</a>:</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                        address += b;   </div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                        address += <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>;   </div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                        status = <a class="code" href="../../dd/dc9/oncsSub__idmvtxv0_8cc.html#a1910c314b3b267f87bf58d1b344a9bec">DATALONG1</a>;</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
@@ -762,7 +762,7 @@ $(document).ready(function(){initNavTree('dd/dc9/oncsSub__idmvtxv0_8cc_source.ht
 		<li class="navelem"><a class="el" href="../../dir_b2524434354d28bb99970d47e87087b1.html">online_distribution</a></li><li class="navelem"><a class="el" href="../../dir_23476f4af6ed7a7c459fcfbccf6f30aa.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_b8a2419f80040326d589e0b3b79cc999.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9b8dcfd584cf66bd52e4995923368206.html">newbasic</a></li><li class="navelem"><a class="el" href="../../dd/dc9/oncsSub__idmvtxv0_8cc.html">oncsSub_idmvtxv0.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:26</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:34</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

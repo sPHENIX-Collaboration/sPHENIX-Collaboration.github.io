@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('df/d46/HelixKalmanFilter_8cc_source.ht
 <div class="title">HelixKalmanFilter.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/d46/HelixKalmanFilter_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/d5d/HelixKalmanFilter_8h.html">HelixKalmanFilter.h</a>&quot;</span></div>
+<a href="../../df/d46/HelixKalmanFilter_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/HelixKalmanFilter.cc">the newest version in sPHENIX GitHub for file HelixKalmanFilter.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/d5d/HelixKalmanFilter_8h.html">HelixKalmanFilter.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;HelixHough/SimpleHit3D.h&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;HelixHough/HelixKalmanState.h&gt;</span></div>
@@ -160,12 +160,12 @@ $(document).ready(function(){initNavTree('df/d46/HelixKalmanFilter_8cc_source.ht
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <a class="code" href="../../d0/d51/classHelixKalmanFilter.html#ae1f253fa5416a0214710197cf8cd2e68">calculateMeasurements</a>(hit, m, G);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="comment">// Q : error covariance for Multiple-Scattering process noise </span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  Matrix&lt;float, 5, 5&gt; Q = Matrix&lt;float, 5, 5&gt;::Zero(5, 5);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  Matrix&lt;float, 5, 5&gt; <a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a4cd33935de91662c0644140e301499e5" title="Returns charge of the particle.">Q</a> = Matrix&lt;float, 5, 5&gt;::Zero(5, 5);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <a class="code" href="../../d0/d51/classHelixKalmanFilter.html#a1509b630656359408778405512be96d1">calculateMSCovariance</a>(state, Q);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  Matrix&lt;float, 5, 2&gt; Ht = H.transpose();</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  Matrix&lt;float, 5, 5&gt; C_proj = state.<a class="code" href="../../dc/d5e/classHelixKalmanState.html#a3a36e30c75935a18a38f8683e2ce273b">C</a> + Q;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  Matrix&lt;float, 5, 5&gt; C_proj = state.<a class="code" href="../../dc/d5e/classHelixKalmanState.html#a3a36e30c75935a18a38f8683e2ce273b">C</a> + <a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a4cd33935de91662c0644140e301499e5" title="Returns charge of the particle.">Q</a>;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  Matrix&lt;float, 5, 5&gt; C_proj_inv = C_proj.fullPivLu().inverse();</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
@@ -271,7 +271,7 @@ $(document).ready(function(){initNavTree('df/d46/HelixKalmanFilter_8cc_source.ht
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;}</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
 <div class="line"><a name="l00159"></a><span class="lineno"><a class="code" href="../../d0/d51/classHelixKalmanFilter.html#a1509b630656359408778405512be96d1">  159</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/d51/classHelixKalmanFilter.html#a1509b630656359408778405512be96d1">HelixKalmanFilter::calculateMSCovariance</a>(<a class="code" href="../../dc/d5e/classHelixKalmanState.html">HelixKalmanState</a>&amp; state,</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                                        Matrix&lt;float, 5, 5&gt;&amp; Q) {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                                        Matrix&lt;float, 5, 5&gt;&amp; <a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a4cd33935de91662c0644140e301499e5" title="Returns charge of the particle.">Q</a>) {</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  Matrix&lt;float, 5, 3&gt; dAdAp = Matrix&lt;float, 5, 3&gt;::Zero(5, 3);</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  <span class="keywordtype">float</span> phi_p = 0.;</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  <span class="keywordtype">float</span> cosphi_p = 0.;</div>
@@ -298,7 +298,7 @@ $(document).ready(function(){initNavTree('df/d46/HelixKalmanFilter_8cc_source.ht
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a> = 0; <a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a> &lt; 5; ++<a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>) {</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a> = 0; <a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a> &lt; 5; ++<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>) {</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      Q(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>, <a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>) = (dAdt(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>, 0) * dAdt(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>, 0) + dAdt(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>, 1) * dAdt(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>, 1)) * var;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      <a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a4cd33935de91662c0644140e301499e5" title="Returns charge of the particle.">Q</a>(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>, <a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>) = (dAdt(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>, 0) * dAdt(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>, 0) + dAdt(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>, 1) * dAdt(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>, 1)) * var;</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  }</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;}</div>
@@ -336,7 +336,7 @@ $(document).ready(function(){initNavTree('df/d46/HelixKalmanFilter_8cc_source.ht
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;  <span class="keywordtype">float</span> kcy = kd * sinphi;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;  <span class="keywordtype">float</span> kd_inv = 1. / kd;</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;  <span class="keywordtype">float</span> R2 = rad_det * rad_det;</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  <span class="keywordtype">float</span> a = 0.5 * (k * R2 + (d * d * k + 2. * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a891cb8c7054cada2d3d045543e5eea0e">d</a>)) * kd_inv;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  <span class="keywordtype">float</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a6d2496198d1982fd950acfb79033902b">a</a> = 0.5 * (k * R2 + (d * d * k + 2. * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a891cb8c7054cada2d3d045543e5eea0e">d</a>)) * kd_inv;</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;  <span class="keywordtype">float</span> <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4543e304e37aef70689fa3111d990f4b">tmp1</a> = a * kd_inv;</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;  <span class="keywordtype">float</span> P2x = kcx * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4543e304e37aef70689fa3111d990f4b">tmp1</a>;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;  <span class="keywordtype">float</span> P2y = kcy * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4543e304e37aef70689fa3111d990f4b">tmp1</a>;</div>
@@ -676,8 +676,8 @@ $(document).ready(function(){initNavTree('df/d46/HelixKalmanFilter_8cc_source.ht
 <div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;<span class="comment">// the unit vector in the z-direction to the direction of p, and S is a scalar</span></div>
 <div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;<span class="comment">// with a value of the magnitude of the current value of p</span></div>
 <div class="line"><a name="l00564"></a><span class="lineno"><a class="code" href="../../d0/d51/classHelixKalmanFilter.html#aa095552a99dab135c8ef27aa78cb98ee">  564</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/d51/classHelixKalmanFilter.html#aa095552a99dab135c8ef27aa78cb98ee">HelixKalmanFilter::calculate_dpdb</a>(Vector3f&amp; p, Matrix&lt;float, 3, 3&gt;&amp; dpdb) {</div>
-<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;  Vector3f b = Vector3f::Zero(3);</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;  b(2) = 1.;</div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;  Vector3f <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a> = Vector3f::Zero(3);</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;  <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>(2) = 1.;</div>
 <div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;  <span class="keywordtype">float</span> p_mag = sqrt(p.dot(p));</div>
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;</div>
@@ -769,7 +769,7 @@ $(document).ready(function(){initNavTree('df/d46/HelixKalmanFilter_8cc_source.ht
 <div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;  <span class="keywordtype">float</span> kcy = kd * sinphi;</div>
 <div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;  <span class="keywordtype">float</span> kd_inv = 1. / kd;</div>
 <div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;  <span class="keywordtype">float</span> R2 = rad_det * rad_det;</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;  <span class="keywordtype">float</span> a = 0.5 * (k * R2 + (d * d * k + 2. * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a891cb8c7054cada2d3d045543e5eea0e">d</a>)) * kd_inv;</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;  <span class="keywordtype">float</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a6d2496198d1982fd950acfb79033902b">a</a> = 0.5 * (k * R2 + (d * d * k + 2. * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a891cb8c7054cada2d3d045543e5eea0e">d</a>)) * kd_inv;</div>
 <div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;  <span class="keywordtype">float</span> <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4543e304e37aef70689fa3111d990f4b">tmp1</a> = a * kd_inv;</div>
 <div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;  <span class="keywordtype">float</span> P2x = kcx * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4543e304e37aef70689fa3111d990f4b">tmp1</a>;</div>
 <div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;  <span class="keywordtype">float</span> P2y = kcy * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4543e304e37aef70689fa3111d990f4b">tmp1</a>;</div>
@@ -1110,7 +1110,7 @@ $(document).ready(function(){initNavTree('df/d46/HelixKalmanFilter_8cc_source.ht
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_1bd7b5579a8a17b34b83494541f84522.html">trackreco</a></li><li class="navelem"><a class="el" href="../../df/d46/HelixKalmanFilter_8cc.html">HelixKalmanFilter.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:21</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:27</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

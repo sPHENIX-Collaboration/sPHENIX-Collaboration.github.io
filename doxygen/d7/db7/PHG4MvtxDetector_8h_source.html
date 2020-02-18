@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d7/db7/PHG4MvtxDetector_8h_source.html
 <div class="title">PHG4MvtxDetector.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d7/db7/PHG4MvtxDetector_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Tell emacs that this is a C++ source</span></div>
+<a href="../../d7/db7/PHG4MvtxDetector_8h.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxDetector.h">the newest version in sPHENIX GitHub for file PHG4MvtxDetector.h</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Tell emacs that this is a C++ source</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// -*- C++ -*-.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifndef G4MVTX_PHG4MVTXDETECTOR_H</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define G4MVTX_PHG4MVTXDETECTOR_H</span></div>
@@ -184,17 +184,14 @@ $(document).ready(function(){initNavTree('d7/db7/PHG4MvtxDetector_8h_source.html
 <div class="line"><a name="l00075"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#a1fe6ca5c6d631969978c3b014b7d28e1">   75</a></span>&#160;  std::array&lt;int, n_Layers&gt; <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#a1fe6ca5c6d631969978c3b014b7d28e1">m_N_staves</a>;</div>
 <div class="line"><a name="l00076"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#adff35e51526a17ebb29094628a4a35f6">   76</a></span>&#160;  std::array&lt;double, n_Layers&gt; <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#adff35e51526a17ebb29094628a4a35f6">m_nominal_radius</a>;</div>
 <div class="line"><a name="l00077"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#a638ca06661367ba4c96f5a7ab1ecc1cc">   77</a></span>&#160;  std::array&lt;double, n_Layers&gt; <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#a638ca06661367ba4c96f5a7ab1ecc1cc">m_nominal_phitilt</a>;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <span class="comment">// sensor parameters</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#ade0b022ca93a8a95dc6a3c3dc03fecc4">   79</a></span>&#160;  <span class="keywordtype">double</span> <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#ade0b022ca93a8a95dc6a3c3dc03fecc4">m_PixelX</a>;</div>
-<div class="line"><a name="l00080"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#ae13bb0d958afbd6a897265d65ff4aad1">   80</a></span>&#160;  <span class="keywordtype">double</span> <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#ae13bb0d958afbd6a897265d65ff4aad1">m_PixelZ</a>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#a9148cbcdcf261371a23f398c25879d93">   81</a></span>&#160;  <span class="keywordtype">double</span> <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#a9148cbcdcf261371a23f398c25879d93">m_PixelThickness</a>;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#acff60eb9fc987c82711b34cf5d551dcd">   83</a></span>&#160;  std::string <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#acff60eb9fc987c82711b34cf5d551dcd">m_Detector</a>;</div>
-<div class="line"><a name="l00084"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#ae8912d71397c05330dc0306b6bd9c87b">   84</a></span>&#160;  std::string <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#ae8912d71397c05330dc0306b6bd9c87b">m_SuperDetector</a>;</div>
-<div class="line"><a name="l00085"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#ad3837ec0dcf13226bda07ab16b969a08">   85</a></span>&#160;  std::string <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#ad3837ec0dcf13226bda07ab16b969a08">m_StaveGeometryFile</a>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;};</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#a3f13aa0257f4a51331e4e54c94db9adc">   78</a></span>&#160;  std::array&lt;double, n_Layers&gt; <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#a3f13aa0257f4a51331e4e54c94db9adc">m_nominal_phi0</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#acff60eb9fc987c82711b34cf5d551dcd">   80</a></span>&#160;  std::string <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#acff60eb9fc987c82711b34cf5d551dcd">m_Detector</a>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#ae8912d71397c05330dc0306b6bd9c87b">   81</a></span>&#160;  std::string <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#ae8912d71397c05330dc0306b6bd9c87b">m_SuperDetector</a>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#ad3837ec0dcf13226bda07ab16b969a08">   82</a></span>&#160;  std::string <a class="code" href="../../d4/dc1/classPHG4MvtxDetector.html#ad3837ec0dcf13226bda07ab16b969a08">m_StaveGeometryFile</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;};</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -205,7 +202,7 @@ $(document).ready(function(){initNavTree('d7/db7/PHG4MvtxDetector_8h_source.html
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_8afca543416ba527b49629b5b7a1a41f.html">g4mvtx</a></li><li class="navelem"><a class="el" href="../../d7/db7/PHG4MvtxDetector_8h.html">PHG4MvtxDetector.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:25</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:31</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

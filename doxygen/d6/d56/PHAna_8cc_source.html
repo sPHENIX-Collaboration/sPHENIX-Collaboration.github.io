@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d6/d56/PHAna_8cc_source.html','../../'
 <div class="title">PHAna.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d6/d56/PHAna_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/dd3/PHAna_8h.html">PHAna.h</a>&quot;</span></div>
+<a href="../../d6/d56/PHAna_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/Ana/PHAna.cc">the newest version in sPHENIX GitHub for file PHAna.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/dd3/PHAna_8h.html">PHAna.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d5/d6f/phool_8h.html">phool/phool.h</a>&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dd/dd4/getClass_8h.html">phool/getClass.h</a>&gt;</span></div>
@@ -180,7 +180,7 @@ $(document).ready(function(){initNavTree('d6/d56/PHAna_8cc_source.html','../../'
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; <span class="keywordflow">if</span>(<a class="code" href="../../d8/df7/classPHAna.html#a54121fbdf9eda7d6283b2fbeb1a71ab8">_truth_container</a>)</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <a class="code" href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a> *point = <a class="code" href="../../d8/df7/classPHAna.html#a54121fbdf9eda7d6283b2fbeb1a71ab8">_truth_container</a>-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#acf130130dd475251d67c0f04c0e9cc49">GetPrimaryVtx</a>( <a class="code" href="../../d8/df7/classPHAna.html#a54121fbdf9eda7d6283b2fbeb1a71ab8">_truth_container</a>-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#a77051a88c6708ed10465eca6b73c2272">GetPrimaryVertexIndex</a>() );</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <a class="code" href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a> *<a class="code" href="../../d8/df7/PHCASeeding_8cc.html#a905ba7eea43764a576ea5db7e8b73b0f">point</a> = <a class="code" href="../../d8/df7/classPHAna.html#a54121fbdf9eda7d6283b2fbeb1a71ab8">_truth_container</a>-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#acf130130dd475251d67c0f04c0e9cc49">GetPrimaryVtx</a>( <a class="code" href="../../d8/df7/classPHAna.html#a54121fbdf9eda7d6283b2fbeb1a71ab8">_truth_container</a>-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#a77051a88c6708ed10465eca6b73c2272">GetPrimaryVertexIndex</a>() );</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  TH1F *<a class="code" href="../../d3/d67/namespaceSVM__v1.html#a9f85337625d8c41cf09c15e1cbb693e8">h</a> = (TH1F*) hm-&gt;<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#ae5401f032b650d41224dfa0e2f12d364">getHisto</a>(<span class="stringliteral">&quot;zvertex&quot;</span>);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keywordflow">if</span>(h) h-&gt;Fill( point-&gt;<a class="code" href="../../d6/d81/classPHG4VtxPoint.html#ae26c6d111c93795d64e3571b6f306ef9">get_z</a>() );</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  h = (TH1F*) hm-&gt;<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#ae5401f032b650d41224dfa0e2f12d364">getHisto</a>(<span class="stringliteral">&quot;xvertex&quot;</span>);</div>
@@ -397,7 +397,7 @@ $(document).ready(function(){initNavTree('d6/d56/PHAna_8cc_source.html','../../'
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_16a1a1b379290fbc4ea0e0ecf7243b0b.html">Ana</a></li><li class="navelem"><a class="el" href="../../d6/d56/PHAna_8cc.html">PHAna.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:03</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

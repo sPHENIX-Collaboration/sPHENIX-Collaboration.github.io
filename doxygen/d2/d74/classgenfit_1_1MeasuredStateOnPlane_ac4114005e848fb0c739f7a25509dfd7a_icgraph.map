@@ -1,0 +1,7 @@
+<map id="genfit::MeasuredStateOnPlane::swap" name="genfit::MeasuredStateOnPlane::swap">
+<area shape="rect" id="node2" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#a4fa1ea12274b6822dd69e403db648af2" title="genfit::MeasuredStateOnPlane\l::operator=" alt="" coords="280,5,507,49"/>
+<area shape="rect" id="node3" href="$df/d8f/classgenfit_1_1KalmanFittedStateOnPlane.html#a8169ef8e3dff2e607c1a4cb040abf952" title="genfit::KalmanFittedState\lOnPlane::swap" alt="" coords="297,73,490,117"/>
+<area shape="rect" id="node5" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html#a81d18accdb25a6bcd7be4923259f8e32" title="genfit::MeasurementOnPlane\l::swap" alt="" coords="284,141,503,185"/>
+<area shape="rect" id="node4" href="$df/d8f/classgenfit_1_1KalmanFittedStateOnPlane.html#acc270a1fb0be88d5f0865d9415319759" title="genfit::KalmanFittedState\lOnPlane::operator=" alt="" coords="567,73,761,117"/>
+<area shape="rect" id="node6" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html#a8b25c018b4a1affc4944df2b2ab4b436" title="assignment operator" alt="" coords="555,141,773,185"/>
+</map>

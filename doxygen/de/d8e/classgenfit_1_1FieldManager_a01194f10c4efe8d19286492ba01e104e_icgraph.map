@@ -1,0 +1,47 @@
+<map id="genfit::FieldManager::FieldManager" name="genfit::FieldManager::FieldManager">
+<area shape="rect" id="node2" href="$de/d8e/classgenfit_1_1FieldManager.html#aaf0b56fea4f0deb428de8749febf792d" title="Get singleton instance." alt="" coords="215,672,376,716"/>
+<area shape="rect" id="node3" href="$d0/d48/GenFit_2blob_2master_2test_2fitterTests_2main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="504,304,559,332"/>
+<area shape="rect" id="node4" href="$d1/d35/classPHGenFit_1_1Fitter.html#ab245e2833a4d6880cc1c836bc46389b2" title="Default constructor." alt="" coords="446,356,617,384"/>
+<area shape="rect" id="node22" href="$db/dc4/classPHGenFitTrackProjection.html#a8f12e9c6ccc546498672eb6d45daef82" title="PHGenFitTrackProjection\l::process_event" alt="" coords="439,408,623,452"/>
+<area shape="rect" id="node23" href="$d1/dc8/classgenfit_1_1GblFitter.html#a4be6bdc46ad9f13aef275aea2b01f438" title="genfit::GblFitter::\lprocessTrackWithRep" alt="" coords="449,476,614,520"/>
+<area shape="rect" id="node24" href="$d3/d7b/classgenfit_1_1GFGbl.html#a0fbc16a1bcfe612c536b616be8239689" title="genfit::GFGbl::processTrack\lWithRep" alt="" coords="427,544,635,588"/>
+<area shape="rect" id="node25" href="$d8/d7b/classgenfit_1_1GFRaveMagneticField.html#a23d65c1e0883a1a034b9c46b1722cc9c" title="genfit::GFRaveMagneticField\l::inTesla" alt="" coords="424,612,639,656"/>
+<area shape="rect" id="node26" href="$dc/d22/namespacegenfit.html#a9590642881048ffe9fae4c9e335bb992" title="genfit::TEST_F" alt="" coords="472,680,591,708"/>
+<area shape="rect" id="node27" href="$d7/de6/classgenfit_1_1ConstFieldInitializedTests.html#afcb0b8ea89d359f1cc0c55ee6afc7934" title="genfit::ConstFieldInitialized\lTests::SetUp" alt="" coords="429,732,633,776"/>
+<area shape="rect" id="node28" href="$d7/de6/classgenfit_1_1ConstFieldInitializedTests.html#a8977e31e4c195b64ed9cf9647d7c94a7" title="genfit::ConstFieldInitialized\lTests::TearDown" alt="" coords="429,800,633,844"/>
+<area shape="rect" id="node29" href="$de/dfe/classgenfit_1_1RKTrackRepTests.html#ae7532a19ad1d96196d4ccdf4492f48be" title="genfit::RKTrackRepTests\l::SetUp" alt="" coords="441,868,622,912"/>
+<area shape="rect" id="node30" href="$de/dfe/classgenfit_1_1RKTrackRepTests.html#a4ce5d0600affd89fe7f864383c965ff8" title="genfit::RKTrackRepTests\l::TearDown" alt="" coords="441,936,622,980"/>
+<area shape="rect" id="node31" href="$d2/d12/classgenfit_1_1RKTrackRep.html#ac93d7949e40eddbe2d25f879b9c0d190" title="The actual Runge Kutta propagation." alt="" coords="457,1004,605,1048"/>
+<area shape="rect" id="node46" href="$da/de9/classgenfit_1_1HelixTrackModel.html#ad250686f44e1e6a2ce8022cf2e7597f2" title="genfit::HelixTrackModel\l::HelixTrackModel" alt="" coords="442,1072,621,1116"/>
+<area shape="rect" id="node5" href="$d1/d35/classPHGenFit_1_1Fitter.html#ad3729fabd2bd8a7feebbd79317b38a77" title="PHGenFit::Fitter::getInstance" alt="" coords="689,356,904,384"/>
+<area shape="rect" id="node6" href="$d6/da6/classTrackProjectorPlaneECAL.html#afd4d26b22125159168874b18e7a5e90d" title="TrackProjectorPlaneECAL\l::TrackProjectorPlaneECAL" alt="" coords="965,381,1162,425"/>
+<area shape="rect" id="node7" href="$d1/d04/classBDiJetModule.html#ad477f43babe85b431dac244476e609bb" title="BDiJetModule::InitRun" alt="" coords="980,449,1147,477"/>
+<area shape="rect" id="node8" href="$d6/da3/classTrackProjectorPid.html#a761112407aabd5a6d99ea41f41770a63" title="TrackProjectorPid::\lTrackProjectorPid" alt="" coords="991,501,1136,545"/>
+<area shape="rect" id="node9" href="$d6/d17/classSVReco.html#a9581ef99bcb8afd9c1c08b1a37d4f033" title="Initialization Run, called for initialization of a run." alt="" coords="999,569,1127,597"/>
+<area shape="rect" id="node13" href="$dc/dfb/classGenFitTrackProp.html#a39295a5055bdd8a9842f4ed53b6652ce" title="GenFitTrackProp::InitRun" alt="" coords="971,621,1156,649"/>
+<area shape="rect" id="node14" href="$db/dc4/classPHGenFitTrackProjection.html#ae2e85a8af68c6564ef33a4b85ecc17bd" title="PHGenFitTrackProjection\l::InitRun" alt="" coords="971,673,1155,717"/>
+<area shape="rect" id="node15" href="$de/d25/classPHGenFitTrkFitter.html#a536b356cbf3e4a2dacccd5e0f630f8fe" title="Initialization Run, called for initialization of a run." alt="" coords="991,5,1136,49"/>
+<area shape="rect" id="node16" href="$d0/d22/classPHGenFitTrkProp.html#afd241a99a51303034f264a659ade7c16" title="track propagation" alt="" coords="965,73,1162,117"/>
+<area shape="rect" id="node18" href="$d5/daa/classPHRaveVertexing.html#a4b74b109c0056a629fedf577a71dfbeb" title="Initialization Run, called for initialization of a run." alt="" coords="967,141,1160,169"/>
+<area shape="rect" id="node19" href="$d9/d91/classPHG4TrackFastSim.html#a17dc5842cbcfb29af50a12af173c82c8" title="Initialization Run, called for initialization of a run." alt="" coords="962,193,1165,221"/>
+<area shape="rect" id="node20" href="$d2/d9a/classTpcPrototypeGenFitTrkFinder.html#aedc906b40d8ee58daccf0d1af2607097" title="Initialization Run, called for initialization of a run." alt="" coords="955,245,1172,289"/>
+<area shape="rect" id="node21" href="$df/dd7/classTpcPrototypeGenFitTrkFitter.html#a2d3c68df992c760d4a106a28401471c6" title="Initialization Run, called for initialization of a run." alt="" coords="959,313,1168,357"/>
+<area shape="rect" id="node10" href="$df/d9b/classRecoConversionEval.html#a03477928e8acf96769e1958d74907437" title="RecoConversionEval\l::InitRun" alt="" coords="1231,629,1389,673"/>
+<area shape="rect" id="node11" href="$d2/d6d/classVtxTest.html#a5901bc48ee02bf2495a9d916f7772af3" title="VtxTest::InitRun" alt="" coords="1246,509,1374,537"/>
+<area shape="rect" id="node12" href="$d9/d3a/classTruthConversionEval.html#a91521ac566817eac601239e4cb8df5b7" title="TruthConversionEval\l::InitRun" alt="" coords="1229,561,1391,605"/>
+<area shape="rect" id="node17" href="$d0/d22/classPHGenFitTrkProp.html#a42d0f2ddae533d29e577380295a737d3" title="PHGenFitTrkProp::Setup" alt="" coords="1220,81,1400,109"/>
+<area shape="rect" id="node32" href="$dc/d22/namespacegenfit.html#a3eefd11f59b91588b8b018cc8ae5c259" title="Black&#45;Box&#45;Test." alt="" coords="737,1072,856,1100"/>
+<area shape="rect" id="node33" href="$d1/d34/classgenfit_1_1MaterialEffects.html#a650a96bd4e7202f0df289f812420ba26" title="Returns maximum length so that a specified momentum loss will not be exceeded." alt="" coords="711,936,882,980"/>
+<area shape="rect" id="node34" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a37357f3b52f71699afd587716babde3f" title="genfit::RKTrackRep\l::estimateStep" alt="" coords="989,936,1137,980"/>
+<area shape="rect" id="node35" href="$d2/d12/classgenfit_1_1RKTrackRep.html#ae3384d3819bb9c4d8aa9e1981913331b" title="Propagates the particle through the magnetic field." alt="" coords="1236,905,1384,949"/>
+<area shape="rect" id="node45" href="$de/db6/classgenfit_1_1TGeoMaterialInterface.html#a8f48c2590b8f47c4900454bfb03f1d8d" title="Make a step (following the curvature) until step length sMax or the next boundary is reached..." alt="" coords="687,1004,907,1048"/>
+<area shape="rect" id="node36" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a8aab6f587db26d572214ede92f4877fc" title="Handles propagation and material effects." alt="" coords="1448,905,1596,949"/>
+<area shape="rect" id="node37" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a03a1d1eb5b7169ba697ccf114de5066c" title="Extrapolates the state to plane, and returns the extrapolation length and, via reference, the extrapolated state." alt="" coords="1644,905,1803,949"/>
+<area shape="rect" id="node38" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a216b86da9a7238ff9cf24e944b0f9e4b" title="Extrapolates the state to the POCA to a line, and returns the extrapolation length and..." alt="" coords="1865,731,2015,775"/>
+<area shape="rect" id="node39" href="$d2/d12/classgenfit_1_1RKTrackRep.html#abb38b9cdcf9cfa490b795530579bcd73" title="genfit::RKTrackRep\l::extrapToPoint" alt="" coords="1866,799,2014,843"/>
+<area shape="rect" id="node41" href="$d2/d12/classgenfit_1_1RKTrackRep.html#abb4665294ae573dc5423f2975bb8b3e7" title="Extrapolates the state to the cylinder surface, and returns the extrapolation length and..." alt="" coords="1851,867,2029,911"/>
+<area shape="rect" id="node42" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a44091ce8605a38c40d4a4f1692af448b" title="Extrapolates the state to the cone surface, and returns the extrapolation length and, via reference, the extrapolated state." alt="" coords="1862,935,2018,979"/>
+<area shape="rect" id="node43" href="$d2/d12/classgenfit_1_1RKTrackRep.html#aaa34d4913daa972f1947554c4b1e23a8" title="Extrapolates the state to the sphere surface, and returns the extrapolation length and..." alt="" coords="1855,1003,2025,1047"/>
+<area shape="rect" id="node44" href="$d2/d12/classgenfit_1_1RKTrackRep.html#afb21945e3f605f45b1a5bbbe7741793f" title="Extrapolates the state by step (cm) and returns the extrapolation length and, via reference..." alt="" coords="1866,1071,2014,1115"/>
+<area shape="rect" id="node40" href="$d2/d12/classgenfit_1_1RKTrackRep.html#aff9f0db2e194bd9889386cc73ed2d0cd" title="Extrapolates the state to the POCA to a point, and returns the extrapolation length and..." alt="" coords="2077,799,2233,843"/>
+</map>

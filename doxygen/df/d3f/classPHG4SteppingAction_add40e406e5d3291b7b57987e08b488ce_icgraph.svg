@@ -194,33 +194,33 @@
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d9/dbf/classPHG4MvtxSubsystem.html#a7bf1013001ffe5d96738a998b65197bb" target="_top" xlink:title="event processing">
-<polygon fill="none" stroke="#000000" points="198.5,-408.5 198.5,-440.5 329.5,-440.5 329.5,-408.5 198.5,-408.5"/>
-<text text-anchor="start" x="206.5" y="-427.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4MvtxSubsystem::</text>
-<text text-anchor="middle" x="264" y="-415.5" font-family="FreeSans" font-size="10.00" fill="#000000">process_event</text>
+<g id="a_node13"><a xlink:href="../../da/dca/classPHG4SectorSubsystem.html#ac8384d71e3e7f98a82100dfda6dc384d" target="_top" xlink:title="event processing">
+<polygon fill="none" stroke="#000000" points="198,-408.5 198,-440.5 330,-440.5 330,-408.5 198,-408.5"/>
+<text text-anchor="start" x="206" y="-427.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4SectorSubsystem</text>
+<text text-anchor="middle" x="264" y="-415.5" font-family="FreeSans" font-size="10.00" fill="#000000">::process_event</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node13 -->
 <g id="edge12" class="edge">
 <title>Node1&#45;&gt;Node13</title>
-<path fill="none" stroke="#191970" d="M99.2603,-479.3771C117.4111,-469.5911 139.8959,-458.4073 161,-450.5 172.9166,-446.0351 185.892,-442.0882 198.4898,-438.7045"/>
+<path fill="none" stroke="#191970" d="M99.2603,-479.3771C117.4111,-469.5911 139.8959,-458.4073 161,-450.5 172.7439,-446.0998 185.5161,-442.2027 197.9419,-438.852"/>
 <polygon fill="#191970" stroke="#191970" points="97.2836,-476.4691 90.1939,-484.3423 100.646,-482.6087 97.2836,-476.4691"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="../../da/dca/classPHG4SectorSubsystem.html#ac8384d71e3e7f98a82100dfda6dc384d" target="_top" xlink:title="event processing">
-<polygon fill="none" stroke="#000000" points="198,-357.5 198,-389.5 330,-389.5 330,-357.5 198,-357.5"/>
-<text text-anchor="start" x="206" y="-376.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4SectorSubsystem</text>
-<text text-anchor="middle" x="264" y="-364.5" font-family="FreeSans" font-size="10.00" fill="#000000">::process_event</text>
+<g id="a_node14"><a xlink:href="../../d9/dbf/classPHG4MvtxSubsystem.html#a7bf1013001ffe5d96738a998b65197bb" target="_top" xlink:title="event processing">
+<polygon fill="none" stroke="#000000" points="198.5,-357.5 198.5,-389.5 329.5,-389.5 329.5,-357.5 198.5,-357.5"/>
+<text text-anchor="start" x="206.5" y="-376.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4MvtxSubsystem::</text>
+<text text-anchor="middle" x="264" y="-364.5" font-family="FreeSans" font-size="10.00" fill="#000000">process_event</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node14 -->
 <g id="edge13" class="edge">
 <title>Node1&#45;&gt;Node14</title>
-<path fill="none" stroke="#191970" d="M80.0655,-475.8485C97.8669,-452.6911 127.5013,-418.7957 161,-399.5 172.2668,-393.0102 185.1395,-388.123 197.8793,-384.4479"/>
+<path fill="none" stroke="#191970" d="M80.0655,-475.8485C97.8669,-452.6911 127.5013,-418.7957 161,-399.5 172.4266,-392.9181 185.505,-387.9847 198.4213,-384.2923"/>
 <polygon fill="#191970" stroke="#191970" points="77.0421,-474.0462 73.839,-484.1453 82.6408,-478.248 77.0421,-474.0462"/>
 </g>
 <!-- Node15 -->

@@ -1,0 +1,9 @@
+<map id="genfit::TrackCand::setPdgCode" name="genfit::TrackCand::setPdgCode">
+<area shape="rect" id="node2" href="$d3/da2/classgenfit_1_1TrackCand.html#ab71bcc50a1b6980134546424604c8679" title="This function works the same as set6DSeed but instead of a charge hypothesis you can set a pdg code w..." alt="" coords="220,5,401,49"/>
+<area shape="rect" id="node5" href="$d3/da2/classgenfit_1_1TrackCand.html#ad13b659b223ae8f2515e3316de2f88f9" title="This function works the same as setPosMomSeed but instead of a charge hypothesis you can set a pdg co..." alt="" coords="201,73,420,117"/>
+<area shape="rect" id="node8" href="$d3/da2/classgenfit_1_1TrackCand.html#afc64f1137cc033101d9a872300b89131" title="copy constructor" alt="" coords="237,141,385,185"/>
+<area shape="rect" id="node3" href="$d3/da2/classgenfit_1_1TrackCand.html#a1fb72516c0581c7c657cee5b7f94bea8" title="This function works the same as set6DSeed but instead of a charge hypothesis you can set a pdg code w..." alt="" coords="486,5,701,49"/>
+<area shape="rect" id="node4" href="$d6/d8a/classgenfit_1_1Track.html#add7d00317241e4ba90b83f51d53e0425" title="Construct a new TrackCand containing the hit IDs of the measurements." alt="" coords="767,5,944,49"/>
+<area shape="rect" id="node6" href="$dd/d84/GenFit_2blob_2master_2test_2measurementFactoryExample_2main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="566,77,621,105"/>
+<area shape="rect" id="node7" href="$d3/da2/classgenfit_1_1TrackCand.html#a274bbc1778ede546072d5eeb17f72b71" title="This function works the same as setPosMomSeed but instead of a charge hypothesis you can set a pdg co..." alt="" coords="468,129,719,173"/>
+</map>

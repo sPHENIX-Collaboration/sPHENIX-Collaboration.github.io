@@ -143,7 +143,7 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:aa21f85999c9c3b72766f8eec89c6ab1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/hijfst_8cc.html#aa21f85999c9c3b72766f8eec89c6ab1c">hijfst_control</a> (int enable, vector&lt; string &gt; valgorithm, vector&lt; float &gt; vR, vector&lt; int &gt; vPID, vector&lt; float &gt; vEtaMin, vector&lt; float &gt; vEtaMax, vector&lt; float &gt; vEtMin)</td></tr>
 <tr class="separator:aa21f85999c9c3b72766f8eec89c6ab1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0468030f9c4b82336f304b233cbabb6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/hijfst_8cc.html#a0468030f9c4b82336f304b233cbabb6c">hijfst_</a> (int *<a class="el" href="../../da/d55/TPCRateLayered_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, int *<a class="el" href="../../de/de0/matchedfilter_8C.html#adbcd39725b8d3b6165df7b063e4ae1a0">N</a>, int *K, float *P, float *V)</td></tr>
+<tr class="memitem:a0468030f9c4b82336f304b233cbabb6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/hijfst_8cc.html#a0468030f9c4b82336f304b233cbabb6c">hijfst_</a> (int *<a class="el" href="../../da/d55/TPCRateLayered_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, int *<a class="el" href="../../de/de0/matchedfilter_8C.html#adbcd39725b8d3b6165df7b063e4ae1a0">N</a>, int *K, float *<a class="el" href="../../d2/dc5/KFPTrackVector_8h.html#a39a53a622c6abde5e888e4ad46fb04af">P</a>, float *V)</td></tr>
 <tr class="separator:a0468030f9c4b82336f304b233cbabb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -203,7 +203,19 @@ JetAlgorithm &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 <p>Definition at line <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00069">69</a> of file <a class="el" href="../../da/ddc/hijfst_8cc_source.html">hijfst.cc</a>.</p>
 
-<p>References <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00021">algo_info_vec</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00014">algo_info::algorithm</a>, <a class="el" href="../../dc/d43/Proto2ShowerCalibFit_8m_source.html#l00103">E</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00011">enablep</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00018">algo_info::EtaMax</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00017">algo_info::EtaMin</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00019">algo_info::EtMin</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">i</a>, <a class="el" href="../../d5/d0b/changehitformat_8cc_source.html#l00117">it</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">j</a>, <a class="el" href="../../da/de5/ThicknessScan_8m_source.html#l00032">n</a>, <a class="el" href="../../de/de0/matchedfilter_8C_source.html#l00033">N</a>, <a class="el" href="../../d8/d44/Plot-Measured__Energy-EMC_8C_source.html#l00058">particles</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00016">algo_info::PID</a>, and <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00015">algo_info::R</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/hijfst.cc#l69">69</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/hijfst.cc">hijfst.cc</a></p>
+
+<p>References <a class="el" href="../../dc/d15/KFParticleDef_8h_source.html#l00122">KFPMath::a</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00021">algo_info_vec</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00014">algo_info::algorithm</a>, <a class="el" href="../../dc/d43/Proto2ShowerCalibFit_8m_source.html#l00103">E</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00011">enablep</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00018">algo_info::EtaMax</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00017">algo_info::EtaMin</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00019">algo_info::EtMin</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">i</a>, <a class="el" href="../../d5/d0b/changehitformat_8cc_source.html#l00117">it</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">j</a>, <a class="el" href="../../da/de5/ThicknessScan_8m_source.html#l00032">n</a>, <a class="el" href="../../de/de0/matchedfilter_8C_source.html#l00033">N</a>, <a class="el" href="../../d2/dc5/KFPTrackVector_8h_source.html#l00449">P()</a>, <a class="el" href="../../d8/d44/Plot-Measured__Energy-EMC_8C_source.html#l00058">particles</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00016">algo_info::PID</a>, and <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00015">algo_info::R</a>.</p>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/ddc/hijfst_8cc_a0468030f9c4b82336f304b233cbabb6c_cgraph.svg" width="160" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -263,15 +275,17 @@ JetAlgorithm &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 <p>Definition at line <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00047">47</a> of file <a class="el" href="../../da/ddc/hijfst_8cc_source.html">hijfst.cc</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/hijfst.cc#l47">47</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/hijfst.cc">hijfst.cc</a></p>
+
 <p>References <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00021">algo_info_vec</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00014">algo_info::algorithm</a>, <a class="el" href="../../d0/d73/flowAfterburner_8cc_source.html#l00040">algorithms</a>, <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00011">enablep</a>, and <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">i</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d32/Hijing_8cxx_source.html#l00105">main()</a>.</p>
 
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../da/ddc/hijfst_8cc_aa21f85999c9c3b72766f8eec89c6ab1c_icgraph.svg" width="222" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -292,6 +306,8 @@ JetAlgorithm &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 <p>Definition at line <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00021">21</a> of file <a class="el" href="../../da/ddc/hijfst_8cc_source.html">hijfst.cc</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/hijfst.cc#l21">21</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/hijfst.cc">hijfst.cc</a></p>
+
 <p>Referenced by <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00069">hijfst_()</a>, and <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00047">hijfst_control()</a>.</p>
 
 </div>
@@ -308,6 +324,8 @@ JetAlgorithm &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 <p>Definition at line <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00023">23</a> of file <a class="el" href="../../da/ddc/hijfst_8cc_source.html">hijfst.cc</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/hijfst.cc#l23">23</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/hijfst.cc">hijfst.cc</a></p>
+
 </div>
 </div>
 <a class="anchor" id="aaf5c657c5b47bf4ad24f8dce1c4a8a03"></a>
@@ -321,6 +339,8 @@ JetAlgorithm &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00011">11</a> of file <a class="el" href="../../da/ddc/hijfst_8cc_source.html">hijfst.cc</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/hijfst.cc#l11">11</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/hijfst.cc">hijfst.cc</a></p>
 
 <p>Referenced by <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00069">hijfst_()</a>, and <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00047">hijfst_control()</a>.</p>
 
@@ -338,6 +358,8 @@ JetAlgorithm &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 <p>Definition at line <a class="el" href="../../da/ddc/hijfst_8cc_source.html#l00044">44</a> of file <a class="el" href="../../da/ddc/hijfst_8cc_source.html">hijfst.cc</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/hijfst.cc#l44">44</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/hijfst.cc">hijfst.cc</a></p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -350,7 +372,7 @@ JetAlgorithm &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_8d66a4fea0becf883e91a5407556c38a.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_792e75c1e50add93be3c1d5997a7a09c.html">hijing</a></li><li class="navelem"><a class="el" href="../../dir_c671be3d2a74414e61992625a584bf67.html">src</a></li><li class="navelem"><a class="el" href="../../da/ddc/hijfst_8cc.html">hijfst.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:30</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:37</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

@@ -112,13 +112,13 @@ $(document).ready(function(){initNavTree('dd/d41/BEmcRecFEMC_8cc_source.html','.
 <div class="title">BEmcRecFEMC.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dd/d41/BEmcRecFEMC_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/dab/BEmcRecFEMC_8h.html">BEmcRecFEMC.h</a>&quot;</span></div>
+<a href="../../dd/d41/BEmcRecFEMC_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/CaloReco/BEmcRecFEMC.cc">the newest version in sPHENIX GitHub for file BEmcRecFEMC.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/dab/BEmcRecFEMC_8h.html">BEmcRecFEMC.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/d4e/BEmcCluster_8h.html">BEmcCluster.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;cstdio&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="code" href="../../d1/d5c/classBEmcRecFEMC.html#a5c27df8706978abfd67f6b52d83684fc">    7</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/d5c/classBEmcRecFEMC.html#a5c27df8706978abfd67f6b52d83684fc">BEmcRecFEMC::Tower2Global</a>(<span class="keywordtype">float</span> <a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a>, <span class="keywordtype">float</span> xC, <span class="keywordtype">float</span> yC,</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="code" href="../../d1/d5c/classBEmcRecFEMC.html#a5c27df8706978abfd67f6b52d83684fc">    7</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/d5c/classBEmcRecFEMC.html#a5c27df8706978abfd67f6b52d83684fc">BEmcRecFEMC::Tower2Global</a>(<span class="keywordtype">float</span> <a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a>, <span class="keywordtype">float</span> xC, <span class="keywordtype">float</span> yC,</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;                               <span class="keywordtype">float</span>&amp; xA, <span class="keywordtype">float</span>&amp; yA, <span class="keywordtype">float</span>&amp; zA)</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// With shower depth correction reflected in zA</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
@@ -272,7 +272,7 @@ $(document).ready(function(){initNavTree('dd/d41/BEmcRecFEMC_8cc_source.html','.
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  <span class="comment">// Everything here is in tower units.</span></div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  <span class="comment">// (x,y) - CG position, (*pxc,*pyc) - corrected position</span></div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  <span class="keywordtype">float</span> xZero, yZero, bx, by;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  <span class="keywordtype">float</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a00262604561279d05076a70b18e01f91">xZero</a>, <a class="code" href="../../d7/da4/namespaceKFPMath.html#a17882e8ccc4080026f6df03629d5aff3">yZero</a>, bx, by;</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  <span class="keywordtype">float</span> <a class="code" href="../../d4/d68/HelixHough__kappaRange__sse_8cpp.html#aaccc9105df5383111407fd5b41255e23">t</a>, <a class="code" href="../../da/de5/ThicknessScan_8m.html#aa48da42c617fdb7cf84e9a3f80aa04e8">x0</a>, y0;</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  <span class="keywordtype">int</span> ix0, iy0;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;</div>
@@ -308,12 +308,12 @@ $(document).ready(function(){initNavTree('dd/d41/BEmcRecFEMC_8cc_source.html','.
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  <span class="comment">//  xZero *= 0.5;</span></div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;  <span class="comment">//  yZero *= 0.5;</span></div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;  x0 = x + xZero;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;  x0 = x + <a class="code" href="../../d7/da4/namespaceKFPMath.html#a00262604561279d05076a70b18e01f91">xZero</a>;</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  ix0 = <a class="code" href="../../d9/d04/classEmcCluster.html#ae3825e6596e83cb4b5272da3981bb121">EmcCluster::lowint</a>(x0 + 0.5);</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d9/d04/classEmcCluster.html#aa7a15cfe3a8d3216d001e205e1001151">EmcCluster::ABS</a>(x0 - ix0) &lt;= 0.5)</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  {</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    x0 = (ix0 - xZero) + bx * asinh(2. * (x0 - ix0) * sinh(0.5 / bx));</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    x0 = (ix0 - <a class="code" href="../../d7/da4/namespaceKFPMath.html#a00262604561279d05076a70b18e01f91">xZero</a>) + bx * asinh(2. * (x0 - ix0) * sinh(0.5 / bx));</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    *pxc = <a class="code" href="../../da/de5/ThicknessScan_8m.html#aa48da42c617fdb7cf84e9a3f80aa04e8">x0</a>;</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;  }</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;  <span class="keywordflow">else</span></div>
@@ -322,12 +322,12 @@ $(document).ready(function(){initNavTree('dd/d41/BEmcRecFEMC_8cc_source.html','.
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <a class="code" href="../../da/d23/msg__buffer_8cc.html#a98631211a4a8aee62f572375d5b637be">printf</a>(<span class="stringliteral">&quot;????? Something wrong in BEmcRecFEMC::CorrectPosition: x=%f  dx=%f\n&quot;</span>, x, x0 - ix0);</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  }</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  y0 = y + yZero;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  y0 = y + <a class="code" href="../../d7/da4/namespaceKFPMath.html#a17882e8ccc4080026f6df03629d5aff3">yZero</a>;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  iy0 = <a class="code" href="../../d9/d04/classEmcCluster.html#ae3825e6596e83cb4b5272da3981bb121">EmcCluster::lowint</a>(y0 + 0.5);</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d9/d04/classEmcCluster.html#aa7a15cfe3a8d3216d001e205e1001151">EmcCluster::ABS</a>(y0 - iy0) &lt;= 0.5)</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  {</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    y0 = (iy0 - yZero) + by * asinh(2. * (y0 - iy0) * sinh(0.5 / by));</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    y0 = (iy0 - <a class="code" href="../../d7/da4/namespaceKFPMath.html#a17882e8ccc4080026f6df03629d5aff3">yZero</a>) + by * asinh(2. * (y0 - iy0) * sinh(0.5 / by));</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    *pyc = y0;</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  }</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  <span class="keywordflow">else</span></div>
@@ -346,7 +346,7 @@ $(document).ready(function(){initNavTree('dd/d41/BEmcRecFEMC_8cc_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_db731190bdd14b7086716c0028ea787e.html">CaloReco</a></li><li class="navelem"><a class="el" href="../../dd/d41/BEmcRecFEMC_8cc.html">BEmcRecFEMC.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:19</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:25</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

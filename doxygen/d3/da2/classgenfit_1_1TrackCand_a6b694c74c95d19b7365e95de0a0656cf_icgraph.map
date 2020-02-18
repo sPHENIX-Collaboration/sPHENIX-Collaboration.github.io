@@ -1,0 +1,3 @@
+<map id="genfit::TrackCand::set6DSeed" name="genfit::TrackCand::set6DSeed">
+<area shape="rect" id="node2" href="$d3/da2/classgenfit_1_1TrackCand.html#a898ff02557e5614247bab8da0b336e27" title="sets the state to seed the track fitting and its time. State has to be a TVectorD(6). First 3 elements are the staring postion second 3 elements the starting momentum. Everything in global coordinates charge is the charge hypotheses of the particle charge." alt="" coords="201,5,349,49"/>
+</map>

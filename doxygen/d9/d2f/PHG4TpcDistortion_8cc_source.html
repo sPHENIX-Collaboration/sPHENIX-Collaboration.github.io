@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d9/d2f/PHG4TpcDistortion_8cc_source.ht
 <div class="title">PHG4TpcDistortion.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d9/d2f/PHG4TpcDistortion_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $</span></div>
+<a href="../../d9/d2f/PHG4TpcDistortion_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4tpc/PHG4TpcDistortion.cc">the newest version in sPHENIX GitHub for file PHG4TpcDistortion.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/d9f/PHG4TpcDistortion_8h.html">PHG4TpcDistortion.h</a>&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
@@ -120,12 +120,12 @@ $(document).ready(function(){initNavTree('d9/d2f/PHG4TpcDistortion_8cc_source.ht
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;gsl/gsl_rng.h&gt;</span>         <span class="comment">// for gsl_rng_alloc, gsl_rng_free, gsl_rng...</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="code" href="../../da/de9/classPHG4TpcDistortion.html#aea9ccfe6df6a6959b6519ffe7f34c595">   17</a></span>&#160;<a class="code" href="../../da/de9/classPHG4TpcDistortion.html#aea9ccfe6df6a6959b6519ffe7f34c595">PHG4TpcDistortion::PHG4TpcDistortion</a>(<span class="keywordtype">int</span> verbose)</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="code" href="../../da/de9/classPHG4TpcDistortion.html#aea9ccfe6df6a6959b6519ffe7f34c595">   17</a></span>&#160;<a class="code" href="../../da/de9/classPHG4TpcDistortion.html#aea9ccfe6df6a6959b6519ffe7f34c595">PHG4TpcDistortion::PHG4TpcDistortion</a>(<span class="keywordtype">int</span> <a class="code" href="../../d5/dd2/GenFit_2blob_2master_2test_2streamerTest_2main_8cc.html#aa0809dffbdf183a6a189ebb277bf6866">verbose</a>)</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  : <a class="code" href="../../d6/d29/track2cluster__plot_8C.html#ae2bc69d2191ab7552502f23bee9f8295">verbosity</a>(verbose)</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <a class="code" href="../../da/de9/classPHG4TpcDistortion.html#a3547fd57c1f1698647d25c7ac8b75c64" title="random generator that conform with sPHENIX standard">RandomGenerator</a> = gsl_rng_alloc(gsl_rng_mt19937);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d4/d89/namespaceTauVsDIS__MachineLearning__Differentiation.html#a926e652fc6cca84ce09ab067067249f1">seed</a> = <a class="code" href="../../dd/d1f/classPHRandomSeed.html">PHRandomSeed</a>();  <span class="comment">// fixed seed is handled in this funtcion</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  gsl_rng_set(<a class="code" href="../../da/de9/classPHG4TpcDistortion.html#a3547fd57c1f1698647d25c7ac8b75c64" title="random generator that conform with sPHENIX standard">RandomGenerator</a>, seed);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d1/d0a/PHTruthVertexing_8cc.html#ae21f357c223957d36046a0d71cc6aed7">seed</a> = <a class="code" href="../../dd/d1f/classPHRandomSeed.html">PHRandomSeed</a>();  <span class="comment">// fixed seed is handled in this funtcion</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <a class="code" href="../../d1/d0a/PHTruthVertexing_8cc.html#ad8eec1a5a0219e016430a4b0759daf18">gsl_rng_set</a>(<a class="code" href="../../da/de9/classPHG4TpcDistortion.html#a3547fd57c1f1698647d25c7ac8b75c64" title="random generator that conform with sPHENIX standard">RandomGenerator</a>, seed);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="code" href="../../da/de9/classPHG4TpcDistortion.html#aa862c0c12265d2f2728d6f1c1e5045e7">   25</a></span>&#160;<a class="code" href="../../da/de9/classPHG4TpcDistortion.html#aa862c0c12265d2f2728d6f1c1e5045e7">PHG4TpcDistortion::~PHG4TpcDistortion</a>()</div>
@@ -142,7 +142,7 @@ $(document).ready(function(){initNavTree('d9/d2f/PHG4TpcDistortion_8cc_source.ht
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_9135bd5881f0eae90a504c88068559b6.html">g4tpc</a></li><li class="navelem"><a class="el" href="../../d9/d2f/PHG4TpcDistortion_8cc.html">PHG4TpcDistortion.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:25</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:31</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

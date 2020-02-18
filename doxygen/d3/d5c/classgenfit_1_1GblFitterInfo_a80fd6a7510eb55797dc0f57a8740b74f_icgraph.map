@@ -1,0 +1,6 @@
+<map id="genfit::GblFitterInfo::updateMeasurementAndPlane" name="genfit::GblFitterInfo::updateMeasurementAndPlane">
+<area shape="rect" id="node2" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a6a5ecb1dd2d2c36cec4582037cc226e0" title="Re&#45;extrapolates between prevFitterInfo and this point using forward state to update the Jacobian (if ..." alt="" coords="288,5,449,49"/>
+<area shape="rect" id="node4" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#ace7d8c155c827ea69739eb6d81fd13be" title="Set the prediction and plane (from measurement if any) You should use the user constructor instead..." alt="" coords="291,73,446,117"/>
+<area shape="rect" id="node3" href="$d1/dc8/classgenfit_1_1GblFitter.html#a4be6bdc46ad9f13aef275aea2b01f438" title="genfit::GblFitter::\lprocessTrackWithRep" alt="" coords="497,5,663,49"/>
+<area shape="rect" id="node5" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#ab8cd3c4356cd1aaffdc89906f48a6252" title="Default user constructor." alt="" coords="503,73,657,117"/>
+</map>

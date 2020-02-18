@@ -1,0 +1,5 @@
+<map id="genfit::TrackPoint::getSortingParameter" name="genfit::TrackPoint::getSortingParameter">
+<area shape="rect" id="node2" href="$d1/dc8/classgenfit_1_1GblFitter.html#a5da35921dc77781efca0650aefff823a" title="Propagate seed, populate track with scatterers and GblFitterInfos with reference state set..." alt="" coords="268,5,403,49"/>
+<area shape="rect" id="node3" href="$d6/d8a/classgenfit_1_1Track.html#add7d00317241e4ba90b83f51d53e0425" title="Construct a new TrackCand containing the hit IDs of the measurements." alt="" coords="247,73,424,117"/>
+<area shape="rect" id="node4" href="$d8/d6c/classgenfit_1_1TrackPointComparator.html#a7f11f104ea7292ddad3b2a6a45eeea9a" title="genfit::TrackPointComparator\l::operator()" alt="" coords="225,141,445,185"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="KFPartEfficiencies::KFPartEfficiencies" name="KFPartEfficiencies::KFPartEfficiencies">
+<area shape="rect" id="node2" href="$df/d77/classKFPartEfficiencies.html#ad91a958383aeb2750786fc5c5c4c9d22" title="KFPartEfficiencies\l::AddCounter" alt="" coords="241,5,383,49"/>
+<area shape="rect" id="node4" href="$d0/dfe/classKFEfficiencyParticleInfo.html#a9356a85bc4c1a0c13c906c909aa9d8af" title="Returns charge of the particle in units of the elementary charge." alt="" coords="223,73,401,117"/>
+<area shape="rect" id="node5" href="$d0/dfe/classKFEfficiencyParticleInfo.html#aee222cb7840e42c559ee4355b5eaf758" title="Returns upper boundary in the mass histogram for the current decay." alt="" coords="223,141,401,185"/>
+<area shape="rect" id="node6" href="$d0/dfe/classKFEfficiencyParticleInfo.html#a76caa591241e85107d99366489fee56d" title="Returns lower boundary in the mass histogram for the current decay." alt="" coords="223,209,401,253"/>
+<area shape="rect" id="node7" href="$d0/dfe/classKFEfficiencyParticleInfo.html#ae9876ae7a99238a95f626da9eb6c4b83" title="Returns lifetime of the particle." alt="" coords="223,277,401,321"/>
+<area shape="rect" id="node8" href="$d0/dfe/classKFEfficiencyParticleInfo.html#a89d8bf25bd33ac18f59e91c442c5b203" title="Returns table mass of the particle." alt="" coords="223,345,401,389"/>
+<area shape="rect" id="node9" href="$d0/dfe/classKFEfficiencyParticleInfo.html#af0c07beebc5c92c6836fae18f8df103b" title="Returns expected width of the mass peak, used in the side bands method." alt="" coords="223,413,401,457"/>
+<area shape="rect" id="node10" href="$d0/dfe/classKFEfficiencyParticleInfo.html#a517f4dc2cc4b876af682b05c5138e9bf" title="Returns name of the decay in the file with histograms." alt="" coords="223,481,401,525"/>
+<area shape="rect" id="node11" href="$d0/dfe/classKFEfficiencyParticleInfo.html#aba5e25b80f6cd793d9234c4421e86904" title="Returns the assigned PDG code." alt="" coords="204,549,420,577"/>
+<area shape="rect" id="node12" href="$d9/d03/KFParticleBaseSIMD_8h.html#ad2f27b79a1a86fa9110799989fc33716" title="Returns the PDG hypothesis." alt="" coords="287,601,337,629"/>
+<area shape="rect" id="node13" href="$d0/dfe/classKFEfficiencyParticleInfo.html#a4d5b802258b32925c890d9e8feb22b6f" title="Returns name of the decay in the output table with efficiency." alt="" coords="223,653,401,697"/>
+<area shape="rect" id="node3" href="$d8/d5c/structKFMCCounter.html#a59d6f72b851528fd3c2288c9781a13aa" title="Adds a counter to the existing list." alt="" coords="468,13,671,41"/>
+</map>

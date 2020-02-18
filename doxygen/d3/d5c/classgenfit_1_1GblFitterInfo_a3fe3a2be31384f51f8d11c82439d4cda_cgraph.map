@@ -1,0 +1,12 @@
+<map id="genfit::GblFitterInfo::Print" name="genfit::GblFitterInfo::Print">
+<area shape="rect" id="node2" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#af18f7aec09c915ad948a96e3b934eaa8" title="genfit::AbsMeasurement\l::constructHMatrix" alt="" coords="416,5,604,49"/>
+<area shape="rect" id="node3" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a838ec661da762f1ce3ddbf4019b2c367" title="Get kink (residual) (2D) = 0 &#45; ( (+)pred &#45; (&#45;)pred )" alt="" coords="211,64,364,108"/>
+<area shape="rect" id="node5" href="$db/d40/classgenfit_1_1TrackPoint.html#a2999fc0669beb86b6309f86e040bcdef" title="genfit::TrackPoint\l::getRawMeasurement" alt="" coords="423,143,597,187"/>
+<area shape="rect" id="node6" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#afea691164c74306d2031439ca40d1687" title="genfit::AbsFitterInfo\l::getRep" alt="" coords="433,213,587,257"/>
+<area shape="rect" id="node7" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#ae19fc48cd3a657bae8d7a6c0afdb3bdf" title="Get the residual." alt="" coords="211,132,364,176"/>
+<area shape="rect" id="node8" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#ad3bc8c2b886cf8fa07c124945d222f07" title="genfit::GblFitterInfo\l::hasMeasurements" alt="" coords="433,285,587,329"/>
+<area shape="rect" id="node10" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="207,353,368,397"/>
+<area shape="rect" id="node11" href="$d9/dc6/classgenfit_1_1AbsHMatrix.html#a7f7b8d29dd4e3f760d72273987d9d336" title="genfit::AbsHMatrix\l::isEqual" alt="" coords="214,421,361,465"/>
+<area shape="rect" id="node4" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a9040cad25be9a3c328a52c186871acf8" title="Get the prediction at this point Always biased in GBL (global fit) There are 2 states, before and after kink (if there is a scatterer at this point). Per default the state after kink for forward propagation is returned." alt="" coords="433,73,587,117"/>
+<area shape="rect" id="node9" href="$db/d40/classgenfit_1_1TrackPoint.html#ada7b4d8c988a1798e455fb70929f88b7" title="genfit::TrackPoint\l::hasRawMeasurements" alt="" coords="652,285,835,329"/>
+</map>

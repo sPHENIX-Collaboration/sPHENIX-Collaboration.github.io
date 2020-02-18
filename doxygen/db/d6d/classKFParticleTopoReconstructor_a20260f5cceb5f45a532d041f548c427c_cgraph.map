@@ -1,0 +1,4 @@
+<map id="KFParticleTopoReconstructor::GetListOfDaughterTracks" name="KFParticleTopoReconstructor::GetListOfDaughterTracks">
+<area shape="rect" id="node2" href="$d5/d41/classKFParticleBase.html#a7f6754ebbbeb73d4c2b88a49b75db474" title="Returns the vector with the indices of daughter particles." alt="" coords="267,5,479,33"/>
+<area shape="rect" id="node3" href="$d5/d41/classKFParticleBase.html#a5804383f749253e8a17c594ccf463842" title="Returns number of daughter particles." alt="" coords="267,57,478,85"/>
+</map>

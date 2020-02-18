@@ -1,0 +1,12 @@
+<map id="genfit::GblFitterInfo::setReferenceState" name="genfit::GblFitterInfo::setReferenceState">
+<area shape="rect" id="node2" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a2801bf4fa1196147472cc1807281e23d" title="genfit::StateOnPlane\l::getAuxInfo" alt="" coords="245,5,406,49"/>
+<area shape="rect" id="node3" href="$d6/d8a/classgenfit_1_1Track.html#a80d4da704486d458d1fbb9ec0c497f21" title="genfit::Track::getCovSeed" alt="" coords="228,73,423,101"/>
+<area shape="rect" id="node4" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="245,125,406,169"/>
+<area shape="rect" id="node5" href="$db/d40/classgenfit_1_1TrackPoint.html#a2540c1979de60b5456130b1e648c783d" title="genfit::TrackPoint\l::getTrack" alt="" coords="256,193,395,237"/>
+<area shape="rect" id="node6" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a80fd6a7510eb55797dc0f57a8740b74f" title="SHOULD BE USED ONLY INTERNALY! Update the plane from measurement constructed with state or take plane..." alt="" coords="208,261,443,305"/>
+<area shape="rect" id="node7" href="$db/d40/classgenfit_1_1TrackPoint.html#ada7b4d8c988a1798e455fb70929f88b7" title="genfit::TrackPoint\l::hasRawMeasurements" alt="" coords="524,125,707,169"/>
+<area shape="rect" id="node8" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#af02a4a29abfa1c31c8208baf757a21c5" title="genfit::AbsFitterInfo\l::setPlane" alt="" coords="538,193,693,237"/>
+<area shape="rect" id="node9" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a30c7e8d87fa50205baa927d4ceccb594" title="genfit::StateOnPlane\l::getPlane" alt="" coords="535,261,696,305"/>
+<area shape="rect" id="node10" href="$db/d40/classgenfit_1_1TrackPoint.html#a2999fc0669beb86b6309f86e040bcdef" title="genfit::TrackPoint\l::getRawMeasurement" alt="" coords="529,329,702,373"/>
+<area shape="rect" id="node11" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a88f7a366bee3fdc9ad109b71690665f9" title="genfit::AbsMeasurement\l::constructMeasurementsOnPlane" alt="" coords="491,397,740,441"/>
+</map>

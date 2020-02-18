@@ -1,0 +1,11 @@
+<map id="genfit::MeasurementOnPlane::setWeight" name="genfit::MeasurementOnPlane::setWeight">
+<area shape="rect" id="node2" href="$d6/d60/classgenfit_1_1DAF.html#a13c89d100046e596ea6442bdd5d6a40c" title="Calculate and set the weights for the next fitting pass. Return if convergence is met..." alt="" coords="324,13,511,41"/>
+<area shape="rect" id="node4" href="$d6/d83/classgenfit_1_1WirePointMeasurement.html#a3e55e421ad6879ac01504de58045d6aa" title="genfit::WirePointMeasurement\l::constructMeasurementsOnPlane" alt="" coords="293,65,542,109"/>
+<area shape="rect" id="node5" href="$d6/dba/classgenfit_1_1WireMeasurement.html#ace94c63b35f80fd7a6cffaff15e1ceb8" title="genfit::WireMeasurement\l::constructMeasurementsOnPlane" alt="" coords="293,133,542,177"/>
+<area shape="rect" id="node6" href="$d9/d77/classgenfit_1_1WireMeasurementNew.html#af2325b22934ed87cdee2bf1a50350977" title="genfit::WireMeasurementNew\l::constructMeasurementsOnPlane" alt="" coords="293,201,542,245"/>
+<area shape="rect" id="node7" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ae28fde614f4be610f7f6eecce03c4eba" title="genfit::KalmanFitterInfo\l::getAvgWeightedMeasurementOnPlane" alt="" coords="272,269,563,313"/>
+<area shape="rect" id="node8" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a1bf7c6ec4567e7a38d18e85a27551871" title="Set weights of measurements." alt="" coords="327,337,507,381"/>
+<area shape="rect" id="node3" href="$d6/d60/classgenfit_1_1DAF.html#a2bdf79750af68a02be2da0fb2442de33" title="Process a track using the DAF." alt="" coords="621,5,813,49"/>
+<area shape="rect" id="node9" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ab28798fe239a0577ef7a9c254c235491" title="Prepare the track." alt="" coords="611,337,824,381"/>
+<area shape="rect" id="node10" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ad3a24181b5370cc95f01f49ea148c011" title="genfit::KalmanFitterRefTrack\l::processTrackWithRep" alt="" coords="872,337,1085,381"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="genfit::MaterialEffects::noiseBrems" name="genfit::MaterialEffects::noiseBrems">
+<area shape="rect" id="node2" href="$d1/d34/classgenfit_1_1MaterialEffects.html#ac11f0e9f0c47f9ae160e0e21cf846d01" title="Calculates energy loss in the traveled path, optional calculation of noise matrix." alt="" coords="224,180,395,224"/>
+<area shape="rect" id="node3" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a8aab6f587db26d572214ede92f4877fc" title="Handles propagation and material effects." alt="" coords="443,180,591,224"/>
+<area shape="rect" id="node4" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a03a1d1eb5b7169ba697ccf114de5066c" title="Extrapolates the state to plane, and returns the extrapolation length and, via reference, the extrapolated state." alt="" coords="639,180,797,224"/>
+<area shape="rect" id="node5" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a216b86da9a7238ff9cf24e944b0f9e4b" title="Extrapolates the state to the POCA to a line, and returns the extrapolation length and..." alt="" coords="859,5,1010,49"/>
+<area shape="rect" id="node6" href="$d2/d12/classgenfit_1_1RKTrackRep.html#abb38b9cdcf9cfa490b795530579bcd73" title="genfit::RKTrackRep\l::extrapToPoint" alt="" coords="861,73,1009,117"/>
+<area shape="rect" id="node8" href="$d2/d12/classgenfit_1_1RKTrackRep.html#abb4665294ae573dc5423f2975bb8b3e7" title="Extrapolates the state to the cylinder surface, and returns the extrapolation length and..." alt="" coords="845,141,1024,185"/>
+<area shape="rect" id="node9" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a44091ce8605a38c40d4a4f1692af448b" title="Extrapolates the state to the cone surface, and returns the extrapolation length and, via reference, the extrapolated state." alt="" coords="857,209,1013,253"/>
+<area shape="rect" id="node10" href="$d2/d12/classgenfit_1_1RKTrackRep.html#aaa34d4913daa972f1947554c4b1e23a8" title="Extrapolates the state to the sphere surface, and returns the extrapolation length and..." alt="" coords="850,277,1019,321"/>
+<area shape="rect" id="node11" href="$d2/d12/classgenfit_1_1RKTrackRep.html#afb21945e3f605f45b1a5bbbe7741793f" title="Extrapolates the state by step (cm) and returns the extrapolation length and, via reference..." alt="" coords="861,345,1009,389"/>
+<area shape="rect" id="node7" href="$d2/d12/classgenfit_1_1RKTrackRep.html#aff9f0db2e194bd9889386cc73ed2d0cd" title="Extrapolates the state to the POCA to a point, and returns the extrapolation length and..." alt="" coords="1072,73,1228,117"/>
+</map>

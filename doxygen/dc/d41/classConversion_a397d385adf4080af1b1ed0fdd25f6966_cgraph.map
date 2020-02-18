@@ -33,16 +33,19 @@
 <area shape="rect" id="node33" href="$d8/df1/namespaceMvtxDefs.html#abfd7b6c5fe579370c360924854579283" title="Get the chip id from hitsetkey." alt="" coords="829,814,987,842"/>
 <area shape="rect" id="node34" href="$d4/de7/classPHG4CylinderGeomContainer.html#a08321019aaff5f57cd416b64d0f536bf" title="PHG4CylinderGeomContainer\l::GetLayerGeom" alt="" coords="797,866,1019,910"/>
 <area shape="rect" id="node35" href="$df/d9b/classCylinderGeom__Mvtx.html#ac3180ef9061113ec41e851ff5f97f3f1" title="CylinderGeom_Mvtx::\lfind_sensor_center" alt="" coords="825,934,991,978"/>
-<area shape="rect" id="node38" href="$df/d9b/classCylinderGeom__Mvtx.html#aa1c7c0b68aa74bd674206214ffabfe6d" title="CylinderGeom_Mvtx::\lget_stave_phi_tilt" alt="" coords="825,1002,991,1046"/>
-<area shape="rect" id="node39" href="$d9/dcb/classCylinderGeomIntt.html#ab38e7cede1a91d97d6d5bb175791f965" title="CylinderGeomIntt::find\l_segment_center" alt="" coords="821,1070,995,1114"/>
-<area shape="rect" id="node40" href="$d6/d9e/namespaceInttDefs.html#aeb0f2c2a834c11791925bdffc211526d" title="Get the ladder id from hitsetkey." alt="" coords="821,1138,995,1166"/>
-<area shape="rect" id="node41" href="$d6/d9e/namespaceInttDefs.html#a28461d6132ff9373b4529e5c0d20c962" title="Get the sensor id from hitsetkey." alt="" coords="815,1190,1001,1218"/>
-<area shape="rect" id="node42" href="$d9/dcb/classCylinderGeomIntt.html#a191bf1e8abfe131f80eb7da8b1639c8b" title="CylinderGeomIntt::get\l_strip_phi_tilt" alt="" coords="822,1242,994,1286"/>
-<area shape="rect" id="node43" href="$d6/dfa/classTrkrCluster.html#a43356b61478edcfaba377cdcd6c658eb" title="TrkrCluster::getPhiError" alt="" coords="818,1310,998,1338"/>
-<area shape="rect" id="node44" href="$d6/dfa/classTrkrCluster.html#a73c9bdc559b2906e6cfc942d1bf355ed" title="TrkrCluster::getZError" alt="" coords="823,1362,993,1390"/>
-<area shape="rect" id="node45" href="$d7/dd5/classPHGenFit_1_1Track.html#a3c6639bba6584ef0fd2581150947b85f" title="PHGenFit::Track::addMeasurements" alt="" coords="777,1414,1039,1442"/>
-<area shape="rect" id="node46" href="$d1/d35/classPHGenFit_1_1Fitter.html#a0ae094389cc773308a3cf9ca98d60bdb" title="PHGenFit::Fitter::process\lTrack" alt="" coords="815,1466,1001,1510"/>
-<area shape="rect" id="node47" href="$d7/dd5/classPHGenFit_1_1Track.html#a8cc267bf5a0014b5ba7e057a3b45ba3e" title="PHGenFit::Track::getGenFit\lTrack" alt="" coords="1087,1495,1289,1539"/>
-<area shape="rect" id="node36" href="$df/d9b/classCylinderGeom__Mvtx.html#aede358e384b225e6555bed9292f0310c" title="CylinderGeom_Mvtx::\lget_world_from_local\l_coords" alt="" coords="1105,926,1271,986"/>
-<area shape="rect" id="node37" href="$da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8" title="double" alt="" coords="1337,942,1405,970"/>
+<area shape="rect" id="node37" href="$df/d9b/classCylinderGeom__Mvtx.html#aa1c7c0b68aa74bd674206214ffabfe6d" title="CylinderGeom_Mvtx::\lget_stave_phi_tilt" alt="" coords="825,1002,991,1046"/>
+<area shape="rect" id="node38" href="$d9/dcb/classCylinderGeomIntt.html#ab38e7cede1a91d97d6d5bb175791f965" title="CylinderGeomIntt::find\l_segment_center" alt="" coords="821,1070,995,1114"/>
+<area shape="rect" id="node39" href="$d6/d9e/namespaceInttDefs.html#aeb0f2c2a834c11791925bdffc211526d" title="Get the ladder id from hitsetkey." alt="" coords="821,1138,995,1166"/>
+<area shape="rect" id="node40" href="$d6/d9e/namespaceInttDefs.html#a28461d6132ff9373b4529e5c0d20c962" title="Get the sensor id from hitsetkey." alt="" coords="815,1190,1001,1218"/>
+<area shape="rect" id="node41" href="$d9/dcb/classCylinderGeomIntt.html#a191bf1e8abfe131f80eb7da8b1639c8b" title="CylinderGeomIntt::get\l_strip_phi_tilt" alt="" coords="822,1242,994,1286"/>
+<area shape="rect" id="node42" href="$d6/dfa/classTrkrCluster.html#a43356b61478edcfaba377cdcd6c658eb" title="TrkrCluster::getPhiError" alt="" coords="818,1310,998,1338"/>
+<area shape="rect" id="node43" href="$d6/dfa/classTrkrCluster.html#a73c9bdc559b2906e6cfc942d1bf355ed" title="TrkrCluster::getZError" alt="" coords="823,1362,993,1390"/>
+<area shape="rect" id="node44" href="$d7/dd5/classPHGenFit_1_1Track.html#a3c6639bba6584ef0fd2581150947b85f" title="PHGenFit::Track::addMeasurements" alt="" coords="777,1414,1039,1442"/>
+<area shape="rect" id="node46" href="$d1/d35/classPHGenFit_1_1Fitter.html#a0ae094389cc773308a3cf9ca98d60bdb" title="PHGenFit::Fitter::process\lTrack" alt="" coords="815,1518,1001,1562"/>
+<area shape="rect" id="node47" href="$d7/dd5/classPHGenFit_1_1Track.html#a8cc267bf5a0014b5ba7e057a3b45ba3e" title="PHGenFit::Track::getGenFit\lTrack" alt="" coords="1103,1458,1305,1502"/>
+<area shape="rect" id="node50" href="$d6/d8a/classgenfit_1_1Track.html#aa7c2b4ec6f779325c87f4ffe8d5e52a0" title="Set the MCT track id, for MC simulations." alt="" coords="808,1586,1008,1614"/>
+<area shape="rect" id="node36" href="$df/d9b/classCylinderGeom__Mvtx.html#aede358e384b225e6555bed9292f0310c" title="CylinderGeom_Mvtx::\lget_world_from_local\l_coords" alt="" coords="1121,926,1287,986"/>
+<area shape="rect" id="node45" href="$d6/d8a/classgenfit_1_1Track.html#a7e61ada0d84db561ede923db92c4ab01" title="Insert TrackPoint BEFORE TrackPoint with position id, if id &gt;= 0." alt="" coords="1111,1406,1297,1434"/>
+<area shape="rect" id="node48" href="$d6/d8a/classgenfit_1_1Track.html#aee4eab9e952ee6f0e0c1f1d980552759" title="genfit::Track::checkConsistency" alt="" coords="1087,1526,1321,1554"/>
+<area shape="rect" id="node49" href="$d8/db3/classgenfit_1_1Exception.html#a5cb44accc5d69d5742ed883a2d4ff88a" title="Standard error message handling for exceptions. use like &quot;std::cerr &lt;&lt; e.what();&quot;." alt="" coords="1115,1578,1293,1606"/>
 </map>

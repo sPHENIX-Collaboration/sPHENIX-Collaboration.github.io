@@ -1,8 +1,25 @@
 var hierarchy =
 [
     [ "ABlob", "d0/dc7/classABlob.html", null ],
-    [ "AbsBField", null, [
+    [ "genfit::AbsBField", "d0/dac/classgenfit_1_1AbsBField.html", [
+      [ "genfit::ConstField", "d5/d63/classgenfit_1_1ConstField.html", null ],
       [ "genfit::Field", "dc/dc5/classgenfit_1_1Field.html", null ]
+    ] ],
+    [ "genfit::AbsFinitePlane", "da/db6/classgenfit_1_1AbsFinitePlane.html", [
+      [ "genfit::RectangularFinitePlane", "d5/dc0/classgenfit_1_1RectangularFinitePlane.html", null ]
+    ] ],
+    [ "genfit::AbsFitter", "d0/dba/classgenfit_1_1AbsFitter.html", [
+      [ "genfit::AbsKalmanFitter", "d2/df7/classgenfit_1_1AbsKalmanFitter.html", [
+        [ "genfit::DAF", "d6/d60/classgenfit_1_1DAF.html", null ],
+        [ "genfit::KalmanFitter", "d4/db7/classgenfit_1_1KalmanFitter.html", null ],
+        [ "genfit::KalmanFitterRefTrack", "d8/d26/classgenfit_1_1KalmanFitterRefTrack.html", null ]
+      ] ],
+      [ "genfit::GblFitter", "d1/dc8/classgenfit_1_1GblFitter.html", null ],
+      [ "genfit::GFGbl", "d3/d7b/classgenfit_1_1GFGbl.html", null ]
+    ] ],
+    [ "genfit::AbsMeasurementProducer< measurement_T >", "dc/da2/classgenfit_1_1AbsMeasurementProducer.html", null ],
+    [ "genfit::AbsMeasurementProducer< genfit::AbsMeasurement >", "dc/da2/classgenfit_1_1AbsMeasurementProducer.html", [
+      [ "genfit::MeasurementProducer< hit_T, measurement_T >", "d5/dc6/classgenfit_1_1MeasurementProducer.html", null ]
     ] ],
     [ "algo_info", "d8/d1b/structalgo__info.html", null ],
     [ "alignBlkV1", "d3/df6/unionalignBlkV1.html", null ],
@@ -26,6 +43,7 @@ var hierarchy =
       [ "strless< T >", "d1/dd5/structstrless.html", null ]
     ] ],
     [ "BinEntryPair5D", "dd/d1e/classBinEntryPair5D.html", null ],
+    [ "gbl::BorderedBandMatrix", "df/d71/classgbl_1_1BorderedBandMatrix.html", null ],
     [ "PHG4mRICHDetector::BoxPar", "d2/d63/classPHG4mRICHDetector_1_1BoxPar.html", null ],
     [ "buffer", "da/d40/classbuffer.html", [
       [ "oncsBuffer", "da/d79/classoncsBuffer.html", null ],
@@ -145,6 +163,10 @@ var hierarchy =
     ] ],
     [ "tileHelper::eventtilesummary", "d7/d5d/structtileHelper_1_1eventtilesummary.html", null ],
     [ "evt_data", "db/d81/structevt__data.html", null ],
+    [ "std::exception", null, [
+      [ "genfit::Exception", "d8/db3/classgenfit_1_1Exception.html", null ]
+    ] ],
+    [ "genfit::ExtrapStep", "da/db5/structgenfit_1_1ExtrapStep.html", null ],
     [ "FactoryErrorPolicy", null, [
       [ "PHGenericFactoryT< AbstractProduct, FactoryErrorPolicy >", "d5/da9/classPHGenericFactoryT.html", null ]
     ] ],
@@ -152,6 +174,8 @@ var hierarchy =
     [ "fastvec2d", "d3/d23/classfastvec2d.html", null ],
     [ "oncsSub_iddreamv0::FEU_decoded_data", "dc/db8/structoncsSub__iddreamv0_1_1FEU__decoded__data.html", null ],
     [ "FFT", "da/d71/classFFT.html", null ],
+    [ "genfit::fieldCache", "d3/d58/structgenfit_1_1fieldCache.html", null ],
+    [ "genfit::FieldManager", "de/d8e/classgenfit_1_1FieldManager.html", null ],
     [ "FieldMaps", "d5/d8a/classFieldMaps.html", [
       [ "FieldMapsLaplace", "d0/da9/classFieldMapsLaplace.html", null ]
     ] ],
@@ -161,6 +185,10 @@ var hierarchy =
       [ "SimX", "d4/d39/classSimX.html", null ]
     ] ],
     [ "FileList", "d7/d01/classFileList.html", null ],
+    [ "genfit::FitStatus", "d0/d8d/classgenfit_1_1FitStatus.html", [
+      [ "genfit::GblFitStatus", "d3/dcf/classgenfit_1_1GblFitStatus.html", null ],
+      [ "genfit::KalmanFitStatus", "da/d9e/classgenfit_1_1KalmanFitStatus.html", null ]
+    ] ],
     [ "PHGenFit::Fitter", "d1/d35/classPHGenFit_1_1Fitter.html", null ],
     [ "floatBin", "d6/d46/classfloatBin.html", null ],
     [ "formatError", "db/d14/structformatError.html", null ],
@@ -373,7 +401,9 @@ var hierarchy =
           [ "PHGenFitTrkProp", "d0/d22/classPHGenFitTrkProp.html", null ]
         ] ],
         [ "PHTrackSeeding", "d4/d5a/classPHTrackSeeding.html", [
+          [ "PHCASeeding", "d1/d08/classPHCASeeding.html", null ],
           [ "PHHoughSeeding", "d8/dd4/classPHHoughSeeding.html", null ],
+          [ "PHRTreeSeeding", "da/df1/classPHRTreeSeeding.html", null ],
           [ "PHTruthTrackSeeding", "d5/da2/classPHTruthTrackSeeding.html", null ]
         ] ],
         [ "PHTrackSetMerging", "d1/d63/classPHTrackSetMerging.html", null ],
@@ -395,6 +425,7 @@ var hierarchy =
         [ "QAG4SimulationCalorimeter", "d9/d7b/classQAG4SimulationCalorimeter.html", null ],
         [ "QAG4SimulationCalorimeterSum", "d4/d90/classQAG4SimulationCalorimeterSum.html", null ],
         [ "QAG4SimulationJet", "d4/d28/classQAG4SimulationJet.html", null ],
+        [ "QAG4SimulationTracking", "de/dbf/classQAG4SimulationTracking.html", null ],
         [ "Quarkonia2LeptonsMC", "da/df3/classQuarkonia2LeptonsMC.html", null ],
         [ "RawClusterBuilderFwd", "dd/d9c/classRawClusterBuilderFwd.html", null ],
         [ "RawClusterBuilderGraph", "d2/d46/classRawClusterBuilderGraph.html", null ],
@@ -532,31 +563,26 @@ var hierarchy =
       [ "PHG4TrackUserInfoV1", "da/da8/classPHG4TrackUserInfoV1.html", null ]
     ] ],
     [ "G__cpp_setup_initDirectPhotonPythia_Dict", "d1/def/classG____cpp__setup__initDirectPhotonPythia__Dict.html", null ],
-    [ "G__cpp_setup_initDISKinematicsReco_Dict", "d1/df3/classG____cpp__setup__initDISKinematicsReco__Dict.html", null ],
-    [ "G__cpp_setup_initExclusiveReco_Dict", "dd/d37/classG____cpp__setup__initExclusiveReco__Dict.html", null ],
     [ "G__cpp_setup_inithcalUtilDict", "df/d42/classG____cpp__setup__inithcalUtilDict.html", null ],
-    [ "G__cpp_setup_initLeptoquarks_Dict", "de/d68/classG____cpp__setup__initLeptoquarks__Dict.html", null ],
-    [ "G__cpp_setup_initLeptoquarksReco_Dict", "db/de5/classG____cpp__setup__initLeptoquarksReco__Dict.html", null ],
-    [ "G__cpp_setup_initPidCandidate_Dict", "d1/dc8/classG____cpp__setup__initPidCandidate__Dict.html", null ],
-    [ "G__cpp_setup_initPidCandidatev1_Dict", "dd/d24/classG____cpp__setup__initPidCandidatev1__Dict.html", null ],
-    [ "G__cpp_setup_initQuarkonia2LeptonsMC_Dict", "d8/d97/classG____cpp__setup__initQuarkonia2LeptonsMC__Dict.html", null ],
     [ "G__Sizep2memfuncDirectPhotonPythia_Dict", "de/db5/classG____Sizep2memfuncDirectPhotonPythia__Dict.html", null ],
-    [ "G__Sizep2memfuncDISKinematicsReco_Dict", "da/d79/classG____Sizep2memfuncDISKinematicsReco__Dict.html", null ],
-    [ "G__Sizep2memfuncExclusiveReco_Dict", "d2/d9d/classG____Sizep2memfuncExclusiveReco__Dict.html", null ],
     [ "G__Sizep2memfunchcalUtilDict", "de/d72/classG____Sizep2memfunchcalUtilDict.html", null ],
-    [ "G__Sizep2memfuncLeptoquarks_Dict", "db/d0c/classG____Sizep2memfuncLeptoquarks__Dict.html", null ],
-    [ "G__Sizep2memfuncLeptoquarksReco_Dict", "d8/d86/classG____Sizep2memfuncLeptoquarksReco__Dict.html", null ],
-    [ "G__Sizep2memfuncPidCandidate_Dict", "d5/de0/classG____Sizep2memfuncPidCandidate__Dict.html", null ],
-    [ "G__Sizep2memfuncPidCandidatev1_Dict", "d8/d41/classG____Sizep2memfuncPidCandidatev1__Dict.html", null ],
-    [ "G__Sizep2memfuncQuarkonia2LeptonsMC_Dict", "d1/d01/classG____Sizep2memfuncQuarkonia2LeptonsMC__Dict.html", null ],
     [ "gamma_cut", "da/d16/structgamma__cut.html", null ],
+    [ "gbl::GblData", "d7/d06/classgbl_1_1GblData.html", null ],
+    [ "gbl::GblPoint", "da/d3b/classgbl_1_1GblPoint.html", null ],
+    [ "genfit::GblTrackSegmentController", "d0/daf/classgenfit_1_1GblTrackSegmentController.html", null ],
+    [ "gbl::GblTrajectory", "dc/d6b/classgbl_1_1GblTrajectory.html", null ],
     [ "PHG4CylinderGeom_Spacalv3::geom_tower", "df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html", null ],
+    [ "genfit::GFRaveVertexFactory", "d1/d19/classgenfit_1_1GFRaveVertexFactory.html", null ],
     [ "GL1_1_DATA", "d0/d12/structGL1__1__DATA.html", null ],
     [ "GL1_2_DATA", "d2/db2/structGL1__2__DATA.html", null ],
     [ "GL1_3_DATA", "db/d4b/structGL1__3__DATA.html", null ],
     [ "GL1_EVENT_DATA", "db/d6a/structGL1__EVENT__DATA.html", null ],
     [ "GL1_TIME_STAMP", "d5/db1/structGL1__TIME__STAMP.html", null ],
     [ "GL1P_DATA", "de/d4b/structGL1P__DATA.html", null ],
+    [ "GPUTPCBaseTrackParam", "d3/dbf/classGPUTPCBaseTrackParam.html", null ],
+    [ "GPUTPCTrackParam::GPUTPCTrackFitParam", "dc/d28/structGPUTPCTrackParam_1_1GPUTPCTrackFitParam.html", null ],
+    [ "GPUTPCTrackLinearisation", "de/d80/classGPUTPCTrackLinearisation.html", null ],
+    [ "GPUTPCTrackParam", "d4/d60/classGPUTPCTrackParam.html", null ],
     [ "groot", "d6/dfd/classgroot.html", null ],
     [ "hadron_cut", "d1/d41/structhadron__cut.html", null ],
     [ "half", "d2/d29/classhalf.html", null ],
@@ -594,8 +620,8 @@ var hierarchy =
     [ "HijJet4::HIJJET4", "d5/da7/structHijJet4_1_1HIJJET4.html", null ],
     [ "HiMain1", "d8/d1a/classHiMain1.html", null ],
     [ "HiMain1::HIMAIN1", "d3/d9a/structHiMain1_1_1HIMAIN1.html", null ],
-    [ "HiMain2", "d1/d5c/classHiMain2.html", null ],
     [ "HiMain2::HIMAIN2", "df/dc2/structHiMain2_1_1HIMAIN2.html", null ],
+    [ "HiMain2", "d1/d5c/classHiMain2.html", null ],
     [ "HiParnt", "db/da1/classHiParnt.html", null ],
     [ "HiParnt::HIPARNT", "d5/db4/structHiParnt_1_1HIPARNT.html", null ],
     [ "HiStrng::HISTRNG", "d2/daa/structHiStrng_1_1HISTRNG.html", null ],
@@ -605,6 +631,7 @@ var hierarchy =
     [ "hitTriplet", "d3/db2/classhitTriplet.html", null ],
     [ "hLabHelper", "db/de1/classhLabHelper.html", null ],
     [ "oncsSub_idsrs_v01::hybriddata", "db/d93/structoncsSub__idsrs__v01_1_1hybriddata.html", null ],
+    [ "genfit::ICalibrationParametersDerivatives", "dd/d08/classgenfit_1_1ICalibrationParametersDerivatives.html", null ],
     [ "IClassifierReader", "dd/d1e/classIClassifierReader.html", [
       [ "ReadCuts", "d7/d7d/classReadCuts.html", null ],
       [ "ReadCuts", "d7/d7d/classReadCuts.html", null ],
@@ -640,6 +667,36 @@ var hierarchy =
     ] ],
     [ "JetRecoEval", "dd/d75/classJetRecoEval.html", null ],
     [ "JetTruthEval", "d3/d22/classJetTruthEval.html", null ],
+    [ "KFEfficiencyParticleInfo", "d0/dfe/classKFEfficiencyParticleInfo.html", null ],
+    [ "KFMCCounter< T >", "d8/d5c/structKFMCCounter.html", null ],
+    [ "KFMCCounter< double >", "d8/d5c/structKFMCCounter.html", null ],
+    [ "KFMCCounter< int >", "d8/d5c/structKFMCCounter.html", null ],
+    [ "KFMCTrack", "d5/d8f/classKFMCTrack.html", null ],
+    [ "KFMCVertex", "dd/d07/classKFMCVertex.html", null ],
+    [ "KFParticleBaseSIMD", "d2/dbb/classKFParticleBaseSIMD.html", [
+      [ "KFParticleSIMD", "db/dcc/classKFParticleSIMD.html", null ]
+    ] ],
+    [ "KFParticlePVReconstructor::KFParticleCluster", "d9/d30/structKFParticlePVReconstructor_1_1KFParticleCluster.html", null ],
+    [ "KFParticleDatabase", "dc/d83/classKFParticleDatabase.html", null ],
+    [ "KFParticleFieldRegion", "df/d4c/classKFParticleFieldRegion.html", null ],
+    [ "KFParticleFieldValue", "d2/ddd/classKFParticleFieldValue.html", null ],
+    [ "KFParticleFinder", "d2/d3d/classKFParticleFinder.html", null ],
+    [ "KFParticlePVReconstructor", "df/d4e/classKFParticlePVReconstructor.html", null ],
+    [ "KFParticleTest", "d6/d25/classKFParticleTest.html", null ],
+    [ "KFParticleTopoReconstructor", "db/d6d/classKFParticleTopoReconstructor.html", null ],
+    [ "KFPartMatch", "dc/d65/structKFPartMatch.html", null ],
+    [ "KFPEmcCluster", "d5/d4e/classKFPEmcCluster.html", null ],
+    [ "KFPHistogram", "df/d10/classKFPHistogram.html", null ],
+    [ "KFPHistogram1D", "d5/dea/classKFPHistogram1D.html", null ],
+    [ "KFPHistogramSet", "d6/d9c/classKFPHistogramSet.html", null ],
+    [ "KFPInputData", "d1/d3a/classKFPInputData.html", null ],
+    [ "KFPInputDataArray", "d2/d6e/structKFPInputDataArray.html", null ],
+    [ "KFPLinkedList", "d1/dbe/structKFPLinkedList.html", null ],
+    [ "KFPSimdAllocator< T >", "d1/db5/classKFPSimdAllocator.html", null ],
+    [ "KFPTrack", "d0/db6/classKFPTrack.html", null ],
+    [ "KFPTrackIndex", "d9/de1/structKFPTrackIndex.html", null ],
+    [ "KFPTrackVector", "d1/d86/classKFPTrackVector.html", null ],
+    [ "KFPVertex", "d2/d2e/classKFPVertex.html", null ],
     [ "Langevin", "d9/daa/classLangevin.html", null ],
     [ "LaplaceSolution", "d9/d0e/classLaplaceSolution.html", null ],
     [ "PHG4Sector::Layer", "d0/d21/classPHG4Sector_1_1Layer.html", null ],
@@ -648,11 +705,19 @@ var hierarchy =
     [ "PHG4FullProjSpacalCellReco::LightCollectionModel", "d3/dd2/classPHG4FullProjSpacalCellReco_1_1LightCollectionModel.html", null ],
     [ "lin_res", "d5/d80/classlin__res.html", null ],
     [ "loaderObj", "d8/d79/structloaderObj.html", null ],
+    [ "MagneticField", null, [
+      [ "genfit::GFRaveMagneticField", "d8/d7b/classgenfit_1_1GFRaveMagneticField.html", null ]
+    ] ],
+    [ "genfit::Material", "da/d5d/structgenfit_1_1Material.html", null ],
+    [ "genfit::MaterialEffects", "d1/d34/classgenfit_1_1MaterialEffects.html", null ],
+    [ "genfit::MatStep", "d0/d1d/structgenfit_1_1MatStep.html", null ],
     [ "md5_state_s", "d8/d22/structmd5__state__s.html", null ],
     [ "PHGenFit::Measurement", "d4/db3/classPHGenFit_1_1Measurement.html", [
       [ "PHGenFit::PlanarMeasurement", "db/db1/classPHGenFit_1_1PlanarMeasurement.html", null ],
       [ "PHGenFit::SpacepointMeasurement", "d6/dc8/classPHGenFit_1_1SpacepointMeasurement.html", null ]
     ] ],
+    [ "genfit::MeasurementFactory< measurement_T >", "d9/d01/classgenfit_1_1MeasurementFactory.html", null ],
+    [ "gbl::MilleBinary", "de/df8/classgbl_1_1MilleBinary.html", null ],
     [ "mis", "df/dfd/structmis.html", null ],
     [ "miz_indgdef", "d4/dea/structmiz__indgdef.html", null ],
     [ "miz_irdgdef", "d8/d88/structmiz__irdgdef.html", null ],
@@ -752,6 +817,7 @@ var hierarchy =
     [ "ParRange", "d1/d3f/classParRange.html", null ],
     [ "DVMPHelper::particle_reco", "dd/dd8/structDVMPHelper_1_1particle__reco.html", null ],
     [ "DVMPHelper::particle_truth", "d9/d0e/structDVMPHelper_1_1particle__truth.html", null ],
+    [ "ParticleInfo", "d6/d0d/structParticleInfo.html", null ],
     [ "PdbApplication", "dd/df1/classPdbApplication.html", [
       [ "PgPostApplication", "d4/dac/classPgPostApplication.html", null ]
     ] ],
@@ -970,6 +1036,10 @@ var hierarchy =
     [ "prdffile", "dd/de8/structprdffile.html", null ],
     [ "prdfoStream", "db/db8/classprdfoStream.html", null ],
     [ "PHGenericFactoryT< AbstractProduct, FactoryErrorPolicy >::ProductCreatorPair", "da/db7/classPHGenericFactoryT_1_1ProductCreatorPair.html", null ],
+    [ "Propagator", null, [
+      [ "genfit::GFRavePropagator", "d3/df2/classgenfit_1_1GFRavePropagator.html", null ]
+    ] ],
+    [ "genfit::PruneFlags", "d6/d51/structgenfit_1_1PruneFlags.html", null ],
     [ "PseudoJet", null, [
       [ "PseudoJetPlus", "d3/df9/classPseudoJetPlus.html", null ]
     ] ],
@@ -986,24 +1056,29 @@ var hierarchy =
     [ "RanSeed", "d7/deb/classRanSeed.html", null ],
     [ "RanSeed::RANSEED", "d8/de7/structRanSeed_1_1RANSEED.html", null ],
     [ "RawClusterUtility", "d0/d0e/classRawClusterUtility.html", null ],
-    [ "Prototype3DSTReader::record", "df/d6b/structPrototype3DSTReader_1_1record.html", null ],
-    [ "Prototype2DSTReader::record", "df/d10/structPrototype2DSTReader_1_1record.html", null ],
-    [ "Prototype4DSTReader::record", "d1/d4a/structPrototype4DSTReader_1_1record.html", null ],
+    [ "KFPSimdAllocator< T >::rebind< U >", "d7/dc0/structKFPSimdAllocator_1_1rebind.html", null ],
     [ "PHG4DSTReader::record", "db/d09/structPHG4DSTReader_1_1record.html", null ],
+    [ "Prototype2DSTReader::record", "df/d10/structPrototype2DSTReader_1_1record.html", null ],
+    [ "Prototype3DSTReader::record", "df/d6b/structPrototype3DSTReader_1_1record.html", null ],
+    [ "Prototype4DSTReader::record", "d1/d4a/structPrototype4DSTReader_1_1record.html", null ],
     [ "RecursiveMomentumContainer", "d5/de8/classRecursiveMomentumContainer.html", [
       [ "RecursiveMomentumContainerEnd", "df/d49/classRecursiveMomentumContainerEnd.html", null ]
     ] ],
     [ "oncsSub_idsrs_v01::report", "df/de7/structoncsSub__idsrs__v01_1_1report.html", null ],
     [ "ePHENIXRICH::RICH_Geometry", "d8/da8/classePHENIXRICH_1_1RICH__Geometry.html", null ],
     [ "richChannelList", "df/d81/structrichChannelList.html", null ],
+    [ "genfit::RKMatrix< nRows, nCols >", "da/deb/structgenfit_1_1RKMatrix.html", null ],
+    [ "genfit::RKMatrix< 1, 7 >", "da/deb/structgenfit_1_1RKMatrix.html", null ],
+    [ "genfit::RKMatrix< 7, 7 >", "da/deb/structgenfit_1_1RKMatrix.html", null ],
+    [ "genfit::RKStep", "d6/d72/structgenfit_1_1RKStep.html", null ],
     [ "rootfile", "d8/d6b/structrootfile.html", null ],
     [ "rPad", "d7/dcc/classrPad.html", null ],
     [ "tileHelper::runtilesummary", "db/d7b/structtileHelper_1_1runtilesummary.html", null ],
     [ "RunToTime", "dc/d4a/classRunToTime.html", [
       [ "RunToTimePg", "d2/d00/classRunToTimePg.html", null ]
     ] ],
-    [ "TpcPrototypeDefs::FEEv2::SampleFit_PowerLawDoubleExp_PDFMaker", "d4/d81/classTpcPrototypeDefs_1_1FEEv2_1_1SampleFit__PowerLawDoubleExp__PDFMaker.html", null ],
     [ "TPCDaqDefs::FEEv1::SampleFit_PowerLawDoubleExp_PDFMaker", "df/d91/classTPCDaqDefs_1_1FEEv1_1_1SampleFit__PowerLawDoubleExp__PDFMaker.html", null ],
+    [ "TpcPrototypeDefs::FEEv2::SampleFit_PowerLawDoubleExp_PDFMaker", "d4/d81/classTpcPrototypeDefs_1_1FEEv2_1_1SampleFit__PowerLawDoubleExp__PDFMaker.html", null ],
     [ "TpcPrototypeUnpacker::PadPlaneData::SampleID", "db/d40/structTpcPrototypeUnpacker_1_1PadPlaneData_1_1SampleID.html", null ],
     [ "TPCFEETestRecov1::PadPlaneData::SampleID", "db/d22/structTPCFEETestRecov1_1_1PadPlaneData_1_1SampleID.html", null ],
     [ "sChargeMap", "de/deb/classsChargeMap.html", null ],
@@ -1014,19 +1089,21 @@ var hierarchy =
     [ "sebAlignBlk", "df/d0f/structsebAlignBlk.html", null ],
     [ "SecGeom", "db/db5/structSecGeom.html", null ],
     [ "PHG4Sector::Sector_Geometry", "d9/de6/classPHG4Sector_1_1Sector__Geometry.html", null ],
+    [ "SegmentationAlpide", "d5/d35/classSegmentationAlpide.html", null ],
     [ "SelectorWorker", null, [
       [ "SelectorChargeWorker", "d0/d6b/classSelectorChargeWorker.html", null ],
       [ "SelectorDijetWorker", "da/da7/classSelectorDijetWorker.html", null ]
     ] ],
     [ "SetupDualRICHAnalyzer", "db/dca/classSetupDualRICHAnalyzer.html", null ],
-    [ "boost::shared_ptr< T >", "da/d18/classboost_1_1shared__ptr.html", null ],
     [ "shared_ptr< T >", "d4/d67/classshared__ptr.html", null ],
+    [ "boost::shared_ptr< T >", "da/d18/classboost_1_1shared__ptr.html", null ],
     [ "boost::shared_ptr< TClonesArray >", "da/d18/classboost_1_1shared__ptr.html", null ],
     [ "boost::detail::shared_ptr_traits< T >", "d7/d17/structboost_1_1detail_1_1shared__ptr__traits.html", null ],
     [ "boost::detail::shared_ptr_traits< void >", "d6/d3e/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01_4.html", null ],
     [ "boost::detail::shared_ptr_traits< void const  >", "d7/dfb/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01const_01_01_4.html", null ],
     [ "boost::detail::shared_ptr_traits< void const volatile >", "dc/dbf/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01const_01volatile_01_4.html", null ],
     [ "boost::detail::shared_ptr_traits< void volatile >", "df/d5a/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01volatile_01_4.html", null ],
+    [ "genfit::SharedPlanePtrCreator", "d5/d9e/classgenfit_1_1SharedPlanePtrCreator.html", null ],
     [ "sHelix", "d1/d5e/classsHelix.html", null ],
     [ "SimpleHit3D", "da/d87/classSimpleHit3D.html", null ],
     [ "simpleRandom", "d8/d47/classsimpleRandom.html", null ],
@@ -1036,10 +1113,18 @@ var hierarchy =
     [ "boost::detail::sp_enable_if_auto_ptr< std::auto_ptr< T >, R >", "db/d21/structboost_1_1detail_1_1sp__enable__if__auto__ptr_3_01std_1_1auto__ptr_3_01T_01_4_00_01R_01_4.html", null ],
     [ "SpectrRatio", "d3/d0c/structSpectrRatio.html", null ],
     [ "SpectrResp", "d9/d3e/structSpectrResp.html", null ],
-    [ "oncsSub_idfnalmwpc::SpillInfo", "d2/df3/structoncsSub__idfnalmwpc_1_1SpillInfo.html", null ],
     [ "oncsSub_idfnalmwpcv2::SpillInfo", "d2/db2/structoncsSub__idfnalmwpcv2_1_1SpillInfo.html", null ],
+    [ "oncsSub_idfnalmwpc::SpillInfo", "d2/df3/structoncsSub__idfnalmwpc_1_1SpillInfo.html", null ],
     [ "stack", "d1/dc2/classstack.html", null ],
+    [ "genfit::StateOnPlane", "de/dd5/classgenfit_1_1StateOnPlane.html", [
+      [ "genfit::MeasuredStateOnPlane", "d2/d74/classgenfit_1_1MeasuredStateOnPlane.html", [
+        [ "genfit::KalmanFittedStateOnPlane", "df/d8f/classgenfit_1_1KalmanFittedStateOnPlane.html", null ],
+        [ "genfit::MeasurementOnPlane", "dd/d4c/classgenfit_1_1MeasurementOnPlane.html", null ]
+      ] ],
+      [ "genfit::ReferenceStateOnPlane", "d2/d6a/classgenfit_1_1ReferenceStateOnPlane.html", null ]
+    ] ],
     [ "boost::detail::static_cast_tag", "dd/df3/structboost_1_1detail_1_1static__cast__tag.html", null ],
+    [ "genfit::StepLimits", "dc/dcc/classgenfit_1_1StepLimits.html", null ],
     [ "STREAMBUF", null, [
       [ "msg_buffer", "d8/d9f/classmsg__buffer.html", [
         [ "filter_msg_buffer", "d7/d1d/classfilter__msg__buffer.html", [
@@ -1062,12 +1147,25 @@ var hierarchy =
     [ "oncsSub_idfnalmwpcv2::TDCData", "dd/d0c/structoncsSub__idfnalmwpcv2_1_1TDCData.html", null ],
     [ "oncsSub_idfnalmwpc::TDCEvent", "dc/d81/structoncsSub__idfnalmwpc_1_1TDCEvent.html", null ],
     [ "oncsSub_idfnalmwpcv2::TDCEvent", "d6/dc0/structoncsSub__idfnalmwpcv2_1_1TDCEvent.html", null ],
-    [ "oncsSub_idfnalmwpc::TDCspillheader", "d8/d69/structoncsSub__idfnalmwpc_1_1TDCspillheader.html", null ],
     [ "oncsSub_idfnalmwpcv2::TDCspillheader", "d0/de6/structoncsSub__idfnalmwpcv2_1_1TDCspillheader.html", null ],
+    [ "oncsSub_idfnalmwpc::TDCspillheader", "d8/d69/structoncsSub__idfnalmwpc_1_1TDCspillheader.html", null ],
     [ "TDirectoryHelper", "de/d7e/classTDirectoryHelper.html", null ],
     [ "tecChannelList", "da/d67/structtecChannelList.html", null ],
     [ "TempComb", "d5/dd9/structTempComb.html", null ],
     [ "TemperatureCorrection", "d4/d35/classTemperatureCorrection.html", null ],
+    [ "Test", null, [
+      [ "genfit::ConstFieldInitializedTests", "d7/de6/classgenfit_1_1ConstFieldInitializedTests.html", null ],
+      [ "genfit::ConstFieldUninitializedTests", "d1/dd2/classgenfit_1_1ConstFieldUninitializedTests.html", null ],
+      [ "genfit::MaterialEffectsTests", "d6/d0d/classgenfit_1_1MaterialEffectsTests.html", null ],
+      [ "genfit::MaterialTests", "db/dd9/classgenfit_1_1MaterialTests.html", null ],
+      [ "genfit::RKTrackRepTests", "de/dfe/classgenfit_1_1RKTrackRepTests.html", null ],
+      [ "genfit::RootEigenTransformations", "df/df5/classgenfit_1_1RootEigenTransformations.html", null ],
+      [ "genfit::UnitTests", "de/dec/classgenfit_1_1UnitTests.html", null ]
+    ] ],
+    [ "Test", null, [
+      [ "genfit::RKMatrixEigenTransformations", "d4/dd4/classgenfit_1_1RKMatrixEigenTransformations.html", null ]
+    ] ],
+    [ "TestCase", "d3/dee/structTestCase.html", null ],
     [ "TFile", null, [
       [ "PHTFileServer::SafeTFile", "da/dbc/classPHTFileServer_1_1SafeTFile.html", null ]
     ] ],
@@ -1078,6 +1176,8 @@ var hierarchy =
     [ "PHTimer::time_struct", "dc/d23/structPHTimer_1_1time__struct.html", null ],
     [ "PHTimeServer::timer", "d7/d41/classPHTimeServer_1_1timer.html", null ],
     [ "TNamed", null, [
+      [ "genfit::EventDisplay", "d4/d1a/classgenfit_1_1EventDisplay.html", null ],
+      [ "KFPVEfficiencies", "dc/d52/classKFPVEfficiencies.html", null ],
       [ "PgPostBankBackupStorage", "d1/d28/classPgPostBankBackupStorage.html", null ]
     ] ],
     [ "PHDataNode< T >::tobjcast", "dc/dd3/unionPHDataNode_1_1tobjcast.html", null ],
@@ -1089,8 +1189,57 @@ var hierarchy =
       [ "ExampleAnalysisModule::Eval_Cluster", "d2/d20/classExampleAnalysisModule_1_1Eval__Cluster.html", null ],
       [ "ExampleAnalysisModule::Eval_Run", "de/db2/classExampleAnalysisModule_1_1Eval__Run.html", null ],
       [ "ExampleAnalysisModule::Eval_Run", "de/db2/classExampleAnalysisModule_1_1Eval__Run.html", null ],
+      [ "genfit::AbsFitterInfo", "d9/d8c/classgenfit_1_1AbsFitterInfo.html", [
+        [ "genfit::GblFitterInfo", "d3/d5c/classgenfit_1_1GblFitterInfo.html", null ],
+        [ "genfit::KalmanFitterInfo", "d3/d03/classgenfit_1_1KalmanFitterInfo.html", null ]
+      ] ],
+      [ "genfit::AbsHMatrix", "d9/dc6/classgenfit_1_1AbsHMatrix.html", [
+        [ "genfit::HMatrixPhi", "d0/d9e/classgenfit_1_1HMatrixPhi.html", null ],
+        [ "genfit::HMatrixU", "de/d67/classgenfit_1_1HMatrixU.html", null ],
+        [ "genfit::HMatrixUnit", "d6/d42/classgenfit_1_1HMatrixUnit.html", null ],
+        [ "genfit::HMatrixUV", "de/d77/classgenfit_1_1HMatrixUV.html", null ],
+        [ "genfit::HMatrixV", "d7/dae/classgenfit_1_1HMatrixV.html", null ]
+      ] ],
+      [ "genfit::AbsMaterialInterface", "d5/d22/classgenfit_1_1AbsMaterialInterface.html", [
+        [ "genfit::TGeoMaterialInterface", "de/db6/classgenfit_1_1TGeoMaterialInterface.html", null ]
+      ] ],
+      [ "genfit::AbsMeasurement", "d5/d1f/classgenfit_1_1AbsMeasurement.html", [
+        [ "genfit::FullMeasurement", "d0/df0/classgenfit_1_1FullMeasurement.html", null ],
+        [ "genfit::PlanarMeasurement", "dd/d7d/classgenfit_1_1PlanarMeasurement.html", null ],
+        [ "genfit::SpacepointMeasurement", "d4/deb/classgenfit_1_1SpacepointMeasurement.html", [
+          [ "genfit::mySpacepointMeasurement", "d9/ded/classgenfit_1_1mySpacepointMeasurement.html", null ],
+          [ "genfit::ProlateSpacepointMeasurement", "dc/d9e/classgenfit_1_1ProlateSpacepointMeasurement.html", null ]
+        ] ],
+        [ "genfit::WireMeasurement", "d6/dba/classgenfit_1_1WireMeasurement.html", [
+          [ "genfit::WirePointMeasurement", "d6/d83/classgenfit_1_1WirePointMeasurement.html", null ]
+        ] ],
+        [ "genfit::WireMeasurementNew", "d9/d77/classgenfit_1_1WireMeasurementNew.html", null ]
+      ] ],
+      [ "genfit::AbsTrackRep", "d1/d25/classgenfit_1_1AbsTrackRep.html", [
+        [ "genfit::RKTrackRep", "d2/d12/classgenfit_1_1RKTrackRep.html", null ]
+      ] ],
+      [ "genfit::DetPlane", "dd/d25/classgenfit_1_1DetPlane.html", null ],
+      [ "genfit::GFRaveTrackParameters", "d8/d8c/classgenfit_1_1GFRaveTrackParameters.html", null ],
+      [ "genfit::GFRaveVertex", "db/da0/classgenfit_1_1GFRaveVertex.html", null ],
+      [ "genfit::HelixTrackModel", "da/de9/classgenfit_1_1HelixTrackModel.html", null ],
+      [ "genfit::MeasurementCreator", "d4/de2/classgenfit_1_1MeasurementCreator.html", null ],
+      [ "genfit::mySpacepointDetectorHit", "d2/d39/classgenfit_1_1mySpacepointDetectorHit.html", null ],
+      [ "genfit::ThinScatterer", "d6/d15/classgenfit_1_1ThinScatterer.html", null ],
+      [ "genfit::Track", "d6/d8a/classgenfit_1_1Track.html", null ],
+      [ "genfit::TrackCand", "d3/da2/classgenfit_1_1TrackCand.html", null ],
+      [ "genfit::TrackCandHit", "da/df3/classgenfit_1_1TrackCandHit.html", [
+        [ "genfit::WireTrackCandHit", "d3/d69/classgenfit_1_1WireTrackCandHit.html", null ]
+      ] ],
+      [ "genfit::TrackPoint", "db/d40/classgenfit_1_1TrackPoint.html", null ],
       [ "HFFastSim::D02PiK", "dd/d96/classHFFastSim_1_1D02PiK.html", null ],
       [ "HFFastSim::Lc2pPiK", "d2/dde/classHFFastSim_1_1Lc2pPiK.html", null ],
+      [ "KFMCParticle", "d7/dcb/classKFMCParticle.html", null ],
+      [ "KFPartEfficiencies", "df/d77/classKFPartEfficiencies.html", null ],
+      [ "KFParticleBase", "d5/d41/classKFParticleBase.html", [
+        [ "KFParticle", "d0/d49/classKFParticle.html", [
+          [ "KFVertex", "d8/d00/classKFVertex.html", null ]
+        ] ]
+      ] ],
       [ "PgPostBankBackupStorage::BankHeader", "db/d56/classPgPostBankBackupStorage_1_1BankHeader.html", null ],
       [ "PHObject", "d9/d24/classPHObject.html", [
         [ "AssocInfoContainer", "d2/db7/classAssocInfoContainer.html", null ],
@@ -1360,13 +1509,15 @@ var hierarchy =
     ] ],
     [ "tower", "d6/d91/classtower.html", null ],
     [ "TowerGeom", "d4/d8e/structTowerGeom.html", null ],
-    [ "PHG4CrystalCalorimeterDetector::towerposition", "de/deb/structPHG4CrystalCalorimeterDetector_1_1towerposition.html", null ],
     [ "PHG4ForwardHcalDetector::towerposition", "d8/daf/structPHG4ForwardHcalDetector_1_1towerposition.html", null ],
-    [ "PHG4EICForwardEcalDetector::towerposition", "dd/dbf/structPHG4EICForwardEcalDetector_1_1towerposition.html", null ],
     [ "PHG4ForwardEcalDetector::towerposition", "df/d9c/structPHG4ForwardEcalDetector_1_1towerposition.html", null ],
+    [ "PHG4EICForwardEcalDetector::towerposition", "dd/dbf/structPHG4EICForwardEcalDetector_1_1towerposition.html", null ],
+    [ "PHG4CrystalCalorimeterDetector::towerposition", "de/deb/structPHG4CrystalCalorimeterDetector_1_1towerposition.html", null ],
     [ "oncsSub_idtpcfeev2::tpc_sample", "d1/dce/structoncsSub__idtpcfeev2_1_1tpc__sample.html", null ],
     [ "TPCR2Map", "d3/de6/classTPCR2Map.html", null ],
     [ "PHGenFit::Track", "d7/dd5/classPHGenFit_1_1Track.html", null ],
+    [ "genfit::trackAndState", "dd/d17/structgenfit_1_1trackAndState.html", null ],
+    [ "genfit::TrackPointComparator", "d8/d6c/classgenfit_1_1TrackPointComparator.html", null ],
     [ "TrackProjectionTools", "d4/d3f/classTrackProjectionTools.html", null ],
     [ "TrackProjectorPid", "d6/da3/classTrackProjectorPid.html", null ],
     [ "TrackProjectorPlaneECAL", "d6/da6/classTrackProjectorPlaneECAL.html", null ],
@@ -1379,10 +1530,10 @@ var hierarchy =
     ] ],
     [ "twrs", "d9/dae/classtwrs.html", null ],
     [ "twrs_fwd", "da/dc8/classtwrs__fwd.html", null ],
-    [ "RawClusterv1::u_property", "dc/d35/unionRawClusterv1_1_1u__property.html", null ],
-    [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
-    [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
     [ "PidCandidatev1::u_property", "d3/d31/unionPidCandidatev1_1_1u__property.html", null ],
+    [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
+    [ "RawClusterv1::u_property", "dc/d35/unionRawClusterv1_1_1u__property.html", null ],
+    [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
     [ "half::uif", "db/d55/unionhalf_1_1uif.html", null ],
     [ "UserInfoBase", null, [
       [ "JetAnalysisUserInfo", "db/d2c/classJetAnalysisUserInfo.html", null ],
@@ -1394,7 +1545,10 @@ var hierarchy =
     [ "VariableArrayUtils", "d2/d08/classVariableArrayUtils.html", null ],
     [ "VertexFinder", "d9/d02/classVertexFinder.html", null ],
     [ "VertexFitter", "d7/d8c/classVertexFitter.html", null ],
+    [ "gbl::VMatrix", "db/d4d/classgbl_1_1VMatrix.html", null ],
+    [ "gbl::VSymMatrix", "d8/d90/classgbl_1_1VSymMatrix.html", null ],
     [ "VtxRegressor", "d7/dd4/classVtxRegressor.html", null ],
+    [ "gbl::VVector", "d8/d27/classgbl_1_1VVector.html", null ],
     [ "weak_ptr< T >", "d9/d9b/classweak__ptr.html", null ],
     [ "xMD5Context", "df/db1/structxMD5Context.html", null ],
     [ "ZHough", null, [

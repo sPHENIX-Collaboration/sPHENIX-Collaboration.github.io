@@ -1,0 +1,31 @@
+<map id="genfit::Track::reverseTrack" name="genfit::Track::reverseTrack">
+<area shape="rect" id="node2" href="$d6/d8a/classgenfit_1_1Track.html#a2f9b9d0d3ebd512b3e64df5a91203a49" title="Flip direction of momentum seed." alt="" coords="253,80,484,108"/>
+<area shape="rect" id="node3" href="$d6/d8a/classgenfit_1_1Track.html#a20e8861b9b00d3de75c8794344ef5d1b" title="Flip the ordering of the TrackPoints." alt="" coords="269,132,469,176"/>
+<area shape="rect" id="node9" href="$d6/d8a/classgenfit_1_1Track.html#a318dbf36e6a8e64897ec1f4c2668cf50" title="Switch the pdg signs of specified rep (of all reps if rep == nullptr)." alt="" coords="257,233,480,261"/>
+<area shape="rect" id="node11" href="$d6/d8a/classgenfit_1_1Track.html#aa39935d7b66768b5fef4bbeec02438cc" title="genfit::Track::udpateSeed" alt="" coords="271,485,466,513"/>
+<area shape="rect" id="node4" href="$d6/d8a/classgenfit_1_1Track.html#ad6ac9e44842a18fbba2577a887f008c5" title="genfit::Track::deleteForwardInfo" alt="" coords="539,5,775,33"/>
+<area shape="rect" id="node6" href="$d6/d8a/classgenfit_1_1Track.html#a409abb47dc8fb5134031f8af1ce9b44a" title="genfit::Track::deleteBackwardInfo" alt="" coords="533,57,781,85"/>
+<area shape="rect" id="node7" href="$d6/d8a/classgenfit_1_1Track.html#aef6313a66e86853f9eef2e38f519bc37" title="genfit::Track::deleteReferenceInfo" alt="" coords="532,109,781,137"/>
+<area shape="rect" id="node8" href="$d6/d8a/classgenfit_1_1Track.html#aebe51cd12b541bb8821c1b919480371d" title="genfit::Track::fillPoints\lWithMeasurement" alt="" coords="571,161,742,205"/>
+<area shape="rect" id="node5" href="$d6/d8a/classgenfit_1_1Track.html#ad4ead0ee2abc2bcb6b616f8976bc559a" title="genfit::Track::trackHasChanged" alt="" coords="829,57,1063,85"/>
+<area shape="rect" id="node10" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a754b00fa09fe85760439462bc22bca84" title="try to multiply pdg code with &#45;1. (Switch from particle to anti&#45;particle and vice versa)..." alt="" coords="579,229,735,273"/>
+<area shape="rect" id="node12" href="$d6/d8a/classgenfit_1_1Track.html#abf156957d701a9a10a02fef8ac54e4d9" title="Shortcut to get FittedStates." alt="" coords="570,297,743,341"/>
+<area shape="rect" id="node18" href="$d6/d8a/classgenfit_1_1Track.html#a9eaa1867e48226ba04ac301d679217fa" title="genfit::Track::setTimeSeed" alt="" coords="556,365,757,393"/>
+<area shape="rect" id="node19" href="$de/dd5/classgenfit_1_1StateOnPlane.html#ae6fdaf0b3a8461d7ea093f8b983c905c" title="genfit::StateOnPlane\l::getTime" alt="" coords="576,417,737,461"/>
+<area shape="rect" id="node21" href="$d6/d8a/classgenfit_1_1Track.html#aff9f6c161b286986ae0997f49f4f2cd2" title="genfit::Track::setStateSeed" alt="" coords="555,485,758,513"/>
+<area shape="rect" id="node22" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a991ed517d8a5d453bd244ba89d5151ac" title="genfit::StateOnPlane\l::get6DState" alt="" coords="576,537,737,581"/>
+<area shape="rect" id="node25" href="$d6/d8a/classgenfit_1_1Track.html#a5d1205b733eabe9bd7854563f9d7b8d4" title="genfit::Track::setCovSeed" alt="" coords="560,605,753,633"/>
+<area shape="rect" id="node26" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#a55e9082a5f1a51acf5123e6c87c1f513" title="genfit::MeasuredStateOnPlane\l::get6DCov" alt="" coords="543,657,770,701"/>
+<area shape="rect" id="node29" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a2924e17ce1d16257c25b476aa0fcd8b2" title="genfit::StateOnPlane\l::getCharge" alt="" coords="576,729,737,773"/>
+<area shape="rect" id="node13" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="1111,253,1328,281"/>
+<area shape="rect" id="node14" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#a985d0203f46dfbd5dc253bb03b21d76f" title="genfit::AbsFitterInfo\l::getFittedState" alt="" coords="869,177,1023,221"/>
+<area shape="rect" id="node15" href="$db/d40/classgenfit_1_1TrackPoint.html#ae8b3e743fb436dd6689e0dad4c35ffd9" title="Get fitterInfo for rep. Per default, use cardinal rep." alt="" coords="877,245,1015,289"/>
+<area shape="rect" id="node16" href="$d6/d8a/classgenfit_1_1Track.html#ad8961b1ff4809ccde5f6f100ffbccb9d" title="genfit::Track::getPointWith\lFitterInfo" alt="" coords="846,313,1046,357"/>
+<area shape="rect" id="node17" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="874,381,1018,425"/>
+<area shape="rect" id="node20" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#ac6141bdee046625aab0f992304c5ef7c" title="Get the time corresponding to the StateOnPlane. Extrapolation." alt="" coords="868,449,1024,493"/>
+<area shape="rect" id="node23" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a78857ca0fcd23f83644e0c994ae2931c" title="Get the 6D state vector (x, y, z, p_x, p_y, p_z)." alt="" coords="868,533,1024,577"/>
+<area shape="rect" id="node24" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a0c07d65d1102e91c2856e02590d1d99b" title="Get cartesian position and momentum vector of a state." alt="" coords="1141,533,1297,577"/>
+<area shape="rect" id="node27" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#ad7b167d43973371da9284279ca352b0c" title="Get the 6D covariance." alt="" coords="868,601,1024,645"/>
+<area shape="rect" id="node28" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a14f25e4575846dcb14bd91ddb2a534d2" title="genfit::StateOnPlane\l::getRep" alt="" coords="865,669,1027,713"/>
+<area shape="rect" id="node30" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a7afa73676edafab028f1f777dd40b770" title="Get the (fitted) charge of a state. This is not always equal the pdg charge (e.g. if the charge sign ..." alt="" coords="868,737,1024,781"/>
+</map>

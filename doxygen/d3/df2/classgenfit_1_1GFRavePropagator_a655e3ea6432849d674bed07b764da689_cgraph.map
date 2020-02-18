@@ -1,0 +1,18 @@
+<map id="genfit::GFRavePropagator::closestTo" name="genfit::GFRavePropagator::closestTo">
+<area shape="rect" id="node2" href="$dc/d22/namespacegenfit.html#a16248965fc33843bb4f2d9bd8b0a7ce7" title="genfit::GFTrackToTrack" alt="" coords="261,220,434,248"/>
+<area shape="rect" id="node17" href="$dc/d22/namespacegenfit.html#ad8550f9eaa6237f8ddf48aefd57dfe58" title="genfit::Point3DToTVector3" alt="" coords="249,272,445,300"/>
+<area shape="rect" id="node3" href="$d0/d8d/classgenfit_1_1FitStatus.html#a7e8ed1d97eec3e3164dc2dd782f5cb85" title="Get the fitted charge." alt="" coords="539,24,675,68"/>
+<area shape="rect" id="node4" href="$d0/d8d/classgenfit_1_1FitStatus.html#abbeeda61574c284f1d762088b3644770" title="Get chi^2 of the fit." alt="" coords="539,92,675,136"/>
+<area shape="rect" id="node5" href="$d6/d8a/classgenfit_1_1Track.html#ad06e7a012624bdb03960826b5c9fcd93" title="Get FitStatus for a AbsTrackRep. Per default, return FitStatus for cardinalRep." alt="" coords="771,5,965,33"/>
+<area shape="rect" id="node7" href="$d6/d8a/classgenfit_1_1Track.html#abf156957d701a9a10a02fef8ac54e4d9" title="Shortcut to get FittedStates." alt="" coords="520,212,693,256"/>
+<area shape="rect" id="node12" href="$d0/d8d/classgenfit_1_1FitStatus.html#aa73b3566657ea37bf8ab5102d465025d" title="Get the degrees of freedom of the fit." alt="" coords="539,280,675,324"/>
+<area shape="rect" id="node13" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#a3aab44a6c7155b8258fa34469bc45bc0" title="genfit::MeasuredStateOnPlane\l::getPosMomCov" alt="" coords="493,381,720,425"/>
+<area shape="rect" id="node16" href="$d0/d8d/classgenfit_1_1FitStatus.html#a56371ce504bee72fcf2f9324ddcb91a8" title="Did the fit converge (in all Points or only partially)?" alt="" coords="539,449,675,493"/>
+<area shape="rect" id="node6" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="1016,121,1233,149"/>
+<area shape="rect" id="node8" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#a985d0203f46dfbd5dc253bb03b21d76f" title="genfit::AbsFitterInfo\l::getFittedState" alt="" coords="791,109,945,153"/>
+<area shape="rect" id="node9" href="$db/d40/classgenfit_1_1TrackPoint.html#ae8b3e743fb436dd6689e0dad4c35ffd9" title="Get fitterInfo for rep. Per default, use cardinal rep." alt="" coords="799,177,937,221"/>
+<area shape="rect" id="node10" href="$d6/d8a/classgenfit_1_1Track.html#ad8961b1ff4809ccde5f6f100ffbccb9d" title="genfit::Track::getPointWith\lFitterInfo" alt="" coords="768,245,968,289"/>
+<area shape="rect" id="node11" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="796,313,940,357"/>
+<area shape="rect" id="node14" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#ae6f4c4eeb3e4fbadcc930f53e2ca4ad7" title="Translates MeasuredStateOnPlane into 3D position, momentum and 6x6 covariance." alt="" coords="790,381,946,425"/>
+<area shape="rect" id="node15" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a14f25e4575846dcb14bd91ddb2a534d2" title="genfit::StateOnPlane\l::getRep" alt="" coords="787,449,949,493"/>
+</map>

@@ -1,7 +1,8 @@
 <map id="CylinderGeom_Mvtx::get_world_from_local_coords" name="CylinderGeom_Mvtx::get_world_from_local_coords">
 <area shape="rect" id="node2" href="$dc/d12/classMvtxClusterizer.html#a1aa96e33d67d25815d5b5812566cc5b7" title="MvtxClusterizer::ClusterMvtx" alt="" coords="471,137,687,165"/>
 <area shape="rect" id="node4" href="$df/d9b/classCylinderGeom__Mvtx.html#ac3180ef9061113ec41e851ff5f97f3f1" title="CylinderGeom_Mvtx::\lfind_sensor_center" alt="" coords="238,189,403,233"/>
-<area shape="rect" id="node22" href="$de/d4d/classPHG4MvtxHitReco.html#afae36034dbc6416433dbbd401e71f26b" title="event processing" alt="" coords="219,257,423,301"/>
+<area shape="rect" id="node22" href="$df/d9b/classCylinderGeom__Mvtx.html#ad7666151b00cdc9b3d74faac4c347050" title="CylinderGeom_Mvtx::\lget_world_from_local\l_coords" alt="" coords="238,257,403,317"/>
+<area shape="rect" id="node23" href="$de/d4d/classPHG4MvtxHitReco.html#afae36034dbc6416433dbbd401e71f26b" title="event processing" alt="" coords="219,341,423,385"/>
 <area shape="rect" id="node3" href="$dc/d12/classMvtxClusterizer.html#a2b88d21ed3595b07eb7f807003ec2843" title="event processing" alt="" coords="745,73,931,117"/>
 <area shape="rect" id="node5" href="$d6/d17/classSVReco.html#af99925be18cc9afbb2b9936df3a925db" title="Uses the tracking clusters exclusively to make a GFTrack." alt="" coords="481,193,677,221"/>
 <area shape="rect" id="node15" href="$de/d25/classPHGenFitTrkFitter.html#ac5276a4b02f10308d87ae16dac18d765" title="PHGenFitTrkFitter::\lReFitTrack" alt="" coords="506,245,651,289"/>

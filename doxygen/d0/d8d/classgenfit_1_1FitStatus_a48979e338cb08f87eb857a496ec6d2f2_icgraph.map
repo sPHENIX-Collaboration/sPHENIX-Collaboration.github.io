@@ -1,0 +1,6 @@
+<map id="genfit::FitStatus::isTrackPruned" name="genfit::FitStatus::isTrackPruned">
+<area shape="rect" id="node2" href="$d4/db7/classgenfit_1_1KalmanFitter.html#a003f370d672562e1e5c2b345d61f211c" title="genfit::KalmanFitter\l::processTrackPartially" alt="" coords="210,5,382,49"/>
+<area shape="rect" id="node3" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ad3a24181b5370cc95f01f49ea148c011" title="genfit::KalmanFitterRefTrack\l::processTrackWithRep" alt="" coords="189,73,403,117"/>
+<area shape="rect" id="node4" href="$d4/db7/classgenfit_1_1KalmanFitter.html#aa44364f202ab52ca2f8fa2000e29a534" title="Hit resorting currently NOT supported." alt="" coords="209,141,383,185"/>
+<area shape="rect" id="node5" href="$d0/d48/GenFit_2blob_2master_2test_2fitterTests_2main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="451,149,505,177"/>
+</map>

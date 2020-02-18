@@ -1,0 +1,5 @@
+<map id="genfit::TrackPoint::operator=" name="genfit::TrackPoint::operator=">
+<area shape="rect" id="node2" href="$db/d40/classgenfit_1_1TrackPoint.html#a6bd33ac72e2ed6aae0d0d025495a247f" title="genfit::TrackPoint\l::swap" alt="" coords="192,5,331,49"/>
+<area shape="rect" id="node3" href="$d4/da9/namespaceboost.html#a630945877437d477612e4419562161cc" title="boost::swap" alt="" coords="379,13,481,41"/>
+<area shape="rect" id="node4" href="$d1/d96/classboost_1_1array.html#a342ef866ed696b18ce803b5c9aba4b2e" title="boost::array::swap" alt="" coords="529,13,676,41"/>
+</map>

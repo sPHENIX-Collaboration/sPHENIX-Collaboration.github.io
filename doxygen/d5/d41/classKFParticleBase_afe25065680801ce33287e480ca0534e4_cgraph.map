@@ -1,0 +1,10 @@
+<map id="KFParticleBase::AddDaughterWithEnergyFit" name="KFParticleBase::AddDaughterWithEnergyFit">
+<area shape="rect" id="node2" href="$d5/d41/classKFParticleBase.html#a4589ae9c9872e56468d6c5dc17adcfff" title="KFParticleBase::GetMeasurement" alt="" coords="273,123,520,151"/>
+<area shape="rect" id="node6" href="$d5/d41/classKFParticleBase.html#ad059627ac0eb3810051cea5fbfdedc77" title="KFParticleBase::IJ" alt="" coords="617,213,754,241"/>
+<area shape="rect" id="node8" href="$d5/d41/classKFParticleBase.html#a97b4d2ef119c13e0117b0367473cb153" title="Returns charge of the particle." alt="" coords="315,252,479,280"/>
+<area shape="rect" id="node9" href="$d5/d41/classKFParticleBase.html#aa0ed9e611a76fd44e0eaac9d6f504929" title="KFParticleBase::InvertCholetsky3" alt="" coords="275,304,518,332"/>
+<area shape="rect" id="node3" href="$d5/d41/classKFParticleBase.html#ada459a0ed2508dbc79ff582a3a32c574" title="KFParticleBase::GetDStoParticle" alt="" coords="568,5,803,33"/>
+<area shape="rect" id="node4" href="$d5/d41/classKFParticleBase.html#a4c022cf8371927f3bfdca7f7901db99a" title="KFParticleBase::Transport" alt="" coords="589,57,782,85"/>
+<area shape="rect" id="node5" href="$d5/d41/classKFParticleBase.html#a724258bdfad283642d00e119a74f6335" title="KFParticleBase::MultQSQt" alt="" coords="588,109,783,137"/>
+<area shape="rect" id="node7" href="$d5/d41/classKFParticleBase.html#ae4235191e7d6baaa1054507e3cb92dc9" title="KFParticleBase::GetDStoPoint" alt="" coords="575,161,795,189"/>
+</map>

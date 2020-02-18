@@ -1,0 +1,4 @@
+<map id="KFParticleTopoReconstructor::SetChi2PrimaryCut" name="KFParticleTopoReconstructor::SetChi2PrimaryCut">
+<area shape="rect" id="node2" href="$df/d4e/classKFParticlePVReconstructor.html#a390f47b8bd5c6fbe5a82c3cf9d473d06" title="Sets cut fChi2Cut on chi2&#45;deviation of primary tracks from the vertex candidate to &quot;chi2&quot; and a soft ..." alt="" coords="267,5,467,49"/>
+<area shape="rect" id="node3" href="$d2/d3d/classKFParticleFinder.html#ab040f949a192af333a7677f6fd838985" title="Sets cut on &#160;of each track for 2&#45;daughter decays." alt="" coords="276,73,457,117"/>
+</map>

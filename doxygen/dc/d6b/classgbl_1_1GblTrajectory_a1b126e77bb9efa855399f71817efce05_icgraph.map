@@ -1,0 +1,4 @@
+<map id="gbl::GblTrajectory::getNumPoints" name="gbl::GblTrajectory::getNumPoints">
+<area shape="rect" id="node2" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a685cb7459baa2d2526bde668a3dbd2cb" title="Update fitter info from GBL fit results." alt="" coords="195,5,348,49"/>
+<area shape="rect" id="node3" href="$d1/dc8/classgenfit_1_1GblFitter.html#a3659ddc725865c305b8ce4ce55c3de52" title="Populate all fitter infos in track for rep with results of trajectory fit." alt="" coords="396,5,531,49"/>
+</map>

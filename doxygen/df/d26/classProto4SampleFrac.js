@@ -1,6 +1,6 @@
 var classProto4SampleFrac =
 [
-    [ "n_size", "df/d26/classProto4SampleFrac.html#aedb1e258830b9bcea51e0cc493229541a6399558ed6f822a5afeb63fcd52a5f7d", null ],
+    [ "n_size", "df/d26/classProto4SampleFrac.html#af566526523da9f6901e40fea325d0027a6399558ed6f822a5afeb63fcd52a5f7d", null ],
     [ "Proto4SampleFrac", "df/d26/classProto4SampleFrac.html#a8581d3437aeb6fdeadedab1d6c865c2e", null ],
     [ "~Proto4SampleFrac", "df/d26/classProto4SampleFrac.html#a8a56fb172caef99b2e34f1c9e9227adc", null ],
     [ "End", "df/d26/classProto4SampleFrac.html#aa63070bee429c4c753c86f9b1a539d9e", null ],

@@ -1,0 +1,15 @@
+<map id="genfit::Track::constructTrackCand" name="genfit::Track::constructTrackCand">
+<area shape="rect" id="node2" href="$d3/da2/classgenfit_1_1TrackCand.html#a1d8d9a483d2df76d12bc83380aed3103" title="genfit::TrackCand::\laddHit" alt="" coords="265,5,413,49"/>
+<area shape="rect" id="node3" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="231,73,448,101"/>
+<area shape="rect" id="node4" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a49e443d475d2e1032267aad5314545e8" title="genfit::AbsMeasurement\l::getDetId" alt="" coords="245,125,433,169"/>
+<area shape="rect" id="node5" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a4393fa33c52aee12287b34795c2ab26c" title="genfit::AbsMeasurement\l::getHitId" alt="" coords="245,193,433,237"/>
+<area shape="rect" id="node6" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#af4d813ee64e0cae4469483234db15c08" title="genfit::AbsMeasurement\l::getLeftRightResolution" alt="" coords="245,261,433,305"/>
+<area shape="rect" id="node7" href="$db/d40/classgenfit_1_1TrackPoint.html#a4320e8b0417af107a52bb505502fe145" title="genfit::TrackPoint\l::getRawMeasurements" alt="" coords="249,329,429,373"/>
+<area shape="rect" id="node8" href="$db/d40/classgenfit_1_1TrackPoint.html#aa2fb04427eb59c6466fb4c169922ae86" title="genfit::TrackPoint\l::getSortingParameter" alt="" coords="253,397,425,441"/>
+<area shape="rect" id="node9" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a6cf79b78e59f605622002903ad9fad6c" title="If the AbsMeasurement is a wire hit, the left/right resolution will be used." alt="" coords="242,465,437,509"/>
+<area shape="rect" id="node10" href="$d3/da2/classgenfit_1_1TrackCand.html#a67f9607d8b709c7fe1fcdb068be14933" title="set the covariance matrix seed (6D)." alt="" coords="265,533,413,577"/>
+<area shape="rect" id="node11" href="$d3/da2/classgenfit_1_1TrackCand.html#af55beac0f83aadc4c261b620978cdce6" title="Set the MCT track id, for MC simulations." alt="" coords="265,601,413,645"/>
+<area shape="rect" id="node12" href="$d3/da2/classgenfit_1_1TrackCand.html#a1fb72516c0581c7c657cee5b7f94bea8" title="This function works the same as set6DSeed but instead of a charge hypothesis you can set a pdg code w..." alt="" coords="232,669,447,713"/>
+<area shape="rect" id="node13" href="$d3/da2/classgenfit_1_1TrackCand.html#ab71bcc50a1b6980134546424604c8679" title="This function works the same as set6DSeed but instead of a charge hypothesis you can set a pdg code w..." alt="" coords="496,669,677,713"/>
+<area shape="rect" id="node14" href="$d3/da2/classgenfit_1_1TrackCand.html#ad5c3293cea3ccf42bcb2257299a9b803" title="Set a particle hypothesis in form of a PDG code. This will also set the charge attribute." alt="" coords="725,669,873,713"/>
+</map>

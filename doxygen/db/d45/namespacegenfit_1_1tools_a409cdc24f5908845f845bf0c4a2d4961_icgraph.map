@@ -1,0 +1,51 @@
+<map id="genfit::tools::QR" name="genfit::tools::QR">
+<area shape="rect" id="node2" href="$dc/d22/namespacegenfit.html#ab9be5ccf8961ab01c0401d938a1f628f" title="Calculate weighted average between two MeasuredStateOnPlanes." alt="" coords="211,303,399,331"/>
+<area shape="rect" id="node44" href="$db/d45/namespacegenfit_1_1tools.html#ac1678d2f9d0d01140a8395da6496a537" title="Calculates the square root of the covariance matrix after the Kalman prediction (i.e. extrapolation) with transport matrix F and the noise square root Q. Gives the new covariance square root." alt="" coords="191,60,418,104"/>
+<area shape="rect" id="node48" href="$db/d45/namespacegenfit_1_1tools.html#adc2bca594b70cc0ade79777b79e4f8ed" title="Calculate the Kalman measurement update with no transport. x, S : state prediction, covariance square root res, R, H : residual, measurement covariance square root, H matrix of the measurement." alt="" coords="185,132,424,160"/>
+<area shape="rect" id="node3" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a2076ecca63ef159ab37fae40a38c0ea0" title="Get unbiased or biased (default) smoothed state." alt="" coords="489,449,669,493"/>
+<area shape="rect" id="node4" href="$d4/d1a/classgenfit_1_1EventDisplay.html#a294470305559030667e010db718d3f3a" title="Draw an event." alt="" coords="761,688,919,732"/>
+<area shape="rect" id="node24" href="$d7/dd5/classPHGenFit_1_1Track.html#a2e02a0f394b0cfe0057f2472c095f45b" title="PHGenFit::Track::get\l_charge" alt="" coords="761,824,919,868"/>
+<area shape="rect" id="node26" href="$d6/d17/classSVReco.html#a0b5b196a0467d07833fcbb0fa1e47a77" title="Uses the vertex to remake the track." alt="" coords="1014,892,1197,920"/>
+<area shape="rect" id="node27" href="$d7/dd5/classPHGenFit_1_1Track.html#a44e533bbe040f465aaaa1032785b543f" title="PHGenFit::Track::get_mom" alt="" coords="741,193,939,221"/>
+<area shape="rect" id="node28" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a6f8067ff3ebb42f7957fbde01d5c6f49" title="Get unbiased (default) or biased residual from ith measurement." alt="" coords="750,416,930,460"/>
+<area shape="rect" id="node32" href="$de/d25/classPHGenFitTrkFitter.html#a458cc1e5f1d6f6e4b20e0c0d266ff74b" title="Make SvtxTrack from PHGenFit::Track and SvtxTrack." alt="" coords="767,552,913,596"/>
+<area shape="rect" id="node34" href="$df/dd7/classTpcPrototypeGenFitTrkFitter.html#acb08b0bc5eccd234b42f363e27da09a3" title="Make SvtxTrack from PHGenFit::Track and SvtxTrack." alt="" coords="735,484,945,528"/>
+<area shape="rect" id="node36" href="$df/dd7/classTpcPrototypeGenFitTrkFitter.html#a7d58d6e2d72346f8c2eb6aa9cf897c9b" title="Make TpcPrototypeTrack from SvtxTrack, refit by &quot;excluding&quot; each cluster." alt="" coords="735,620,945,664"/>
+<area shape="rect" id="node38" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ab28798fe239a0577ef7a9c254c235491" title="Prepare the track." alt="" coords="999,288,1212,332"/>
+<area shape="rect" id="node40" href="$d4/db7/classgenfit_1_1KalmanFitter.html#a003f370d672562e1e5c2b345d61f211c" title="genfit::KalmanFitter\l::processTrackPartially" alt="" coords="1019,207,1191,251"/>
+<area shape="rect" id="node41" href="$d4/db7/classgenfit_1_1KalmanFitter.html#aa44364f202ab52ca2f8fa2000e29a534" title="Hit resorting currently NOT supported." alt="" coords="1019,125,1192,169"/>
+<area shape="rect" id="node42" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#a6112774ee2e5b98aa7592038ea49a52a" title="Remove referenceStates if they are too far from smoothed states." alt="" coords="733,348,947,392"/>
+<area shape="rect" id="node43" href="$d7/dd5/classPHGenFit_1_1Track.html#ac24ac1591f867e1e0641112d6e12f6aa" title="PHGenFit::Track::updateOne\lMeasurementKalman" alt="" coords="735,756,945,800"/>
+<area shape="rect" id="node5" href="$d4/d1a/classgenfit_1_1EventDisplay.html#a493a1ff074a94d20fb52ec58e121aa9f" title="Go to event with index id." alt="" coords="1026,756,1185,800"/>
+<area shape="rect" id="node12" href="$d4/d1a/classgenfit_1_1EventDisplay.html#ae4db6c8ff56045f6c9d7aee52d3dd695" title="Open the event display." alt="" coords="1291,552,1450,596"/>
+<area shape="rect" id="node6" href="$d4/d1a/classgenfit_1_1EventDisplay.html#abebb15a769222e8a93cd86c38882727e" title="genfit::EventDisplay\l::guiGoto" alt="" coords="1291,756,1450,800"/>
+<area shape="rect" id="node7" href="$d4/d1a/classgenfit_1_1EventDisplay.html#acdd34bd342d4878f39383dcb09c252a7" title="genfit::EventDisplay\l::guiGoto2" alt="" coords="1291,824,1450,868"/>
+<area shape="rect" id="node8" href="$d4/d1a/classgenfit_1_1EventDisplay.html#acff6b6584ae220760da322c6c93e7578" title="genfit::EventDisplay\l::guiSelectFitterId" alt="" coords="1291,892,1450,936"/>
+<area shape="rect" id="node9" href="$d4/d1a/classgenfit_1_1EventDisplay.html#a077e36982491e92eeaae8bde85b778d1" title="genfit::EventDisplay\l::guiSelectMmHandling" alt="" coords="1281,960,1460,1004"/>
+<area shape="rect" id="node10" href="$d4/d1a/classgenfit_1_1EventDisplay.html#ab2f949370370420bc95d83e02086e419" title="genfit::EventDisplay\l::guiSetDrawParams" alt="" coords="1291,1028,1450,1072"/>
+<area shape="rect" id="node11" href="$d4/d1a/classgenfit_1_1EventDisplay.html#a09836ef50d0dae25ab320275745bda52" title="Go to the next event or step a certain number of events ahead." alt="" coords="1291,620,1450,664"/>
+<area shape="rect" id="node20" href="$d4/d1a/classgenfit_1_1EventDisplay.html#a52285c17ebaf4ac0de0e0a890a6060cb" title="Go to the previous event or step a certain number of events back." alt="" coords="1291,688,1450,732"/>
+<area shape="rect" id="node13" href="$d1/d35/classPHGenFit_1_1Fitter.html#a96693b5a9f125c47e158b38793c657f0" title="PHGenFit::Fitter::display\lEvent" alt="" coords="1525,552,1709,596"/>
+<area shape="rect" id="node19" href="$d0/d48/GenFit_2blob_2master_2test_2fitterTests_2main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1590,404,1645,432"/>
+<area shape="rect" id="node14" href="$de/d25/classPHGenFitTrkFitter.html#ad73a7ff76c5c9357e026f584c461c2ef" title="End, write and close files." alt="" coords="1797,456,1968,484"/>
+<area shape="rect" id="node15" href="$d0/d22/classPHGenFitTrkProp.html#a53c81942bf78bbefdb9c9ac306273da1" title="PHGenFitTrkProp::End" alt="" coords="1799,508,1966,536"/>
+<area shape="rect" id="node16" href="$d9/d91/classPHG4TrackFastSim.html#aac55c1fc6da92a2d000e640c865fe871" title="End, write and close files." alt="" coords="1792,560,1973,588"/>
+<area shape="rect" id="node17" href="$d2/d9a/classTpcPrototypeGenFitTrkFinder.html#a022c7784b9b8533499ba45dff1b09cd7" title="End, write and close files." alt="" coords="1757,612,2008,640"/>
+<area shape="rect" id="node18" href="$df/dd7/classTpcPrototypeGenFitTrkFitter.html#a1df8f5a66617de654240c7aafb327529" title="End, write and close files." alt="" coords="1761,664,2004,692"/>
+<area shape="rect" id="node21" href="$d9/d23/lustrf_8f.html#a5941611caddf798b636f4885a175c69e" title="lustrf" alt="" coords="1589,644,1646,672"/>
+<area shape="rect" id="node22" href="$d6/dcf/pythia6425mod_8f.html#aa2fbdb46f28af53ae4a8988b1f8246eb" title="pyprep" alt="" coords="1583,696,1652,724"/>
+<area shape="rect" id="node23" href="$d6/dcf/pythia6425mod_8f.html#ab14f48c3190aeff08037290931944d07" title="pystrf" alt="" coords="1587,748,1648,776"/>
+<area shape="rect" id="node25" href="$d9/d91/classPHG4TrackFastSim.html#a27f5d3e1fcab6a5cc74fda92cd51359f" title="PHG4TrackFastSim::MakeSvtx\lTrack" alt="" coords="995,824,1216,868"/>
+<area shape="rect" id="node29" href="$d6/d60/classgenfit_1_1DAF.html#a13c89d100046e596ea6442bdd5d6a40c" title="Calculate and set the weights for the next fitting pass. Return if convergence is met..." alt="" coords="1012,368,1199,396"/>
+<area shape="rect" id="node31" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a950783b305dbab9cb5178fe1467b9b2a" title="genfit::KalmanFitterInfo\l::getSmoothedChi2" alt="" coords="1015,420,1195,464"/>
+<area shape="rect" id="node30" href="$d6/d60/classgenfit_1_1DAF.html#a2bdf79750af68a02be2da0fb2442de33" title="Process a track using the DAF." alt="" coords="1275,360,1467,404"/>
+<area shape="rect" id="node33" href="$de/d25/classPHGenFitTrkFitter.html#a2e088a68ab24c5b89b902205f877f9d6" title="Process Event, called for each event." alt="" coords="1033,552,1178,596"/>
+<area shape="rect" id="node35" href="$df/dd7/classTpcPrototypeGenFitTrkFitter.html#a8861dffacdf05e47efc97b65adbafe32" title="Process Event, called for each event." alt="" coords="1266,484,1475,528"/>
+<area shape="rect" id="node37" href="$df/dd7/classTpcPrototypeGenFitTrkFitter.html#aaae0db362446e0098c4f4dbfa6714812" title="TpcPrototypeGenFitTrkFitter\l::fill_eval_tree" alt="" coords="1001,620,1210,664"/>
+<area shape="rect" id="node39" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ad3a24181b5370cc95f01f49ea148c011" title="genfit::KalmanFitterRefTrack\l::processTrackWithRep" alt="" coords="1264,93,1477,137"/>
+<area shape="rect" id="node45" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#adc865a1152d111df9d724e047decaf3e" title="genfit::KalmanFitterRefTrack\l::processTrackPointSqrt" alt="" coords="472,57,685,101"/>
+<area shape="rect" id="node46" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#a0dffe53c54ee6afe2fc252e643b5b790" title="genfit::KalmanFitterRefTrack\l::processTrackPoint" alt="" coords="733,5,947,49"/>
+<area shape="rect" id="node47" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#affda7c9ad9495fd91828d1b43adcc904" title="Fit the track." alt="" coords="999,32,1212,76"/>
+<area shape="rect" id="node49" href="$d4/db7/classgenfit_1_1KalmanFitter.html#afe8b6ebb672298327052897b7c95135d" title="genfit::KalmanFitter\l::processTrackPoint" alt="" coords="501,125,657,169"/>
+<area shape="rect" id="node50" href="$d4/db7/classgenfit_1_1KalmanFitter.html#ac2a327860007e886098409876504c5ba" title="genfit::KalmanFitter\l::fitTrack" alt="" coords="762,125,918,169"/>
+</map>

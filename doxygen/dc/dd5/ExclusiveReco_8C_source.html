@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dc/dd5/ExclusiveReco_8C_source.html','
 <div class="title">ExclusiveReco.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dc/dd5/ExclusiveReco_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/d6b/ExclusiveReco_8h.html">ExclusiveReco.h</a>&quot;</span></div>
+<a href="../../dc/dd5/ExclusiveReco_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/EICAnalysis/ExclusiveReco.C">the newest version in sPHENIX GitHub for file ExclusiveReco.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/d6b/ExclusiveReco_8h.html">ExclusiveReco.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d08/TruthTrackerHepMC_8h.html">TruthTrackerHepMC.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d86/TrackProjectorPlaneECAL_8h.html">TrackProjectorPlaneECAL.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d63/DVMPHelper_8h.html">DVMPHelper.h</a>&quot;</span></div>
@@ -350,7 +350,7 @@ $(document).ready(function(){initNavTree('dc/dd5/ExclusiveReco_8C_source.html','
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                  <span class="comment">// If the differences in these values is very small</span></div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                  <span class="keywordflow">if</span>(eta_diff&lt;0.1&amp;&amp;phi_diff&lt;0.1)</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                    {</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                      <span class="keywordtype">bool</span> b = <a class="code" href="../../da/d73/classExclusiveReco.html#a51890a95cf1b3e79b125e0e5d20b4119">is_scattered_lepton</a>.at(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>)&amp;&amp;best_track-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#ab6a08270648338e6acee123ddbeea833">get_charge</a>()==-1;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                      <span class="keywordtype">bool</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a> = <a class="code" href="../../da/d73/classExclusiveReco.html#a51890a95cf1b3e79b125e0e5d20b4119">is_scattered_lepton</a>.at(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>)&amp;&amp;best_track-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#ab6a08270648338e6acee123ddbeea833">get_charge</a>()==-1;</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                      <span class="keywordflow">if</span>(b)</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                        <a class="code" href="../../da/d73/classExclusiveReco.html#a8a7437a757bfce6e528284eff25607e3">reco_is_scattered_lepton</a>.push_back(<span class="keyword">true</span>);</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                      <span class="keywordflow">else</span></div>
@@ -423,7 +423,7 @@ $(document).ready(function(){initNavTree('dc/dd5/ExclusiveReco_8C_source.html','
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_1a5005e4eb45e581e130aefdcac35c9d.html">EICAnalysis</a></li><li class="navelem"><a class="el" href="../../dc/dd5/ExclusiveReco_8C.html">ExclusiveReco.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:03</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

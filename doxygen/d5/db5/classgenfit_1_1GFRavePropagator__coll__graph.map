@@ -1,0 +1,14 @@
+<map id="genfit::GFRavePropagator" name="genfit::GFRavePropagator">
+<area shape="rect" id="node4" href="$dd/d17/structgenfit_1_1trackAndState.html" title="Simple struct containing a Track pointer and a MeasuredStateOnPlane. Used in GFRave." alt="" coords="1417,161,1583,189"/>
+<area shape="rect" id="node5" href="$d6/d8a/classgenfit_1_1Track.html" title="Collection of TrackPoint objects, AbsTrackRep objects and FitStatus objects." alt="" coords="1137,369,1242,397"/>
+<area shape="rect" id="node13" href="$db/d40/classgenfit_1_1TrackPoint.html" title="Object containing AbsMeasurement and AbsFitterInfo objects." alt="" coords="1431,472,1569,500"/>
+<area shape="rect" id="node10" href="$d1/d25/classgenfit_1_1AbsTrackRep.html" title="Abstract base class for a track representation." alt="" coords="288,299,444,327"/>
+<area shape="rect" id="node15" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html" title="This class collects all information needed and produced by a specific AbsFitter and is specific to on..." alt="" coords="1755,285,1909,313"/>
+<area shape="rect" id="node17" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html" title="Contains the measurement and covariance in raw detector coordinates." alt="" coords="1738,535,1926,563"/>
+<area shape="rect" id="node19" href="$d6/d15/classgenfit_1_1ThinScatterer.html" title="Thin or thick scatterer." alt="" coords="285,545,447,573"/>
+<area shape="rect" id="node8" href="$d0/d8d/classgenfit_1_1FitStatus.html" title="Class where important numbers and properties of a fit can be stored." alt="" coords="302,176,430,204"/>
+<area shape="rect" id="node9" href="$d6/d51/structgenfit_1_1PruneFlags.html" title="Info which information has been pruned from the Track." alt="" coords="5,65,149,93"/>
+<area shape="rect" id="node23" href="$de/dd5/classgenfit_1_1StateOnPlane.html" title="A state with arbitrary dimension defined in a DetPlane." alt="" coords="592,161,753,189"/>
+<area shape="rect" id="node20" href="$da/d5d/structgenfit_1_1Material.html" title="genfit::Material" alt="" coords="15,645,139,673"/>
+<area shape="rect" id="node22" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html" title="StateOnPlane with additional covariance matrix." alt="" coords="1076,161,1303,189"/>
+</map>

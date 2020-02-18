@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dc/da7/PionPhysics_8cc_source.html','.
 <div class="title">PionPhysics.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dc/da7/PionPhysics_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $</span></div>
+<a href="../../dc/da7/PionPhysics_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/EICPhysicsList/PionPhysics.cc">the newest version in sPHENIX GitHub for file PionPhysics.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span><span class="comment">//                                                                            //</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//  File:        PionPhysics.cc                                               //</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Description: Pion hadronic physics constructor for EICPhysicsList         //</span></div>
@@ -177,16 +177,16 @@ $(document).ready(function(){initNavTree('dc/da7/PionPhysics_8cc_source.html','.
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="comment">// Low energy elastic model</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  G4HadronElastic* loElModel = <span class="keyword">new</span> G4HadronElastic();</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  loElModel-&gt;SetMaxEnergy(1.0001*GeV);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  loElModel-&gt;SetMaxEnergy(1.0001*<a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="comment">// High energy elastic model</span></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  G4ElasticHadrNucleusHE* hiElModel = <span class="keyword">new</span> G4ElasticHadrNucleusHE();</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  hiElModel-&gt;SetMinEnergy(1.0*GeV);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  hiElModel-&gt;SetMinEnergy(1.0*<a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="comment">// Use Bertini cascade for low energies</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  G4CascadeInterface* loInelModel = <span class="keyword">new</span> G4CascadeInterface;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  loInelModel-&gt;SetMinEnergy(0.0);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  loInelModel-&gt;SetMaxEnergy(12.0*GeV);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  loInelModel-&gt;SetMaxEnergy(12.0*<a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="comment">// Use FTFP for high energies   ==&gt;&gt;   eventually replace this with new class FTFPInterface</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <a class="code" href="../../d2/da2/classPionPhysics.html#a1a131119f82931560648e9903b02eb49">ftfp</a> = <span class="keyword">new</span> G4TheoFSGenerator(<span class="stringliteral">&quot;FTFP&quot;</span>);</div>
@@ -198,11 +198,11 @@ $(document).ready(function(){initNavTree('dc/da7/PionPhysics_8cc_source.html','.
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <a class="code" href="../../d2/da2/classPionPhysics.html#a1a131119f82931560648e9903b02eb49">ftfp</a>-&gt;SetHighEnergyGenerator(<a class="code" href="../../d2/da2/classPionPhysics.html#a7f2476963ad775af1e4fabfd56616cb1">stringModel</a>);</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <a class="code" href="../../d2/da2/classPionPhysics.html#a1a131119f82931560648e9903b02eb49">ftfp</a>-&gt;SetTransport(<a class="code" href="../../d2/da2/classPionPhysics.html#a8f8a3e5f21fab28d849147f117ba0b3f">preCompoundModel</a>); </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <a class="code" href="../../d2/da2/classPionPhysics.html#a1a131119f82931560648e9903b02eb49">ftfp</a>-&gt;SetMinEnergy(10*GeV);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <a class="code" href="../../d2/da2/classPionPhysics.html#a1a131119f82931560648e9903b02eb49">ftfp</a>-&gt;SetMinEnergy(10*<a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <a class="code" href="../../d2/da2/classPionPhysics.html#a1a131119f82931560648e9903b02eb49">ftfp</a>-&gt;SetMaxEnergy(100*TeV);</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="comment">// Inelastic cross section</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  G4VCrossSectionDataSet* piCS = <span class="keyword">new</span> G4CrossSectionPairGG(<span class="keyword">new</span> G4PiNuclearCrossSection, 91*GeV);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  G4VCrossSectionDataSet* piCS = <span class="keyword">new</span> G4CrossSectionPairGG(<span class="keyword">new</span> G4PiNuclearCrossSection, 91*<a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <span class="comment">//   pi+                                                                    // </span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment"></span></div>
@@ -256,7 +256,7 @@ $(document).ready(function(){initNavTree('dc/da7/PionPhysics_8cc_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_78e9e80105547a23d6856f244a654eaa.html">EICPhysicsList</a></li><li class="navelem"><a class="el" href="../../dc/da7/PionPhysics_8cc.html">PionPhysics.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:22</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:28</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

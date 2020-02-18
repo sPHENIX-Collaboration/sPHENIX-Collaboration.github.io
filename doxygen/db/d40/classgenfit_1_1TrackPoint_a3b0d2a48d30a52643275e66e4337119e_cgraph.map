@@ -1,0 +1,9 @@
+<map id="genfit::TrackPoint::TrackPoint" name="genfit::TrackPoint::TrackPoint">
+<area shape="rect" id="node2" href="$db/d40/classgenfit_1_1TrackPoint.html#a69f9ef6f8b911b4883b1d99e18086a7b" title="Takes ownership and sets this as measurement&#39;s trackPoint." alt="" coords="197,5,375,49"/>
+<area shape="rect" id="node4" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a7a56ddcbc65e58d94146a036242515b4" title="Deep copy ctor for polymorphic class." alt="" coords="192,73,380,117"/>
+<area shape="rect" id="node5" href="$db/d40/classgenfit_1_1TrackPoint.html#aa480a46a18b44a5a8ac39a5500a015a6" title="Takes Ownership." alt="" coords="217,141,355,185"/>
+<area shape="rect" id="node8" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#ad86d0402124d4f32dc9cc3987904ba0a" title="genfit::AbsFitterInfo\l::setTrackPoint" alt="" coords="209,209,363,253"/>
+<area shape="rect" id="node3" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a2100fca5cca983c4dfb52847a579c745" title="genfit::AbsMeasurement\l::setTrackPoint" alt="" coords="428,5,616,49"/>
+<area shape="rect" id="node6" href="$db/d40/classgenfit_1_1TrackPoint.html#a07c95b54534e11149e4081baed75001e" title="genfit::TrackPoint\l::hasFitterInfo" alt="" coords="453,107,591,151"/>
+<area shape="rect" id="node7" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#afea691164c74306d2031439ca40d1687" title="genfit::AbsFitterInfo\l::getRep" alt="" coords="445,175,599,219"/>
+</map>

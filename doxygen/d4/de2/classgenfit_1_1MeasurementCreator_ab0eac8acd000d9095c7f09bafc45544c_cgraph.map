@@ -1,0 +1,5 @@
+<map id="genfit::MeasurementCreator::create" name="genfit::MeasurementCreator::create">
+<area shape="rect" id="node2" href="$da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8" title="double" alt="" coords="322,5,390,33"/>
+<area shape="rect" id="node3" href="$da/de9/classgenfit_1_1HelixTrackModel.html#a75734a065ef7373b341a8fa8958e1ea9" title="genfit::HelixTrackModel\l::getPosDir" alt="" coords="267,57,445,101"/>
+<area shape="rect" id="node4" href="$da/de9/classgenfit_1_1HelixTrackModel.html#ac0d4b16bfa2a6f3c479f7117d1e81121" title="genfit::HelixTrackModel\l::getPosMom" alt="" coords="493,57,672,101"/>
+</map>

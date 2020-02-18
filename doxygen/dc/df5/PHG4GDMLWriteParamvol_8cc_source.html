@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dc/df5/PHG4GDMLWriteParamvol_8cc_sourc
 <div class="title">PHG4GDMLWriteParamvol.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dc/df5/PHG4GDMLWriteParamvol_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<a href="../../dc/df5/PHG4GDMLWriteParamvol_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4gdml/PHG4GDMLWriteParamvol.cc">the newest version in sPHENIX GitHub for file PHG4GDMLWriteParamvol.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// ********************************************************************</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// * License and Disclaimer                                           *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// *                                                                  *</span></div>
@@ -180,7 +180,7 @@ $(document).ready(function(){initNavTree('dc/df5/PHG4GDMLWriteParamvol_8cc_sourc
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/dd9/classPHG4GDMLWriteParamvol.html#a38f5e401544a3dcbf1d3e49f8bb57e45">PHG4GDMLWriteParamvol::</a></div>
 <div class="line"><a name="l00068"></a><span class="lineno"><a class="code" href="../../d8/dd9/classPHG4GDMLWriteParamvol.html#a38f5e401544a3dcbf1d3e49f8bb57e45">   68</a></span>&#160;<a class="code" href="../../d8/dd9/classPHG4GDMLWriteParamvol.html#a38f5e401544a3dcbf1d3e49f8bb57e45">Box_dimensionsWrite</a>(xercesc::DOMElement* parametersElement,</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                    <span class="keyword">const</span> G4Box* <span class="keyword">const</span> box)</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                    <span class="keyword">const</span> G4Box* <span class="keyword">const</span> <a class="code" href="../../d8/df7/PHCASeeding_8cc.html#afb37f686eee8fe2e664532e9967a5ef7">box</a>)</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;   xercesc::DOMElement* box_dimensionsElement = <a class="code" href="../../dd/db5/classPHG4GDMLWrite.html#ada0a5579d406ec27f3150711ab83becc">NewElement</a>(<span class="stringliteral">&quot;box_dimensions&quot;</span>);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;   box_dimensionsElement-&gt;</div>
@@ -523,11 +523,11 @@ $(document).ready(function(){initNavTree('dc/df5/PHG4GDMLWriteParamvol_8cc_sourc
 <div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;</div>
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;   G4VSolid* solid = paramvol-&gt;GetLogicalVolume()-&gt;GetSolid();</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;   <span class="keywordflow">if</span> (G4Box* box = dynamic_cast&lt;G4Box*&gt;(solid))</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;   <span class="keywordflow">if</span> (G4Box* <a class="code" href="../../d8/df7/PHCASeeding_8cc.html#afb37f686eee8fe2e664532e9967a5ef7">box</a> = dynamic_cast&lt;G4Box*&gt;(solid))</div>
 <div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;   {</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;      paramvol-&gt;GetParameterisation()-&gt;ComputeDimensions(*box,index,</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;      paramvol-&gt;GetParameterisation()-&gt;ComputeDimensions(*<a class="code" href="../../d8/df7/PHCASeeding_8cc.html#afb37f686eee8fe2e664532e9967a5ef7">box</a>,index,</div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;                const_cast&lt;G4VPhysicalVolume*&gt;(paramvol));</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;      <a class="code" href="../../d8/dd9/classPHG4GDMLWriteParamvol.html#a38f5e401544a3dcbf1d3e49f8bb57e45">Box_dimensionsWrite</a>(parametersElement,box);</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;      <a class="code" href="../../d8/dd9/classPHG4GDMLWriteParamvol.html#a38f5e401544a3dcbf1d3e49f8bb57e45">Box_dimensionsWrite</a>(parametersElement,<a class="code" href="../../d8/df7/PHCASeeding_8cc.html#afb37f686eee8fe2e664532e9967a5ef7">box</a>);</div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;   } <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;   <span class="keywordflow">if</span> (G4Trd* trd = dynamic_cast&lt;G4Trd*&gt;(solid))</div>
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;   {</div>
@@ -656,7 +656,7 @@ $(document).ready(function(){initNavTree('dc/df5/PHG4GDMLWriteParamvol_8cc_sourc
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_faae771f22994d22c1ffafa50b6eced3.html">g4gdml</a></li><li class="navelem"><a class="el" href="../../dc/df5/PHG4GDMLWriteParamvol_8cc.html">PHG4GDMLWriteParamvol.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:24</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:30</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

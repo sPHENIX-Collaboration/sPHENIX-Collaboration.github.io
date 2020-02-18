@@ -112,48 +112,60 @@ $(document).ready(function(){initNavTree('d5/d85/tutorials_2blob_2master_2Moment
 <div class="title">DisplayOn.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d5/d85/tutorials_2blob_2master_2Momentum_2DisplayOn_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<a href="../../d5/d85/tutorials_2blob_2master_2Momentum_2DisplayOn_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//tutorials/blob/master/Momentum/DisplayOn.C">the newest version in sPHENIX GitHub for file DisplayOn.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#if ROOT_VERSION_CODE &gt;= ROOT_VERSION(6,00,0)</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &lt;<a class="code" href="../../dc/da2/Fun4AllServer_8h.html">fun4all/Fun4AllServer.h</a>&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/d2b/PHG4Reco_8h.html">g4main/PHG4Reco.h</a>&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span><span class="comment">// stupid macro to turn on the geant4 display</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// we ask Fun4All for a pointer to PHG4Reco</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// using the ApplyCommand will start up the</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// G4 cmd interpreter and graphics system</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">// the vis.mac contains the necessary commands to</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// start up the visualization, the next event will</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">// be displayed. Do not execute this macro</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">// before PHG4Reco was registered with Fun4All</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="code" href="../../d5/d85/tutorials_2blob_2master_2Momentum_2DisplayOn_8C.html#a8ac4d6fb78f920957b354f88d6195f54">   14</a></span>&#160;<a class="code" href="../../d0/d78/classPHG4Reco.html" title="Runs G4 as a subsystem.">PHG4Reco</a> * <a class="code" href="../../dd/d76/macros_2blob_2master_2macros_2g4simulations_2DisplayOn_8C.html#a8ac4d6fb78f920957b354f88d6195f54">DisplayOn</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *mac = <span class="stringliteral">&quot;vis.mac&quot;</span>)</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="keywordtype">char</span> cmd[100];</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <a class="code" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> *se = <a class="code" href="../../da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a">Fun4AllServer::instance</a>();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <a class="code" href="../../d0/d78/classPHG4Reco.html" title="Runs G4 as a subsystem.">PHG4Reco</a> *<a class="code" href="../../d4/dfa/Fun4All__Generator__Display_8C.html#aa23ad96802f6dd4cef957d4f23aa9f86">g4</a> = (<a class="code" href="../../d0/d78/classPHG4Reco.html" title="Runs G4 as a subsystem.">PHG4Reco</a> *) se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ac6d47a2b3bc98933a03fd63bb75d624a">getSubsysReco</a>(<span class="stringliteral">&quot;PHG4RECO&quot;</span>);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  g4-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#a9d8228ce8682c19cd6be2f6b44ec847b">InitRun</a>(se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>());</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  g4-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#abfcea42df8b2464c689c5c24a8241e32">ApplyDisplayAction</a>();</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  sprintf(cmd, <span class="stringliteral">&quot;/control/execute %s&quot;</span>, mac);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  g4-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#a83fd9e9472f94d9a29be65df65e400ef" title="interface to G4 cmd interpreter">ApplyCommand</a>(cmd);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d4/dfa/Fun4All__Generator__Display_8C.html#aa23ad96802f6dd4cef957d4f23aa9f86">g4</a>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">// print out the commands I always forget</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="code" href="../../d5/d85/tutorials_2blob_2master_2Momentum_2DisplayOn_8C.html#ac24d1b820bb16d04729725317c86b234">   26</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d76/macros_2blob_2master_2macros_2g4simulations_2DisplayOn_8C.html#ac24d1b820bb16d04729725317c86b234">displaycmd</a>()</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;draw axis: &quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot; g4-&gt;ApplyCommand(\&quot;/vis/scene/add/axes 0 0 0 50 cm\&quot;)&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;zoom&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot; g4-&gt;ApplyCommand(\&quot;/vis/viewer/zoom 1\&quot;)&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;viewpoint:&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot; g4-&gt;ApplyCommand(\&quot;/vis/viewer/set/viewpointThetaPhi 0 0\&quot;)&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;panTo:&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot; g4-&gt;ApplyCommand(\&quot;/vis/viewer/panTo 0 0 cm\&quot;)&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;print to eps:&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot; g4-&gt;ApplyCommand(\&quot;/vis/ogl/printEPS\&quot;)&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;set background color:&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot; g4-&gt;ApplyCommand(\&quot;/vis/viewer/set/background white\&quot;)&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;cut detector to see inside&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;g4-&gt;ApplyCommand(\&quot;/vis/viewer/set/viewpointThetaPhi 240 10\&quot;)&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// This starts the QT based G4 gui which takes control</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// when x&#39;ed out it will return a pointer to PHG4Reco so</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// the gui can be startrd again</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="code" href="../../d5/d85/tutorials_2blob_2master_2Momentum_2DisplayOn_8C.html#a36f5cc4ebb7cd23dac7e492d5c38fbc0">   10</a></span>&#160;<a class="code" href="../../d0/d78/classPHG4Reco.html" title="Runs G4 as a subsystem.">PHG4Reco</a> *<a class="code" href="../../dd/d76/macros_2blob_2master_2macros_2g4simulations_2DisplayOn_8C.html#a36f5cc4ebb7cd23dac7e492d5c38fbc0">QTGui</a>()</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <a class="code" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> *se = <a class="code" href="../../da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a">Fun4AllServer::instance</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <a class="code" href="../../d0/d78/classPHG4Reco.html" title="Runs G4 as a subsystem.">PHG4Reco</a> *<a class="code" href="../../d4/dfa/Fun4All__Generator__Display_8C.html#aa23ad96802f6dd4cef957d4f23aa9f86">g4</a> = (<a class="code" href="../../d0/d78/classPHG4Reco.html" title="Runs G4 as a subsystem.">PHG4Reco</a> *) se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ac6d47a2b3bc98933a03fd63bb75d624a">getSubsysReco</a>(<span class="stringliteral">&quot;PHG4RECO&quot;</span>);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  g4-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#a9d8228ce8682c19cd6be2f6b44ec847b">InitRun</a>(se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>());</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  g4-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#abfcea42df8b2464c689c5c24a8241e32">ApplyDisplayAction</a>();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  g4-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#a33f54be418a2c156914455cfc5bea595" title="start the gui">StartGui</a>();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d4/dfa/Fun4All__Generator__Display_8C.html#aa23ad96802f6dd4cef957d4f23aa9f86">g4</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">// stupid macro to turn on the geant4 display</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">// we ask Fun4All for a pointer to PHG4Reco</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">// using the ApplyCommand will start up the</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">// G4 cmd interpreter and graphics system</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">// the vis.mac contains the necessary commands to</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">// start up the visualization, the next event will</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">// be displayed. Do not execute this macro</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">// before PHG4Reco was registered with Fun4All</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="code" href="../../d5/d85/tutorials_2blob_2master_2Momentum_2DisplayOn_8C.html#a8ac4d6fb78f920957b354f88d6195f54">   28</a></span>&#160;<a class="code" href="../../d0/d78/classPHG4Reco.html" title="Runs G4 as a subsystem.">PHG4Reco</a> * <a class="code" href="../../dd/d76/macros_2blob_2master_2macros_2g4simulations_2DisplayOn_8C.html#a8ac4d6fb78f920957b354f88d6195f54">DisplayOn</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *mac = <span class="stringliteral">&quot;vis.mac&quot;</span>)</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keywordtype">char</span> cmd[100];</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <a class="code" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> *se = <a class="code" href="../../da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a">Fun4AllServer::instance</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <a class="code" href="../../d0/d78/classPHG4Reco.html" title="Runs G4 as a subsystem.">PHG4Reco</a> *<a class="code" href="../../d4/dfa/Fun4All__Generator__Display_8C.html#aa23ad96802f6dd4cef957d4f23aa9f86">g4</a> = (<a class="code" href="../../d0/d78/classPHG4Reco.html" title="Runs G4 as a subsystem.">PHG4Reco</a> *) se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ac6d47a2b3bc98933a03fd63bb75d624a">getSubsysReco</a>(<span class="stringliteral">&quot;PHG4RECO&quot;</span>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  g4-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#a9d8228ce8682c19cd6be2f6b44ec847b">InitRun</a>(se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>());</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  g4-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#abfcea42df8b2464c689c5c24a8241e32">ApplyDisplayAction</a>();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  sprintf(cmd, <span class="stringliteral">&quot;/control/execute %s&quot;</span>, mac);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  g4-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#a83fd9e9472f94d9a29be65df65e400ef" title="interface to G4 cmd interpreter">ApplyCommand</a>(cmd);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d4/dfa/Fun4All__Generator__Display_8C.html#aa23ad96802f6dd4cef957d4f23aa9f86">g4</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">// print out the commands I always forget</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="code" href="../../d5/d85/tutorials_2blob_2master_2Momentum_2DisplayOn_8C.html#ac24d1b820bb16d04729725317c86b234">   40</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d76/macros_2blob_2master_2macros_2g4simulations_2DisplayOn_8C.html#ac24d1b820bb16d04729725317c86b234">displaycmd</a>()</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;draw axis: &quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot; g4-&gt;ApplyCommand(\&quot;/vis/scene/add/axes 0 0 0 50 cm\&quot;)&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;zoom&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot; g4-&gt;ApplyCommand(\&quot;/vis/viewer/zoom 1\&quot;)&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;viewpoint:&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot; g4-&gt;ApplyCommand(\&quot;/vis/viewer/set/viewpointThetaPhi 0 0\&quot;)&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;panTo:&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot; g4-&gt;ApplyCommand(\&quot;/vis/viewer/panTo 0 0 cm\&quot;)&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;print to eps:&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot; g4-&gt;ApplyCommand(\&quot;/vis/ogl/printEPS\&quot;)&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;set background color:&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot; g4-&gt;ApplyCommand(\&quot;/vis/viewer/addCutawayPlane 0 0 0 m 1 0 0\&quot;)&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -164,7 +176,7 @@ $(document).ready(function(){initNavTree('d5/d85/tutorials_2blob_2master_2Moment
 		<li class="navelem"><a class="el" href="../../dir_80681bc9abd3d6cfba631190d05af787.html">tutorials</a></li><li class="navelem"><a class="el" href="../../dir_0ed7e4d09015d064f30b2a30851bfe20.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_4ff5139d4ba41e3ba67acbcc94984498.html">master</a></li><li class="navelem"><a class="el" href="../../dir_daea7e50e195d3f6fca6f6ad656dcf4d.html">Momentum</a></li><li class="navelem"><a class="el" href="../../d5/d85/tutorials_2blob_2master_2Momentum_2DisplayOn_8C.html">DisplayOn.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:25</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:33</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

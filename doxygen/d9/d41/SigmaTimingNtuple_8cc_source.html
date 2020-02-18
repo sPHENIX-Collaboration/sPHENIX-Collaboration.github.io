@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d9/d41/SigmaTimingNtuple_8cc_source.ht
 <div class="title">SigmaTimingNtuple.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d9/d41/SigmaTimingNtuple_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d33/SigmaTimingNtuple_8h.html">SigmaTimingNtuple.h</a>&quot;</span></div>
+<a href="../../d9/d41/SigmaTimingNtuple_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/AntiSigma/src/SigmaTimingNtuple.cc">the newest version in sPHENIX GitHub for file SigmaTimingNtuple.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d33/SigmaTimingNtuple_8h.html">SigmaTimingNtuple.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d08/PHG4HitContainer_8h.html">g4main/PHG4HitContainer.h</a>&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../de/d83/PHG4Hit_8h.html">g4main/PHG4Hit.h</a>&gt;</span></div>
@@ -154,9 +154,9 @@ $(document).ready(function(){initNavTree('d9/d41/SigmaTimingNtuple_8cc_source.ht
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  outfile(NULL)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <a class="code" href="../../d7/d34/classSigmaTimingNtuple.html#ad351744011fac4e8931104bfbb0b7ce3">RandomGenerator</a> = gsl_rng_alloc(gsl_rng_mt19937);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d4/d89/namespaceTauVsDIS__MachineLearning__Differentiation.html#a926e652fc6cca84ce09ab067067249f1">seed</a> = <a class="code" href="../../dd/d1f/classPHRandomSeed.html">PHRandomSeed</a>(); <span class="comment">// fixed seed is handled in this funtcion</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d1/d0a/PHTruthVertexing_8cc.html#ae21f357c223957d36046a0d71cc6aed7">seed</a> = <a class="code" href="../../dd/d1f/classPHRandomSeed.html">PHRandomSeed</a>(); <span class="comment">// fixed seed is handled in this funtcion</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  cout &lt;&lt; <a class="code" href="../../d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed" title="Returns the name of this module.">Name</a>() &lt;&lt; <span class="stringliteral">&quot; random seed: &quot;</span> &lt;&lt; seed &lt;&lt; endl;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  gsl_rng_set(<a class="code" href="../../d7/d34/classSigmaTimingNtuple.html#ad351744011fac4e8931104bfbb0b7ce3">RandomGenerator</a>,seed);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <a class="code" href="../../d1/d0a/PHTruthVertexing_8cc.html#ad8eec1a5a0219e016430a4b0759daf18">gsl_rng_set</a>(<a class="code" href="../../d7/d34/classSigmaTimingNtuple.html#ad351744011fac4e8931104bfbb0b7ce3">RandomGenerator</a>,seed);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
@@ -407,7 +407,7 @@ $(document).ready(function(){initNavTree('d9/d41/SigmaTimingNtuple_8cc_source.ht
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_0a17e325b7d14e40b5eb25610182ce58.html">AntiSigma</a></li><li class="navelem"><a class="el" href="../../dir_3dc2b9c108380bfe675f0dd70f26b434.html">src</a></li><li class="navelem"><a class="el" href="../../d9/d41/SigmaTimingNtuple_8cc.html">SigmaTimingNtuple.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:03</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

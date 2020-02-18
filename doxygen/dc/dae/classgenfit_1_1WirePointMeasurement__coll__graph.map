@@ -1,0 +1,12 @@
+<map id="genfit::WirePointMeasurement" name="genfit::WirePointMeasurement">
+<area shape="rect" id="node2" href="$d6/dba/classgenfit_1_1WireMeasurement.html" title="Class for measurements in wire detectors (Straw tubes and drift chambers) which do not measure the co..." alt="" coords="580,218,773,246"/>
+<area shape="rect" id="node3" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html" title="Contains the measurement and covariance in raw detector coordinates." alt="" coords="247,293,435,321"/>
+<area shape="rect" id="node5" href="$db/d40/classgenfit_1_1TrackPoint.html" title="Object containing AbsMeasurement and AbsFitterInfo objects." alt="" coords="1032,363,1171,391"/>
+<area shape="rect" id="node6" href="$d6/d8a/classgenfit_1_1Track.html" title="Collection of TrackPoint objects, AbsTrackRep objects and FitStatus objects." alt="" coords="1863,111,1968,139"/>
+<area shape="rect" id="node10" href="$d1/d25/classgenfit_1_1AbsTrackRep.html" title="Abstract base class for a track representation." alt="" coords="1023,166,1179,194"/>
+<area shape="rect" id="node14" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html" title="This class collects all information needed and produced by a specific AbsFitter and is specific to on..." alt="" coords="1375,474,1530,502"/>
+<area shape="rect" id="node17" href="$d6/d15/classgenfit_1_1ThinScatterer.html" title="Thin or thick scatterer." alt="" coords="260,439,421,467"/>
+<area shape="rect" id="node8" href="$d0/d8d/classgenfit_1_1FitStatus.html" title="Class where important numbers and properties of a fit can be stored." alt="" coords="1037,43,1165,71"/>
+<area shape="rect" id="node9" href="$d6/d51/structgenfit_1_1PruneFlags.html" title="Info which information has been pruned from the Track." alt="" coords="605,43,749,71"/>
+<area shape="rect" id="node18" href="$da/d5d/structgenfit_1_1Material.html" title="genfit::Material" alt="" coords="5,527,129,555"/>
+</map>

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['d02pik',['D02PiK',['../dd/d96/classHFFastSim_1_1D02PiK.html',1,'HFFastSim']]],
+  ['daf',['DAF',['../d6/d60/classgenfit_1_1DAF.html',1,'genfit']]],
   ['data32',['data32',['../de/d6b/structdata32.html',1,'']]],
   ['datablockhdr',['dataBlockHdr',['../d4/d44/structdataBlockHdr.html',1,'']]],
   ['datastr',['DataStr',['../d1/dd6/classDataStr.html',1,'']]],
@@ -9,6 +10,7 @@ var searchData=
   ['dcmalignblk',['dcmAlignBlk',['../db/da1/structdcmAlignBlk.html',1,'']]],
   ['defaultfactoryerror',['DefaultFactoryError',['../df/dd1/classDefaultFactoryError.html',1,'']]],
   ['determinetowerbackground',['DetermineTowerBackground',['../d6/d02/classDetermineTowerBackground.html',1,'']]],
+  ['detplane',['DetPlane',['../dd/d25/classgenfit_1_1DetPlane.html',1,'genfit']]],
   ['directphotonpythia',['DirectPhotonPythia',['../dd/dbd/classDirectPhotonPythia.html',1,'']]],
   ['diskinematicsreco',['DISKinematicsReco',['../db/db5/classDISKinematicsReco.html',1,'']]],
   ['dpipefilter',['DpipeFilter',['../d6/d0f/classDpipeFilter.html',1,'']]],

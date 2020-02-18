@@ -1,0 +1,4 @@
+<map id="genfit::WireMeasurement" name="genfit::WireMeasurement">
+<area shape="rect" id="node4" href="$d6/d83/classgenfit_1_1WirePointMeasurement.html" title="Class for measurements in wire detectors (Straw tubes and drift chambers) which can measure the coord..." alt="" coords="5,233,232,261"/>
+<area shape="rect" id="node2" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html" title="Contains the measurement and covariance in raw detector coordinates." alt="" coords="25,81,213,109"/>
+</map>

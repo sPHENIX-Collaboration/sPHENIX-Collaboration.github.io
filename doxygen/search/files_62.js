@@ -37,6 +37,8 @@ var searchData=
   ['bk_2ef',['bk.f',['../d7/dd8/bk_8f.html',1,'']]],
   ['bnl_5frich_5fanalyzer_5fpid_2ecpp',['bnl_rich_analyzer_pid.cpp',['../dd/dcd/bnl__rich__analyzer__pid_8cpp.html',1,'']]],
   ['booldefs_2eh',['BoolDefs.h',['../d5/dc0/BoolDefs_8h.html',1,'']]],
+  ['borderedbandmatrix_2ecc',['BorderedBandMatrix.cc',['../dc/d77/BorderedBandMatrix_8cc.html',1,'']]],
+  ['borderedbandmatrix_2eh',['BorderedBandMatrix.h',['../df/db6/BorderedBandMatrix_8h.html',1,'']]],
   ['bricktest_2ecc',['brickTest.cc',['../df/d56/brickTest_8cc.html',1,'']]],
   ['buffer_2ecc',['buffer.cc',['../da/d44/buffer_8cc.html',1,'']]],
   ['buffer_2eh',['buffer.h',['../d5/d08/buffer_8h.html',1,'']]],

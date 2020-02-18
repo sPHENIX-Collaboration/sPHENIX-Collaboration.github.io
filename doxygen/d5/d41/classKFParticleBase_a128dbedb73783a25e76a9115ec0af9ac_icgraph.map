@@ -1,0 +1,12 @@
+<map id="KFParticleBase::GetNDF" name="KFParticleBase::GetNDF">
+<area shape="rect" id="node2" href="$d0/d87/KFParticleTest_8cxx.html#ad32ddaf41db70fe45f970e7bd97f7abe" title="ClassImp" alt="" coords="267,48,350,76"/>
+<area shape="rect" id="node3" href="$d0/d49/classKFParticle.html#a55e2d5613c9ceef0c0b464c5e1745e91" title="Returns number of decrease of freedom." alt="" coords="235,100,383,128"/>
+<area shape="rect" id="node4" href="$d8/d00/classKFVertex.html#a0398208d64532d964a2c6c4c061c349c" title="KFVertex::ConstructPrimary\lVertex" alt="" coords="443,5,650,49"/>
+<area shape="rect" id="node5" href="$df/d4e/classKFParticlePVReconstructor.html#a874727a615fe2126fb1611f13eda4b70" title="KFParticlePVReconstructor\l::FindPrimaryClusters" alt="" coords="711,32,911,76"/>
+<area shape="rect" id="node8" href="$d6/d9c/classKFPHistogramSet.html#a140b2356c0ea846b0b8774bd8bc895d3" title="KFPHistogramSet::Fill" alt="" coords="464,125,629,153"/>
+<area shape="rect" id="node11" href="$db/dcc/classKFParticleSIMD.html#ae32806bf88791dbf8fb2381a1f7643ce" title="KFParticleSIMD::KFParticleSIMD" alt="" coords="431,177,663,205"/>
+<area shape="rect" id="node6" href="$df/d4e/classKFParticlePVReconstructor.html#aac8016012886979bbbc71f42a617ad3a" title="KFParticlePVReconstructor\l::ReconstructPrimVertex" alt="" coords="959,32,1159,76"/>
+<area shape="rect" id="node7" href="$db/d6d/classKFParticleTopoReconstructor.html#a4f287575a545bea1c34d538c8ed53cde" title="KFParticleTopoReconstructor\l::ReconstructPrimVertex" alt="" coords="1207,32,1420,76"/>
+<area shape="rect" id="node9" href="$df/d10/classKFPHistogram.html#ad899f4e7138f0f522c618163c53ecb69" title="Fills histograms using parameters of the given particle." alt="" coords="739,125,882,153"/>
+<area shape="rect" id="node10" href="$df/d10/classKFPHistogram.html#aa7ad55a1984737eef3cb0c0a431bcdb8" title="Fills histograms for each particle reconstructed by the KFParticleFinder object from the given KFPart..." alt="" coords="987,125,1130,153"/>
+</map>

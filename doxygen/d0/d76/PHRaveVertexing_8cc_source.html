@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d0/d76/PHRaveVertexing_8cc_source.html
 <div class="title">PHRaveVertexing.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d0/d76/PHRaveVertexing_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../d0/d76/PHRaveVertexing_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHRaveVertexing.cc">the newest version in sPHENIX GitHub for file PHRaveVertexing.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/de6/PHRaveVertexing_8h.html" title="Refit SvtxTracks with PHGenFit.">PHRaveVertexing.h</a>&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/d87/SvtxTrack_8h.html">trackbase_historic/SvtxTrack.h</a>&gt;</span></div>
@@ -151,7 +151,7 @@ $(document).ready(function(){initNavTree('d0/d76/PHRaveVertexing_8cc_source.html
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#include &lt;GenFit/KalmanFitterInfo.h&gt;</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#include &lt;GenFit/MeasuredStateOnPlane.h&gt;</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#include &lt;GenFit/RKTrackRep.h&gt;</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/de0/Track_8h.html" title="tools">GenFit/Track.h</a>&gt;</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d8/d06/coresoftware_2blob_2master_2offline_2packages_2PHGenFitPkg_2PHGenFit_2Track_8h.html">GenFit/Track.h</a>&gt;</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#include &lt;GenFit/TrackPoint.h&gt;</span>                    <span class="comment">// for TrackPoint</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#include &lt;TMatrixDSymfwd.h&gt;</span>                       <span class="comment">// for TMatrixDSym</span></div>
@@ -231,8 +231,8 @@ $(document).ready(function(){initNavTree('d0/d76/PHRaveVertexing_8cc_source.html
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#ada0752d5c8986cf16a6c49dab6ab0db7aa81fecdb2c3020530b329ddc0140bb0e">Fun4AllReturnCodes::ABORTRUN</a>;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  }</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <a class="code" href="../../d5/daa/classPHRaveVertexing.html#a7baf5ed61839e35aeb5279fbc1858e28">_vertex_finder</a> = <span class="keyword">new</span> genfit::GFRaveVertexFactory(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>());</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <a class="code" href="../../d5/daa/classPHRaveVertexing.html#a7baf5ed61839e35aeb5279fbc1858e28">_vertex_finder</a>-&gt;setMethod(<a class="code" href="../../d5/daa/classPHRaveVertexing.html#a8660f5ec0ba9b3cfa16b9bfd4efb6386" title="https://rave.hepforge.org/trac/wiki/RaveMethods">_vertexing_method</a>.data());</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <a class="code" href="../../d5/daa/classPHRaveVertexing.html#a7baf5ed61839e35aeb5279fbc1858e28">_vertex_finder</a> = <span class="keyword">new</span> <a class="code" href="../../d1/d19/classgenfit_1_1GFRaveVertexFactory.html" title="Vertex factory for producing GFRaveVertex objects from Track objects.">genfit::GFRaveVertexFactory</a>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>());</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <a class="code" href="../../d5/daa/classPHRaveVertexing.html#a7baf5ed61839e35aeb5279fbc1858e28">_vertex_finder</a>-&gt;<a class="code" href="../../d1/d19/classgenfit_1_1GFRaveVertexFactory.html#a405d099f45ba265292a301c29f27d685">setMethod</a>(<a class="code" href="../../d5/daa/classPHRaveVertexing.html#a8660f5ec0ba9b3cfa16b9bfd4efb6386" title="https://rave.hepforge.org/trac/wiki/RaveMethods">_vertexing_method</a>.data());</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="comment">//_vertex_finder-&gt;setBeamspot();</span></div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../d5/daa/classPHRaveVertexing.html#a7baf5ed61839e35aeb5279fbc1858e28">_vertex_finder</a>)</div>
@@ -286,7 +286,7 @@ $(document).ready(function(){initNavTree('d0/d76/PHRaveVertexing_8cc_source.html
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  {</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">try</span></div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    {</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;      <a class="code" href="../../d5/daa/classPHRaveVertexing.html#a7baf5ed61839e35aeb5279fbc1858e28">_vertex_finder</a>-&gt;findVertices(&amp;rave_vertices, gf_tracks);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;      <a class="code" href="../../d5/daa/classPHRaveVertexing.html#a7baf5ed61839e35aeb5279fbc1858e28">_vertex_finder</a>-&gt;<a class="code" href="../../d1/d19/classgenfit_1_1GFRaveVertexFactory.html#a12b2a1abd879414950206ffac162b88e">findVertices</a>(&amp;rave_vertices, gf_tracks);</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    }</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">catch</span> (...)</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    {</div>
@@ -443,7 +443,7 @@ $(document).ready(function(){initNavTree('d0/d76/PHRaveVertexing_8cc_source.html
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;  <span class="comment">//    for (unsigned int ivtx = 0; ivtx &lt; rave_vertices.size(); ++ivtx) {</span></div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  <span class="comment">//            genfit::GFRaveVertex* rave_vtx = rave_vertices[ivtx];</span></div>
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  <span class="keywordflow">for</span> (genfit::GFRaveVertex* rave_vtx : rave_vertices)</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../db/da0/classgenfit_1_1GFRaveVertex.html" title="GFRaveVertex class.">genfit::GFRaveVertex</a>* rave_vtx : rave_vertices)</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;  {</div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    <span class="keywordflow">if</span> (!rave_vtx)</div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    {</div>
@@ -466,7 +466,7 @@ $(document).ready(function(){initNavTree('d0/d76/PHRaveVertexing_8cc_source.html
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a> = 0; <a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a> &lt; rave_vtx-&gt;getNTracks(); <a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>++)</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    {</div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;      <span class="comment">//TODO improve speed</span></div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;      <span class="keyword">const</span> genfit::Track* rave_track =</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;      <span class="keyword">const</span> <a class="code" href="../../d6/d8a/classgenfit_1_1Track.html" title="Collection of TrackPoint objects, AbsTrackRep objects and FitStatus objects.">genfit::Track</a>* rave_track =</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;          rave_vtx-&gt;getParameters(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>)-&gt;getTrack();</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;      <span class="comment">//                        for(auto iter : gf_track_map) {</span></div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;      <span class="comment">//                                if (iter.second == rave_track)</span></div>
@@ -510,7 +510,7 @@ $(document).ready(function(){initNavTree('d0/d76/PHRaveVertexing_8cc_source.html
 <div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;}</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;</div>
-<div class="line"><a name="l00412"></a><span class="lineno"><a class="code" href="../../d5/daa/classPHRaveVertexing.html#af3ca2c60b8b69efdf6fdaf781f19948c">  412</a></span>&#160;genfit::Track* <a class="code" href="../../d5/daa/classPHRaveVertexing.html#af3ca2c60b8b69efdf6fdaf781f19948c">PHRaveVertexing::TranslateSvtxToGenFitTrack</a>(<a class="code" href="../../d2/db8/classSvtxTrack.html">SvtxTrack</a>* svtx_track)</div>
+<div class="line"><a name="l00412"></a><span class="lineno"><a class="code" href="../../d5/daa/classPHRaveVertexing.html#af3ca2c60b8b69efdf6fdaf781f19948c">  412</a></span>&#160;<a class="code" href="../../d6/d8a/classgenfit_1_1Track.html" title="Collection of TrackPoint objects, AbsTrackRep objects and FitStatus objects.">genfit::Track</a>* <a class="code" href="../../d5/daa/classPHRaveVertexing.html#af3ca2c60b8b69efdf6fdaf781f19948c">PHRaveVertexing::TranslateSvtxToGenFitTrack</a>(<a class="code" href="../../d2/db8/classSvtxTrack.html">SvtxTrack</a>* svtx_track)</div>
 <div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;{</div>
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;  <span class="keywordflow">try</span></div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;  {</div>
@@ -572,41 +572,41 @@ $(document).ready(function(){initNavTree('d0/d76/PHRaveVertexing_8cc_source.html
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;</div>
 <div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    genfit::AbsTrackRep* rep = <span class="keyword">new</span> genfit::RKTrackRep(<a class="code" href="../../d5/daa/classPHRaveVertexing.html#a458e417a22618d82d20b25a0f3b15d3f">_primary_pid_guess</a>);</div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;    genfit::Track* genfit_track = <span class="keyword">new</span> genfit::Track(rep, TVector3(0, 0, 0), TVector3(0, 0, 0));</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    <a class="code" href="../../d1/d25/classgenfit_1_1AbsTrackRep.html" title="Abstract base class for a track representation.">genfit::AbsTrackRep</a>* rep = <span class="keyword">new</span> <a class="code" href="../../d2/d12/classgenfit_1_1RKTrackRep.html" title="AbsTrackRep with 5D track parameterization in plane coordinates: (q/p, u&#39;, v&#39;, u, v)...">genfit::RKTrackRep</a>(<a class="code" href="../../d5/daa/classPHRaveVertexing.html#a458e417a22618d82d20b25a0f3b15d3f">_primary_pid_guess</a>);</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;    <a class="code" href="../../d6/d8a/classgenfit_1_1Track.html" title="Collection of TrackPoint objects, AbsTrackRep objects and FitStatus objects.">genfit::Track</a>* genfit_track = <span class="keyword">new</span> <a class="code" href="../../d6/d8a/classgenfit_1_1Track.html" title="Collection of TrackPoint objects, AbsTrackRep objects and FitStatus objects.">genfit::Track</a>(rep, TVector3(0, 0, 0), TVector3(0, 0, 0));</div>
 <div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;</div>
-<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;    genfit::FitStatus* fs = <span class="keyword">new</span> genfit::FitStatus();</div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    fs-&gt;setCharge(svtx_track-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#ab6a08270648338e6acee123ddbeea833">get_charge</a>());</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    fs-&gt;setChi2(svtx_track-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#ab0dfef96ff528427922596ca5b2fb3c7">get_chisq</a>());</div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    fs-&gt;setNdf(svtx_track-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#a65bd7f7464194995552b517c05183067">get_ndf</a>());</div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;    fs-&gt;setIsFitted(<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;    fs-&gt;setIsFitConvergedFully(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;    <a class="code" href="../../d0/d8d/classgenfit_1_1FitStatus.html" title="Class where important numbers and properties of a fit can be stored.">genfit::FitStatus</a>* fs = <span class="keyword">new</span> <a class="code" href="../../d0/d8d/classgenfit_1_1FitStatus.html" title="Class where important numbers and properties of a fit can be stored.">genfit::FitStatus</a>();</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    fs-&gt;<a class="code" href="../../d0/d8d/classgenfit_1_1FitStatus.html#aff2d2f3d3941cd7c3bf02883b023a802">setCharge</a>(svtx_track-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#ab6a08270648338e6acee123ddbeea833">get_charge</a>());</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    fs-&gt;<a class="code" href="../../d0/d8d/classgenfit_1_1FitStatus.html#af0e35eadc8fe007e1bf2c388c414c93b">setChi2</a>(svtx_track-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#ab0dfef96ff528427922596ca5b2fb3c7">get_chisq</a>());</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    fs-&gt;<a class="code" href="../../d0/d8d/classgenfit_1_1FitStatus.html#a022656bd1e29a1a1b30f37ee51edab88">setNdf</a>(svtx_track-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#a65bd7f7464194995552b517c05183067">get_ndf</a>());</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;    fs-&gt;<a class="code" href="../../d0/d8d/classgenfit_1_1FitStatus.html#a94613203b0d5fe6160facd78b55d018a">setIsFitted</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;    fs-&gt;<a class="code" href="../../d0/d8d/classgenfit_1_1FitStatus.html#ae0caaea22f07f6aacb515e2ccec911d7">setIsFitConvergedFully</a>(<span class="keyword">true</span>);</div>
 <div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;</div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    genfit_track-&gt;setFitStatus(fs, rep);</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    genfit_track-&gt;<a class="code" href="../../d6/d8a/classgenfit_1_1Track.html#afea3810872179a5ae960eb290e78b038">setFitStatus</a>(fs, rep);</div>
 <div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;</div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;    genfit::TrackPoint* tp = <span class="keyword">new</span> genfit::TrackPoint(genfit_track);</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;    <a class="code" href="../../db/d40/classgenfit_1_1TrackPoint.html" title="Object containing AbsMeasurement and AbsFitterInfo objects.">genfit::TrackPoint</a>* tp = <span class="keyword">new</span> <a class="code" href="../../db/d40/classgenfit_1_1TrackPoint.html" title="Object containing AbsMeasurement and AbsFitterInfo objects.">genfit::TrackPoint</a>(genfit_track);</div>
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;    genfit::KalmanFitterInfo* fi = <span class="keyword">new</span> genfit::KalmanFitterInfo(tp, rep);</div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;    tp-&gt;setFitterInfo(fi);</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;    <a class="code" href="../../d3/d03/classgenfit_1_1KalmanFitterInfo.html" title="Collects information needed and produced by a AbsKalmanFitter implementations and is specific to one ...">genfit::KalmanFitterInfo</a>* fi = <span class="keyword">new</span> <a class="code" href="../../d3/d03/classgenfit_1_1KalmanFitterInfo.html" title="Collects information needed and produced by a AbsKalmanFitter implementations and is specific to one ...">genfit::KalmanFitterInfo</a>(tp, rep);</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;    tp-&gt;<a class="code" href="../../db/d40/classgenfit_1_1TrackPoint.html#aa480a46a18b44a5a8ac39a5500a015a6" title="Takes Ownership.">setFitterInfo</a>(fi);</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;</div>
-<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    genfit::MeasuredStateOnPlane* ms = <span class="keyword">new</span> genfit::MeasuredStateOnPlane(rep);</div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    ms-&gt;setPosMomCov(<a class="code" href="../../dc/d11/Prototype2_2EMCal_2macros_2SaveCanvas_8m.html#aa8cfa700faab9c79570dccffdbb88d45">pos</a>, mom, cov);</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    <a class="code" href="../../d2/d74/classgenfit_1_1MeasuredStateOnPlane.html" title="StateOnPlane with additional covariance matrix.">genfit::MeasuredStateOnPlane</a>* ms = <span class="keyword">new</span> <a class="code" href="../../d2/d74/classgenfit_1_1MeasuredStateOnPlane.html" title="StateOnPlane with additional covariance matrix.">genfit::MeasuredStateOnPlane</a>(rep);</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    ms-&gt;<a class="code" href="../../d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#a79c5ecd4015686f30cf2c5f5ce29d866">setPosMomCov</a>(<a class="code" href="../../dc/d11/Prototype2_2EMCal_2macros_2SaveCanvas_8m.html#aa8cfa700faab9c79570dccffdbb88d45">pos</a>, mom, cov);</div>
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;<span class="preprocessor">#ifdef _DEBUG_</span></div>
 <div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;<span class="preprocessor"></span>    {</div>
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;DEBUG: &quot;</span> &lt;&lt; __LINE__ &lt;&lt; endl;</div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;      ms-&gt;Print();</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;      ms-&gt;<a class="code" href="../../d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#af7fb7f4101eb24f1b97f20aaefa51d16">Print</a>();</div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;Orig: &quot;</span> &lt;&lt; __LINE__ &lt;&lt; endl;</div>
 <div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;      cov.Print();</div>
 <div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;Translate: &quot;</span> &lt;&lt; __LINE__ &lt;&lt; endl;</div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;      ms-&gt;get6DCov().Print();</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;      ms-&gt;<a class="code" href="../../d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#a55e9082a5f1a51acf5123e6c87c1f513">get6DCov</a>().Print();</div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    }</div>
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;<span class="preprocessor"></span>    genfit::KalmanFittedStateOnPlane* kfs = <span class="keyword">new</span> genfit::KalmanFittedStateOnPlane(*ms, 1., 1.);</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../df/d8f/classgenfit_1_1KalmanFittedStateOnPlane.html" title="MeasuredStateOnPlane with additional info produced by a Kalman filter or DAF.">genfit::KalmanFittedStateOnPlane</a>* kfs = <span class="keyword">new</span> <a class="code" href="../../df/d8f/classgenfit_1_1KalmanFittedStateOnPlane.html" title="MeasuredStateOnPlane with additional info produced by a Kalman filter or DAF.">genfit::KalmanFittedStateOnPlane</a>(*ms, 1., 1.);</div>
 <div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;</div>
 <div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;    <span class="comment">//&lt; Acording to the special order of using the stored states</span></div>
-<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;    fi-&gt;setForwardUpdate(kfs);</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;    fi-&gt;<a class="code" href="../../d3/d03/classgenfit_1_1KalmanFitterInfo.html#a2c1f358fe1473c76b8eee6f2aa3bc772">setForwardUpdate</a>(kfs);</div>
 <div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;</div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    genfit_track-&gt;insertPoint(tp);</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    genfit_track-&gt;<a class="code" href="../../d6/d8a/classgenfit_1_1Track.html#a7e61ada0d84db561ede923db92c4ab01" title="Insert TrackPoint BEFORE TrackPoint with position id, if id &gt;= 0.">insertPoint</a>(tp);</div>
 <div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;</div>
 <div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;<span class="preprocessor">#ifdef _DEBUG_</span></div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;<span class="preprocessor"></span><span class="comment">//              {</span></div>
@@ -639,7 +639,7 @@ $(document).ready(function(){initNavTree('d0/d76/PHRaveVertexing_8cc_source.html
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_1bd7b5579a8a17b34b83494541f84522.html">trackreco</a></li><li class="navelem"><a class="el" href="../../d0/d76/PHRaveVertexing_8cc.html">PHRaveVertexing.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:21</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:27</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

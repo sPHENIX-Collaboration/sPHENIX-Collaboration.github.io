@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d7/dd1/SvtxEvaluator_8cc_source.html',
 <div class="title">SvtxEvaluator.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d7/dd1/SvtxEvaluator_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/dff/SvtxEvaluator_8h.html" title="Compares reconstructed tracks to truth particles.">SvtxEvaluator.h</a>&quot;</span></div>
+<a href="../../d7/dd1/SvtxEvaluator_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4eval/SvtxEvaluator.cc">the newest version in sPHENIX GitHub for file SvtxEvaluator.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/dff/SvtxEvaluator_8h.html" title="Compares reconstructed tracks to truth particles.">SvtxEvaluator.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d59/SvtxEvalStack_8h.html">SvtxEvalStack.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
@@ -992,7 +992,7 @@ $(document).ready(function(){initNavTree('d7/dd1/SvtxEvaluator_8cc_source.html',
 <div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;           ++iter)</div>
 <div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;      {</div>
 <div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;        <a class="code" href="../../d2/d6d/classSvtxVertex.html">SvtxVertex</a>* vertex = iter-&gt;second;</div>
-<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;        <a class="code" href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a>* point = vertexeval-&gt;<a class="code" href="../../d4/d21/classSvtxVertexEval.html#aa7e59a495f87824e3f1088d1f5436ecb">max_truth_point_by_ntracks</a>(vertex);</div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;        <a class="code" href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a>* <a class="code" href="../../d8/df7/PHCASeeding_8cc.html#a905ba7eea43764a576ea5db7e8b73b0f">point</a> = vertexeval-&gt;<a class="code" href="../../d4/d21/classSvtxVertexEval.html#aa7e59a495f87824e3f1088d1f5436ecb">max_truth_point_by_ntracks</a>(vertex);</div>
 <div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;        <span class="keywordtype">float</span> vx = vertex-&gt;<a class="code" href="../../d2/d6d/classSvtxVertex.html#a233c6da9e4f023ee15b8d1298cde9ac3">get_x</a>();</div>
 <div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;        <span class="keywordtype">float</span> vy = vertex-&gt;<a class="code" href="../../d2/d6d/classSvtxVertex.html#a2b5eda5e1b6f143c4963c63b249a432c">get_y</a>();</div>
 <div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;        <span class="keywordtype">float</span> vz = vertex-&gt;<a class="code" href="../../d2/d6d/classSvtxVertex.html#acd46c82a2b067db8482f53280197239f">get_z</a>();</div>
@@ -1142,7 +1142,7 @@ $(document).ready(function(){initNavTree('d7/dd1/SvtxEvaluator_8cc_source.html',
 <div class="line"><a name="l01028"></a><span class="lineno"> 1028</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">auto</span> iter = vrange.first; iter != vrange.second; ++iter)  <span class="comment">// process all primary vertexes</span></div>
 <div class="line"><a name="l01029"></a><span class="lineno"> 1029</span>&#160;      {</div>
 <div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">int</span> point_id = iter-&gt;first;</div>
-<div class="line"><a name="l01031"></a><span class="lineno"> 1031</span>&#160;        <a class="code" href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a>* point = iter-&gt;second;</div>
+<div class="line"><a name="l01031"></a><span class="lineno"> 1031</span>&#160;        <a class="code" href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a>* <a class="code" href="../../d8/df7/PHCASeeding_8cc.html#a905ba7eea43764a576ea5db7e8b73b0f">point</a> = iter-&gt;second;</div>
 <div class="line"><a name="l01032"></a><span class="lineno"> 1032</span>&#160;</div>
 <div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;        <span class="comment">//      PHG4VtxPoint* point =  truthinfo-&gt;GetPrimaryVtx(truthinfo-&gt;GetPrimaryVertexIndex());</span></div>
 <div class="line"><a name="l01034"></a><span class="lineno"> 1034</span>&#160;</div>
@@ -3140,7 +3140,7 @@ $(document).ready(function(){initNavTree('d7/dd1/SvtxEvaluator_8cc_source.html',
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_861576327bccbc37876ab8d94c03f929.html">g4eval</a></li><li class="navelem"><a class="el" href="../../d7/dd1/SvtxEvaluator_8cc.html">SvtxEvaluator.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:24</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:30</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

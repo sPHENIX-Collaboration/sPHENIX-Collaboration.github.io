@@ -11,8 +11,8 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="1595,-287.5 1595,-307.5 1708,-307.5 1708,-287.5 1595,-287.5"/>
-<text text-anchor="middle" x="1651.5" y="-294.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4MvtxDetector</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="1595,-293.5 1595,-313.5 1708,-313.5 1708,-293.5 1595,-293.5"/>
+<text text-anchor="middle" x="1651.5" y="-300.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4MvtxDetector</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
@@ -26,8 +26,8 @@
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#191970" d="M1392.7122,-474.7933C1444.5381,-471.5812 1522.6196,-459.8525 1577,-420.5 1617.8555,-390.9348 1640.6211,-331.445 1648.4075,-307.6632"/>
-<polygon fill="#191970" stroke="#191970" points="1392.5108,-471.2989 1382.7119,-475.3278 1392.8845,-478.2889 1392.5108,-471.2989"/>
+<path fill="none" stroke="#191970" d="M1392.8431,-474.5027C1444.5278,-471.063 1522.2962,-459.16 1577,-420.5 1616.5278,-392.5651 1639.9116,-336.3697 1648.1349,-313.5127"/>
+<polygon fill="#191970" stroke="#191970" points="1392.3292,-471.0265 1382.5484,-475.099 1392.7341,-478.0148 1392.3292,-471.0265"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -94,11 +94,11 @@
 <!-- Node6&#45;&gt;Node1 -->
 <g id="edge24" class="edge">
 <title>Node6&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M193.9384,-347.1735C203.4112,-356.4528 215.9946,-367.3492 229,-374.5 333.8646,-432.1576 377.3495,-402.6771 497,-400.5 912.3173,-392.9432 1016.1838,-388.2506 1431,-366.5 1495.9517,-363.0943 1516.3394,-379.9651 1577,-356.5 1604.39,-345.9048 1629.7085,-321.5195 1642.5942,-307.6432"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M193.9384,-347.1735C203.4112,-356.4528 215.9946,-367.3492 229,-374.5 333.8646,-432.1576 377.3507,-402.741 497,-400.5 912.3296,-392.7209 1015.9759,-383.2249 1431,-365.5 1495.9043,-362.7281 1515.7972,-380.2823 1577,-358.5 1603.3543,-349.1204 1628.3004,-327.0825 1641.5775,-313.9269"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="196.2762,-344.5588 186.772,-339.8769 191.2821,-349.4638 196.2762,-344.5588"/>
-<text text-anchor="middle" x="865.5" y="-420.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_SuperDetector</text>
-<text text-anchor="middle" x="865.5" y="-408.5" font-family="FreeSans" font-size="10.00" fill="#000000">m_Detector</text>
-<text text-anchor="middle" x="865.5" y="-396.5" font-family="FreeSans" font-size="10.00" fill="#000000">m_StaveGeometryFile</text>
+<text text-anchor="middle" x="865.5" y="-419.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_SuperDetector</text>
+<text text-anchor="middle" x="865.5" y="-407.5" font-family="FreeSans" font-size="10.00" fill="#000000">m_Detector</text>
+<text text-anchor="middle" x="865.5" y="-395.5" font-family="FreeSans" font-size="10.00" fill="#000000">m_StaveGeometryFile</text>
 </g>
 <!-- Node6&#45;&gt;Node2 -->
 <g id="edge8" class="edge">
@@ -167,15 +167,15 @@
 <g id="node18" class="node">
 <title>Node18</title>
 <g id="a_node18"><a xlink:href="../../d7/d6b/classPHParametersContainer.html" target="_top" xlink:title="PHParametersContainer">
-<polygon fill="none" stroke="#000000" points="1270,-173.5 1270,-193.5 1407,-193.5 1407,-173.5 1270,-173.5"/>
-<text text-anchor="middle" x="1338.5" y="-180.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHParametersContainer</text>
+<polygon fill="none" stroke="#000000" points="1270,-171.5 1270,-191.5 1407,-191.5 1407,-171.5 1270,-171.5"/>
+<text text-anchor="middle" x="1338.5" y="-178.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHParametersContainer</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node18 -->
 <g id="edge28" class="edge">
 <title>Node6&#45;&gt;Node18</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M203.2702,-314.5182C244.7421,-291.863 329.5036,-251.5 407,-251.5 407,-251.5 407,-251.5 1030,-251.5 1128.4392,-251.5 1149.7819,-223.2932 1246,-202.5 1259.781,-199.5219 1274.7419,-196.4004 1288.5347,-193.5681"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M203.2702,-314.5182C244.7421,-291.863 329.5036,-251.5 407,-251.5 407,-251.5 407,-251.5 1030,-251.5 1083.5475,-251.5 1234.5152,-210.8849 1303.4204,-191.5293"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="201.4248,-311.5396 194.3907,-319.4625 204.8303,-317.6554 201.4248,-311.5396"/>
 <text text-anchor="middle" x="719.5" y="-254.5" font-family="FreeSans" font-size="10.00" fill="#000000"> superdetectorname</text>
 </g>
@@ -183,17 +183,17 @@
 <g id="node22" class="node">
 <title>Node22</title>
 <g id="a_node22"><a xlink:href="../../dd/dae/classPHParameters.html" target="_top" xlink:title="PHParameters">
-<polygon fill="none" stroke="#000000" points="676,-103.5 676,-123.5 763,-123.5 763,-103.5 676,-103.5"/>
-<text text-anchor="middle" x="719.5" y="-110.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHParameters</text>
+<polygon fill="none" stroke="#000000" points="676,-134.5 676,-154.5 763,-154.5 763,-134.5 676,-134.5"/>
+<text text-anchor="middle" x="719.5" y="-141.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHParameters</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node22 -->
 <g id="edge38" class="edge">
 <title>Node6&#45;&gt;Node22</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M178.9671,-309.1185C182.3222,-278.2579 193.292,-219.9474 229,-188.5 260.0335,-161.1693 308.2759,-173.3745 629,-127.5 644.2664,-125.3164 660.9568,-122.7776 675.8003,-120.4662"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M178.9671,-309.1185C182.3222,-278.2579 193.292,-219.9474 229,-188.5 262.1642,-159.2929 561.6869,-148.5633 675.7055,-145.5159"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="175.4755,-308.8669 178.0438,-319.1457 182.446,-309.5088 175.4755,-308.8669"/>
-<text text-anchor="middle" x="407" y="-168.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_Detector</text>
+<text text-anchor="middle" x="407" y="-170.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_Detector</text>
 </g>
 <!-- Node23 -->
 <g id="node23" class="node">
@@ -318,9 +318,9 @@
 <!-- Node11&#45;&gt;Node1 -->
 <g id="edge15" class="edge">
 <title>Node11&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M798.6007,-356.9053C930.0062,-358.7749 1201.5527,-360.6645 1431,-349.5 1496.0686,-346.3339 1514.4921,-354.8496 1577,-336.5 1598.9925,-330.044 1622.0303,-316.8382 1636.5596,-307.5899"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="798.2869,-353.4005 788.2367,-356.7537 798.1844,-360.3997 798.2869,-353.4005"/>
-<text text-anchor="middle" x="1183.5" y="-359.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_DisplayAction</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M798.5777,-356.3792C929.9504,-357.4927 1201.4507,-358.3212 1431,-349.5 1495.9929,-347.0024 1514.1328,-356.1743 1577,-339.5 1598.2438,-333.8655 1620.7055,-322.107 1635.3412,-313.5573"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="798.2468,-352.8762 788.2165,-356.2883 798.1853,-359.876 798.2468,-352.8762"/>
+<text text-anchor="middle" x="1183.5" y="-358.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_DisplayAction</text>
 </g>
 <!-- Node12&#45;&gt;Node11 -->
 <g id="edge16" class="edge">
@@ -358,46 +358,46 @@
 <!-- Node15&#45;&gt;Node1 -->
 <g id="edge21" class="edge">
 <title>Node15&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1435.123,-321.6114C1478.601,-319.9978 1530.4975,-317.0135 1577,-311.5 1585.4948,-310.4928 1594.4787,-309.0946 1603.1557,-307.5687"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="1434.9931,-318.1137 1425.1227,-321.964 1435.2399,-325.1093 1434.9931,-318.1137"/>
-<text text-anchor="middle" x="1513" y="-323.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_StavePV</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1435.3776,-324.5835C1478.7955,-324.1639 1530.574,-322.414 1577,-317.5 1585.8994,-316.558 1595.3274,-315.1287 1604.3754,-313.5374"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="1435.0774,-321.0855 1425.1036,-324.6596 1435.1293,-328.0853 1435.0774,-321.0855"/>
+<text text-anchor="middle" x="1513" y="-326.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_StavePV</text>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<polygon fill="none" stroke="#bfbfbf" points="1287.5,-251.5 1287.5,-283.5 1389.5,-283.5 1389.5,-251.5 1287.5,-251.5"/>
-<text text-anchor="start" x="1295.5" y="-270.5" font-family="FreeSans" font-size="10.00" fill="#000000">std::array&lt; int, n</text>
-<text text-anchor="middle" x="1338.5" y="-258.5" font-family="FreeSans" font-size="10.00" fill="#000000">_Layers &gt;</text>
+<polygon fill="none" stroke="#bfbfbf" points="1287.5,-256.5 1287.5,-288.5 1389.5,-288.5 1389.5,-256.5 1287.5,-256.5"/>
+<text text-anchor="start" x="1295.5" y="-275.5" font-family="FreeSans" font-size="10.00" fill="#000000">std::array&lt; int, n</text>
+<text text-anchor="middle" x="1338.5" y="-263.5" font-family="FreeSans" font-size="10.00" fill="#000000">_Layers &gt;</text>
 </g>
 <!-- Node16&#45;&gt;Node1 -->
 <g id="edge22" class="edge">
 <title>Node16&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1399.6118,-256.5874C1448.3388,-249.9928 1517.9559,-245.3113 1577,-259.5 1599.3056,-264.8602 1622.4563,-278.0789 1636.9123,-287.4139"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="1398.9508,-253.146 1389.5424,-258.0175 1399.9352,-260.0765 1398.9508,-253.146"/>
-<text text-anchor="middle" x="1513" y="-298.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_N_staves</text>
-<text text-anchor="middle" x="1513" y="-286.5" font-family="FreeSans" font-size="10.00" fill="#000000">m_IsLayerAbsorberActive</text>
-<text text-anchor="middle" x="1513" y="-274.5" font-family="FreeSans" font-size="10.00" fill="#000000">m_IsLayerActive</text>
-<text text-anchor="middle" x="1513" y="-262.5" font-family="FreeSans" font-size="10.00" fill="#000000">m_IsBlackHole</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1399.6161,-261.9803C1448.3454,-255.6666 1517.9636,-251.3132 1577,-265.5 1599.3056,-270.8602 1622.4563,-284.0789 1636.9123,-293.4139"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="1398.9825,-258.5342 1389.5461,-263.3514 1399.9269,-265.4702 1398.9825,-258.5342"/>
+<text text-anchor="middle" x="1513" y="-304.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_N_staves</text>
+<text text-anchor="middle" x="1513" y="-292.5" font-family="FreeSans" font-size="10.00" fill="#000000">m_IsLayerAbsorberActive</text>
+<text text-anchor="middle" x="1513" y="-280.5" font-family="FreeSans" font-size="10.00" fill="#000000">m_IsLayerActive</text>
+<text text-anchor="middle" x="1513" y="-268.5" font-family="FreeSans" font-size="10.00" fill="#000000">m_IsBlackHole</text>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<polygon fill="none" stroke="#bfbfbf" points="1246,-212.5 1246,-232.5 1431,-232.5 1431,-212.5 1246,-212.5"/>
-<text text-anchor="middle" x="1338.5" y="-219.5" font-family="FreeSans" font-size="10.00" fill="#000000">std::set&lt; G4VPhysicalVolume * &gt;</text>
+<polygon fill="none" stroke="#bfbfbf" points="1246,-217.5 1246,-237.5 1431,-237.5 1431,-217.5 1246,-217.5"/>
+<text text-anchor="middle" x="1338.5" y="-224.5" font-family="FreeSans" font-size="10.00" fill="#000000">std::set&lt; G4VPhysicalVolume * &gt;</text>
 </g>
 <!-- Node17&#45;&gt;Node1 -->
 <g id="edge23" class="edge">
 <title>Node17&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1441.4622,-212.7357C1484.6857,-212.2846 1534.6465,-216.686 1577,-233.5 1605.8435,-244.9506 1631.3299,-272.4676 1643.6541,-287.419"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="1441.1345,-209.2413 1431.204,-212.9338 1441.2697,-216.24 1441.1345,-209.2413"/>
-<text text-anchor="middle" x="1513" y="-236.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_SensorPV</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1441.4883,-218.251C1484.7162,-217.9953 1534.6732,-222.5941 1577,-239.5 1605.8195,-251.0109 1631.316,-278.5024 1643.648,-293.4341"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="1441.1762,-214.7551 1431.2289,-218.4023 1441.2794,-221.7544 1441.1762,-214.7551"/>
+<text text-anchor="middle" x="1513" y="-242.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_SensorPV</text>
 </g>
 <!-- Node18&#45;&gt;Node1 -->
 <g id="edge25" class="edge">
 <title>Node18&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1409.4426,-172.5499C1459.2592,-168.3324 1525.8538,-169.9184 1577,-197.5 1614.5388,-217.7436 1638.4203,-266.0489 1647.4343,-287.2393"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="1409.023,-169.0738 1399.3959,-173.4976 1409.6804,-176.0429 1409.023,-169.0738"/>
-<text text-anchor="middle" x="1513" y="-200.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_ParamsContainer</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1417.1926,-181.5518C1475.918,-182.8555 1550.4031,-187.5688 1577,-202.5 1614.4294,-223.5124 1638.3699,-271.9954 1647.4169,-293.227"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="1417.2368,-178.0521 1407.1711,-181.3584 1417.1017,-185.0508 1417.2368,-178.0521"/>
+<text text-anchor="middle" x="1513" y="-205.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_ParamsContainer</text>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node">
@@ -411,14 +411,14 @@
 <!-- Node19&#45;&gt;Node18 -->
 <g id="edge26" class="edge">
 <title>Node19&#45;&gt;Node18</title>
-<path fill="none" stroke="#191970" d="M448.9568,-13.0622C493.7234,-16.1239 566.6324,-22.0523 629,-31.5 849.887,-64.961 902.8404,-86.3636 1121,-134.5 1176.6915,-146.7882 1190.3492,-151.0289 1246,-163.5 1260.7499,-166.8054 1276.8447,-170.318 1291.4128,-173.4621"/>
-<polygon fill="#191970" stroke="#191970" points="448.9637,-9.555 438.7527,-12.3808 448.4972,-16.5394 448.9637,-9.555"/>
+<path fill="none" stroke="#191970" d="M448.9753,-11.9963C493.7573,-13.993 566.679,-18.3943 629,-27.5 695.9206,-37.2778 1149.3244,-138.904 1294.1355,-171.4985"/>
+<polygon fill="#191970" stroke="#191970" points="448.9074,-8.4904 438.7674,-11.5613 448.6093,-15.484 448.9074,-8.4904"/>
 </g>
 <!-- Node19&#45;&gt;Node22 -->
 <g id="edge31" class="edge">
 <title>Node19&#45;&gt;Node22</title>
-<path fill="none" stroke="#191970" d="M448.9737,-18.5168C464.175,-21.6422 481.4295,-25.4477 497,-29.5 556.4511,-44.9725 571.7783,-48.1503 629,-70.5 654.2768,-80.3726 682.3536,-94.1805 700.4316,-103.4615"/>
-<polygon fill="#191970" stroke="#191970" points="449.3186,-15.0159 438.8236,-16.4671 447.9329,-21.8774 449.3186,-15.0159"/>
+<path fill="none" stroke="#191970" d="M448.7864,-16.2356C495.0393,-23.8565 570.7452,-40.1718 629,-71.5 661.5345,-88.9963 693.8005,-118.7815 709.5566,-134.3456"/>
+<polygon fill="#191970" stroke="#191970" points="449.2429,-12.7644 438.8178,-14.653 448.1453,-19.6778 449.2429,-12.7644"/>
 </g>
 <!-- Node20 -->
 <g id="node20" class="node">
@@ -435,57 +435,58 @@
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<polygon fill="none" stroke="#bfbfbf" points="939,-144.5 939,-164.5 1121,-164.5 1121,-144.5 939,-144.5"/>
-<text text-anchor="middle" x="1030" y="-151.5" font-family="FreeSans" font-size="10.00" fill="#000000">std::map&lt; int, PHParameters * &gt;</text>
+<polygon fill="none" stroke="#bfbfbf" points="939,-157.5 939,-177.5 1121,-177.5 1121,-157.5 939,-157.5"/>
+<text text-anchor="middle" x="1030" y="-164.5" font-family="FreeSans" font-size="10.00" fill="#000000">std::map&lt; int, PHParameters * &gt;</text>
 </g>
 <!-- Node21&#45;&gt;Node18 -->
 <g id="edge29" class="edge">
 <title>Node21&#45;&gt;Node18</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1131.4874,-164.0401C1176.9123,-168.3102 1229.2784,-173.2328 1269.977,-177.0586"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="1131.5917,-160.5346 1121.308,-163.0832 1130.9365,-167.5039 1131.5917,-160.5346"/>
-<text text-anchor="middle" x="1183.5" y="-175.5" font-family="FreeSans" font-size="10.00" fill="#000000"> parametermap</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1131.4874,-172.1056C1176.9123,-174.167 1229.2784,-176.5434 1269.977,-178.3904"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="1131.4564,-168.6007 1121.308,-171.6436 1131.139,-175.5935 1131.4564,-168.6007"/>
+<text text-anchor="middle" x="1183.5" y="-179.5" font-family="FreeSans" font-size="10.00" fill="#000000"> parametermap</text>
 </g>
 <!-- Node22&#45;&gt;Node21 -->
 <g id="edge30" class="edge">
 <title>Node22&#45;&gt;Node21</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M772.9565,-120.5587C822.9302,-127.1574 898.0671,-137.0789 954.2166,-144.4932"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="773.3728,-117.0833 763.0006,-119.244 772.4564,-124.0231 773.3728,-117.0833"/>
-<text text-anchor="middle" x="865.5" y="-143.5" font-family="FreeSans" font-size="10.00" fill="#000000"> elements</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M773.2518,-148.4816C818.8033,-151.8558 885.1071,-156.7672 938.9247,-160.7537"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="773.2319,-144.9706 763.0006,-147.7223 772.7147,-151.9515 773.2319,-144.9706"/>
+<text text-anchor="middle" x="865.5" y="-162.5" font-family="FreeSans" font-size="10.00" fill="#000000"> elements</text>
 </g>
 <!-- Node23&#45;&gt;Node22 -->
 <g id="edge32" class="edge">
 <title>Node23&#45;&gt;Node22</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M476.4439,-108.0555C537.3366,-109.4195 623.9951,-111.3607 675.7057,-112.519"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="476.2222,-104.5498 466.1462,-107.8249 476.0653,-111.548 476.2222,-104.5498"/>
-<text text-anchor="middle" x="572" y="-114.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_DoubleParMap</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M476.4439,-114.9444C537.3366,-122.3489 623.9951,-132.8866 675.7057,-139.1746"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="476.4956,-111.425 466.1462,-113.6922 475.6506,-118.3738 476.4956,-111.425"/>
+<text text-anchor="middle" x="572" y="-136.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_DoubleParMap</text>
 </g>
 <!-- Node24&#45;&gt;Node22 -->
 <g id="edge34" class="edge">
 <title>Node24&#45;&gt;Node22</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M476.0264,-66.44C519.9246,-73.6136 577.9149,-83.4891 629,-93.5 644.3168,-96.5016 661.0195,-100.0999 675.8587,-103.4119"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="476.4669,-62.9657 466.0345,-64.814 475.3425,-69.8748 476.4669,-62.9657"/>
-<text text-anchor="middle" x="572" y="-96.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_IntParMap</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M476.3615,-67.1317C520.6267,-75.4519 578.8938,-88.0784 629,-104.5 654.1386,-112.7388 681.7822,-125.5404 699.8199,-134.4337"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="476.7528,-63.6448 466.2828,-65.2661 475.4787,-70.5279 476.7528,-63.6448"/>
+<text text-anchor="middle" x="572" y="-107.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_IntParMap</text>
 </g>
 <!-- Node25&#45;&gt;Node22 -->
 <g id="edge36" class="edge">
 <title>Node25&#45;&gt;Node22</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M477.3961,-203.8755C522.0692,-200.3259 580.4023,-192.1543 629,-173.5 660.1506,-161.5428 691.4886,-137.4376 707.8636,-123.6989"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="476.933,-200.4001 467.2165,-204.6237 477.4461,-207.3812 476.933,-200.4001"/>
-<text text-anchor="middle" x="572" y="-203.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_StringParMap</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M477.3385,-199.0103C521.2733,-193.6023 578.8301,-185.1854 629,-173.5 650.532,-168.4849 674.3185,-160.7743 692.0998,-154.5642"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="476.8375,-195.5452 467.3295,-200.2194 477.6771,-202.4947 476.8375,-195.5452"/>
+<text text-anchor="middle" x="572" y="-196.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_StringParMap</text>
 </g>
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
-<polygon fill="none" stroke="#bfbfbf" points="1281.5,-122.5 1281.5,-154.5 1395.5,-154.5 1395.5,-122.5 1281.5,-122.5"/>
-<text text-anchor="start" x="1289.5" y="-141.5" font-family="FreeSans" font-size="10.00" fill="#000000">std::array&lt; double,</text>
-<text text-anchor="middle" x="1338.5" y="-129.5" font-family="FreeSans" font-size="10.00" fill="#000000"> n_Layers &gt;</text>
+<polygon fill="none" stroke="#bfbfbf" points="1281.5,-119.5 1281.5,-151.5 1395.5,-151.5 1395.5,-119.5 1281.5,-119.5"/>
+<text text-anchor="start" x="1289.5" y="-138.5" font-family="FreeSans" font-size="10.00" fill="#000000">std::array&lt; double,</text>
+<text text-anchor="middle" x="1338.5" y="-126.5" font-family="FreeSans" font-size="10.00" fill="#000000"> n_Layers &gt;</text>
 </g>
 <!-- Node26&#45;&gt;Node1 -->
 <g id="edge39" class="edge">
 <title>Node26&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1405.5459,-122.2243C1456.5834,-113.7708 1526.4339,-111.0465 1577,-143.5 1629.2401,-177.0278 1645.8376,-258.4549 1650.1711,-287.2239"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="1404.8384,-118.795 1395.6005,-123.9827 1406.0572,-125.6881 1404.8384,-118.795"/>
-<text text-anchor="middle" x="1513" y="-158.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_nominal_radius</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1405.5412,-120.0694C1456.7317,-112.2064 1526.7846,-110.2926 1577,-143.5 1630.6724,-178.9936 1646.4205,-263.9215 1650.347,-293.2965"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="1404.8642,-116.6337 1395.5661,-121.7127 1406.0021,-123.5406 1404.8642,-116.6337"/>
+<text text-anchor="middle" x="1513" y="-170.5" font-family="FreeSans" font-size="10.00" fill="#000000"> m_nominal_radius</text>
+<text text-anchor="middle" x="1513" y="-158.5" font-family="FreeSans" font-size="10.00" fill="#000000">m_nominal_phi0</text>
 <text text-anchor="middle" x="1513" y="-146.5" font-family="FreeSans" font-size="10.00" fill="#000000">m_nominal_phitilt</text>
 </g>
 </g>

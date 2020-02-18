@@ -1,7 +1,14 @@
 <map id="RecoConversionEval::correctSecondaryVertex" name="RecoConversionEval::correctSecondaryVertex">
-<area shape="rect" id="node2" href="$d7/dd4/classVtxRegressor.html#a9fcfebeb181524d256aad8d06b00d621" title="VtxRegressor::regress" alt="" coords="245,57,416,85"/>
-<area shape="rect" id="node6" href="$d0/d34/tracks_8C.html#ac926d763061c5568ecb5f5e062e9c778" title="tracks" alt="" coords="299,109,362,137"/>
-<area shape="rect" id="node3" href="$d2/db8/classSvtxTrack.html#af6f03ad537260f2ceef84cf876e22deb" title="SvtxTrack::get_pt" alt="" coords="467,5,606,33"/>
-<area shape="rect" id="node4" href="$d2/db8/classSvtxTrack.html#a8ffb0c9b9181cc2dedd6e21f4b462129" title="SvtxTrack::get_phi" alt="" coords="464,57,609,85"/>
-<area shape="rect" id="node5" href="$d2/db8/classSvtxTrack.html#a991a05caa213e0922d00c76568dade57" title="SvtxTrack::get_eta" alt="" coords="464,109,609,137"/>
+<area shape="rect" id="node2" href="$db/da0/classgenfit_1_1GFRaveVertex.html#aa226bc70ee2447569467de599e6d05e7" title="genfit::GFRaveVertex\l::getChi2" alt="" coords="248,5,413,49"/>
+<area shape="rect" id="node3" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a25d5cd4f3c081231c4d77f80fefbade1" title="get 3x3 covariance (error) of position." alt="" coords="248,73,413,117"/>
+<area shape="rect" id="node4" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a6bd2509053f9d4a654c3a53ace075937" title="genfit::GFRaveVertex\l::getId" alt="" coords="248,141,413,185"/>
+<area shape="rect" id="node5" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a49fda0bfc9f1bd338c21ca973e8552b9" title="genfit::GFRaveVertex\l::getNdf" alt="" coords="248,209,413,253"/>
+<area shape="rect" id="node6" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a47ada7742989e3e294a3cc9f1342fee7" title="Number of tracks the vertex is made of." alt="" coords="248,277,413,321"/>
+<area shape="rect" id="node7" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a14875bcfb7c0b9373ec2bb6010c78d8d" title="genfit::GFRaveVertex\l::getParameters" alt="" coords="248,345,413,389"/>
+<area shape="rect" id="node8" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a4818bdeb821d19b283ae026af388e92b" title="get Position" alt="" coords="464,397,629,441"/>
+<area shape="rect" id="node9" href="$d7/dd4/classVtxRegressor.html#a9fcfebeb181524d256aad8d06b00d621" title="VtxRegressor::regress" alt="" coords="245,465,416,493"/>
+<area shape="rect" id="node13" href="$d0/d34/tracks_8C.html#ac926d763061c5568ecb5f5e062e9c778" title="tracks" alt="" coords="299,517,362,545"/>
+<area shape="rect" id="node10" href="$d2/db8/classSvtxTrack.html#af6f03ad537260f2ceef84cf876e22deb" title="SvtxTrack::get_pt" alt="" coords="477,465,616,493"/>
+<area shape="rect" id="node11" href="$d2/db8/classSvtxTrack.html#a8ffb0c9b9181cc2dedd6e21f4b462129" title="SvtxTrack::get_phi" alt="" coords="474,517,619,545"/>
+<area shape="rect" id="node12" href="$d2/db8/classSvtxTrack.html#a991a05caa213e0922d00c76568dade57" title="SvtxTrack::get_eta" alt="" coords="474,569,619,597"/>
 </map>

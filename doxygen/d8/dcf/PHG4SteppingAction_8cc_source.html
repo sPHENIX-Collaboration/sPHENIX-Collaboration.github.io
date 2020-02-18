@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d8/dcf/PHG4SteppingAction_8cc_source.h
 <div class="title">PHG4SteppingAction.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d8/dcf/PHG4SteppingAction_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../d8/dcf/PHG4SteppingAction_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4main/PHG4SteppingAction.cc">the newest version in sPHENIX GitHub for file PHG4SteppingAction.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d55/PHG4SteppingAction_8h.html">PHG4SteppingAction.h</a>&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/d83/PHG4Hit_8h.html">PHG4Hit.h</a>&quot;</span></div>
@@ -186,7 +186,7 @@ $(document).ready(function(){initNavTree('d8/dcf/PHG4SteppingAction_8cc_source.h
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  {</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    light_yield = aMaterialPropertiesTable-&gt;GetConstProperty(</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                      <span class="stringliteral">&quot;SCINTILLATIONYIELD&quot;</span>) *</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                  <a class="code" href="../../df/d3f/classPHG4SteppingAction.html#a57aa751589ae9eb0c2e6563948e85513" title="get amount of energy that can make scintillation light, in Unit of GeV.">GetVisibleEnergyDeposition</a>(step) * GeV;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                  <a class="code" href="../../df/d3f/classPHG4SteppingAction.html#a57aa751589ae9eb0c2e6563948e85513" title="get amount of energy that can make scintillation light, in Unit of GeV.">GetVisibleEnergyDeposition</a>(step) * <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">return</span> light_yield;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  }  <span class="comment">//  if (aMaterialPropertiesTable-&gt;ConstPropertyExists(&quot;SCINTILLATIONYIELD&quot;))</span></div>
@@ -224,7 +224,7 @@ $(document).ready(function(){initNavTree('d8/dcf/PHG4SteppingAction_8cc_source.h
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    {</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      emSaturation-&gt;SetVerbose(<a class="code" href="../../df/d3f/classPHG4SteppingAction.html#a150b24526b7bd051c5c986649b02215b">m_Verbosity</a>);</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordtype">double</span> visen = emSaturation-&gt;VisibleEnergyDepositionAtAStep(step) / GeV;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordtype">double</span> visen = emSaturation-&gt;VisibleEnergyDepositionAtAStep(step) / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">return</span> visen;</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  }</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="keywordflow">else</span></div>
@@ -294,8 +294,8 @@ $(document).ready(function(){initNavTree('d8/dcf/PHG4SteppingAction_8cc_source.h
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../df/d3f/classPHG4SteppingAction.html#af935b2f4316ea30f8d5bdc95b98a30e5">ValidCorrection</a>())</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  {</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordtype">double</span> slope = (<a class="code" href="../../df/d3f/classPHG4SteppingAction.html#a46f01d852dec745a39da02e769f42f0a">m_LightBalanceOuterCorr</a> - <a class="code" href="../../df/d3f/classPHG4SteppingAction.html#abb039101eec21b0d869acf2429454973">m_LightBalanceInnerCorr</a>) / (<a class="code" href="../../df/d3f/classPHG4SteppingAction.html#a1eeb0608936016587f4abdb65858cf1a">m_LightBalanceOuterRadius</a> - <a class="code" href="../../df/d3f/classPHG4SteppingAction.html#a6250852dd9ad94f83f549001f312a244">m_LightBalanceInnerRadius</a>);</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordtype">double</span> b = <a class="code" href="../../df/d3f/classPHG4SteppingAction.html#abb039101eec21b0d869acf2429454973">m_LightBalanceInnerCorr</a> - m * <a class="code" href="../../df/d3f/classPHG4SteppingAction.html#a6250852dd9ad94f83f549001f312a244">m_LightBalanceInnerRadius</a>;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    correction = slope * r + b;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a> = <a class="code" href="../../df/d3f/classPHG4SteppingAction.html#abb039101eec21b0d869acf2429454973">m_LightBalanceInnerCorr</a> - m * <a class="code" href="../../df/d3f/classPHG4SteppingAction.html#a6250852dd9ad94f83f549001f312a244">m_LightBalanceInnerRadius</a>;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    correction = slope * r + <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>;</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    correction = <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4735a0c4d1b11f62ea44115d54a93087">std::min</a>(correction, 1.);</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    correction = <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#aa83862769f78fffb512bc9283007ef67">std::max</a>(correction, 0.);</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  }</div>
@@ -323,7 +323,7 @@ $(document).ready(function(){initNavTree('d8/dcf/PHG4SteppingAction_8cc_source.h
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_d7c39552d8b30c84b73c0b1367a66a4d.html">g4main</a></li><li class="navelem"><a class="el" href="../../d8/dcf/PHG4SteppingAction_8cc.html">PHG4SteppingAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:25</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:31</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

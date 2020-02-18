@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d1/d6d/RawTowerBuilder_8cc_source.html
 <div class="title">RawTowerBuilder.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d1/d6d/RawTowerBuilder_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/d5d/RawTowerBuilder_8h.html">RawTowerBuilder.h</a>&quot;</span></div>
+<a href="../../d1/d6d/RawTowerBuilder_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4calo/RawTowerBuilder.cc">the newest version in sPHENIX GitHub for file RawTowerBuilder.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/d5d/RawTowerBuilder_8h.html">RawTowerBuilder.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;calobase/RawTower.h&gt;</span>                          <span class="comment">// for RawTower</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;calobase/RawTowerv1.h&gt;</span></div>
@@ -253,11 +253,11 @@ $(document).ready(function(){initNavTree('d1/d6d/RawTowerBuilder_8cc_source.html
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <a class="code" href="../../dc/dfe/classPHG4Cell.html">PHG4Cell</a> *cell = cell_iter-&gt;second;</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>() &gt; 2)</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    {</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      std::cout &lt;&lt; <a class="code" href="../../d5/d6f/phool_8h.html#af0d012f6b6ca17becb91a4495f1e8b7a">PHWHERE</a> &lt;&lt; <span class="stringliteral">&quot; print out the cell:&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      cell-&gt;<a class="code" href="../../dc/dfe/classPHG4Cell.html#ad8f6a5e7b201dc8720881f328e449a47">identify</a>();</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    }</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;      {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        std::cout &lt;&lt; <a class="code" href="../../d5/d6f/phool_8h.html#af0d012f6b6ca17becb91a4495f1e8b7a">PHWHERE</a> &lt;&lt; <span class="stringliteral">&quot; print out the cell:&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        cell-&gt;<a class="code" href="../../dc/dfe/classPHG4Cell.html#ad8f6a5e7b201dc8720881f328e449a47">identify</a>();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    </div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="comment">// add the energy to the corresponding tower</span></div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <a class="code" href="../../d9/dd8/classRawTower.html">RawTower</a> *<a class="code" href="../../d6/d91/classtower.html">tower</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordtype">short</span> <span class="keywordtype">int</span> firstpar;</div>
@@ -400,15 +400,15 @@ $(document).ready(function(){initNavTree('d1/d6d/RawTowerBuilder_8cc_source.html
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;  <span class="keywordflow">for</span> (miter = begin_end.first; miter != begin_end.second; ++miter)</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;  {</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <a class="code" href="../../d9/d85/classPHG4CylinderCellGeom.html">PHG4CylinderCellGeom</a> *cellgeo = miter-&gt;second;</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    first_cellgeo = miter-&gt;second;</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>())</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    {</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;      cellgeo-&gt;<a class="code" href="../../d9/d85/classPHG4CylinderCellGeom.html#a7ddb7c7bebe4060faae131d1e831e590">identify</a>();</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    }</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    thickness += cellgeo-&gt;<a class="code" href="../../d9/d85/classPHG4CylinderCellGeom.html#ad686dcdb176becd88d1e3ee1fa5113bf">get_thickness</a>();</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <span class="keywordflow">if</span> (ifirst)</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>())</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    {</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;      cellgeo-&gt;<a class="code" href="../../d9/d85/classPHG4CylinderCellGeom.html#a7ddb7c7bebe4060faae131d1e831e590">identify</a>();</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    }</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    thickness += cellgeo-&gt;<a class="code" href="../../d9/d85/classPHG4CylinderCellGeom.html#ad686dcdb176becd88d1e3ee1fa5113bf">get_thickness</a>();</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keywordflow">if</span> (ifirst)</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    {</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;      first_cellgeo = miter-&gt;second;</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;      <a class="code" href="../../d7/d10/classRawTowerBuilder.html#ac708d5e2d1fbdcf725f823daf3704521">m_CellBinning</a> = cellgeo-&gt;<a class="code" href="../../d9/d85/classPHG4CylinderCellGeom.html#a811290682c997ee647e48668d03e4e34">get_binning</a>();</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;      <a class="code" href="../../d7/d10/classRawTowerBuilder.html#a986a25d7e4f6397f97b58ae269407616">m_NumPhiBins</a> = cellgeo-&gt;<a class="code" href="../../d9/d85/classPHG4CylinderCellGeom.html#a4999cf2fcefaae861e8ddc7c489af731">get_phibins</a>();</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;      <a class="code" href="../../d7/d10/classRawTowerBuilder.html#a9227cbe29c3414abb0d8f549b9bcd09d">m_PhiMin</a> = cellgeo-&gt;<a class="code" href="../../d9/d85/classPHG4CylinderCellGeom.html#aaef09dc39c17757b6e4ae55c736061a0">get_phimin</a>();</div>
@@ -537,7 +537,7 @@ $(document).ready(function(){initNavTree('d1/d6d/RawTowerBuilder_8cc_source.html
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;</div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/d10/classRawTowerBuilder.html#ac708d5e2d1fbdcf725f823daf3704521">m_CellBinning</a> == <a class="code" href="../../d7/dba/namespacePHG4CellDefs.html#abe0361ab474a224272fe4f968784528ca7a4c704fa3627f4b57dc89d7ccfd087a">PHG4CellDefs::etaphibinning</a> || <a class="code" href="../../d7/d10/classRawTowerBuilder.html#ac708d5e2d1fbdcf725f823daf3704521">m_CellBinning</a> == <a class="code" href="../../d7/dba/namespacePHG4CellDefs.html#abe0361ab474a224272fe4f968784528ca415b3f32f52bfdba0e7eeeb56aab166f">PHG4CellDefs::etaslatbinning</a> || <a class="code" href="../../d7/d10/classRawTowerBuilder.html#ac708d5e2d1fbdcf725f823daf3704521">m_CellBinning</a> == <a class="code" href="../../d7/dba/namespacePHG4CellDefs.html#abe0361ab474a224272fe4f968784528ca8c76208606f68e176575a5c02bd8cc3f">PHG4CellDefs::spacalbinning</a>)</div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;  {</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="../../da/dca/HelixHough__vote__sse_8cpp.html#ac6bf9508b64adb67eb5805687bb9b5be">r</a> = inner_radius + thickness / 2.;</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="../../da/dca/HelixHough__vote__sse_8cpp.html#ac6bf9508b64adb67eb5805687bb9b5be">r</a> = inner_radius;</div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;</div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> ibin = 0; ibin &lt; first_cellgeo-&gt;<a class="code" href="../../d9/d85/classPHG4CylinderCellGeom.html#a44e60a931f29f71c8aad783b7ced95e1">get_etabins</a>(); ibin++)</div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;    {</div>
@@ -605,7 +605,7 @@ $(document).ready(function(){initNavTree('d1/d6d/RawTowerBuilder_8cc_source.html
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;  }</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d7/d10/classRawTowerBuilder.html#ac708d5e2d1fbdcf725f823daf3704521">m_CellBinning</a> == <a class="code" href="../../d7/dba/namespacePHG4CellDefs.html#abe0361ab474a224272fe4f968784528cac82f6fa5fbd6b24f2cc2ef91bf7d027d">PHG4CellDefs::sizebinning</a>)</div>
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;  {</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="../../da/dca/HelixHough__vote__sse_8cpp.html#ac6bf9508b64adb67eb5805687bb9b5be">r</a> = inner_radius + thickness / 2.;</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="../../da/dca/HelixHough__vote__sse_8cpp.html#ac6bf9508b64adb67eb5805687bb9b5be">r</a> = inner_radius;</div>
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;</div>
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> ibin = 0; ibin &lt; first_cellgeo-&gt;<a class="code" href="../../d9/d85/classPHG4CylinderCellGeom.html#a0cdfdbb3b06ded109b6229d2bd74e92d">get_zbins</a>(); ibin++)</div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;    {</div>
@@ -731,7 +731,7 @@ $(document).ready(function(){initNavTree('d1/d6d/RawTowerBuilder_8cc_source.html
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_88f913f25f78be4dff0b44cf0c767415.html">g4calo</a></li><li class="navelem"><a class="el" href="../../d1/d6d/RawTowerBuilder_8cc.html">RawTowerBuilder.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:22</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:28</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

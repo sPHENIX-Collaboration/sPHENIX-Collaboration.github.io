@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('da/d0a/CylinderKalman_8cpp_source.html
 <div class="title">CylinderKalman.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../da/d0a/CylinderKalman_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/d2c/CylinderKalman_8h.html">CylinderKalman.h</a>&quot;</span></div>
+<a href="../../da/d0a/CylinderKalman_8cpp.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp">the newest version in sPHENIX GitHub for file CylinderKalman.cpp</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/d2c/CylinderKalman_8h.html">CylinderKalman.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d58/HelixKalmanState_8h.html">HelixKalmanState.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d84/SimpleHit3D_8h.html">SimpleHit3D.h</a>&quot;</span></div>
@@ -164,7 +164,7 @@ $(document).ready(function(){initNavTree('da/d0a/CylinderKalman_8cpp_source.html
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordtype">float</span> kcy = kd * sinphi;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordtype">float</span> kd_inv = 1. / kd;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keywordtype">float</span> R2 = rad_det * rad_det;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordtype">float</span> a = 0.5 * (k * R2 + (d * d * k + 2. * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a891cb8c7054cada2d3d045543e5eea0e">d</a>)) * kd_inv;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordtype">float</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a6d2496198d1982fd950acfb79033902b">a</a> = 0.5 * (k * R2 + (d * d * k + 2. * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a891cb8c7054cada2d3d045543e5eea0e">d</a>)) * kd_inv;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keywordtype">float</span> <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4543e304e37aef70689fa3111d990f4b">tmp1</a> = a * kd_inv;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordtype">float</span> P2x = kcx * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4543e304e37aef70689fa3111d990f4b">tmp1</a>;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keywordtype">float</span> P2y = kcy * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4543e304e37aef70689fa3111d990f4b">tmp1</a>;</div>
@@ -586,7 +586,7 @@ $(document).ready(function(){initNavTree('da/d0a/CylinderKalman_8cpp_source.html
 <div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;  <span class="keywordtype">float</span> kcy = kd * sinphi;</div>
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;  <span class="keywordtype">float</span> kd_inv = 1. / kd;</div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;  <span class="keywordtype">float</span> R2 = rad_det * rad_det;</div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;  <span class="keywordtype">float</span> a = 0.5 * (k * R2 + (d * d * k + 2. * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a891cb8c7054cada2d3d045543e5eea0e">d</a>)) * kd_inv;</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;  <span class="keywordtype">float</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a6d2496198d1982fd950acfb79033902b">a</a> = 0.5 * (k * R2 + (d * d * k + 2. * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a891cb8c7054cada2d3d045543e5eea0e">d</a>)) * kd_inv;</div>
 <div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;  <span class="keywordtype">float</span> <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4543e304e37aef70689fa3111d990f4b">tmp1</a> = a * kd_inv;</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;  <span class="keywordtype">float</span> P2x = kcx * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4543e304e37aef70689fa3111d990f4b">tmp1</a>;</div>
 <div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;  <span class="keywordtype">float</span> P2y = kcy * <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a4543e304e37aef70689fa3111d990f4b">tmp1</a>;</div>
@@ -655,7 +655,7 @@ $(document).ready(function(){initNavTree('da/d0a/CylinderKalman_8cpp_source.html
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_9c5d0d6754a5ab97395e4f321ebded46.html">HelixHough</a></li><li class="navelem"><a class="el" href="../../dir_d78195e9d7eb93def5af33e7ede3de9a.html">helix_hough</a></li><li class="navelem"><a class="el" href="../../dir_69552527b6a35ab3630f78088052c12b.html">Kalman</a></li><li class="navelem"><a class="el" href="../../da/d0a/CylinderKalman_8cpp.html">CylinderKalman.cpp</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:20</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:25</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

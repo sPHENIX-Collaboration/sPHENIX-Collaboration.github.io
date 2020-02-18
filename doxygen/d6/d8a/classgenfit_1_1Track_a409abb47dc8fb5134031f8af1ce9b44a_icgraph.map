@@ -1,0 +1,39 @@
+<map id="genfit::Track::deleteBackwardInfo" name="genfit::Track::deleteBackwardInfo">
+<area shape="rect" id="node2" href="$d6/d8a/classgenfit_1_1Track.html#a1ea13a2c39bc51c7b583b41d0371dd1a" title="genfit::Track::deletePoint" alt="" coords="319,135,510,163"/>
+<area shape="rect" id="node5" href="$d6/d8a/classgenfit_1_1Track.html#a7e61ada0d84db561ede923db92c4ab01" title="Insert TrackPoint BEFORE TrackPoint with position id, if id &gt;= 0." alt="" coords="321,464,508,492"/>
+<area shape="rect" id="node25" href="$d6/d8a/classgenfit_1_1Track.html#a7f6d492fe5163ea636030fde354b63bd" title="Insert TrackPoints BEFORE TrackPoint with position id, if id &gt;= 0." alt="" coords="610,284,803,312"/>
+<area shape="rect" id="node31" href="$d6/d8a/classgenfit_1_1Track.html#a542f6bc2f82c89f2559adb3551641531" title="Delete unneeded information from the Track." alt="" coords="338,680,491,708"/>
+<area shape="rect" id="node32" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#a28422a9e34569bd4d3db497ed326e202" title="If refitAll_, remove all information." alt="" coords="301,799,528,843"/>
+<area shape="rect" id="node35" href="$d6/d8a/classgenfit_1_1Track.html#a20e8861b9b00d3de75c8794344ef5d1b" title="Flip the ordering of the TrackPoints." alt="" coords="315,896,515,940"/>
+<area shape="rect" id="node37" href="$d6/d8a/classgenfit_1_1Track.html#acd5e754e83c67f7dfa2c48613e61dc2a" title="Sort TrackPoint and according to their sorting parameters." alt="" coords="345,732,485,760"/>
+<area shape="rect" id="node3" href="$d7/dd5/classPHGenFit_1_1Track.html#a8dfb1640ab500e1a69f5d920fed7936f" title="PHGenFit::Track::deleteLast\lMeasurement" alt="" coords="603,127,810,171"/>
+<area shape="rect" id="node4" href="$d1/dc8/classgenfit_1_1GblFitter.html#a224cad1dcba8a38a34650fea7bfad61e" title="Remove all previous gbl fitter data from track Also removes trackpoints without measurement." alt="" coords="639,59,774,103"/>
+<area shape="rect" id="node6" href="$d0/d48/GenFit_2blob_2master_2test_2fitterTests_2main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="1205,336,1260,364"/>
+<area shape="rect" id="node7" href="$d7/dd5/classPHGenFit_1_1Track.html#a88666b0914fa412f3c139c6acb07a55b" title="Add measurement." alt="" coords="579,524,834,552"/>
+<area shape="rect" id="node8" href="$d7/dd5/classPHGenFit_1_1Track.html#a3c6639bba6584ef0fd2581150947b85f" title="PHGenFit::Track::addMeasurements" alt="" coords="576,195,837,223"/>
+<area shape="rect" id="node23" href="$d6/d8a/classgenfit_1_1Track.html#a73f9e05be44d2d677b4293f57d5fb004" title="genfit::Track::createMeasurements" alt="" coords="579,576,835,604"/>
+<area shape="rect" id="node27" href="$d6/d8a/classgenfit_1_1Track.html#a3f78a9f2e938a40d4a51b6ce6d09bb26" title="Creates a new TrackPoint containing the measurement, and adds it to the track." alt="" coords="584,628,829,656"/>
+<area shape="rect" id="node28" href="$d5/daa/classPHRaveVertexing.html#af3ca2c60b8b69efdf6fdaf781f19948c" title="PHRaveVertexing::Translate\lSvtxToGenFitTrack" alt="" coords="603,388,811,432"/>
+<area shape="rect" id="node30" href="$d1/dc8/classgenfit_1_1GblFitter.html#a5da35921dc77781efca0650aefff823a" title="Propagate seed, populate track with scatterers and GblFitterInfos with reference state set..." alt="" coords="639,456,774,500"/>
+<area shape="rect" id="node9" href="$d1/d04/classBDiJetModule.html#aa2f3d100a0f4b8a1b5836d9436e071e8" title="Initialize the TTree." alt="" coords="892,44,1092,88"/>
+<area shape="rect" id="node11" href="$d6/d17/classSVReco.html#af99925be18cc9afbb2b9936df3a925db" title="Uses the tracking clusters exclusively to make a GFTrack." alt="" coords="894,112,1090,140"/>
+<area shape="rect" id="node21" href="$d2/d38/minimumTestPHGenFit_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="965,164,1019,192"/>
+<area shape="rect" id="node22" href="$d9/d91/classPHG4TrackFastSim.html#a8bb22ab279c5f433069774bd2ab0a7ae" title="Process Event, called for each event." alt="" coords="888,216,1096,260"/>
+<area shape="rect" id="node10" href="$d1/d04/classBDiJetModule.html#a8f01ada101f7e91cf05e12bbf420d192" title="BDiJetModule::process\l_event" alt="" coords="1147,44,1319,88"/>
+<area shape="rect" id="node12" href="$d6/d17/classSVReco.html#a19081506d2161465fdf3f36527aa0e18" title="Initialization, called for initialization at each event." alt="" coords="1162,112,1303,140"/>
+<area shape="rect" id="node17" href="$d6/d17/classSVReco.html#aed33c3da67bd3f1b7c3c73127b8187ea" title="SVReco::refitTrack" alt="" coords="1161,232,1305,260"/>
+<area shape="rect" id="node13" href="$df/d9b/classRecoConversionEval.html#ab5e60cc47b4b3d33f9fdb4a83c2ff775" title="RecoConversionEval\l::doNodePointers" alt="" coords="1403,5,1562,49"/>
+<area shape="rect" id="node15" href="$d2/d6d/classVtxTest.html#ad1a3b9d5e730a3ba75f13a084e21bee5" title="VtxTest::process_event" alt="" coords="1393,73,1572,101"/>
+<area shape="rect" id="node16" href="$d9/d3a/classTruthConversionEval.html#a9a67c8171296f35dd157daf89108d3fd" title="TruthConversionEval\l::process_event" alt="" coords="1402,125,1563,169"/>
+<area shape="rect" id="node14" href="$df/d9b/classRecoConversionEval.html#a54bb2ea55f01b0d0dc8752fbee1bc237" title="RecoConversionEval\l::process_event" alt="" coords="1647,100,1805,144"/>
+<area shape="rect" id="node18" href="$df/d9b/classRecoConversionEval.html#ae0025d84438ba3f29cc99ec09cbb9f5b" title="Uses _vertexer to refit." alt="" coords="1403,193,1562,237"/>
+<area shape="rect" id="node19" href="$dc/d41/classConversion.html#a5a8976da958375a2e66f9c35017fb7be" title="Uses recoVertex and." alt="" coords="1395,261,1571,289"/>
+<area shape="rect" id="node20" href="$dc/d41/classConversion.html#a232908ec95e6d7b3bfd8883d19885971" title="Uses the truth vertex and SVReco to improve the fit of reco1 and reco2. Uses." alt="" coords="1367,313,1599,341"/>
+<area shape="rect" id="node24" href="$d6/d8a/classgenfit_1_1Track.html#a9b8776fee4ae9f578ab16a30ebcb4ac8" title="genfit::Track::Track" alt="" coords="917,576,1067,604"/>
+<area shape="rect" id="node26" href="$d6/d8a/classgenfit_1_1Track.html#ab13a5076fe0b011dcde604846cd89d9e" title="Merge two tracks." alt="" coords="895,284,1089,312"/>
+<area shape="rect" id="node29" href="$d5/daa/classPHRaveVertexing.html#afefcb6ce27ac34016e62172d8519fae8" title="Process Event, called for each event." alt="" coords="893,388,1091,432"/>
+<area shape="rect" id="node33" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ab28798fe239a0577ef7a9c254c235491" title="Prepare the track." alt="" coords="600,851,813,895"/>
+<area shape="rect" id="node34" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ad3a24181b5370cc95f01f49ea148c011" title="genfit::KalmanFitterRefTrack\l::processTrackWithRep" alt="" coords="885,791,1099,835"/>
+<area shape="rect" id="node36" href="$d6/d8a/classgenfit_1_1Track.html#af7557944de667f7bb312c3f960d09096" title="Make track ready to be fitted in reverse direction." alt="" coords="607,919,807,947"/>
+<area shape="rect" id="node38" href="$d1/dc8/classgenfit_1_1GblFitter.html#a3f041e8b52448d6e55992a6c0e3136d7" title="Sort hits in track by arc&#45;len using extrapolation." alt="" coords="639,783,774,827"/>
+</map>

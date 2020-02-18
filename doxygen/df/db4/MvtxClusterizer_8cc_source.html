@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('df/db4/MvtxClusterizer_8cc_source.html
 <div class="title">MvtxClusterizer.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/db4/MvtxClusterizer_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../df/db4/MvtxClusterizer_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/mvtx/MvtxClusterizer.cc">the newest version in sPHENIX GitHub for file MvtxClusterizer.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/d96/MvtxClusterizer_8h.html" title="Clusterizer for the MVTX.">MvtxClusterizer.h</a>&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d82/MvtxDefs_8h.html" title="Utility functions for MVTX.">MvtxDefs.h</a>&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/df2/CylinderGeom__Mvtx_8h.html">CylinderGeom_Mvtx.h</a>&quot;</span></div>
@@ -231,7 +231,7 @@ $(document).ready(function(){initNavTree('df/db4/MvtxClusterizer_8cc_source.html
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        DetNode = <span class="keyword">new</span> <a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>(<span class="stringliteral">&quot;TRKR&quot;</span>);</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        dstNode-&gt;addNode(DetNode);</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      }</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    trkrclusters = <span class="keyword">new</span> <a class="code" href="../../d0/d2c/classTrkrClusterContainer.html" title="Cluster container object.">TrkrClusterContainer</a>();</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a> *TrkrClusterContainerNode =</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      <span class="keyword">new</span> <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a>(trkrclusters, <span class="stringliteral">&quot;TRKR_CLUSTER&quot;</span>, <span class="stringliteral">&quot;PHObject&quot;</span>);</div>
@@ -328,10 +328,10 @@ $(document).ready(function(){initNavTree('df/db4/MvtxClusterizer_8cc_source.html
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>() &gt; 2)</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      hitset-&gt;<a class="code" href="../../d9/dc1/classTrkrHitSet.html#af1ecf88b6afbf636a82d40b56020089a" title="TObject functions.">identify</a>();</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    </div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="comment">// fill a vector of hits to make things easier</span></div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    std::vector &lt;std::pair&lt; TrkrDefs::hitkey, TrkrHit*&gt; &gt; hitvec;</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                           </div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <a class="code" href="../../d9/dc1/classTrkrHitSet.html#a170c284fce11f03250ff73feca5f79b5">TrkrHitSet::ConstRange</a> hitrangei = hitset-&gt;<a class="code" href="../../d9/dc1/classTrkrHitSet.html#ad9589ea531ae7511ad7547be467b48aa" title="Get all hits.">getHits</a>();</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../d9/dc1/classTrkrHitSet.html#a9b4fae00506392f7b5d873ffdb06a703">TrkrHitSet::ConstIterator</a> hitr = hitrangei.first;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;         hitr != hitrangei.second;</div>
@@ -359,10 +359,10 @@ $(document).ready(function(){initNavTree('df/db4/MvtxClusterizer_8cc_source.html
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="comment">// Find the connections between the vertices of the graph (vertices are the rawhits,</span></div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="comment">// connections are made when they are adjacent to one another)</span></div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    vector&lt;int&gt; component(num_vertices(G));</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    </div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="comment">// this is the actual clustering, performed by boost</span></div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    connected_components(G, &amp;component[0]);</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    </div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <span class="comment">// Loop over the components(hits) compiling a list of the</span></div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    <span class="comment">// unique connected groups (ie. clusters).</span></div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    set&lt;int&gt; cluster_ids;  <span class="comment">// unique components</span></div>
@@ -373,26 +373,26 @@ $(document).ready(function(){initNavTree('df/db4/MvtxClusterizer_8cc_source.html
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        cluster_ids.insert(component[<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>]);</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        clusters.insert(make_pair(component[i], hitvec[i]));</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;      }</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    </div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="comment">// loop over the componenets and make clusters</span></div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <span class="keywordflow">for</span> (set&lt;int&gt;::iterator clusiter = cluster_ids.begin(); clusiter != cluster_ids.end(); ++clusiter)</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;      {</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordtype">int</span> clusid = *clusiter;</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        pair&lt;multimap&lt;int, std::pair&lt;TrkrDefs::hitkey, TrkrHit*&gt;&gt;::iterator,  </div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        pair&lt;multimap&lt;int, std::pair&lt;TrkrDefs::hitkey, TrkrHit*&gt;&gt;::iterator,</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                      multimap&lt;int, std::pair&lt;TrkrDefs::hitkey, TrkrHit*&gt;&gt;::iterator&gt;  clusrange = clusters.equal_range(clusid);</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        multimap&lt;int, std::pair&lt;TrkrDefs::hitkey, TrkrHit*&gt;&gt;::iterator mapiter = clusrange.first;</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        </div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>() &gt; 2)</div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;          cout &lt;&lt; <span class="stringliteral">&quot;Filling cluster id &quot;</span> &lt;&lt; clusid &lt;&lt; endl;</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        </div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="comment">// make the cluster directly in the node tree</span></div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        <a class="code" href="../../d6/d3f/namespaceTrkrDefs.html#adcd48caf27b141adf8a295d48d0d7212">TrkrDefs::cluskey</a> ckey = <a class="code" href="../../d8/df1/namespaceMvtxDefs.html#a9205343fdba72e5ac8b44946102af8ae" title="Generate a cluster key from indeces.">MvtxDefs::genClusKey</a>(hitset-&gt;<a class="code" href="../../d9/dc1/classTrkrHitSet.html#ad407a57ad9c4624e1f8766335264af76" title="Get the key for this object.">getHitSetKey</a>(), clusid);</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        <a class="code" href="../../dc/d79/classTrkrClusterv1.html" title="Version 1 of TrkrCluster.">TrkrClusterv1</a> *clus = <span class="keyword">static_cast&lt;</span><a class="code" href="../../dc/d79/classTrkrClusterv1.html" title="Version 1 of TrkrCluster.">TrkrClusterv1</a> *<span class="keyword">&gt;</span>((<a class="code" href="../../dc/d12/classMvtxClusterizer.html#aab924b4520f74cde2a3a879c850b013d">m_clusterlist</a>-&gt;<a class="code" href="../../d0/d2c/classTrkrClusterContainer.html#a3b187904e3c80ff23b4d65bd477aa40a">findOrAddCluster</a>(ckey))-&gt;second);</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        </div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="comment">// determine the size of the cluster in phi and z</span></div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        set&lt;int&gt; <a class="code" href="../../d9/d1d/matscan_8C.html#a3a9841857ce738ebb83a4877cfba3fb4">phibins</a>;</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        set&lt;int&gt; zbins;</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        </div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        <span class="comment">// determine the cluster position...</span></div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="keywordtype">double</span> xsum = 0.0;</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="keywordtype">double</span> ysum = 0.0;</div>
@@ -410,8 +410,8 @@ $(document).ready(function(){initNavTree('df/db4/MvtxClusterizer_8cc_source.html
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;          exit(1);</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        <span class="keywordtype">int</span> chip = <a class="code" href="../../d8/df1/namespaceMvtxDefs.html#abfd7b6c5fe579370c360924854579283" title="Get the chip id from hitsetkey.">MvtxDefs::getChipId</a>(ckey);</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <span class="keywordtype">int</span> stave =  <a class="code" href="../../d8/df1/namespaceMvtxDefs.html#a0d6fee920baed2f17bed6f7990bb88c3" title="Get the stave id from hitsetkey.">MvtxDefs::getStaveId</a>(ckey); </div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        </div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <span class="keywordtype">int</span> stave =  <a class="code" href="../../d8/df1/namespaceMvtxDefs.html#a0d6fee920baed2f17bed6f7990bb88c3" title="Get the stave id from hitsetkey.">MvtxDefs::getStaveId</a>(ckey);</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        <span class="keywordflow">for</span> (mapiter = clusrange.first; mapiter != clusrange.second; ++mapiter)</div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;          {</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            <span class="comment">// size</span></div>
@@ -420,175 +420,179 @@ $(document).ready(function(){initNavTree('df/db4/MvtxClusterizer_8cc_source.html
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            zbins.insert(col);</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;            phibins.insert(row);</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;            <span class="keywordtype">int</span> pixnum = layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#aa0c4bdda48c848625153de08fdfa2203">get_pixel_number_from_xbin_zbin</a>(row, col);</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;            <span class="comment">//cout &lt;&lt; &quot;   new mvtx clusterizer: cluster key &quot; &lt;&lt; ckey &lt;&lt; &quot; layer &quot; &lt;&lt; layer &lt;&lt; &quot; chip &quot; &lt;&lt; chip &lt;&lt; &quot; stave &quot; &lt;&lt; stave </span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;            <span class="comment">//int pixnum = layergeom-&gt;get_pixel_number_from_xbin_zbin(row, col);</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;            <span class="comment">//cout &lt;&lt; &quot;   new mvtx clusterizer: cluster key &quot; &lt;&lt; ckey &lt;&lt; &quot; layer &quot; &lt;&lt; layer &lt;&lt; &quot; chip &quot; &lt;&lt; chip &lt;&lt; &quot; stave &quot; &lt;&lt; stave</span></div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;            <span class="comment">//   &lt;&lt; &quot; row &quot; &lt;&lt; row &lt;&lt; &quot; col &quot; &lt;&lt; col &lt;&lt; &quot; pixnum &quot; &lt;&lt; pixnum &lt;&lt; endl;;</span></div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;            TVector3 local_coords = layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#a57c4360f58914dd88fabd4b3001e49b8">get_local_coords_from_pixel</a>(pixnum);</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            TVector3 world_coords = layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#aede358e384b225e6555bed9292f0310c">get_world_from_local_coords</a>(stave, 0, 0, chip, local_coords);</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;            <span class="comment">//cout &lt;&lt; &quot;   new: world coords: X &quot; &lt;&lt; world_coords.X() &lt;&lt; &quot; Y &quot; &lt;&lt; world_coords.Y() &lt;&lt; &quot; Z &quot; &lt;&lt; world_coords.Z() &lt;&lt; endl;</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            </div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;            <span class="comment">// find the center of the pixel in local coords</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            xsum += world_coords.X();</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;            ysum += world_coords.Y();</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            zsum += world_coords.Z();</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;            <span class="comment">// add the association between this cluster key and this hitkey to the table</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;            <a class="code" href="../../dc/d12/classMvtxClusterizer.html#a2a46f778d9dd1aabd4648072c4f3bbda">m_clusterhitassoc</a>-&gt;<a class="code" href="../../d7/d4f/classTrkrClusterHitAssoc.html#a83dbba7ea52c548f0174fe7a40982fc9" title="Add association between cluster and hit.">addAssoc</a>(ckey, mapiter-&gt;second.first);</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;            </div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;            ++nhits;</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;          }  <span class="comment">//mapiter</span></div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        </div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        </div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <span class="comment">// This is the global position</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        clusx = xsum / nhits;</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        clusy = ysum / nhits;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        clusz = zsum / nhits;</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        <span class="comment">//cout &lt;&lt; &quot;new mvtx clusterizer: clusx &quot; &lt;&lt; clusx &lt;&lt; &quot; clusy &quot; &lt;&lt; clusy &lt;&lt; &quot; clusz &quot; &lt;&lt; clusz &lt;&lt; endl;</span></div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        clus-&gt;setAdc(nhits);</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                                </div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        clus-&gt;setPosition(0, clusx);</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        clus-&gt;setPosition(1, clusy);</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        clus-&gt;setPosition(2, clusz);</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        clus-&gt;setGlobal();</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        </div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <span class="keywordtype">double</span> thickness = layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#a9c09eb746257ea37328bafbd66e69a3e">get_pixel_thickness</a>();</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        <span class="keywordtype">double</span> pitch = layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#a1c597212fb9dfe8c8a84398a6a93de62">get_pixel_x</a>();</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        <span class="keywordtype">double</span> length = layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#a6741718d8418e52e578021aa114dc60e">get_pixel_z</a>();</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        <span class="keywordtype">double</span> phisize = phibins.size() * pitch;</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        <span class="keywordtype">double</span> zsize = zbins.size() * length;</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        </div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        <span class="keywordtype">double</span> ladder_location[3] = {0.0, 0.0, 0.0};</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <span class="comment">// returns the center of the sensor in world coordinates - used to get the ladder phi location</span></div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#ac3180ef9061113ec41e851ff5f97f3f1">find_sensor_center</a>(stave, 0, 0, chip, ladder_location);</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="keywordtype">double</span> ladderphi = atan2(ladder_location[1], ladder_location[0]);</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        ladderphi += layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#aa1c7c0b68aa74bd674206214ffabfe6d">get_stave_phi_tilt</a>();</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        </div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        <span class="comment">// tilt refers to a rotation around the radial vector from the origin, and this is zero for the MVTX ladders</span></div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        <span class="keywordtype">float</span> tilt = 0.0;</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        </div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        <span class="keywordtype">double</span> invsqrt12 = 1.0 / sqrt(12.0);</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        </div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        TMatrixF DIM(3, 3);</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        DIM[0][0] = pow(0.5 * thickness, 2);</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        DIM[0][1] = 0.0;</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        DIM[0][2] = 0.0;</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        DIM[1][0] = 0.0;</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        DIM[1][1] = pow(0.5 * phisize, 2);</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        DIM[1][2] = 0.0;</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        DIM[2][0] = 0.0;</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        DIM[2][1] = 0.0;</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        DIM[2][2] = pow(0.5 * zsize, 2);</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        </div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        TMatrixF ERR(3, 3);</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        ERR[0][0] = pow(0.5 * thickness * invsqrt12, 2);</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        ERR[0][1] = 0.0;</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        ERR[0][2] = 0.0;</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        ERR[1][0] = 0.0;</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        ERR[1][1] = pow(0.5 * phisize * invsqrt12, 2);</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        ERR[1][2] = 0.0;</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        ERR[2][0] = 0.0;</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        ERR[2][1] = 0.0;</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        ERR[2][2] = pow(0.5 * zsize * invsqrt12, 2);</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        </div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        TMatrixF ROT(3, 3);</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;        ROT[0][0] = cos(ladderphi);</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        ROT[0][1] = -1.0 * sin(ladderphi);</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;        ROT[0][2] = 0.0;</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;        ROT[1][0] = sin(ladderphi);</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        ROT[1][1] = cos(ladderphi);</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        ROT[1][2] = 0.0;</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        ROT[2][0] = 0.0; </div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        ROT[2][1] = 0.0;</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;        ROT[2][2] = 1.0;</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        </div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        TMatrixF TILT(3, 3);</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        TILT[0][0] = 1.0;</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        TILT[0][1] = 0.0;</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        TILT[0][2] = 0.0;</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        TILT[1][0] = 0.0;</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        TILT[1][1] = cos(tilt);</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        TILT[1][2] = -1.0 * sin(tilt);</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        TILT[2][0] = 0.0;</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        TILT[2][1] = sin(tilt);</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        TILT[2][2] = cos(tilt);</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        </div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        TMatrixF R(3, 3);</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        R = ROT * TILT;</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        </div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        TMatrixF R_T(3, 3);</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        R_T.Transpose(R);</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        </div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        TMatrixF COVAR_DIM(3, 3);</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        COVAR_DIM = R * DIM * R_T;</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        </div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        clus-&gt;setSize(0, 0, COVAR_DIM[0][0]);</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        clus-&gt;setSize(0, 1, COVAR_DIM[0][1]);</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        clus-&gt;setSize(0, 2, COVAR_DIM[0][2]);</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        clus-&gt;setSize(1, 0, COVAR_DIM[1][0]);</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        clus-&gt;setSize(1, 1, COVAR_DIM[1][1]);</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        clus-&gt;setSize(1, 2, COVAR_DIM[1][2]);</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        clus-&gt;setSize(2, 0, COVAR_DIM[2][0]);</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        clus-&gt;setSize(2, 1, COVAR_DIM[2][1]);</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        clus-&gt;setSize(2, 2, COVAR_DIM[2][2]);</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        </div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        TMatrixF COVAR_ERR(3, 3);</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        COVAR_ERR = R * ERR * R_T;</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;        </div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        clus-&gt;setError(0, 0, COVAR_ERR[0][0]);</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;        clus-&gt;setError(0, 1, COVAR_ERR[0][1]);</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        clus-&gt;setError(0, 2, COVAR_ERR[0][2]);</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        clus-&gt;setError(1, 0, COVAR_ERR[1][0]);</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        clus-&gt;setError(1, 1, COVAR_ERR[1][1]);</div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;        clus-&gt;setError(1, 2, COVAR_ERR[1][2]);</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;        clus-&gt;setError(2, 0, COVAR_ERR[2][0]);</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        clus-&gt;setError(2, 1, COVAR_ERR[2][1]);</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        clus-&gt;setError(2, 2, COVAR_ERR[2][2]);</div>
-<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;        </div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;        </div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;        <span class="comment">//cout &lt;&lt; &quot;MvtxClusterizer (x,y,z) = &quot; &lt;&lt; clusx &lt;&lt; &quot;  &quot; &lt;&lt; clusy &lt;&lt; &quot;  &quot; &lt;&lt; clusz &lt;&lt; endl;</span></div>
-<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;        </div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>() &gt; 2)</div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;        clus-&gt;identify();</div>
-<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;        </div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;        <span class="comment">// Add the hit associations to the TrkrClusterHitAssoc node</span></div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        <span class="comment">// we need the cluster key and all associated hit keys</span></div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        <span class="comment">/*</span></div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;<span class="comment">        for(unsigned int i=0;i&lt;hitvec.size();i++)</span></div>
-<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;<span class="comment">          {</span></div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;<span class="comment">            m_clusterhitassoc-&gt;addAssoc(ckey, hitvec[i].first);</span></div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;<span class="comment">          }</span></div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;<span class="comment">        */</span></div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;      }  <span class="comment">// clusitr</span></div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;  }    <span class="comment">// hitsetitr</span></div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;  </div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>() &gt; 1)</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    {</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;      <span class="comment">// check that the associations were written correctly</span></div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;      <a class="code" href="../../dc/d12/classMvtxClusterizer.html#a2a46f778d9dd1aabd4648072c4f3bbda">m_clusterhitassoc</a>-&gt;<a class="code" href="../../d7/d4f/classTrkrClusterHitAssoc.html#a4a9cd3e07997e034399c2b756d6251c2">identify</a>();</div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    }</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;</div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;  <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;}</div>
-<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;</div>
-<div class="line"><a name="l00465"></a><span class="lineno"><a class="code" href="../../dc/d12/classMvtxClusterizer.html#aa6d99eeea4cc652f359be97eb6d7bb21">  465</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/d12/classMvtxClusterizer.html#aa6d99eeea4cc652f359be97eb6d7bb21">MvtxClusterizer::PrintClusters</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</div>
-<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;{</div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>() &gt;= 1)</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;  {</div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;    <a class="code" href="../../d0/d2c/classTrkrClusterContainer.html" title="Cluster container object.">TrkrClusterContainer</a> *clusterlist = findNode::getClass&lt;TrkrClusterContainer&gt;(topNode, <span class="stringliteral">&quot;TRKR_CLUSTER&quot;</span>);</div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;    <span class="keywordflow">if</span> (!clusterlist) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;</div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;================= Aftyer MvtxClusterizer::process_event() ====================&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;</div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot; There are &quot;</span> &lt;&lt; clusterlist-&gt;<a class="code" href="../../d0/d2c/classTrkrClusterContainer.html#a634dd469c29e7dfc40447ddb710e3912">size</a>() &lt;&lt; <span class="stringliteral">&quot; clusters recorded: &quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;            <span class="comment">//TVector3 local_coords = layergeom-&gt;get_local_coords_from_pixel(pixnum);</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            TVector3 world_coords = layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#aede358e384b225e6555bed9292f0310c">get_world_from_local_coords</a>(stave,</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                                                                     chip,</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                                                                     layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#a57c4360f58914dd88fabd4b3001e49b8">get_local_coords_from_pixel</a>(row,col)</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                                                                    );</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            <span class="comment">//cout &lt;&lt; &quot;   new: world coords: X &quot; &lt;&lt; world_coords.X() &lt;&lt; &quot; Y &quot; &lt;&lt; world_coords.Y() &lt;&lt; &quot; Z &quot; &lt;&lt; world_coords.Z() &lt;&lt; endl;</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            <span class="comment">// find the center of the pixel in local coords</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;            xsum += world_coords.X();</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;            ysum += world_coords.Y();</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;            zsum += world_coords.Z();</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;            <span class="comment">// add the association between this cluster key and this hitkey to the table</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;            <a class="code" href="../../dc/d12/classMvtxClusterizer.html#a2a46f778d9dd1aabd4648072c4f3bbda">m_clusterhitassoc</a>-&gt;<a class="code" href="../../d7/d4f/classTrkrClusterHitAssoc.html#a83dbba7ea52c548f0174fe7a40982fc9" title="Add association between cluster and hit.">addAssoc</a>(ckey, mapiter-&gt;second.first);</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;            ++nhits;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;          }  <span class="comment">//mapiter</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <span class="comment">// This is the global position</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        clusx = xsum / nhits;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        clusy = ysum / nhits;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        clusz = zsum / nhits;</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        <span class="comment">//cout &lt;&lt; &quot;new mvtx clusterizer: clusx &quot; &lt;&lt; clusx &lt;&lt; &quot; clusy &quot; &lt;&lt; clusy &lt;&lt; &quot; clusz &quot; &lt;&lt; clusz &lt;&lt; endl;</span></div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        clus-&gt;setAdc(nhits);</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        clus-&gt;setPosition(0, clusx);</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        clus-&gt;setPosition(1, clusy);</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        clus-&gt;setPosition(2, clusz);</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        clus-&gt;setGlobal();</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        <span class="keywordtype">double</span> thickness = layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#a9c09eb746257ea37328bafbd66e69a3e">get_pixel_thickness</a>();</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        <span class="keywordtype">double</span> pitch = layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#a1c597212fb9dfe8c8a84398a6a93de62">get_pixel_x</a>();</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        <span class="keywordtype">double</span> length = layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#a6741718d8418e52e578021aa114dc60e">get_pixel_z</a>();</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        <span class="keywordtype">double</span> phisize = phibins.size() * pitch;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <span class="keywordtype">double</span> zsize = zbins.size() * length;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="keywordtype">double</span> ladder_location[3] = {0.0, 0.0, 0.0};</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        <span class="comment">// returns the center of the sensor in world coordinates - used to get the ladder phi location</span></div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#ac3180ef9061113ec41e851ff5f97f3f1">find_sensor_center</a>(stave, 0, 0, chip, ladder_location);</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        <span class="keywordtype">double</span> ladderphi = atan2(ladder_location[1], ladder_location[0]);</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        ladderphi += layergeom-&gt;<a class="code" href="../../df/d9b/classCylinderGeom__Mvtx.html#aa1c7c0b68aa74bd674206214ffabfe6d">get_stave_phi_tilt</a>();</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        <span class="comment">// tilt refers to a rotation around the radial vector from the origin, and this is zero for the MVTX ladders</span></div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        <span class="comment">//float tilt = 0.0;</span></div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        <span class="keywordtype">double</span> invsqrt12 = 1.0 / sqrt(12.0);</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        TMatrixF DIM(3, 3);</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        DIM[0][0] = pow(0.5 * thickness, 2);</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        DIM[0][1] = 0.0;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        DIM[0][2] = 0.0;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        DIM[1][0] = 0.0;</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        DIM[1][1] = pow(0.5 * phisize, 2);</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        DIM[1][2] = 0.0;</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        DIM[2][0] = 0.0;</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        DIM[2][1] = 0.0;</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        DIM[2][2] = pow(0.5 * zsize, 2);</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        TMatrixF ERR(3, 3);</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        ERR[0][0] = pow(0.5 * thickness * invsqrt12, 2);</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        ERR[0][1] = 0.0;</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        ERR[0][2] = 0.0;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        ERR[1][0] = 0.0;</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        ERR[1][1] = pow(0.5 * phisize * invsqrt12, 2);</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        ERR[1][2] = 0.0;</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        ERR[2][0] = 0.0;</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        ERR[2][1] = 0.0;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;        ERR[2][2] = pow(0.5 * zsize * invsqrt12, 2);</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;        TMatrixF ROT(3, 3);</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;        ROT[0][0] = cos(ladderphi);</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        ROT[0][1] = -1.0 * sin(ladderphi);</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        ROT[0][2] = 0.0;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        ROT[1][0] = sin(ladderphi);</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        ROT[1][1] = cos(ladderphi);</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;        ROT[1][2] = 0.0;</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        ROT[2][0] = 0.0;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        ROT[2][1] = 0.0;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        ROT[2][2] = 1.0;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        <span class="comment">// TMatrixF TILT(3, 3);</span></div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        <span class="comment">// TILT[0][0] = 1.0;</span></div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        <span class="comment">// TILT[0][1] = 0.0;</span></div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        <span class="comment">// TILT[0][2] = 0.0;</span></div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        <span class="comment">// TILT[1][0] = 0.0;</span></div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        <span class="comment">// TILT[1][1] = cos(tilt);</span></div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        <span class="comment">// TILT[1][2] = -1.0 * sin(tilt);</span></div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        <span class="comment">// TILT[2][0] = 0.0;</span></div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        <span class="comment">// TILT[2][1] = sin(tilt);</span></div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        <span class="comment">// TILT[2][2] = cos(tilt);</span></div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;  TMatrixF &amp;R = ROT;</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        <span class="comment">//TMatrixF R(3, 3);</span></div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <span class="comment">//R = ROT * TILT;</span></div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        TMatrixF R_T(3, 3);</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        R_T.Transpose(R);</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        TMatrixF COVAR_DIM(3, 3);</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        COVAR_DIM = R * DIM * R_T;</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        clus-&gt;setSize(0, 0, COVAR_DIM[0][0]);</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        clus-&gt;setSize(0, 1, COVAR_DIM[0][1]);</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        clus-&gt;setSize(0, 2, COVAR_DIM[0][2]);</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        clus-&gt;setSize(1, 0, COVAR_DIM[1][0]);</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        clus-&gt;setSize(1, 1, COVAR_DIM[1][1]);</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        clus-&gt;setSize(1, 2, COVAR_DIM[1][2]);</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        clus-&gt;setSize(2, 0, COVAR_DIM[2][0]);</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        clus-&gt;setSize(2, 1, COVAR_DIM[2][1]);</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;        clus-&gt;setSize(2, 2, COVAR_DIM[2][2]);</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;        TMatrixF COVAR_ERR(3, 3);</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        COVAR_ERR = R * ERR * R_T;</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        clus-&gt;setError(0, 0, COVAR_ERR[0][0]);</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;        clus-&gt;setError(0, 1, COVAR_ERR[0][1]);</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;        clus-&gt;setError(0, 2, COVAR_ERR[0][2]);</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        clus-&gt;setError(1, 0, COVAR_ERR[1][0]);</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        clus-&gt;setError(1, 1, COVAR_ERR[1][1]);</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;        clus-&gt;setError(1, 2, COVAR_ERR[1][2]);</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;        clus-&gt;setError(2, 0, COVAR_ERR[2][0]);</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;        clus-&gt;setError(2, 1, COVAR_ERR[2][1]);</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;        clus-&gt;setError(2, 2, COVAR_ERR[2][2]);</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;        <span class="comment">//cout &lt;&lt; &quot;MvtxClusterizer (x,y,z) = &quot; &lt;&lt; clusx &lt;&lt; &quot;  &quot; &lt;&lt; clusy &lt;&lt; &quot;  &quot; &lt;&lt; clusz &lt;&lt; endl;</span></div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>() &gt; 2)</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        clus-&gt;identify();</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        <span class="comment">// Add the hit associations to the TrkrClusterHitAssoc node</span></div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;        <span class="comment">// we need the cluster key and all associated hit keys</span></div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;        <span class="comment">/*</span></div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;<span class="comment">        for(unsigned int i=0;i&lt;hitvec.size();i++)</span></div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;<span class="comment">          {</span></div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;<span class="comment">            m_clusterhitassoc-&gt;addAssoc(ckey, hitvec[i].first);</span></div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;<span class="comment">          }</span></div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;<span class="comment">        */</span></div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;      }  <span class="comment">// clusitr</span></div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;  }    <span class="comment">// hitsetitr</span></div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>() &gt; 1)</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    {</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;      <span class="comment">// check that the associations were written correctly</span></div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;      <a class="code" href="../../dc/d12/classMvtxClusterizer.html#a2a46f778d9dd1aabd4648072c4f3bbda">m_clusterhitassoc</a>-&gt;<a class="code" href="../../d7/d4f/classTrkrClusterHitAssoc.html#a4a9cd3e07997e034399c2b756d6251c2">identify</a>();</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    }</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;  <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;}</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;</div>
+<div class="line"><a name="l00469"></a><span class="lineno"><a class="code" href="../../dc/d12/classMvtxClusterizer.html#aa6d99eeea4cc652f359be97eb6d7bb21">  469</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/d12/classMvtxClusterizer.html#aa6d99eeea4cc652f359be97eb6d7bb21">MvtxClusterizer::PrintClusters</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;{</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>() &gt;= 1)</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;  {</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    <a class="code" href="../../d0/d2c/classTrkrClusterContainer.html" title="Cluster container object.">TrkrClusterContainer</a> *clusterlist = findNode::getClass&lt;TrkrClusterContainer&gt;(topNode, <span class="stringliteral">&quot;TRKR_CLUSTER&quot;</span>);</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    <span class="keywordflow">if</span> (!clusterlist) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    clusterlist-&gt;<a class="code" href="../../d0/d2c/classTrkrClusterContainer.html#ab9d4ccb53dd55e0289aca232974b820d">identify</a>();</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;================= Aftyer MvtxClusterizer::process_event() ====================&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;</div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;===========================================================================&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;  }</div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;</div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;  <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;}</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot; There are &quot;</span> &lt;&lt; clusterlist-&gt;<a class="code" href="../../d0/d2c/classTrkrClusterContainer.html#a634dd469c29e7dfc40447ddb710e3912">size</a>() &lt;&lt; <span class="stringliteral">&quot; clusters recorded: &quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    clusterlist-&gt;<a class="code" href="../../d0/d2c/classTrkrClusterContainer.html#ab9d4ccb53dd55e0289aca232974b820d">identify</a>();</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;===========================================================================&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;  }</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;  <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -599,7 +603,7 @@ $(document).ready(function(){initNavTree('df/db4/MvtxClusterizer_8cc_source.html
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_51453c60f4824a72fb165991566266ad.html">mvtx</a></li><li class="navelem"><a class="el" href="../../df/db4/MvtxClusterizer_8cc.html">MvtxClusterizer.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:20</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:26</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

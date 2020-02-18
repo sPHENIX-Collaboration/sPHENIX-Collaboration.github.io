@@ -1,0 +1,8 @@
+<map id="genfit::TrackCand::getNHits" name="genfit::TrackCand::getNHits">
+<area shape="rect" id="node2" href="$d3/da2/classgenfit_1_1TrackCand.html#a05e07d528b66fb1c26e1c964e41f9ae7" title="Clone the TrackCandHit objects from the other TrackCand and append them to this TrackCand." alt="" coords="233,5,381,49"/>
+<area shape="rect" id="node3" href="$d9/d01/classgenfit_1_1MeasurementFactory.html#a4c9c345ba6ee88d392df28996fff7038" title="Create a collection of Measurements." alt="" coords="201,73,412,117"/>
+<area shape="rect" id="node4" href="$d6/d8a/classgenfit_1_1Track.html#a73f9e05be44d2d677b4293f57d5fb004" title="genfit::Track::createMeasurements" alt="" coords="460,112,716,140"/>
+<area shape="rect" id="node6" href="$dc/d22/namespacegenfit.html#aeda2b0bccd00aa0af6350682e1439bf3" title="genfit::operator==" alt="" coords="232,193,381,221"/>
+<area shape="rect" id="node7" href="$d3/da2/classgenfit_1_1TrackCand.html#a38f018fbe4823584a0b6a0779abf23fc" title="genfit::TrackCand::\lsortHits" alt="" coords="233,245,381,289"/>
+<area shape="rect" id="node5" href="$d6/d8a/classgenfit_1_1Track.html#a9b8776fee4ae9f578ab16a30ebcb4ac8" title="genfit::Track::Track" alt="" coords="764,112,913,140"/>
+</map>

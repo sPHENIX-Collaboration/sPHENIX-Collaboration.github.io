@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dc/d17/DrawEcal_8C_source.html','../..
 <div class="title">DrawEcal.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dc/d17/DrawEcal_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<a href="../../dc/d17/DrawEcal_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/EMCal-analysis/macro/DrawEcal.C">the newest version in sPHENIX GitHub for file DrawEcal.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;TFile.h&gt;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;TString.h&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;TLine.h&gt;</span></div>
@@ -455,7 +455,7 @@ $(document).ready(function(){initNavTree('dc/d17/DrawEcal_8C_source.html','../..
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;  p-&gt;DrawFrame(0, y_min, 5.5, y_max,</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;      <span class="stringliteral">&quot;;EMCal trigger #Sigma_{4x4}[ E_{Tower} ] requirement (GeV);Rejection factor for MB events&quot;</span>);</div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;  TGaxis * a = <span class="keyword">new</span> TGaxis(5.5,y_min,5.5, y_max,y_min2,y_max2,510,<span class="stringliteral">&quot;+L&quot;</span>);</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;  TGaxis * <a class="code" href="../../d7/da4/namespaceKFPMath.html#a6d2496198d1982fd950acfb79033902b">a</a> = <span class="keyword">new</span> TGaxis(5.5,y_min,5.5, y_max,y_min2,y_max2,510,<span class="stringliteral">&quot;+L&quot;</span>);</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  a-&gt;SetTitle(<span class="stringliteral">&quot;Trigger efficiency for inclusive Upsilon (1S)&quot;</span>);</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;  a-&gt;SetLabelColor(kRed);</div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;  a-&gt;SetTitleColor(kRed);</div>
@@ -704,7 +704,7 @@ $(document).ready(function(){initNavTree('dc/d17/DrawEcal_8C_source.html','../..
 <div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;  p-&gt;DrawFrame(0, y_min, 5.5, y_max,</div>
 <div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;      <span class="stringliteral">&quot;;EMCal trigger #Sigma_{4x4}[ E_{Tower} ] requirement (GeV);Rejection factor for MB events&quot;</span>);</div>
 <div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;</div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;  TGaxis * a = <span class="keyword">new</span> TGaxis(5.5,y_min,5.5, y_max,y_min2,y_max2,510,<span class="stringliteral">&quot;+L&quot;</span>);</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;  TGaxis * <a class="code" href="../../d7/da4/namespaceKFPMath.html#a6d2496198d1982fd950acfb79033902b">a</a> = <span class="keyword">new</span> TGaxis(5.5,y_min,5.5, y_max,y_min2,y_max2,510,<span class="stringliteral">&quot;+L&quot;</span>);</div>
 <div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;  a-&gt;SetTitle(<span class="stringliteral">&quot;Trigger efficiency for inclusive Upsilon (1S)&quot;</span>);</div>
 <div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;  a-&gt;SetLabelColor(kRed);</div>
 <div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;  a-&gt;SetTitleColor(kRed);</div>
@@ -953,9 +953,9 @@ $(document).ready(function(){initNavTree('dc/d17/DrawEcal_8C_source.html','../..
 <div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;  TH1 * h_sum = NULL;</div>
 <div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;</div>
 <div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;  TObjArray *fileElements = t-&gt;GetListOfFiles();</div>
-<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;  TIter next(fileElements);</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;  TIter <a class="code" href="../../dc/d19/KFPInputData_8h.html#a0e4bb534e415cd121281a876b7469df2" title="Link to the nex object in the linked list.">next</a>(fileElements);</div>
 <div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;  TChainElement *chEl = 0;</div>
-<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;  <span class="keywordflow">while</span> ((chEl = (TChainElement*) next()))</div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;  <span class="keywordflow">while</span> ((chEl = (TChainElement*) <a class="code" href="../../dc/d19/KFPInputData_8h.html#a0e4bb534e415cd121281a876b7469df2" title="Link to the nex object in the linked list.">next</a>()))</div>
 <div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;    {</div>
 <div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;</div>
 <div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;DrawTower_Load - processing &quot;</span> &lt;&lt; chEl-&gt;GetTitle() &lt;&lt; endl;</div>
@@ -2883,7 +2883,7 @@ $(document).ready(function(){initNavTree('dc/d17/DrawEcal_8C_source.html','../..
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_80dbd681590cd38f36b55ace290cc73c.html">EMCal-analysis</a></li><li class="navelem"><a class="el" href="../../dir_ce10be3b87d546128ca1ef32ac672925.html">macro</a></li><li class="navelem"><a class="el" href="../../dc/d17/DrawEcal_8C.html">DrawEcal.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:04</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

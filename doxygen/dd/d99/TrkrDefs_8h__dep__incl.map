@@ -1,51 +1,51 @@
 <map id="coresoftware/blob/master/offline/packages/trackbase/TrkrDefs.h" name="coresoftware/blob/master/offline/packages/trackbase/TrkrDefs.h">
 <area shape="rect" id="node2" href="$d3/d84/SimpleHit3D_8h.html" title="coresoftware/blob/master\l/offline/packages/HelixHough\l/helix_hough/SimpleHit3D.h" alt="" coords="5,113,227,173"/>
-<area shape="rect" id="node3" href="$df/d8d/InttClusterizer_8h.html" title="coresoftware/blob/master\l/offline/packages/intt\l/InttClusterizer.h" alt="" coords="1941,113,2136,173"/>
-<area shape="rect" id="node4" href="$d2/da5/InttClusterizer_8cc.html" title="coresoftware/blob/master\l/offline/packages/intt\l/InttClusterizer.cc" alt="" coords="1948,329,2143,389"/>
-<area shape="rect" id="node5" href="$df/dfe/InttDefs_8h.html" title="Utility functions for INTT." alt="" coords="403,221,597,281"/>
-<area shape="rect" id="node6" href="$de/deb/InttDefs_8cc.html" title="Implementation file for InttDefs.h." alt="" coords="180,329,375,389"/>
-<area shape="rect" id="node7" href="$d0/d52/PHGenFitTrkFitter_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHGenFitTrkFitter.cc" alt="" coords="2217,329,2423,389"/>
-<area shape="rect" id="node8" href="$da/d80/PHGenFitTrkProp_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHGenFitTrkProp.cc" alt="" coords="937,329,1143,389"/>
-<area shape="rect" id="node9" href="$db/d59/PHG4InttDigitizer_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4intt/PHG4InttDigitizer.cc" alt="" coords="695,329,900,389"/>
-<area shape="rect" id="node10" href="$da/d96/MvtxClusterizer_8h.html" title="Clusterizer for the MVTX." alt="" coords="1493,113,1688,173"/>
-<area shape="rect" id="node11" href="$df/db4/MvtxClusterizer_8cc.html" title="Implementation of MvtxClusterizer." alt="" coords="1729,329,1924,389"/>
-<area shape="rect" id="node12" href="$d1/d82/MvtxDefs_8h.html" title="Utility functions for MVTX." alt="" coords="1128,221,1323,281"/>
-<area shape="rect" id="node13" href="$df/d20/MvtxDefs_8cc.html" title="coresoftware/blob/master\l/offline/packages/mvtx\l/MvtxDefs.cc" alt="" coords="451,329,645,389"/>
-<area shape="rect" id="node14" href="$d3/de0/Track_8h.html" title="tools" alt="" coords="1139,113,1367,173"/>
-<area shape="rect" id="node15" href="$d7/d95/Track_8cc.html" title="Data structure and output of the fitting." alt="" coords="622,221,850,281"/>
-<area shape="rect" id="node16" href="$d6/dc4/Measurement_8h.html" title="Measurement is the base class for input of the fitter." alt="" coords="606,113,834,173"/>
-<area shape="rect" id="node17" href="$d4/de3/TpcDefs_8h.html" title="Utility functions for TPC." alt="" coords="4295,121,4531,165"/>
-<area shape="rect" id="node18" href="$d2/d8c/TpcClusterizer_8cc.html" title="coresoftware/blob/master\l/offline/packages/tpc/TpcClusterizer.cc" alt="" coords="2447,337,2729,381"/>
-<area shape="rect" id="node19" href="$dd/dbe/TpcDefs_8cc.html" title="Implementation file for TpcDefs.h." alt="" coords="4534,229,4775,273"/>
-<area shape="rect" id="node20" href="$d7/dd1/SvtxEvaluator_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxEvaluator.cc" alt="" coords="4113,437,4308,497"/>
-<area shape="rect" id="node21" href="$d1/d4a/TrkrCluster_8h.html" title="Base class for cluster object." alt="" coords="3203,113,3413,173"/>
-<area shape="rect" id="node22" href="$d5/d6f/TrkrClusterv1_8h.html" title="Version 1 of TrkrCluster." alt="" coords="1835,221,2045,281"/>
-<area shape="rect" id="node23" href="$d8/dbe/PHHoughSeeding_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHHoughSeeding.cc" alt="" coords="3639,329,3844,389"/>
-<area shape="rect" id="node24" href="$d8/dda/PHInitZVertexing_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHInitZVertexing.cc" alt="" coords="4251,329,4456,389"/>
-<area shape="rect" id="node25" href="$d4/d0c/PHTruthTrackSeeding_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHTruthTrackSeeding.cc" alt="" coords="3409,329,3615,389"/>
-<area shape="rect" id="node26" href="$d7/dbf/SvtxClusterEval_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxClusterEval.cc" alt="" coords="3971,329,4173,389"/>
-<area shape="rect" id="node27" href="$df/dc1/TrkrEvaluator_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/TrkrEvaluator.cc" alt="" coords="2883,329,3077,389"/>
-<area shape="rect" id="node28" href="$d2/d44/TrkrClusterContainer_8h.html" title="Cluster container object." alt="" coords="2841,221,3050,281"/>
-<area shape="rect" id="node29" href="$de/d71/SvtxHitEval_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxHitEval.cc" alt="" coords="3101,329,3296,389"/>
-<area shape="rect" id="node30" href="$d7/d04/TrkrClusterHitAssoc_8h.html" title="Class for associating clusters to the hits that went into them." alt="" coords="2607,221,2817,281"/>
-<area shape="rect" id="node31" href="$de/d73/TrkrDefs_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l/TrkrDefs.cc" alt="" coords="5529,113,5738,173"/>
-<area shape="rect" id="node32" href="$d2/d3e/TrkrHitCellAssoc_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l/TrkrHitCellAssoc.h" alt="" coords="5762,113,5971,173"/>
-<area shape="rect" id="node33" href="$d8/d2e/TrkrHitSet_8h.html" title="Container for storing TrkrHit&#39;s." alt="" coords="1499,221,1709,281"/>
-<area shape="rect" id="node34" href="$d5/d23/TrkrHitSetContainer_8cc.html" title="Implementation for TrkrHitSetContainer." alt="" coords="1495,329,1705,389"/>
-<area shape="rect" id="node35" href="$d4/dbe/TrkrHitSetContainer_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l/TrkrHitSetContainer.h" alt="" coords="2069,221,2278,281"/>
-<area shape="rect" id="node36" href="$d1/d21/TrkrHitTruthAssoc_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l/TrkrHitTruthAssoc.h" alt="" coords="3761,221,3970,281"/>
-<area shape="rect" id="node37" href="$d8/de0/TrkrHitTruthAssoc_8cc.html" title="Implementation of TrkrHitTruthAssoc." alt="" coords="4507,329,4717,389"/>
-<area shape="rect" id="node38" href="$d0/d92/TrkrTrack_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l/TrkrTrack.h" alt="" coords="6047,113,6257,173"/>
-<area shape="rect" id="node39" href="$d0/d29/TrkrTrackContainer_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l/TrkrTrackContainer.h" alt="" coords="5977,221,6186,281"/>
-<area shape="rect" id="node40" href="$d0/d87/SvtxTrack_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l_historic/SvtxTrack.h" alt="" coords="3799,113,4009,173"/>
-<area shape="rect" id="node41" href="$d4/d1f/SvtxTrack__v1_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l_historic/SvtxTrack_v1.h" alt="" coords="4249,221,4458,281"/>
-<area shape="rect" id="node42" href="$d4/d05/SvtxTrack__v1_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l_historic/SvtxTrack_v1.cc" alt="" coords="4819,329,5029,389"/>
-<area shape="rect" id="node43" href="$d5/d71/SvtxTrackEval_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxTrackEval.cc" alt="" coords="5325,437,5520,497"/>
-<area shape="rect" id="node44" href="$dd/d79/AssocInfoContainer_8h.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/AssocInfoContainer.h" alt="" coords="3429,221,3635,281"/>
-<area shape="rect" id="node45" href="$d8/dba/PHGenFitTrkProp_8h.html" title="Progressive pattern recgnition based on GenFit Kalman filter &#160;using Alan Dion&#39;s HelixHough for seedin..." alt="" coords="909,113,1115,173"/>
-<area shape="rect" id="node46" href="$dc/d50/PHInitZVertexing_8h.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHInitZVertexing.h" alt="" coords="4605,113,4811,173"/>
-<area shape="rect" id="node47" href="$d3/deb/PHPatternReco_8h.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHPatternReco.h" alt="" coords="6281,113,6487,173"/>
-<area shape="rect" id="node48" href="$d7/d98/SvtxHitEval_8h.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxHitEval.h" alt="" coords="4885,113,5080,173"/>
-<area shape="rect" id="node49" href="$d7/dcd/SvtxClusterEval_8h.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxClusterEval.h" alt="" coords="5206,221,5402,281"/>
-<area shape="rect" id="node50" href="$df/d8a/SvtxTrackEval_8h.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxTrackEval.h" alt="" coords="5259,329,5453,389"/>
+<area shape="rect" id="node3" href="$df/d8d/InttClusterizer_8h.html" title="coresoftware/blob/master\l/offline/packages/intt\l/InttClusterizer.h" alt="" coords="707,113,901,173"/>
+<area shape="rect" id="node4" href="$d2/da5/InttClusterizer_8cc.html" title="coresoftware/blob/master\l/offline/packages/intt\l/InttClusterizer.cc" alt="" coords="1179,329,1373,389"/>
+<area shape="rect" id="node5" href="$df/dfe/InttDefs_8h.html" title="Utility functions for INTT." alt="" coords="2029,221,2224,281"/>
+<area shape="rect" id="node6" href="$de/deb/InttDefs_8cc.html" title="Implementation file for InttDefs.h." alt="" coords="741,329,936,389"/>
+<area shape="rect" id="node7" href="$d0/d52/PHGenFitTrkFitter_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHGenFitTrkFitter.cc" alt="" coords="3163,329,3368,389"/>
+<area shape="rect" id="node8" href="$da/d80/PHGenFitTrkProp_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHGenFitTrkProp.cc" alt="" coords="2933,329,3139,389"/>
+<area shape="rect" id="node9" href="$da/d96/MvtxClusterizer_8h.html" title="Clusterizer for the MVTX." alt="" coords="1276,113,1471,173"/>
+<area shape="rect" id="node10" href="$df/db4/MvtxClusterizer_8cc.html" title="Implementation of MvtxClusterizer." alt="" coords="1616,329,1811,389"/>
+<area shape="rect" id="node11" href="$d1/d82/MvtxDefs_8h.html" title="Utility functions for MVTX." alt="" coords="2248,221,2443,281"/>
+<area shape="rect" id="node12" href="$df/d20/MvtxDefs_8cc.html" title="coresoftware/blob/master\l/offline/packages/mvtx\l/MvtxDefs.cc" alt="" coords="1397,329,1592,389"/>
+<area shape="rect" id="node13" href="$d8/d06/coresoftware_2blob_2master_2offline_2packages_2PHGenFitPkg_2PHGenFit_2Track_8h.html" title="coresoftware/blob/master\l/offline/packages/PHGenFitPkg\l/PHGenFit/Track.h" alt="" coords="3023,113,3251,173"/>
+<area shape="rect" id="node14" href="$d4/df1/coresoftware_2blob_2master_2offline_2packages_2PHGenFitPkg_2PHGenFit_2Track_8cc.html" title="coresoftware/blob/master\l/offline/packages/PHGenFitPkg\l/PHGenFit/Track.cc" alt="" coords="403,221,631,281"/>
+<area shape="rect" id="node15" href="$d6/dc4/Measurement_8h.html" title="Measurement is the base class for input of the fitter." alt="" coords="454,113,682,173"/>
+<area shape="rect" id="node16" href="$d4/de3/TpcDefs_8h.html" title="Utility functions for TPC." alt="" coords="1927,121,2163,165"/>
+<area shape="rect" id="node17" href="$d2/d8c/TpcClusterizer_8cc.html" title="coresoftware/blob/master\l/offline/packages/tpc/TpcClusterizer.cc" alt="" coords="1835,337,2117,381"/>
+<area shape="rect" id="node18" href="$dd/dbe/TpcDefs_8cc.html" title="Implementation file for TpcDefs.h." alt="" coords="1378,229,1619,273"/>
+<area shape="rect" id="node19" href="$d7/dd1/SvtxEvaluator_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxEvaluator.cc" alt="" coords="2695,437,2889,497"/>
+<area shape="rect" id="node20" href="$d1/d4a/TrkrCluster_8h.html" title="Base class for cluster object." alt="" coords="4399,113,4609,173"/>
+<area shape="rect" id="node21" href="$d5/d6f/TrkrClusterv1_8h.html" title="Version 1 of TrkrCluster." alt="" coords="1643,221,1853,281"/>
+<area shape="rect" id="node22" href="$df/de1/PHCASeeding_8h.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHCASeeding.h" alt="" coords="4684,221,4889,281"/>
+<area shape="rect" id="node23" href="$d8/df7/PHCASeeding_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHCASeeding.cc" alt="" coords="4761,329,4967,389"/>
+<area shape="rect" id="node24" href="$d8/dbe/PHHoughSeeding_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHHoughSeeding.cc" alt="" coords="4532,329,4737,389"/>
+<area shape="rect" id="node25" href="$d8/dda/PHInitZVertexing_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHInitZVertexing.cc" alt="" coords="5037,329,5243,389"/>
+<area shape="rect" id="node26" href="$d7/d3c/PHRTreeSeeding_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHRTreeSeeding.cc" alt="" coords="5267,329,5472,389"/>
+<area shape="rect" id="node27" href="$d4/d0c/PHTruthTrackSeeding_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHTruthTrackSeeding.cc" alt="" coords="3865,329,4071,389"/>
+<area shape="rect" id="node28" href="$d7/dbf/SvtxClusterEval_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxClusterEval.cc" alt="" coords="3443,329,3645,389"/>
+<area shape="rect" id="node29" href="$d2/d44/TrkrClusterContainer_8h.html" title="Cluster container object." alt="" coords="3581,221,3790,281"/>
+<area shape="rect" id="node30" href="$d7/d04/TrkrClusterHitAssoc_8h.html" title="Class for associating clusters to the hits that went into them." alt="" coords="2687,221,2897,281"/>
+<area shape="rect" id="node31" href="$de/d73/TrkrDefs_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l/TrkrDefs.cc" alt="" coords="3663,113,3873,173"/>
+<area shape="rect" id="node32" href="$d2/d3e/TrkrHitCellAssoc_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l/TrkrHitCellAssoc.h" alt="" coords="3897,113,4106,173"/>
+<area shape="rect" id="node33" href="$d8/d2e/TrkrHitSet_8h.html" title="Container for storing TrkrHit&#39;s." alt="" coords="991,221,1201,281"/>
+<area shape="rect" id="node34" href="$d5/d23/TrkrHitSetContainer_8cc.html" title="Implementation for TrkrHitSetContainer." alt="" coords="457,329,666,389"/>
+<area shape="rect" id="node35" href="$d4/dbe/TrkrHitSetContainer_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l/TrkrHitSetContainer.h" alt="" coords="758,221,967,281"/>
+<area shape="rect" id="node36" href="$d1/d21/TrkrHitTruthAssoc_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l/TrkrHitTruthAssoc.h" alt="" coords="4146,221,4355,281"/>
+<area shape="rect" id="node37" href="$d8/de0/TrkrHitTruthAssoc_8cc.html" title="Implementation of TrkrHitTruthAssoc." alt="" coords="5637,329,5846,389"/>
+<area shape="rect" id="node38" href="$d0/d92/TrkrTrack_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l/TrkrTrack.h" alt="" coords="5261,113,5470,173"/>
+<area shape="rect" id="node39" href="$d0/d29/TrkrTrackContainer_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l/TrkrTrackContainer.h" alt="" coords="5453,221,5662,281"/>
+<area shape="rect" id="node40" href="$d0/d87/SvtxTrack_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l_historic/SvtxTrack.h" alt="" coords="3327,113,3537,173"/>
+<area shape="rect" id="node41" href="$d4/d1f/SvtxTrack__v1_8h.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l_historic/SvtxTrack_v1.h" alt="" coords="4965,221,5174,281"/>
+<area shape="rect" id="node42" href="$d4/d05/SvtxTrack__v1_8cc.html" title="coresoftware/blob/master\l/offline/packages/trackbase\l_historic/SvtxTrack_v1.cc" alt="" coords="5871,329,6081,389"/>
+<area shape="rect" id="node43" href="$dd/d79/AssocInfoContainer_8h.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/AssocInfoContainer.h" alt="" coords="3865,221,4071,281"/>
+<area shape="rect" id="node44" href="$d8/dba/PHGenFitTrkProp_8h.html" title="Progressive pattern recgnition based on GenFit Kalman filter &#160;using Alan Dion&#39;s HelixHough for seedin..." alt="" coords="2793,113,2999,173"/>
+<area shape="rect" id="node45" href="$dc/d50/PHInitZVertexing_8h.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHInitZVertexing.h" alt="" coords="4929,113,5135,173"/>
+<area shape="rect" id="node46" href="$d3/deb/PHPatternReco_8h.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHPatternReco.h" alt="" coords="5545,113,5751,173"/>
+<area shape="rect" id="node47" href="$d5/d87/PHRTreeSeeding_8h.html" title="coresoftware/blob/master\l/offline/packages/trackreco\l/PHRTreeSeeding.h" alt="" coords="5775,113,5980,173"/>
+<area shape="rect" id="node48" href="$d7/d98/SvtxHitEval_8h.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxHitEval.h" alt="" coords="2524,113,2719,173"/>
+<area shape="rect" id="node49" href="$d7/dcd/SvtxClusterEval_8h.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxClusterEval.h" alt="" coords="2467,221,2663,281"/>
+<area shape="rect" id="node50" href="$df/d8a/SvtxTrackEval_8h.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxTrackEval.h" alt="" coords="960,329,1155,389"/>
 </map>

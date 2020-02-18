@@ -12,7 +12,7 @@ var structmiz__irdgdef =
     [ "dummy", "d8/d88/structmiz__irdgdef.html#a421de0584b31b14b459dbf3998bf168f", null ],
     [ "opcode1", "d8/d88/structmiz__irdgdef.html#a5c7bea1785893db8feed1d5369f9eb55", null ],
     [ "opcode2", "d8/d88/structmiz__irdgdef.html#adf6066bb596f158bba70de6155337944", null ],
-    [ "out", "d8/d88/structmiz__irdgdef.html#a4f261e11912cb8769c029f899b7b894e", null ],
+    [ "out", "d8/d88/structmiz__irdgdef.html#a226125df283554f2614fa1b8d44c1798", null ],
     [ "ser_ret", "d8/d88/structmiz__irdgdef.html#a7e3c523aa0d4bcf9c938ab7733a6b52e", null ],
     [ "tac", "d8/d88/structmiz__irdgdef.html#a3b14fa48dc9af6f820bcf738c4f43611", null ],
     [ "trigger", "d8/d88/structmiz__irdgdef.html#ad271c1822733356b834947a2b2c409f9", null ],

@@ -1,11 +1,11 @@
 var classPHG4SpacalPrototypeDetector =
 [
     [ "SpacalGeom_t", "db/dc2/classPHG4SpacalPrototypeDetector.html#aca3cc91802053d385cf9b4a9436a2463", null ],
-    [ "FIBER_CORE", "db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03a1d62011dd8c9678a545cf1b61951cbd9", null ],
-    [ "FIBER_CLADING", "db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03aea8a36e66027ec2196357963a9604a05", null ],
-    [ "ABSORBER", "db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03a8d50552af94c0727a48608e808c4faa2", null ],
-    [ "SUPPORT", "db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03a009194dbf8cc0cc17fb867028b48db27", null ],
-    [ "INACTIVE", "db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03a86f5c7ecfeb3eaa299f5151d92aa4af4", null ],
+    [ "FIBER_CORE", "db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5a1d62011dd8c9678a545cf1b61951cbd9", null ],
+    [ "FIBER_CLADING", "db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5aea8a36e66027ec2196357963a9604a05", null ],
+    [ "ABSORBER", "db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5a8d50552af94c0727a48608e808c4faa2", null ],
+    [ "SUPPORT", "db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5a009194dbf8cc0cc17fb867028b48db27", null ],
+    [ "INACTIVE", "db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5a86f5c7ecfeb3eaa299f5151d92aa4af4", null ],
     [ "PHG4SpacalPrototypeDetector", "db/dc2/classPHG4SpacalPrototypeDetector.html#a4a44824824d12fc317eedb73377fdbec", null ],
     [ "~PHG4SpacalPrototypeDetector", "db/dc2/classPHG4SpacalPrototypeDetector.html#a1223cc9f2f39e59ade4e31f7a9e7037f", null ],
     [ "Construct_AzimuthalSeg", "db/dc2/classPHG4SpacalPrototypeDetector.html#acc645e26fbb90c42a8e1b96cc468bb1e", null ],

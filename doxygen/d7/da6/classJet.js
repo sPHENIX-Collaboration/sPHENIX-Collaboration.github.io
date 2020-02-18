@@ -36,7 +36,8 @@ var classJet =
       [ "CEMC_TOWER_SUB1CS", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea19d134777b453cb9ec25c057660e9bb3", null ],
       [ "HCALIN_TOWER_SUB1CS", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971beabb20f5430864ce0920c39fcd69445cdc", null ],
       [ "HCALOUT_TOWER_SUB1CS", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea8da9e4082bd8824d19fefd92a9aca087", null ],
-      [ "HEPMC_IMPORT", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea97d7501e82798a54e3f2afdc5734b6e6", null ]
+      [ "HEPMC_IMPORT", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea97d7501e82798a54e3f2afdc5734b6e6", null ],
+      [ "HCAL_TOPO_CLUSTER", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971beadbe2929f57d2a176f3c1ddfcca8cc73f", null ]
     ] ],
     [ "Jet", "d7/da6/classJet.html#a8337e7330125211aa9e6f4a4022a793c", null ],
     [ "~Jet", "d7/da6/classJet.html#a5f41f4b9747d9b68571e2ad3cafdb6b5", null ],

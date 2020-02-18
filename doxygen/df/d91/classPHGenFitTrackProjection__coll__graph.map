@@ -1,7 +1,10 @@
 <map id="PHGenFitTrackProjection" name="PHGenFitTrackProjection">
-<area shape="rect" id="node2" href="$d0/d32/classSubsysReco.html" title="SubsysReco" alt="" coords="809,5,910,33"/>
-<area shape="rect" id="node3" href="$d5/dec/classFun4AllBase.html" title="Fun4AllBase" alt="" coords="428,7,532,35"/>
-<area shape="rect" id="node4" title="STL class." alt="" coords="197,36,287,64"/>
-<area shape="rect" id="node5" title="STL class." alt="" coords="5,28,148,72"/>
-<area shape="rect" id="node6" href="$d1/d35/classPHGenFit_1_1Fitter.html" title="PHGenFit::Fitter" alt="" coords="796,123,923,151"/>
+<area shape="rect" id="node2" href="$d0/d32/classSubsysReco.html" title="SubsysReco" alt="" coords="979,5,1081,33"/>
+<area shape="rect" id="node3" href="$d5/dec/classFun4AllBase.html" title="Fun4AllBase" alt="" coords="560,7,664,35"/>
+<area shape="rect" id="node4" title="STL class." alt="" coords="244,33,333,61"/>
+<area shape="rect" id="node5" title="STL class." alt="" coords="5,25,148,69"/>
+<area shape="rect" id="node6" href="$d1/d35/classPHGenFit_1_1Fitter.html" title="PHGenFit::Fitter" alt="" coords="967,123,1093,151"/>
+<area shape="rect" id="node7" href="$d2/df7/classgenfit_1_1AbsKalmanFitter.html" title="Abstract base class for Kalman fitter and derived fitting algorithms." alt="" coords="521,116,703,144"/>
+<area shape="rect" id="node8" href="$d0/dba/classgenfit_1_1AbsFitter.html" title="Abstract base class for fitters." alt="" coords="223,116,354,144"/>
+<area shape="rect" id="node9" href="$d4/d1a/classgenfit_1_1EventDisplay.html" title="Event display designed to run with Genfit." alt="" coords="533,208,691,236"/>
 </map>

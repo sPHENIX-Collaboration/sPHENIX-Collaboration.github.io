@@ -1,0 +1,8 @@
+<map id="genfit::GblFitterInfo::clone" name="genfit::GblFitterInfo::clone">
+<area shape="rect" id="node2" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a4860dfec0b45c4d43ea2da1743d77119" title="Constructor for ROOT I/O." alt="" coords="207,5,361,49"/>
+<area shape="rect" id="node5" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#afea691164c74306d2031439ca40d1687" title="genfit::AbsFitterInfo\l::getRep" alt="" coords="207,73,361,117"/>
+<area shape="rect" id="node6" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#abef5146e9139a0995c5446d8e6fdf78a" title="genfit::AbsFitterInfo\l::getTrackPoint" alt="" coords="207,141,361,185"/>
+<area shape="rect" id="node7" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#af02a4a29abfa1c31c8208baf757a21c5" title="genfit::AbsFitterInfo\l::setPlane" alt="" coords="207,209,361,253"/>
+<area shape="rect" id="node3" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a80dd649bc2ad13bf0da08f26df9f0f28" title="(Initial) reset of fitter info" alt="" coords="409,5,563,49"/>
+<area shape="rect" id="node4" href="$de/d77/classgenfit_1_1HMatrixUV.html#ade2490dc36a0abc78fab7553ca231cff" title="Get the actual matrix representation." alt="" coords="611,5,759,49"/>
+</map>

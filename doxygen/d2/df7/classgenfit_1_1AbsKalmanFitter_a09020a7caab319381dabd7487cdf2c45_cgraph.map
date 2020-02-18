@@ -1,0 +1,19 @@
+<map id="genfit::AbsKalmanFitter::getMeasurements" name="genfit::AbsKalmanFitter::getMeasurements">
+<area shape="rect" id="node2" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a99bcd457bc4639b065b11a44350ea750" title="Get measurements which is closest to state." alt="" coords="235,151,485,195"/>
+<area shape="rect" id="node5" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="562,261,706,305"/>
+<area shape="rect" id="node9" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ae0db83496b5ef2577c232e27c75f56fe" title="genfit::KalmanFitterInfo\l::getMeasurementsOnPlane" alt="" coords="256,304,464,348"/>
+<area shape="rect" id="node10" href="$db/d40/classgenfit_1_1TrackPoint.html#a6d24efd20e55627954f73c09beec79a2" title="genfit::TrackPoint\l::getNumRawMeasurements" alt="" coords="254,372,466,416"/>
+<area shape="rect" id="node11" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a62b360e6212ebac95bb5d88202daa2e5" title="genfit::KalmanFitterInfo\l::getPrediction" alt="" coords="270,440,450,484"/>
+<area shape="rect" id="node12" href="$db/d40/classgenfit_1_1TrackPoint.html#a2999fc0669beb86b6309f86e040bcdef" title="genfit::TrackPoint\l::getRawMeasurement" alt="" coords="273,508,447,552"/>
+<area shape="rect" id="node13" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a580ecd10b0c09b257533ca04f2ba460b" title="genfit::KalmanFitterInfo\l::getReferenceState" alt="" coords="270,576,450,620"/>
+<area shape="rect" id="node14" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#a839876f08bdfc2680dc170b0262abebc" title="genfit::AbsFitterInfo\l::hasPrediction" alt="" coords="283,644,437,688"/>
+<area shape="rect" id="node17" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ab74f13ab4f4f1ac99a29e1fa55b83413" title="genfit::KalmanFitterInfo\l::hasReferenceState" alt="" coords="270,712,450,756"/>
+<area shape="rect" id="node18" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a6cf79b78e59f605622002903ad9fad6c" title="If the AbsMeasurement is a wire hit, the left/right resolution will be used." alt="" coords="263,780,457,824"/>
+<area shape="rect" id="node3" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ac7f94b10aafb0b75efd90f491b456834" title="genfit::KalmanFitterInfo\l::getMeasurementOnPlane" alt="" coords="533,5,735,49"/>
+<area shape="rect" id="node4" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a5342748d35f74e34dd5fcf7601d1896a" title="genfit::KalmanFitterInfo\l::getNumMeasurements" alt="" coords="542,73,726,117"/>
+<area shape="rect" id="node6" href="$d9/dc6/classgenfit_1_1AbsHMatrix.html#a77182cba40576805f0099203fe0e59ec" title="H*v." alt="" coords="547,141,721,169"/>
+<area shape="rect" id="node8" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="553,193,715,237"/>
+<area shape="rect" id="node7" href="$d9/dc6/classgenfit_1_1AbsHMatrix.html#a5e04e261388034ab5c4aaa51f714f0e6" title="Get the actual matrix representation." alt="" coords="783,133,929,177"/>
+<area shape="rect" id="node15" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#afad89f45093082193a4ba3ae36f7982c" title="genfit::AbsFitterInfo\l::hasBackwardPrediction" alt="" coords="541,611,727,655"/>
+<area shape="rect" id="node16" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#a5df8e04571941a2a2b49ee6ff76225f8" title="genfit::AbsFitterInfo\l::hasForwardPrediction" alt="" coords="547,679,721,723"/>
+</map>

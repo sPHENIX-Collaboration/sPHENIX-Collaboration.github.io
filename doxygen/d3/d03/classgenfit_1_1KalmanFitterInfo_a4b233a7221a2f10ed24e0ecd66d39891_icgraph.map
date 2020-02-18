@@ -1,0 +1,7 @@
+<map id="genfit::KalmanFitterInfo::setReferenceState" name="genfit::KalmanFitterInfo::setReferenceState">
+<area shape="rect" id="node2" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a7aa212dc18c5471a5a4e9d067f33da4a" title="Deep copy ctor for polymorphic class." alt="" coords="233,5,413,49"/>
+<area shape="rect" id="node3" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ad77484ec4444c6c2cd0875ea24eb1eb6" title="genfit::KalmanFitterInfo\l::deleteReferenceInfo" alt="" coords="233,73,413,117"/>
+<area shape="rect" id="node4" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ab28798fe239a0577ef7a9c254c235491" title="Prepare the track." alt="" coords="723,73,936,117"/>
+<area shape="rect" id="node6" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#a6112774ee2e5b98aa7592038ea49a52a" title="Remove referenceStates if they are too far from smoothed states." alt="" coords="461,73,675,117"/>
+<area shape="rect" id="node5" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ad3a24181b5370cc95f01f49ea148c011" title="genfit::KalmanFitterRefTrack\l::processTrackWithRep" alt="" coords="984,73,1197,117"/>
+</map>

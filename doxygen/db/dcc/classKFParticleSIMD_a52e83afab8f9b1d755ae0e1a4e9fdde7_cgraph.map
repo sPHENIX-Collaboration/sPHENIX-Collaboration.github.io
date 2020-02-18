@@ -1,0 +1,24 @@
+<map id="KFParticleSIMD::GetKFParticle" name="KFParticleSIMD::GetKFParticle">
+<area shape="rect" id="node2" href="$db/dcc/classKFParticleSIMD.html#abee0e1ab2c3a9a40f6618a20fb58f664" title="KFParticleSIMD::GetKFParticle" alt="" coords="275,492,496,520"/>
+<area shape="rect" id="node3" href="$d5/d41/classKFParticleBase.html#ab29274a82822129a02a2c856e495b8ee" title="Adds index of the daughter particle." alt="" coords="554,5,785,33"/>
+<area shape="rect" id="node4" href="$d0/d49/classKFParticle.html#a9005df3f6603347793ad12192892fa5a" title="Returns Chi2 of the fit." alt="" coords="606,57,733,85"/>
+<area shape="rect" id="node5" href="$d5/d41/classKFParticleBase.html#a06b53cef25f218f5eb041197455ad0b4" title="Cleans the vector with the indices of daughter particles." alt="" coords="544,109,795,137"/>
+<area shape="rect" id="node6" href="$d0/d49/classKFParticle.html#ae577c154da7700d54d2300dd344b9130" title="Returns pointer to the covariance matrix fC." alt="" coords="562,161,777,189"/>
+<area shape="rect" id="node7" href="$db/dcc/classKFParticleSIMD.html#aaa2f81f07799d2d9beaede2e7864a1a9" title="Returns pointer to the covariance matrix fC." alt="" coords="566,213,773,257"/>
+<area shape="rect" id="node8" href="$d2/dbb/classKFParticleBaseSIMD.html#ac827f191d739ef99b5bee7ebc97d5313" title="Returns the vector with the indices of daughter particles." alt="" coords="592,281,747,325"/>
+<area shape="rect" id="node9" href="$db/dcc/classKFParticleSIMD.html#a4c08a0472852537829092f117b150aa3" title="Returns Chi2 of the fit." alt="" coords="577,349,762,377"/>
+<area shape="rect" id="node11" href="$db/dcc/classKFParticleSIMD.html#aed1808e19e4cdf012ff8d84c3dde291a" title="Returns number of decrease of freedom." alt="" coords="578,401,761,429"/>
+<area shape="rect" id="node13" href="$d2/dbb/classKFParticleBaseSIMD.html#a34e19ecaaedf374a347e648eca770ca9" title="Returns the PDG hypothesis." alt="" coords="592,453,747,497"/>
+<area shape="rect" id="node14" href="$db/dcc/classKFParticleSIMD.html#a6bb3acfdd3b1803d9eeb0d7c348f034b" title="Returns charge of the particle." alt="" coords="587,521,752,549"/>
+<area shape="rect" id="node16" href="$d2/dbb/classKFParticleBaseSIMD.html#a4f43f26357ae4a6e35ca5b8e4a1d623f" title="Returns Id of the particle." alt="" coords="581,573,757,601"/>
+<area shape="rect" id="node17" href="$d0/d49/classKFParticle.html#ad82b13a8214920f2a15c1334e41c4776" title="Returns number of decrease of freedom." alt="" coords="607,625,731,653"/>
+<area shape="rect" id="node18" href="$d0/d49/classKFParticle.html#a25172df44e982a6d08879a9638ca9b07" title="Returns pointer to the parameters fP." alt="" coords="583,677,756,705"/>
+<area shape="rect" id="node19" href="$db/dcc/classKFParticleSIMD.html#a27d7e843526677a4a1a0b755f7fb5d65" title="Returns pointer to the parameters fP." alt="" coords="565,729,773,757"/>
+<area shape="rect" id="node20" href="$d0/d49/classKFParticle.html#a537faaa1cf0c3f36a602302340babe3b" title="Returns charge of the particle." alt="" coords="616,781,723,809"/>
+<area shape="rect" id="node21" href="$d0/d49/classKFParticle.html#a2a1c4001b07352ad6aa73065f502957a" title="Set a flag that particle is at the production point." alt="" coords="567,833,771,877"/>
+<area shape="rect" id="node22" href="$d5/d41/classKFParticleBase.html#ad223c0ea998d4c27a768291b6288c0c2" title="Sets the Id of the particle. After the construction of a particle should be set by user..." alt="" coords="587,901,751,929"/>
+<area shape="rect" id="node23" href="$d5/d41/classKFParticleBase.html#a3acaec6e2b8d7b0e55b37233fd091555" title="Sets the PDG hypothesis." alt="" coords="579,953,759,981"/>
+<area shape="rect" id="node10" href="$d2/dbb/classKFParticleBaseSIMD.html#ab8734826c2ff3a13b524cee16a65e55b" title="Returns the sum of masses of the daughters." alt="" coords="843,333,997,377"/>
+<area shape="rect" id="node12" href="$d2/dbb/classKFParticleBaseSIMD.html#ad64dccb1e5b0fb94842e8a28e5037b31" title="Returns the sum of masses of the daughters." alt="" coords="843,401,997,445"/>
+<area shape="rect" id="node15" href="$d2/dbb/classKFParticleBaseSIMD.html#a926d1ef18075badaf63d0241a673d644" title="Returns the sum of masses of the daughters." alt="" coords="843,513,997,557"/>
+</map>

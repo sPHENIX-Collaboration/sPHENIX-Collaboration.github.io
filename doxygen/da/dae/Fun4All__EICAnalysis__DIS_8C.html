@@ -114,16 +114,35 @@ $(document).ready(function(){initNavTree('da/dae/Fun4All__EICAnalysis__DIS_8C.ht
 <div class="title">Fun4All_EICAnalysis_DIS.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d5/dc2/SubsysReco_8h_source.html">fun4all/SubsysReco.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dc/da2/Fun4AllServer_8h_source.html">fun4all/Fun4AllServer.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d1/de7/Fun4AllInputManager_8h_source.html">fun4all/Fun4AllInputManager.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d8/d8f/Fun4AllDummyInputManager_8h_source.html">fun4all/Fun4AllDummyInputManager.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../de/df8/Fun4AllOutputManager_8h_source.html">fun4all/Fun4AllOutputManager.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dd/de7/Fun4AllDstInputManager_8h_source.html">fun4all/Fun4AllDstInputManager.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d2/dab/Fun4AllNoSyncDstInputManager_8h_source.html">fun4all/Fun4AllNoSyncDstInputManager.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../db/d22/Fun4AllDstOutputManager_8h_source.html">fun4all/Fun4AllDstOutputManager.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d1/d72/Fun4AllHepMCInputManager_8h_source.html">phhepmc/Fun4AllHepMCInputManager.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d2/dcb/recoConsts_8h_source.html">phool/recoConsts.h</a>&gt;</code><br/>
+<code>#include &lt;eicana/DISKinematicsReco.h&gt;</code><br/>
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for Fun4All_EICAnalysis_DIS.C:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/db6/Fun4All__EICAnalysis__DIS_8C__incl.svg" width="2787" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</div>
 <p><a href="../../da/dae/Fun4All__EICAnalysis__DIS_8C_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6be6c58cd68a395182a998295a1106ae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dae/Fun4All__EICAnalysis__DIS_8C.html#a6be6c58cd68a395182a998295a1106ae">Fun4All_EICAnalysis_DIS</a> (const int <a class="el" href="../../df/d51/dvcs__plot_8C.html#a6f032dae4131c13bd5080db077f4e158">nEvents</a>=1000, const char *inputFile=&quot;/gpfs/mnt/gpfs02/phenix/scratch/spjeffas/g4sim/<a class="el" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#a2b55876b879042af991c49f0316c7a93">G4_Leptoquark_DST_p250_e20_1000events_1seed_DISneutral.root</a>&quot;, const char *outputFile=&quot;eicana_pythia6_e10p250_dis_100k.root&quot;)</td></tr>
-<tr class="separator:a6be6c58cd68a395182a998295a1106ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2e5db333dd6b1cacd67c6dea10fcda8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dae/Fun4All__EICAnalysis__DIS_8C.html#ab2e5db333dd6b1cacd67c6dea10fcda8">Fun4All_EICAnalysis_DIS</a> (const int <a class="el" href="../../df/d51/dvcs__plot_8C.html#a6f032dae4131c13bd5080db077f4e158">nEvents</a>=100, const char *inputFile=&quot;/sphenix/user/baschmoo/standard/macros/macros/g4simulations/G4EICDetector.root&quot;, const char *outputFile=&quot;output.root&quot;)</td></tr>
+<tr class="separator:ab2e5db333dd6b1cacd67c6dea10fcda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a6be6c58cd68a395182a998295a1106ae"></a>
+<a class="anchor" id="ab2e5db333dd6b1cacd67c6dea10fcda8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -131,19 +150,19 @@ Functions</h2></td></tr>
           <td class="memname">int Fun4All_EICAnalysis_DIS </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>nEvents</em> = <code>1000</code>, </td>
+          <td class="paramname"><em>nEvents</em> = <code>100</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>inputFile</em> = <code>&quot;/gpfs/mnt/gpfs02/phenix/scratch/spjeffas/g4sim/<a class="el" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#a2b55876b879042af991c49f0316c7a93">G4_Leptoquark_DST_p250_e20_1000events_1seed_DISneutral.root</a>&quot;</code>, </td>
+          <td class="paramname"><em>inputFile</em> = <code>&quot;/sphenix/user/baschmoo/standard/macros/macros/g4simulations/G4EICDetector.root&quot;</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>outputFile</em> = <code>&quot;eicana_pythia6_e10p250_dis_100k.root&quot;</code>&#160;</td>
+          <td class="paramname"><em>outputFile</em> = <code>&quot;output.root&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -153,16 +172,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/dae/Fun4All__EICAnalysis__DIS_8C_source.html#l00002">2</a> of file <a class="el" href="../../da/dae/Fun4All__EICAnalysis__DIS_8C_source.html">Fun4All_EICAnalysis_DIS.C</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dae/Fun4All__EICAnalysis__DIS_8C_source.html#l00021">21</a> of file <a class="el" href="../../da/dae/Fun4All__EICAnalysis__DIS_8C_source.html">Fun4All_EICAnalysis_DIS.C</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/EICAnalysis/macros/diskinematics_fun4all/Fun4All_EICAnalysis_DIS.C#l21">21</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/EICAnalysis/macros/diskinematics_fun4all/Fun4All_EICAnalysis_DIS.C">Fun4All_EICAnalysis_DIS.C</a></p>
 
 <p>References <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01021">Fun4AllServer::End()</a>, <a class="el" href="../../d1/de7/Fun4AllInputManager_8h_source.html#l00027">Fun4AllInputManager::fileopen()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01493">Fun4AllServer::fileopen()</a>, <a class="el" href="../../dd/da0/IsInCurvedRich_8m_source.html#l00001">in</a>, <a class="el" href="../../d2/dcb/recoConsts_8h_source.html#l00012">recoConsts::instance()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00044">Fun4AllServer::instance()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00023">Fun4AllBase::Name()</a>, <a class="el" href="../../df/d51/dvcs__plot_8C_source.html#l00062">nEvents</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01289">Fun4AllServer::registerInputManager()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00184">Fun4AllServer::registerSubsystem()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01321">Fun4AllServer::run()</a>, <a class="el" href="../../d6/d38/DISKinematicsReco_8h_source.html#l00062">DISKinematicsReco::set_do_process_geant4_cluster()</a>, <a class="el" href="../../d6/d38/DISKinematicsReco_8h_source.html#l00068">DISKinematicsReco::set_do_process_truth()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00059">Fun4AllBase::Verbosity()</a>.</p>
 
-<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dae/Fun4All__EICAnalysis__DIS_8C_a6be6c58cd68a395182a998295a1106ae_cgraph.svg" width="1520" height="1788"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dae/Fun4All__EICAnalysis__DIS_8C_ab2e5db333dd6b1cacd67c6dea10fcda8_cgraph.svg" width="1520" height="1788"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -179,7 +200,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_1a5005e4eb45e581e130aefdcac35c9d.html">EICAnalysis</a></li><li class="navelem"><a class="el" href="../../dir_1e5d4d28c1bade64ee2538b75bff0d86.html">macros</a></li><li class="navelem"><a class="el" href="../../dir_1965d5cd3e106a5a6a189a0965891048.html">diskinematics_fun4all</a></li><li class="navelem"><a class="el" href="../../da/dae/Fun4All__EICAnalysis__DIS_8C.html">Fun4All_EICAnalysis_DIS.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:28</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:35</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

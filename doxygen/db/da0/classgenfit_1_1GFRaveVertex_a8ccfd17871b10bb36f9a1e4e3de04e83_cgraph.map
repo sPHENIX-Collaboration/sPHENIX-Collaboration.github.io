@@ -1,0 +1,5 @@
+<map id="genfit::GFRaveVertex::operator=" name="genfit::GFRaveVertex::operator=">
+<area shape="rect" id="node2" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a08f56256785465a3583eb3a6db49a090" title="genfit::GFRaveVertex\l::swap" alt="" coords="219,5,384,49"/>
+<area shape="rect" id="node3" href="$d4/da9/namespaceboost.html#a630945877437d477612e4419562161cc" title="boost::swap" alt="" coords="432,13,535,41"/>
+<area shape="rect" id="node4" href="$d1/d96/classboost_1_1array.html#a342ef866ed696b18ce803b5c9aba4b2e" title="boost::array::swap" alt="" coords="583,13,729,41"/>
+</map>

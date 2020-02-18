@@ -1,0 +1,13 @@
+<map id="gbl::GblTrajectory::construct" name="gbl::GblTrajectory::construct">
+<area shape="rect" id="node2" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a376fbed338fc81e2b90aeeed7a74acac" title="Calculate Jacobians to previous/next scatterer from point to point ones." alt="" coords="195,5,336,49"/>
+<area shape="rect" id="node4" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a5ce501de3c57304825c893e5202c63ac" title="Define offsets from list of points." alt="" coords="195,73,336,117"/>
+<area shape="rect" id="node5" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a992ea7fd4ff643ccb6d0f7c21b214592" title="Prepare fit for simple or composed trajectory." alt="" coords="195,141,336,185"/>
+<area shape="rect" id="node3" href="$da/d3b/classgbl_1_1GblPoint.html#a8a0cbed490d81b2ee048dcd388994b30" title="Define jacobian to next scatterer (by GBLTrajectory constructor)" alt="" coords="384,13,615,41"/>
+<area shape="rect" id="node6" href="$dc/d6b/classgbl_1_1GblTrajectory.html#acf9e20a5aa0fb53cc2db1a423da75016" title="Get (part of) jacobian for transformation from (trajectory) fit to track parameters at point..." alt="" coords="663,141,837,185"/>
+<area shape="rect" id="node10" href="$d7/d06/classgbl_1_1GblData.html#a9e89899f2811d77c64b7318509ff09df" title="Add derivatives from measurement." alt="" coords="391,184,608,212"/>
+<area shape="rect" id="node11" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a3dc422d353825f7fc3dd899ae76304f9" title="Get jacobian for transformation from (trajectory) fit to kink parameters at point." alt="" coords="666,73,834,117"/>
+<area shape="rect" id="node12" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a8dfc2ab7514aafab6d04b5be32da52a1" title="Get jacobian for transformation from fit to track parameters at point." alt="" coords="429,236,570,280"/>
+<area shape="rect" id="node7" href="$da/d3b/classgbl_1_1GblPoint.html#ad7698ecd8cd9f5d4a7a9b64d6970f4bb" title="Retrieve offset for point." alt="" coords="903,133,1083,161"/>
+<area shape="rect" id="node8" href="$da/d3b/classgbl_1_1GblPoint.html#a368a9ea3264e7eca7312e5ec332bd2e9" title="Retrieve derivatives of local track model." alt="" coords="885,81,1101,109"/>
+<area shape="rect" id="node9" href="$da/d0a/CylinderKalman_8cpp.html#ab74daa0c9784c63e060bfb98cc06fbf5" title="sign" alt="" coords="969,185,1018,213"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="genfit::GblFitterInfo::hasMeasurements" name="genfit::GblFitterInfo::hasMeasurements">
+<area shape="rect" id="node2" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#aaa28251e933bd0cb8d80ba72f5e5a05e" title="Collect all data and create a GblPoint." alt="" coords="423,18,577,62"/>
+<area shape="rect" id="node4" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a6ee92ab2c8aa05282e8090b70f941c7a" title="Get the measurement on plane from stored measurement data (from last construction/update)" alt="" coords="212,34,365,78"/>
+<area shape="rect" id="node5" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#ae19fc48cd3a657bae8d7a6c0afdb3bdf" title="Get the residual." alt="" coords="212,102,365,146"/>
+<area shape="rect" id="node6" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a3fe3a2be31384f51f8d11c82439d4cda" title="genfit::GblFitterInfo\l::Print" alt="" coords="423,129,577,173"/>
+<area shape="rect" id="node7" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a6a5ecb1dd2d2c36cec4582037cc226e0" title="Re&#45;extrapolates between prevFitterInfo and this point using forward state to update the Jacobian (if ..." alt="" coords="208,222,369,266"/>
+<area shape="rect" id="node3" href="$d1/dc8/classgenfit_1_1GblFitter.html#aca889cc191ff16e91cf281bde21f4eb6" title="Constructs all GBL points and returns them in vector for trajectory construction." alt="" coords="631,18,765,62"/>
+<area shape="rect" id="node8" href="$d1/dc8/classgenfit_1_1GblFitter.html#a4be6bdc46ad9f13aef275aea2b01f438" title="genfit::GblFitter::\lprocessTrackWithRep" alt="" coords="417,222,583,266"/>
+</map>

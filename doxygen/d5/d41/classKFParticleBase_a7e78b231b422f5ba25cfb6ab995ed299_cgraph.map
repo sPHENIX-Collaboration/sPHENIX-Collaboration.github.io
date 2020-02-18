@@ -1,0 +1,5 @@
+<map id="KFParticleBase::GetArmenterosPodolanski" name="KFParticleBase::GetArmenterosPodolanski">
+<area shape="rect" id="node2" href="$d5/d41/classKFParticleBase.html#a797c4fd327ec66f1af12d947dc62fa2e" title="Retruns X component of the momentum, fP[3]." alt="" coords="285,5,455,33"/>
+<area shape="rect" id="node3" href="$d5/d41/classKFParticleBase.html#aa93b12eff0960f12c0e7741129439cae" title="Retruns Y component of the momentum, fP[4]." alt="" coords="285,57,455,85"/>
+<area shape="rect" id="node4" href="$d5/d41/classKFParticleBase.html#ae80c9269acc433d4d3fbf9041d7c3a5e" title="Retruns Z component of the momentum, fP[5]." alt="" coords="285,109,455,137"/>
+</map>

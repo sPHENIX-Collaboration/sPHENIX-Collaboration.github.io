@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$dc/dc5/classgenfit_1_1Field.html" title="Field Wrapper." alt="" coords="141,5,241,33"/>
+<area shape="rect" id="node2" href="$d4/d1a/classgenfit_1_1EventDisplay.html" title="Event display designed to run with Genfit." alt="" coords="154,5,313,33"/>
+<area shape="rect" id="node3" href="$dc/d52/classKFPVEfficiencies.html" title="Class to calculate efficiency of KF Particle Finder." alt="" coords="167,57,299,85"/>
+<area shape="rect" id="node4" href="$d1/d28/classPgPostBankBackupStorage.html" title="PgPostBankBackupStorage." alt="" coords="132,109,335,137"/>
 </map>

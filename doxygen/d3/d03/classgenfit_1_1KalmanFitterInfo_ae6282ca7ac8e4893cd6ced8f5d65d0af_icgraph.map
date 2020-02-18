@@ -1,0 +1,6 @@
+<map id="genfit::KalmanFitterInfo::areWeightsFixed" name="genfit::KalmanFitterInfo::areWeightsFixed">
+<area shape="rect" id="node2" href="$d6/d60/classgenfit_1_1DAF.html#a13c89d100046e596ea6442bdd5d6a40c" title="Calculate and set the weights for the next fitting pass. Return if convergence is met..." alt="" coords="247,16,433,44"/>
+<area shape="rect" id="node4" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ab28798fe239a0577ef7a9c254c235491" title="Prepare the track." alt="" coords="233,69,447,113"/>
+<area shape="rect" id="node3" href="$d6/d60/classgenfit_1_1DAF.html#a2bdf79750af68a02be2da0fb2442de33" title="Process a track using the DAF." alt="" coords="505,5,697,49"/>
+<area shape="rect" id="node5" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ad3a24181b5370cc95f01f49ea148c011" title="genfit::KalmanFitterRefTrack\l::processTrackWithRep" alt="" coords="495,73,708,117"/>
+</map>

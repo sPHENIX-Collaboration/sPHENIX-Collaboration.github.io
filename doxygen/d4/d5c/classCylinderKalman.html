@@ -166,7 +166,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a3cfa5082906938acc59d1bc6707b1261"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5c/classCylinderKalman.html#a3cfa5082906938acc59d1bc6707b1261">subtractProjections</a> (Eigen::Matrix&lt; float, 2, 1 &gt; &amp;m, Eigen::Matrix&lt; float, 2, 1 &gt; &amp;ha, Eigen::Matrix&lt; float, 2, 1 &gt; &amp;diff)</td></tr>
 <tr class="separator:a3cfa5082906938acc59d1bc6707b1261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classHelixKalman"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classHelixKalman')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d8/d85/classHelixKalman.html">HelixKalman</a></td></tr>
-<tr class="memitem:a55adf1f408113d0e3994b07e7d629c6b inherit pro_methods_classHelixKalman"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d85/classHelixKalman.html#a55adf1f408113d0e3994b07e7d629c6b">calculateMSCovariance</a> (<a class="el" href="../../dc/d5e/classHelixKalmanState.html">HelixKalmanState</a> &amp;state, Eigen::Matrix&lt; float, 5, 5 &gt; &amp;Q)</td></tr>
+<tr class="memitem:a55adf1f408113d0e3994b07e7d629c6b inherit pro_methods_classHelixKalman"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d85/classHelixKalman.html#a55adf1f408113d0e3994b07e7d629c6b">calculateMSCovariance</a> (<a class="el" href="../../dc/d5e/classHelixKalmanState.html">HelixKalmanState</a> &amp;state, Eigen::Matrix&lt; float, 5, 5 &gt; &amp;<a class="el" href="../../d2/dc5/KFPTrackVector_8h.html#a29768481487c22478c33cc10e03dc7ff">Q</a>)</td></tr>
 <tr class="separator:a55adf1f408113d0e3994b07e7d629c6b inherit pro_methods_classHelixKalman"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef12e80004e0637454bf1fa4b3534233 inherit pro_methods_classHelixKalman"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d85/classHelixKalman.html#aef12e80004e0637454bf1fa4b3534233">calculate_dbdt</a> (Eigen::Matrix&lt; float, 3, 2 &gt; &amp;dbdt_out)</td></tr>
 <tr class="separator:aef12e80004e0637454bf1fa4b3534233 inherit pro_methods_classHelixKalman"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,6 +204,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00014">14</a> of file <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html">CylinderKalman.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.h#l14">14</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.h">CylinderKalman.h</a></p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a7c3ddfc191a0bc484e481c4195ecbce0"></a>
 <div class="memitem">
@@ -237,6 +239,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00019">19</a> of file <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html">CylinderKalman.cpp</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp#l19">19</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp">CylinderKalman.cpp</a></p>
+
 <p>References <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00029">det_rad</a>, <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00030">det_scatter_variance</a>, and <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">i</a>.</p>
 
 </div>
@@ -263,6 +267,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html">CylinderKalman.cpp</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp#l29">29</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp">CylinderKalman.cpp</a></p>
 
 </div>
 </div>
@@ -325,7 +331,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html">CylinderKalman.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::d</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00155">d</a>, <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00029">det_rad</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00138">dz2</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::dzdl</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00142">dzdl</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00022">SimpleHit3D::get_layer()</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00025">SimpleHit3D::get_x()</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00028">SimpleHit3D::get_y()</a>, <a class="el" href="../../d5/de0/SVM__v1_8py_source.html#l00044">SVM_v1::h</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">i</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00092">k</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00026">k2</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::kappa</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00015">HelixKalmanState::nu</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::phi</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00155">phi</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00102">s</a>, <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00015">sign()</a>, <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00032">signk_store</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00103">temp1</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00104">temp2</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00033">tmp1</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00023">ux</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00023">uy</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00094">v</a>, <a class="el" href="../../d4/d51/vector__math__inline_8h_source.html#l00126">x</a>, <a class="el" href="../../d4/d51/vector__math__inline_8h_source.html#l00186">x2</a>, and <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::z0</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp#l31">31</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp">CylinderKalman.cpp</a></p>
+
+<p>References <a class="el" href="../../dc/d15/KFParticleDef_8h_source.html#l00122">KFPMath::a</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::d</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00155">d</a>, <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00029">det_rad</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00138">dz2</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::dzdl</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00142">dzdl</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00022">SimpleHit3D::get_layer()</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00025">SimpleHit3D::get_x()</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00028">SimpleHit3D::get_y()</a>, <a class="el" href="../../d5/de0/SVM__v1_8py_source.html#l00044">SVM_v1::h</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">i</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00092">k</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00026">k2</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::kappa</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00015">HelixKalmanState::nu</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::phi</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00155">phi</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00102">s</a>, <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00015">sign()</a>, <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00032">signk_store</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00103">temp1</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00104">temp2</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00033">tmp1</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00023">ux</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00023">uy</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00094">v</a>, <a class="el" href="../../d4/d51/vector__math__inline_8h_source.html#l00126">x</a>, <a class="el" href="../../d4/d51/vector__math__inline_8h_source.html#l00186">x2</a>, and <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::z0</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00395">calculateProjections()</a>.</p>
 
@@ -393,6 +401,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00427">427</a> of file <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html">CylinderKalman.cpp</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp#l427">427</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp">CylinderKalman.cpp</a></p>
+
 <p>References <a class="el" href="../../d9/dc1/SimpleHit3D_8cpp_source.html#l00079">SimpleHit3D::get_size()</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00025">SimpleHit3D::get_x()</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00028">SimpleHit3D::get_y()</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00031">SimpleHit3D::get_z()</a>, and <a class="el" href="../../dd/de6/CylindricalHough_8h_source.html#l00010">M_PI</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -455,6 +465,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00395">395</a> of file <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html">CylinderKalman.cpp</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp#l395">395</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp">CylinderKalman.cpp</a></p>
+
 <p>References <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00031">calculate_dxda()</a>, <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00029">det_rad</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00022">SimpleHit3D::get_layer()</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00025">SimpleHit3D::get_x()</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00028">SimpleHit3D::get_y()</a>, <a class="el" href="../../dd/de6/CylindricalHough_8h_source.html#l00010">M_PI</a>, <a class="el" href="../../d4/d51/vector__math__inline_8h_source.html#l00126">x</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00155">y</a>, and <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00155">z</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -505,6 +517,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00521">521</a> of file <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html">CylinderKalman.cpp</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp#l521">521</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp">CylinderKalman.cpp</a></p>
+
 <p>References <a class="el" href="../../d6/d04/HelixKalman_8h_source.html#l00031">HelixKalman::Bfield_inv</a>, <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00030">det_scatter_variance</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::dzdl</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00092">k</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::kappa</a>, <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00031">nlayers</a>, and <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00012">HelixKalmanState::position</a>.</p>
 
 </div>
@@ -551,6 +565,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00383">383</a> of file <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html">CylinderKalman.cpp</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp#l383">383</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp">CylinderKalman.cpp</a></p>
+
 <p>References <a class="el" href="../../dd/de6/CylindricalHough_8h_source.html#l00010">M_PI</a>.</p>
 
 </div>
@@ -591,7 +607,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00455">455</a> of file <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html">CylinderKalman.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::d</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00155">d</a>, <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00029">det_rad</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::dzdl</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00142">dzdl</a>, <a class="el" href="../../d5/de0/SVM__v1_8py_source.html#l00044">SVM_v1::h</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00092">k</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::kappa</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::phi</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00155">phi</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00012">HelixKalmanState::position</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00102">s</a>, <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00015">sign()</a>, <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00032">signk_store</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00103">temp1</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00104">temp2</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00033">tmp1</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00023">ux</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00023">uy</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00094">v</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00016">HelixKalmanState::x_int</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00016">HelixKalmanState::y_int</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::z0</a>, and <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00016">HelixKalmanState::z_int</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp#l455">455</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.cpp">CylinderKalman.cpp</a></p>
+
+<p>References <a class="el" href="../../dc/d15/KFParticleDef_8h_source.html#l00122">KFPMath::a</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::d</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00155">d</a>, <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00029">det_rad</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::dzdl</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00142">dzdl</a>, <a class="el" href="../../d5/de0/SVM__v1_8py_source.html#l00044">SVM_v1::h</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00092">k</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::kappa</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::phi</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00155">phi</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00012">HelixKalmanState::position</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00102">s</a>, <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00015">sign()</a>, <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00032">signk_store</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00103">temp1</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00104">temp2</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00033">tmp1</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00023">ux</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00023">uy</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00094">v</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00016">HelixKalmanState::x_int</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00016">HelixKalmanState::y_int</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::z0</a>, and <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00016">HelixKalmanState::z_int</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -626,6 +644,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00029">29</a> of file <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html">CylinderKalman.h</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.h#l29">29</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.h">CylinderKalman.h</a></p>
+
 <p>Referenced by <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00031">calculate_dxda()</a>, <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00395">calculateProjections()</a>, <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00019">CylinderKalman()</a>, and <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00455">updateIntersection()</a>.</p>
 
 </div>
@@ -649,6 +669,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00030">30</a> of file <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html">CylinderKalman.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.h#l30">30</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.h">CylinderKalman.h</a></p>
 
 <p>Referenced by <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00521">calculateScatteringVariance()</a>, and <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00019">CylinderKalman()</a>.</p>
 
@@ -674,6 +696,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00031">31</a> of file <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html">CylinderKalman.h</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.h#l31">31</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.h">CylinderKalman.h</a></p>
+
 <p>Referenced by <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00521">calculateScatteringVariance()</a>.</p>
 
 </div>
@@ -698,6 +722,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html#l00032">32</a> of file <a class="el" href="../../d9/d2c/CylinderKalman_8h_source.html">CylinderKalman.h</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.h#l32">32</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/CylinderKalman.h">CylinderKalman.h</a></p>
+
 <p>Referenced by <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00031">calculate_dxda()</a>, and <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00455">updateIntersection()</a>.</p>
 
 </div>
@@ -716,7 +742,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d4/d5c/classCylinderKalman.html">CylinderKalman</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:35</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:44</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

@@ -1,0 +1,10 @@
+<map id="genfit::Track::insertMeasurement" name="genfit::Track::insertMeasurement">
+<area shape="rect" id="node2" href="$d6/d8a/classgenfit_1_1Track.html#a7e61ada0d84db561ede923db92c4ab01" title="Insert TrackPoint BEFORE TrackPoint with position id, if id &gt;= 0." alt="" coords="299,193,485,221"/>
+<area shape="rect" id="node3" href="$db/d40/classgenfit_1_1TrackPoint.html#a70f6a8e9214edad4fce38eafeeee820e" title="genfit::TrackPoint\l::setTrack" alt="" coords="589,5,727,49"/>
+<area shape="rect" id="node4" href="$d6/d8a/classgenfit_1_1Track.html#ad4ead0ee2abc2bcb6b616f8976bc559a" title="genfit::Track::trackHasChanged" alt="" coords="831,220,1064,248"/>
+<area shape="rect" id="node5" href="$db/d40/classgenfit_1_1TrackPoint.html#ada7b4d8c988a1798e455fb70929f88b7" title="genfit::TrackPoint\l::hasRawMeasurements" alt="" coords="567,125,749,169"/>
+<area shape="rect" id="node6" href="$d6/d8a/classgenfit_1_1Track.html#aef6313a66e86853f9eef2e38f519bc37" title="genfit::Track::deleteReferenceInfo" alt="" coords="533,193,783,221"/>
+<area shape="rect" id="node7" href="$d6/d8a/classgenfit_1_1Track.html#ad6ac9e44842a18fbba2577a887f008c5" title="genfit::Track::deleteForwardInfo" alt="" coords="540,245,776,273"/>
+<area shape="rect" id="node8" href="$d6/d8a/classgenfit_1_1Track.html#a409abb47dc8fb5134031f8af1ce9b44a" title="genfit::Track::deleteBackwardInfo" alt="" coords="534,297,782,325"/>
+<area shape="rect" id="node9" href="$d6/d8a/classgenfit_1_1Track.html#aebe51cd12b541bb8821c1b919480371d" title="genfit::Track::fillPoints\lWithMeasurement" alt="" coords="573,349,743,393"/>
+</map>

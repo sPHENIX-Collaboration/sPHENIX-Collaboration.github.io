@@ -1,0 +1,8 @@
+<map id="genfit::GblFitterInfo::getResidual" name="genfit::GblFitterInfo::getResidual">
+<area shape="rect" id="node2" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#af18f7aec09c915ad948a96e3b934eaa8" title="genfit::AbsMeasurement\l::constructHMatrix" alt="" coords="207,5,395,49"/>
+<area shape="rect" id="node3" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a9040cad25be9a3c328a52c186871acf8" title="Get the prediction at this point Always biased in GBL (global fit) There are 2 states, before and after kink (if there is a scatterer at this point). Per default the state after kink for forward propagation is returned." alt="" coords="224,73,377,117"/>
+<area shape="rect" id="node4" href="$db/d40/classgenfit_1_1TrackPoint.html#a2999fc0669beb86b6309f86e040bcdef" title="genfit::TrackPoint\l::getRawMeasurement" alt="" coords="214,141,387,185"/>
+<area shape="rect" id="node5" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#afea691164c74306d2031439ca40d1687" title="genfit::AbsFitterInfo\l::getRep" alt="" coords="223,209,378,253"/>
+<area shape="rect" id="node6" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#ad3bc8c2b886cf8fa07c124945d222f07" title="genfit::GblFitterInfo\l::hasMeasurements" alt="" coords="223,277,378,321"/>
+<area shape="rect" id="node7" href="$db/d40/classgenfit_1_1TrackPoint.html#ada7b4d8c988a1798e455fb70929f88b7" title="genfit::TrackPoint\l::hasRawMeasurements" alt="" coords="443,277,625,321"/>
+</map>

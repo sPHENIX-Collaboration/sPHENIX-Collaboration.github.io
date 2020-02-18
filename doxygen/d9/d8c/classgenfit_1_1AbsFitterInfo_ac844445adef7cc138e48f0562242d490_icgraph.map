@@ -1,0 +1,14 @@
+<map id="genfit::AbsFitterInfo::getPlane" name="genfit::AbsFitterInfo::getPlane">
+<area shape="rect" id="node2" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a11e7a7d1a7af27a268c05bb6b89d8c3d" title="genfit::KalmanFitterInfo\l::checkConsistency" alt="" coords="263,98,443,142"/>
+<area shape="rect" id="node4" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ab28798fe239a0577ef7a9c254c235491" title="Prepare the track." alt="" coords="808,98,1021,142"/>
+<area shape="rect" id="node10" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ae28fde614f4be610f7f6eecce03c4eba" title="genfit::KalmanFitterInfo\l::getAvgWeightedMeasurementOnPlane" alt="" coords="208,286,499,330"/>
+<area shape="rect" id="node11" href="$d3/d7b/classgenfit_1_1GFGbl.html#a0fbc16a1bcfe612c536b616be8239689" title="genfit::GFGbl::processTrack\lWithRep" alt="" coords="249,354,457,398"/>
+<area shape="rect" id="node12" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a6a5ecb1dd2d2c36cec4582037cc226e0" title="Re&#45;extrapolates between prevFitterInfo and this point using forward state to update the Jacobian (if ..." alt="" coords="273,422,434,466"/>
+<area shape="rect" id="node3" href="$d2/df7/classgenfit_1_1AbsKalmanFitter.html#a854d70cd571b2f8deabcedc8aebac92a" title="genfit::AbsKalmanFitter\l::isTrackPrepared" alt="" coords="563,98,744,142"/>
+<area shape="rect" id="node6" href="$d2/df7/classgenfit_1_1AbsKalmanFitter.html#a785b058b7d881734e04a26ac50a0cd04" title="genfit::AbsKalmanFitter\l::isTrackFitted" alt="" coords="563,166,744,210"/>
+<area shape="rect" id="node7" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#a0dffe53c54ee6afe2fc252e643b5b790" title="genfit::KalmanFitterRefTrack\l::processTrackPoint" alt="" coords="808,30,1021,74"/>
+<area shape="rect" id="node9" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#adc865a1152d111df9d724e047decaf3e" title="genfit::KalmanFitterRefTrack\l::processTrackPointSqrt" alt="" coords="547,30,760,74"/>
+<area shape="rect" id="node5" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ad3a24181b5370cc95f01f49ea148c011" title="genfit::KalmanFitterRefTrack\l::processTrackWithRep" alt="" coords="1331,65,1544,109"/>
+<area shape="rect" id="node8" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#affda7c9ad9495fd91828d1b43adcc904" title="Fit the track." alt="" coords="1069,33,1283,77"/>
+<area shape="rect" id="node13" href="$d1/dc8/classgenfit_1_1GblFitter.html#a4be6bdc46ad9f13aef275aea2b01f438" title="genfit::GblFitter::\lprocessTrackWithRep" alt="" coords="571,422,736,466"/>
+</map>

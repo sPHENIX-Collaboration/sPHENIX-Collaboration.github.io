@@ -7,6 +7,7 @@ var classPHG4MvtxSubsystem =
     [ "GetSteppingAction", "d9/dbf/classPHG4MvtxSubsystem.html#a6cf814f4a576fd01eb8280a831ef4325", null ],
     [ "InitRunSubsystem", "d9/dbf/classPHG4MvtxSubsystem.html#a189efac53cac8a58715d177c664d74c9", null ],
     [ "process_event", "d9/dbf/classPHG4MvtxSubsystem.html#a7bf1013001ffe5d96738a998b65197bb", null ],
+    [ "radii2Turbo", "d9/dbf/classPHG4MvtxSubsystem.html#a5233618532c4e77a6d13b6a39e4e1bbf", null ],
     [ "SetDefaultParameters", "d9/dbf/classPHG4MvtxSubsystem.html#aa6e20b37940178b02854a9d157b9ab85", null ],
     [ "detector_type", "d9/dbf/classPHG4MvtxSubsystem.html#a73260fcaec77a71636d9a61f1913800c", null ],
     [ "m_Detector", "d9/dbf/classPHG4MvtxSubsystem.html#a86bf787999daf4093368ae350ac5477c", null ],

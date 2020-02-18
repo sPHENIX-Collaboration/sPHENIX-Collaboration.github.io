@@ -1,3 +1,12 @@
 <map id="PHGenFit::Fitter::getInstance" name="PHGenFit::Fitter::getInstance">
-<area shape="rect" id="node2" href="$d1/d35/classPHGenFit_1_1Fitter.html#ab245e2833a4d6880cc1c836bc46389b2" title="Default constructor." alt="" coords="268,5,439,33"/>
+<area shape="rect" id="node2" href="$d1/d35/classPHGenFit_1_1Fitter.html#ab245e2833a4d6880cc1c836bc46389b2" title="Default constructor." alt="" coords="268,184,439,212"/>
+<area shape="rect" id="node3" href="$d1/d34/classgenfit_1_1MaterialEffects.html#a15a93d367165ade368e6caec713d0934" title="genfit::MaterialEffects\l::getInstance" alt="" coords="487,5,657,49"/>
+<area shape="rect" id="node5" href="$d4/d1a/classgenfit_1_1EventDisplay.html#acc398c4fb9fce23fbc106453d5a55718" title="genfit::EventDisplay\l::getInstance" alt="" coords="493,73,651,117"/>
+<area shape="rect" id="node7" href="$de/d8e/classgenfit_1_1FieldManager.html#aaf0b56fea4f0deb428de8749febf792d" title="Get singleton instance." alt="" coords="491,141,653,185"/>
+<area shape="rect" id="node9" href="$d1/d34/classgenfit_1_1MaterialEffects.html#a9c604002cb66d43e99da8802e3b8918e" title="set the material interface here. Material interface classes must be derived from AbsMaterialInterface..." alt="" coords="487,209,657,253"/>
+<area shape="rect" id="node10" href="$de/d8e/classgenfit_1_1FieldManager.html#a0360198b189d2d5acaebfca7a468437e" title="set the magnetic field here. Magnetic field classes must be derived from AbsBField." alt="" coords="491,277,653,321"/>
+<area shape="rect" id="node11" href="$d8/db3/classgenfit_1_1Exception.html#adc12ce3fb68f9869627e0551a5a7822c" title="&quot;std::cerr &lt;&lt; e.what();&quot; will not write anything." alt="" coords="500,345,644,389"/>
+<area shape="rect" id="node4" href="$d1/d34/classgenfit_1_1MaterialEffects.html#a0cab227e2f45bd20ba63cf1b2ad260be" title="genfit::MaterialEffects\l::MaterialEffects" alt="" coords="705,5,876,49"/>
+<area shape="rect" id="node6" href="$d4/d1a/classgenfit_1_1EventDisplay.html#a3aa96da8f0486f3420b620cebb6b9f00" title="genfit::EventDisplay\l::EventDisplay" alt="" coords="711,73,870,117"/>
+<area shape="rect" id="node8" href="$de/d8e/classgenfit_1_1FieldManager.html#a01194f10c4efe8d19286492ba01e104e" title="genfit::FieldManager\l::FieldManager" alt="" coords="710,141,871,185"/>
 </map>

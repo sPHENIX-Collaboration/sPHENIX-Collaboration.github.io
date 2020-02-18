@@ -1,0 +1,7 @@
+<map id="genfit::Track::getFittedState" name="genfit::Track::getFittedState">
+<area shape="rect" id="node2" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="475,114,692,142"/>
+<area shape="rect" id="node3" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#a985d0203f46dfbd5dc253bb03b21d76f" title="genfit::AbsFitterInfo\l::getFittedState" alt="" coords="249,38,404,82"/>
+<area shape="rect" id="node4" href="$db/d40/classgenfit_1_1TrackPoint.html#ae8b3e743fb436dd6689e0dad4c35ffd9" title="Get fitterInfo for rep. Per default, use cardinal rep." alt="" coords="257,106,396,150"/>
+<area shape="rect" id="node5" href="$d6/d8a/classgenfit_1_1Track.html#ad8961b1ff4809ccde5f6f100ffbccb9d" title="genfit::Track::getPointWith\lFitterInfo" alt="" coords="227,174,427,218"/>
+<area shape="rect" id="node6" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="255,242,399,286"/>
+</map>

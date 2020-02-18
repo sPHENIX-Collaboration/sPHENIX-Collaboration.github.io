@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d8/dda/PHInitZVertexing_8cc_source.htm
 <div class="title">PHInitZVertexing.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d8/dda/PHInitZVertexing_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d50/PHInitZVertexing_8h.html">PHInitZVertexing.h</a>&quot;</span></div>
+<a href="../../d8/dda/PHInitZVertexing_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHInitZVertexing.cc">the newest version in sPHENIX GitHub for file PHInitZVertexing.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d50/PHInitZVertexing_8h.html">PHInitZVertexing.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/dda/CellularAutomaton__v1_8h.html">CellularAutomaton_v1.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d12/HelixHoughBin_8h.html">HelixHoughBin.h</a>&quot;</span>                              <span class="comment">// for HelixHoughBin</span></div>
@@ -235,7 +235,7 @@ $(document).ready(function(){initNavTree('d8/dda/PHInitZVertexing_8cc_source.htm
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      _track_states(),</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      _track_errors(),</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;      _track_covars(),</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      _vertex(),</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      <a class="code" href="../../d7/d3c/PHRTreeSeeding_8cc.html#ad1693ad6af9ada9c187662e8a9389bb3">_vertex</a>(),</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      _vertex_list(),</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      _bbc_vertexes(nullptr),</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;      _trackmap(nullptr),</div>
@@ -658,7 +658,7 @@ $(document).ready(function(){initNavTree('d8/dda/PHInitZVertexing_8cc_source.htm
 <div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;</div>
 <div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;        <a class="code" href="../../d2/d8f/classPHInitZVertexing.html#a90c9a274ace497c89d2c9695a5ffc468">_trackmap</a> = <span class="keyword">new</span> <a class="code" href="../../d2/dbf/classSvtxTrackMap__v1.html">SvtxTrackMap_v1</a>;</div>
 <div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;        <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a>* tracks_node = <span class="keyword">new</span> <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a>(<a class="code" href="../../d2/d8f/classPHInitZVertexing.html#a90c9a274ace497c89d2c9695a5ffc468">_trackmap</a>,</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;                                                                         <span class="stringliteral">&quot;SvtxTrackMap&quot;</span>, <span class="stringliteral">&quot;PHObject&quot;</span>);</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;                                                                         <span class="stringliteral">&quot;SvtxTrackMap_zvtx&quot;</span>, <span class="stringliteral">&quot;PHObject&quot;</span>);</div>
 <div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;        tb_node-&gt;<a class="code" href="../../d5/dca/classPHCompositeNode.html#a15a0c4804399a9de4267647f05bd1ba4">addNode</a>(tracks_node);</div>
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>() &gt; 0) cout &lt;&lt; <span class="stringliteral">&quot;Svtx/SvtxTrackMap node added&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;       </div>
@@ -846,7 +846,7 @@ $(document).ready(function(){initNavTree('d8/dda/PHInitZVertexing_8cc_source.htm
 <div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;  <span class="keywordflow">for</span>(<a class="code" href="../../d0/d2c/classTrkrClusterContainer.html#a28f00824770c593ed42d6f79c118a3c6">TrkrClusterContainer::ConstIterator</a> iter = clusrange.first; iter != clusrange.second; ++iter)</div>
 <div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;    {</div>
 <div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;      <a class="code" href="../../d6/dfa/classTrkrCluster.html" title="Base class for cluster object.">TrkrCluster</a> *cluster = iter-&gt;second;</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;      <a class="code" href="../../d6/d3f/namespaceTrkrDefs.html#adcd48caf27b141adf8a295d48d0d7212">TrkrDefs::cluskey</a> <a class="code" href="../../d6/d3f/namespaceTrkrDefs.html#adcd48caf27b141adf8a295d48d0d7212">cluskey</a> = iter-&gt;first;</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;      <a class="code" href="../../d6/d3f/namespaceTrkrDefs.html#adcd48caf27b141adf8a295d48d0d7212">TrkrDefs::cluskey</a> <a class="code" href="../../d5/d87/PHRTreeSeeding_8h.html#a4759f0f0346b3414c53cdab891c17078">cluskey</a> = iter-&gt;first;</div>
 <div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;      <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> layer = <a class="code" href="../../d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type.">TrkrDefs::getLayer</a>(cluskey);</div>
 <div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;</div>
 <div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;      <span class="keywordflow">if</span>(layer &lt; 3) </div>
@@ -2526,7 +2526,7 @@ $(document).ready(function(){initNavTree('d8/dda/PHInitZVertexing_8cc_source.htm
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_1bd7b5579a8a17b34b83494541f84522.html">trackreco</a></li><li class="navelem"><a class="el" href="../../d8/dda/PHInitZVertexing_8cc.html">PHInitZVertexing.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:21</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:27</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

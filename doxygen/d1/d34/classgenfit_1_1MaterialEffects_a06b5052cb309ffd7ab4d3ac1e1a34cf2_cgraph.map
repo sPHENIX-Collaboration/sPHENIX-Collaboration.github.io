@@ -1,0 +1,4 @@
+<map id="genfit::MaterialEffects::setMscModel" name="genfit::MaterialEffects::setMscModel">
+<area shape="rect" id="node2" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="241,5,385,49"/>
+<area shape="rect" id="node3" href="$d8/db3/classgenfit_1_1Exception.html#a5cb44accc5d69d5742ed883a2d4ff88a" title="Standard error message handling for exceptions. use like &quot;std::cerr &lt;&lt; e.what();&quot;." alt="" coords="224,73,403,101"/>
+</map>

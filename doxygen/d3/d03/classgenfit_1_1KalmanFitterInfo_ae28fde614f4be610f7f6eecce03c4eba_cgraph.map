@@ -1,0 +1,8 @@
+<map id="genfit::KalmanFitterInfo::getAvgWeightedMeasurementOnPlane" name="genfit::KalmanFitterInfo::getAvgWeightedMeasurementOnPlane">
+<area shape="rect" id="node2" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#adea48432beb9b8fc30bc4bf05b4c5547" title="genfit::MeasuredStateOnPlane\l::getCov" alt="" coords="344,5,571,49"/>
+<area shape="rect" id="node3" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#ac844445adef7cc138e48f0562242d490" title="genfit::AbsFitterInfo\l::getPlane" alt="" coords="380,73,535,117"/>
+<area shape="rect" id="node4" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="377,141,538,185"/>
+<area shape="rect" id="node5" href="$db/d45/namespacegenfit_1_1tools.html#ad70b08610012fcd630091c66be5cd0c4" title="Invert a matrix, throwing an Exception when inversion fails. Optional calculation of determinant..." alt="" coords="361,209,554,237"/>
+<area shape="rect" id="node7" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html#aa7fe8ce59e9166fc9f88d5bfa43a2840" title="genfit::MeasurementOnPlane\l::setWeight" alt="" coords="348,261,567,305"/>
+<area shape="rect" id="node6" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="619,201,763,245"/>
+</map>

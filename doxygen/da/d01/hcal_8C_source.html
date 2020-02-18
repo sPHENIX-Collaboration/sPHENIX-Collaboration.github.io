@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('da/d01/hcal_8C_source.html','../../');
 <div class="title">hcal.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../da/d01/hcal_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<a href="../../da/d01/hcal_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/Prototype2/HCAL/HighBayCode/hcal.C">the newest version in sPHENIX GitHub for file hcal.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d52/hcal_8h.html">hcal.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;algorithm&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
@@ -234,7 +234,7 @@ $(document).ready(function(){initNavTree('da/d01/hcal_8C_source.html','../../');
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment">//____________________________________</span></div>
 <div class="line"><a name="l00121"></a><span class="lineno"><a class="code" href="../../d3/d17/classhcal.html#afb7decdf1ecd7e6770e2bff66ede9c65">  121</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d3/d17/classhcal.html#afb7decdf1ecd7e6770e2bff66ede9c65">hcal::evLoop</a>(<span class="keywordtype">int</span> nevts=0)</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;{</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; Initialize();</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; <a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a4c97ec619a52c5cf9d89748433ee16aa">Initialize</a>();</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; runnumber = 0;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; <a class="code" href="../../d9/d9e/evDisplay_8C.html#ac7bcb6cd8ca3e800a39f7f0063d61044">nevents</a> = 0;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; <span class="keywordtype">int</span> OK;</div>
@@ -295,7 +295,7 @@ $(document).ready(function(){initNavTree('da/d01/hcal_8C_source.html','../../');
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d6/d29/track2cluster__plot_8C.html#ae2bc69d2191ab7552502f23bee9f8295">verbosity</a>) cout &lt;&lt; <span class="stringliteral">&quot;hcal::GetNextEvent &quot;</span> &lt;&lt; <a class="code" href="../../d9/d9e/evDisplay_8C.html#ac7bcb6cd8ca3e800a39f7f0063d61044">nevents</a> &lt;&lt; endl;</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  <a class="code" href="../../d9/d9e/evDisplay_8C.html#ac7bcb6cd8ca3e800a39f7f0063d61044">nevents</a>++; </div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  <span class="comment">//Reset the graphs</span></div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  Clear();</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  <a class="code" href="../../d1/def/KFParticleTopoReconstructor_8h.html#a94c1cc78bef6bd866af5544e105e078d" title="Cleans all candidates for primary vertices and short-lived particles.">Clear</a>();</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  <span class="comment">//Get the event </span></div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  evt=<a class="code" href="../../d5/d0b/changehitformat_8cc.html#a592a0cf34c13b7b53e37c2791a6a982e">it</a>-&gt;<a class="code" href="../../d0/d1f/classEventiterator.html#a9e3aa5e4eb7efd3e4ef37dc854696d28">getNextEvent</a>();</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  <span class="keywordflow">if</span>(!evt) <span class="keywordflow">return</span> 0;</div>
@@ -331,7 +331,7 @@ $(document).ready(function(){initNavTree('da/d01/hcal_8C_source.html','../../');
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <a class="code" href="../../d9/d9e/evDisplay_8C.html#ab4c0918efe4b3c5d464d2f2d05d41c94">gpulse</a>[ich]-&gt;SetPoint(isamp,(Double_t)isamp,(Double_t)val);</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;      }</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;       </div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;       <span class="keywordflow">if</span>(!polarity_positive &amp;&amp; TMath::MinElement(24,<a class="code" href="../../d9/d9e/evDisplay_8C.html#ab4c0918efe4b3c5d464d2f2d05d41c94">gpulse</a>[ich]-&gt;GetY())==0)</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;       <span class="keywordflow">if</span>(!polarity_positive &amp;&amp; TMath::MinElement(24,<a class="code" href="../../d9/d9e/evDisplay_8C.html#ab4c0918efe4b3c5d464d2f2d05d41c94">gpulse</a>[ich]-&gt;<a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a050f88fe67feb3966c18a004ee2db531" title="Returns the sum of masses of the daughters.">GetY</a>())==0)</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;       {</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;         <span class="comment">//display = true;</span></div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;         saturation_map[ich]++;</div>
@@ -364,11 +364,11 @@ $(document).ready(function(){initNavTree('da/d01/hcal_8C_source.html','../../');
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160; <span class="keywordflow">for</span>(<span class="keywordtype">int</span> iSample=0; iSample&lt;<a class="code" href="../../d9/d9e/evDisplay_8C.html#a799c0adfc7047bb3abb403217547e8e5">NSAMPLES</a>; iSample++)</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; {</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;   <span class="keywordflow">if</span>(!polarity_positive &amp;&amp; <a class="code" href="../../d9/d9e/evDisplay_8C.html#ab4c0918efe4b3c5d464d2f2d05d41c94">gpulse</a>[ich]-&gt;GetY()[iSample]&lt;peakval){</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;   <span class="keywordflow">if</span>(!polarity_positive &amp;&amp; <a class="code" href="../../d9/d9e/evDisplay_8C.html#ab4c0918efe4b3c5d464d2f2d05d41c94">gpulse</a>[ich]-&gt;<a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a050f88fe67feb3966c18a004ee2db531" title="Returns the sum of masses of the daughters.">GetY</a>()[iSample]&lt;peakval){</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;   <span class="comment">//if(gpulse[ich]-&gt;GetY()[iSample]&gt;peakval){</span></div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;     peakval = <a class="code" href="../../d9/d9e/evDisplay_8C.html#ab4c0918efe4b3c5d464d2f2d05d41c94">gpulse</a>[ich]-&gt;GetY()[iSample];</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;     peakPos = iSample;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;   } <span class="keywordflow">else</span> <span class="keywordflow">if</span>(polarity_positive &amp;&amp; <a class="code" href="../../d9/d9e/evDisplay_8C.html#ab4c0918efe4b3c5d464d2f2d05d41c94">gpulse</a>[ich]-&gt;GetY()[iSample]&gt;peakval)</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;   } <span class="keywordflow">else</span> <span class="keywordflow">if</span>(polarity_positive &amp;&amp; <a class="code" href="../../d9/d9e/evDisplay_8C.html#ab4c0918efe4b3c5d464d2f2d05d41c94">gpulse</a>[ich]-&gt;<a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a050f88fe67feb3966c18a004ee2db531" title="Returns the sum of masses of the daughters.">GetY</a>()[iSample]&gt;peakval)</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;   {</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;     peakval = <a class="code" href="../../d9/d9e/evDisplay_8C.html#ab4c0918efe4b3c5d464d2f2d05d41c94">gpulse</a>[ich]-&gt;GetY()[iSample];</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;     peakPos = iSample;</div>
@@ -544,7 +544,7 @@ $(document).ready(function(){initNavTree('da/d01/hcal_8C_source.html','../../');
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_2c78bb6e66c84261c4129b8be4424d09.html">Prototype2</a></li><li class="navelem"><a class="el" href="../../dir_6b8078b4964eab7f4d918abf607baf24.html">HCAL</a></li><li class="navelem"><a class="el" href="../../dir_43b8a6cd333fc091c7cf0adf2aae4622.html">HighBayCode</a></li><li class="navelem"><a class="el" href="../../da/d01/hcal_8C.html">hcal.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:08</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

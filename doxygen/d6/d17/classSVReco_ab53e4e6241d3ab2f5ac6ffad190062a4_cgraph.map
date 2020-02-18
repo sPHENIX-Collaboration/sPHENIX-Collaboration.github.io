@@ -1,0 +1,8 @@
+<map id="SVReco::FillVertexMap" name="SVReco::FillVertexMap">
+<area shape="rect" id="node2" href="$d6/d8a/classgenfit_1_1Track.html#a2b70396853556fba71311a05a4e70039" title="Get the MCT track id, for MC simulations &#45; default value = &#45;1." alt="" coords="239,5,442,33"/>
+<area shape="rect" id="node3" href="$d8/d8c/classgenfit_1_1GFRaveTrackParameters.html#aaa4317aacf0f546736d9c9857c1602ed" title="genfit::GFRaveTrackParameters\l::getMom" alt="" coords="224,57,457,101"/>
+<area shape="rect" id="node4" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a47ada7742989e3e294a3cc9f1342fee7" title="Number of tracks the vertex is made of." alt="" coords="258,125,423,169"/>
+<area shape="rect" id="node5" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a14875bcfb7c0b9373ec2bb6010c78d8d" title="genfit::GFRaveVertex\l::getParameters" alt="" coords="258,193,423,237"/>
+<area shape="rect" id="node6" href="$d8/d8c/classgenfit_1_1GFRaveTrackParameters.html#ae57b8111cfcb4426a9d00096ad045de4" title="genfit::GFRaveTrackParameters\l::getTrack" alt="" coords="224,261,457,305"/>
+<area shape="rect" id="node7" href="$d8/d8c/classgenfit_1_1GFRaveTrackParameters.html#ad0f0bc629e7836a06363cb4b7fc09429" title="genfit::GFRaveTrackParameters\l::getWeight" alt="" coords="224,329,457,373"/>
+</map>

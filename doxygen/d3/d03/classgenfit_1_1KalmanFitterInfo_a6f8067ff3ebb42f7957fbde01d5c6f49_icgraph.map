@@ -1,0 +1,5 @@
+<map id="genfit::KalmanFitterInfo::getResidual" name="genfit::KalmanFitterInfo::getResidual">
+<area shape="rect" id="node2" href="$d6/d60/classgenfit_1_1DAF.html#a13c89d100046e596ea6442bdd5d6a40c" title="Calculate and set the weights for the next fitting pass. Return if convergence is met..." alt="" coords="233,13,420,41"/>
+<area shape="rect" id="node4" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a950783b305dbab9cb5178fe1467b9b2a" title="genfit::KalmanFitterInfo\l::getSmoothedChi2" alt="" coords="237,65,417,109"/>
+<area shape="rect" id="node3" href="$d6/d60/classgenfit_1_1DAF.html#a2bdf79750af68a02be2da0fb2442de33" title="Process a track using the DAF." alt="" coords="468,5,660,49"/>
+</map>

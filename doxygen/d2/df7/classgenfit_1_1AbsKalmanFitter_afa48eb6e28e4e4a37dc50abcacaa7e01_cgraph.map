@@ -1,0 +1,9 @@
+<map id="genfit::AbsKalmanFitter::getRedChiSqu" name="genfit::AbsKalmanFitter::getRedChiSqu">
+<area shape="rect" id="node2" href="$d2/df7/classgenfit_1_1AbsKalmanFitter.html#a2c5fe231c96899f0061d0aec9776ddc9" title="genfit::AbsKalmanFitter\l::getChiSquNdf" alt="" coords="235,176,416,220"/>
+<area shape="rect" id="node3" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a449e5f8718e1d75cf1ce0cfeaf292f98" title="genfit::KalmanFitterInfo\l::getBackwardUpdate" alt="" coords="498,5,678,49"/>
+<area shape="rect" id="node4" href="$df/d8f/classgenfit_1_1KalmanFittedStateOnPlane.html#af2d9b0aca99e5c55bf76efcbadfad5bd" title="genfit::KalmanFittedState\lOnPlane::getChiSquareIncrement" alt="" coords="464,73,712,117"/>
+<area shape="rect" id="node5" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#ab73b2438fc8bc96ea96449b799c8f583" title="Get the dimension of the state vector used by the track representation." alt="" coords="510,141,666,185"/>
+<area shape="rect" id="node6" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ac915ea1567d343a2e32e1152505e98c5" title="genfit::KalmanFitterInfo\l::getForwardUpdate" alt="" coords="498,209,678,253"/>
+<area shape="rect" id="node7" href="$df/d8f/classgenfit_1_1KalmanFittedStateOnPlane.html#a328a8bd6b861a0643fad215d333c6acf" title="genfit::KalmanFittedState\lOnPlane::getNdf" alt="" coords="491,277,685,321"/>
+<area shape="rect" id="node8" href="$d6/d8a/classgenfit_1_1Track.html#af8d0e80206b8523b225f1b380fb89d62" title="genfit::Track::getPoints\lWithMeasurement" alt="" coords="499,345,677,389"/>
+</map>

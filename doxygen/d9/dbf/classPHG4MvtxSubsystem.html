@@ -113,6 +113,7 @@ $(document).ready(function(){initNavTree('d9/dbf/classPHG4MvtxSubsystem.html','.
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../da/d57/classPHG4MvtxSubsystem-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -301,6 +302,11 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:aa6e20b37940178b02854a9d157b9ab85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbf/classPHG4MvtxSubsystem.html#aa6e20b37940178b02854a9d157b9ab85">SetDefaultParameters</a> ()</td></tr>
 <tr class="separator:aa6e20b37940178b02854a9d157b9ab85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a5233618532c4e77a6d13b6a39e4e1bbf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbf/classPHG4MvtxSubsystem.html#a5233618532c4e77a6d13b6a39e4e1bbf">radii2Turbo</a> (<a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> rMin, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> rMid, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> rMax, <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> sensW)</td></tr>
+<tr class="separator:a5233618532c4e77a6d13b6a39e4e1bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a86bf787999daf4093368ae350ac5477c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dc1/classPHG4MvtxDetector.html">PHG4MvtxDetector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbf/classPHG4MvtxSubsystem.html#a86bf787999daf4093368ae350ac5477c">m_Detector</a></td></tr>
@@ -351,7 +357,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00016">16</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00017">17</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h#l17">17</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h">PHG4MvtxSubsystem.h</a></p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a3af23d4328867010422c1e576a8ac8dc"></a>
 <div class="memitem">
@@ -379,9 +387,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>constructor </p>
 
-<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00037">37</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00039">39</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
 
-<p>References <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00081">PHG4DetectorGroupSubsystem::AddDetId()</a>, <a class="el" href="../../d2/d8a/PHG4DetectorGroupSubsystem_8cc_source.html#l00433">PHG4DetectorGroupSubsystem::InitializeParameters()</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00063">n_layers</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00023">Fun4AllBase::Name()</a>, and <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00072">PHG4DetectorGroupSubsystem::SuperDetector()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc#l39">39</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc">PHG4MvtxSubsystem.cc</a></p>
+
+<p>References <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00081">PHG4DetectorGroupSubsystem::AddDetId()</a>, <a class="el" href="../../d2/d8a/PHG4DetectorGroupSubsystem_8cc_source.html#l00433">PHG4DetectorGroupSubsystem::InitializeParameters()</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00068">n_layers</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00023">Fun4AllBase::Name()</a>, and <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00072">PHG4DetectorGroupSubsystem::SuperDetector()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -418,9 +428,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>destructor </p>
 
-<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00057">57</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00059">59</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
 
-<p>References <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00060">m_DisplayAction</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc#l59">59</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc">PHG4MvtxSubsystem.cc</a></p>
+
+<p>References <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00065">m_DisplayAction</a>.</p>
 
 </div>
 </div>
@@ -451,9 +463,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../db/df7/classPHG4Subsystem.html#afcc011c14ac7853b01796ebbb26c8512">PHG4Subsystem</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00182">182</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00184">184</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
 
-<p>References <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00052">m_Detector</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc#l184">184</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc">PHG4MvtxSubsystem.cc</a></p>
+
+<p>References <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00057">m_Detector</a>.</p>
 
 </div>
 </div>
@@ -482,9 +496,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../db/df7/classPHG4Subsystem.html#ae9083807625357202b80ee32e74b0bdb">PHG4Subsystem</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00045">45</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00046">46</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
 
-<p>References <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00060">m_DisplayAction</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h#l46">46</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h">PHG4MvtxSubsystem.h</a></p>
+
+<p>References <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00065">m_DisplayAction</a>.</p>
 
 </div>
 </div>
@@ -514,9 +530,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../db/df7/classPHG4Subsystem.html#ae6c6f2bb38572d697d711cbe425bf263">PHG4Subsystem</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00188">188</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00190">190</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
 
-<p>References <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00056">steppingAction_</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc#l190">190</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc">PHG4MvtxSubsystem.cc</a></p>
+
+<p>References <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00061">steppingAction_</a>.</p>
 
 </div>
 </div>
@@ -543,13 +561,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>InitRunSubsystem. </p>
-<p>called during InitRun (the original InitRun does common setup and calls this one) creates the detector object ceates the stepping action creates relevant hit nodes that will be populated by the stepping action and stored in the output DST </p>
+<p>called during InitRun (the original InitRun does common setup and calls this one) creates the detector object creates the stepping action creates relevant hit nodes that will be populated by the stepping action and stored in the output DST </p>
 
 <p>Reimplemented from <a class="el" href="../../d7/d7f/classPHG4DetectorGroupSubsystem.html#abec0c72c8b4cd658b94bf986539de1d5">PHG4DetectorGroupSubsystem</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00063">63</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00065">65</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
 
-<p>References <a class="el" href="../../df/d01/PHCompositeNode_8cc_source.html#l00037">PHCompositeNode::addNode()</a>, <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00042">PHG4DetectorGroupSubsystem::CheckOverlap()</a>, <a class="el" href="../../d7/db7/PHG4MvtxDetector_8h_source.html#l00046">PHG4MvtxDetector::Detector()</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00065">detector_type</a>, <a class="el" href="../../d0/d41/PHNodeIterator_8cc_source.html#l00054">PHNodeIterator::findFirst()</a>, <a class="el" href="../../dc/d1c/PHParameters_8cc_source.html#l00069">PHParameters::get_int_param()</a>, <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00082">PHG4DetectorGroupSubsystem::GetDetIds()</a>, <a class="el" href="../../d6/d89/PHParametersContainer_8cc_source.html#l00098">PHParametersContainer::GetParameters()</a>, <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00043">PHG4DetectorGroupSubsystem::GetParamsContainer()</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00052">m_Detector</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00060">m_DisplayAction</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00063">n_layers</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00023">Fun4AllBase::Name()</a>, <a class="el" href="../../dd/dcc/PHG4Detector_8h_source.html#l00047">PHG4Detector::OverlapCheck()</a>, <a class="el" href="../../d5/d6f/phool_8h_source.html#l00032">PHWHERE</a>, <a class="el" href="../../d6/d89/PHParametersContainer_8cc_source.html#l00212">PHParametersContainer::Print()</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00056">steppingAction_</a>, <a class="el" href="../../d7/db7/PHG4MvtxDetector_8h_source.html#l00044">PHG4MvtxDetector::SuperDetector()</a>, <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00072">PHG4DetectorGroupSubsystem::SuperDetector()</a>, <a class="el" href="../../dd/dcc/PHG4Detector_8h_source.html#l00055">PHG4Detector::topNode()</a>, <a class="el" href="../../dd/dcc/PHG4Detector_8h_source.html#l00042">PHG4Detector::Verbosity()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00065">Fun4AllBase::Verbosity()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc#l65">65</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc">PHG4MvtxSubsystem.cc</a></p>
+
+<p>References <a class="el" href="../../df/d01/PHCompositeNode_8cc_source.html#l00037">PHCompositeNode::addNode()</a>, <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00042">PHG4DetectorGroupSubsystem::CheckOverlap()</a>, <a class="el" href="../../d7/db7/PHG4MvtxDetector_8h_source.html#l00046">PHG4MvtxDetector::Detector()</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00070">detector_type</a>, <a class="el" href="../../d0/d41/PHNodeIterator_8cc_source.html#l00054">PHNodeIterator::findFirst()</a>, <a class="el" href="../../dc/d1c/PHParameters_8cc_source.html#l00069">PHParameters::get_int_param()</a>, <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00082">PHG4DetectorGroupSubsystem::GetDetIds()</a>, <a class="el" href="../../d6/d89/PHParametersContainer_8cc_source.html#l00098">PHParametersContainer::GetParameters()</a>, <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00043">PHG4DetectorGroupSubsystem::GetParamsContainer()</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00057">m_Detector</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00065">m_DisplayAction</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00068">n_layers</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00023">Fun4AllBase::Name()</a>, <a class="el" href="../../dd/dcc/PHG4Detector_8h_source.html#l00047">PHG4Detector::OverlapCheck()</a>, <a class="el" href="../../d5/d6f/phool_8h_source.html#l00032">PHWHERE</a>, <a class="el" href="../../d6/d89/PHParametersContainer_8cc_source.html#l00212">PHParametersContainer::Print()</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00061">steppingAction_</a>, <a class="el" href="../../d7/db7/PHG4MvtxDetector_8h_source.html#l00044">PHG4MvtxDetector::SuperDetector()</a>, <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00072">PHG4DetectorGroupSubsystem::SuperDetector()</a>, <a class="el" href="../../dd/dcc/PHG4Detector_8h_source.html#l00055">PHG4Detector::topNode()</a>, <a class="el" href="../../dd/dcc/PHG4Detector_8h_source.html#l00042">PHG4Detector::Verbosity()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00065">Fun4AllBase::Verbosity()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -590,9 +610,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a0fa6eedc5f703be3bb0535851363b9f2">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00170">170</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00172">172</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
 
-<p>References <a class="el" href="../../d0/d55/PHG4SteppingAction_8h_source.html#l00041">PHG4SteppingAction::SetInterfacePointers()</a>, and <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00056">steppingAction_</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc#l172">172</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc">PHG4MvtxSubsystem.cc</a></p>
+
+<p>References <a class="el" href="../../d0/d55/PHG4SteppingAction_8h_source.html#l00041">PHG4SteppingAction::SetInterfacePointers()</a>, and <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00061">steppingAction_</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -600,6 +622,68 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dbf/classPHG4MvtxSubsystem_a7bf1013001ffe5d96738a998b65197bb_cgraph.svg" width="400" height="55"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5233618532c4e77a6d13b6a39e4e1bbf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a> PHG4MvtxSubsystem::radii2Turbo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td>
+          <td class="paramname"><em>rMin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td>
+          <td class="paramname"><em>rMid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td>
+          <td class="paramname"><em>rMax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8">double</a>&#160;</td>
+          <td class="paramname"><em>sensW</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00050">50</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h#l50">50</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h">PHG4MvtxSubsystem.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00196">SetDefaultParameters()</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dbf/classPHG4MvtxSubsystem_a5233618532c4e77a6d13b6a39e4e1bbf_icgraph.svg" width="408" height="55"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -629,16 +713,18 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d7/d7f/classPHG4DetectorGroupSubsystem.html#a7aa94c0ddb8f6d69b4dc5a87aa16fd35">PHG4DetectorGroupSubsystem</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00193">193</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00196">196</a> of file <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html">PHG4MvtxSubsystem.cc</a>.</p>
 
-<p>References <a class="el" href="../../df/d94/PHG4MvtxDefs_8h_source.html#l00009">PHG4MvtxDefs::ALPIDE_SEGMENTATION</a>, <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00082">PHG4DetectorGroupSubsystem::GetDetIds()</a>, <a class="el" href="../../df/d94/PHG4MvtxDefs_8h_source.html#l00008">PHG4MvtxDefs::GLOBAL</a>, <a class="el" href="../../d2/d8a/PHG4DetectorGroupSubsystem_8cc_source.html#l00379">PHG4DetectorGroupSubsystem::set_default_double_param()</a>, <a class="el" href="../../d2/d8a/PHG4DetectorGroupSubsystem_8cc_source.html#l00397">PHG4DetectorGroupSubsystem::set_default_int_param()</a>, and <a class="el" href="../../d2/d8a/PHG4DetectorGroupSubsystem_8cc_source.html#l00415">PHG4DetectorGroupSubsystem::set_default_string_param()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc#l196">196</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.cc">PHG4MvtxSubsystem.cc</a></p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="../../d5/d12/PHG4DetectorGroupSubsystem_8h_source.html#l00082">PHG4DetectorGroupSubsystem::GetDetIds()</a>, <a class="el" href="../../df/d94/PHG4MvtxDefs_8h_source.html#l00029">PHG4MvtxDefs::GLOBAL</a>, <a class="el" href="../../df/d94/PHG4MvtxDefs_8h_source.html#l00021">PHG4MvtxDefs::kNStave</a>, <a class="el" href="../../df/d94/PHG4MvtxDefs_8h_source.html#l00020">PHG4MvtxDefs::kPhi0</a>, <a class="el" href="../../df/d94/PHG4MvtxDefs_8h_source.html#l00017">PHG4MvtxDefs::kRmd</a>, <a class="el" href="../../df/d94/PHG4MvtxDefs_8h_source.html#l00016">PHG4MvtxDefs::kRmn</a>, <a class="el" href="../../df/d94/PHG4MvtxDefs_8h_source.html#l00018">PHG4MvtxDefs::kRmx</a>, <a class="el" href="../../df/d94/PHG4MvtxDefs_8h_source.html#l00024">PHG4MvtxDefs::mvtxdat</a>, <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00050">radii2Turbo()</a>, <a class="el" href="../../d3/dba/SegmentationAlpide_8h_source.html#l00029">SegmentationAlpide::SensorSizeRows</a>, <a class="el" href="../../d2/d8a/PHG4DetectorGroupSubsystem_8cc_source.html#l00379">PHG4DetectorGroupSubsystem::set_default_double_param()</a>, <a class="el" href="../../d2/d8a/PHG4DetectorGroupSubsystem_8cc_source.html#l00397">PHG4DetectorGroupSubsystem::set_default_int_param()</a>, and <a class="el" href="../../d2/d8a/PHG4DetectorGroupSubsystem_8cc_source.html#l00415">PHG4DetectorGroupSubsystem::set_default_string_param()</a>.</p>
+
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dbf/classPHG4MvtxSubsystem_aa6e20b37940178b02854a9d157b9ab85_cgraph.svg" width="467" height="259"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dbf/classPHG4MvtxSubsystem_aa6e20b37940178b02854a9d157b9ab85_cgraph.svg" width="467" height="327"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -664,9 +750,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00065">65</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00070">70</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00063">InitRunSubsystem()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h#l70">70</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h">PHG4MvtxSubsystem.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00065">InitRunSubsystem()</a>.</p>
 
 </div>
 </div>
@@ -691,9 +779,11 @@ Additional Inherited Members</h2></td></tr>
 <p>detector geometry </p>
 <p>defives from <a class="el" href="../../d3/de7/classPHG4Detector.html" title="base class for phenix detector creation">PHG4Detector</a> </p>
 
-<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00052">52</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00057">57</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00182">GetDetector()</a>, and <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00063">InitRunSubsystem()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h#l57">57</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h">PHG4MvtxSubsystem.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00184">GetDetector()</a>, and <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00065">InitRunSubsystem()</a>.</p>
 
 </div>
 </div>
@@ -718,9 +808,11 @@ Additional Inherited Members</h2></td></tr>
 <p>display attribute setting </p>
 <p>derives from <a class="el" href="../../d2/d44/classPHG4DisplayAction.html">PHG4DisplayAction</a> </p>
 
-<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00060">60</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00065">65</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00045">GetDisplayAction()</a>, <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00063">InitRunSubsystem()</a>, and <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00057">~PHG4MvtxSubsystem()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h#l65">65</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h">PHG4MvtxSubsystem.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00046">GetDisplayAction()</a>, <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00065">InitRunSubsystem()</a>, and <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00059">~PHG4MvtxSubsystem()</a>.</p>
 
 </div>
 </div>
@@ -742,9 +834,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00063">63</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00068">68</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00063">InitRunSubsystem()</a>, and <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00037">PHG4MvtxSubsystem()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h#l68">68</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h">PHG4MvtxSubsystem.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00065">InitRunSubsystem()</a>, and <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00039">PHG4MvtxSubsystem()</a>.</p>
 
 </div>
 </div>
@@ -769,9 +863,11 @@ Additional Inherited Members</h2></td></tr>
 <p>particle tracking "stepping" action </p>
 <p>derives from PHG4SteppingActions </p>
 
-<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00056">56</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html#l00061">61</a> of file <a class="el" href="../../d1/d19/PHG4MvtxSubsystem_8h_source.html">PHG4MvtxSubsystem.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00188">GetSteppingAction()</a>, <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00063">InitRunSubsystem()</a>, and <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00170">process_event()</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h#l61">61</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4mvtx/PHG4MvtxSubsystem.h">PHG4MvtxSubsystem.h</a></p>
+
+<p>Referenced by <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00190">GetSteppingAction()</a>, <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00065">InitRunSubsystem()</a>, and <a class="el" href="../../d4/db6/PHG4MvtxSubsystem_8cc_source.html#l00172">process_event()</a>.</p>
 
 </div>
 </div>
@@ -789,7 +885,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d9/dbf/classPHG4MvtxSubsystem.html">PHG4MvtxSubsystem</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:42</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:52</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

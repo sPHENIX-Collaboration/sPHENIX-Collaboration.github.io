@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d4/d0c/PHTruthTrackSeeding_8cc_source.
 <div class="title">PHTruthTrackSeeding.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/d0c/PHTruthTrackSeeding_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d9c/PHTruthTrackSeeding_8h.html" title="Vertexing using truth info.">PHTruthTrackSeeding.h</a>&quot;</span></div>
+<a href="../../d4/d0c/PHTruthTrackSeeding_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/trackreco/PHTruthTrackSeeding.cc">the newest version in sPHENIX GitHub for file PHTruthTrackSeeding.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d9c/PHTruthTrackSeeding_8h.html" title="Vertexing using truth info.">PHTruthTrackSeeding.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dd/d79/AssocInfoContainer_8h.html">AssocInfoContainer.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
@@ -189,7 +189,7 @@ $(document).ready(function(){initNavTree('d4/d0c/PHTruthTrackSeeding_8cc_source.
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../d0/d2c/classTrkrClusterContainer.html#a28f00824770c593ed42d6f79c118a3c6">TrkrClusterContainer::ConstIterator</a> clusiter = clusrange.first; clusiter != clusrange.second; ++clusiter)</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  {</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="../../d6/dfa/classTrkrCluster.html" title="Base class for cluster object.">TrkrCluster</a>* cluster = clusiter-&gt;second;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="../../d6/d3f/namespaceTrkrDefs.html#adcd48caf27b141adf8a295d48d0d7212">TrkrDefs::cluskey</a> <a class="code" href="../../d6/d3f/namespaceTrkrDefs.html#adcd48caf27b141adf8a295d48d0d7212">cluskey</a> = clusiter-&gt;first;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="../../d6/d3f/namespaceTrkrDefs.html#adcd48caf27b141adf8a295d48d0d7212">TrkrDefs::cluskey</a> <a class="code" href="../../d5/d87/PHRTreeSeeding_8h.html#a4759f0f0346b3414c53cdab891c17078">cluskey</a> = clusiter-&gt;first;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> trkrid = <a class="code" href="../../d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type.">TrkrDefs::getTrkrId</a>(cluskey);</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
@@ -443,7 +443,7 @@ $(document).ready(function(){initNavTree('d4/d0c/PHTruthTrackSeeding_8cc_source.
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_1bd7b5579a8a17b34b83494541f84522.html">trackreco</a></li><li class="navelem"><a class="el" href="../../d4/d0c/PHTruthTrackSeeding_8cc.html">PHTruthTrackSeeding.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:21</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:27</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d4/d7a/PHG4HitKalmanFitter_8cc_source.
 <div class="title">PHG4HitKalmanFitter.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/d7a/PHG4HitKalmanFitter_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../d4/d7a/PHG4HitKalmanFitter_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/ForwardTracking/PHG4HitKalmanFitter.cc">the newest version in sPHENIX GitHub for file PHG4HitKalmanFitter.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('d4/d7a/PHG4HitKalmanFitter_8cc_source.
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<a class="code" href="../../d9/d91/classPHG4TrackFastSim.html#a00e1ff892a87973ddd861f530ca38847" title="Default constructor.">PHG4TrackFastSim::PHG4TrackFastSim</a>(<span class="keyword">const</span> std::string &amp;<a class="code" href="../../d5/d3b/FillBlobHist_8C.html#aeaf846aa21a7d016a52f0b5b0c2f5544">name</a>) :</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                <a class="code" href="../../d0/d32/classSubsysReco.html">SubsysReco</a>(name),</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                _truth_container(NULL), _trackmap_out(NULL), _fitter (NULL), _fit_alg_name(<span class="stringliteral">&quot;KalmanFitterRefTrack&quot;</span>), _do_evt_display(<a class="code" href="../../d5/dc0/BoolDefs_8h.html#a65e9886d74aaee76545e83dd09011727">false</a>),</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                 _phi_resolution(50<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a>-4), <span class="comment">//100um</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                 _phi_resolution(50<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a>-4), <span class="comment">//100um</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                 _r_resolution(1.),</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                 _pat_rec_hit_finding_eff(1.),</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                 _pat_rec_nosise_prob(0.)</div>
@@ -251,7 +251,7 @@ $(document).ready(function(){initNavTree('d4/d7a/PHG4HitKalmanFitter_8cc_source.
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                <span class="keywordtype">int</span> <a class="code" href="../../d4/d51/vector__math__inline_8h.html#a00e11f107ec1da7e29c6a1bd28664d77">pid</a> = 13; <span class="comment">//</span></div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                <span class="comment">//SMART(genfit::AbsTrackRep) rep = NEW(genfit::RKTrackRep)(pid);</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                genfit::AbsTrackRep* rep = <span class="keyword">new</span> genfit::RKTrackRep(pid);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                <a class="code" href="../../d1/d25/classgenfit_1_1AbsTrackRep.html" title="Abstract base class for a track representation.">genfit::AbsTrackRep</a>* rep = <span class="keyword">new</span> <a class="code" href="../../d2/d12/classgenfit_1_1RKTrackRep.html" title="AbsTrackRep with 5D track parameterization in plane coordinates: (q/p, u&#39;, v&#39;, u, v)...">genfit::RKTrackRep</a>(pid);</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html">PHGenFit::Track</a>* track = <span class="keyword">new</span> <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html">PHGenFit::Track</a>(rep, seed_pos, seed_mom,</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                                seed_cov);</div>
@@ -420,20 +420,20 @@ $(document).ready(function(){initNavTree('d4/d7a/PHG4HitKalmanFitter_8cc_source.
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="keywordtype">double</span> chi2 = phgf_track-&gt;<a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#a9296f0578f613b202edb90577bd6ac38">get_chi2</a>();</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <span class="keywordtype">double</span> ndf = phgf_track-&gt;<a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#a132980e26e7a3ca6c5bea2abcfef072c">get_ndf</a>();</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        genfit::MeasuredStateOnPlane* gf_state = phgf_track-&gt;<a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#a3214ff547c5fd73c0868cc6c4d98eba4">extrapolateToPlane</a>(TVector3(0.,0.,0.), TVector3(0.,0.,1.));</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        TVector3 mom = gf_state-&gt;getMom();</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        TVector3 <a class="code" href="../../dc/d11/Prototype2_2EMCal_2macros_2SaveCanvas_8m.html#aa8cfa700faab9c79570dccffdbb88d45">pos</a> = gf_state-&gt;getPos();</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        TMatrixDSym cov = gf_state-&gt;get6DCov();</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        <a class="code" href="../../d2/d74/classgenfit_1_1MeasuredStateOnPlane.html" title="StateOnPlane with additional covariance matrix.">genfit::MeasuredStateOnPlane</a>* gf_state = phgf_track-&gt;<a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#a3214ff547c5fd73c0868cc6c4d98eba4">extrapolateToPlane</a>(TVector3(0.,0.,0.), TVector3(0.,0.,1.));</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        TVector3 mom = gf_state-&gt;<a class="code" href="../../de/dd5/classgenfit_1_1StateOnPlane.html#a12448b27abdd34fe2ce8cb0f534886e7">getMom</a>();</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        TVector3 <a class="code" href="../../dc/d11/Prototype2_2EMCal_2macros_2SaveCanvas_8m.html#aa8cfa700faab9c79570dccffdbb88d45">pos</a> = gf_state-&gt;<a class="code" href="../../de/dd5/classgenfit_1_1StateOnPlane.html#a20e8d3057df8bf8187b7e708350b39dc">getPos</a>();</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        TMatrixDSym cov = gf_state-&gt;<a class="code" href="../../d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#a55e9082a5f1a51acf5123e6c87c1f513">get6DCov</a>();</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="comment">//      SvtxTrack_v1* out_track = new SvtxTrack_v1(*static_cast&lt;const SvtxTrack_v1*&gt; (svtx_track));</span></div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        <a class="code" href="../../db/de4/classSvtxTrack__v1.html">SvtxTrack_v1</a>* out_track = <span class="keyword">new</span> <a class="code" href="../../db/de4/classSvtxTrack__v1.html">SvtxTrack_v1</a>();</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        <span class="keywordtype">double</span> dca2d = gf_state-&gt;getState()[3];</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        <span class="keywordtype">double</span> dca2d = gf_state-&gt;<a class="code" href="../../de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2">getState</a>()[3];</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        out_track-&gt;<a class="code" href="../../db/de4/classSvtxTrack__v1.html#a68b9997e81e6c73247d5c8f9107c4978">set_dca2d</a>(dca2d);</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        out_track-&gt;<a class="code" href="../../db/de4/classSvtxTrack__v1.html#ab479b4050705e0c02a801433c61154b5">set_dca2d_error</a>(gf_state-&gt;getCov()[3][3]);</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        out_track-&gt;<a class="code" href="../../db/de4/classSvtxTrack__v1.html#ab479b4050705e0c02a801433c61154b5">set_dca2d_error</a>(gf_state-&gt;<a class="code" href="../../d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#adea48432beb9b8fc30bc4bf05b4c5547">getCov</a>()[3][3]);</div>
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        <span class="keywordtype">double</span> dca3d = sqrt(</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                        dca2d*dca2d +</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                        gf_state-&gt;getState()[4]*gf_state-&gt;getState()[4]);</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                        gf_state-&gt;<a class="code" href="../../de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2">getState</a>()[4]*gf_state-&gt;<a class="code" href="../../de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2">getState</a>()[4]);</div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        out_track-&gt;<a class="code" href="../../db/de4/classSvtxTrack__v1.html#aacbf86e517916452397eb8419f13cae0">set_dca</a>(dca3d);</div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
 <div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;</div>
@@ -543,7 +543,7 @@ $(document).ready(function(){initNavTree('d4/d7a/PHG4HitKalmanFitter_8cc_source.
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_e977f84bdf03204059be4318986ec189.html">ForwardTracking</a></li><li class="navelem"><a class="el" href="../../d4/d7a/PHG4HitKalmanFitter_8cc.html">PHG4HitKalmanFitter.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:04</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

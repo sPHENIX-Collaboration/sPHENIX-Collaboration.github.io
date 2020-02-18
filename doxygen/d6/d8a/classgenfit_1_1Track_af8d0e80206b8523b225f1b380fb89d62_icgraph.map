@@ -1,0 +1,14 @@
+<map id="genfit::Track::getPointsWithMeasurement" name="genfit::Track::getPointsWithMeasurement">
+<area shape="rect" id="node2" href="$d6/d60/classgenfit_1_1DAF.html#a13c89d100046e596ea6442bdd5d6a40c" title="Calculate and set the weights for the next fitting pass. Return if convergence is met..." alt="" coords="231,60,417,88"/>
+<area shape="rect" id="node4" href="$d2/df7/classgenfit_1_1AbsKalmanFitter.html#a2c5fe231c96899f0061d0aec9776ddc9" title="genfit::AbsKalmanFitter\l::getChiSquNdf" alt="" coords="233,159,415,203"/>
+<area shape="rect" id="node10" href="$d2/df7/classgenfit_1_1AbsKalmanFitter.html#a785b058b7d881734e04a26ac50a0cd04" title="genfit::AbsKalmanFitter\l::isTrackFitted" alt="" coords="233,227,415,271"/>
+<area shape="rect" id="node11" href="$d2/df7/classgenfit_1_1AbsKalmanFitter.html#a854d70cd571b2f8deabcedc8aebac92a" title="genfit::AbsKalmanFitter\l::isTrackPrepared" alt="" coords="233,312,415,356"/>
+<area shape="rect" id="node3" href="$d6/d60/classgenfit_1_1DAF.html#a2bdf79750af68a02be2da0fb2442de33" title="Process a track using the DAF." alt="" coords="476,5,668,49"/>
+<area shape="rect" id="node5" href="$d2/df7/classgenfit_1_1AbsKalmanFitter.html#abfa0600dc050435e022de08888ce2fac" title="genfit::AbsKalmanFitter\l::getChiSqu" alt="" coords="481,73,663,117"/>
+<area shape="rect" id="node6" href="$d2/df7/classgenfit_1_1AbsKalmanFitter.html#a2d17d65b1b4ba13d4afd989fc97cdbeb" title="genfit::AbsKalmanFitter\l::getNdf" alt="" coords="481,141,663,185"/>
+<area shape="rect" id="node7" href="$d2/df7/classgenfit_1_1AbsKalmanFitter.html#afa48eb6e28e4e4a37dc50abcacaa7e01" title="genfit::AbsKalmanFitter\l::getRedChiSqu" alt="" coords="481,209,663,253"/>
+<area shape="rect" id="node8" href="$d2/df7/classgenfit_1_1AbsKalmanFitter.html#ae5be3d327dc242b22365a2146b046807" title="genfit::AbsKalmanFitter\l::getPVal" alt="" coords="481,277,663,321"/>
+<area shape="rect" id="node9" href="$d0/d48/GenFit_2blob_2master_2test_2fitterTests_2main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="806,285,861,313"/>
+<area shape="rect" id="node12" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ab28798fe239a0577ef7a9c254c235491" title="Prepare the track." alt="" coords="465,345,679,389"/>
+<area shape="rect" id="node13" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ad3a24181b5370cc95f01f49ea148c011" title="genfit::KalmanFitterRefTrack\l::processTrackWithRep" alt="" coords="727,345,940,389"/>
+</map>

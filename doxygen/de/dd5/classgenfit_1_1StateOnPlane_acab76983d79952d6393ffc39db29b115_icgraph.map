@@ -1,0 +1,11 @@
+<map id="genfit::StateOnPlane::swap" name="genfit::StateOnPlane::swap">
+<area shape="rect" id="node2" href="$de/dd5/classgenfit_1_1StateOnPlane.html#aa85058cef921e7a542171e39e46ce193" title="genfit::StateOnPlane\l::operator=" alt="" coords="247,23,409,67"/>
+<area shape="rect" id="node3" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#ac4114005e848fb0c739f7a25509dfd7a" title="genfit::MeasuredStateOnPlane\l::swap" alt="" coords="215,91,441,135"/>
+<area shape="rect" id="node9" href="$d2/d6a/classgenfit_1_1ReferenceStateOnPlane.html#a98d544970f31834ecaa34275c2ba55d7" title="genfit::ReferenceStateOn\lPlane::swap" alt="" coords="232,176,424,220"/>
+<area shape="rect" id="node4" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#a4fa1ea12274b6822dd69e403db648af2" title="genfit::MeasuredStateOnPlane\l::operator=" alt="" coords="489,5,716,49"/>
+<area shape="rect" id="node5" href="$df/d8f/classgenfit_1_1KalmanFittedStateOnPlane.html#a8169ef8e3dff2e607c1a4cb040abf952" title="genfit::KalmanFittedState\lOnPlane::swap" alt="" coords="506,73,699,117"/>
+<area shape="rect" id="node7" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html#a81d18accdb25a6bcd7be4923259f8e32" title="genfit::MeasurementOnPlane\l::swap" alt="" coords="493,141,712,185"/>
+<area shape="rect" id="node6" href="$df/d8f/classgenfit_1_1KalmanFittedStateOnPlane.html#acc270a1fb0be88d5f0865d9415319759" title="genfit::KalmanFittedState\lOnPlane::operator=" alt="" coords="777,73,970,117"/>
+<area shape="rect" id="node8" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html#a8b25c018b4a1affc4944df2b2ab4b436" title="assignment operator" alt="" coords="764,141,983,185"/>
+<area shape="rect" id="node10" href="$d2/d6a/classgenfit_1_1ReferenceStateOnPlane.html#addd1ddbf074f48e5e30689c3ef7d39fa" title="genfit::ReferenceStateOn\lPlane::operator=" alt="" coords="507,209,699,253"/>
+</map>

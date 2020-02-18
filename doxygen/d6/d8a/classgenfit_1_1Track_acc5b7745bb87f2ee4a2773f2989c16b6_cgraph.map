@@ -1,0 +1,9 @@
+<map id="genfit::Track::getTOF" name="genfit::Track::getTOF">
+<area shape="rect" id="node2" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="420,48,637,76"/>
+<area shape="rect" id="node3" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#a985d0203f46dfbd5dc253bb03b21d76f" title="genfit::AbsFitterInfo\l::getFittedState" alt="" coords="217,36,371,80"/>
+<area shape="rect" id="node4" href="$db/d40/classgenfit_1_1TrackPoint.html#ae8b3e743fb436dd6689e0dad4c35ffd9" title="Get fitterInfo for rep. Per default, use cardinal rep." alt="" coords="225,104,363,148"/>
+<area shape="rect" id="node5" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#ac6141bdee046625aab0f992304c5ef7c" title="Get the time corresponding to the StateOnPlane. Extrapolation." alt="" coords="216,172,372,216"/>
+<area shape="rect" id="node6" href="$db/d40/classgenfit_1_1TrackPoint.html#a07c95b54534e11149e4081baed75001e" title="genfit::TrackPoint\l::hasFitterInfo" alt="" coords="225,240,363,284"/>
+<area shape="rect" id="node7" href="$d4/da9/namespaceboost.html#a630945877437d477612e4419562161cc" title="boost::swap" alt="" coords="243,308,345,336"/>
+<area shape="rect" id="node8" href="$d1/d96/classboost_1_1array.html#a342ef866ed696b18ce803b5c9aba4b2e" title="boost::array::swap" alt="" coords="455,308,602,336"/>
+</map>

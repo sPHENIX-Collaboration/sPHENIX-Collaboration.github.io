@@ -26,5 +26,6 @@ var globals_func =
     [ "w", "globals_func_0x77.html", null ],
     [ "x", "globals_func_0x78.html", null ],
     [ "y", "globals_func_0x79.html", null ],
-    [ "z", "globals_func_0x7a.html", null ]
+    [ "z", "globals_func_0x7a.html", null ],
+    [ "~", "globals_func_0x7e.html", null ]
 ];

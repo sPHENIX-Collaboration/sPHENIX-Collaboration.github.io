@@ -1,0 +1,8 @@
+<map id="genfit::WireMeasurementNew::WireMeasurementNew" name="genfit::WireMeasurementNew::WireMeasurementNew">
+<area shape="rect" id="node2" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a8685187c6355c4ac00ff8e53708d30de" title="genfit::AbsMeasurement\l::setDetId" alt="" coords="293,5,481,49"/>
+<area shape="rect" id="node3" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a364cb0ec192cd58b22051834cbe9c785" title="genfit::AbsMeasurement\l::setHitId" alt="" coords="293,73,481,117"/>
+<area shape="rect" id="node4" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a6d35cda716c0080fba657dfc593db21a" title="genfit::AbsMeasurement\l::setRawHitCoords" alt="" coords="293,141,481,185"/>
+<area shape="rect" id="node5" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a77f39943a0b99761923f9c213c6d79df" title="genfit::AbsMeasurement\l::setRawHitCov" alt="" coords="293,209,481,253"/>
+<area shape="rect" id="node6" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a2100fca5cca983c4dfb52847a579c745" title="genfit::AbsMeasurement\l::setTrackPoint" alt="" coords="293,277,481,321"/>
+<area shape="rect" id="node7" href="$d9/d77/classgenfit_1_1WireMeasurementNew.html#acb47bbec07d8a845b46ce93bf4c50643" title="genfit::WireMeasurementNew\l::setWireEndPoints" alt="" coords="276,345,499,389"/>
+</map>

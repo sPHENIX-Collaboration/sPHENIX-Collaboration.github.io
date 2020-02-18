@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('da/df9/PHG4ForwardEcalSteppingAction_8
 <div class="title">PHG4ForwardEcalSteppingAction.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../da/df9/PHG4ForwardEcalSteppingAction_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d96/PHG4ForwardEcalSteppingAction_8h.html">PHG4ForwardEcalSteppingAction.h</a>&quot;</span></div>
+<a href="../../da/df9/PHG4ForwardEcalSteppingAction_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4detectors/PHG4ForwardEcalSteppingAction.cc">the newest version in sPHENIX GitHub for file PHG4ForwardEcalSteppingAction.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d96/PHG4ForwardEcalSteppingAction_8h.html">PHG4ForwardEcalSteppingAction.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/dfd/PHG4ForwardEcalDetector_8h.html">PHG4ForwardEcalDetector.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;phparameter/PHParameters.h&gt;</span></div>
@@ -232,8 +232,8 @@ $(document).ready(function(){initNavTree('da/df9/PHG4ForwardEcalSteppingAction_8
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  }</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  <span class="comment">/* Get energy deposited by this step */</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  G4double edep = aStep-&gt;GetTotalEnergyDeposit() / GeV;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  G4double eion = (aStep-&gt;GetTotalEnergyDeposit() - aStep-&gt;GetNonIonizingEnergyDeposit()) / GeV;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  G4double edep = aStep-&gt;GetTotalEnergyDeposit() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  G4double eion = (aStep-&gt;GetTotalEnergyDeposit() - aStep-&gt;GetNonIonizingEnergyDeposit()) / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  G4double light_yield = 0;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="comment">/* Get pointer to associated Geant4 track */</span></div>
@@ -242,7 +242,7 @@ $(document).ready(function(){initNavTree('da/df9/PHG4ForwardEcalSteppingAction_8
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="comment">// if this block stops everything, just put all kinetic energy into edep</span></div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../dd/d6a/classPHG4ForwardEcalSteppingAction.html#aab511eeeae49649d7435990ba102cff0">m_IsBlackHole</a>)</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  {</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    edep = aTrack-&gt;GetKineticEnergy() / GeV;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    edep = aTrack-&gt;GetKineticEnergy() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    G4Track* killtrack = <span class="keyword">const_cast&lt;</span>G4Track*<span class="keyword">&gt;</span>(aTrack);</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    killtrack-&gt;SetTrackStatus(fStopAndKill);</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  }</div>
@@ -525,7 +525,7 @@ $(document).ready(function(){initNavTree('da/df9/PHG4ForwardEcalSteppingAction_8
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_9c7fb2020439b18d33da5551fbb1c41b.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../da/df9/PHG4ForwardEcalSteppingAction_8cc.html">PHG4ForwardEcalSteppingAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:23</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:29</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

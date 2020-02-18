@@ -1,0 +1,7 @@
+<map id="genfit::GblFitterInfo::hasPredictionsAndUpdates" name="genfit::GblFitterInfo::hasPredictionsAndUpdates">
+<area shape="rect" id="node2" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#aa92a67c9b6e58edfd8c51f2429865bf0" title="genfit::GblFitterInfo\l::hasBackwardPrediction" alt="" coords="481,22,668,66"/>
+<area shape="rect" id="node4" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a0b5726c3d074424593c56673073e8aaf" title="genfit::GblFitterInfo\l::hasBackwardUpdate" alt="" coords="264,26,433,70"/>
+<area shape="rect" id="node5" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a0b4fe2c46c14f7ecd48e23b35d4962a4" title="genfit::GblFitterInfo\l::hasForwardPrediction" alt="" coords="487,90,662,134"/>
+<area shape="rect" id="node6" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#af6f45a5cdda79f2eed171af0f5ac0307" title="genfit::GblFitterInfo\l::hasForwardUpdate" alt="" coords="270,146,427,190"/>
+<area shape="rect" id="node3" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a8cc1377448b0d78f7afc1e24ae232f3a" title="genfit::GblFitterInfo\l::hasReferenceState" alt="" coords="716,56,873,100"/>
+</map>

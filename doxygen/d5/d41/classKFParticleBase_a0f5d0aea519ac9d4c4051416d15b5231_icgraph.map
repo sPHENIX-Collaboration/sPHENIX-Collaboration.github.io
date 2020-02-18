@@ -1,0 +1,4 @@
+<map id="KFParticleBase::GetR" name="KFParticleBase::GetR">
+<area shape="rect" id="node2" href="$d0/d49/classKFParticle.html#ae1336ce640e8364c95d9ec2ce0e0ed09" title="Returns the error of distance to the origin of the coordinate system {0,0,0}." alt="" coords="216,5,365,33"/>
+<area shape="rect" id="node3" href="$d0/d49/classKFParticle.html#ad53e12b3f5e3ea5fe626f5da798ba6b1" title="Returns distance to the origin of the coordinate system {0,0,0}." alt="" coords="225,57,356,85"/>
+</map>

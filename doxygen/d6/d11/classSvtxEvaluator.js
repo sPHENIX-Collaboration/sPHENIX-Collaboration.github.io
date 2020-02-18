@@ -22,6 +22,7 @@ var classSvtxEvaluator =
     [ "process_event", "d6/d11/classSvtxEvaluator.html#ac66ea4145deb621d9e4fb38cf852dc33", null ],
     [ "scan_for_embedded", "d6/d11/classSvtxEvaluator.html#acd17cc0e406d3403494fcf739792e4f7", null ],
     [ "set_strict", "d6/d11/classSvtxEvaluator.html#a63f499462699c4516f6586c73ff3383a", null ],
+    [ "set_track_map_name", "d6/d11/classSvtxEvaluator.html#a04b1841594d7d737cf798c3de7f9a687", null ],
     [ "set_use_initial_vertex", "d6/d11/classSvtxEvaluator.html#ad3d1fa6be6009fed1440906b6bbdc5ed", null ],
     [ "_do_cluster_eval", "d6/d11/classSvtxEvaluator.html#a365009712af7d6dd01fa719f97e9f993", null ],
     [ "_do_eval_light", "d6/d11/classSvtxEvaluator.html#a57b6b4044063f1daac8ecd779e62d07a", null ],

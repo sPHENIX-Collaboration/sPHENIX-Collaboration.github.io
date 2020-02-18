@@ -14,6 +14,7 @@ var group__clustered =
     [ "FEMC_TOWER", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea45139ac66dde8213ada422f7cd61221f", null ],
     [ "FHCAL_CLUSTER", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea95566addbfa04b48ea4b55f263ef6467", null ],
     [ "FHCAL_TOWER", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea8982cb0f06d059183174f45e6aee428b", null ],
+    [ "HCAL_TOPO_CLUSTER", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971beadbe2929f57d2a176f3c1ddfcca8cc73f", null ],
     [ "HCALIN_CLUSTER", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea3071bc84908a059ab7cc1e26e87c42d2", null ],
     [ "HCALIN_TOWER", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea5e8cb82874de4c70d1ccb2535324ab42", null ],
     [ "HCALIN_TOWER_SUB1", "d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea47c74f41fe4c78568c7d23de8b5079d0", null ],

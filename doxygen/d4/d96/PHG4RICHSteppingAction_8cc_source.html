@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d4/d96/PHG4RICHSteppingAction_8cc_sour
 <div class="title">PHG4RICHSteppingAction.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/d96/PHG4RICHSteppingAction_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../d4/d96/PHG4RICHSteppingAction_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4detectors/PHG4RICHSteppingAction.cc">the newest version in sPHENIX GitHub for file PHG4RICHSteppingAction.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dd/d68/PHG4RICHSteppingAction_8h.html">PHG4RICHSteppingAction.h</a>&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d61/PHG4RICHDetector_8h.html">PHG4RICHDetector.h</a>&quot;</span></div>
@@ -257,7 +257,7 @@ $(document).ready(function(){initNavTree('d4/d96/PHG4RICHSteppingAction_8cc_sour
 <div class="line"><a name="l00150"></a><span class="lineno"><a class="code" href="../../de/d4d/classPHG4RICHSteppingAction.html#a57a3def2fb88ca9e940930e694f78b34">  150</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../de/d4d/classPHG4RICHSteppingAction.html#a57a3def2fb88ca9e940930e694f78b34">PHG4RICHSteppingAction::MakeHit</a>(<span class="keyword">const</span> G4Step* aStep)</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;{</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <span class="comment">// collect energy and track</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  G4double edep = aStep-&gt;GetTotalEnergyDeposit() / GeV;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  G4double edep = aStep-&gt;GetTotalEnergyDeposit() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  <span class="keyword">const</span> G4Track* aTrack = aStep-&gt;GetTrack();</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  <span class="keyword">const</span> G4VTouchable* aTouch = aTrack-&gt;GetTouchable();</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  G4StepPoint* postPoint = aStep-&gt;GetPostStepPoint();</div>
@@ -361,7 +361,7 @@ $(document).ready(function(){initNavTree('d4/d96/PHG4RICHSteppingAction_8cc_sour
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_9c7fb2020439b18d33da5551fbb1c41b.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../d4/d96/PHG4RICHSteppingAction_8cc.html">PHG4RICHSteppingAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:23</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:29</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

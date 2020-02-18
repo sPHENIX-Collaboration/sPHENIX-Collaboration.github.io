@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dd/dac/pyhisigh_8f_source.html','../..
 <div class="title">pyhisigh.f</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dd/dac/pyhisigh_8f.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;    </div>
+<a href="../../dd/dac/pyhisigh_8f.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/pyhisigh.f">the newest version in sPHENIX GitHub for file pyhisigh.f</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;    </div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">C***********************************************************************    </span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    </div>
 <div class="line"><a name="l00004"></a><span class="lineno"><a class="code" href="../../dd/dac/pyhisigh_8f.html#a17fc65c11bbc2a0a571b606acff9f09f">    4</a></span>&#160;<span class="keyword">      SUBROUTINE </span><a class="code" href="../../dd/dac/pyhisigh_8f.html#a17fc65c11bbc2a0a571b606acff9f09f">pyhisigh</a>(NCHN,SIGS)  </div>
@@ -1537,8 +1537,8 @@ $(document).ready(function(){initNavTree('dd/dac/pyhisigh_8f_source.html','../..
 <div class="line"><a name="l01423"></a><span class="lineno"> 1423</span>&#160;        eps=4.*pmas(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>,1)**2/sh  </div>
 <div class="line"><a name="l01424"></a><span class="lineno"> 1424</span>&#160;        <span class="keywordflow">IF</span>(eps.LE.1.) <span class="keywordflow">THEN</span>  </div>
 <div class="line"><a name="l01425"></a><span class="lineno"> 1425</span>&#160;          <span class="keywordflow">IF</span>(eps.GT.1.e-4) <span class="keywordflow">THEN</span> </div>
-<div class="line"><a name="l01426"></a><span class="lineno"> 1426</span>&#160;            <a class="code" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#a2b55876b879042af991c49f0316c7a93">root</a>=sqrt(1.-eps)   </div>
-<div class="line"><a name="l01427"></a><span class="lineno"> 1427</span>&#160;            rln=log((1.+<a class="code" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#a2b55876b879042af991c49f0316c7a93">root</a>)/(1.-<a class="code" href="../../de/d58/Plot-FastTrack__Efficiency_8cpp.html#a2b55876b879042af991c49f0316c7a93">root</a>))    </div>
+<div class="line"><a name="l01426"></a><span class="lineno"> 1426</span>&#160;            root=sqrt(1.-eps)   </div>
+<div class="line"><a name="l01427"></a><span class="lineno"> 1427</span>&#160;            rln=log((1.+root)/(1.-root))    </div>
 <div class="line"><a name="l01428"></a><span class="lineno"> 1428</span>&#160;          <span class="keywordflow">ELSE</span>  </div>
 <div class="line"><a name="l01429"></a><span class="lineno"> 1429</span>&#160;            rln=log(4./eps-2.)  </div>
 <div class="line"><a name="l01430"></a><span class="lineno"> 1430</span>&#160;          <span class="keywordflow">ENDIF</span> </div>
@@ -2105,7 +2105,7 @@ $(document).ready(function(){initNavTree('dd/dac/pyhisigh_8f_source.html','../..
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_8d66a4fea0becf883e91a5407556c38a.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_792e75c1e50add93be3c1d5997a7a09c.html">hijing</a></li><li class="navelem"><a class="el" href="../../dir_c671be3d2a74414e61992625a584bf67.html">src</a></li><li class="navelem"><a class="el" href="../../dd/dac/pyhisigh_8f.html">pyhisigh.f</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:10</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:16</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

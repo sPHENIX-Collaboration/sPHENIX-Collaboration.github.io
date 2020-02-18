@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d3/dcd/PHG4GDMLWriteStructure_8cc_sour
 <div class="title">PHG4GDMLWriteStructure.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d3/dcd/PHG4GDMLWriteStructure_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<a href="../../d3/dcd/PHG4GDMLWriteStructure_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4gdml/PHG4GDMLWriteStructure.cc">the newest version in sPHENIX GitHub for file PHG4GDMLWriteStructure.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// ********************************************************************</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// * License and Disclaimer                                           *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// *                                                                  *</span></div>
@@ -654,9 +654,9 @@ $(document).ready(function(){initNavTree('d3/dcd/PHG4GDMLWriteStructure_8cc_sour
 <div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;     {</div>
 <div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;       rot = *(physvol-&gt;GetFrameRotation());</div>
 <div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;     }</div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;         G4Transform3D P(rot,physvol-&gt;GetObjectTranslation());</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;         G4Transform3D <a class="code" href="../../d2/dc5/KFPTrackVector_8h.html#a39a53a622c6abde5e888e4ad46fb04af" title="Returns momentum of the track with index &quot;n&quot;.">P</a>(rot,physvol-&gt;GetObjectTranslation());</div>
 <div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;</div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;         <a class="code" href="../../d2/d72/classPHG4GDMLWriteStructure.html#af46624d56ade5ec0eb4bc5cb3d497387">PhysvolWrite</a>(volumeElement,physvol,invR*P*daughterR,ModuleName);</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;         <a class="code" href="../../d2/d72/classPHG4GDMLWriteStructure.html#af46624d56ade5ec0eb4bc5cb3d497387">PhysvolWrite</a>(volumeElement,physvol,invR*<a class="code" href="../../d2/dc5/KFPTrackVector_8h.html#a39a53a622c6abde5e888e4ad46fb04af" title="Returns momentum of the track with index &quot;n&quot;.">P</a>*daughterR,ModuleName);</div>
 <div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;       }</div>
 <div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;       <a class="code" href="../../d2/d72/classPHG4GDMLWriteStructure.html#aa22bfa894b736e4069f3733c5410b42e">BorderSurfaceCache</a>(<a class="code" href="../../d2/d72/classPHG4GDMLWriteStructure.html#a6f43dec8d3aac69dda385a18e6391528">GetBorderSurface</a>(physvol));</div>
 <div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;     }</div>
@@ -762,7 +762,7 @@ $(document).ready(function(){initNavTree('d3/dcd/PHG4GDMLWriteStructure_8cc_sour
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_faae771f22994d22c1ffafa50b6eced3.html">g4gdml</a></li><li class="navelem"><a class="el" href="../../d3/dcd/PHG4GDMLWriteStructure_8cc.html">PHG4GDMLWriteStructure.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:24</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:30</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

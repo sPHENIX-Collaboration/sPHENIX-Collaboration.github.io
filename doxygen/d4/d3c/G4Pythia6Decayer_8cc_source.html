@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d4/d3c/G4Pythia6Decayer_8cc_source.htm
 <div class="title">G4Pythia6Decayer.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/d3c/G4Pythia6Decayer_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<a href="../../d4/d3c/G4Pythia6Decayer_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4decayer/G4Pythia6Decayer.cc">the newest version in sPHENIX GitHub for file G4Pythia6Decayer.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// ********************************************************************</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// * License and Disclaimer                                           *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// *                                                                  *</span></div>
@@ -255,9 +255,9 @@ $(document).ready(function(){initNavTree('d4/d3c/G4Pythia6Decayer_8cc_source.htm
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keyword">const</span> <a class="code" href="../../d3/da8/structPythia6Particle.html" title="Structure for Pythia6 particle properties.">Pythia6Particle</a>* particle)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="keyword"></span>{</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  G4ThreeVector momentum = G4ThreeVector(particle-&gt;<a class="code" href="../../d3/da8/structPythia6Particle.html#a4c22b76467d738a30b4b2b5b2c7f95ae">fPx</a> * GeV,</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                         particle-&gt;<a class="code" href="../../d3/da8/structPythia6Particle.html#a52037e812d7be0e6f14925c3ce809fe0">fPy</a> * GeV,</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                                         particle-&gt;<a class="code" href="../../d3/da8/structPythia6Particle.html#a19e9104b5ffbe4a4b680930f6eaefde9">fPz</a> * GeV);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  G4ThreeVector momentum = G4ThreeVector(particle-&gt;<a class="code" href="../../d3/da8/structPythia6Particle.html#a4c22b76467d738a30b4b2b5b2c7f95ae">fPx</a> * <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>,</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                         particle-&gt;<a class="code" href="../../d3/da8/structPythia6Particle.html#a52037e812d7be0e6f14925c3ce809fe0">fPy</a> * <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>,</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                                         particle-&gt;<a class="code" href="../../d3/da8/structPythia6Particle.html#a19e9104b5ffbe4a4b680930f6eaefde9">fPz</a> * <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  <span class="keywordflow">return</span> momentum;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;}</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
@@ -653,10 +653,10 @@ $(document).ready(function(){initNavTree('d4/d3c/G4Pythia6Decayer_8cc_source.htm
 <div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;  G4double etot = track.GetDynamicParticle()-&gt;GetTotalEnergy();</div>
 <div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;  ;</div>
 <div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;  CLHEP::HepLorentzVector p;</div>
-<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;  p[0] = momentum.x() / GeV;</div>
-<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;  p[1] = momentum.y() / GeV;</div>
-<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;  p[2] = momentum.z() / GeV;</div>
-<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;  p[3] = etot / GeV;</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;  p[0] = momentum.x() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;  p[1] = momentum.y() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;  p[2] = momentum.z() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;  p[3] = etot / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;</div>
 <div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;  <span class="comment">// get particle PDG</span></div>
 <div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;  <span class="comment">// ask G4Pythia6Decayer to get PDG encoding</span></div>
@@ -746,7 +746,7 @@ $(document).ready(function(){initNavTree('d4/d3c/G4Pythia6Decayer_8cc_source.htm
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_448c174138d13df82dded91daee43ff3.html">g4decayer</a></li><li class="navelem"><a class="el" href="../../d4/d3c/G4Pythia6Decayer_8cc.html">G4Pythia6Decayer.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:22</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:28</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

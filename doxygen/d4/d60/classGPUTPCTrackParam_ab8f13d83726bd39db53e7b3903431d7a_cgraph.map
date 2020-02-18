@@ -1,0 +1,14 @@
+<map id="GPUTPCTrackParam::InitParam" name="GPUTPCTrackParam::InitParam">
+<area shape="rect" id="node2" href="$d4/d60/classGPUTPCTrackParam.html#a40cd008f3a07497951ab45d0668ae9a9" title="GPUTPCTrackParam::SetChi2" alt="" coords="290,5,505,33"/>
+<area shape="rect" id="node3" href="$d4/d60/classGPUTPCTrackParam.html#aa1f5fc31109b3fe2286f7f2b5db68458" title="GPUTPCTrackParam::SetCov" alt="" coords="292,57,503,85"/>
+<area shape="rect" id="node4" href="$d4/d60/classGPUTPCTrackParam.html#a2f7fdd45ddf6251ab1695f5e1bd53b11" title="GPUTPCTrackParam::SetDzDs" alt="" coords="288,109,507,137"/>
+<area shape="rect" id="node6" href="$d4/d60/classGPUTPCTrackParam.html#a21f645b9ff01caa837edd1a983aa97bb" title="GPUTPCTrackParam::SetNDF" alt="" coords="291,161,503,189"/>
+<area shape="rect" id="node7" href="$d4/d60/classGPUTPCTrackParam.html#af26aa1c63307dbb2222f09cbb9664c0d" title="GPUTPCTrackParam::SetQPt" alt="" coords="293,213,502,241"/>
+<area shape="rect" id="node9" href="$d4/d60/classGPUTPCTrackParam.html#a0bc0e6627fad9cdb639c051b46818673" title="GPUTPCTrackParam::SetSign\lCosPhi" alt="" coords="291,265,504,309"/>
+<area shape="rect" id="node10" href="$d4/d60/classGPUTPCTrackParam.html#a7372069e152058de5324082d33f13d1d" title="GPUTPCTrackParam::SetSinPhi" alt="" coords="285,333,510,361"/>
+<area shape="rect" id="node12" href="$d4/d60/classGPUTPCTrackParam.html#afa48f42efb536ef84e03f6a37ca8e45d" title="GPUTPCTrackParam::SetZOffset" alt="" coords="280,389,515,417"/>
+<area shape="rect" id="node5" href="$d3/dbf/classGPUTPCBaseTrackParam.html#a41cfc34f3e5c1edcede8aefcbe75b9d4" title="GPUTPCBaseTrackParam\l::SetDzDs" alt="" coords="563,101,749,145"/>
+<area shape="rect" id="node8" href="$d3/dbf/classGPUTPCBaseTrackParam.html#ab38055e5d5fef48124cd978a5d731734" title="GPUTPCBaseTrackParam\l::SetQPt" alt="" coords="563,205,749,249"/>
+<area shape="rect" id="node11" href="$d3/dbf/classGPUTPCBaseTrackParam.html#a7e9006bfe1d7d4d8d876eb4a4ada026c" title="GPUTPCBaseTrackParam\l::SetSinPhi" alt="" coords="563,321,749,365"/>
+<area shape="rect" id="node13" href="$d3/dbf/classGPUTPCBaseTrackParam.html#aebcc46d8d04c3eb9a208a2376c1c96d8" title="GPUTPCBaseTrackParam\l::SetZOffset" alt="" coords="563,389,749,433"/>
+</map>

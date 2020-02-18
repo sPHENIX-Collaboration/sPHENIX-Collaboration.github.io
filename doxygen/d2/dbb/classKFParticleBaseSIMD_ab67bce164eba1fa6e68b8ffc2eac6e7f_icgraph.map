@@ -1,0 +1,4 @@
+<map id="KFParticleBaseSIMD::GetEta" name="KFParticleBaseSIMD::GetEta">
+<area shape="rect" id="node2" href="$db/dcc/classKFParticleSIMD.html#a0a034fe797629742f498a57645b2bdd2" title="Returns pseudorapidity." alt="" coords="208,13,384,41"/>
+<area shape="rect" id="node3" href="$db/dcc/classKFParticleSIMD.html#ad9ce07062930794c651c1c14b9a92c8b" title="Returns the error of pseudorapidity." alt="" coords="432,13,627,41"/>
+</map>

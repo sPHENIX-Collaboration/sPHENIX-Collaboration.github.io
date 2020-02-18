@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d1/dbd/PHG4Prototype3InnerHcalStepping
 <div class="title">PHG4Prototype3InnerHcalSteppingAction.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d1/dbd/PHG4Prototype3InnerHcalSteppingAction_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d82/PHG4Prototype3InnerHcalSteppingAction_8h.html">PHG4Prototype3InnerHcalSteppingAction.h</a>&quot;</span></div>
+<a href="../../d1/dbd/PHG4Prototype3InnerHcalSteppingAction_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//prototype/blob/master/simulation/g4simulation/g4caloprototype/PHG4Prototype3InnerHcalSteppingAction.cc">the newest version in sPHENIX GitHub for file PHG4Prototype3InnerHcalSteppingAction.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d82/PHG4Prototype3InnerHcalSteppingAction_8h.html">PHG4Prototype3InnerHcalSteppingAction.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d13/PHG4Prototype3InnerHcalDetector_8h.html">PHG4Prototype3InnerHcalDetector.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;phparameter/PHParameters.h&gt;</span></div>
@@ -235,15 +235,15 @@ $(document).ready(function(){initNavTree('d1/dbd/PHG4Prototype3InnerHcalStepping
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor"></span>  }</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="comment">// collect energy and track length step by step</span></div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  G4double edep = aStep-&gt;GetTotalEnergyDeposit() / GeV;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  G4double eion = (aStep-&gt;GetTotalEnergyDeposit() - aStep-&gt;GetNonIonizingEnergyDeposit()) / GeV;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  G4double edep = aStep-&gt;GetTotalEnergyDeposit() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  G4double eion = (aStep-&gt;GetTotalEnergyDeposit() - aStep-&gt;GetNonIonizingEnergyDeposit()) / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  G4double light_yield = 0;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <span class="keyword">const</span> G4Track* aTrack = aStep-&gt;GetTrack();</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="comment">// if this block stops everything, just put all kinetic energy into edep</span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d2/dbb/classPHG4Prototype3InnerHcalSteppingAction.html#ab82b8ba104873a01211f3755600b23c6">m_IsBlackHole</a>)</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  {</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    edep = aTrack-&gt;GetKineticEnergy() / GeV;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    edep = aTrack-&gt;GetKineticEnergy() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    G4Track* killtrack = <span class="keyword">const_cast&lt;</span>G4Track*<span class="keyword">&gt;</span>(aTrack);</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    killtrack-&gt;SetTrackStatus(fStopAndKill);</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  }</div>
@@ -460,7 +460,7 @@ $(document).ready(function(){initNavTree('d1/dbd/PHG4Prototype3InnerHcalStepping
 		<li class="navelem"><a class="el" href="../../dir_9aca75ba370bf8e181613d44218f2f4a.html">prototype</a></li><li class="navelem"><a class="el" href="../../dir_32a0e629f48aaf51e8563fa582f6c0dc.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_d16e641b794a0d5a9a53ac33cf9aa65b.html">master</a></li><li class="navelem"><a class="el" href="../../dir_1502cad5a2e0b8adfd1abb5f56f36e75.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_98772dd17d333af307c5d53d8eec7a80.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_af13711d3c41a00d52e8361b7edc32ab.html">g4caloprototype</a></li><li class="navelem"><a class="el" href="../../d1/dbd/PHG4Prototype3InnerHcalSteppingAction_8cc.html">PHG4Prototype3InnerHcalSteppingAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:27</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:35</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

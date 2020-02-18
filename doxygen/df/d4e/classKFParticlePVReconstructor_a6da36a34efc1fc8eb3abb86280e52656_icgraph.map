@@ -1,0 +1,5 @@
+<map id="KFParticlePVReconstructor::CleanPV" name="KFParticlePVReconstructor::CleanPV">
+<area shape="rect" id="node2" href="$db/d6d/classKFParticleTopoReconstructor.html#a9224eadff464879560bcef02432ff0fe" title="KFParticleTopoReconstructor\l::CleanPV" alt="" coords="253,5,467,49"/>
+<area shape="rect" id="node3" href="$db/d6d/classKFParticleTopoReconstructor.html#a6b85e2a706f83088c422685b65a5291f" title="Cleans all candidates for primary vertices and short&#45;lived particles." alt="" coords="253,73,467,117"/>
+<area shape="rect" id="node4" href="$db/d6d/classKFParticleTopoReconstructor.html#a4f287575a545bea1c34d538c8ed53cde" title="KFParticleTopoReconstructor\l::ReconstructPrimVertex" alt="" coords="253,141,467,185"/>
+</map>

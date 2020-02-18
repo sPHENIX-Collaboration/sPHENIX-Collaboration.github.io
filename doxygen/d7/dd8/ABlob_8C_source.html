@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d7/dd8/ABlob_8C_source.html','../../')
 <div class="title">ABlob.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d7/dd8/ABlob_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/db7/ABlob_8h.html">ABlob.h</a>&quot;</span></div>
+<a href="../../d7/dd8/ABlob_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/TPC/groot/ABlob.C">the newest version in sPHENIX GitHub for file ABlob.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/db7/ABlob_8h.html">ABlob.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d42/AZigzag_8h.html">AZigzag.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
@@ -169,7 +169,7 @@ $(document).ready(function(){initNavTree('d7/dd8/ABlob_8C_source.html','../../')
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno"><a class="code" href="../../d0/dc7/classABlob.html#afab75c954a5200c5b6914bb0be5f6a5e">   56</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d0/dc7/classABlob.html#afab75c954a5200c5b6914bb0be5f6a5e">ABlob::CentroidZ</a>()</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordflow">if</span> (Q() == 0)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a4cd33935de91662c0644140e301499e5" title="Returns charge of the particle.">Q</a>() == 0)</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    {</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;ABlob:: Error: Blob has zero total charge...no Z centroid&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      <span class="keywordflow">return</span> -9999;</div>
@@ -181,13 +181,13 @@ $(document).ready(function(){initNavTree('d7/dd8/ABlob_8C_source.html','../../')
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;      num += manyZigs[<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>]-&gt;Q() * manyZigs[<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>]-&gt;ZCenter();</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordflow">return</span> num/Q();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordflow">return</span> num/<a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a4cd33935de91662c0644140e301499e5" title="Returns charge of the particle.">Q</a>();</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
 <div class="line"><a name="l00074"></a><span class="lineno"><a class="code" href="../../d0/dc7/classABlob.html#ac85a0fe5350415df1766ea6503c64d2b">   74</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d0/dc7/classABlob.html#ac85a0fe5350415df1766ea6503c64d2b">ABlob::GetPHI</a>() <span class="comment">//Angle Phi</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordflow">if</span> (Q() == 0)</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a4cd33935de91662c0644140e301499e5" title="Returns charge of the particle.">Q</a>() == 0)</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    {</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;ABlob:: Error: Blob has zero total charge...no Phi centroid&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <span class="keywordflow">return</span> -9999;</div>
@@ -201,7 +201,7 @@ $(document).ready(function(){initNavTree('d7/dd8/ABlob_8C_source.html','../../')
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;          num += manyZigs[<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>]-&gt;Q() * manyZigs[<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>]-&gt;PCenter();</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        }</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      <span class="keywordflow">return</span> num/Q();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      <span class="keywordflow">return</span> num/<a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a4cd33935de91662c0644140e301499e5" title="Returns charge of the particle.">Q</a>();</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    {</div>
@@ -225,7 +225,7 @@ $(document).ready(function(){initNavTree('d7/dd8/ABlob_8C_source.html','../../')
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;          <span class="keywordtype">double</span> right = Maxphi + 0.5*dPhi;</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;          <a class="code" href="../../d7/d55/NoiseSimulator_8C.html#a76f34e2adadeb3d6e6c776b5519926d2">BlobPos</a>   = <span class="keyword">new</span> TH1D(<span class="stringliteral">&quot;BlobPos&quot;</span>, <span class="stringliteral">&quot;BlobPos&quot;</span>, NBINS, left, right);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;          <a class="code" href="../../d7/d55/NoiseSimulator_8C.html#ac25c57f19a4d6f63e46231902f044def">BlobSigma</a> = <span class="keyword">new</span> TH1D(<span class="stringliteral">&quot;BlobSigma&quot;</span>, <span class="stringliteral">&quot;BlobSigma&quot;</span>, 250, 0.0, 8.0<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a>-3);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;          <a class="code" href="../../d7/d55/NoiseSimulator_8C.html#ac25c57f19a4d6f63e46231902f044def">BlobSigma</a> = <span class="keyword">new</span> TH1D(<span class="stringliteral">&quot;BlobSigma&quot;</span>, <span class="stringliteral">&quot;BlobSigma&quot;</span>, 250, 0.0, 8.0<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a>-3);</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;          <a class="code" href="../../d7/d55/NoiseSimulator_8C.html#a3fdd1e669a8ea2e2e660492a123e62be">BlobFit</a>   = <span class="keyword">new</span> TF1(<span class="stringliteral">&quot;BlobFit&quot;</span>, <span class="stringliteral">&quot;[0]*exp(-(x-[1])*(x-[1])/(2*[2]*[2]))&quot;</span>, left, right);</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;          Tree-&gt;<a class="code" href="../../d6/dfd/classgroot.html#a22d13f84474cbaf544b5b635b768ed43">theHistograms</a>.push_back(<a class="code" href="../../d7/d55/NoiseSimulator_8C.html#ac25c57f19a4d6f63e46231902f044def">BlobSigma</a>);</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        }</div>
@@ -235,7 +235,7 @@ $(document).ready(function(){initNavTree('d7/dd8/ABlob_8C_source.html','../../')
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">int</span> <a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>=0; <a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>&lt;manyZigs.size(); <a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>++)</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        {</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;          <span class="keywordtype">double</span> <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a7b540384a61cacdec7528421fa0a22b2">phi</a> = manyZigs[<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>]-&gt;PCenter();</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;          <span class="keywordtype">double</span> Q   = manyZigs[<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>]-&gt;Q();</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;          <span class="keywordtype">double</span> <a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a4cd33935de91662c0644140e301499e5" title="Returns charge of the particle.">Q</a>   = manyZigs[<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>]-&gt;Q();</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;          <a class="code" href="../../d7/d55/NoiseSimulator_8C.html#a76f34e2adadeb3d6e6c776b5519926d2">BlobPos</a>-&gt;Fill(phi,Q);</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        }</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
@@ -271,8 +271,8 @@ $(document).ready(function(){initNavTree('d7/dd8/ABlob_8C_source.html','../../')
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;{</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  <span class="comment">// color zigzag according to charge fraction of total deposited charge</span></div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../de/de0/matchedfilter_8C.html#accf2943ac9f483e8e749e49ad5b63fe9">shape</a> = 8;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="../../d2/d51/usm_8C.html#a00af2e55381e1fe3193d19fae655f9a2">X</a> = CentroidX();</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="../../d2/d51/usm_8C.html#aef4fcf2bd941cfffc56cc3cac64d889d">Y</a> = CentroidY();</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="../../d4/d89/namespaceTauVsDIS__MachineLearning__Differentiation.html#ad4b212db4eb2404b1a0c93cd8e847ec0">X</a> = CentroidX();</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="../../d4/d89/namespaceTauVsDIS__MachineLearning__Differentiation.html#ab473e80a6c9ad394263a594bdb826366">Y</a> = CentroidY();</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  TMarker* ablob = <span class="keyword">new</span> TMarker(X,Y,shape);</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  </div>
@@ -340,7 +340,7 @@ $(document).ready(function(){initNavTree('d7/dd8/ABlob_8C_source.html','../../')
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_bf8e83c2a945d8980e3e56cc67a6ba9f.html">TPC</a></li><li class="navelem"><a class="el" href="../../dir_dbcc07bba9cdef6143b47bd5c67f251b.html">groot</a></li><li class="navelem"><a class="el" href="../../d7/dd8/ABlob_8C.html">ABlob.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:09</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:14</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

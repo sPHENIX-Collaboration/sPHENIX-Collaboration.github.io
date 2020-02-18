@@ -1,0 +1,6 @@
+<map id="genfit::TrackCandHit::getHitId" name="genfit::TrackCandHit::getHitId">
+<area shape="rect" id="node2" href="$d9/d01/classgenfit_1_1MeasurementFactory.html#a4c9c345ba6ee88d392df28996fff7038" title="Create a collection of Measurements." alt="" coords="238,5,449,49"/>
+<area shape="rect" id="node5" href="$d9/ded/classgenfit_1_1mySpacepointMeasurement.html#afc12364373fa28d955463e9bde3cb175" title="genfit::mySpacepointMeasurement\l::mySpacepointMeasurement" alt="" coords="213,73,473,117"/>
+<area shape="rect" id="node3" href="$d6/d8a/classgenfit_1_1Track.html#a73f9e05be44d2d677b4293f57d5fb004" title="genfit::Track::createMeasurements" alt="" coords="521,13,777,41"/>
+<area shape="rect" id="node4" href="$d6/d8a/classgenfit_1_1Track.html#a9b8776fee4ae9f578ab16a30ebcb4ac8" title="genfit::Track::Track" alt="" coords="825,13,975,41"/>
+</map>

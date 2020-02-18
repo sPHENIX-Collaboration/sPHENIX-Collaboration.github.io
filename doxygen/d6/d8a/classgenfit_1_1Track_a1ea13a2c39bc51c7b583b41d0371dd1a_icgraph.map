@@ -1,0 +1,4 @@
+<map id="genfit::Track::deletePoint" name="genfit::Track::deletePoint">
+<area shape="rect" id="node2" href="$d1/dc8/classgenfit_1_1GblFitter.html#a224cad1dcba8a38a34650fea7bfad61e" title="Remove all previous gbl fitter data from track Also removes trackpoints without measurement." alt="" coords="280,5,415,49"/>
+<area shape="rect" id="node3" href="$d7/dd5/classPHGenFit_1_1Track.html#a8dfb1640ab500e1a69f5d920fed7936f" title="PHGenFit::Track::deleteLast\lMeasurement" alt="" coords="244,73,451,117"/>
+</map>

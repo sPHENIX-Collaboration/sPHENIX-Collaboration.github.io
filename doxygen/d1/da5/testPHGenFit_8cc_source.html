@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d1/da5/testPHGenFit_8cc_source.html','
 <div class="title">testPHGenFit.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d1/da5/testPHGenFit_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../d1/da5/testPHGenFit_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/PHGenFitPkg/Example/testPHGenFit.cc">the newest version in sPHENIX GitHub for file testPHGenFit.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//STL</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
@@ -270,7 +270,7 @@ $(document).ready(function(){initNavTree('d1/da5/testPHGenFit_8cc_source.html','
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                <span class="keywordtype">int</span> <a class="code" href="../../d4/d51/vector__math__inline_8h.html#a00e11f107ec1da7e29c6a1bd28664d77">pid</a> = -13; <span class="comment">//mu+</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                <span class="comment">//SMART(genfit::AbsTrackRep) rep = NEW(genfit::RKTrackRep)(pid);</span></div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                genfit::AbsTrackRep* rep = <span class="keyword">new</span> genfit::RKTrackRep(pid);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                <a class="code" href="../../d1/d25/classgenfit_1_1AbsTrackRep.html" title="Abstract base class for a track representation.">genfit::AbsTrackRep</a>* rep = <span class="keyword">new</span> <a class="code" href="../../d2/d12/classgenfit_1_1RKTrackRep.html" title="AbsTrackRep with 5D track parameterization in plane coordinates: (q/p, u&#39;, v&#39;, u, v)...">genfit::RKTrackRep</a>(pid);</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html">PHGenFit::Track</a>* track = <span class="keyword">new</span> <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html">PHGenFit::Track</a>(rep, seed_pos,</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                                seed_mom, seed_cov);</div>
@@ -292,7 +292,7 @@ $(document).ready(function(){initNavTree('d1/da5/testPHGenFit_8cc_source.html','
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                fitter-&gt;<a class="code" href="../../d1/d35/classPHGenFit_1_1Fitter.html#a0ae094389cc773308a3cf9ca98d60bdb">processTrack</a>(track, <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                genfit::MeasuredStateOnPlane* state_at_beam_line = track-&gt;<a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#a6f76c826b833ece6e3ebc05ef3449da6">extrapolateToLine</a>(</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                <a class="code" href="../../d2/d74/classgenfit_1_1MeasuredStateOnPlane.html" title="StateOnPlane with additional covariance matrix.">genfit::MeasuredStateOnPlane</a>* state_at_beam_line = track-&gt;<a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#a6f76c826b833ece6e3ebc05ef3449da6">extrapolateToLine</a>(</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                                TVector3(0, 0, 0), TVector3(0, 0, 1));</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                <span class="comment">//state_at_beam_line-&gt;Print();</span></div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
@@ -302,13 +302,13 @@ $(document).ready(function(){initNavTree('d1/da5/testPHGenFit_8cc_source.html','
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="comment">//              delete state_at_layer_6;</span></div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                TVector3 GenFit_mom = state_at_beam_line-&gt;getMom();</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                TVector3 GenFit_mom = state_at_beam_line-&gt;<a class="code" href="../../de/dd5/classgenfit_1_1StateOnPlane.html#a12448b27abdd34fe2ce8cb0f534886e7">getMom</a>();</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                TVector3 AlanDion_mom(AlanDion_px,AlanDion_py,AlanDion_pz);</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                hpT_residual_vs_pT-&gt;Fill(True_mom.Pt(),(GenFit_mom.Pt() - True_mom.Pt())/True_mom.Pt());</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                hDCAr_vs_pT-&gt;Fill(True_mom.Mag(),state_at_beam_line-&gt;getState()[3]);</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                hDCAr_vs_pT-&gt;Fill(True_mom.Mag(),state_at_beam_line-&gt;<a class="code" href="../../de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2">getState</a>()[3]);</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                <span class="keyword">delete</span> state_at_beam_line;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                <span class="keyword">delete</span> track;</div>
@@ -361,7 +361,7 @@ $(document).ready(function(){initNavTree('d1/da5/testPHGenFit_8cc_source.html','
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_14d15a1699c21197a9c95659845c5623.html">PHGenFitPkg</a></li><li class="navelem"><a class="el" href="../../dir_7e15aa32efbd517796bfca484d1ced74.html">Example</a></li><li class="navelem"><a class="el" href="../../d1/da5/testPHGenFit_8cc.html">testPHGenFit.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:20</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:26</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

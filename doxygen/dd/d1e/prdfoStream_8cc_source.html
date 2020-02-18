@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dd/d1e/prdfoStream_8cc_source.html','.
 <div class="title">prdfoStream.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dd/d1e/prdfoStream_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/dd2/prdfoStream_8h.html">prdfoStream.h</a>&gt;</span></div>
+<a href="../../dd/d1e/prdfoStream_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/TPC/groot/prdfoStream.cc">the newest version in sPHENIX GitHub for file prdfoStream.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/dd2/prdfoStream_8h.html">prdfoStream.h</a>&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;unistd.h&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;sys/types.h&gt;</span></div>
@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('dd/d1e/prdfoStream_8cc_source.html','.
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  _filename = <a class="code" href="../../d4/d23/Prototype2_2EMCal_2macros_2EnergyCalibFit_8m.html#a2ff994e16bf9521154de4cf659a3b689">filename</a>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keywordtype">int</span> *b = <span class="keyword">new</span> <span class="keywordtype">int</span> [length];</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keywordtype">int</span> *<a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a> = <span class="keyword">new</span> <span class="keywordtype">int</span> [length];</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  bptr = ( <a class="code" href="../../d3/d87/structprdfoStream_1_1buffer__ptr.html">buffer_ptr</a> ) b;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  data_ptr = &amp;(bptr-&gt;data[0]);</div>
@@ -161,8 +161,8 @@ $(document).ready(function(){initNavTree('dd/d1e/prdfoStream_8cc_source.html','.
 <div class="line"><a name="l00047"></a><span class="lineno"><a class="code" href="../../db/db8/classprdfoStream.html#a7755d26c3bdfabdfcdce253f5da63380">   47</a></span>&#160;<a class="code" href="../../db/db8/classprdfoStream.html#a7755d26c3bdfabdfcdce253f5da63380">prdfoStream::~prdfoStream</a> ()</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  writeout();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordtype">int</span> *b = (<span class="keywordtype">int</span> *)  bptr;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keyword">delete</span> [] b;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordtype">int</span> *<a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a> = (<span class="keywordtype">int</span> *)  bptr;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keyword">delete</span> [] <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d44/eventcombiner_8cc.html#a6f8059414f0228f0256115e024eeed4b">fd</a>) close (<a class="code" href="../../d3/d44/eventcombiner_8cc.html#a6f8059414f0228f0256115e024eeed4b">fd</a>);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
@@ -272,7 +272,7 @@ $(document).ready(function(){initNavTree('dd/d1e/prdfoStream_8cc_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_bf8e83c2a945d8980e3e56cc67a6ba9f.html">TPC</a></li><li class="navelem"><a class="el" href="../../dir_dbcc07bba9cdef6143b47bd5c67f251b.html">groot</a></li><li class="navelem"><a class="el" href="../../dd/d1e/prdfoStream_8cc.html">prdfoStream.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:09</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:15</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

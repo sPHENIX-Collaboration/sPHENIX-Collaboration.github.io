@@ -1,0 +1,5 @@
+<map id="SegmentationAlpide::localToDetector" name="SegmentationAlpide::localToDetector">
+<area shape="rect" id="node2" href="$df/d9b/classCylinderGeom__Mvtx.html#adcf1913f398a29ab68e5d20eb0257fd6" title="CylinderGeom_Mvtx::\lget_pixel_from_local\l_coords" alt="" coords="212,44,377,104"/>
+<area shape="rect" id="node3" href="$df/d9b/classCylinderGeom__Mvtx.html#ac4abb4cdffed9d08997a74e5bda7d1f9" title="CylinderGeom_Mvtx::\lget_pixel_from_local\l_coords" alt="" coords="445,5,610,65"/>
+<area shape="rect" id="node4" href="$de/d4d/classPHG4MvtxHitReco.html#afae36034dbc6416433dbbd401e71f26b" title="event processing" alt="" coords="425,89,629,133"/>
+</map>

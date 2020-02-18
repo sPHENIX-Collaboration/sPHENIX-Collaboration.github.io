@@ -1,0 +1,10 @@
+<map id="genfit::RKTrackRep::getMom" name="genfit::RKTrackRep::getMom">
+<area shape="rect" id="node2" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a92cf35857098de08b8a98b9c6dac3d6e" title="Get the (fitted) charge of a state. This is not always equal the pdg charge (e.g. if the charge sign ..." alt="" coords="201,92,349,136"/>
+<area shape="rect" id="node6" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a74c22a03a2fbdd905f76a19049153372" title="genfit::RKTrackRep\l::getState7" alt="" coords="201,185,349,229"/>
+<area shape="rect" id="node3" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a6a0edfbf9193760cf666ff40e3ff3568" title="Get the charge of the particle of the pdg code." alt="" coords="400,5,556,49"/>
+<area shape="rect" id="node4" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="397,125,559,169"/>
+<area shape="rect" id="node5" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="615,185,759,229"/>
+<area shape="rect" id="node7" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a30c7e8d87fa50205baa927d4ceccb594" title="genfit::StateOnPlane\l::getPlane" alt="" coords="397,245,559,289"/>
+<area shape="rect" id="node8" href="$d2/d12/classgenfit_1_1RKTrackRep.html#a35f676dd0d0820a39e221a41baff083b" title="genfit::RKTrackRep\l::getSpu" alt="" coords="404,313,552,357"/>
+<area shape="rect" id="node9" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a2801bf4fa1196147472cc1807281e23d" title="genfit::StateOnPlane\l::getAuxInfo" alt="" coords="607,313,768,357"/>
+</map>

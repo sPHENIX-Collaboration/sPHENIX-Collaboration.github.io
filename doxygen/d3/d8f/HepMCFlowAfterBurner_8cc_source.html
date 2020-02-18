@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d3/d8f/HepMCFlowAfterBurner_8cc_source
 <div class="title">HepMCFlowAfterBurner.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d3/d8f/HepMCFlowAfterBurner_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<a href="../../d3/d8f/HepMCFlowAfterBurner_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/phhepmc/HepMCFlowAfterBurner.cc">the newest version in sPHENIX GitHub for file HepMCFlowAfterBurner.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Inspired by code from ATLAS.  Thanks!</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d16/HepMCFlowAfterBurner_8h.html">HepMCFlowAfterBurner.h</a>&quot;</span></div>
@@ -143,7 +143,7 @@ $(document).ready(function(){initNavTree('d3/d8f/HepMCFlowAfterBurner_8cc_source
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">class </span><a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">namespace </span>HepMC { <span class="keyword">class </span>GenEvent; }</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="code" href="../../d3/d8f/HepMCFlowAfterBurner_8cc.html#a1f721ce85839054ed3426908648fa217">   32</a></span>&#160;CLHEP::HepRandomEngine *<a class="code" href="../../d9/d0f/main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="code" href="../../d3/d8f/HepMCFlowAfterBurner_8cc.html#a1f721ce85839054ed3426908648fa217">   32</a></span>&#160;CLHEP::HepRandomEngine *<a class="code" href="../../d6/de2/coresoftware_2blob_2master_2generators_2flowAfterburner_2main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="code" href="../../d3/d8f/HepMCFlowAfterBurner_8cc.html#a1d43bf5b1a119c04d8a67a03642c8dd8">   34</a></span>&#160;set&lt;string&gt; <a class="code" href="../../d3/d8f/HepMCFlowAfterBurner_8cc.html#a1d43bf5b1a119c04d8a67a03642c8dd8">algoset</a> = {<span class="stringliteral">&quot;MINBIAS&quot;</span>, <span class="stringliteral">&quot;MINBIAS_V2_ONLY&quot;</span>, <span class="stringliteral">&quot;CUSTOM&quot;</span>};</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('d3/d8f/HepMCFlowAfterBurner_8cc_source
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  , minpt(0.)</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  , maxpt(100.)</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  , seedset(0)</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  , <a class="code" href="../../d4/d89/namespaceTauVsDIS__MachineLearning__Differentiation.html#a926e652fc6cca84ce09ab067067249f1">seed</a>(0)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  , <a class="code" href="../../d1/d0a/PHTruthVertexing_8cc.html#ae21f357c223957d36046a0d71cc6aed7">seed</a>(0)</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  , randomSeed(11793)</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;{</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
@@ -174,7 +174,7 @@ $(document).ready(function(){initNavTree('d3/d8f/HepMCFlowAfterBurner_8cc_source
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#af555af520f92957d1028a22a9189f532">randomSeed</a> = <a class="code" href="../../dd/d1f/classPHRandomSeed.html">PHRandomSeed</a>();</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  }</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <a class="code" href="../../d9/d0f/main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a> = <span class="keyword">new</span> CLHEP::MTwistEngine(<a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#af555af520f92957d1028a22a9189f532">randomSeed</a>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <a class="code" href="../../d6/de2/coresoftware_2blob_2master_2generators_2flowAfterburner_2main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a> = <span class="keyword">new</span> CLHEP::MTwistEngine(<a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#af555af520f92957d1028a22a9189f532">randomSeed</a>);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
@@ -199,7 +199,7 @@ $(document).ready(function(){initNavTree('d3/d8f/HepMCFlowAfterBurner_8cc_source
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;           &lt;&lt; <span class="stringliteral">&quot;, maxeta: &quot;</span> &lt;&lt; <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#ab0ff715ac3d3d8368d6039fcb9489818">maxeta</a> &lt;&lt; <span class="stringliteral">&quot;, minpt: &quot;</span> &lt;&lt; <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#a8fe73fd1d5b509efcdbdbc87f3977605">minpt</a></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;           &lt;&lt; <span class="stringliteral">&quot;, maxpt: &quot;</span> &lt;&lt; <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#afc0418ff5ed1e8dc0f5e2aa749c05f2b">maxpt</a> &lt;&lt; endl;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="../../d0/d73/flowAfterburner_8cc.html#a85616e7503d2a477a02a0f4c8adf7d9e">flowAfterburner</a>(evt, <a class="code" href="../../d9/d0f/main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>, <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#adba5769cde2c58e7ae1949d86d2a783e">algorithmName</a>, <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#ae93a1a6e1fa0c9ae87fa3b82649dfb64">mineta</a>, <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#ab0ff715ac3d3d8368d6039fcb9489818">maxeta</a>, <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#a8fe73fd1d5b509efcdbdbc87f3977605">minpt</a>, <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#afc0418ff5ed1e8dc0f5e2aa749c05f2b">maxpt</a>);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="../../d0/d73/flowAfterburner_8cc.html#a85616e7503d2a477a02a0f4c8adf7d9e">flowAfterburner</a>(evt, <a class="code" href="../../d6/de2/coresoftware_2blob_2master_2generators_2flowAfterburner_2main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>, <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#adba5769cde2c58e7ae1949d86d2a783e">algorithmName</a>, <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#ae93a1a6e1fa0c9ae87fa3b82649dfb64">mineta</a>, <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#ab0ff715ac3d3d8368d6039fcb9489818">maxeta</a>, <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#a8fe73fd1d5b509efcdbdbc87f3977605">minpt</a>, <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#afc0418ff5ed1e8dc0f5e2aa749c05f2b">maxpt</a>);</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  }</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#ada0752d5c8986cf16a6c49dab6ab0db7affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
@@ -211,19 +211,19 @@ $(document).ready(function(){initNavTree('d3/d8f/HepMCFlowAfterBurner_8cc_source
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#af555af520f92957d1028a22a9189f532">randomSeed</a> = <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#a6c7aa03fed5ab6542986f1f8ed5805f0">seed</a>;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="comment">// just in case we are already running, kill the engine and make</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="comment">// a new one using the selected seed</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d9/d0f/main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>)</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d6/de2/coresoftware_2blob_2master_2generators_2flowAfterburner_2main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>)</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  {</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keyword">delete</span> <a class="code" href="../../d9/d0f/main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d9/d0f/main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a> = <span class="keyword">new</span> CLHEP::MTwistEngine(<a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#af555af520f92957d1028a22a9189f532">randomSeed</a>);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keyword">delete</span> <a class="code" href="../../d6/de2/coresoftware_2blob_2master_2generators_2flowAfterburner_2main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d6/de2/coresoftware_2blob_2master_2generators_2flowAfterburner_2main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a> = <span class="keyword">new</span> CLHEP::MTwistEngine(<a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#af555af520f92957d1028a22a9189f532">randomSeed</a>);</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  }</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno"><a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#ad363693c5a7961041a11ba0281010230">  108</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#ad363693c5a7961041a11ba0281010230">HepMCFlowAfterBurner::SaveRandomState</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp;savefile)</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;{</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d9/d0f/main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>)</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d6/de2/coresoftware_2blob_2master_2generators_2flowAfterburner_2main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>)</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  {</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <a class="code" href="../../d9/d0f/main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>-&gt;saveStatus(savefile.c_str());</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <a class="code" href="../../d6/de2/coresoftware_2blob_2master_2generators_2flowAfterburner_2main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>-&gt;saveStatus(savefile.c_str());</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  }</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  cout &lt;&lt; <a class="code" href="../../d5/d6f/phool_8h.html#af0d012f6b6ca17becb91a4495f1e8b7a">PHWHERE</a> &lt;&lt; <span class="stringliteral">&quot; Random engine not started yet&quot;</span> &lt;&lt; endl;</div>
@@ -231,9 +231,9 @@ $(document).ready(function(){initNavTree('d3/d8f/HepMCFlowAfterBurner_8cc_source
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
 <div class="line"><a name="l00118"></a><span class="lineno"><a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#adc017cc8f41685085b4d8f512246099b">  118</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d6c/classHepMCFlowAfterBurner.html#adc017cc8f41685085b4d8f512246099b">HepMCFlowAfterBurner::RestoreRandomState</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp;savefile)</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;{</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d9/d0f/main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>)</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d6/de2/coresoftware_2blob_2master_2generators_2flowAfterburner_2main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>)</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  {</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="../../d9/d0f/main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>-&gt;restoreStatus(savefile.c_str());</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="../../d6/de2/coresoftware_2blob_2master_2generators_2flowAfterburner_2main_8cc.html#a1f721ce85839054ed3426908648fa217">engine</a>-&gt;restoreStatus(savefile.c_str());</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  }</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  cout &lt;&lt; <a class="code" href="../../d5/d6f/phool_8h.html#af0d012f6b6ca17becb91a4495f1e8b7a">PHWHERE</a> &lt;&lt; <span class="stringliteral">&quot; Random engine not started yet&quot;</span> &lt;&lt; endl;</div>
@@ -278,7 +278,7 @@ $(document).ready(function(){initNavTree('d3/d8f/HepMCFlowAfterBurner_8cc_source
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_8d66a4fea0becf883e91a5407556c38a.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_909fc990e3c3953a178f66eada0aa3e8.html">phhepmc</a></li><li class="navelem"><a class="el" href="../../d3/d8f/HepMCFlowAfterBurner_8cc.html">HepMCFlowAfterBurner.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:18</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:23</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

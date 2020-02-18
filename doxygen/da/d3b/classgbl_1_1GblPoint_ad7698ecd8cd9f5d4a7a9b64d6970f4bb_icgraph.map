@@ -1,0 +1,12 @@
+<map id="gbl::GblPoint::getOffset" name="gbl::GblPoint::getOffset">
+<area shape="rect" id="node2" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a3dc422d353825f7fc3dd899ae76304f9" title="Get jacobian for transformation from (trajectory) fit to kink parameters at point." alt="" coords="456,5,624,49"/>
+<area shape="rect" id="node6" href="$dc/d6b/classgbl_1_1GblTrajectory.html#acf9e20a5aa0fb53cc2db1a423da75016" title="Get (part of) jacobian for transformation from (trajectory) fit to track parameters at point..." alt="" coords="233,65,408,109"/>
+<area shape="rect" id="node3" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a992ea7fd4ff643ccb6d0f7c21b214592" title="Prepare fit for simple or composed trajectory." alt="" coords="672,61,813,105"/>
+<area shape="rect" id="node4" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a1e461802c7a24cbe9326eb509c004c6f" title="Construct trajectory from list of points." alt="" coords="895,61,1036,105"/>
+<area shape="rect" id="node5" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a91b133f8f32cf249d8a72c26a2eb5dc2" title="Create new (simple) trajectory from list of points." alt="" coords="1117,61,1259,105"/>
+<area shape="rect" id="node7" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a8dfc2ab7514aafab6d04b5be32da52a1" title="Get jacobian for transformation from fit to track parameters at point." alt="" coords="469,125,611,169"/>
+<area shape="rect" id="node8" href="$dc/d6b/classgbl_1_1GblTrajectory.html#ae105372c2dab895e886ea5ab2782cf9d" title="Get fit results at point." alt="" coords="672,129,813,173"/>
+<area shape="rect" id="node9" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a685cb7459baa2d2526bde668a3dbd2cb" title="Update fitter info from GBL fit results." alt="" coords="889,129,1042,173"/>
+<area shape="rect" id="node11" href="$d3/d7b/classgenfit_1_1GFGbl.html#a0fbc16a1bcfe612c536b616be8239689" title="genfit::GFGbl::processTrack\lWithRep" alt="" coords="861,197,1069,241"/>
+<area shape="rect" id="node10" href="$d1/dc8/classgenfit_1_1GblFitter.html#a3659ddc725865c305b8ce4ce55c3de52" title="Populate all fitter infos in track for rep with results of trajectory fit." alt="" coords="1121,129,1255,173"/>
+</map>

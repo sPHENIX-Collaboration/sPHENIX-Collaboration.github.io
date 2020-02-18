@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d9/de3/Prototype2_2EMCal_2macros_2Draw
 <div class="title">DrawEMCalTower_Resolution.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d9/de3/Prototype2_2EMCal_2macros_2DrawEMCalTower__Resolution_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $                                                                                             </span></div>
+<a href="../../d9/de3/Prototype2_2EMCal_2macros_2DrawEMCalTower__Resolution_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/Prototype2/EMCal/macros/DrawEMCalTower_Resolution.C">the newest version in sPHENIX GitHub for file DrawEMCalTower_Resolution.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $                                                                                             </span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;TFile.h&gt;</span></div>
@@ -146,7 +146,7 @@ $(document).ready(function(){initNavTree('d9/de3/Prototype2_2EMCal_2macros_2Draw
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a> = 0; <a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a> &lt; <a class="code" href="../../de/de0/matchedfilter_8C.html#adbcd39725b8d3b6165df7b063e4ae1a0">N</a>; ++<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>)</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a> = Es[<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>];</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a> = Es[<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>];</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      vector&lt;double&gt; <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a3c6b45b9ca29094a66f0366e1c3d1744">v</a>(4);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
@@ -196,7 +196,7 @@ $(document).ready(function(){initNavTree('d9/de3/Prototype2_2EMCal_2macros_2Draw
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  p-&gt;SetGridy(0);</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  p-&gt;DrawFrame(0, 0, 30, 30,</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      Form(<span class="stringliteral">&quot;Linearity;Input energy (GeV);Measured Energy (GeV)&quot;</span>, <a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a>));</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      Form(<span class="stringliteral">&quot;Linearity;Input energy (GeV);Measured Energy (GeV)&quot;</span>, <a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a>));</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  TLine * l = <span class="keyword">new</span> TLine(0, 0, 30, 30);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  l-&gt;SetLineColor(kGray);</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  l-&gt;Draw();</div>
@@ -212,7 +212,7 @@ $(document).ready(function(){initNavTree('d9/de3/Prototype2_2EMCal_2macros_2Draw
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  p-&gt;SetGridy(0);</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  TH1 * hframe = p-&gt;DrawFrame(0, 0, 30, 0.2,</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      Form(<span class="stringliteral">&quot;Resolution;Input energy (GeV);#DeltaE/&lt;E&gt;&quot;</span>, <a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a>));</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      Form(<span class="stringliteral">&quot;Resolution;Input energy (GeV);#DeltaE/&lt;E&gt;&quot;</span>, <a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a>));</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  ge_res-&gt;Draw(<span class="stringliteral">&quot;p&quot;</span>);</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  ge_res-&gt;Fit(f_calo_r, <span class="stringliteral">&quot;RM0&quot;</span>);</div>
@@ -335,7 +335,7 @@ $(document).ready(function(){initNavTree('d9/de3/Prototype2_2EMCal_2macros_2Draw
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_2c78bb6e66c84261c4129b8be4424d09.html">Prototype2</a></li><li class="navelem"><a class="el" href="../../dir_2f41272944ba1925d7da7d1eab2d5daa.html">EMCal</a></li><li class="navelem"><a class="el" href="../../dir_1d634cb707e0222e26170558b3f776b9.html">macros</a></li><li class="navelem"><a class="el" href="../../d9/de3/Prototype2_2EMCal_2macros_2DrawEMCalTower__Resolution_8C.html">DrawEMCalTower_Resolution.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:07</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

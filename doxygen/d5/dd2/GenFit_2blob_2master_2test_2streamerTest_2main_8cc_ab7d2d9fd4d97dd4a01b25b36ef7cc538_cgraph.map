@@ -1,0 +1,8 @@
+<map id="emptyTrackTest" name="emptyTrackTest">
+<area shape="rect" id="node2" href="$d6/d8a/classgenfit_1_1Track.html#aee4eab9e952ee6f0e0c1f1d980552759" title="genfit::Track::checkConsistency" alt="" coords="180,116,415,144"/>
+<area shape="rect" id="node3" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ab74f13ab4f4f1ac99a29e1fa55b83413" title="genfit::KalmanFitterInfo\l::hasReferenceState" alt="" coords="498,5,678,49"/>
+<area shape="rect" id="node4" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a580ecd10b0c09b257533ca04f2ba460b" title="genfit::KalmanFitterInfo\l::getReferenceState" alt="" coords="498,73,678,117"/>
+<area shape="rect" id="node5" href="$d2/d6a/classgenfit_1_1ReferenceStateOnPlane.html#abcae7586bd838e27b384e4e001c9b3d3" title="genfit::ReferenceStateOn\lPlane::getForwardSegmentLength" alt="" coords="463,141,713,185"/>
+<area shape="rect" id="node6" href="$d6/d8a/classgenfit_1_1Track.html#aae3d3066dbd7ab39d87b56e17db5adf9" title="This is used when streaming TrackPoints." alt="" coords="491,209,685,237"/>
+<area shape="rect" id="node7" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="761,201,905,245"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="genfit::AbsTrackRep::getPDG" name="genfit::AbsTrackRep::getPDG">
+<area shape="rect" id="node2" href="$d8/d8c/classgenfit_1_1GFRaveTrackParameters.html#aecc1beb74cb3d7370644806029bb5fa9" title="genfit::GFRaveTrackParameters\l::getPdg" alt="" coords="209,5,443,49"/>
+<area shape="rect" id="node3" href="$de/dd5/classgenfit_1_1StateOnPlane.html#abb0e6c8444893e3d6957702a90b1fcfe" title="genfit::StateOnPlane\l::getPDG" alt="" coords="245,73,407,117"/>
+<area shape="rect" id="node4" href="$d2/d12/classgenfit_1_1RKTrackRep.html#af61f036e61205c9bbe55c8a75a892779" title="check if other is of same type (e.g. RKTrackRep) and has same pdg code." alt="" coords="252,141,400,185"/>
+<area shape="rect" id="node5" href="$d3/d7b/classgenfit_1_1GFGbl.html#a0fbc16a1bcfe612c536b616be8239689" title="genfit::GFGbl::processTrack\lWithRep" alt="" coords="222,209,430,253"/>
+</map>

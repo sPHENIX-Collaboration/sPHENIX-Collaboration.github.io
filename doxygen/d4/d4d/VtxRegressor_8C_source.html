@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d4/d4d/VtxRegressor_8C_source.html','.
 <div class="title">VtxRegressor.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/d4d/VtxRegressor_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/d79/VtxRegressor_8h.html">VtxRegressor.h</a>&quot;</span></div>
+<a href="../../d4/d4d/VtxRegressor_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/PhotonConversion/truthconversion/VtxRegressor.C">the newest version in sPHENIX GitHub for file VtxRegressor.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/d79/VtxRegressor_8h.html">VtxRegressor.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/d87/SvtxTrack_8h.html">trackbase_historic/SvtxTrack.h</a>&gt;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using namespace </span>TMVA;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
@@ -133,14 +133,14 @@ $(document).ready(function(){initNavTree('d4/d4d/VtxRegressor_8C_source.html','.
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keywordflow">if</span> (reader) <span class="keyword">delete</span> reader;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  reader=NULL;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="../../d7/dd4/classVtxRegressor.html#a9fcfebeb181524d256aad8d06b00d621">   22</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d7/dd4/classVtxRegressor.html#a9fcfebeb181524d256aad8d06b00d621">VtxRegressor::regress</a>(<a class="code" href="../../d2/db8/classSvtxTrack.html">SvtxTrack</a>* reco1,<a class="code" href="../../d2/db8/classSvtxTrack.html">SvtxTrack</a>* reco2,genfit::GFRaveVertex* recoVertex){</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="../../d7/dd4/classVtxRegressor.html#a9fcfebeb181524d256aad8d06b00d621">   22</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d7/dd4/classVtxRegressor.html#a9fcfebeb181524d256aad8d06b00d621">VtxRegressor::regress</a>(<a class="code" href="../../d2/db8/classSvtxTrack.html">SvtxTrack</a>* reco1,<a class="code" href="../../d2/db8/classSvtxTrack.html">SvtxTrack</a>* reco2,<a class="code" href="../../db/da0/classgenfit_1_1GFRaveVertex.html" title="GFRaveVertex class.">genfit::GFRaveVertex</a>* recoVertex){</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  pt1=reco1-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#af6f03ad537260f2ceef84cf876e22deb">get_pt</a>();</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  pt2=reco2-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#af6f03ad537260f2ceef84cf876e22deb">get_pt</a>();</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a7b540384a61cacdec7528421fa0a22b2">phi</a>=reco1-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#a8ffb0c9b9181cc2dedd6e21f4b462129">get_phi</a>();</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  dphi=reco1-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#a8ffb0c9b9181cc2dedd6e21f4b462129">get_phi</a>()-reco2-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#a8ffb0c9b9181cc2dedd6e21f4b462129">get_phi</a>();</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  eta=reco1-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#a991a05caa213e0922d00c76568dade57">get_eta</a>();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  deta=reco1-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#a991a05caa213e0922d00c76568dade57">get_eta</a>()-reco2-&gt;<a class="code" href="../../d2/db8/classSvtxTrack.html#a991a05caa213e0922d00c76568dade57">get_eta</a>();</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  rin=recoVertex-&gt;getPos().Perp();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  rin=recoVertex-&gt;<a class="code" href="../../db/da0/classgenfit_1_1GFRaveVertex.html#a4818bdeb821d19b283ae026af388e92b" title="get Position">getPos</a>().Perp();</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keywordflow">return</span> reader-&gt;EvaluateRegression(_method.c_str())[0];</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
@@ -153,7 +153,7 @@ $(document).ready(function(){initNavTree('d4/d4d/VtxRegressor_8C_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_07a78cc1088b8f61e58c92fc8f87f2d4.html">PhotonConversion</a></li><li class="navelem"><a class="el" href="../../dir_7b40585317f0205cfd6ebc153d731124.html">truthconversion</a></li><li class="navelem"><a class="el" href="../../d4/d4d/VtxRegressor_8C.html">VtxRegressor.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:07</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

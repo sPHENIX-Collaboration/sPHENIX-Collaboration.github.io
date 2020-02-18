@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d3/d8a/ClusterJetInput_8cc_source.html
 <div class="title">ClusterJetInput.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d3/d8a/ClusterJetInput_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../d3/d8a/ClusterJetInput_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4jets/ClusterJetInput.cc">the newest version in sPHENIX GitHub for file ClusterJetInput.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d45/ClusterJetInput_8h.html">ClusterJetInput.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/db7/Jet_8h.html">Jet.h</a>&quot;</span></div>
@@ -177,69 +177,73 @@ $(document).ready(function(){initNavTree('d3/d8a/ClusterJetInput_8cc_source.html
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  }</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <a class="code" href="../../d6/d12/classRawClusterContainer.html">RawClusterContainer</a> *clusters = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <a class="code" href="../../df/d49/classRawTowerGeomContainer.html" title="base class to describe calorimeter geometries">RawTowerGeomContainer</a> *geom = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d5/d98/classClusterJetInput.html#ae8ddc0d4a7528c68ea01e274419f2dda">_input</a> == <a class="code" href="../../d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea7836dfb26d40a32e494487cd43a94803">Jet::CEMC_CLUSTER</a>)</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    clusters = findNode::getClass&lt;RawClusterContainer&gt;(topNode, <span class="stringliteral">&quot;CLUSTER_CEMC&quot;</span>);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    geom = findNode::getClass&lt;RawTowerGeomContainer&gt;(topNode, <span class="stringliteral">&quot;TOWERGEOM_CEMC&quot;</span>);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">if</span> (!clusters || !geom)</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      <span class="keywordflow">return</span> std::vector&lt;Jet *&gt;();</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  }</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d5/d98/classClusterJetInput.html#ae8ddc0d4a7528c68ea01e274419f2dda">_input</a> == <a class="code" href="../../d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea3071bc84908a059ab7cc1e26e87c42d2">Jet::HCALIN_CLUSTER</a>)</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    clusters = findNode::getClass&lt;RawClusterContainer&gt;(topNode, <span class="stringliteral">&quot;CLUSTER_HCALIN&quot;</span>);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    geom = findNode::getClass&lt;RawTowerGeomContainer&gt;(topNode, <span class="stringliteral">&quot;TOWERGEOM_HCALIN&quot;</span>);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">if</span> (!clusters || !geom)</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      <span class="keywordflow">return</span> std::vector&lt;Jet *&gt;();</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  }</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d5/d98/classClusterJetInput.html#ae8ddc0d4a7528c68ea01e274419f2dda">_input</a> == <a class="code" href="../../d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea2888354c9ad297a9af309bee0f4e7e15">Jet::HCALOUT_CLUSTER</a>)</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  {</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    clusters = findNode::getClass&lt;RawClusterContainer&gt;(topNode, <span class="stringliteral">&quot;CLUSTER_HCALOUT&quot;</span>);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    geom = findNode::getClass&lt;RawTowerGeomContainer&gt;(topNode, <span class="stringliteral">&quot;TOWERGEOM_HCALOUT&quot;</span>);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">if</span> (!clusters || !geom)</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      <span class="keywordflow">return</span> std::vector&lt;Jet *&gt;();</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  }</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  {</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">return</span> std::vector&lt;Jet *&gt;();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d5/d98/classClusterJetInput.html#ae8ddc0d4a7528c68ea01e274419f2dda">_input</a> == <a class="code" href="../../d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea7836dfb26d40a32e494487cd43a94803">Jet::CEMC_CLUSTER</a>)</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    clusters = findNode::getClass&lt;RawClusterContainer&gt;(topNode, <span class="stringliteral">&quot;CLUSTER_CEMC&quot;</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">if</span> (!clusters)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="keywordflow">return</span> std::vector&lt;Jet *&gt;();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d5/d98/classClusterJetInput.html#ae8ddc0d4a7528c68ea01e274419f2dda">_input</a> == <a class="code" href="../../d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea3071bc84908a059ab7cc1e26e87c42d2">Jet::HCALIN_CLUSTER</a>)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    clusters = findNode::getClass&lt;RawClusterContainer&gt;(topNode, <span class="stringliteral">&quot;CLUSTER_HCALIN&quot;</span>);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">if</span> (!clusters)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <span class="keywordflow">return</span> std::vector&lt;Jet *&gt;();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d5/d98/classClusterJetInput.html#ae8ddc0d4a7528c68ea01e274419f2dda">_input</a> == <a class="code" href="../../d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971bea2888354c9ad297a9af309bee0f4e7e15">Jet::HCALOUT_CLUSTER</a>)</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    clusters = findNode::getClass&lt;RawClusterContainer&gt;(topNode, <span class="stringliteral">&quot;CLUSTER_HCALOUT&quot;</span>);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">if</span> (!clusters)</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      <span class="keywordflow">return</span> std::vector&lt;Jet *&gt;();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d5/d98/classClusterJetInput.html#ae8ddc0d4a7528c68ea01e274419f2dda">_input</a> == <a class="code" href="../../d3/d69/group__clustered.html#gaff1c12bbc39f6d0f5d6e13a9d4c971beadbe2929f57d2a176f3c1ddfcca8cc73f">Jet::HCAL_TOPO_CLUSTER</a>)</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    clusters = findNode::getClass&lt;RawClusterContainer&gt;(topNode, <span class="stringliteral">&quot;TOPOCLUSTER_HCAL&quot;</span>);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">if</span> (!clusters)</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;      <span class="keywordflow">return</span> std::vector&lt;Jet *&gt;();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  }</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="comment">// first grab the event vertex or bail</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <a class="code" href="../../d1/d39/classGlobalVertex.html">GlobalVertex</a> *vtx = vertexmap-&gt;<a class="code" href="../../d5/dc4/classGlobalVertexMap.html#a4b7a2bf3821e4d9ad1ec931c5c89b2cb">begin</a>()-&gt;second;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  CLHEP::Hep3Vector vertex;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <span class="keywordflow">if</span> (vtx)</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    vertex.set(vtx-&gt;<a class="code" href="../../d1/d39/classGlobalVertex.html#a97493c07f81f703dd545fe3409be10a4">get_x</a>(), vtx-&gt;<a class="code" href="../../d1/d39/classGlobalVertex.html#a13edb1c021409c4a7c53bd29e6ff05e5">get_y</a>(), vtx-&gt;<a class="code" href="../../d1/d39/classGlobalVertex.html#a46b4a0bd3afc9c251899dce7c4a0f001">get_z</a>());</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">return</span> std::vector&lt;Jet *&gt;();</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  std::vector&lt;Jet *&gt; pseudojets;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  <a class="code" href="../../d6/d12/classRawClusterContainer.html#a63a9a1a1e06942b8181b9e01e377e2a6">RawClusterContainer::ConstRange</a> begin_end = clusters-&gt;<a class="code" href="../../d6/d12/classRawClusterContainer.html#ad46de2d53756226cbd310e45a2e475d0" title="return all clusters">getClusters</a>();</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  <a class="code" href="../../d6/d12/classRawClusterContainer.html#af0a2df3a83e8baa107658466748e91b9">RawClusterContainer::ConstIterator</a> rtiter;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <span class="keywordflow">for</span> (rtiter = begin_end.first; rtiter != begin_end.second; ++rtiter)</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  {</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <a class="code" href="../../d2/d4e/classRawCluster.html">RawCluster</a> *cluster = rtiter-&gt;second;</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    CLHEP::Hep3Vector E_vec_cluster = <a class="code" href="../../d0/d0e/classRawClusterUtility.html#a3261266f538776e8f1c741937cf278fd" title="Get energy vector of cluster based on cluster energy.">RawClusterUtility::GetEVec</a>(*cluster, vertex);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../d7/da6/classJet.html">Jet</a> *jet = <span class="keyword">new</span> <a class="code" href="../../d8/d10/classJetv1.html" title="Jetv1.">Jetv1</a>();</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    jet-&gt;<a class="code" href="../../d7/da6/classJet.html#aab0ccab11d404ef8ca21dac07e3374c5">set_px</a>(E_vec_cluster.x());</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    jet-&gt;<a class="code" href="../../d7/da6/classJet.html#a146867bb6a46f36be96ed78bd7a808cd">set_py</a>(E_vec_cluster.y());</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    jet-&gt;<a class="code" href="../../d7/da6/classJet.html#a9ffe659bc439362611df5d1cd495f663">set_pz</a>(E_vec_cluster.z());</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    jet-&gt;<a class="code" href="../../d7/da6/classJet.html#a911e8ad8e600cdd5e4c5bdab14bf71e9">set_e</a>(cluster-&gt;<a class="code" href="../../d6/dc7/group__getters.html#gaeb5c6c01b9f2f1d716e9ddaf89f64c91" title="total energy">get_energy</a>());</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    jet-&gt;<a class="code" href="../../d3/d69/group__clustered.html#ga389667f8be39b69a4098b5fe729c7b5d">insert_comp</a>(<a class="code" href="../../d5/d98/classClusterJetInput.html#ae8ddc0d4a7528c68ea01e274419f2dda">_input</a>, cluster-&gt;<a class="code" href="../../d6/dc7/group__getters.html#gabf760f5a6fc7742a79c3bd3bb9a87188" title="cluster ID">get_id</a>());</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    pseudojets.push_back(jet);</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  }</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d5/d98/classClusterJetInput.html#ab38dccbed2eec207eb1bd1c12d498e36">_verbosity</a> &gt; 0) cout &lt;&lt; <span class="stringliteral">&quot;ClusterJetInput::process_event -- exited&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <span class="keywordflow">return</span> pseudojets;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">return</span> std::vector&lt;Jet *&gt;();</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <span class="comment">// first grab the event vertex or bail</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  <a class="code" href="../../d1/d39/classGlobalVertex.html">GlobalVertex</a> *vtx = vertexmap-&gt;<a class="code" href="../../d5/dc4/classGlobalVertexMap.html#a4b7a2bf3821e4d9ad1ec931c5c89b2cb">begin</a>()-&gt;second;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  CLHEP::Hep3Vector vertex;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <span class="keywordflow">if</span> (vtx)</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    vertex.set(vtx-&gt;<a class="code" href="../../d1/d39/classGlobalVertex.html#a97493c07f81f703dd545fe3409be10a4">get_x</a>(), vtx-&gt;<a class="code" href="../../d1/d39/classGlobalVertex.html#a13edb1c021409c4a7c53bd29e6ff05e5">get_y</a>(), vtx-&gt;<a class="code" href="../../d1/d39/classGlobalVertex.html#a46b4a0bd3afc9c251899dce7c4a0f001">get_z</a>());</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">return</span> std::vector&lt;Jet *&gt;();</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  std::vector&lt;Jet *&gt; pseudojets;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  <a class="code" href="../../d6/d12/classRawClusterContainer.html#a63a9a1a1e06942b8181b9e01e377e2a6">RawClusterContainer::ConstRange</a> begin_end = clusters-&gt;<a class="code" href="../../d6/d12/classRawClusterContainer.html#ad46de2d53756226cbd310e45a2e475d0" title="return all clusters">getClusters</a>();</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  <a class="code" href="../../d6/d12/classRawClusterContainer.html#af0a2df3a83e8baa107658466748e91b9">RawClusterContainer::ConstIterator</a> rtiter;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <span class="keywordflow">for</span> (rtiter = begin_end.first; rtiter != begin_end.second; ++rtiter)</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../d2/d4e/classRawCluster.html">RawCluster</a> *cluster = rtiter-&gt;second;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    CLHEP::Hep3Vector E_vec_cluster = <a class="code" href="../../d0/d0e/classRawClusterUtility.html#a3261266f538776e8f1c741937cf278fd" title="Get energy vector of cluster based on cluster energy.">RawClusterUtility::GetEVec</a>(*cluster, vertex);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="../../d7/da6/classJet.html">Jet</a> *jet = <span class="keyword">new</span> <a class="code" href="../../d8/d10/classJetv1.html" title="Jetv1.">Jetv1</a>();</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    jet-&gt;<a class="code" href="../../d7/da6/classJet.html#aab0ccab11d404ef8ca21dac07e3374c5">set_px</a>(E_vec_cluster.x());</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    jet-&gt;<a class="code" href="../../d7/da6/classJet.html#a146867bb6a46f36be96ed78bd7a808cd">set_py</a>(E_vec_cluster.y());</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    jet-&gt;<a class="code" href="../../d7/da6/classJet.html#a9ffe659bc439362611df5d1cd495f663">set_pz</a>(E_vec_cluster.z());</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    jet-&gt;<a class="code" href="../../d7/da6/classJet.html#a911e8ad8e600cdd5e4c5bdab14bf71e9">set_e</a>(cluster-&gt;<a class="code" href="../../d6/dc7/group__getters.html#gaeb5c6c01b9f2f1d716e9ddaf89f64c91" title="total energy">get_energy</a>());</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    jet-&gt;<a class="code" href="../../d3/d69/group__clustered.html#ga389667f8be39b69a4098b5fe729c7b5d">insert_comp</a>(<a class="code" href="../../d5/d98/classClusterJetInput.html#ae8ddc0d4a7528c68ea01e274419f2dda">_input</a>, cluster-&gt;<a class="code" href="../../d6/dc7/group__getters.html#gabf760f5a6fc7742a79c3bd3bb9a87188" title="cluster ID">get_id</a>());</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    pseudojets.push_back(jet);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d5/d98/classClusterJetInput.html#ab38dccbed2eec207eb1bd1c12d498e36">_verbosity</a> &gt; 0) cout &lt;&lt; <span class="stringliteral">&quot;ClusterJetInput::process_event -- exited&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  <span class="keywordflow">return</span> pseudojets;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -250,7 +254,7 @@ $(document).ready(function(){initNavTree('d3/d8a/ClusterJetInput_8cc_source.html
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_4bf4a489199b91180c08c86eda6c457c.html">g4jets</a></li><li class="navelem"><a class="el" href="../../d3/d8a/ClusterJetInput_8cc.html">ClusterJetInput.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:24</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:30</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

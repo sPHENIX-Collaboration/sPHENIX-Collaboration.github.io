@@ -11,10 +11,10 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-138.5 0,-182.5 124,-182.5 124,-138.5 0,-138.5"/>
-<text text-anchor="start" x="8" y="-169.5" font-family="FreeSans" font-size="10.00" fill="#000000">CylinderGeom_Mvtx::</text>
-<text text-anchor="start" x="8" y="-157.5" font-family="FreeSans" font-size="10.00" fill="#000000">get_world_from_local</text>
-<text text-anchor="middle" x="62" y="-145.5" font-family="FreeSans" font-size="10.00" fill="#000000">_coords</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-109.5 0,-153.5 124,-153.5 124,-109.5 0,-109.5"/>
+<text text-anchor="start" x="8" y="-140.5" font-family="FreeSans" font-size="10.00" fill="#000000">CylinderGeom_Mvtx::</text>
+<text text-anchor="start" x="8" y="-128.5" font-family="FreeSans" font-size="10.00" fill="#000000">get_world_from_local</text>
+<text text-anchor="middle" x="62" y="-116.5" font-family="FreeSans" font-size="10.00" fill="#000000">_coords</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
@@ -28,8 +28,8 @@
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M133.8914,-181.2263C142.6345,-183.256 151.4842,-185.0838 160,-186.5 222.926,-196.9647 295.0373,-201.6737 348.8983,-203.7886"/>
-<polygon fill="#191970" stroke="#191970" points="134.6311,-177.8044 124.089,-178.86 132.9885,-184.6089 134.6311,-177.8044"/>
+<path fill="none" stroke="#191970" d="M101.6774,-159.0459C118.8364,-169.5257 139.627,-180.4018 160,-186.5 221.5614,-204.9269 294.3971,-209.0888 348.8956,-208.9679"/>
+<polygon fill="#191970" stroke="#191970" points="103.3861,-155.986 93.0568,-153.6291 99.6619,-161.9131 103.3861,-155.986"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -44,24 +44,41 @@
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M134.1213,-160.5C147.4921,-160.5 161.3519,-160.5 174.3924,-160.5"/>
-<polygon fill="#191970" stroke="#191970" points="134.0135,-157.0001 124.0135,-160.5 134.0135,-164.0001 134.0135,-157.0001"/>
+<path fill="none" stroke="#191970" d="M134.1213,-143.4858C147.4921,-145.7079 161.3519,-148.0112 174.3924,-150.1784"/>
+<polygon fill="#191970" stroke="#191970" points="134.452,-139.9928 124.0135,-141.806 133.3044,-146.8981 134.452,-139.9928"/>
 </g>
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="../../de/d4d/classPHG4MvtxHitReco.html#afae36034dbc6416433dbbd401e71f26b" target="_top" xlink:title="event processing">
-<polygon fill="none" stroke="#000000" points="160,-93.5 160,-125.5 313,-125.5 313,-93.5 160,-93.5"/>
-<text text-anchor="start" x="168" y="-112.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4MvtxHitReco::process</text>
-<text text-anchor="middle" x="236.5" y="-100.5" font-family="FreeSans" font-size="10.00" fill="#000000">_event</text>
+<g id="a_node22"><a xlink:href="../../df/d9b/classCylinderGeom__Mvtx.html#ad7666151b00cdc9b3d74faac4c347050" target="_top" xlink:title="CylinderGeom_Mvtx::\lget_world_from_local\l_coords">
+<polygon fill="none" stroke="#000000" points="174.5,-81.5 174.5,-125.5 298.5,-125.5 298.5,-81.5 174.5,-81.5"/>
+<text text-anchor="start" x="182.5" y="-112.5" font-family="FreeSans" font-size="10.00" fill="#000000">CylinderGeom_Mvtx::</text>
+<text text-anchor="start" x="182.5" y="-100.5" font-family="FreeSans" font-size="10.00" fill="#000000">get_world_from_local</text>
+<text text-anchor="middle" x="236.5" y="-88.5" font-family="FreeSans" font-size="10.00" fill="#000000">_coords</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node22 -->
 <g id="edge24" class="edge">
 <title>Node1&#45;&gt;Node22</title>
-<path fill="none" stroke="#191970" d="M133.8435,-139.5028C149.8106,-134.8362 166.4886,-129.9618 181.6463,-125.5317"/>
-<polygon fill="#191970" stroke="#191970" points="132.6301,-136.2109 124.0135,-142.3757 134.5938,-142.9298 132.6301,-136.2109"/>
+<path fill="none" stroke="#191970" d="M134.1213,-119.9275C147.4921,-117.7821 161.3519,-115.5582 174.3924,-113.4657"/>
+<polygon fill="#191970" stroke="#191970" points="133.3327,-116.5092 124.0135,-121.5494 134.4417,-123.4208 133.3327,-116.5092"/>
+</g>
+<!-- Node23 -->
+<g id="node23" class="node">
+<title>Node23</title>
+<g id="a_node23"><a xlink:href="../../de/d4d/classPHG4MvtxHitReco.html#afae36034dbc6416433dbbd401e71f26b" target="_top" xlink:title="event processing">
+<polygon fill="none" stroke="#000000" points="160,-30.5 160,-62.5 313,-62.5 313,-30.5 160,-30.5"/>
+<text text-anchor="start" x="168" y="-49.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4MvtxHitReco::process</text>
+<text text-anchor="middle" x="236.5" y="-37.5" font-family="FreeSans" font-size="10.00" fill="#000000">_event</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node23 -->
+<g id="edge25" class="edge">
+<title>Node1&#45;&gt;Node23</title>
+<path fill="none" stroke="#191970" d="M103.222,-103.9902C120.3326,-93.2913 140.674,-81.4752 160,-72.5 167.7606,-68.8959 176.1664,-65.5332 184.4691,-62.5014"/>
+<polygon fill="#191970" stroke="#191970" points="101.1626,-101.1517 94.5912,-109.4623 104.9109,-107.0636 101.1626,-101.1517"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['q',['Q',['../d0/dc7/classABlob.html#a0c47a45c7c7715108fae8d017f71aa20',1,'ABlob::Q()'],['../d0/dca/classAZigzag.html#ac0e5b080868aeaf3e6174f9dcbe896e9',1,'AZigzag::Q()']]],
+  ['q',['Q',['../d0/dc7/classABlob.html#a0c47a45c7c7715108fae8d017f71aa20',1,'ABlob::Q()'],['../d0/dca/classAZigzag.html#ac0e5b080868aeaf3e6174f9dcbe896e9',1,'AZigzag::Q()'],['../d0/d49/classKFParticle.html#a537faaa1cf0c3f36a602302340babe3b',1,'KFParticle::Q() const '],['../d0/d49/classKFParticle.html#a15a9339046e66ed08a35a73cf652fbed',1,'KFParticle::Q()'],['../d5/d41/classKFParticleBase.html#ae4a7bf3ab7512c1ac0110e5c405334c9',1,'KFParticleBase::Q() const '],['../d5/d41/classKFParticleBase.html#a8342e9d9208e37623a3589be872d75ad',1,'KFParticleBase::Q()'],['../d2/dbb/classKFParticleBaseSIMD.html#a4627da237cb56fc359e983cf697741c0',1,'KFParticleBaseSIMD::Q() const '],['../d2/dbb/classKFParticleBaseSIMD.html#a710ce08809b254aac583349705151973',1,'KFParticleBaseSIMD::Q()'],['../db/dcc/classKFParticleSIMD.html#a75147d6923271f776f9d21cdb9312734',1,'KFParticleSIMD::Q() const '],['../db/dcc/classKFParticleSIMD.html#ad81c32272801bbab139015d9c18d0062',1,'KFParticleSIMD::Q()'],['../d1/d86/classKFPTrackVector.html#afdbad4270667f37d91af768a76e96595',1,'KFPTrackVector::Q()'],['../d9/d03/KFParticleBaseSIMD_8h.html#a4cd33935de91662c0644140e301499e5',1,'Q() const :&#160;KFParticleBaseSIMD.h'],['../d2/dc5/KFPTrackVector_8h.html#a29768481487c22478c33cc10e03dc7ff',1,'Q() const :&#160;KFPTrackVector.h']]],
   ['qa_5fdraw_5fcalorimeter_5fsum_5fcluster',['QA_Draw_Calorimeter_Sum_Cluster',['../de/ddf/QA__Draw__Calorimeter__Sum__Cluster_8C.html#a8a2dccd5034a18d435992655f5bfb2fe',1,'QA_Draw_Calorimeter_Sum_Cluster.C']]],
   ['qa_5fdraw_5fcalorimeter_5fsum_5ftrackproj',['QA_Draw_Calorimeter_Sum_TrackProj',['../d7/dc3/QA__Draw__Calorimeter__Sum__TrackProj_8C.html#a39f1a2eeab72ccaea9d12f16b17ead6d',1,'QA_Draw_Calorimeter_Sum_TrackProj.C']]],
   ['qa_5fdraw_5fcalorimeter_5fsum_5ftrackprojep',['QA_Draw_Calorimeter_Sum_TrackProjEP',['../dd/d0c/QA__Draw__Calorimeter__Sum__TrackProjEP_8C.html#aa29f3825348bb34a4ec840727f883cdc',1,'QA_Draw_Calorimeter_Sum_TrackProjEP.C']]],
@@ -16,18 +16,21 @@ var searchData=
   ['qag4simulationcalorimeter',['QAG4SimulationCalorimeter',['../d9/d7b/classQAG4SimulationCalorimeter.html#a399312ea0bb0618684c03caef0346c93',1,'QAG4SimulationCalorimeter']]],
   ['qag4simulationcalorimetersum',['QAG4SimulationCalorimeterSum',['../d4/d90/classQAG4SimulationCalorimeterSum.html#abda83dc7318b563196e3d0f42e2fe3d5',1,'QAG4SimulationCalorimeterSum']]],
   ['qag4simulationjet',['QAG4SimulationJet',['../d4/d28/classQAG4SimulationJet.html#a31c622b7572be7e3fd1a331f2ec9b7db',1,'QAG4SimulationJet']]],
+  ['qag4simulationtracking',['QAG4SimulationTracking',['../de/dbf/classQAG4SimulationTracking.html#a327bd90235f1640687ebefdc4d3e541f',1,'QAG4SimulationTracking']]],
   ['qe',['qe',['../d1/d41/classeic__bnl__rich.html#ac53b9f110cd0e15eab5e952781e76d7d',1,'eic_bnl_rich']]],
   ['qepd',['QEPD',['../d1/ddc/Bias_8cpp.html#a969032adb948db2b27d04495858023bb',1,'Bias.cpp']]],
   ['qhit',['Qhit',['../d6/df5/classQhit.html#a156027a8c4f92ef670a3a23a3796c981',1,'Qhit']]],
   ['qnan',['qNan',['../d2/d29/classhalf.html#a0b9bd3c051b63b6d71ecf432169214ae',1,'half']]],
   ['qpileup',['QPileUp',['../d9/d3f/classQPileUp.html#aafb2d01dd0d7088875a74fd0364716f7',1,'QPileUp']]],
   ['qpileuptoy',['QPileUpToy',['../d2/d8c/classQPileUpToy.html#adfa8376c70043c09c3e5c1cc09cba728',1,'QPileUpToy']]],
-  ['qtgui',['QTGui',['../dd/d76/macros_2blob_2master_2macros_2g4simulations_2DisplayOn_8C.html#a36f5cc4ebb7cd23dac7e492d5c38fbc0',1,'DisplayOn.C']]],
+  ['qpt',['QPt',['../d3/dbf/classGPUTPCBaseTrackParam.html#ad94185617b6167b4dfcf9547961895f3',1,'GPUTPCBaseTrackParam::QPt()'],['../de/d80/classGPUTPCTrackLinearisation.html#acf6a442f61f9fb355199e4477e3c6921',1,'GPUTPCTrackLinearisation::QPt()'],['../d4/d60/classGPUTPCTrackParam.html#ab58848889eee0d630ccfddf8e486eb64',1,'GPUTPCTrackParam::QPt()']]],
+  ['qr',['QR',['../db/d45/namespacegenfit_1_1tools.html#a409cdc24f5908845f845bf0c4a2d4961',1,'genfit::tools::QR(TMatrixD &amp;A)'],['../db/d45/namespacegenfit_1_1tools.html#a94e877d9e3a71e2a9b120361ec4e9035',1,'genfit::tools::QR(TMatrixD &amp;A, TVectorD &amp;b)']]],
+  ['qtgui',['QTGui',['../dd/d76/macros_2blob_2master_2macros_2g4simulations_2DisplayOn_8C.html#a36f5cc4ebb7cd23dac7e492d5c38fbc0',1,'QTGui():&#160;DisplayOn.C'],['../d5/d85/tutorials_2blob_2master_2Momentum_2DisplayOn_8C.html#a36f5cc4ebb7cd23dac7e492d5c38fbc0',1,'QTGui():&#160;DisplayOn.C']]],
   ['quark_5ftrace',['quark_trace',['../d0/d55/classHFFastSim.html#ac495e328bf8238a126e5f42067de3021',1,'HFFastSim']]],
   ['quarkonia2leptonsmc',['Quarkonia2LeptonsMC',['../da/df3/classQuarkonia2LeptonsMC.html#a0dd754617c0d12bb48c6992a6b559bca',1,'Quarkonia2LeptonsMC']]],
-  ['quarkonia2leptonsmc_5fdictionary',['Quarkonia2LeptonsMC_Dictionary',['../d4/d0a/namespaceROOTDict.html#a25aee3c3a57cdcbdb269f7f31d0823e9',1,'ROOTDict']]],
-  ['quarkonia2leptonsmc_5fshowmembers',['Quarkonia2LeptonsMC_ShowMembers',['../d4/d0a/namespaceROOTDict.html#ac8d740b35f6af5934b1fec68f573bd47',1,'ROOTDict']]],
   ['quench',['quench',['../d9/dd6/quench_8f.html#a81b01d81c557458a2c062800ed66bd2b',1,'quench.f']]],
+  ['querytree',['QueryTree',['../d1/d08/classPHCASeeding.html#abe3e534d13c41ca83444e494e6325ea5',1,'PHCASeeding::QueryTree()'],['../da/df1/classPHRTreeSeeding.html#a79864842c2d1c029c39d2f131a4a45da',1,'PHRTreeSeeding::QueryTree()']]],
+  ['quiet',['quiet',['../d8/db3/classgenfit_1_1Exception.html#adc12ce3fb68f9869627e0551a5a7822c',1,'genfit::Exception']]],
   ['quiet_5fnan',['quiet_NaN',['../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ad333ed93c32c63402f4640f154aa31de',1,'std::numeric_limits&lt; half &gt;']]],
   ['quiver',['Quiver',['../d9/d58/classQuiver.html#a2b85ba3800c2635d6ef4daa49ca27a5c',1,'Quiver']]]
 ];

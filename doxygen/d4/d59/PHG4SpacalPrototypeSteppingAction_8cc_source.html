@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d4/d59/PHG4SpacalPrototypeSteppingActi
 <div class="title">PHG4SpacalPrototypeSteppingAction.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/d59/PHG4SpacalPrototypeSteppingAction_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../d4/d59/PHG4SpacalPrototypeSteppingAction_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//prototype/blob/master/simulation/g4simulation/g4caloprototype/PHG4SpacalPrototypeSteppingAction.cc">the newest version in sPHENIX GitHub for file PHG4SpacalPrototypeSteppingAction.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/d8e/PHG4SpacalPrototypeSteppingAction_8h.html">PHG4SpacalPrototypeSteppingAction.h</a>&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/db6/PHG4SpacalPrototypeDetector_8h.html">PHG4SpacalPrototypeDetector.h</a>&quot;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../df/d6b/PHG4CylinderGeom__Spacalv3_8h.html">g4detectors/PHG4CylinderGeom_Spacalv3.h</a>&gt;</span></div>
@@ -171,9 +171,9 @@ $(document).ready(function(){initNavTree('d4/d59/PHG4SpacalPrototypeSteppingActi
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      aStep-&gt;GetPreStepPoint()-&gt;GetTouchableHandle()-&gt;GetVolume();</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="comment">// collect energy and track length step by step</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  G4double edep = aStep-&gt;GetTotalEnergyDeposit() / GeV;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  G4double edep = aStep-&gt;GetTotalEnergyDeposit() / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  G4double eion = (aStep-&gt;GetTotalEnergyDeposit()</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      - aStep-&gt;GetNonIonizingEnergyDeposit()) / GeV;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      - aStep-&gt;GetNonIonizingEnergyDeposit()) / <a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keyword">const</span> G4Track* aTrack = aStep-&gt;GetTrack();</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
@@ -182,7 +182,7 @@ $(document).ready(function(){initNavTree('d4/d59/PHG4SpacalPrototypeSteppingActi
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="comment">// IsInCylinderActive returns the number of the scintillator </span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="comment">// slat which has fired</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordtype">int</span> isactive = <a class="code" href="../../dd/d86/classPHG4SpacalPrototypeSteppingAction.html#acce4b41d9397e490f9d1ef6391210100" title="pointer to the detector">detector_</a>-&gt;<a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#aa3b7ceb6079a5d7614b2d90e383fcff6">IsInCylinderActive</a>(volume);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <span class="keywordflow">if</span> (isactive &gt; <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03a86f5c7ecfeb3eaa299f5151d92aa4af4">PHG4SpacalPrototypeDetector::INACTIVE</a>)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <span class="keywordflow">if</span> (isactive &gt; <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5a86f5c7ecfeb3eaa299f5151d92aa4af4">PHG4SpacalPrototypeDetector::INACTIVE</a>)</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    {</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <span class="keywordtype">bool</span> geantino = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <span class="comment">// the check for the pdg code speeds things up, I do not want to make </span></div>
@@ -209,7 +209,7 @@ $(document).ready(function(){initNavTree('d4/d59/PHG4SpacalPrototypeSteppingActi
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;          <span class="keywordtype">int</span> tower_ID = 0;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;          <span class="keywordtype">int</span> fiber_ID = 0;</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;          <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03a1d62011dd8c9678a545cf1b61951cbd9">PHG4SpacalPrototypeDetector::FIBER_CORE</a>)</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;          <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5a1d62011dd8c9678a545cf1b61951cbd9">PHG4SpacalPrototypeDetector::FIBER_CORE</a>)</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            {</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;              fiber_ID = prePoint-&gt;GetTouchable()-&gt;GetReplicaNumber(1);</div>
@@ -218,14 +218,14 @@ $(document).ready(function(){initNavTree('d4/d59/PHG4SpacalPrototypeSteppingActi
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            }</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;          <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03aea8a36e66027ec2196357963a9604a05">PHG4SpacalPrototypeDetector::FIBER_CLADING</a>)</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;          <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5aea8a36e66027ec2196357963a9604a05">PHG4SpacalPrototypeDetector::FIBER_CLADING</a>)</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            {</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;              fiber_ID = prePoint-&gt;GetTouchable()-&gt;GetReplicaNumber(0);</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;              tower_ID = prePoint-&gt;GetTouchable()-&gt;GetReplicaNumber(1);</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;              sector_ID  = prePoint-&gt;GetTouchable()-&gt;GetReplicaNumber(2);</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            }</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;          <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03a8d50552af94c0727a48608e808c4faa2">PHG4SpacalPrototypeDetector::ABSORBER</a>)</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;          <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5a8d50552af94c0727a48608e808c4faa2">PHG4SpacalPrototypeDetector::ABSORBER</a>)</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            {</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;              tower_ID = prePoint-&gt;GetTouchable()-&gt;GetReplicaNumber(0);</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;              sector_ID  = prePoint-&gt;GetTouchable()-&gt;GetReplicaNumber(1);</div>
@@ -238,11 +238,11 @@ $(document).ready(function(){initNavTree('d4/d59/PHG4SpacalPrototypeSteppingActi
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        {</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;          <span class="comment">// other configuraitons</span></div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;          <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03a1d62011dd8c9678a545cf1b61951cbd9">PHG4SpacalPrototypeDetector::FIBER_CORE</a>)</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;          <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5a1d62011dd8c9678a545cf1b61951cbd9">PHG4SpacalPrototypeDetector::FIBER_CORE</a>)</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            {</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;              scint_id = prePoint-&gt;GetTouchable()-&gt;GetReplicaNumber(2);</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            }</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;          <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03aea8a36e66027ec2196357963a9604a05">PHG4SpacalPrototypeDetector::FIBER_CLADING</a>)</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;          <span class="keywordflow">else</span> <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5aea8a36e66027ec2196357963a9604a05">PHG4SpacalPrototypeDetector::FIBER_CLADING</a>)</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            {</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;              scint_id = prePoint-&gt;GetTouchable()-&gt;GetReplicaNumber(1);</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            }</div>
@@ -275,7 +275,7 @@ $(document).ready(function(){initNavTree('d4/d59/PHG4SpacalPrototypeSteppingActi
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="comment">// time in ns</span></div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <a class="code" href="../../dd/d86/classPHG4SpacalPrototypeSteppingAction.html#a6a8537d0633c0482867f8890d0043b9e">hit</a>-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#a5cced855d1a85cb380f993417f1e5b1a">set_t</a>(0, prePoint-&gt;GetGlobalTime() / nanosecond);</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03a1d62011dd8c9678a545cf1b61951cbd9">PHG4SpacalPrototypeDetector::FIBER_CORE</a>) <span class="comment">// only for active areas</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5a1d62011dd8c9678a545cf1b61951cbd9">PHG4SpacalPrototypeDetector::FIBER_CORE</a>) <span class="comment">// only for active areas</span></div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;          {</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            <span class="comment">// store all pre local coordinates</span></div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            <a class="code" href="../../df/d3f/classPHG4SteppingAction.html#aea99a3121d5ff333ed1a6e7cfd7a0645" title="Extract local coordinate of the hit and save to PHG4Hit.">StoreLocalCoordinate</a>(<a class="code" href="../../dd/d86/classPHG4SpacalPrototypeSteppingAction.html#a6a8537d0633c0482867f8890d0043b9e">hit</a>, aStep, <span class="keyword">true</span>, <span class="keyword">false</span>);</div>
@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('d4/d59/PHG4SpacalPrototypeSteppingActi
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            }</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="comment">//set the initial energy deposit</span></div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <a class="code" href="../../dd/d86/classPHG4SpacalPrototypeSteppingAction.html#a6a8537d0633c0482867f8890d0043b9e">hit</a>-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#ad97bbe7fcf81822a93654afe0e540143">set_edep</a>(0);</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03a1d62011dd8c9678a545cf1b61951cbd9">PHG4SpacalPrototypeDetector::FIBER_CORE</a>) <span class="comment">// only for active areas</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5a1d62011dd8c9678a545cf1b61951cbd9">PHG4SpacalPrototypeDetector::FIBER_CORE</a>) <span class="comment">// only for active areas</span></div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;          {</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <a class="code" href="../../dd/d86/classPHG4SpacalPrototypeSteppingAction.html#a6a8537d0633c0482867f8890d0043b9e">hit</a>-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#a65d6d5bfd2a9e6fe2392fc57ac6c57d0">set_eion</a>(0); <span class="comment">// only for fiber core hits</span></div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            <a class="code" href="../../dd/d86/classPHG4SpacalPrototypeSteppingAction.html#a6a8537d0633c0482867f8890d0043b9e">hit</a>-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#a40744d6a0270043b6feee33d7b522e99">set_light_yield</a>(0);</div>
@@ -337,7 +337,7 @@ $(document).ready(function(){initNavTree('d4/d59/PHG4SpacalPrototypeSteppingActi
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;      <span class="comment">//sum up the energy to get total deposited</span></div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;      <a class="code" href="../../dd/d86/classPHG4SpacalPrototypeSteppingAction.html#a6a8537d0633c0482867f8890d0043b9e">hit</a>-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#ad97bbe7fcf81822a93654afe0e540143">set_edep</a>(<a class="code" href="../../dd/d86/classPHG4SpacalPrototypeSteppingAction.html#a6a8537d0633c0482867f8890d0043b9e">hit</a>-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#a299edb9d0b140d0456f8bfecdf9cac56">get_edep</a>() + edep);</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;      <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#a725473712c631b6e3357622f6405eb03a1d62011dd8c9678a545cf1b61951cbd9">PHG4SpacalPrototypeDetector::FIBER_CORE</a>) <span class="comment">// only for active areas</span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;      <span class="keywordflow">if</span> (isactive == <a class="code" href="../../db/dc2/classPHG4SpacalPrototypeDetector.html#ac261369a77aaef99b9b765170faad6a5a1d62011dd8c9678a545cf1b61951cbd9">PHG4SpacalPrototypeDetector::FIBER_CORE</a>) <span class="comment">// only for active areas</span></div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        {</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;          <span class="comment">// store all pre local coordinates</span></div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;          <a class="code" href="../../df/d3f/classPHG4SteppingAction.html#aea99a3121d5ff333ed1a6e7cfd7a0645" title="Extract local coordinate of the hit and save to PHG4Hit.">StoreLocalCoordinate</a>(<a class="code" href="../../dd/d86/classPHG4SpacalPrototypeSteppingAction.html#a6a8537d0633c0482867f8890d0043b9e">hit</a>, aStep, <span class="keyword">false</span>, <span class="keyword">true</span>);</div>
@@ -496,7 +496,7 @@ $(document).ready(function(){initNavTree('d4/d59/PHG4SpacalPrototypeSteppingActi
 		<li class="navelem"><a class="el" href="../../dir_9aca75ba370bf8e181613d44218f2f4a.html">prototype</a></li><li class="navelem"><a class="el" href="../../dir_32a0e629f48aaf51e8563fa582f6c0dc.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_d16e641b794a0d5a9a53ac33cf9aa65b.html">master</a></li><li class="navelem"><a class="el" href="../../dir_1502cad5a2e0b8adfd1abb5f56f36e75.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_98772dd17d333af307c5d53d8eec7a80.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_af13711d3c41a00d52e8361b7edc32ab.html">g4caloprototype</a></li><li class="navelem"><a class="el" href="../../d4/d59/PHG4SpacalPrototypeSteppingAction_8cc.html">PHG4SpacalPrototypeSteppingAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:27</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:35</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

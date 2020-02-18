@@ -1,0 +1,17 @@
+<map id="genfit::GblFitterInfo::GblFitterInfo" name="genfit::GblFitterInfo::GblFitterInfo">
+<area shape="rect" id="node2" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#ab73b2438fc8bc96ea96449b799c8f583" title="Get the dimension of the state vector used by the track representation." alt="" coords="243,5,399,49"/>
+<area shape="rect" id="node3" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#aaabf5d464819db19f5542ac201708772" title="Get the jacobian and noise matrix of the last extrapolation." alt="" coords="207,73,435,117"/>
+<area shape="rect" id="node4" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a80dd649bc2ad13bf0da08f26df9f0f28" title="(Initial) reset of fitter info" alt="" coords="244,141,397,185"/>
+<area shape="rect" id="node6" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#ace7d8c155c827ea69739eb6d81fd13be" title="Set the prediction and plane (from measurement if any) You should use the user constructor instead..." alt="" coords="243,260,398,304"/>
+<area shape="rect" id="node5" href="$de/d77/classgenfit_1_1HMatrixUV.html#ade2490dc36a0abc78fab7553ca231cff" title="Get the actual matrix representation." alt="" coords="526,89,674,133"/>
+<area shape="rect" id="node7" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a80fd6a7510eb55797dc0f57a8740b74f" title="SHOULD BE USED ONLY INTERNALY! Update the plane from measurement constructed with state or take plane..." alt="" coords="483,157,717,201"/>
+<area shape="rect" id="node13" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="519,225,681,269"/>
+<area shape="rect" id="node14" href="$db/d40/classgenfit_1_1TrackPoint.html#a2540c1979de60b5456130b1e648c783d" title="genfit::TrackPoint\l::getTrack" alt="" coords="531,293,669,337"/>
+<area shape="rect" id="node15" href="$d6/d8a/classgenfit_1_1Track.html#a80d4da704486d458d1fbb9ec0c497f21" title="genfit::Track::getCovSeed" alt="" coords="503,361,697,389"/>
+<area shape="rect" id="node16" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a2801bf4fa1196147472cc1807281e23d" title="genfit::StateOnPlane\l::getAuxInfo" alt="" coords="519,413,681,457"/>
+<area shape="rect" id="node8" href="$db/d40/classgenfit_1_1TrackPoint.html#ada7b4d8c988a1798e455fb70929f88b7" title="genfit::TrackPoint\l::hasRawMeasurements" alt="" coords="799,21,981,65"/>
+<area shape="rect" id="node9" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#af02a4a29abfa1c31c8208baf757a21c5" title="genfit::AbsFitterInfo\l::setPlane" alt="" coords="813,89,967,133"/>
+<area shape="rect" id="node10" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a30c7e8d87fa50205baa927d4ceccb594" title="genfit::StateOnPlane\l::getPlane" alt="" coords="809,157,971,201"/>
+<area shape="rect" id="node11" href="$db/d40/classgenfit_1_1TrackPoint.html#a2999fc0669beb86b6309f86e040bcdef" title="genfit::TrackPoint\l::getRawMeasurement" alt="" coords="803,225,977,269"/>
+<area shape="rect" id="node12" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a88f7a366bee3fdc9ad109b71690665f9" title="genfit::AbsMeasurement\l::constructMeasurementsOnPlane" alt="" coords="765,293,1015,337"/>
+</map>

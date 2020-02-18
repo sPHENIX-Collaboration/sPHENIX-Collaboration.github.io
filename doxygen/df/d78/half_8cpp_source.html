@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('df/d78/half_8cpp_source.html','../../'
 <div class="title">half.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/d78/half_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../df/d78/half_8cpp.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/Half/half.cpp">the newest version in sPHENIX GitHub for file half.cpp</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// Copyright (c) 2002, Industrial Light &amp; Magic, a division of Lucas</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Digital Ltd. LLC</span></div>
@@ -255,10 +255,10 @@ $(document).ready(function(){initNavTree('df/d78/half_8cpp_source.html','../../'
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="comment">// </span></div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d4/d68/HelixHough__kappaRange__sse_8cpp.html#aaccc9105df5383111407fd5b41255e23">t</a> = 14 - e;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordtype">int</span> a = (1 &lt;&lt; (t - 1)) - 1;</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordtype">int</span> b = (m &gt;&gt; <a class="code" href="../../d4/d68/HelixHough__kappaRange__sse_8cpp.html#aaccc9105df5383111407fd5b41255e23">t</a>) &amp; 1;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a6d2496198d1982fd950acfb79033902b">a</a> = (1 &lt;&lt; (t - 1)) - 1;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a> = (m &gt;&gt; <a class="code" href="../../d4/d68/HelixHough__kappaRange__sse_8cpp.html#aaccc9105df5383111407fd5b41255e23">t</a>) &amp; 1;</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        m = (m + a + b) &gt;&gt; t;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        m = (m + a + <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>) &gt;&gt; t;</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="comment">//</span></div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="comment">// Assemble the half from s, e (zero) and m.</span></div>
@@ -361,7 +361,7 @@ $(document).ready(function(){initNavTree('df/d78/half_8cpp_source.html','../../'
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="keywordtype">void</span></div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<a class="code" href="../../d8/dd3/half_8h.html#a363495b804a034167515772b1da499cd">printBits</a> (ostream &amp;<a class="code" href="../../dd/d4f/MyFavoriteMartin_8C.html#acfd38cc0ea370d0cb45f8d3a46b1f81e">os</a>, <a class="code" href="../../d2/d29/classhalf.html">half</a> <a class="code" href="../../d3/d67/namespaceSVM__v1.html#a9f85337625d8c41cf09c15e1cbb693e8">h</a>)</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;{</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> b = h.<a class="code" href="../../d2/d29/classhalf.html#a0ddbf7dafaa9b839ae9fc3ac4c8b39ed">bits</a>();</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a> = h.<a class="code" href="../../d2/d29/classhalf.html#a0ddbf7dafaa9b839ae9fc3ac4c8b39ed">bits</a>();</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 15; i &gt;= 0; i--)</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    {</div>
@@ -432,7 +432,7 @@ $(document).ready(function(){initNavTree('df/d78/half_8cpp_source.html','../../'
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_df1aae9504b85465692e6f6f8c000ca6.html">Half</a></li><li class="navelem"><a class="el" href="../../df/d78/half_8cpp.html">half.cpp</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:19</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:25</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

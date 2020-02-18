@@ -17,7 +17,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d4/d0a/namespaceROOTDict.html#ac4cdd2fabc07a0a40c3c11efe6ba6fc2" target="_top" xlink:title="ROOTDict::GenerateInitInstance\lLocal">
+<g id="a_node2"><a xlink:href="../../d4/d0a/namespaceROOTDict.html#a396063b4e6eb0c3ad6fee275d09abecd" target="_top" xlink:title="ROOTDict::GenerateInitInstance\lLocal">
 <polygon fill="none" stroke="#000000" points="193,-.5 193,-32.5 371,-32.5 371,-.5 193,-.5"/>
 <text text-anchor="start" x="201" y="-19.5" font-family="FreeSans" font-size="10.00" fill="#000000">ROOTDict::GenerateInitInstance</text>
 <text text-anchor="middle" x="282" y="-7.5" font-family="FreeSans" font-size="10.00" fill="#000000">Local</text>

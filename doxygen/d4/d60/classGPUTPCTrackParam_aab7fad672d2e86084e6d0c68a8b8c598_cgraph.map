@@ -1,0 +1,5 @@
+<map id="GPUTPCTrackParam::CalculateFitParameters" name="GPUTPCTrackParam::CalculateFitParameters">
+<area shape="rect" id="node2" href="$d4/d60/classGPUTPCTrackParam.html#ac79aa7d700c172a0922baeb99e79b24d" title="GPUTPCTrackParam::Approximate\lBetheBloch" alt="" coords="279,5,527,49"/>
+<area shape="rect" id="node3" href="$d4/d60/classGPUTPCTrackParam.html#abaa3dafe3956a618707ab461f0306a8f" title="GPUTPCTrackParam::GetPar" alt="" coords="299,73,507,101"/>
+<area shape="rect" id="node4" href="$d3/dbf/classGPUTPCBaseTrackParam.html#aca7f7396e502b66217fd7fb702a25e0b" title="GPUTPCBaseTrackParam\l::GetPar" alt="" coords="575,65,761,109"/>
+</map>

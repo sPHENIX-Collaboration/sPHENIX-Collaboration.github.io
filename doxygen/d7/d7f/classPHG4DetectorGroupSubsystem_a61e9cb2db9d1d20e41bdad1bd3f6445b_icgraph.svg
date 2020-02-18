@@ -11,88 +11,73 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-499.5 0,-531.5 175,-531.5 175,-499.5 0,-499.5"/>
-<text text-anchor="start" x="8" y="-518.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4DetectorGroupSubsystem</text>
-<text text-anchor="middle" x="87.5" y="-506.5" font-family="FreeSans" font-size="10.00" fill="#000000">::set_int_param</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-493.5 0,-525.5 175,-525.5 175,-493.5 0,-493.5"/>
+<text text-anchor="start" x="8" y="-512.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4DetectorGroupSubsystem</text>
+<text text-anchor="middle" x="87.5" y="-500.5" font-family="FreeSans" font-size="10.00" fill="#000000">::set_int_param</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="../../d7/d7f/classPHG4DetectorGroupSubsystem.html#adf8befda8cba06e03d9f37c7a38ec758" target="_top" xlink:title="PHG4DetectorGroupSubsystem\l::BlackHole">
-<polygon fill="none" stroke="#000000" points="211,-624.5 211,-656.5 386,-656.5 386,-624.5 211,-624.5"/>
-<text text-anchor="start" x="219" y="-643.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4DetectorGroupSubsystem</text>
-<text text-anchor="middle" x="298.5" y="-631.5" font-family="FreeSans" font-size="10.00" fill="#000000">::BlackHole</text>
+<polygon fill="none" stroke="#000000" points="211,-595.5 211,-627.5 386,-627.5 386,-595.5 211,-595.5"/>
+<text text-anchor="start" x="219" y="-614.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4DetectorGroupSubsystem</text>
+<text text-anchor="middle" x="298.5" y="-602.5" font-family="FreeSans" font-size="10.00" fill="#000000">::BlackHole</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M110.5733,-538.6311C134.0136,-560.9434 172.2854,-594.2324 211,-614.5 218.1603,-618.2485 225.9404,-621.5354 233.8092,-624.3958"/>
-<polygon fill="#191970" stroke="#191970" points="112.8369,-535.9514 103.2134,-531.5198 107.9729,-540.9854 112.8369,-535.9514"/>
+<path fill="none" stroke="#191970" d="M118.1369,-531.5151C142.3939,-548.1496 177.6322,-570.5891 211,-585.5 219.2471,-589.1853 228.1595,-592.5185 237.0321,-595.4736"/>
+<polygon fill="#191970" stroke="#191970" points="119.9316,-528.5004 109.7207,-525.674 115.9404,-534.2511 119.9316,-528.5004"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="../../d7/d7f/classPHG4DetectorGroupSubsystem.html#a74872175f2d652da1c50b5c29c461765" target="_top" xlink:title="PHG4DetectorGroupSubsystem\l::SetAbsorberActive">
-<polygon fill="none" stroke="#000000" points="211,-573.5 211,-605.5 386,-605.5 386,-573.5 211,-573.5"/>
-<text text-anchor="start" x="219" y="-592.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4DetectorGroupSubsystem</text>
-<text text-anchor="middle" x="298.5" y="-580.5" font-family="FreeSans" font-size="10.00" fill="#000000">::SetAbsorberActive</text>
+<polygon fill="none" stroke="#000000" points="211,-544.5 211,-576.5 386,-576.5 386,-544.5 211,-544.5"/>
+<text text-anchor="start" x="219" y="-563.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4DetectorGroupSubsystem</text>
+<text text-anchor="middle" x="298.5" y="-551.5" font-family="FreeSans" font-size="10.00" fill="#000000">::SetAbsorberActive</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="#191970" d="M135.8099,-535.3329C158.4776,-544.3659 185.9578,-554.929 211,-563.5 220.8957,-566.8869 231.5049,-570.2556 241.8018,-573.3904"/>
-<polygon fill="#191970" stroke="#191970" points="136.9953,-532.0374 126.411,-531.5656 134.3909,-538.5349 136.9953,-532.0374"/>
+<path fill="none" stroke="#191970" d="M163.749,-527.9298C186.0852,-533.3287 210.3209,-539.1866 231.9996,-544.4264"/>
+<polygon fill="#191970" stroke="#191970" points="164.5145,-524.5142 153.9721,-525.5667 162.8699,-531.3182 164.5145,-524.5142"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="../../d7/d7f/classPHG4DetectorGroupSubsystem.html#a6a39eae5211c98d0c749e816838c6a5e" target="_top" xlink:title="PHG4DetectorGroupSubsystem\l::SetAbsorberTruth">
-<polygon fill="none" stroke="#000000" points="211,-522.5 211,-554.5 386,-554.5 386,-522.5 211,-522.5"/>
-<text text-anchor="start" x="219" y="-541.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4DetectorGroupSubsystem</text>
-<text text-anchor="middle" x="298.5" y="-529.5" font-family="FreeSans" font-size="10.00" fill="#000000">::SetAbsorberTruth</text>
+<polygon fill="none" stroke="#000000" points="211,-493.5 211,-525.5 386,-525.5 386,-493.5 211,-493.5"/>
+<text text-anchor="start" x="219" y="-512.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4DetectorGroupSubsystem</text>
+<text text-anchor="middle" x="298.5" y="-500.5" font-family="FreeSans" font-size="10.00" fill="#000000">::SetAbsorberTruth</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M185.1445,-526.1437C193.697,-527.076 202.3188,-528.0158 210.7833,-528.9385"/>
-<polygon fill="#191970" stroke="#191970" points="185.4703,-522.6586 175.1499,-525.0543 184.7117,-529.6174 185.4703,-522.6586"/>
+<path fill="none" stroke="#191970" d="M185.4234,-509.5C193.8845,-509.5 202.4108,-509.5 210.7833,-509.5"/>
+<polygon fill="#191970" stroke="#191970" points="185.15,-506.0001 175.1499,-509.5 185.1499,-513.0001 185.15,-506.0001"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="../../d7/d7f/classPHG4DetectorGroupSubsystem.html#a733a9f71c522dd7376ac44867b3d65fe" target="_top" xlink:title="PHG4DetectorGroupSubsystem\l::SetActive">
-<polygon fill="none" stroke="#000000" points="211,-432.5 211,-464.5 386,-464.5 386,-432.5 211,-432.5"/>
-<text text-anchor="start" x="219" y="-451.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4DetectorGroupSubsystem</text>
-<text text-anchor="middle" x="298.5" y="-439.5" font-family="FreeSans" font-size="10.00" fill="#000000">::SetActive</text>
+<polygon fill="none" stroke="#000000" points="211,-442.5 211,-474.5 386,-474.5 386,-442.5 211,-442.5"/>
+<text text-anchor="start" x="219" y="-461.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHG4DetectorGroupSubsystem</text>
+<text text-anchor="middle" x="298.5" y="-449.5" font-family="FreeSans" font-size="10.00" fill="#000000">::SetActive</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="#191970" d="M147.6511,-496.3999C179.3738,-486.3268 217.8526,-474.1084 248.0074,-464.5332"/>
-<polygon fill="#191970" stroke="#191970" points="146.5115,-493.0895 138.0398,-499.4518 148.6301,-499.7612 146.5115,-493.0895"/>
-</g>
-<!-- Node6 -->
-<g id="node6" class="node">
-<title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d5/d17/G4__Svtx__maps__ladders_09intt__ladders_09tpc__KalmanPatRec__EIC_8C.html#ac4c82b429746ee57457304af3cebbc56" target="_top" xlink:title="Svtx">
-<polygon fill="none" stroke="#000000" points="432.5,-459.5 432.5,-479.5 470.5,-479.5 470.5,-459.5 432.5,-459.5"/>
-<text text-anchor="middle" x="451.5" y="-466.5" font-family="FreeSans" font-size="10.00" fill="#000000">Svtx</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node6 -->
-<g id="edge30" class="edge">
-<title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M185.0941,-503.1667C270.1124,-492.4226 386.6948,-477.6897 432.2023,-471.9387"/>
-<polygon fill="#191970" stroke="#191970" points="184.6325,-499.6971 175.1503,-504.4233 185.5102,-506.6418 184.6325,-499.6971"/>
+<path fill="none" stroke="#191970" d="M163.749,-491.0702C186.0852,-485.6713 210.3209,-479.8134 231.9996,-474.5736"/>
+<polygon fill="#191970" stroke="#191970" points="162.8699,-487.6818 153.9721,-493.4333 164.5145,-494.4858 162.8699,-487.6818"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
@@ -104,22 +89,31 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
-<g id="edge31" class="edge">
+<g id="edge30" class="edge">
 <title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="#191970" d="M109.5132,-492.0363C132.4012,-469.4543 170.4947,-436.7039 211,-422.5 283.3317,-397.1356 375.5375,-404.5369 421.9621,-410.7633"/>
-<polygon fill="#191970" stroke="#191970" points="106.9047,-489.6962 102.3526,-499.2633 111.8772,-494.6231 106.9047,-489.6962"/>
+<path fill="none" stroke="#191970" d="M114.7013,-487.0374C138.4994,-468.7992 174.8292,-444.2478 211,-432.5 283.8533,-408.8383 375.445,-410.3184 421.7569,-413.0866"/>
+<polygon fill="#191970" stroke="#191970" points="112.243,-484.5168 106.5241,-493.4357 116.5566,-490.0298 112.243,-484.5168"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="../../d5/d17/G4__Svtx__maps__ladders_09intt__ladders_09tpc__KalmanPatRec__EIC_8C.html#ac4c82b429746ee57457304af3cebbc56" target="_top" xlink:title="Svtx">
+<polygon fill="none" stroke="#000000" points="432.5,-448.5 432.5,-468.5 470.5,-468.5 470.5,-448.5 432.5,-448.5"/>
+<text text-anchor="middle" x="451.5" y="-455.5" font-family="FreeSans" font-size="10.00" fill="#000000">Svtx</text>
+</a>
+</g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M396.3012,-461.9237C410.012,-463.8056 422.7308,-465.5513 432.4956,-466.8916"/>
-<polygon fill="#191970" stroke="#191970" points="396.5535,-458.4256 386.1704,-460.5332 395.6016,-465.3606 396.5535,-458.4256"/>
+<path fill="none" stroke="#191970" d="M396.3012,-458.5C410.012,-458.5 422.7308,-458.5 432.4956,-458.5"/>
+<polygon fill="#191970" stroke="#191970" points="396.1705,-455.0001 386.1704,-458.5 396.1704,-462.0001 396.1705,-455.0001"/>
 </g>
 <!-- Node5&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node5&#45;&gt;Node9</title>
-<path fill="none" stroke="#191970" d="M382.9215,-430.2914C396.8288,-427.2918 410.3831,-424.3684 421.7193,-421.9233"/>
-<polygon fill="#191970" stroke="#191970" points="381.7963,-426.9536 372.7591,-432.4833 383.2722,-433.7962 381.7963,-426.9536"/>
+<path fill="none" stroke="#191970" d="M365.1263,-439.7749C384.9902,-434.1923 405.7573,-428.3558 421.9491,-423.8052"/>
+<polygon fill="#191970" stroke="#191970" points="364.1516,-436.4132 355.4716,-442.4884 366.0456,-443.1521 364.1516,-436.4132"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
@@ -133,8 +127,8 @@
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="#191970" d="M480.7562,-477.7714C492.1824,-481.0018 505.2797,-484.7047 516.7955,-487.9605"/>
-<polygon fill="#191970" stroke="#191970" points="481.4009,-474.3165 470.8259,-474.9639 479.4964,-481.0525 481.4009,-474.3165"/>
+<path fill="none" stroke="#191970" d="M480.3349,-469.9736C493.4572,-475.195 508.8528,-481.321 521.541,-486.3697"/>
+<polygon fill="#191970" stroke="#191970" points="481.4113,-466.635 470.8259,-466.1899 478.8233,-473.1391 481.4113,-466.635"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
@@ -148,8 +142,8 @@
 <!-- Node6&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node6&#45;&gt;Node8</title>
-<path fill="none" stroke="#191970" d="M480.843,-465.8129C492.3721,-464.3642 505.5917,-462.7031 517.1679,-461.2485"/>
-<polygon fill="#191970" stroke="#191970" points="480.3114,-462.3521 470.8259,-467.0716 481.1842,-469.2975 480.3114,-462.3521"/>
+<path fill="none" stroke="#191970" d="M480.843,-458.1927C492.3721,-458.072 505.5917,-457.9336 517.1679,-457.8124"/>
+<polygon fill="#191970" stroke="#191970" points="480.7886,-454.693 470.8259,-458.2976 480.862,-461.6926 480.7886,-454.693"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
@@ -290,7 +284,7 @@
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="../../d7/d9e/Fun4All__G4__fsPHENIX_8C.html#af48911d394d2412e817583700f2bbee2" target="_top" xlink:title="Fun4All_G4_fsPHENIX">
+<g id="a_node20"><a xlink:href="../../d7/d9e/Fun4All__G4__fsPHENIX_8C.html#a72c444217210a14ab1b4e66d9818b1ff" target="_top" xlink:title="Fun4All_G4_fsPHENIX">
 <polygon fill="none" stroke="#000000" points="634.5,-450.5 634.5,-470.5 758.5,-470.5 758.5,-450.5 634.5,-450.5"/>
 <text text-anchor="middle" x="696.5" y="-457.5" font-family="FreeSans" font-size="10.00" fill="#000000">Fun4All_G4_fsPHENIX</text>
 </a>
@@ -336,7 +330,7 @@
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="../../d5/d2c/macros_2blob_2master_2macros_2g4simulations_2Fun4All__G4__sPHENIX_8C.html#a6eaaa492d7023ec86c562dc63aa1e5a4" target="_top" xlink:title="Fun4All_G4_sPHENIX">
+<g id="a_node23"><a xlink:href="../../d5/d2c/macros_2blob_2master_2macros_2g4simulations_2Fun4All__G4__sPHENIX_8C.html#a536fa7366e3aeaf273cca94ced704c46" target="_top" xlink:title="Fun4All_G4_sPHENIX">
 <polygon fill="none" stroke="#000000" points="636,-321.5 636,-341.5 757,-341.5 757,-321.5 636,-321.5"/>
 <text text-anchor="middle" x="696.5" y="-328.5" font-family="FreeSans" font-size="10.00" fill="#000000">Fun4All_G4_sPHENIX</text>
 </a>

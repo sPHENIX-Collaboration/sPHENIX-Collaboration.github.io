@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['icalibrationparametersderivatives',['ICalibrationParametersDerivatives',['../dd/d08/classgenfit_1_1ICalibrationParametersDerivatives.html',1,'genfit']]],
   ['iclassifierreader',['IClassifierReader',['../dd/d1e/classIClassifierReader.html',1,'']]],
   ['inttclusterizer',['InttClusterizer',['../d5/d86/classInttClusterizer.html',1,'']]],
   ['inttdeadmap',['InttDeadMap',['../dd/d6a/classInttDeadMap.html',1,'']]],

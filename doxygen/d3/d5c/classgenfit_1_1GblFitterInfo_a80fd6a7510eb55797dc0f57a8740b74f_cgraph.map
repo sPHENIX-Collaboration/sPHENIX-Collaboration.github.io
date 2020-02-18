@@ -1,0 +1,7 @@
+<map id="genfit::GblFitterInfo::updateMeasurementAndPlane" name="genfit::GblFitterInfo::updateMeasurementAndPlane">
+<area shape="rect" id="node2" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a88f7a366bee3fdc9ad109b71690665f9" title="genfit::AbsMeasurement\l::constructMeasurementsOnPlane" alt="" coords="288,5,537,49"/>
+<area shape="rect" id="node3" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a30c7e8d87fa50205baa927d4ceccb594" title="genfit::StateOnPlane\l::getPlane" alt="" coords="332,73,493,117"/>
+<area shape="rect" id="node4" href="$db/d40/classgenfit_1_1TrackPoint.html#a2999fc0669beb86b6309f86e040bcdef" title="genfit::TrackPoint\l::getRawMeasurement" alt="" coords="326,141,499,185"/>
+<area shape="rect" id="node5" href="$db/d40/classgenfit_1_1TrackPoint.html#ada7b4d8c988a1798e455fb70929f88b7" title="genfit::TrackPoint\l::hasRawMeasurements" alt="" coords="321,209,504,253"/>
+<area shape="rect" id="node6" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#af02a4a29abfa1c31c8208baf757a21c5" title="genfit::AbsFitterInfo\l::setPlane" alt="" coords="335,277,490,321"/>
+</map>

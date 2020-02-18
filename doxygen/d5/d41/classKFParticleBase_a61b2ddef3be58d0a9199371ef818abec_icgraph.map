@@ -1,0 +1,4 @@
+<map id="KFParticleBase::SubtractFromVertex" name="KFParticleBase::SubtractFromVertex">
+<area shape="rect" id="node2" href="$d8/d00/classKFVertex.html#aa7bf314d94f6d9b5ba7a734bd0e7db1c" title="Subtracts particle from a vertex, returns temporary object. Initial vertex stays untouched." alt="" coords="247,5,399,33"/>
+<area shape="rect" id="node3" href="$d8/d00/classKFVertex.html#aa196e7fe7d77847e7684e26d158bc16c" title="Subtracts particle from a current vertex." alt="" coords="241,57,404,85"/>
+</map>

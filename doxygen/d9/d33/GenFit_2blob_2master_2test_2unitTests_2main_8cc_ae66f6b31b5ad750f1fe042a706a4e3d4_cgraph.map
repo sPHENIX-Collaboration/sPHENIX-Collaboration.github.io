@@ -1,0 +1,51 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$d9/d33/GenFit_2blob_2master_2test_2unitTests_2main_8cc.html#a813b5bceb138d9c56aa0b9c3922c6f11" title="checkErrorPropagation" alt="" coords="141,925,314,953"/>
+<area shape="rect" id="node14" href="$d9/d33/GenFit_2blob_2master_2test_2unitTests_2main_8cc.html#a3530c468ba67ffcaad31b7663f928d34" title="checkExtrapolateBy" alt="" coords="149,507,305,535"/>
+<area shape="rect" id="node20" href="$d9/d33/GenFit_2blob_2master_2test_2unitTests_2main_8cc.html#a599f894222691dd91bf055dba6aeb41a" title="checkExtrapolateToCylinder" alt="" coords="122,611,333,639"/>
+<area shape="rect" id="node22" href="$d9/d33/GenFit_2blob_2master_2test_2unitTests_2main_8cc.html#a7e1efbff855dc24d7eb9f6c78146d750" title="checkExtrapolateToLine" alt="" coords="137,663,318,691"/>
+<area shape="rect" id="node25" href="$d9/d33/GenFit_2blob_2master_2test_2unitTests_2main_8cc.html#a8a5079d86598ce94658a27b2f42b55f6" title="checkExtrapolateToPoint" alt="" coords="133,715,321,743"/>
+<area shape="rect" id="node27" href="$d9/d33/GenFit_2blob_2master_2test_2unitTests_2main_8cc.html#a44685aea144b7b6206b6df4ddc37f1c9" title="checkExtrapolateToSphere" alt="" coords="127,819,328,847"/>
+<area shape="rect" id="node29" href="$d9/d33/GenFit_2blob_2master_2test_2unitTests_2main_8cc.html#abbc5fafb91bfb1c1916fb27ef0e5ab6c" title="checkSetGetPosMom" alt="" coords="146,559,309,587"/>
+<area shape="rect" id="node30" href="$d9/d33/GenFit_2blob_2master_2test_2unitTests_2main_8cc.html#adcf0d791d51ca83c8efa2d576271c909" title="checkStopAtBoundary" alt="" coords="142,871,313,899"/>
+<area shape="rect" id="node31" href="$d9/d33/GenFit_2blob_2master_2test_2unitTests_2main_8cc.html#a89c65919e505a43b0b654dd1794be626" title="compareForthBackExtrapolation" alt="" coords="108,767,347,795"/>
+<area shape="rect" id="node32" href="$d9/d33/GenFit_2blob_2master_2test_2unitTests_2main_8cc.html#ae196de09f5576b24a640ca8840808b26" title="compareForthBackJacNoise" alt="" coords="125,1411,330,1439"/>
+<area shape="rect" id="node39" href="$d1/d34/classgenfit_1_1MaterialEffects.html#a15a93d367165ade368e6caec713d0934" title="genfit::MaterialEffects\l::getInstance" alt="" coords="429,1973,599,2017"/>
+<area shape="rect" id="node44" href="$de/d8e/classgenfit_1_1FieldManager.html#aaf0b56fea4f0deb428de8749febf792d" title="Get singleton instance." alt="" coords="147,1515,308,1559"/>
+<area shape="rect" id="node46" href="$d0/d48/GenFit_2blob_2master_2test_2fitterTests_2main_8cc.html#a3c2348f39cf58c5c0f48742b32b15d83" title="handler" alt="" coords="190,1583,265,1611"/>
+<area shape="rect" id="node48" href="$d1/d34/classgenfit_1_1MaterialEffects.html#a9c604002cb66d43e99da8802e3b8918e" title="set the material interface here. Material interface classes must be derived from AbsMaterialInterface..." alt="" coords="142,1635,313,1679"/>
+<area shape="rect" id="node49" href="$de/d8e/classgenfit_1_1FieldManager.html#a0360198b189d2d5acaebfca7a468437e" title="set the magnetic field here. Magnetic field classes must be derived from AbsBField." alt="" coords="147,1703,308,1747"/>
+<area shape="rect" id="node50" href="$d9/d9e/evDisplay_8C.html#a4e8c1369ad3f4b66e1057a8bf987b94b" title="signal" alt="" coords="197,1771,258,1799"/>
+<area shape="rect" id="node3" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a2f8c69950056c0c679d66bfb2eae2431" title="Extrapolates the state to plane, and returns the extrapolation length and, via reference, the extrapolated state." alt="" coords="687,1261,846,1305"/>
+<area shape="rect" id="node4" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#adea48432beb9b8fc30bc4bf05b4c5547" title="genfit::MeasuredStateOnPlane\l::getCov" alt="" coords="401,1373,627,1417"/>
+<area shape="rect" id="node5" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a30c7e8d87fa50205baa927d4ceccb594" title="genfit::StateOnPlane\l::getPlane" alt="" coords="433,516,595,560"/>
+<area shape="rect" id="node6" href="$d9/d33/GenFit_2blob_2master_2test_2unitTests_2main_8cc.html#a674f0aae4689ac71d5f9700bd4226ecf" title="isCovMatrix" alt="" coords="464,1321,564,1349"/>
+<area shape="rect" id="node7" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#af7fb7f4101eb24f1b97f20aaefa51d16" title="genfit::MeasuredStateOnPlane\l::Print" alt="" coords="401,1151,627,1195"/>
+<area shape="rect" id="node10" href="$d0/d48/GenFit_2blob_2master_2test_2fitterTests_2main_8cc.html#a5065b9931e76d8a6b721afec8677c356" title="randomPdg" alt="" coords="465,720,563,748"/>
+<area shape="rect" id="node11" href="$d0/d48/GenFit_2blob_2master_2test_2fitterTests_2main_8cc.html#a48dad8951dbb742965a65b06321c38b3" title="randomSign" alt="" coords="463,772,565,800"/>
+<area shape="rect" id="node12" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a6ef84bf5c2a3c96a90ea1d030ecff47b" title="Set position and momentum of state." alt="" coords="436,652,592,696"/>
+<area shape="rect" id="node13" href="$d8/db3/classgenfit_1_1Exception.html#a5cb44accc5d69d5742ed883a2d4ff88a" title="Standard error message handling for exceptions. use like &quot;std::cerr &lt;&lt; e.what();&quot;." alt="" coords="425,927,603,955"/>
+<area shape="rect" id="node8" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a14f25e4575846dcb14bd91ddb2a534d2" title="genfit::StateOnPlane\l::getRep" alt="" coords="686,833,847,877"/>
+<area shape="rect" id="node9" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#ae6f4c4eeb3e4fbadcc930f53e2ca4ad7" title="Translates MeasuredStateOnPlane into 3D position, momentum and 6x6 covariance." alt="" coords="689,1151,845,1195"/>
+<area shape="rect" id="node15" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#aff2dc02475fbef55f521373a8659d020" title="Extrapolates the state by step (cm) and returns the extrapolation length and, via reference..." alt="" coords="436,5,592,49"/>
+<area shape="rect" id="node16" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a20e8d3057df8bf8187b7e708350b39dc" title="genfit::StateOnPlane\l::getPos" alt="" coords="433,73,595,117"/>
+<area shape="rect" id="node18" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a903ae35eed9a3785f44fec8335d2295e" title="genfit::StateOnPlane\l::Print" alt="" coords="433,448,595,492"/>
+<area shape="rect" id="node17" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a8a5f4ef901011b30ecfaa612ae993c80" title="Get the cartesian position of a state." alt="" coords="689,667,845,711"/>
+<area shape="rect" id="node19" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a0c07d65d1102e91c2856e02590d1d99b" title="Get cartesian position and momentum vector of a state." alt="" coords="689,448,845,492"/>
+<area shape="rect" id="node21" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a3159647541c1414d7bfd2c97eec716ac" title="Extrapolates the state to the cylinder surface, and returns the extrapolation length and..." alt="" coords="425,244,603,288"/>
+<area shape="rect" id="node23" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a4442c7a510c9bc05a51130350f2268a1" title="Extrapolates the state to the POCA to a line, and returns the extrapolation length and..." alt="" coords="436,312,592,356"/>
+<area shape="rect" id="node24" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a5c793a4e2a75511b77a53ec977e2501b" title="Get the cartesian momentum vector of a state." alt="" coords="436,380,592,424"/>
+<area shape="rect" id="node26" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#adf11f826cc9b4d61fed7d7141e833e94" title="Extrapolates the state to the POCA to a point, and returns the extrapolation length and..." alt="" coords="436,584,592,628"/>
+<area shape="rect" id="node28" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a7e6519f084e4ac5c58b3f3f8836cfbf0" title="Extrapolates the state to the sphere surface, and returns the extrapolation length and..." alt="" coords="429,1031,599,1075"/>
+<area shape="rect" id="node33" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#ae33d294fcd4058c326abdb9a2bfff381" title="Calculate Jacobian of transportation numerically. Slow but accurate. Can be used to validate (semi)an..." alt="" coords="417,1493,611,1537"/>
+<area shape="rect" id="node35" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="686,1553,847,1597"/>
+<area shape="rect" id="node36" href="$d9/d33/GenFit_2blob_2master_2test_2unitTests_2main_8cc.html#a252a0cd93bf2bc2e61058a4401034918" title="compareMatrices" alt="" coords="445,1613,583,1641"/>
+<area shape="rect" id="node37" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#ab3a5dc2444864896ac2c4b9f0023a7f8" title="Get the jacobian and noise matrix of the last extrapolation if it would have been done in opposite di..." alt="" coords="395,1665,633,1709"/>
+<area shape="rect" id="node38" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#aaabf5d464819db19f5542ac201708772" title="Get the jacobian and noise matrix of the last extrapolation." alt="" coords="400,1733,628,1777"/>
+<area shape="rect" id="node41" href="$db/d5d/test__style_8C.html#aa587a93d9563c8d433bd1736432c4acd" title="Print" alt="" coords="487,1801,541,1829"/>
+<area shape="rect" id="node42" href="$dd/d25/classgenfit_1_1DetPlane.html#a1f77583b5d34cb6fd27bca12fb7d63a1" title="rotate u and v around normal. Angle is in rad. More for debugging than for actual use..." alt="" coords="424,1853,604,1881"/>
+<area shape="rect" id="node43" href="$d1/d34/classgenfit_1_1MaterialEffects.html#a0ba84e751f5c3d4d2983a9e4fb03f8da" title="genfit::MaterialEffects\l::setNoEffects" alt="" coords="429,1905,599,1949"/>
+<area shape="rect" id="node34" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#ab73b2438fc8bc96ea96449b799c8f583" title="Get the dimension of the state vector used by the track representation." alt="" coords="689,1485,845,1529"/>
+<area shape="rect" id="node40" href="$d1/d34/classgenfit_1_1MaterialEffects.html#a0cab227e2f45bd20ba63cf1b2ad260be" title="genfit::MaterialEffects\l::MaterialEffects" alt="" coords="681,1973,852,2017"/>
+<area shape="rect" id="node45" href="$de/d8e/classgenfit_1_1FieldManager.html#a01194f10c4efe8d19286492ba01e104e" title="genfit::FieldManager\l::FieldManager" alt="" coords="433,2041,595,2085"/>
+<area shape="rect" id="node47" href="$d4/d23/Prototype2_2EMCal_2macros_2EnergyCalibFit_8m.html#a0f562e412982273e906f55843990c582" title="fprintf" alt="" coords="482,2109,546,2137"/>
+</map>

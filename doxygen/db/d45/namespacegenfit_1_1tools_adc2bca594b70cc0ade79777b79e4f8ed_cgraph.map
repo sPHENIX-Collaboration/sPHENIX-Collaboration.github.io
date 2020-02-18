@@ -1,0 +1,9 @@
+<map id="genfit::tools::kalmanUpdateSqrt" name="genfit::tools::kalmanUpdateSqrt">
+<area shape="rect" id="node2" href="$d9/dc6/classgenfit_1_1AbsHMatrix.html#a331e54b0796cf01e4e222877d30e1eba" title="M*H^t." alt="" coords="293,13,477,41"/>
+<area shape="rect" id="node4" href="$db/d45/namespacegenfit_1_1tools.html#a409cdc24f5908845f845bf0c4a2d4961" title="Replaces A with an upper right matrix connected to A by an orthongonal transformation. I.e., it computes R from a QR decomposition of A = QR, replacing A." alt="" coords="319,65,451,93"/>
+<area shape="rect" id="node6" href="$d9/d03/KFParticleBaseSIMD_8h.html#a9fef1880f3bc3812ef130b5b1163ce17" title="Returns dS=l/p, l &#45; decay length, fP[7], defined if production vertex is set." alt="" coords="366,117,405,145"/>
+<area shape="rect" id="node7" href="$db/d45/namespacegenfit_1_1tools.html#a97e35224c7d7ec5d63f23ffda85aef4c" title="Solves R^t x = b, replacing b with the solution for x. R is assumed to be upper diagonal." alt="" coords="292,169,479,213"/>
+<area shape="rect" id="node3" href="$d9/dc6/classgenfit_1_1AbsHMatrix.html#a5e04e261388034ab5c4aaa51f714f0e6" title="Get the actual matrix representation." alt="" coords="527,5,673,49"/>
+<area shape="rect" id="node5" href="$da/d55/TPCRateLayered_8m.html#a7507ef556477c204b499f1e189d40796" title="sum" alt="" coords="575,99,625,127"/>
+<area shape="rect" id="node8" href="$d7/dd8/bk_8f.html#a084aa72b16f800aa352c4efed50eb2af" title="bk" alt="" coords="581,177,619,205"/>
+</map>

@@ -1,6 +1,6 @@
 var classFFT =
 [
-    [ "MaxP", "da/d71/classFFT.html#a6682f6db91e2f51027565dd69ffd2a08adf0fc4519953b00263cbe52ac741f29e", null ],
+    [ "MaxP", "da/d71/classFFT.html#a0fe71eb420905f547a7cde88177c99e1adf0fc4519953b00263cbe52ac741f29e", null ],
     [ "FFT", "da/d71/classFFT.html#aa3aeebc70ee3a6e8784e49e580037b62", null ],
     [ "~FFT", "da/d71/classFFT.html#a69b8b0fb23ec45833952992d7f9ad2ad", null ],
     [ "DTrans", "da/d71/classFFT.html#ad0497625a132cb84229435689ddcc8ad", null ],

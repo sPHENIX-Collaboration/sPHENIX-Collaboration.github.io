@@ -1,0 +1,17 @@
+<map id="KFParticleSIMD::AddDaughter" name="KFParticleSIMD::AddDaughter">
+<area shape="rect" id="node2" href="$d2/dbb/classKFParticleBaseSIMD.html#a2ee0cc29dedac6767db45ae197a0fe35" title="KFParticleBaseSIMD\l::AddDaughter" alt="" coords="275,157,429,201"/>
+<area shape="rect" id="node3" href="$d2/dbb/classKFParticleBaseSIMD.html#a7e60f55ad9b21a9a196c3ad08a46a52d" title="Adds index of the daughter particle." alt="" coords="517,37,672,81"/>
+<area shape="rect" id="node4" href="$d2/dbb/classKFParticleBaseSIMD.html#a31bbbd45b75df2d238522b1607ee5726" title="KFParticleBaseSIMD\l::AddDaughterWithEnergyFit" alt="" coords="487,157,702,201"/>
+<area shape="rect" id="node11" href="$d2/dbb/classKFParticleBaseSIMD.html#a926d1ef18075badaf63d0241a673d644" title="Returns the sum of masses of the daughters." alt="" coords="761,93,916,137"/>
+<area shape="rect" id="node13" href="$d2/dbb/classKFParticleBaseSIMD.html#affe2b18e82526005b6f34cd213a1f579" title="KFParticleBaseSIMD\l::AddDaughterWithEnergyFitMC" alt="" coords="477,225,712,269"/>
+<area shape="rect" id="node16" href="$d2/dbb/classKFParticleBaseSIMD.html#a4f43f26357ae4a6e35ca5b8e4a1d623f" title="Returns Id of the particle." alt="" coords="507,293,683,321"/>
+<area shape="rect" id="node5" href="$d2/dbb/classKFParticleBaseSIMD.html#abead77d712c9ce7ed12bd925c5fb3d8b" title="KFParticleBaseSIMD\l::GetMeasurement" alt="" coords="761,229,916,273"/>
+<area shape="rect" id="node8" href="$d2/dbb/classKFParticleBaseSIMD.html#a23c8f9fa65a42b162990806191f91148" title="KFParticleBaseSIMD::IJ" alt="" coords="1193,355,1364,383"/>
+<area shape="rect" id="node12" href="$d2/dbb/classKFParticleBaseSIMD.html#a4050fd23fd4493d83633bb00a312522b" title="KFParticleBaseSIMD\l::InvertCholetsky3" alt="" coords="761,161,916,205"/>
+<area shape="rect" id="node6" href="$d2/dbb/classKFParticleBaseSIMD.html#af386cf32fdc113792305a1f38f2683c7" title="KFParticleBaseSIMD\l::GetDStoParticle" alt="" coords="978,194,1133,238"/>
+<area shape="rect" id="node7" href="$d2/dbb/classKFParticleBaseSIMD.html#a762391583bafd7f932bc80fbd226bce5" title="KFParticleBaseSIMD\l::GetDStoPoint" alt="" coords="978,262,1133,306"/>
+<area shape="rect" id="node9" href="$d2/dbb/classKFParticleBaseSIMD.html#af246711cd053ab45c7415190658faeca" title="KFParticleBaseSIMD\l::MultQSQt" alt="" coords="978,58,1133,102"/>
+<area shape="rect" id="node10" href="$d2/dbb/classKFParticleBaseSIMD.html#a721cd8da62bbf13e53583c9acff31945" title="KFParticleBaseSIMD\l::Transport" alt="" coords="978,126,1133,170"/>
+<area shape="rect" id="node14" href="$d2/dbb/classKFParticleBaseSIMD.html#af05cfb05f0e552e283dd0cdc33c92327" title="KFParticleBaseSIMD\l::SetMassConstraint" alt="" coords="760,433,917,477"/>
+<area shape="rect" id="node15" href="$d2/dbb/classKFParticleBaseSIMD.html#accd0d91999cad3409e82272a976cc878" title="KFParticleBaseSIMD::Cij" alt="" coords="965,437,1145,465"/>
+</map>

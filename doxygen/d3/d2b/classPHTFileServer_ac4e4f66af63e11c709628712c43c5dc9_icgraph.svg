@@ -437,31 +437,31 @@
 <!-- Node30 -->
 <g id="node30" class="node">
 <title>Node30</title>
-<g id="a_node30"><a xlink:href="../../de/d25/classPHGenFitTrkFitter.html#ad73a7ff76c5c9357e026f584c461c2ef" target="_top" xlink:title="End, write and close files.">
-<polygon fill="none" stroke="#000000" points="170,-129.5 170,-149.5 298,-149.5 298,-129.5 170,-129.5"/>
-<text text-anchor="middle" x="234" y="-136.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHGenFitTrkFitter::End</text>
+<g id="a_node30"><a xlink:href="../../df/dd7/classTpcPrototypeGenFitTrkFitter.html#a1df8f5a66617de654240c7aafb327529" target="_top" xlink:title="End, write and close files.">
+<polygon fill="none" stroke="#000000" points="143,-129.5 143,-149.5 325,-149.5 325,-129.5 143,-129.5"/>
+<text text-anchor="middle" x="234" y="-136.5" font-family="FreeSans" font-size="10.00" fill="#000000">TpcPrototypeGenFitTrkFitter::End</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node30 -->
 <g id="edge29" class="edge">
 <title>Node1&#45;&gt;Node30</title>
-<path fill="none" stroke="#191970" d="M52.9321,-605.9681C57.0595,-524.4097 76.3954,-224.6098 140,-159.5 148.0448,-151.2648 158.5818,-146.016 169.6831,-142.7419"/>
+<path fill="none" stroke="#191970" d="M52.9321,-605.9681C57.0595,-524.4097 76.3954,-224.6098 140,-159.5 143.8475,-155.5614 148.2651,-152.3059 153.0418,-149.6229"/>
 <polygon fill="#191970" stroke="#191970" points="49.4166,-606.2066 52.4301,-616.3638 56.4085,-606.5444 49.4166,-606.2066"/>
 </g>
 <!-- Node31 -->
 <g id="node31" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="../../df/dd7/classTpcPrototypeGenFitTrkFitter.html#a1df8f5a66617de654240c7aafb327529" target="_top" xlink:title="End, write and close files.">
-<polygon fill="none" stroke="#000000" points="143,-90.5 143,-110.5 325,-110.5 325,-90.5 143,-90.5"/>
-<text text-anchor="middle" x="234" y="-97.5" font-family="FreeSans" font-size="10.00" fill="#000000">TpcPrototypeGenFitTrkFitter::End</text>
+<g id="a_node31"><a xlink:href="../../de/d25/classPHGenFitTrkFitter.html#ad73a7ff76c5c9357e026f584c461c2ef" target="_top" xlink:title="End, write and close files.">
+<polygon fill="none" stroke="#000000" points="170,-90.5 170,-110.5 298,-110.5 298,-90.5 170,-90.5"/>
+<text text-anchor="middle" x="234" y="-97.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHGenFitTrkFitter::End</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node31 -->
 <g id="edge30" class="edge">
 <title>Node1&#45;&gt;Node31</title>
-<path fill="none" stroke="#191970" d="M52.5997,-606.1938C55.5442,-520.7901 71.25,-191.8741 140,-120.5 143.8197,-116.5345 148.2167,-113.259 152.9785,-110.5615"/>
+<path fill="none" stroke="#191970" d="M52.5997,-606.1938C55.5442,-520.7901 71.25,-191.8741 140,-120.5 147.9867,-112.2085 158.4969,-106.9336 169.5901,-103.6517"/>
 <polygon fill="#191970" stroke="#191970" points="49.0955,-606.2706 52.2706,-616.3784 56.0918,-606.4967 49.0955,-606.2706"/>
 </g>
 <!-- Node32 -->

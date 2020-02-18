@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('da/d55/AnaMvtxTelescopeHits_8C_source.
 <div class="title">AnaMvtxTelescopeHits.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../da/d55/AnaMvtxTelescopeHits_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../da/d55/AnaMvtxTelescopeHits_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/MvtxTelescope/AnaMvtxTelescopeHits/AnaMvtxTelescopeHits.C">the newest version in sPHENIX GitHub for file AnaMvtxTelescopeHits.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/dfe/AnaMvtxTelescopeHits_8h.html" title="Analyze Mvtx 4 ladder cosmic telescope in simulations.">AnaMvtxTelescopeHits.h</a>&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dd/dd4/getClass_8h.html">phool/getClass.h</a>&gt;</span></div>
@@ -162,7 +162,7 @@ $(document).ready(function(){initNavTree('da/d55/AnaMvtxTelescopeHits_8C_source.
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#include &lt;GenFit/MeasuredStateOnPlane.h&gt;</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#include &lt;GenFit/RKTrackRep.h&gt;</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#include &lt;GenFit/StateOnPlane.h&gt;</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/de0/Track_8h.html" title="tools">GenFit/Track.h</a>&gt;</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d8/d06/coresoftware_2blob_2master_2offline_2packages_2PHGenFitPkg_2PHGenFit_2Track_8h.html">GenFit/Track.h</a>&gt;</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">//Rave</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#include &lt;rave/Version.h&gt;</span></div>
@@ -535,9 +535,9 @@ $(document).ready(function(){initNavTree('da/d55/AnaMvtxTelescopeHits_8C_source.
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;<span class="comment"> * Simple helper function for calculating projection</span></div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;<span class="keywordtype">double</span></div>
-<div class="line"><a name="l00431"></a><span class="lineno"><a class="code" href="../../dd/dd5/classAnaMvtxTelescopeHits.html#a4077e7f093442c204684e961b3a8ce0b">  431</a></span>&#160;<a class="code" href="../../dd/dd5/classAnaMvtxTelescopeHits.html#a4077e7f093442c204684e961b3a8ce0b">AnaMvtxTelescopeHits::CalcProjection</a>(<span class="keywordtype">double</span> <a class="code" href="../../d4/d51/vector__math__inline_8h.html#a9336ebf25087d91c818ee6e9ec29f8c1">x</a>, <span class="keywordtype">double</span> m, <span class="keywordtype">double</span> b)</div>
+<div class="line"><a name="l00431"></a><span class="lineno"><a class="code" href="../../dd/dd5/classAnaMvtxTelescopeHits.html#a4077e7f093442c204684e961b3a8ce0b">  431</a></span>&#160;<a class="code" href="../../dd/dd5/classAnaMvtxTelescopeHits.html#a4077e7f093442c204684e961b3a8ce0b">AnaMvtxTelescopeHits::CalcProjection</a>(<span class="keywordtype">double</span> <a class="code" href="../../d4/d51/vector__math__inline_8h.html#a9336ebf25087d91c818ee6e9ec29f8c1">x</a>, <span class="keywordtype">double</span> m, <span class="keywordtype">double</span> <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>)</div>
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;{</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;  <span class="keywordflow">return</span> m * x + b;</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;  <span class="keywordflow">return</span> m * x + <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>;</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;}</div>
 <div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;</div>
 <div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;</div>
@@ -704,7 +704,7 @@ $(document).ready(function(){initNavTree('da/d55/AnaMvtxTelescopeHits_8C_source.
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_97f43ba04375d86db5da468e074d0288.html">MvtxTelescope</a></li><li class="navelem"><a class="el" href="../../dir_1f9a4babce882f11655510176cb9ec9b.html">AnaMvtxTelescopeHits</a></li><li class="navelem"><a class="el" href="../../da/d55/AnaMvtxTelescopeHits_8C.html">AnaMvtxTelescopeHits.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:05</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

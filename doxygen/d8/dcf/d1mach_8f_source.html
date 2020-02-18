@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d8/dcf/d1mach_8f_source.html','../../'
 <div class="title">d1mach.f</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d8/dcf/d1mach_8f.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../d8/dcf/d1mach_8f.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/TPC/SCDCorrections/d1mach.f">the newest version in sPHENIX GitHub for file d1mach.f</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno"><a class="code" href="../../d8/dcf/d1mach_8f.html#a507decabfd116e2d9ebbda32e0d944b3">    3</a></span>&#160;<span class="keyword">      DOUBLE PRECISION </span><span class="keyword">FUNCTION </span><a class="code" href="../../d8/dcf/d1mach_8f.html#a507decabfd116e2d9ebbda32e0d944b3">d1mach</a>(I)</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;      <span class="keywordtype">INTEGER</span> <a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a></div>
@@ -124,16 +124,16 @@ $(document).ready(function(){initNavTree('d8/dcf/d1mach_8f_source.html','../../'
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">C  D1MACH( 4) = B**(1-T), THE LARGEST RELATIVE SPACING.</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">C  D1MACH( 5) = LOG10(B)</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">C</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;      <span class="keywordtype">INTEGER</span> small(2)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;      <span class="keywordtype">INTEGER</span> <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2)</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;      <span class="keywordtype">INTEGER</span> large(2)</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;      <span class="keywordtype">INTEGER</span> right(2)</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;      <span class="keywordtype">INTEGER</span> diver(2)</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;      <span class="keywordtype">INTEGER</span> log10(2)</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;      <span class="keywordtype">INTEGER</span> sc, cray1(38), <a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;      <span class="keyword">COMMON</span> /d9mach/ cray1</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;      <span class="keywordtype">SAVE</span> small, large, right, diver, log10, sc</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;      <span class="keywordtype">SAVE</span> <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>, large, right, diver, log10, sc</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;      <span class="keywordtype">DOUBLE PRECISION</span> dmach(5)</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;      equivalence(dmach(1),small(1))</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;      equivalence(dmach(1),<a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1))</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;      equivalence(dmach(2),large(1))</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;      equivalence(dmach(3),right(1))</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;      equivalence(dmach(4),diver(1))</div>
@@ -176,11 +176,11 @@ $(document).ready(function(){initNavTree('d8/dcf/d1mach_8f_source.html','../../'
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">C     ON FIRST CALL, IF NO DATA UNCOMMENTED, TEST MACHINE TYPES.</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      <span class="keywordflow">IF</span> (sc .NE. 987) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;         dmach(1) = 1.d13</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;         <span class="keywordflow">IF</span> (      small(1) .EQ. 1117925532</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;     *       .AND. small(2) .EQ. -448790528) <span class="keywordflow">THEN</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;         <span class="keywordflow">IF</span> (      <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1) .EQ. 1117925532</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;     *       .AND. <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) .EQ. -448790528) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">*           *** IEEE BIG ENDIAN ***</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            small(1) = 1048576</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            small(2) = 0</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1) = 1048576</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) = 0</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            large(1) = 2146435071</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            large(2) = -1</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            right(1) = 1017118720</div>
@@ -189,11 +189,11 @@ $(document).ready(function(){initNavTree('d8/dcf/d1mach_8f_source.html','../../'
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            diver(2) = 0</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            log10(1) = 1070810131</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            log10(2) = 1352628735</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;         <span class="keywordflow">ELSE</span> <span class="keywordflow">IF</span> ( small(2) .EQ. 1117925532</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;     *       .AND. small(1) .EQ. -448790528) <span class="keywordflow">THEN</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;         <span class="keywordflow">ELSE</span> <span class="keywordflow">IF</span> ( <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) .EQ. 1117925532</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;     *       .AND. <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1) .EQ. -448790528) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">*           *** IEEE LITTLE ENDIAN ***</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            small(2) = 1048576</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            small(1) = 0</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) = 1048576</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1) = 0</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            large(2) = 2146435071</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            large(1) = -1</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            right(2) = 1017118720</div>
@@ -202,11 +202,11 @@ $(document).ready(function(){initNavTree('d8/dcf/d1mach_8f_source.html','../../'
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            diver(1) = 0</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            log10(2) = 1070810131</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            log10(1) = 1352628735</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;         <span class="keywordflow">ELSE</span> <span class="keywordflow">IF</span> ( small(1) .EQ. -2065213935</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;     *       .AND. small(2) .EQ. 10752) <span class="keywordflow">THEN</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;         <span class="keywordflow">ELSE</span> <span class="keywordflow">IF</span> ( <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1) .EQ. -2065213935</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;     *       .AND. <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) .EQ. 10752) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">*               *** VAX WITH D_FLOATING ***</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            small(1) = 128</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            small(2) = 0</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1) = 128</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) = 0</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            large(1) = -32769</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            large(2) = -1</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            right(1) = 9344</div>
@@ -215,11 +215,11 @@ $(document).ready(function(){initNavTree('d8/dcf/d1mach_8f_source.html','../../'
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            diver(2) = 0</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            log10(1) = 546979738</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            log10(2) = -805796613</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;         <span class="keywordflow">ELSE</span> <span class="keywordflow">IF</span> ( small(1) .EQ. 1267827943</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;     *       .AND. small(2) .EQ. 704643072) <span class="keywordflow">THEN</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;         <span class="keywordflow">ELSE</span> <span class="keywordflow">IF</span> ( <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1) .EQ. 1267827943</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;     *       .AND. <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) .EQ. 704643072) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment">*               *** IBM MAINFRAME ***</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            small(1) = 1048576</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            small(2) = 0</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1) = 1048576</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) = 0</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            large(1) = 2147483647</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            large(2) = -1</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            right(1) = 856686592</div>
@@ -228,11 +228,11 @@ $(document).ready(function(){initNavTree('d8/dcf/d1mach_8f_source.html','../../'
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            diver(2) = 0</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            log10(1) = 1091781651</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            log10(2) = 1352628735</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;         <span class="keywordflow">ELSE</span> <span class="keywordflow">IF</span> ( small(1) .EQ. 1120022684</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;     *       .AND. small(2) .EQ. -448790528) <span class="keywordflow">THEN</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;         <span class="keywordflow">ELSE</span> <span class="keywordflow">IF</span> ( <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1) .EQ. 1120022684</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;     *       .AND. <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) .EQ. -448790528) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment">*           *** CONVEX C-1 ***</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            small(1) = 1048576</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            small(2) = 0</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1) = 1048576</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) = 0</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            large(1) = 2147483647</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            large(2) = -1</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            right(1) = 1019215872</div>
@@ -241,11 +241,11 @@ $(document).ready(function(){initNavTree('d8/dcf/d1mach_8f_source.html','../../'
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            diver(2) = 0</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            log10(1) = 1072907283</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            log10(2) = 1352628735</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;         <span class="keywordflow">ELSE</span> <span class="keywordflow">IF</span> ( small(1) .EQ. 815547074</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;     *       .AND. small(2) .EQ. 58688) <span class="keywordflow">THEN</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;         <span class="keywordflow">ELSE</span> <span class="keywordflow">IF</span> ( <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1) .EQ. 815547074</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;     *       .AND. <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) .EQ. 58688) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment">*           *** VAX G-FLOATING ***</span></div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            small(1) = 16</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            small(2) = 0</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1) = 16</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) = 0</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            large(1) = -32769</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            large(2) = -1</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            right(1) = 15552</div>
@@ -258,7 +258,7 @@ $(document).ready(function(){initNavTree('d8/dcf/d1mach_8f_source.html','../../'
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            dmach(2) = 1.d27 + 1</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            dmach(3) = 1.d27</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            large(2) = large(2) - right(2)</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            <span class="keywordflow">IF</span> (large(2) .EQ. 64 .AND. small(2) .EQ. 0) <span class="keywordflow">THEN</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            <span class="keywordflow">IF</span> (large(2) .EQ. 64 .AND. <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) .EQ. 0) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;               cray1(1) = 67291416</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;               <span class="keywordflow">DO</span> 10 <a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a> = 1, 20</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                  cray1(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>+1) = cray1(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>) + cray1(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>)</div>
@@ -267,10 +267,10 @@ $(document).ready(function(){initNavTree('d8/dcf/d1mach_8f_source.html','../../'
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;               <span class="keywordflow">DO</span> 20 <a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a> = 22, 37</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                  cray1(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>+1) = cray1(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>) + cray1(<a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>)</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; 20               <span class="keywordflow">CONTINUE</span></div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;               <span class="keywordflow">IF</span> (cray1(38) .EQ. small(1)) <span class="keywordflow">THEN</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;               <span class="keywordflow">IF</span> (cray1(38) .EQ. <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1)) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="comment">*                  *** CRAY ***</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                  CALL <a class="code" href="../../d8/dcf/d1mach_8f.html#afc9fb70ab87786e37bc6e39c9514d8c6">i1mcry</a>(small(1), <a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>, 8285, 8388608, 0)</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                  small(2) = 0</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                  CALL <a class="code" href="../../d8/dcf/d1mach_8f.html#afc9fb70ab87786e37bc6e39c9514d8c6">i1mcry</a>(<a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(1), <a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>, 8285, 8388608, 0)</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                  <a class="code" href="../../d7/dd9/KFParticleBaseSIMD_8cxx.html#a8815503340e0cf31d937fb9d0e0e4898">small</a>(2) = 0</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                  CALL <a class="code" href="../../d8/dcf/d1mach_8f.html#afc9fb70ab87786e37bc6e39c9514d8c6">i1mcry</a>(large(1), <a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>, 24574, 16777215, 16777215)</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                  CALL <a class="code" href="../../d8/dcf/d1mach_8f.html#afc9fb70ab87786e37bc6e39c9514d8c6">i1mcry</a>(large(2), <a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>, 0, 16777215, 16777214)</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                  CALL <a class="code" href="../../d8/dcf/d1mach_8f.html#afc9fb70ab87786e37bc6e39c9514d8c6">i1mcry</a>(right(1), <a class="code" href="../../d7/d87/fasthadv4_8C.html#a37d972ae0b47b9099e30983131d31916">j</a>, 16291, 8388608, 0)</div>
@@ -334,7 +334,7 @@ $(document).ready(function(){initNavTree('d8/dcf/d1mach_8f_source.html','../../'
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_bf8e83c2a945d8980e3e56cc67a6ba9f.html">TPC</a></li><li class="navelem"><a class="el" href="../../dir_55692d4f5a6d189c6d1e9f5935bd43c1.html">SCDCorrections</a></li><li class="navelem"><a class="el" href="../../d8/dcf/d1mach_8f.html">d1mach.f</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:09</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:15</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

@@ -1,0 +1,4 @@
+<map id="genfit::Track::getKalmanFitStatus" name="genfit::Track::getKalmanFitStatus">
+<area shape="rect" id="node2" href="$d6/d8a/classgenfit_1_1Track.html#ad06e7a012624bdb03960826b5c9fcd93" title="Get FitStatus for a AbsTrackRep. Per default, return FitStatus for cardinalRep." alt="" coords="240,13,435,41"/>
+<area shape="rect" id="node3" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="483,13,700,41"/>
+</map>

@@ -1,7 +1,7 @@
 var classBias =
 [
-    [ "Nhist", "db/d85/classBias.html#aab84e510a4b5cc0c20015af39c18a014a99314e310c2641cd8f8987013292ce6b", null ],
-    [ "Nfhst", "db/d85/classBias.html#adff484f748e86d2a0f0eaff94e7874d3a7840a43c5ef06e6880331476f6f64b9f", null ],
+    [ "Nhist", "db/d85/classBias.html#adff484f748e86d2a0f0eaff94e7874d3a99314e310c2641cd8f8987013292ce6b", null ],
+    [ "Nfhst", "db/d85/classBias.html#a39248323fc2cc40d4148587a3c0b7d0fa7840a43c5ef06e6880331476f6f64b9f", null ],
     [ "Bias", "db/d85/classBias.html#a4090e4da9de9a83077f7811633f91cfd", null ],
     [ "~Bias", "db/d85/classBias.html#a3a155a611781bf1e0d2221937864c560", null ],
     [ "OutFitsF", "db/d85/classBias.html#a04a56a18eb6da1c32ec94838606457fb", null ],

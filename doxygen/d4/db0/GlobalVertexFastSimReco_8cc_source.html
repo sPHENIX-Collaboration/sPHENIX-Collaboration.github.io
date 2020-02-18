@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d4/db0/GlobalVertexFastSimReco_8cc_sou
 <div class="title">GlobalVertexFastSimReco.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/db0/GlobalVertexFastSimReco_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d88/GlobalVertexFastSimReco_8h.html" title="simple truth vertex smearing algorithm">GlobalVertexFastSimReco.h</a>&quot;</span></div>
+<a href="../../d4/db0/GlobalVertexFastSimReco_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/g4vertex/GlobalVertexFastSimReco.cc">the newest version in sPHENIX GitHub for file GlobalVertexFastSimReco.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d88/GlobalVertexFastSimReco_8h.html" title="simple truth vertex smearing algorithm">GlobalVertexFastSimReco.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/ddd/GlobalVertexMap_8h.html">GlobalVertexMap.h</a>&quot;</span>                <span class="comment">// for GlobalVertexMap</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/d49/GlobalVertexMapv1_8h.html">GlobalVertexMapv1.h</a>&quot;</span></div>
@@ -174,8 +174,8 @@ $(document).ready(function(){initNavTree('d4/db0/GlobalVertexFastSimReco_8cc_sou
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    exit(-1);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  }</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d4/d89/namespaceTauVsDIS__MachineLearning__Differentiation.html#a926e652fc6cca84ce09ab067067249f1">seed</a> = <a class="code" href="../../dd/d1f/classPHRandomSeed.html">PHRandomSeed</a>();  <span class="comment">// fixed seed handled in PHRandomSeed()</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  gsl_rng_set(<a class="code" href="../../da/d12/classGlobalVertexFastSimReco.html#aac510dff2214efe6614b912e000e1966">RandomGenerator</a>, seed);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d1/d0a/PHTruthVertexing_8cc.html#ae21f357c223957d36046a0d71cc6aed7">seed</a> = <a class="code" href="../../dd/d1f/classPHRandomSeed.html">PHRandomSeed</a>();  <span class="comment">// fixed seed handled in PHRandomSeed()</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <a class="code" href="../../d1/d0a/PHTruthVertexing_8cc.html#ad8eec1a5a0219e016430a4b0759daf18">gsl_rng_set</a>(<a class="code" href="../../da/d12/classGlobalVertexFastSimReco.html#aac510dff2214efe6614b912e000e1966">RandomGenerator</a>, seed);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module.">Verbosity</a>() &gt; 0)</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  {</div>
@@ -216,7 +216,7 @@ $(document).ready(function(){initNavTree('d4/db0/GlobalVertexFastSimReco_8cc_sou
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <span class="comment">// Smear Truth Vertexes (only one per crossing right now)</span></div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <span class="comment">//---------------------</span></div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <a class="code" href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a> *point = truthinfo-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#acf130130dd475251d67c0f04c0e9cc49">GetPrimaryVtx</a>(truthinfo-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#a77051a88c6708ed10465eca6b73c2272">GetPrimaryVertexIndex</a>());</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <a class="code" href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a> *<a class="code" href="../../d8/df7/PHCASeeding_8cc.html#a905ba7eea43764a576ea5db7e8b73b0f">point</a> = truthinfo-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#acf130130dd475251d67c0f04c0e9cc49">GetPrimaryVtx</a>(truthinfo-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#a77051a88c6708ed10465eca6b73c2272">GetPrimaryVertexIndex</a>());</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <a class="code" href="../../d1/d39/classGlobalVertex.html">GlobalVertex</a> *vertex = <span class="keyword">new</span> <a class="code" href="../../d3/d60/classGlobalVertexv1.html">GlobalVertexv1</a>();</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
@@ -295,7 +295,7 @@ $(document).ready(function(){initNavTree('d4/db0/GlobalVertexFastSimReco_8cc_sou
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_1724008e94deb08beac80e5a8c068060.html">g4vertex</a></li><li class="navelem"><a class="el" href="../../d4/db0/GlobalVertexFastSimReco_8cc.html">GlobalVertexFastSimReco.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:25</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:31</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

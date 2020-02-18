@@ -1,0 +1,4 @@
+<map id="genfit::SpacepointMeasurement::initG" name="genfit::SpacepointMeasurement::initG">
+<area shape="rect" id="node2" href="$db/d45/namespacegenfit_1_1tools.html#ad70b08610012fcd630091c66be5cd0c4" title="Invert a matrix, throwing an Exception when inversion fails. Optional calculation of determinant..." alt="" coords="292,13,485,41"/>
+<area shape="rect" id="node3" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="533,5,677,49"/>
+</map>

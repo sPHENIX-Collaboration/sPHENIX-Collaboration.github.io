@@ -17,7 +17,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../dc/dc5/classgenfit_1_1Field.html#a4a676f3eb96f4e02e92eb00e29660e29" target="_top" xlink:title="genfit::Field::get">
+<g id="a_node2"><a xlink:href="../../dc/dc5/classgenfit_1_1Field.html#a4a676f3eb96f4e02e92eb00e29660e29" target="_top" xlink:title="Get the magneticField [kGauss] at position.">
 <polygon fill="none" stroke="#000000" points="175,-51.5 175,-71.5 275,-71.5 275,-51.5 175,-51.5"/>
 <text text-anchor="middle" x="225" y="-58.5" font-family="FreeSans" font-size="10.00" fill="#000000">genfit::Field::get</text>
 </a>

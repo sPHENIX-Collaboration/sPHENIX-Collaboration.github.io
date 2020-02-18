@@ -1,0 +1,5 @@
+<map id="SegmentationAlpide::detectorToLocal" name="SegmentationAlpide::detectorToLocal">
+<area shape="rect" id="node2" href="$d5/d35/classSegmentationAlpide.html#a4cfc724394f8660b3e204d810caa9c5d" title="SegmentationAlpide\l::detectorToLocalUnchecked" alt="" coords="212,40,423,84"/>
+<area shape="rect" id="node3" href="$d5/d35/classSegmentationAlpide.html#affc4fc9ec09c04ca27cd31785053e915" title="SegmentationAlpide\l::getFirstRowCoordinate" alt="" coords="471,5,653,49"/>
+<area shape="rect" id="node4" href="$d5/d35/classSegmentationAlpide.html#aa414d95515124921e3b4cf43ecc22c4c" title="SegmentationAlpide\l::getFirstColCoordinate" alt="" coords="474,73,650,117"/>
+</map>

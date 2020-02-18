@@ -13,32 +13,39 @@
 <area shape="rect" id="node13" href="$d2/db8/classSvtxTrack.html#af2317becf2120fcad5cefaa61a01407e" title="SvtxTrack::get_x" alt="" coords="314,593,446,621"/>
 <area shape="rect" id="node14" href="$d2/db8/classSvtxTrack.html#ac4bf3bd4ecaeff1ca06c48942a8b9236" title="SvtxTrack::get_y" alt="" coords="314,645,446,673"/>
 <area shape="rect" id="node15" href="$d2/db8/classSvtxTrack.html#aaaa435dd9d41dbe836f0608712ca12db" title="SvtxTrack::get_z" alt="" coords="315,697,445,725"/>
-<area shape="rect" id="node16" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="585,385,733,413"/>
-<area shape="rect" id="node17" href="$d6/dfa/classTrkrCluster.html#a081b3050a772ea32f6bf3b09d0407e4f" title="TrkrCluster::getPosition" alt="" coords="569,437,748,465"/>
-<area shape="rect" id="node18" href="$d1/d35/classPHGenFit_1_1Fitter.html#a0ae094389cc773308a3cf9ca98d60bdb" title="PHGenFit::Fitter::process\lTrack" alt="" coords="287,1104,473,1148"/>
-<area shape="rect" id="node20" href="$d0/d5e/classPHTimer.html#a433d96c3401380d49ff01acfd16ac69c" title="Restart timer." alt="" coords="593,1381,725,1409"/>
-<area shape="rect" id="node22" href="$d0/d5e/classPHTimer.html#adce6f9a85834e59bd154b9c624ee4e41" title="stops the counter" alt="" coords="322,1433,438,1461"/>
-<area shape="rect" id="node26" href="$d0/d22/classPHGenFitTrkProp.html#a203b7ffdfbb9841ea1f10baa7ba7b59f" title="PHGenFitTrkProp::TrkrCluster\lToPHGenFitMeasurement" alt="" coords="273,852,487,896"/>
-<area shape="rect" id="node43" href="$d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module." alt="" coords="292,1485,468,1513"/>
-<area shape="rect" id="node19" href="$d7/dd5/classPHGenFit_1_1Track.html#a8cc267bf5a0014b5ba7e057a3b45ba3e" title="PHGenFit::Track::getGenFit\lTrack" alt="" coords="557,1313,760,1357"/>
-<area shape="rect" id="node21" href="$d0/d5e/classPHTimer.html#aa92e3fe4a0a1799f39743eda9ef9d497" title="gets time from cpu clock counts" alt="" coords="834,1421,985,1465"/>
-<area shape="rect" id="node23" href="$d0/d5e/classPHTimer.html#a976738876ad978116fdc4549a3765685" title="retrieve elapsed value since last restart (in ms)" alt="" coords="589,1485,729,1513"/>
-<area shape="rect" id="node24" href="$d0/d5e/classPHTimer.html#aa75ff2c27aba40e7ef0a934f9a3355c2" title="returns difference between to time" alt="" coords="817,1489,1001,1517"/>
-<area shape="rect" id="node25" href="$d2/db1/classPHTimer_1_1Frequency.html#a023a2d706df9a8bd303810a9ed017f61" title="period accessor" alt="" coords="1049,1481,1207,1525"/>
-<area shape="rect" id="node27" href="$d6/dfa/classTrkrCluster.html#ab18c56f7c1aa174203dcf8fbf0141279" title="TrkrCluster::getClusKey" alt="" coords="569,729,749,757"/>
-<area shape="rect" id="node28" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="585,781,732,809"/>
-<area shape="rect" id="node29" href="$d8/df1/namespaceMvtxDefs.html#a0d6fee920baed2f17bed6f7990bb88c3" title="Get the stave id from hitsetkey." alt="" coords="576,833,741,861"/>
-<area shape="rect" id="node30" href="$d8/df1/namespaceMvtxDefs.html#abfd7b6c5fe579370c360924854579283" title="Get the chip id from hitsetkey." alt="" coords="580,885,737,913"/>
-<area shape="rect" id="node31" href="$d4/de7/classPHG4CylinderGeomContainer.html#a08321019aaff5f57cd416b64d0f536bf" title="PHG4CylinderGeomContainer\l::GetLayerGeom" alt="" coords="548,937,769,981"/>
-<area shape="rect" id="node32" href="$df/d9b/classCylinderGeom__Mvtx.html#ac3180ef9061113ec41e851ff5f97f3f1" title="CylinderGeom_Mvtx::\lfind_sensor_center" alt="" coords="576,1005,741,1049"/>
-<area shape="rect" id="node35" href="$df/d9b/classCylinderGeom__Mvtx.html#aa1c7c0b68aa74bd674206214ffabfe6d" title="CylinderGeom_Mvtx::\lget_stave_phi_tilt" alt="" coords="576,1073,741,1117"/>
-<area shape="rect" id="node36" href="$d9/dcb/classCylinderGeomIntt.html#ab38e7cede1a91d97d6d5bb175791f965" title="CylinderGeomIntt::find\l_segment_center" alt="" coords="571,1141,746,1185"/>
-<area shape="rect" id="node37" href="$d6/d9e/namespaceInttDefs.html#aeb0f2c2a834c11791925bdffc211526d" title="Get the ladder id from hitsetkey." alt="" coords="572,1209,745,1237"/>
-<area shape="rect" id="node38" href="$d6/d9e/namespaceInttDefs.html#a28461d6132ff9373b4529e5c0d20c962" title="Get the sensor id from hitsetkey." alt="" coords="566,1261,751,1289"/>
-<area shape="rect" id="node39" href="$d9/dcb/classCylinderGeomIntt.html#a191bf1e8abfe131f80eb7da8b1639c8b" title="CylinderGeomIntt::get\l_strip_phi_tilt" alt="" coords="573,489,745,533"/>
-<area shape="rect" id="node40" href="$d6/dfa/classTrkrCluster.html#a8bc3c5d7fe1fe62cd729f0e30712d725" title="TrkrCluster::getRPhiError" alt="" coords="564,557,753,585"/>
-<area shape="rect" id="node41" href="$d6/dfa/classTrkrCluster.html#a73c9bdc559b2906e6cfc942d1bf355ed" title="TrkrCluster::getZError" alt="" coords="574,609,743,637"/>
-<area shape="rect" id="node42" href="$d4/db3/classPHGenFit_1_1Measurement.html#a7a3ec113877806b7543dbbcfea86dde3" title="PHGenFit::Measurement\l::set_cluster_key" alt="" coords="566,661,751,705"/>
-<area shape="rect" id="node33" href="$df/d9b/classCylinderGeom__Mvtx.html#aede358e384b225e6555bed9292f0310c" title="CylinderGeom_Mvtx::\lget_world_from_local\l_coords" alt="" coords="827,997,992,1057"/>
-<area shape="rect" id="node34" href="$da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8" title="double" alt="" coords="1094,1013,1162,1041"/>
+<area shape="rect" id="node16" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="585,349,733,377"/>
+<area shape="rect" id="node17" href="$d6/dfa/classTrkrCluster.html#a081b3050a772ea32f6bf3b09d0407e4f" title="TrkrCluster::getPosition" alt="" coords="569,401,748,429"/>
+<area shape="rect" id="node18" href="$d1/d35/classPHGenFit_1_1Fitter.html#a0ae094389cc773308a3cf9ca98d60bdb" title="PHGenFit::Fitter::process\lTrack" alt="" coords="287,1465,473,1509"/>
+<area shape="rect" id="node31" href="$d0/d5e/classPHTimer.html#a433d96c3401380d49ff01acfd16ac69c" title="Restart timer." alt="" coords="314,1589,446,1617"/>
+<area shape="rect" id="node33" href="$d0/d5e/classPHTimer.html#adce6f9a85834e59bd154b9c624ee4e41" title="stops the counter" alt="" coords="322,1753,438,1781"/>
+<area shape="rect" id="node35" href="$d0/d22/classPHGenFitTrkProp.html#a203b7ffdfbb9841ea1f10baa7ba7b59f" title="PHGenFitTrkProp::TrkrCluster\lToPHGenFitMeasurement" alt="" coords="273,852,487,896"/>
+<area shape="rect" id="node50" href="$d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module." alt="" coords="292,1805,468,1833"/>
+<area shape="rect" id="node19" href="$d7/dd5/classPHGenFit_1_1Track.html#a8cc267bf5a0014b5ba7e057a3b45ba3e" title="PHGenFit::Track::getGenFit\lTrack" alt="" coords="557,1345,760,1389"/>
+<area shape="rect" id="node20" href="$d6/d8a/classgenfit_1_1Track.html#aee4eab9e952ee6f0e0c1f1d980552759" title="genfit::Track::checkConsistency" alt="" coords="817,1444,1052,1472"/>
+<area shape="rect" id="node25" href="$d8/db3/classgenfit_1_1Exception.html#a5cb44accc5d69d5742ed883a2d4ff88a" title="Standard error message handling for exceptions. use like &quot;std::cerr &lt;&lt; e.what();&quot;." alt="" coords="569,1637,748,1665"/>
+<area shape="rect" id="node26" href="$d0/dba/classgenfit_1_1AbsFitter.html#a03e279c67ca889f5fe6480eb8a1691cf" title="genfit::AbsFitter::\lprocessTrack" alt="" coords="590,1465,727,1509"/>
+<area shape="rect" id="node27" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="826,1533,1043,1561"/>
+<area shape="rect" id="node28" href="$d6/d8a/classgenfit_1_1Track.html#ad06e7a012624bdb03960826b5c9fcd93" title="Get FitStatus for a AbsTrackRep. Per default, return FitStatus for cardinalRep." alt="" coords="561,1533,756,1561"/>
+<area shape="rect" id="node29" href="$d0/d8d/classgenfit_1_1FitStatus.html#a56371ce504bee72fcf2f9324ddcb91a8" title="Did the fit converge (in all Points or only partially)?" alt="" coords="591,1689,727,1733"/>
+<area shape="rect" id="node30" href="$d4/d1a/classgenfit_1_1EventDisplay.html#a273f0f885e02d740befd1d3b18489a16" title="Add new event." alt="" coords="579,1277,738,1321"/>
+<area shape="rect" id="node21" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ab74f13ab4f4f1ac99a29e1fa55b83413" title="genfit::KalmanFitterInfo\l::hasReferenceState" alt="" coords="1135,1333,1315,1377"/>
+<area shape="rect" id="node22" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a580ecd10b0c09b257533ca04f2ba460b" title="genfit::KalmanFitterInfo\l::getReferenceState" alt="" coords="1135,1401,1315,1445"/>
+<area shape="rect" id="node23" href="$d2/d6a/classgenfit_1_1ReferenceStateOnPlane.html#abcae7586bd838e27b384e4e001c9b3d3" title="genfit::ReferenceStateOn\lPlane::getForwardSegmentLength" alt="" coords="1100,1469,1351,1513"/>
+<area shape="rect" id="node24" href="$d6/d8a/classgenfit_1_1Track.html#aae3d3066dbd7ab39d87b56e17db5adf9" title="This is used when streaming TrackPoints." alt="" coords="1128,1537,1323,1565"/>
+<area shape="rect" id="node32" href="$d0/d5e/classPHTimer.html#aa92e3fe4a0a1799f39743eda9ef9d497" title="gets time from cpu clock counts" alt="" coords="859,1801,1010,1845"/>
+<area shape="rect" id="node34" href="$d0/d5e/classPHTimer.html#a976738876ad978116fdc4549a3765685" title="retrieve elapsed value since last restart (in ms)" alt="" coords="589,1809,729,1837"/>
+<area shape="rect" id="node36" href="$d6/dfa/classTrkrCluster.html#ab18c56f7c1aa174203dcf8fbf0141279" title="TrkrCluster::getClusKey" alt="" coords="569,1121,749,1149"/>
+<area shape="rect" id="node37" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="585,1173,732,1201"/>
+<area shape="rect" id="node38" href="$d8/df1/namespaceMvtxDefs.html#a0d6fee920baed2f17bed6f7990bb88c3" title="Get the stave id from hitsetkey." alt="" coords="576,1225,741,1253"/>
+<area shape="rect" id="node39" href="$d8/df1/namespaceMvtxDefs.html#abfd7b6c5fe579370c360924854579283" title="Get the chip id from hitsetkey." alt="" coords="580,453,737,481"/>
+<area shape="rect" id="node40" href="$d4/de7/classPHG4CylinderGeomContainer.html#a08321019aaff5f57cd416b64d0f536bf" title="PHG4CylinderGeomContainer\l::GetLayerGeom" alt="" coords="548,505,769,549"/>
+<area shape="rect" id="node41" href="$df/d9b/classCylinderGeom__Mvtx.html#ac3180ef9061113ec41e851ff5f97f3f1" title="CylinderGeom_Mvtx::\lfind_sensor_center" alt="" coords="576,573,741,617"/>
+<area shape="rect" id="node42" href="$df/d9b/classCylinderGeom__Mvtx.html#aa1c7c0b68aa74bd674206214ffabfe6d" title="CylinderGeom_Mvtx::\lget_stave_phi_tilt" alt="" coords="576,641,741,685"/>
+<area shape="rect" id="node43" href="$d9/dcb/classCylinderGeomIntt.html#ab38e7cede1a91d97d6d5bb175791f965" title="CylinderGeomIntt::find\l_segment_center" alt="" coords="571,709,746,753"/>
+<area shape="rect" id="node44" href="$d6/d9e/namespaceInttDefs.html#aeb0f2c2a834c11791925bdffc211526d" title="Get the ladder id from hitsetkey." alt="" coords="572,777,745,805"/>
+<area shape="rect" id="node45" href="$d6/d9e/namespaceInttDefs.html#a28461d6132ff9373b4529e5c0d20c962" title="Get the sensor id from hitsetkey." alt="" coords="566,829,751,857"/>
+<area shape="rect" id="node46" href="$d9/dcb/classCylinderGeomIntt.html#a191bf1e8abfe131f80eb7da8b1639c8b" title="CylinderGeomIntt::get\l_strip_phi_tilt" alt="" coords="573,881,745,925"/>
+<area shape="rect" id="node47" href="$d6/dfa/classTrkrCluster.html#a8bc3c5d7fe1fe62cd729f0e30712d725" title="TrkrCluster::getRPhiError" alt="" coords="564,949,753,977"/>
+<area shape="rect" id="node48" href="$d6/dfa/classTrkrCluster.html#a73c9bdc559b2906e6cfc942d1bf355ed" title="TrkrCluster::getZError" alt="" coords="574,1001,743,1029"/>
+<area shape="rect" id="node49" href="$d4/db3/classPHGenFit_1_1Measurement.html#a7a3ec113877806b7543dbbcfea86dde3" title="PHGenFit::Measurement\l::set_cluster_key" alt="" coords="566,1053,751,1097"/>
 </map>

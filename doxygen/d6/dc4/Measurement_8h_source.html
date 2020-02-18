@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d6/dc4/Measurement_8h_source.html','..
 <div class="title">Measurement.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d6/dc4/Measurement_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../d6/dc4/Measurement_8h.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/PHGenFitPkg/PHGenFit/Measurement.h">the newest version in sPHENIX GitHub for file Measurement.h</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef PHGENFIT_MEASUREMENT_H</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PHGENFIT_MEASUREMENT_H</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('d6/dc4/Measurement_8h_source.html','..
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno"><a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#a982aa2a40ae17fbaff8239b10d968fd3">   26</a></span>&#160;  <a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#a982aa2a40ae17fbaff8239b10d968fd3" title="dtor">~Measurement</a>() {}</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#ad4b8d712f592bd125aaff3323b07a05a">   29</a></span>&#160;  genfit::AbsMeasurement* <a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#ad4b8d712f592bd125aaff3323b07a05a">getMeasurement</a>()</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#ad4b8d712f592bd125aaff3323b07a05a">   29</a></span>&#160;  <a class="code" href="../../d5/d1f/classgenfit_1_1AbsMeasurement.html" title="Contains the measurement and covariance in raw detector coordinates.">genfit::AbsMeasurement</a>* <a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#ad4b8d712f592bd125aaff3323b07a05a">getMeasurement</a>()</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#ab280eba81559a14a0a79ee1927572a37">_measurement</a>;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  }</div>
@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('d6/dc4/Measurement_8h_source.html','..
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#ab280eba81559a14a0a79ee1927572a37">   55</a></span>&#160;  genfit::AbsMeasurement* <a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#ab280eba81559a14a0a79ee1927572a37">_measurement</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#ab280eba81559a14a0a79ee1927572a37">   55</a></span>&#160;  <a class="code" href="../../d5/d1f/classgenfit_1_1AbsMeasurement.html" title="Contains the measurement and covariance in raw detector coordinates.">genfit::AbsMeasurement</a>* <a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#ab280eba81559a14a0a79ee1927572a37">_measurement</a>;</div>
 <div class="line"><a name="l00056"></a><span class="lineno"><a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#a97c46dc704f67da1c7a0fc0f29bb4d8a">   56</a></span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#a97c46dc704f67da1c7a0fc0f29bb4d8a">_clusterID</a>;</div>
 <div class="line"><a name="l00057"></a><span class="lineno"><a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#acb82db35b7d06672299f23de032915f9">   57</a></span>&#160;  <a class="code" href="../../d6/d3f/namespaceTrkrDefs.html#adcd48caf27b141adf8a295d48d0d7212">TrkrDefs::cluskey</a> <a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html#acb82db35b7d06672299f23de032915f9">_clusterkey</a>;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('d6/dc4/Measurement_8h_source.html','..
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_14d15a1699c21197a9c95659845c5623.html">PHGenFitPkg</a></li><li class="navelem"><a class="el" href="../../dir_1db7874d83c3c1ad79a9a4840e62ff44.html">PHGenFit</a></li><li class="navelem"><a class="el" href="../../d6/dc4/Measurement_8h.html">Measurement.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:20</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:26</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

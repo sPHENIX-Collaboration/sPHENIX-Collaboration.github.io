@@ -1,0 +1,12 @@
+<map id="genfit::Track::Track" name="genfit::Track::Track">
+<area shape="rect" id="node2" href="$d6/d8a/classgenfit_1_1Track.html#a0b6d9d10d404ae80046fcc2eba46dea3" title="genfit::Track::addTrackRep" alt="" coords="220,63,420,91"/>
+<area shape="rect" id="node3" href="$d6/d8a/classgenfit_1_1Track.html#aee4eab9e952ee6f0e0c1f1d980552759" title="genfit::Track::checkConsistency" alt="" coords="203,115,437,143"/>
+<area shape="rect" id="node9" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a167993908a742633c6216cf811ea3ea2" title="Clone the trackRep." alt="" coords="242,167,398,211"/>
+<area shape="rect" id="node10" href="$d6/d8a/classgenfit_1_1Track.html#aebe51cd12b541bb8821c1b919480371d" title="genfit::Track::fillPoints\lWithMeasurement" alt="" coords="235,235,405,279"/>
+<area shape="rect" id="node11" href="$d6/d8a/classgenfit_1_1Track.html#afea3810872179a5ae960eb290e78b038" title="genfit::Track::setFitStatus" alt="" coords="223,303,417,331"/>
+<area shape="rect" id="node4" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ab74f13ab4f4f1ac99a29e1fa55b83413" title="genfit::KalmanFitterInfo\l::hasReferenceState" alt="" coords="521,5,701,49"/>
+<area shape="rect" id="node5" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a580ecd10b0c09b257533ca04f2ba460b" title="genfit::KalmanFitterInfo\l::getReferenceState" alt="" coords="521,73,701,117"/>
+<area shape="rect" id="node6" href="$d2/d6a/classgenfit_1_1ReferenceStateOnPlane.html#abcae7586bd838e27b384e4e001c9b3d3" title="genfit::ReferenceStateOn\lPlane::getForwardSegmentLength" alt="" coords="485,141,736,185"/>
+<area shape="rect" id="node7" href="$d6/d8a/classgenfit_1_1Track.html#aae3d3066dbd7ab39d87b56e17db5adf9" title="This is used when streaming TrackPoints." alt="" coords="513,209,708,237"/>
+<area shape="rect" id="node8" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="784,201,928,245"/>
+</map>

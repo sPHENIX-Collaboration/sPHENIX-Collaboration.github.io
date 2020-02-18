@@ -151,7 +151,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ad161a0f331648bc2dc95aa1f780692c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa781eb12456b35ba08e8cdc4b4001377"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d85/classHelixKalman.html#aa781eb12456b35ba08e8cdc4b4001377">subtractProjections</a> (Eigen::Matrix&lt; float, 2, 1 &gt; &amp;m, Eigen::Matrix&lt; float, 2, 1 &gt; &amp;ha, Eigen::Matrix&lt; float, 2, 1 &gt; &amp;diff)</td></tr>
 <tr class="separator:aa781eb12456b35ba08e8cdc4b4001377"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55adf1f408113d0e3994b07e7d629c6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d85/classHelixKalman.html#a55adf1f408113d0e3994b07e7d629c6b">calculateMSCovariance</a> (<a class="el" href="../../dc/d5e/classHelixKalmanState.html">HelixKalmanState</a> &amp;state, Eigen::Matrix&lt; float, 5, 5 &gt; &amp;Q)</td></tr>
+<tr class="memitem:a55adf1f408113d0e3994b07e7d629c6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d85/classHelixKalman.html#a55adf1f408113d0e3994b07e7d629c6b">calculateMSCovariance</a> (<a class="el" href="../../dc/d5e/classHelixKalmanState.html">HelixKalmanState</a> &amp;state, Eigen::Matrix&lt; float, 5, 5 &gt; &amp;<a class="el" href="../../d2/dc5/KFPTrackVector_8h.html#a29768481487c22478c33cc10e03dc7ff">Q</a>)</td></tr>
 <tr class="separator:a55adf1f408113d0e3994b07e7d629c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef12e80004e0637454bf1fa4b3534233"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d85/classHelixKalman.html#aef12e80004e0637454bf1fa4b3534233">calculate_dbdt</a> (Eigen::Matrix&lt; float, 3, 2 &gt; &amp;dbdt_out)</td></tr>
 <tr class="separator:aef12e80004e0637454bf1fa4b3534233"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,6 +172,8 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="../../d6/d04/HelixKalman_8h_source.html#l00010">10</a> of file <a class="el" href="../../d6/d04/HelixKalman_8h_source.html">HelixKalman.h</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.h#l10">10</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.h">HelixKalman.h</a></p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a671be4be1dd71466f727d7acf02e87b8"></a>
 <div class="memitem">
@@ -188,6 +190,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00018">18</a> of file <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html">HelixKalman.cpp</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp#l18">18</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp">HelixKalman.cpp</a></p>
 
 </div>
 </div>
@@ -213,6 +217,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00020">20</a> of file <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html">HelixKalman.cpp</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp#l20">20</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp">HelixKalman.cpp</a></p>
 
 </div>
 </div>
@@ -243,7 +249,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html">HelixKalman.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00018">HelixKalmanState::C</a>, <a class="el" href="../../d8/d85/classHelixKalman.html#a4270073df4ee9ffc5f0fe83a8329211e">calculateMeasurements()</a>, <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00436">calculateMSCovariance()</a>, <a class="el" href="../../d8/d85/classHelixKalman.html#a0f3fb5cf1e01e1043cea2936f7a89101">calculateProjections()</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00017">HelixKalmanState::chi2</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::d</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::dzdl</a>, <a class="el" href="../../d0/dc0/md5_8cc.html#ad96b7cf3182ce2ba85e5a7a93b12c441">G</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00022">SimpleHit3D::get_layer()</a>, <a class="el" href="../../d0/dc0/md5_8cc.html#ae42219072d798876e6b08e6b78614ff6">H</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::kappa</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00015">HelixKalmanState::nu</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::phi</a>, <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00022">subtractProjections()</a>, <a class="el" href="../../d8/d85/classHelixKalman.html#ad161a0f331648bc2dc95aa1f780692c1">updateIntersection()</a>, and <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::z0</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp#l28">28</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp">HelixKalman.cpp</a></p>
+
+<p>References <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00018">HelixKalmanState::C</a>, <a class="el" href="../../d8/d85/classHelixKalman.html#a4270073df4ee9ffc5f0fe83a8329211e">calculateMeasurements()</a>, <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00436">calculateMSCovariance()</a>, <a class="el" href="../../d8/d85/classHelixKalman.html#a0f3fb5cf1e01e1043cea2936f7a89101">calculateProjections()</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00017">HelixKalmanState::chi2</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::d</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::dzdl</a>, <a class="el" href="../../d0/dc0/md5_8cc.html#ad96b7cf3182ce2ba85e5a7a93b12c441">G</a>, <a class="el" href="../../d3/d84/SimpleHit3D_8h_source.html#l00022">SimpleHit3D::get_layer()</a>, <a class="el" href="../../d0/dc0/md5_8cc.html#ae42219072d798876e6b08e6b78614ff6">H</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::kappa</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00015">HelixKalmanState::nu</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::phi</a>, <a class="el" href="../../d9/d03/KFParticleBaseSIMD_8h_source.html#l00450">Q()</a>, <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00022">subtractProjections()</a>, <a class="el" href="../../d8/d85/classHelixKalman.html#ad161a0f331648bc2dc95aa1f780692c1">updateIntersection()</a>, and <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::z0</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d81/sPHENIXTracker_8cpp_source.html#l00416">sPHENIXTracker::finalize()</a>, <a class="el" href="../../df/d64/sPHENIXTrackerTpc_8cpp_source.html#l00306">sPHENIXTrackerTpc::finalize()</a>, <a class="el" href="../../d2/d54/sPHENIXSeedFinder_8cpp_source.html#l00430">sPHENIXSeedFinder::finalize()</a>, <a class="el" href="../../df/d64/sPHENIXTrackerTpc_8cpp_source.html#l00903">sPHENIXTrackerTpc::findTracksByCombinatorialKalman()</a>, <a class="el" href="../../df/d64/sPHENIXTrackerTpc_8cpp_source.html#l01079">sPHENIXTrackerTpc::findTracksBySegments()</a>, <a class="el" href="../../d7/d81/sPHENIXTracker_8cpp_source.html#l01253">sPHENIXTracker::findTracksBySegments()</a>, and <a class="el" href="../../d2/d54/sPHENIXSeedFinder_8cpp_source.html#l01282">sPHENIXSeedFinder::findTracksBySegments()</a>.</p>
 
@@ -252,7 +260,7 @@ Protected Attributes</h2></td></tr>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d85/classHelixKalman_a7f78a3ec79f2fe6a3a1feff6d55bb836_cgraph.svg" width="887" height="391"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d85/classHelixKalman_a7f78a3ec79f2fe6a3a1feff6d55bb836_cgraph.svg" width="887" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -320,6 +328,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00088">88</a> of file <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html">HelixKalman.cpp</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp#l88">88</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp">HelixKalman.cpp</a></p>
 
 <p>References <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::d</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00155">d</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00159">dx</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00160">dy</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00138">dz2</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::dzdl</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00142">dzdl</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00092">k</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00026">k2</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::kappa</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00015">HelixKalmanState::nu</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::phi</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00155">phi</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00102">s</a>, <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00014">sign()</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00103">temp1</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00104">temp2</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00033">tmp1</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00034">tmp2</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00035">tmp3</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00094">v</a>, <a class="el" href="../../da/de5/ThicknessScan_8m_source.html#l00061">x0</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00016">HelixKalmanState::x_int</a>, and <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00016">HelixKalmanState::y_int</a>.</p>
 
@@ -405,6 +415,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00314">314</a> of file <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html">HelixKalman.cpp</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp#l314">314</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp">HelixKalman.cpp</a></p>
+
 <p>References <a class="el" href="../../d6/d04/HelixKalman_8h_source.html#l00031">Bfield</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::dzdl</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00142">dzdl</a>, <a class="el" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp_source.html#l00092">k</a>, <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00013">HelixKalmanState::kappa</a>, and <a class="el" href="../../d1/d58/HelixKalmanState_8h_source.html#l00015">HelixKalmanState::nu</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00436">calculateMSCovariance()</a>.</p>
@@ -444,6 +456,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00396">396</a> of file <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html">HelixKalman.cpp</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp#l396">396</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp">HelixKalman.cpp</a></p>
 
 <p>Referenced by <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00436">calculateMSCovariance()</a>.</p>
 
@@ -492,6 +506,10 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00364">364</a> of file <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html">HelixKalman.cpp</a>.</p>
+
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp#l364">364</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp">HelixKalman.cpp</a></p>
+
+<p>References <a class="el" href="../../dc/d15/KFParticleDef_8h_source.html#l00131">KFPMath::b</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00436">calculateMSCovariance()</a>.</p>
 
@@ -595,7 +613,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00436">436</a> of file <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html">HelixKalman.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00088">calculate_dAdAp()</a>, <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00314">calculate_dApdp()</a>, <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00396">calculate_dbdt()</a>, <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00364">calculate_dpdb()</a>, <a class="el" href="../../d8/d85/classHelixKalman.html#af9357af5c3c7c3ab96aa5031d843b505">calculateScatteringVariance()</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">i</a>, and <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">j</a>.</p>
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp#l436">436</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp">HelixKalman.cpp</a></p>
+
+<p>References <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00088">calculate_dAdAp()</a>, <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00314">calculate_dApdp()</a>, <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00396">calculate_dbdt()</a>, <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00364">calculate_dpdb()</a>, <a class="el" href="../../d8/d85/classHelixKalman.html#af9357af5c3c7c3ab96aa5031d843b505">calculateScatteringVariance()</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">i</a>, <a class="el" href="../../d7/d87/fasthadv4_8C_source.html#l00037">j</a>, and <a class="el" href="../../d9/d03/KFParticleBaseSIMD_8h_source.html#l00450">Q()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00028">addHit()</a>.</p>
 
@@ -604,7 +624,7 @@ Protected Attributes</h2></td></tr>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d85/classHelixKalman_a55adf1f408113d0e3994b07e7d629c6b_cgraph.svg" width="674" height="295"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d85/classHelixKalman_a55adf1f408113d0e3994b07e7d629c6b_cgraph.svg" width="674" height="347"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -771,6 +791,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html">HelixKalman.cpp</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp#l22">22</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.cpp">HelixKalman.cpp</a></p>
+
 <p>Referenced by <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00028">addHit()</a>.</p>
 
 <p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -854,6 +876,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d04/HelixKalman_8h_source.html#l00031">31</a> of file <a class="el" href="../../d6/d04/HelixKalman_8h_source.html">HelixKalman.h</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.h#l31">31</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.h">HelixKalman.h</a></p>
+
 <p>Referenced by <a class="el" href="../../dc/d08/HelixKalman_8cpp_source.html#l00314">calculate_dApdp()</a>.</p>
 
 </div>
@@ -878,6 +902,8 @@ Protected Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d04/HelixKalman_8h_source.html#l00031">31</a> of file <a class="el" href="../../d6/d04/HelixKalman_8h_source.html">HelixKalman.h</a>.</p>
 
+<p>View newest version in sPHENIX GitHub at line <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.h#l31">31</a> of file <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/Kalman/HelixKalman.h">HelixKalman.h</a></p>
+
 <p>Referenced by <a class="el" href="../../da/d0a/CylinderKalman_8cpp_source.html#l00521">CylinderKalman::calculateScatteringVariance()</a>.</p>
 
 </div>
@@ -896,7 +922,7 @@ Protected Attributes</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d8/d85/classHelixKalman.html">HelixKalman</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:37</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:46</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

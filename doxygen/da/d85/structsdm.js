@@ -1,9 +1,9 @@
 var structsdm =
 [
-    [ "chip", "da/d85/structsdm.html#a9f5e1247d4b2f272f51583e342721159", null ],
     [ "chip", "da/d85/structsdm.html#a679f85cde2c5a2e2e33fd0645cbd3c87", null ],
-    [ "conv1_sm", "da/d85/structsdm.html#aef07b6b45f61bd3e27ff45b273326b85", null ],
-    [ "conv2_sm", "da/d85/structsdm.html#a97675906692fbe405a815eee747647c6", null ],
+    [ "chip", "da/d85/structsdm.html#a04bf03e9e9184a0a7435030a83b18780", null ],
+    [ "conv1_sm", "da/d85/structsdm.html#a605a04eacd65bcc705e4affa8bd99c2f", null ],
+    [ "conv2_sm", "da/d85/structsdm.html#aa9e11894368c7db6ad1a44837cbbd768", null ],
     [ "head0", "da/d85/structsdm.html#a0d2ed669528610de0291fe877e25485d", null ],
     [ "head1", "da/d85/structsdm.html#a85d20b2a1187f36fb3b0a75a6c9e0694", null ],
     [ "head1_tag", "da/d85/structsdm.html#a6c7eb66fb894bcff05ace8ce9be3650d", null ],

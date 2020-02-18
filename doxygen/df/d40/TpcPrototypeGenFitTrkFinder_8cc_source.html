@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('df/d40/TpcPrototypeGenFitTrkFinder_8cc
 <div class="title">TpcPrototypeGenFitTrkFinder.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/d40/TpcPrototypeGenFitTrkFinder_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../df/d40/TpcPrototypeGenFitTrkFinder_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//prototype/blob/master/offline/packages/tpc2019/TpcPrototypeGenFitTrkFinder.cc">the newest version in sPHENIX GitHub for file TpcPrototypeGenFitTrkFinder.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/de1/TpcPrototypeGenFitTrkFinder_8h.html" title="Refit SvtxTracks with PHGenFit.">TpcPrototypeGenFitTrkFinder.h</a>&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d1/d4a/TrkrCluster_8h.html" title="Base class for cluster object.">trackbase/TrkrCluster.h</a>&gt;</span>  <span class="comment">// for TrkrCluster</span></div>
@@ -566,7 +566,7 @@ $(document).ready(function(){initNavTree('df/d40/TpcPrototypeGenFitTrkFinder_8cc
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;  }  <span class="comment">//    for (const auto cluster : clusterLayer)</span></div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;  <span class="comment">// do the fit</span></div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;  genfit::AbsTrackRep* rep = <span class="keyword">new</span> genfit::RKTrackRep(<a class="code" href="../../d2/d9a/classTpcPrototypeGenFitTrkFinder.html#a53af6f23352d97db4918e8088c9e2a01">_primary_pid_guess</a>);</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;  <a class="code" href="../../d1/d25/classgenfit_1_1AbsTrackRep.html" title="Abstract base class for a track representation.">genfit::AbsTrackRep</a>* rep = <span class="keyword">new</span> <a class="code" href="../../d2/d12/classgenfit_1_1RKTrackRep.html" title="AbsTrackRep with 5D track parameterization in plane coordinates: (q/p, u&#39;, v&#39;, u, v)...">genfit::RKTrackRep</a>(<a class="code" href="../../d2/d9a/classTpcPrototypeGenFitTrkFinder.html#a53af6f23352d97db4918e8088c9e2a01">_primary_pid_guess</a>);</div>
 <div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;  std::shared_ptr&lt;PHGenFit::Track&gt; phgf_track(<span class="keyword">new</span> <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html">PHGenFit::Track</a>(rep, seed_pos, seed_mom,</div>
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;                                                                  seed_cov));</div>
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;  phgf_track-&gt;addMeasurements(measurements);</div>
@@ -624,7 +624,7 @@ $(document).ready(function(){initNavTree('df/d40/TpcPrototypeGenFitTrkFinder_8cc
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    <span class="comment">//    if(opts[i] == &#39;T&#39;) drawTrack_ = true;</span></div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;    <span class="comment">//    if(opts[i] == &#39;X&#39;) drawSilent_ = true;</span></div>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    <span class="comment">//    if(opts[i] == &#39;G&#39;) drawGeometry_ = true;</span></div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    <a class="code" href="../../d2/d9a/classTpcPrototypeGenFitTrkFinder.html#a0cdc4350b89c70c4fb8ea3d1c4e809d4">_fitter</a>-&gt;<a class="code" href="../../d1/d35/classPHGenFit_1_1Fitter.html#a6310f56a435f67f2a8ff1a9c2270e51e">getEventDisplay</a>()-&gt;setOptions(<span class="stringliteral">&quot;ADEHPTG&quot;</span>);</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    <a class="code" href="../../d2/d9a/classTpcPrototypeGenFitTrkFinder.html#a0cdc4350b89c70c4fb8ea3d1c4e809d4">_fitter</a>-&gt;<a class="code" href="../../d1/d35/classPHGenFit_1_1Fitter.html#a6310f56a435f67f2a8ff1a9c2270e51e">getEventDisplay</a>()-&gt;<a class="code" href="../../d4/d1a/classgenfit_1_1EventDisplay.html#ab8163446d874348661e06f9e1e4befdf" title="Set the display options.">setOptions</a>(<span class="stringliteral">&quot;ADEHPTG&quot;</span>);</div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    <a class="code" href="../../d2/d9a/classTpcPrototypeGenFitTrkFinder.html#a0cdc4350b89c70c4fb8ea3d1c4e809d4">_fitter</a>-&gt;<a class="code" href="../../d1/d35/classPHGenFit_1_1Fitter.html#a96693b5a9f125c47e158b38793c657f0">displayEvent</a>();</div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;  }</div>
@@ -795,7 +795,7 @@ $(document).ready(function(){initNavTree('df/d40/TpcPrototypeGenFitTrkFinder_8cc
 		<li class="navelem"><a class="el" href="../../dir_9aca75ba370bf8e181613d44218f2f4a.html">prototype</a></li><li class="navelem"><a class="el" href="../../dir_32a0e629f48aaf51e8563fa582f6c0dc.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_d16e641b794a0d5a9a53ac33cf9aa65b.html">master</a></li><li class="navelem"><a class="el" href="../../dir_f12a244a9eb51ac43eadaadbc2da2e30.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9c2d5db74112677ee5e59e4362656ebc.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_f044ecb73d7b7a539cd515c7509328ca.html">tpc2019</a></li><li class="navelem"><a class="el" href="../../df/d40/TpcPrototypeGenFitTrkFinder_8cc.html">TpcPrototypeGenFitTrkFinder.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:27</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:35</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

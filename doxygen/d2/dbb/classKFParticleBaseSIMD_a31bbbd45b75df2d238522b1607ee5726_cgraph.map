@@ -1,0 +1,10 @@
+<map id="KFParticleBaseSIMD::AddDaughterWithEnergyFit" name="KFParticleBaseSIMD::AddDaughterWithEnergyFit">
+<area shape="rect" id="node2" href="$d2/dbb/classKFParticleBaseSIMD.html#abead77d712c9ce7ed12bd925c5fb3d8b" title="KFParticleBaseSIMD\l::GetMeasurement" alt="" coords="268,159,423,203"/>
+<area shape="rect" id="node6" href="$d2/dbb/classKFParticleBaseSIMD.html#a23c8f9fa65a42b162990806191f91148" title="KFParticleBaseSIMD::IJ" alt="" coords="471,277,641,305"/>
+<area shape="rect" id="node8" href="$d2/dbb/classKFParticleBaseSIMD.html#a926d1ef18075badaf63d0241a673d644" title="Returns the sum of masses of the daughters." alt="" coords="268,312,423,356"/>
+<area shape="rect" id="node9" href="$d2/dbb/classKFParticleBaseSIMD.html#a4050fd23fd4493d83633bb00a312522b" title="KFParticleBaseSIMD\l::InvertCholetsky3" alt="" coords="268,380,423,424"/>
+<area shape="rect" id="node3" href="$d2/dbb/classKFParticleBaseSIMD.html#af386cf32fdc113792305a1f38f2683c7" title="KFParticleBaseSIMD\l::GetDStoParticle" alt="" coords="479,5,633,49"/>
+<area shape="rect" id="node4" href="$d2/dbb/classKFParticleBaseSIMD.html#a721cd8da62bbf13e53583c9acff31945" title="KFParticleBaseSIMD\l::Transport" alt="" coords="479,73,633,117"/>
+<area shape="rect" id="node5" href="$d2/dbb/classKFParticleBaseSIMD.html#af246711cd053ab45c7415190658faeca" title="KFParticleBaseSIMD\l::MultQSQt" alt="" coords="479,141,633,185"/>
+<area shape="rect" id="node7" href="$d2/dbb/classKFParticleBaseSIMD.html#a762391583bafd7f932bc80fbd226bce5" title="KFParticleBaseSIMD\l::GetDStoPoint" alt="" coords="479,209,633,253"/>
+</map>

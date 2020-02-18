@@ -1,0 +1,7 @@
+<map id="genfit::AbsTrackRep::getTime" name="genfit::AbsTrackRep::getTime">
+<area shape="rect" id="node2" href="$de/dd5/classgenfit_1_1StateOnPlane.html#ae6fdaf0b3a8461d7ea093f8b983c905c" title="genfit::StateOnPlane\l::getTime" alt="" coords="210,5,371,49"/>
+<area shape="rect" id="node5" href="$d6/d8a/classgenfit_1_1Track.html#acc5b7745bb87f2ee4a2773f2989c16b6" title="get time of flight in ns between to trackPoints (if nullptr, for cardinal rep)" alt="" coords="209,73,372,101"/>
+<area shape="rect" id="node3" href="$d6/d8a/classgenfit_1_1Track.html#aa39935d7b66768b5fef4bbeec02438cc" title="genfit::Track::udpateSeed" alt="" coords="420,13,615,41"/>
+<area shape="rect" id="node4" href="$d6/d8a/classgenfit_1_1Track.html#af7557944de667f7bb312c3f960d09096" title="Make track ready to be fitted in reverse direction." alt="" coords="663,13,863,41"/>
+<area shape="rect" id="node6" href="$d0/d48/GenFit_2blob_2master_2test_2fitterTests_2main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="490,73,545,101"/>
+</map>

@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d2/d0d/IonPhysics_8cc_source.html','..
 <div class="title">IonPhysics.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d2/d0d/IonPhysics_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $</span></div>
+<a href="../../d2/d0d/IonPhysics_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/simulation/g4simulation/EICPhysicsList/IonPhysics.cc">the newest version in sPHENIX GitHub for file IonPhysics.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span><span class="comment">//                                                                            //</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//  File:        IonPhysics.cc                                                //</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Description: Ion hadronic physics constructor for EICPhysicsList          //</span></div>
@@ -191,13 +191,13 @@ $(document).ready(function(){initNavTree('d2/d0d/IonPhysics_8cc_source.html','..
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <a class="code" href="../../d7/dd5/classIonPhysics.html#a99124d52b70676d2f9ce90105efe425b">ftfp</a>-&gt;SetHighEnergyGenerator(<a class="code" href="../../d7/dd5/classIonPhysics.html#a389a93e68542626c89a066f4ed7c9dab">stringModel</a>);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <a class="code" href="../../d7/dd5/classIonPhysics.html#a99124d52b70676d2f9ce90105efe425b">ftfp</a>-&gt;SetTransport(<a class="code" href="../../d7/dd5/classIonPhysics.html#a9f77ef5c74b446f58220bfb336f230b0">preCompoundModel</a>); </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <a class="code" href="../../d7/dd5/classIonPhysics.html#a99124d52b70676d2f9ce90105efe425b">ftfp</a>-&gt;SetMinEnergy(10.01*GeV);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <a class="code" href="../../d7/dd5/classIonPhysics.html#a99124d52b70676d2f9ce90105efe425b">ftfp</a>-&gt;SetMinEnergy(10.01*<a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <a class="code" href="../../d7/dd5/classIonPhysics.html#a99124d52b70676d2f9ce90105efe425b">ftfp</a>-&gt;SetMaxEnergy(1.0*TeV);</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="comment">// QMD model</span></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  G4QMDReaction* qmd = <span class="keyword">new</span> G4QMDReaction;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  qmd-&gt;SetMinEnergy(100.0*MeV);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  qmd-&gt;SetMaxEnergy(10.0*GeV);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  qmd-&gt;SetMinEnergy(100.0*<a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a59f55222dbc380a6ecc7ff5a05355d49">MeV</a>);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  qmd-&gt;SetMaxEnergy(10.0*<a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a8f905be08c52a9cfa01d216834a9a4b0">GeV</a>);</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="comment">// BIC ion model</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  G4HadronicInteraction* p =</div>
@@ -206,8 +206,8 @@ $(document).ready(function(){initNavTree('d2/d0d/IonPhysics_8cc_source.html','..
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <span class="keywordflow">if</span>(!thePreCompound) { thePreCompound = <span class="keyword">new</span> G4PreCompoundModel; }</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  G4BinaryLightIonReaction* ionBC = <span class="keyword">new</span> G4BinaryLightIonReaction(thePreCompound);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  ionBC-&gt;SetMinEnergy(0.0*MeV);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  ionBC-&gt;SetMaxEnergy(110.0*MeV);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  ionBC-&gt;SetMinEnergy(0.0*<a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a59f55222dbc380a6ecc7ff5a05355d49">MeV</a>);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  ionBC-&gt;SetMaxEnergy(110.0*<a class="code" href="../../dc/d5a/namespacegenfit_1_1Unit.html#a59f55222dbc380a6ecc7ff5a05355d49">MeV</a>);</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="comment">// Elastic cross section set</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  <a class="code" href="../../d7/dd5/classIonPhysics.html#a421f18ae7b3d7e9acb84d898699989f0">ionGGXS</a> = <span class="keyword">new</span> G4ComponentGGNuclNuclXsc;</div>
@@ -314,7 +314,7 @@ $(document).ready(function(){initNavTree('d2/d0d/IonPhysics_8cc_source.html','..
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_9a1d80cb35ae1ea11132a6c860cee4ae.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_88b2a4465a73b077093df24027e5e0a6.html">g4simulation</a></li><li class="navelem"><a class="el" href="../../dir_78e9e80105547a23d6856f244a654eaa.html">EICPhysicsList</a></li><li class="navelem"><a class="el" href="../../d2/d0d/IonPhysics_8cc.html">IonPhysics.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:21</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:28</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

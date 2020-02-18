@@ -43,8 +43,8 @@ var usm_8C =
     [ "token", "d2/d51/usm_8C.html#a933e3fa29f5f891252a40a60e16377ef", null ],
     [ "Tokens", "d2/d51/usm_8C.html#ab3237a7d17404d92665ec4f4848a4963", null ],
     [ "value", "d2/d51/usm_8C.html#a81ab26bb994cec5d6d3d4705f80c0836", null ],
-    [ "X", "d2/d51/usm_8C.html#a00af2e55381e1fe3193d19fae655f9a2", null ],
+    [ "X", "d2/d51/usm_8C.html#acd6c37effd2cdfe2d9826c0fab69bc1a", null ],
     [ "xValue", "d2/d51/usm_8C.html#adec700ca7da7668c7d84653c2cce8425", null ],
-    [ "Y", "d2/d51/usm_8C.html#aef4fcf2bd941cfffc56cc3cac64d889d", null ],
+    [ "Y", "d2/d51/usm_8C.html#a19aaf327780137afa991c88d17cdaedc", null ],
     [ "yValue", "d2/d51/usm_8C.html#afd47cc6470c7d3493ad5b6de637833c5", null ]
 ];

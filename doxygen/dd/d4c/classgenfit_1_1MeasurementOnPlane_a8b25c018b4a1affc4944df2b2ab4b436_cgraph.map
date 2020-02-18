@@ -1,0 +1,7 @@
+<map id="genfit::MeasurementOnPlane::operator=" name="genfit::MeasurementOnPlane::operator=">
+<area shape="rect" id="node2" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html#a81d18accdb25a6bcd7be4923259f8e32" title="genfit::MeasurementOnPlane\l::swap" alt="" coords="272,87,491,131"/>
+<area shape="rect" id="node3" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#ac4114005e848fb0c739f7a25509dfd7a" title="genfit::MeasuredStateOnPlane\l::swap" alt="" coords="539,56,765,100"/>
+<area shape="rect" id="node5" href="$d4/da9/namespaceboost.html#a630945877437d477612e4419562161cc" title="boost::swap" alt="" coords="1023,73,1125,101"/>
+<area shape="rect" id="node4" href="$de/dd5/classgenfit_1_1StateOnPlane.html#acab76983d79952d6393ffc39db29b115" title="genfit::StateOnPlane\l::swap" alt="" coords="813,5,975,49"/>
+<area shape="rect" id="node6" href="$d1/d96/classboost_1_1array.html#a342ef866ed696b18ce803b5c9aba4b2e" title="boost::array::swap" alt="" coords="1173,73,1320,101"/>
+</map>

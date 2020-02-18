@@ -1,0 +1,6 @@
+<map id="genfit::DAF::DAF" name="genfit::DAF::DAF">
+<area shape="rect" id="node2" href="$d6/d60/classgenfit_1_1DAF.html#a1405e6c0a928b10c45db5cd4efe4ff3d" title="Configure the annealing scheme." alt="" coords="185,5,379,49"/>
+<area shape="rect" id="node3" href="$d6/d60/classgenfit_1_1DAF.html#ab72f1be8ee0645fb744845036060d294" title="Set the probability cut for the weight calculation for the hits." alt="" coords="193,73,371,101"/>
+<area shape="rect" id="node4" href="$d6/d60/classgenfit_1_1DAF.html#a312b66e7d49885d9a0d65cf8f8331f24" title="Set the probability cut for the weight calculation for the hits for a specific measurement dimensiona..." alt="" coords="427,73,611,101"/>
+<area shape="rect" id="node5" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="659,65,803,109"/>
+</map>

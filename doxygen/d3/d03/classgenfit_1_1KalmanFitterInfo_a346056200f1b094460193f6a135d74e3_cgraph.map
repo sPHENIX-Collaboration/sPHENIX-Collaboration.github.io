@@ -1,0 +1,5 @@
+<map id="genfit::KalmanFitterInfo::getWeights" name="genfit::KalmanFitterInfo::getWeights">
+<area shape="rect" id="node2" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ac7f94b10aafb0b75efd90f491b456834" title="genfit::KalmanFitterInfo\l::getMeasurementOnPlane" alt="" coords="242,5,443,49"/>
+<area shape="rect" id="node3" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a5342748d35f74e34dd5fcf7601d1896a" title="genfit::KalmanFitterInfo\l::getNumMeasurements" alt="" coords="251,73,435,117"/>
+<area shape="rect" id="node4" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html#a0be1bb0d92ae38bc3a373237430b65f5" title="genfit::MeasurementOnPlane\l::getWeight" alt="" coords="233,141,452,185"/>
+</map>

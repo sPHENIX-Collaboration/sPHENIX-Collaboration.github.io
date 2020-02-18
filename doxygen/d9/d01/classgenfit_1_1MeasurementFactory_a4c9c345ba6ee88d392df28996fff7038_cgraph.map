@@ -1,0 +1,6 @@
+<map id="genfit::MeasurementFactory::createMany" name="genfit::MeasurementFactory::createMany">
+<area shape="rect" id="node2" href="$da/df3/classgenfit_1_1TrackCandHit.html#abd3f233380e6f805124f878b8c7d88ea" title="genfit::TrackCandHit\l::getDetId" alt="" coords="264,5,424,49"/>
+<area shape="rect" id="node3" href="$d3/da2/classgenfit_1_1TrackCand.html#a1fb7b38c1330027174fd8f428b6df722" title="genfit::TrackCand::\lgetHit" alt="" coords="270,73,418,117"/>
+<area shape="rect" id="node4" href="$da/df3/classgenfit_1_1TrackCandHit.html#a64a7dbfe54ddf6d9098a33ace50aba7a" title="genfit::TrackCandHit\l::getHitId" alt="" coords="264,141,424,185"/>
+<area shape="rect" id="node5" href="$d3/da2/classgenfit_1_1TrackCand.html#a534f583ec510c377579d5c3ddac00e91" title="genfit::TrackCand::\lgetNHits" alt="" coords="270,209,418,253"/>
+</map>

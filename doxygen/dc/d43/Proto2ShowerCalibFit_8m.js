@@ -52,7 +52,7 @@ var Proto2ShowerCalibFit_8m =
     [ "data", "dc/d43/Proto2ShowerCalibFit_8m.html#a511ae0b1c13f95e5f08f1a0dd3da3d93", null ],
     [ "DataFolder", "dc/d43/Proto2ShowerCalibFit_8m.html#adfb485aedb1d4883b78411c95e2272f9", null ],
     [ "DataSet", "dc/d43/Proto2ShowerCalibFit_8m.html#a9ad04a54c7a28673ec95fc15c2b9ecb8", null ],
-    [ "E", "dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c", null ],
+    [ "E", "dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e", null ],
     [ "E_scale", "dc/d43/Proto2ShowerCalibFit_8m.html#a6d8f0c1bce89b822dc028d7d89ccaacc", null ],
     [ "energy", "dc/d43/Proto2ShowerCalibFit_8m.html#ac002779c383d2cc783e881f94449de66", null ],
     [ "energys", "dc/d43/Proto2ShowerCalibFit_8m.html#adaccda8cebd92d732aac79599218f834", null ],

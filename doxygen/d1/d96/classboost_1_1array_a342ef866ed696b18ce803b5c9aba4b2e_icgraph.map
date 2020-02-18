@@ -1,51 +1,51 @@
 <map id="boost::array::swap" name="boost::array::swap">
-<area shape="rect" id="node2" href="$d4/da9/namespaceboost.html#a630945877437d477612e4419562161cc" title="boost::swap" alt="" coords="200,1312,303,1340"/>
-<area shape="rect" id="node3" href="$da/d87/classSimpleHit3D.html#ae49a0ed39765942f7347d1455d015b01" title="SimpleHit3D::covar\l_index" alt="" coords="393,101,547,145"/>
-<area shape="rect" id="node6" href="$de/d3e/classCellularAutomaton__v1.html#af726cb4f1c97b9b24b5f170d41b10166" title="CellularAutomaton_v1\l::process_single_triplet" alt="" coords="888,128,1065,172"/>
-<area shape="rect" id="node9" href="$d0/d6b/classSvtxTrackState__v1.html#a9fb8d996d591c6e2575893da2c18687e" title="SvtxTrackState_v1::\lcovar_index" alt="" coords="393,333,547,377"/>
-<area shape="rect" id="node12" href="$d7/db4/classSvtxVertex__v1.html#a61d2847d9367ae86143579a1b2427b1f" title="SvtxVertex_v1::covar\l_index" alt="" coords="387,469,553,513"/>
-<area shape="rect" id="node15" href="$d7/df6/classSvtxCluster__v1.html#a679a128de22c0a480df7c36225cb77d0" title="SvtxCluster_v1::covar\l_index" alt="" coords="385,657,555,701"/>
-<area shape="rect" id="node20" href="$d3/d60/classGlobalVertexv1.html#a295b6b574e99833a72f43fba6da73ac1" title="GlobalVertexv1::covar\l_index" alt="" coords="384,845,556,889"/>
-<area shape="rect" id="node23" href="$db/dfa/classPHG4Showerv1.html#a069c63676624727bc9956c1b8a7d136f" title="PHG4Showerv1::covar\l_index" alt="" coords="383,957,557,1001"/>
-<area shape="rect" id="node26" href="$dc/d79/classTrkrClusterv1.html#ae90d54dc6442524e2d53f793cdf273b2" title="TrkrClusterv1::covarIndex" alt="" coords="372,1048,568,1076"/>
-<area shape="rect" id="node31" href="$d2/d93/classTrkrEvaluator.html#a753a5ea1a91f097f5c226f5b1620db3f" title="dump the evaluator information into ntuple for external analysis" alt="" coords="377,1100,563,1144"/>
-<area shape="rect" id="node33" href="$d6/d11/classSvtxEvaluator.html#ace95fef2b7b4ad8b797f6695e053dd6e" title="dump the evaluator information into ntuple for external analysis" alt="" coords="376,1168,564,1212"/>
-<area shape="rect" id="node35" href="$d1/d34/classFitNewton_1_1NewtonMinimizerGradHessian.html#acbcf90b318d2419aa6832cefe666efb2" title="FitNewton::NewtonMinimizer\lGradHessian::findSaddlePoint" alt="" coords="358,1236,582,1280"/>
-<area shape="rect" id="node36" href="$d8/ddc/classsPHENIXTrackerTpc.html#a6399d8c23c7ee62c60d3046e9fddf2ed" title="sPHENIXTrackerTpc::\lfindTracksBySegments" alt="" coords="383,1304,557,1348"/>
-<area shape="rect" id="node38" href="$da/d22/classsPHENIXTracker.html#a9ce14f6dd37731c87311a46ba3a68be5" title="sPHENIXTracker::findTracks\lBySegments" alt="" coords="369,1372,571,1416"/>
-<area shape="rect" id="node40" href="$da/d18/classsPHENIXSeedFinder.html#af0162d42cf4ab7c8d8fa3ccadce98be4" title="sPHENIXSeedFinder::\lfindTracksBySegments" alt="" coords="383,1440,557,1484"/>
-<area shape="rect" id="node42" href="$d1/d34/classFitNewton_1_1NewtonMinimizerGradHessian.html#a9e8e1f25d3e9a1721cf3d784fd954143" title="FitNewton::NewtonMinimizer\lGradHessian::minimize" alt="" coords="363,1508,577,1552"/>
-<area shape="rect" id="node43" href="$dd/deb/classPHG4InttHitReco.html#aeae720fd9e71be360c52c2e58bea5bb5" title="event processing" alt="" coords="373,1576,567,1620"/>
-<area shape="rect" id="node44" href="$de/d3e/classCellularAutomaton__v1.html#a05968c13f25eb599a20e2ee1739a6ac3" title="CellularAutomaton_v1\l::process_single_track" alt="" coords="385,1644,555,1688"/>
-<area shape="rect" id="node45" href="$d0/dc8/classSoftLeptonTaggingTruth.html#ac0f868b2995e0ac9d2db4f918dc7d180" title="set eta range" alt="" coords="380,1712,560,1756"/>
-<area shape="rect" id="node46" href="$d4/d28/classQAG4SimulationJet.html#a699dadb7eba6bf8c6e974d10d27f1ee3" title="set eta range" alt="" coords="391,1780,549,1824"/>
-<area shape="rect" id="node47" href="$d7/d30/classPHPy8JetTrigger.html#abefa66e9301d01fde1015ec0bc4fa7dc" title="PHPy8JetTrigger::SetEtaHighLow" alt="" coords="351,1848,589,1876"/>
-<area shape="rect" id="node48" href="$d2/d7b/classPHPy6JetTrigger.html#a51f47aea85ffc08bdc65eaf47e68f9ba" title="PHPy6JetTrigger::SetEtaHighLow" alt="" coords="351,1900,589,1928"/>
-<area shape="rect" id="node49" href="$da/d18/classboost_1_1shared__ptr.html#a35e547e16fa205e5d727929789fd7ac9" title="boost::shared_ptr\&lt;\l TClonesArray \&gt;::swap" alt="" coords="382,1952,558,1996"/>
-<area shape="rect" id="node50" href="$d7/d7b/classPHHepMCGenEvent.html#a39d0e988104a2592f546f711be8ed5ee" title="PHHepMCGenEvent::swapEvent" alt="" coords="351,2020,589,2048"/>
-<area shape="rect" id="node4" href="$da/d87/classSimpleHit3D.html#ac14dba1bba0e7c7e573d8d2366f3e82f" title="SimpleHit3D::get_error" alt="" coords="650,5,827,33"/>
-<area shape="rect" id="node5" href="$da/d87/classSimpleHit3D.html#afedde585b37d72326a4ffd97978eec56" title="SimpleHit3D::get_size" alt="" coords="654,57,823,85"/>
-<area shape="rect" id="node7" href="$da/d87/classSimpleHit3D.html#a478ed465c2c864d826916d3b82a4df6c" title="SimpleHit3D::set_error" alt="" coords="651,109,826,137"/>
-<area shape="rect" id="node8" href="$da/d87/classSimpleHit3D.html#a904e2fe1c9c3407f59e9a7bd96b3c548" title="SimpleHit3D::set_size" alt="" coords="655,161,823,189"/>
-<area shape="rect" id="node10" href="$d0/d6b/classSvtxTrackState__v1.html#ab42e86827d27b0960d86e7df201cdd22" title="SvtxTrackState_v1::\lget_error" alt="" coords="662,265,815,309"/>
-<area shape="rect" id="node11" href="$d0/d6b/classSvtxTrackState__v1.html#ac248d0c856879c152a1cfac4e2f678bd" title="SvtxTrackState_v1::\lset_error" alt="" coords="662,333,815,377"/>
-<area shape="rect" id="node13" href="$d7/db4/classSvtxVertex__v1.html#a55305751e4869d9a3eab1cd461899421" title="SvtxVertex_v1::get\l_error" alt="" coords="664,401,813,445"/>
-<area shape="rect" id="node14" href="$d7/db4/classSvtxVertex__v1.html#a1f91ad3a6a6c430c015e247d8db8fcea" title="SvtxVertex_v1::set\l_error" alt="" coords="665,469,813,513"/>
-<area shape="rect" id="node16" href="$d7/df6/classSvtxCluster__v1.html#a510dae981e55ba1180e1e6a78ad1b601" title="SvtxCluster_v1::get\l_error" alt="" coords="661,537,816,581"/>
-<area shape="rect" id="node17" href="$d7/df6/classSvtxCluster__v1.html#a5b6f3e7a1cacbffb156e84784e67bc64" title="SvtxCluster_v1::get_size" alt="" coords="645,605,832,633"/>
-<area shape="rect" id="node18" href="$d7/df6/classSvtxCluster__v1.html#ad4eec38a485bda8f85e6d80784ac02ad" title="SvtxCluster_v1::set\l_error" alt="" coords="663,657,815,701"/>
-<area shape="rect" id="node19" href="$d7/df6/classSvtxCluster__v1.html#a12a7008000b364ea3fe60637b0ce0ff9" title="SvtxCluster_v1::set_size" alt="" coords="647,725,831,753"/>
-<area shape="rect" id="node21" href="$d3/d60/classGlobalVertexv1.html#a63b851550fb7f9fc341b7ad7ef5447bd" title="GlobalVertexv1::get\l_error" alt="" coords="661,777,817,821"/>
-<area shape="rect" id="node22" href="$d3/d60/classGlobalVertexv1.html#ae50e49e6958e52d15acf747525d0cd60" title="GlobalVertexv1::set\l_error" alt="" coords="661,845,816,889"/>
-<area shape="rect" id="node24" href="$db/dfa/classPHG4Showerv1.html#ae2ee405d07c1147b5f32142a96f2a37b" title="PHG4Showerv1::get_covar" alt="" coords="638,913,839,941"/>
-<area shape="rect" id="node25" href="$db/dfa/classPHG4Showerv1.html#ae967263c2f8752d73fb4c7996a72343f" title="PHG4Showerv1::set_covar" alt="" coords="639,965,839,993"/>
-<area shape="rect" id="node27" href="$dc/d79/classTrkrClusterv1.html#ac2f1ea4e433ce59a446c91f1389810f3" title="TrkrClusterv1::getError" alt="" coords="651,1017,827,1045"/>
-<area shape="rect" id="node28" href="$dc/d79/classTrkrClusterv1.html#a98cd60401a51357f4cc7e4c37fdc8917" title="TrkrClusterv1::getSize" alt="" coords="653,1069,824,1097"/>
-<area shape="rect" id="node29" href="$dc/d79/classTrkrClusterv1.html#a4de5fc384b7cd3eb2d03b295cdcd9f75" title="TrkrClusterv1::setError" alt="" coords="651,1121,826,1149"/>
-<area shape="rect" id="node30" href="$dc/d79/classTrkrClusterv1.html#a07ec25db051133ef43528937c92380c3" title="TrkrClusterv1::setSize" alt="" coords="654,1173,823,1201"/>
-<area shape="rect" id="node32" href="$d2/d93/classTrkrEvaluator.html#af1cb893f5a8aebc803c2bb55dd582e5a" title="TrkrEvaluator::process\l_event" alt="" coords="652,1225,825,1269"/>
-<area shape="rect" id="node34" href="$d6/d11/classSvtxEvaluator.html#ac66ea4145deb621d9e4fb38cf852dc33" title="SvtxEvaluator::process\l_event" alt="" coords="651,1293,827,1337"/>
-<area shape="rect" id="node37" href="$d8/ddc/classsPHENIXTrackerTpc.html#a03d04ab414ae2c90cffcf5c5d9cf39ad" title="sPHENIXTrackerTpc::\lfindTracks" alt="" coords="659,1361,818,1405"/>
-<area shape="rect" id="node39" href="$da/d22/classsPHENIXTracker.html#a2939ba6b027430cf6c0ad7bd2eefd130" title="sPHENIXTracker::findTracks" alt="" coords="637,1429,840,1457"/>
-<area shape="rect" id="node41" href="$da/d18/classsPHENIXSeedFinder.html#a34bfad343dac14430c618e9ec66ee55a" title="sPHENIXSeedFinder::\lfindTracks" alt="" coords="658,1481,819,1525"/>
+<area shape="rect" id="node2" href="$d4/da9/namespaceboost.html#a630945877437d477612e4419562161cc" title="boost::swap" alt="" coords="200,1391,303,1419"/>
+<area shape="rect" id="node3" href="$da/d87/classSimpleHit3D.html#ae49a0ed39765942f7347d1455d015b01" title="SimpleHit3D::covar\l_index" alt="" coords="393,155,547,199"/>
+<area shape="rect" id="node6" href="$de/d3e/classCellularAutomaton__v1.html#af726cb4f1c97b9b24b5f170d41b10166" title="CellularAutomaton_v1\l::process_single_triplet" alt="" coords="933,26,1110,70"/>
+<area shape="rect" id="node9" href="$d0/d6b/classSvtxTrackState__v1.html#a9fb8d996d591c6e2575893da2c18687e" title="SvtxTrackState_v1::\lcovar_index" alt="" coords="393,335,547,379"/>
+<area shape="rect" id="node12" href="$d7/db4/classSvtxVertex__v1.html#a61d2847d9367ae86143579a1b2427b1f" title="SvtxVertex_v1::covar\l_index" alt="" coords="387,471,553,515"/>
+<area shape="rect" id="node15" href="$d7/df6/classSvtxCluster__v1.html#a679a128de22c0a480df7c36225cb77d0" title="SvtxCluster_v1::covar\l_index" alt="" coords="385,565,555,609"/>
+<area shape="rect" id="node20" href="$d3/d60/classGlobalVertexv1.html#a295b6b574e99833a72f43fba6da73ac1" title="GlobalVertexv1::covar\l_index" alt="" coords="384,633,556,677"/>
+<area shape="rect" id="node23" href="$db/dfa/classPHG4Showerv1.html#a069c63676624727bc9956c1b8a7d136f" title="PHG4Showerv1::covar\l_index" alt="" coords="383,701,557,745"/>
+<area shape="rect" id="node24" href="$dc/d79/classTrkrClusterv1.html#ae90d54dc6442524e2d53f793cdf273b2" title="TrkrClusterv1::covarIndex" alt="" coords="372,769,568,797"/>
+<area shape="rect" id="node25" href="$d2/d93/classTrkrEvaluator.html#a753a5ea1a91f097f5c226f5b1620db3f" title="dump the evaluator information into ntuple for external analysis" alt="" coords="377,821,563,865"/>
+<area shape="rect" id="node26" href="$d6/d11/classSvtxEvaluator.html#ace95fef2b7b4ad8b797f6695e053dd6e" title="dump the evaluator information into ntuple for external analysis" alt="" coords="376,889,564,933"/>
+<area shape="rect" id="node27" href="$d1/d34/classFitNewton_1_1NewtonMinimizerGradHessian.html#acbcf90b318d2419aa6832cefe666efb2" title="FitNewton::NewtonMinimizer\lGradHessian::findSaddlePoint" alt="" coords="358,957,582,1001"/>
+<area shape="rect" id="node28" href="$d8/ddc/classsPHENIXTrackerTpc.html#a6399d8c23c7ee62c60d3046e9fddf2ed" title="sPHENIXTrackerTpc::\lfindTracksBySegments" alt="" coords="383,1025,557,1069"/>
+<area shape="rect" id="node29" href="$da/d22/classsPHENIXTracker.html#a9ce14f6dd37731c87311a46ba3a68be5" title="sPHENIXTracker::findTracks\lBySegments" alt="" coords="369,1093,571,1137"/>
+<area shape="rect" id="node30" href="$da/d18/classsPHENIXSeedFinder.html#af0162d42cf4ab7c8d8fa3ccadce98be4" title="sPHENIXSeedFinder::\lfindTracksBySegments" alt="" coords="383,1161,557,1205"/>
+<area shape="rect" id="node31" href="$d6/d8a/classgenfit_1_1Track.html#acc5b7745bb87f2ee4a2773f2989c16b6" title="get time of flight in ns between to trackPoints (if nullptr, for cardinal rep)" alt="" coords="389,1229,551,1257"/>
+<area shape="rect" id="node32" href="$d1/d34/classFitNewton_1_1NewtonMinimizerGradHessian.html#a9e8e1f25d3e9a1721cf3d784fd954143" title="FitNewton::NewtonMinimizer\lGradHessian::minimize" alt="" coords="363,1281,577,1325"/>
+<area shape="rect" id="node33" href="$dd/deb/classPHG4InttHitReco.html#aeae720fd9e71be360c52c2e58bea5bb5" title="event processing" alt="" coords="373,1349,567,1393"/>
+<area shape="rect" id="node34" href="$de/d3e/classCellularAutomaton__v1.html#a05968c13f25eb599a20e2ee1739a6ac3" title="CellularAutomaton_v1\l::process_single_track" alt="" coords="385,1417,555,1461"/>
+<area shape="rect" id="node35" href="$d0/dc8/classSoftLeptonTaggingTruth.html#ac0f868b2995e0ac9d2db4f918dc7d180" title="set eta range" alt="" coords="380,1485,560,1529"/>
+<area shape="rect" id="node36" href="$d4/d28/classQAG4SimulationJet.html#a699dadb7eba6bf8c6e974d10d27f1ee3" title="set eta range" alt="" coords="391,1553,549,1597"/>
+<area shape="rect" id="node37" href="$d7/d30/classPHPy8JetTrigger.html#abefa66e9301d01fde1015ec0bc4fa7dc" title="PHPy8JetTrigger::SetEtaHighLow" alt="" coords="351,1621,589,1649"/>
+<area shape="rect" id="node38" href="$d2/d7b/classPHPy6JetTrigger.html#a51f47aea85ffc08bdc65eaf47e68f9ba" title="PHPy6JetTrigger::SetEtaHighLow" alt="" coords="351,1673,589,1701"/>
+<area shape="rect" id="node39" href="$df/d8f/classgenfit_1_1KalmanFittedStateOnPlane.html#a8169ef8e3dff2e607c1a4cb040abf952" title="genfit::KalmanFittedState\lOnPlane::swap" alt="" coords="925,1751,1118,1795"/>
+<area shape="rect" id="node40" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#ac4114005e848fb0c739f7a25509dfd7a" title="genfit::MeasuredStateOnPlane\l::swap" alt="" coords="637,1786,864,1830"/>
+<area shape="rect" id="node41" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html#a81d18accdb25a6bcd7be4923259f8e32" title="genfit::MeasurementOnPlane\l::swap" alt="" coords="912,1849,1131,1893"/>
+<area shape="rect" id="node42" href="$d2/d6a/classgenfit_1_1ReferenceStateOnPlane.html#a98d544970f31834ecaa34275c2ba55d7" title="genfit::ReferenceStateOn\lPlane::swap" alt="" coords="655,1862,847,1906"/>
+<area shape="rect" id="node43" href="$de/dd5/classgenfit_1_1StateOnPlane.html#acab76983d79952d6393ffc39db29b115" title="genfit::StateOnPlane\l::swap" alt="" coords="389,1827,551,1871"/>
+<area shape="rect" id="node44" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a08f56256785465a3583eb3a6db49a090" title="genfit::GFRaveVertex\l::swap" alt="" coords="387,1998,553,2042"/>
+<area shape="rect" id="node45" href="$db/d40/classgenfit_1_1TrackPoint.html#a6bd33ac72e2ed6aae0d0d025495a247f" title="genfit::TrackPoint\l::swap" alt="" coords="401,2066,539,2110"/>
+<area shape="rect" id="node46" href="$dd/d25/classgenfit_1_1DetPlane.html#a009393e73538110c694b28552ad4b614" title="genfit::DetPlane::swap" alt="" coords="383,2134,557,2162"/>
+<area shape="rect" id="node47" href="$d3/da2/classgenfit_1_1TrackCand.html#a3ec4c89f3d9c47f161fcb3de838fd64d" title="genfit::TrackCand::swap" alt="" coords="378,2186,562,2214"/>
+<area shape="rect" id="node48" href="$d6/d8a/classgenfit_1_1Track.html#ae99c43517b8cbbb332fa6ac20e1b3fe6" title="genfit::Track::swap" alt="" coords="395,2238,545,2266"/>
+<area shape="rect" id="node49" href="$da/d18/classboost_1_1shared__ptr.html#a35e547e16fa205e5d727929789fd7ac9" title="boost::shared_ptr\&lt;\l TClonesArray \&gt;::swap" alt="" coords="382,2290,558,2334"/>
+<area shape="rect" id="node50" href="$d7/d7b/classPHHepMCGenEvent.html#a39d0e988104a2592f546f711be8ed5ee" title="PHHepMCGenEvent::swapEvent" alt="" coords="351,2358,589,2386"/>
+<area shape="rect" id="node4" href="$da/d87/classSimpleHit3D.html#ac14dba1bba0e7c7e573d8d2366f3e82f" title="SimpleHit3D::get_error" alt="" coords="662,215,839,243"/>
+<area shape="rect" id="node5" href="$da/d87/classSimpleHit3D.html#afedde585b37d72326a4ffd97978eec56" title="SimpleHit3D::get_size" alt="" coords="666,59,835,87"/>
+<area shape="rect" id="node7" href="$da/d87/classSimpleHit3D.html#a478ed465c2c864d826916d3b82a4df6c" title="SimpleHit3D::set_error" alt="" coords="663,111,838,139"/>
+<area shape="rect" id="node8" href="$da/d87/classSimpleHit3D.html#a904e2fe1c9c3407f59e9a7bd96b3c548" title="SimpleHit3D::set_size" alt="" coords="667,163,835,191"/>
+<area shape="rect" id="node10" href="$d0/d6b/classSvtxTrackState__v1.html#ab42e86827d27b0960d86e7df201cdd22" title="SvtxTrackState_v1::\lget_error" alt="" coords="674,335,827,379"/>
+<area shape="rect" id="node11" href="$d0/d6b/classSvtxTrackState__v1.html#ac248d0c856879c152a1cfac4e2f678bd" title="SvtxTrackState_v1::\lset_error" alt="" coords="674,267,827,311"/>
+<area shape="rect" id="node13" href="$d7/db4/classSvtxVertex__v1.html#a55305751e4869d9a3eab1cd461899421" title="SvtxVertex_v1::get\l_error" alt="" coords="676,471,825,515"/>
+<area shape="rect" id="node14" href="$d7/db4/classSvtxVertex__v1.html#a1f91ad3a6a6c430c015e247d8db8fcea" title="SvtxVertex_v1::set\l_error" alt="" coords="677,403,825,447"/>
+<area shape="rect" id="node16" href="$d7/df6/classSvtxCluster__v1.html#a510dae981e55ba1180e1e6a78ad1b601" title="SvtxCluster_v1::get\l_error" alt="" coords="673,711,828,755"/>
+<area shape="rect" id="node17" href="$d7/df6/classSvtxCluster__v1.html#a5b6f3e7a1cacbffb156e84784e67bc64" title="SvtxCluster_v1::get_size" alt="" coords="657,539,844,567"/>
+<area shape="rect" id="node18" href="$d7/df6/classSvtxCluster__v1.html#ad4eec38a485bda8f85e6d80784ac02ad" title="SvtxCluster_v1::set\l_error" alt="" coords="675,591,827,635"/>
+<area shape="rect" id="node19" href="$d7/df6/classSvtxCluster__v1.html#a12a7008000b364ea3fe60637b0ce0ff9" title="SvtxCluster_v1::set_size" alt="" coords="659,659,843,687"/>
+<area shape="rect" id="node21" href="$d3/d60/classGlobalVertexv1.html#a63b851550fb7f9fc341b7ad7ef5447bd" title="GlobalVertexv1::get\l_error" alt="" coords="673,847,829,891"/>
+<area shape="rect" id="node22" href="$d3/d60/classGlobalVertexv1.html#ae50e49e6958e52d15acf747525d0cd60" title="GlobalVertexv1::set\l_error" alt="" coords="673,779,828,823"/>
 </map>

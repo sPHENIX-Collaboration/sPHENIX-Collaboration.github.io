@@ -1,0 +1,11 @@
+<map id="genfit::MaterialEffects::drawdEdx" name="genfit::MaterialEffects::drawdEdx">
+<area shape="rect" id="node2" href="$d1/d34/classgenfit_1_1MaterialEffects.html#aa7e049da0d68b0e40f08c9c84023901a" title="Calculate dEdx for a given energy." alt="" coords="243,73,414,117"/>
+<area shape="rect" id="node8" href="$d5/d22/classgenfit_1_1AbsMaterialInterface.html#ad5be6fb705661c9fb0d1c915c6625861" title="genfit::AbsMaterialInterface\l::getMaterialParameters" alt="" coords="224,141,433,185"/>
+<area shape="rect" id="node9" href="$d1/d34/classgenfit_1_1MaterialEffects.html#a825e62c48c2385f4db21ae66541fcac2" title="sets charge_, mass_" alt="" coords="239,209,418,253"/>
+<area shape="rect" id="node10" href="$d5/d22/classgenfit_1_1AbsMaterialInterface.html#a80912a1c90a922154944e1ebe367e8f7" title="Initialize the navigator at given position and with given direction. Return true if volume changed..." alt="" coords="224,277,433,321"/>
+<area shape="rect" id="node3" href="$d1/d34/classgenfit_1_1MaterialEffects.html#ad8579b2457272a046b35cd1cb7ca1398" title="Uses Bethe Bloch formula to calculate dEdx." alt="" coords="481,5,652,49"/>
+<area shape="rect" id="node5" href="$d1/d34/classgenfit_1_1MaterialEffects.html#a6fb63ab0de849789791cd7fe87a87d15" title="Returns dEdx." alt="" coords="481,141,652,185"/>
+<area shape="rect" id="node7" href="$d1/d34/classgenfit_1_1MaterialEffects.html#a2b0432d5492f34876561f0687de2343b" title="genfit::MaterialEffects\l::getMomGammaBeta" alt="" coords="481,73,652,117"/>
+<area shape="rect" id="node4" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="700,40,844,84"/>
+<area shape="rect" id="node6" href="$d9/d03/KFParticleBaseSIMD_8h.html#a9fef1880f3bc3812ef130b5b1163ce17" title="Returns dS=l/p, l &#45; decay length, fP[7], defined if production vertex is set." alt="" coords="753,149,791,177"/>
+</map>

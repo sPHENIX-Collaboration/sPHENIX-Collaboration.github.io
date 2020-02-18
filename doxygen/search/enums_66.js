@@ -1,6 +1,7 @@
 var searchData=
 [
   ['fieldconfigtypes',['FieldConfigTypes',['../d9/d8c/classPHFieldConfig.html#a1100379b9a3055047b2967b4e4d7faa1',1,'PHFieldConfig']]],
+  ['fields',['fields',['../d6/d51/structgenfit_1_1PruneFlags.html#a6c3f929a5befc1192b5e2ae7f97670b0',1,'genfit::PruneFlags']]],
   ['file_5ftype',['FILE_TYPE',['../d7/d7f/classPHG4DetectorGroupSubsystem.html#acbe991bea313b0ebdf8b40fe882c4914',1,'PHG4DetectorGroupSubsystem::FILE_TYPE()'],['../d5/d29/classPHG4DetectorSubsystem.html#a5b7938121bc4ad1089d42a52f8b6dd35',1,'PHG4DetectorSubsystem::FILE_TYPE()']]],
   ['fitmethodtype',['FitMethodType',['../da/d36/classCaloCalibration.html#a7ebfa3fde90148b14725364f97717cdf',1,'CaloCalibration']]],
   ['fittertype',['FitterType',['../d1/d35/classPHGenFit_1_1Fitter.html#a62602ffe923f84f510bbc6d3709cb7c9',1,'PHGenFit::Fitter']]],

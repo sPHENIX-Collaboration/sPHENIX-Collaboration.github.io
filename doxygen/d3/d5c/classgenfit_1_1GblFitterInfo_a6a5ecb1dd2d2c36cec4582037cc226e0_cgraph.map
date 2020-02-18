@@ -1,0 +1,16 @@
+<map id="genfit::GblFitterInfo::recalculateJacobian" name="genfit::GblFitterInfo::recalculateJacobian">
+<area shape="rect" id="node2" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#ae0ad668258839af38e1e8820f1e0c6d6" title="genfit::AbsMeasurement\l::constructPlane" alt="" coords="238,5,426,49"/>
+<area shape="rect" id="node3" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a2f8c69950056c0c679d66bfb2eae2431" title="Extrapolates the state to plane, and returns the extrapolation length and, via reference, the extrapolated state." alt="" coords="253,73,411,117"/>
+<area shape="rect" id="node4" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a2801bf4fa1196147472cc1807281e23d" title="genfit::StateOnPlane\l::getAuxInfo" alt="" coords="251,141,413,185"/>
+<area shape="rect" id="node5" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a9040cad25be9a3c328a52c186871acf8" title="Get the prediction at this point Always biased in GBL (global fit) There are 2 states, before and after kink (if there is a scatterer at this point). Per default the state after kink for forward propagation is returned." alt="" coords="255,209,409,253"/>
+<area shape="rect" id="node6" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#aaabf5d464819db19f5542ac201708772" title="Get the jacobian and noise matrix of the last extrapolation." alt="" coords="218,277,446,321"/>
+<area shape="rect" id="node7" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#ac844445adef7cc138e48f0562242d490" title="genfit::AbsFitterInfo\l::getPlane" alt="" coords="255,345,409,389"/>
+<area shape="rect" id="node8" href="$db/d40/classgenfit_1_1TrackPoint.html#a2999fc0669beb86b6309f86e040bcdef" title="genfit::TrackPoint\l::getRawMeasurement" alt="" coords="535,397,709,441"/>
+<area shape="rect" id="node9" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="251,601,413,645"/>
+<area shape="rect" id="node10" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#ad3bc8c2b886cf8fa07c124945d222f07" title="genfit::GblFitterInfo\l::hasMeasurements" alt="" coords="255,465,409,509"/>
+<area shape="rect" id="node12" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a80fd6a7510eb55797dc0f57a8740b74f" title="SHOULD BE USED ONLY INTERNALY! Update the plane from measurement constructed with state or take plane..." alt="" coords="215,533,449,577"/>
+<area shape="rect" id="node11" href="$db/d40/classgenfit_1_1TrackPoint.html#ada7b4d8c988a1798e455fb70929f88b7" title="genfit::TrackPoint\l::hasRawMeasurements" alt="" coords="531,465,713,509"/>
+<area shape="rect" id="node13" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#af02a4a29abfa1c31c8208baf757a21c5" title="genfit::AbsFitterInfo\l::setPlane" alt="" coords="545,533,699,577"/>
+<area shape="rect" id="node14" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a30c7e8d87fa50205baa927d4ceccb594" title="genfit::StateOnPlane\l::getPlane" alt="" coords="541,601,703,645"/>
+<area shape="rect" id="node15" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a88f7a366bee3fdc9ad109b71690665f9" title="genfit::AbsMeasurement\l::constructMeasurementsOnPlane" alt="" coords="497,669,747,713"/>
+</map>

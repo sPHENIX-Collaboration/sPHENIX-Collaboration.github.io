@@ -1,0 +1,16 @@
+<map id="KFParticleSIMD::KFParticleSIMD" name="KFParticleSIMD::KFParticleSIMD">
+<area shape="rect" id="node2" href="$d0/d49/classKFParticle.html#ae577c154da7700d54d2300dd344b9130" title="Returns pointer to the covariance matrix fC." alt="" coords="285,5,500,33"/>
+<area shape="rect" id="node3" href="$d5/d41/classKFParticleBase.html#a7f6754ebbbeb73d4c2b88a49b75db474" title="Returns the vector with the indices of daughter particles." alt="" coords="287,57,499,85"/>
+<area shape="rect" id="node4" href="$d0/d49/classKFParticle.html#a22358b18680f63474c0329163c13080e" title="Returns a flag which shows if the particle is located at the production point." alt="" coords="290,109,495,153"/>
+<area shape="rect" id="node5" href="$d0/d49/classKFParticle.html#aec37908b80d63697d8acb3fad708e9e1" title="Returns Chi2 of the fit." alt="" coords="317,177,468,205"/>
+<area shape="rect" id="node7" href="$d0/d49/classKFParticle.html#a55e2d5613c9ceef0c0b464c5e1745e91" title="Returns number of decrease of freedom." alt="" coords="319,229,467,257"/>
+<area shape="rect" id="node9" href="$d5/d41/classKFParticleBase.html#a03ddf1d1cedebfe9265f89d38cc683f7" title="Returns the PDG hypothesis." alt="" coords="302,281,483,309"/>
+<area shape="rect" id="node10" href="$d0/d49/classKFParticle.html#ac0d6697dcf49242c3219c7dd90d51458" title="Returns charge of the particle." alt="" coords="327,333,458,361"/>
+<area shape="rect" id="node12" href="$d5/d41/classKFParticleBase.html#a625f1f975f4a106df47ec12710e82f7b" title="Returns Id of the particle." alt="" coords="322,385,463,413"/>
+<area shape="rect" id="node13" href="$d5/d41/classKFParticleBase.html#a5804383f749253e8a17c594ccf463842" title="Returns number of daughter particles." alt="" coords="287,437,498,465"/>
+<area shape="rect" id="node14" href="$d2/dbb/classKFParticleBaseSIMD.html#a575650529485dfca810314581d68e469" title="Returns number of daughter particles." alt="" coords="315,489,470,533"/>
+<area shape="rect" id="node15" href="$d0/d49/classKFParticle.html#a25172df44e982a6d08879a9638ca9b07" title="Returns pointer to the parameters fP." alt="" coords="306,557,479,585"/>
+<area shape="rect" id="node6" href="$d5/d41/classKFParticleBase.html#aef4f146c36bffafe0ac1fa9a5d48ada2" title="Returns Chi2 of the fit." alt="" coords="548,177,732,205"/>
+<area shape="rect" id="node8" href="$d5/d41/classKFParticleBase.html#a128dbedb73783a25e76a9115ec0af9ac" title="Returns number of decrease of freedom." alt="" coords="549,229,731,257"/>
+<area shape="rect" id="node11" href="$d5/d41/classKFParticleBase.html#a97b4d2ef119c13e0117b0367473cb153" title="Returns charge of the particle." alt="" coords="558,333,722,361"/>
+</map>

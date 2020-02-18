@@ -1,42 +1,51 @@
 <map id="pyhiremn" name="pyhiremn">
-<area shape="rect" id="node2" href="$de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526" title="go" alt="" coords="176,57,215,85"/>
-<area shape="rect" id="node5" href="$db/da1/classHiParnt.html#ac653b598baeeca89d06693fdf4688f38" title="HiParnt::hint1" alt="" coords="139,161,252,189"/>
-<area shape="rect" id="node9" href="$db/da1/classHiParnt.html#a28a5a24ec376a6790e610d7fcc0f5b8e" title="HiParnt::hipr1" alt="" coords="139,213,252,241"/>
-<area shape="rect" id="node11" href="$db/da1/classHiParnt.html#a0d759f134daae3226a7744c9920bd769" title="HiParnt::ihnt2" alt="" coords="139,265,252,293"/>
-<area shape="rect" id="node13" href="$db/da1/classHiParnt.html#a1c6a5924524a08fe9641adc64095c0b9" title="HiParnt::ihpr2" alt="" coords="139,317,252,345"/>
-<area shape="rect" id="node15" href="$d0/da8/lucomp_8f.html#af4e2c29d51aeb470efbf59be26e18d04" title="lucomp" alt="" coords="1316,960,1388,988"/>
-<area shape="rect" id="node16" href="$d7/d1a/luptdi_8f.html#adec49ca8d72a0d30c298eb014457d5fd" title="luptdi" alt="" coords="165,421,225,449"/>
-<area shape="rect" id="node17" href="$db/dc0/classHiStrng.html#a9c8d7f68590dc5bf34483b740c49ba0b" title="HiStrng::pt" alt="" coords="321,472,415,500"/>
-<area shape="rect" id="node22" href="$d5/dae/rlu_8f.html#a722544a6fb4dd0f67ceda726148484f5" title="rlu" alt="" coords="1333,628,1371,656"/>
-<area shape="rect" id="node23" href="$db/dc0/classHiStrng.html#a59d4a31ebe1ce279f66f57fcafab3793" title="HiStrng::nfp" alt="" coords="317,524,419,552"/>
-<area shape="rect" id="node24" href="$db/dc0/classHiStrng.html#ace64397808c894bf94ef8ce9e5b41fa5" title="HiStrng::nft" alt="" coords="318,576,418,604"/>
-<area shape="rect" id="node25" href="$de/d50/pyhispli_8f.html#ab5848e46f1f9648fd094c79cb72130de" title="pyhispli" alt="" coords="159,628,232,656"/>
-<area shape="rect" id="node32" href="$da/d0a/CylinderKalman_8cpp.html#ab74daa0c9784c63e060bfb98cc06fbf5" title="sign" alt="" coords="1327,1316,1377,1344"/>
-<area shape="rect" id="node33" href="$d2/da8/ulangl_8f.html#a13a8d5a72aa20b0ae2ceca14e31467ba" title="ulangl" alt="" coords="1102,1312,1165,1340"/>
-<area shape="rect" id="node34" href="$d7/ded/ulmass_8f.html#aa951cb677600842104db95323a7647b2" title="ulmass" alt="" coords="1099,831,1168,859"/>
-<area shape="rect" id="node3" href="$de/de0/matchedfilter_8C.html#a3f4d763c3fdd217c038a53ba4ca5b98a" title="meanw" alt="" coords="333,5,403,33"/>
-<area shape="rect" id="node4" href="$de/de0/matchedfilter_8C.html#ac662fab4d6569f9ab320da1b95bcd663" title="round" alt="" coords="338,57,398,85"/>
-<area shape="rect" id="node6" href="$db/da1/classHiParnt.html#aec7bbf54e836c6b58a40be4e79292972" title="HiParnt::init" alt="" coords="317,213,419,241"/>
-<area shape="rect" id="node8" href="$db/da1/classHiParnt.html#a1074072a5774a085cecf879899a44ab3" title="HiParnt::lenHint1" alt="" coords="300,109,436,137"/>
-<area shape="rect" id="node7" href="$d4/d0f/HiParnt_8h.html#ae387711cf1ed2f3d5908e93a113f27e7" title="hiparnt_address_" alt="" coords="484,213,621,241"/>
-<area shape="rect" id="node10" href="$db/da1/classHiParnt.html#a976a341872dd6ef684a319c5e262be46" title="HiParnt::lenHipr1" alt="" coords="300,161,436,189"/>
-<area shape="rect" id="node12" href="$db/da1/classHiParnt.html#a2583f210ac7e15c429d879a65e9626b2" title="HiParnt::lenIhnt2" alt="" coords="301,265,435,293"/>
-<area shape="rect" id="node14" href="$db/da1/classHiParnt.html#aa2f216c88e3e9ec0634df4755e281c85" title="HiParnt::lenIhpr2" alt="" coords="301,317,435,345"/>
-<area shape="rect" id="node18" href="$db/dc0/classHiStrng.html#ae9b634a387f81c6ae391eb695acce897" title="HiStrng::init" alt="" coords="501,576,604,604"/>
-<area shape="rect" id="node20" href="$db/dc0/classHiStrng.html#a38019be113af95d58e24f9b442003a42" title="HiStrng::lenI" alt="" coords="500,472,605,500"/>
-<area shape="rect" id="node21" href="$db/dc0/classHiStrng.html#ab8cb049ff2a23c6a47aa48163d605c06" title="HiStrng::lenJ" alt="" coords="500,524,605,552"/>
-<area shape="rect" id="node19" href="$d7/ddd/HiStrng_8h.html#a4f3643d4eb276c559bd3ef28e3a09c4c" title="histrng_address_" alt="" coords="669,576,805,604"/>
-<area shape="rect" id="node26" href="$da/d2d/lukfdi_8f.html#a46954bb4ec2e8b9e55b3dd72f4b8df11" title="lukfdi" alt="" coords="339,704,397,732"/>
-<area shape="rect" id="node27" href="$df/dd0/luerrm_8f.html#ab2b89149ed6c532c613c12ae6c351b5d" title="luerrm" alt="" coords="520,935,585,963"/>
-<area shape="rect" id="node28" href="$d7/dda/lulist_8f.html#a69a9c5efe2681d7e19be2b4ed218153e" title="lulist" alt="" coords="710,935,765,963"/>
-<area shape="rect" id="node37" href="$d0/d5e/classPHTimer.html#adce6f9a85834e59bd154b9c624ee4e41" title="stops the counter" alt="" coords="679,1175,795,1203"/>
-<area shape="rect" id="node29" href="$d6/d80/luname_8f.html#a87cfaa02a00bc60d5b1ce6c2fce29432" title="luname" alt="" coords="887,987,959,1015"/>
-<area shape="rect" id="node31" href="$d0/d38/plu_8f.html#ab4b095f080a22e776f5a9cc25e23cc54" title="plu" alt="" coords="902,1039,945,1067"/>
-<area shape="rect" id="node35" href="$dc/d9f/hcalUtil_8C.html#af562b1ac3ac927ecde202ce0501a97a6" title="ps" alt="" coords="904,883,943,911"/>
-<area shape="rect" id="node30" href="$df/d5f/luchge_8f.html#a86938fb3242850e133e3b60d256582b7" title="luchge" alt="" coords="1100,1037,1167,1065"/>
-<area shape="rect" id="node36" href="$da/d55/TPCRateLayered_8m.html#a7507ef556477c204b499f1e189d40796" title="sum" alt="" coords="1108,883,1159,911"/>
-<area shape="rect" id="node38" href="$d0/d5e/classPHTimer.html#aa92e3fe4a0a1799f39743eda9ef9d497" title="gets time from cpu clock counts" alt="" coords="1058,1192,1209,1236"/>
-<area shape="rect" id="node39" href="$d0/d5e/classPHTimer.html#a976738876ad978116fdc4549a3765685" title="retrieve elapsed value since last restart (in ms)" alt="" coords="853,1227,993,1255"/>
-<area shape="rect" id="node40" href="$d0/d5e/classPHTimer.html#aa75ff2c27aba40e7ef0a934f9a3355c2" title="returns difference between to time" alt="" coords="1041,1260,1225,1288"/>
-<area shape="rect" id="node41" href="$d2/db1/classPHTimer_1_1Frequency.html#a023a2d706df9a8bd303810a9ed017f61" title="period accessor" alt="" coords="1273,1248,1431,1292"/>
+<area shape="rect" id="node2" href="$de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526" title="go" alt="" coords="228,57,267,85"/>
+<area shape="rect" id="node5" href="$db/da1/classHiParnt.html#ac653b598baeeca89d06693fdf4688f38" title="HiParnt::hint1" alt="" coords="191,213,304,241"/>
+<area shape="rect" id="node9" href="$db/da1/classHiParnt.html#a28a5a24ec376a6790e610d7fcc0f5b8e" title="HiParnt::hipr1" alt="" coords="191,161,304,189"/>
+<area shape="rect" id="node11" href="$db/da1/classHiParnt.html#a0d759f134daae3226a7744c9920bd769" title="HiParnt::ihnt2" alt="" coords="191,265,304,293"/>
+<area shape="rect" id="node13" href="$db/da1/classHiParnt.html#a1c6a5924524a08fe9641adc64095c0b9" title="HiParnt::ihpr2" alt="" coords="191,317,304,345"/>
+<area shape="rect" id="node15" href="$d0/da8/lucomp_8f.html#af4e2c29d51aeb470efbf59be26e18d04" title="lucomp" alt="" coords="1440,497,1512,525"/>
+<area shape="rect" id="node16" href="$d7/d1a/luptdi_8f.html#adec49ca8d72a0d30c298eb014457d5fd" title="luptdi" alt="" coords="217,779,277,807"/>
+<area shape="rect" id="node17" href="$db/dc0/classHiStrng.html#a9c8d7f68590dc5bf34483b740c49ba0b" title="HiStrng::pt" alt="" coords="457,831,551,859"/>
+<area shape="rect" id="node22" href="$d5/dae/rlu_8f.html#a722544a6fb4dd0f67ceda726148484f5" title="rlu" alt="" coords="1457,677,1495,705"/>
+<area shape="rect" id="node23" href="$db/dc0/classHiStrng.html#a59d4a31ebe1ce279f66f57fcafab3793" title="HiStrng::nfp" alt="" coords="453,935,555,963"/>
+<area shape="rect" id="node24" href="$db/dc0/classHiStrng.html#ace64397808c894bf94ef8ce9e5b41fa5" title="HiStrng::nft" alt="" coords="454,883,554,911"/>
+<area shape="rect" id="node25" href="$de/d50/pyhispli_8f.html#ab5848e46f1f9648fd094c79cb72130de" title="pyhispli" alt="" coords="211,675,284,703"/>
+<area shape="rect" id="node29" href="$d7/ded/ulmass_8f.html#aa951cb677600842104db95323a7647b2" title="ulmass" alt="" coords="1249,523,1318,551"/>
+<area shape="rect" id="node31" href="$da/d0a/CylinderKalman_8cpp.html#ab74daa0c9784c63e060bfb98cc06fbf5" title="sign" alt="" coords="479,1011,529,1039"/>
+<area shape="rect" id="node32" href="$d3/df2/classgenfit_1_1GFRavePropagator.html#a0534e516b69488120356d8bfa53f6f5b" title="genfit::GFRavePropagator::to" alt="" coords="139,1305,356,1333"/>
+<area shape="rect" id="node50" href="$d2/da8/ulangl_8f.html#a13a8d5a72aa20b0ae2ceca14e31467ba" title="ulangl" alt="" coords="216,1035,279,1063"/>
+<area shape="rect" id="node3" href="$de/de0/matchedfilter_8C.html#a3f4d763c3fdd217c038a53ba4ca5b98a" title="meanw" alt="" coords="469,57,539,85"/>
+<area shape="rect" id="node4" href="$de/de0/matchedfilter_8C.html#ac662fab4d6569f9ab320da1b95bcd663" title="round" alt="" coords="474,5,534,33"/>
+<area shape="rect" id="node6" href="$db/da1/classHiParnt.html#aec7bbf54e836c6b58a40be4e79292972" title="HiParnt::init" alt="" coords="453,213,555,241"/>
+<area shape="rect" id="node8" href="$db/da1/classHiParnt.html#a1074072a5774a085cecf879899a44ab3" title="HiParnt::lenHint1" alt="" coords="436,161,572,189"/>
+<area shape="rect" id="node7" href="$d4/d0f/HiParnt_8h.html#ae387711cf1ed2f3d5908e93a113f27e7" title="hiparnt_address_" alt="" coords="697,213,834,241"/>
+<area shape="rect" id="node10" href="$db/da1/classHiParnt.html#a976a341872dd6ef684a319c5e262be46" title="HiParnt::lenHipr1" alt="" coords="436,109,572,137"/>
+<area shape="rect" id="node12" href="$db/da1/classHiParnt.html#a2583f210ac7e15c429d879a65e9626b2" title="HiParnt::lenIhnt2" alt="" coords="437,265,571,293"/>
+<area shape="rect" id="node14" href="$db/da1/classHiParnt.html#aa2f216c88e3e9ec0634df4755e281c85" title="HiParnt::lenIhpr2" alt="" coords="437,317,571,345"/>
+<area shape="rect" id="node18" href="$db/dc0/classHiStrng.html#ae9b634a387f81c6ae391eb695acce897" title="HiStrng::init" alt="" coords="714,935,817,963"/>
+<area shape="rect" id="node20" href="$db/dc0/classHiStrng.html#a38019be113af95d58e24f9b442003a42" title="HiStrng::lenI" alt="" coords="713,831,818,859"/>
+<area shape="rect" id="node21" href="$db/dc0/classHiStrng.html#ab8cb049ff2a23c6a47aa48163d605c06" title="HiStrng::lenJ" alt="" coords="713,883,818,911"/>
+<area shape="rect" id="node19" href="$d7/ddd/HiStrng_8h.html#a4f3643d4eb276c559bd3ef28e3a09c4c" title="histrng_address_" alt="" coords="959,883,1095,911"/>
+<area shape="rect" id="node26" href="$da/d2d/lukfdi_8f.html#a46954bb4ec2e8b9e55b3dd72f4b8df11" title="lukfdi" alt="" coords="475,600,533,628"/>
+<area shape="rect" id="node27" href="$df/dd0/luerrm_8f.html#ab2b89149ed6c532c613c12ae6c351b5d" title="luerrm" alt="" coords="733,575,798,603"/>
+<area shape="rect" id="node28" href="$d7/dda/lulist_8f.html#a69a9c5efe2681d7e19be2b4ed218153e" title="lulist" alt="" coords="999,523,1054,551"/>
+<area shape="rect" id="node30" href="$d0/d5e/classPHTimer.html#adce6f9a85834e59bd154b9c624ee4e41" title="stops the counter" alt="" coords="969,575,1085,603"/>
+<area shape="rect" id="node33" href="$dc/d22/namespacegenfit.html#aec5c8cb927a354edfb23af80108b69d4" title="genfit::PlaneToGFDetPlane" alt="" coords="404,1569,604,1597"/>
+<area shape="rect" id="node36" href="$dc/d22/namespacegenfit.html#a16248965fc33843bb4f2d9bd8b0a7ce7" title="genfit::GFTrackToTrack" alt="" coords="417,1305,591,1333"/>
+<area shape="rect" id="node34" href="$dc/d22/namespacegenfit.html#ad8550f9eaa6237f8ddf48aefd57dfe58" title="genfit::Point3DToTVector3" alt="" coords="667,1569,863,1597"/>
+<area shape="rect" id="node35" href="$dc/d22/namespacegenfit.html#ad3ecb92a152c9ea7f5290e3653910473" title="genfit::Vector3DToTVector3" alt="" coords="663,1621,868,1649"/>
+<area shape="rect" id="node37" href="$d6/d8a/classgenfit_1_1Track.html#ad06e7a012624bdb03960826b5c9fcd93" title="Get FitStatus for a AbsTrackRep. Per default, return FitStatus for cardinalRep." alt="" coords="929,1259,1124,1287"/>
+<area shape="rect" id="node39" href="$d0/d8d/classgenfit_1_1FitStatus.html#a56371ce504bee72fcf2f9324ddcb91a8" title="Did the fit converge (in all Points or only partially)?" alt="" coords="697,1229,833,1273"/>
+<area shape="rect" id="node40" href="$d6/d8a/classgenfit_1_1Track.html#abf156957d701a9a10a02fef8ac54e4d9" title="Shortcut to get FittedStates." alt="" coords="679,1084,852,1128"/>
+<area shape="rect" id="node45" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#a3aab44a6c7155b8258fa34469bc45bc0" title="genfit::MeasuredStateOnPlane\l::getPosMomCov" alt="" coords="652,1297,879,1341"/>
+<area shape="rect" id="node47" href="$d0/d8d/classgenfit_1_1FitStatus.html#a7e8ed1d97eec3e3164dc2dd782f5cb85" title="Get the fitted charge." alt="" coords="697,1365,833,1409"/>
+<area shape="rect" id="node48" href="$d0/d8d/classgenfit_1_1FitStatus.html#abbeeda61574c284f1d762088b3644770" title="Get chi^2 of the fit." alt="" coords="697,1433,833,1477"/>
+<area shape="rect" id="node49" href="$d0/d8d/classgenfit_1_1FitStatus.html#aa73b3566657ea37bf8ab5102d465025d" title="Get the degrees of freedom of the fit." alt="" coords="697,1501,833,1545"/>
+<area shape="rect" id="node38" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="1175,1168,1392,1196"/>
+<area shape="rect" id="node41" href="$d6/d8a/classgenfit_1_1Track.html#ad8961b1ff4809ccde5f6f100ffbccb9d" title="genfit::Track::getPointWith\lFitterInfo" alt="" coords="927,1191,1127,1235"/>
+<area shape="rect" id="node42" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="955,1003,1099,1047"/>
+<area shape="rect" id="node43" href="$db/d40/classgenfit_1_1TrackPoint.html#ae8b3e743fb436dd6689e0dad4c35ffd9" title="Get fitterInfo for rep. Per default, use cardinal rep." alt="" coords="957,935,1096,979"/>
+<area shape="rect" id="node44" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#a985d0203f46dfbd5dc253bb03b21d76f" title="genfit::AbsFitterInfo\l::getFittedState" alt="" coords="949,1071,1104,1115"/>
+<area shape="rect" id="node46" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a14f25e4575846dcb14bd91ddb2a534d2" title="genfit::StateOnPlane\l::getRep" alt="" coords="946,1311,1107,1355"/>
 </map>

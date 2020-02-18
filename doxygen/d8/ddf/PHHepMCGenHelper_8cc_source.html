@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d8/ddf/PHHepMCGenHelper_8cc_source.htm
 <div class="title">PHHepMCGenHelper.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d8/ddf/PHHepMCGenHelper_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $</span></div>
+<a href="../../d8/ddf/PHHepMCGenHelper_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/phhepmc/PHHepMCGenHelper.cc">the newest version in sPHENIX GitHub for file PHHepMCGenHelper.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/d81/PHHepMCGenHelper_8h.html">PHHepMCGenHelper.h</a>&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
@@ -161,8 +161,8 @@ $(document).ready(function(){initNavTree('d8/ddf/PHHepMCGenHelper_8cc_source.htm
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  , _geneventmap(nullptr)</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="../../dd/d2a/classPHHepMCGenHelper.html#ab5c92249998bd96eea753f91b5e8485e">RandomGenerator</a> = gsl_rng_alloc(gsl_rng_mt19937);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d4/d89/namespaceTauVsDIS__MachineLearning__Differentiation.html#a926e652fc6cca84ce09ab067067249f1">seed</a> = <a class="code" href="../../dd/d1f/classPHRandomSeed.html">PHRandomSeed</a>();  <span class="comment">// fixed seed is handled in this function</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  gsl_rng_set(<a class="code" href="../../dd/d2a/classPHHepMCGenHelper.html#ab5c92249998bd96eea753f91b5e8485e">RandomGenerator</a>, seed);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d1/d0a/PHTruthVertexing_8cc.html#ae21f357c223957d36046a0d71cc6aed7">seed</a> = <a class="code" href="../../dd/d1f/classPHRandomSeed.html">PHRandomSeed</a>();  <span class="comment">// fixed seed is handled in this function</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <a class="code" href="../../d1/d0a/PHTruthVertexing_8cc.html#ad8eec1a5a0219e016430a4b0759daf18">gsl_rng_set</a>(<a class="code" href="../../dd/d2a/classPHHepMCGenHelper.html#ab5c92249998bd96eea753f91b5e8485e">RandomGenerator</a>, seed);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
 <div class="line"><a name="l00062"></a><span class="lineno"><a class="code" href="../../dd/d2a/classPHHepMCGenHelper.html#a6cab75748313b1d1053c013cba5b085a">   62</a></span>&#160;<a class="code" href="../../dd/d2a/classPHHepMCGenHelper.html#a6cab75748313b1d1053c013cba5b085a">PHHepMCGenHelper::~PHHepMCGenHelper</a>()</div>
@@ -304,7 +304,7 @@ $(document).ready(function(){initNavTree('d8/ddf/PHHepMCGenHelper_8cc_source.htm
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_8d66a4fea0becf883e91a5407556c38a.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_909fc990e3c3953a178f66eada0aa3e8.html">phhepmc</a></li><li class="navelem"><a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc.html">PHHepMCGenHelper.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:18</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:23</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

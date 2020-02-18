@@ -17,9 +17,9 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d9/d24/classPHObject.html#a68f2ff4b014481b3ef7ea232916809a6" target="_top" xlink:title="PHObject::clone">
-<polygon fill="none" stroke="#000000" points="204,-195.5 204,-215.5 301,-215.5 301,-195.5 204,-195.5"/>
-<text text-anchor="middle" x="252.5" y="-202.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHObject::clone</text>
+<g id="a_node2"><a xlink:href="../../d9/d24/classPHObject.html#a73715f9eb6a05b9d7b8db898be0087bb" target="_top" xlink:title="Virtual copy constructor.">
+<polygon fill="none" stroke="#000000" points="196,-195.5 196,-215.5 309,-215.5 309,-195.5 196,-195.5"/>
+<text text-anchor="middle" x="252.5" y="-202.5" font-family="FreeSans" font-size="10.00" fill="#000000">PHObject::CloneMe</text>
 </a>
 </g>
 </g>

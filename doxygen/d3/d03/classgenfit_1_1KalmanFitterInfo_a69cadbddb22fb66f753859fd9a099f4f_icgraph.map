@@ -1,0 +1,6 @@
+<map id="genfit::KalmanFitterInfo::deleteMeasurementInfo" name="genfit::KalmanFitterInfo::deleteMeasurementInfo">
+<area shape="rect" id="node2" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ab28798fe239a0577ef7a9c254c235491" title="Prepare the track." alt="" coords="244,5,457,49"/>
+<area shape="rect" id="node4" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a1f53fb36db7dc1c1cb1e413de9ab79d2" title="genfit::KalmanFitterInfo\l::setMeasurementsOnPlane" alt="" coords="247,73,454,117"/>
+<area shape="rect" id="node5" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ab297379ab7e1690cbe34ea14b403cf26" title="genfit::KalmanFitterInfo\l::~KalmanFitterInfo" alt="" coords="261,141,441,185"/>
+<area shape="rect" id="node3" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ad3a24181b5370cc95f01f49ea148c011" title="genfit::KalmanFitterRefTrack\l::processTrackWithRep" alt="" coords="505,5,719,49"/>
+</map>

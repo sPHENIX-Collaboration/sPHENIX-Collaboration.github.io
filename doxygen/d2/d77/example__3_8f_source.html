@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d2/d77/example__3_8f_source.html','../
 <div class="title">example_3.f</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d2/d77/example__3_8f.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">C****************************************************************************</span></div>
+<a href="../../d2/d77/example__3_8f.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/examples/example_3.f">the newest version in sPHENIX GitHub for file example_3.f</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">C****************************************************************************</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">C          Program # 2 from Comp. Phys. Commun. 83 (1994) 307</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">C                  by M. Gyulassy and X-.N. Wang</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">C             Modified by V.Uzhinsky, CERN, Oct. 2003   </span></div>
@@ -262,14 +262,14 @@ $(document).ready(function(){initNavTree('d2/d77/example__3_8f_source.html','../
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <span class="keywordflow">IF</span>(<a class="code" href="../../d8/d1a/classHiMain1.html#a676ccaef5fa9c10e945e6d1477aeb366">np</a>+<a class="code" href="../../d8/d1a/classHiMain1.html#a2a88691655a2a18605874e4338fb4807">nt</a> .EQ. 0) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;              nont=nont+1</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;              gnorm=gnorm-gb(ib)/float(n_event)</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;              <a class="code" href="../../de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526">go</a> to 200</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;              <a class="code" href="../../de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526">go</a> <a class="code" href="../../d3/df2/classgenfit_1_1GFRavePropagator.html#a0534e516b69488120356d8bfa53f6f5b">to</a> 200</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <span class="keywordflow">ENDIF</span></div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="comment">C....calculate pt distribution of charged pions:</span></div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            <span class="keywordflow">DO</span> 150 <a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a9bb8e4687fbe831090ee3d36bc14aa99">k</a>=1,<a class="code" href="../../d8/d1a/classHiMain1.html#a712001e6d31dc0f86de82f130bbe036b">natt</a></div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="comment">C....select charged pions only:</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;               <span class="keywordflow">IF</span>(abs(<a class="code" href="../../d1/d5c/classHiMain2.html#af82d580022e08e08bb16f9fb29ab24ec">katt</a>(<a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a9bb8e4687fbe831090ee3d36bc14aa99">k</a>,1)) .NE. 211) <a class="code" href="../../de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526">go</a> to 150</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;               <span class="keywordflow">IF</span>(abs(<a class="code" href="../../d1/d5c/classHiMain2.html#af82d580022e08e08bb16f9fb29ab24ec">katt</a>(<a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a9bb8e4687fbe831090ee3d36bc14aa99">k</a>,1)) .NE. 211) <a class="code" href="../../de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526">go</a> <a class="code" href="../../d3/df2/classgenfit_1_1GFRavePropagator.html#a0534e516b69488120356d8bfa53f6f5b">to</a> 150</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="comment">C....calculate pt:</span></div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;               ptr=sqrt(<a class="code" href="../../d1/d5c/classHiMain2.html#a182e17a45601004ee5bc5357295bedd7">patt</a>(<a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a9bb8e4687fbe831090ee3d36bc14aa99">k</a>,1)**2+<a class="code" href="../../d1/d5c/classHiMain2.html#a182e17a45601004ee5bc5357295bedd7">patt</a>(<a class="code" href="../../dc/d49/HelixHough__allButKappaRange__sse_8cpp.html#a9bb8e4687fbe831090ee3d36bc14aa99">k</a>,2)**2)</div>
@@ -277,7 +277,7 @@ $(document).ready(function(){initNavTree('d2/d77/example__3_8f_source.html','../
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="comment">C....calculate pt distribution and weight with normalized</span></div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="comment">C....Glauber probability to get minimum bias results:</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;               <span class="keywordflow">IF</span>(ptr .GE. 10.0) <a class="code" href="../../de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526">go</a> to 150</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;               <span class="keywordflow">IF</span>(ptr .GE. 10.0) <a class="code" href="../../de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526">go</a> <a class="code" href="../../d3/df2/classgenfit_1_1GFRavePropagator.html#a0534e516b69488120356d8bfa53f6f5b">to</a> 150</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;               ipt=1+ptr/0.2</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;               dndp(ipt)=dndp(ipt)+w_gb/float(n_event)/0.2</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;150         <span class="keywordflow">CONTINUE</span></div>
@@ -312,7 +312,7 @@ $(document).ready(function(){initNavTree('d2/d77/example__3_8f_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_8d66a4fea0becf883e91a5407556c38a.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_792e75c1e50add93be3c1d5997a7a09c.html">hijing</a></li><li class="navelem"><a class="el" href="../../dir_bfb0e44bd555e207c3ca61130de5e10f.html">examples</a></li><li class="navelem"><a class="el" href="../../d2/d77/example__3_8f.html">example_3.f</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:09</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:15</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

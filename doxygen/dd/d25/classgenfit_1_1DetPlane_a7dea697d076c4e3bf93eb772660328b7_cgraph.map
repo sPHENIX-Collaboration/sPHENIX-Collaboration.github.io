@@ -1,0 +1,5 @@
+<map id="genfit::DetPlane::operator=" name="genfit::DetPlane::operator=">
+<area shape="rect" id="node2" href="$dd/d25/classgenfit_1_1DetPlane.html#a009393e73538110c694b28552ad4b614" title="genfit::DetPlane::swap" alt="" coords="261,5,436,33"/>
+<area shape="rect" id="node3" href="$d4/da9/namespaceboost.html#a630945877437d477612e4419562161cc" title="boost::swap" alt="" coords="484,5,587,33"/>
+<area shape="rect" id="node4" href="$d1/d96/classboost_1_1array.html#a342ef866ed696b18ce803b5c9aba4b2e" title="boost::array::swap" alt="" coords="635,5,781,33"/>
+</map>

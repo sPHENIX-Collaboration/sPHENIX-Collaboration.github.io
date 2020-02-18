@@ -1,0 +1,8 @@
+<map id="genfit::KalmanFitterInfo::getClosestMeasurementOnPlane" name="genfit::KalmanFitterInfo::getClosestMeasurementOnPlane">
+<area shape="rect" id="node2" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ac7f94b10aafb0b75efd90f491b456834" title="genfit::KalmanFitterInfo\l::getMeasurementOnPlane" alt="" coords="304,5,505,49"/>
+<area shape="rect" id="node3" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a5342748d35f74e34dd5fcf7601d1896a" title="genfit::KalmanFitterInfo\l::getNumMeasurements" alt="" coords="313,73,497,117"/>
+<area shape="rect" id="node4" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="324,141,485,185"/>
+<area shape="rect" id="node5" href="$d9/dc6/classgenfit_1_1AbsHMatrix.html#a77182cba40576805f0099203fe0e59ec" title="H*v." alt="" coords="317,209,492,237"/>
+<area shape="rect" id="node7" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="333,261,477,305"/>
+<area shape="rect" id="node6" href="$d9/dc6/classgenfit_1_1AbsHMatrix.html#a5e04e261388034ab5c4aaa51f714f0e6" title="Get the actual matrix representation." alt="" coords="553,201,700,245"/>
+</map>

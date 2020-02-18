@@ -1,45 +1,46 @@
 <map id="coresoftware/blob/master/simulation/g4simulation/g4eval/SvtxEvalStack.h" name="coresoftware/blob/master/simulation/g4simulation/g4eval/SvtxEvalStack.h">
 <area shape="rect" id="node2" href="$d4/d11/QAG4SimulationCalorimeterSum_8cc.html" title="coresoftware/blob/master\l/offline/QA/modules/QAG4Simulation\lCalorimeterSum.cc" alt="" coords="5,121,277,181"/>
-<area shape="rect" id="node3" href="$de/d49/JetTruthEval_8h.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetTruthEval.h" alt="" coords="984,121,1179,181"/>
-<area shape="rect" id="node11" href="$dd/dfa/BJetModule_8C.html" title="Gether information from Truth Jet and Tracks, DST &#45;&gt; NTuple." alt="" coords="39,453,267,513"/>
-<area shape="rect" id="node13" href="$d5/db3/PhotonJet_8C.html" title="analysis/blob/master\l/PhotonJet/PhotonJet.C" alt="" coords="1852,461,2025,505"/>
-<area shape="rect" id="node14" href="$d0/d4a/Forward__pi0s_8C.html" title="analysis/blob/master\l/PhotonJet/Photons/Forward\l_pi0s.C" alt="" coords="2049,453,2257,513"/>
-<area shape="rect" id="node15" href="$da/da2/Photons_8C.html" title="analysis/blob/master\l/PhotonJet/Photons/Photons.C" alt="" coords="2282,461,2505,505"/>
-<area shape="rect" id="node16" href="$d1/d87/TruthPhotonJet_8C.html" title="analysis/blob/master\l/PhotonJet/TruthPhotonJet\l/TruthPhotonJet.C" alt="" coords="2529,453,2725,513"/>
-<area shape="rect" id="node17" href="$d0/d67/AnaTutorial_8cc.html" title="tutorials/blob/master\l/AnaTutorial/src/AnaTutorial.cc" alt="" coords="2749,461,2976,505"/>
-<area shape="rect" id="node19" href="$d2/da2/JetRecoEval_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetRecoEval.cc" alt="" coords="352,345,547,405"/>
-<area shape="rect" id="node21" href="$d7/ded/SvtxEvalStack_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxEvalStack.cc" alt="" coords="2179,121,2373,181"/>
-<area shape="rect" id="node22" href="$d7/dd1/SvtxEvaluator_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxEvaluator.cc" alt="" coords="2397,121,2592,181"/>
-<area shape="rect" id="node23" href="$d0/dfd/LeptoquarksReco_8C.html" title="analysis/blob/master\l/EICAnalysis/LeptoquarksReco.C" alt="" coords="2617,129,2855,173"/>
-<area shape="rect" id="node24" href="$d1/d35/EMCalAna_8C.html" title="analysis/blob/master\l/EMCal&#45;analysis/EMCalAna\l/EMCalAna.C" alt="" coords="2880,121,3080,181"/>
-<area shape="rect" id="node25" href="$df/da3/EMCalLikelihood_8C.html" title="analysis/blob/master\l/EMCal&#45;analysis/EMCalAna\l/EMCalLikelihood.C" alt="" coords="3104,121,3304,181"/>
-<area shape="rect" id="node26" href="$db/d74/EMCalCalib_8C.html" title="analysis/blob/master\l/EMCal&#45;calibration/EMCalCalib\l/EMCalCalib.C" alt="" coords="3327,121,3553,181"/>
-<area shape="rect" id="node27" href="$d7/d97/HFMLTriggerHepMCTrigger_8C.html" title="analysis/blob/master\l/HF&#45;Jet/HFMLTrigger/HFMLTrigger\lHepMCTrigger.C" alt="" coords="3577,121,3818,181"/>
-<area shape="rect" id="node28" href="$d5/dff/HFMLTriggerInterface_8C.html" title="analysis/blob/master\l/HF&#45;Jet/HFMLTrigger/HFMLTrigger\lInterface.C" alt="" coords="3842,121,4083,181"/>
-<area shape="rect" id="node29" href="$d0/d2a/HFMLTriggerOccupancy_8C.html" title="analysis/blob/master\l/HF&#45;Jet/HFMLTrigger/HFMLTrigger\lOccupancy.C" alt="" coords="4107,121,4349,181"/>
-<area shape="rect" id="node30" href="$d5/dee/RecoConversionEval_8cc.html" title="analysis/blob/master\l/PhotonConversion/truthconversion\l/RecoConversionEval.cc" alt="" coords="4373,121,4635,181"/>
-<area shape="rect" id="node31" href="$d1/db3/TruthConversionEval_8C.html" title="analysis/blob/master\l/PhotonConversion/truthconversion\l/TruthConversionEval.C" alt="" coords="4659,121,4920,181"/>
-<area shape="rect" id="node32" href="$d1/dc4/VtxTest_8C.html" title="analysis/blob/master\l/PhotonConversion/truthconversion\l/VtxTest.C" alt="" coords="4944,121,5205,181"/>
-<area shape="rect" id="node33" href="$db/dee/EMCalCalib__TestBeam_8C.html" title="analysis/blob/master\l/Prototype2/EMCal/EMCalCalib\l_TestBeam/EMCalCalib_TestBeam.C" alt="" coords="5229,121,5491,181"/>
-<area shape="rect" id="node34" href="$d1/dda/Proto4SampleFrac_8C.html" title="analysis/blob/master\l/Prototype4/HCal/SampleFrac\l/Proto4SampleFrac.C" alt="" coords="5515,121,5735,181"/>
-<area shape="rect" id="node35" href="$db/d83/psTOFTimezeroEval_8C.html" title="analysis/blob/master\l/psTOF/psTOFTimezeroEval\l/psTOFTimezeroEval.C" alt="" coords="5759,121,5966,181"/>
-<area shape="rect" id="node36" href="$d0/dd3/SimpleTrackingAnalysis_8C.html" title="analysis/blob/master\l/SimpleTrackingAnalysis\l/SimpleTrackingAnalysis.C" alt="" coords="5991,121,6191,181"/>
-<area shape="rect" id="node37" href="$dd/d68/STACalorimeterCharacterization_8C.html" title="analysis/blob/master\l/SimpleTrackingAnalysis\l/STACalorimeterCharacterization.C" alt="" coords="6215,121,6471,181"/>
-<area shape="rect" id="node38" href="$dc/d3d/SvtxSimPerformanceCheckReco_8C.html" title="analysis/blob/master\l/SvtxSimPerformanceCheckReco\l/SvtxSimPerformanceCheckReco.C" alt="" coords="6495,121,6750,181"/>
-<area shape="rect" id="node39" href="$df/dd2/RecoInfoExport_8C.html" title="analysis/blob/master\l/Test/RecoInfoExport\l/RecoInfoExport.C" alt="" coords="6775,121,6937,181"/>
-<area shape="rect" id="node40" href="$d6/d9d/TrackingPerformanceCheck_8C.html" title="analysis/blob/master\l/TPC/TrackingPerformance\l/TrackingPerformanceCheck.C" alt="" coords="6961,121,7185,181"/>
-<area shape="rect" id="node41" href="$de/de1/FastTrackingEval_8cc.html" title="Evaluation module for PHG4TrackFastSim output." alt="" coords="7209,121,7409,181"/>
-<area shape="rect" id="node42" href="$d9/da3/AnaSvtxTracksForGenFit_8cc.html" title="analysis/blob/master\l/Tracking/GenFitTest\l/AnaSvtxTracksForGenFit\l/AnaSvtxTracksForGenFit.cc" alt="" coords="7433,113,7641,189"/>
-<area shape="rect" id="node43" href="$da/d48/GenFitTrackProp_8cc.html" title="Example module to extrapolate SvtxTrack with GenFit swiming." alt="" coords="7666,121,7862,181"/>
-<area shape="rect" id="node44" href="$d7/d7c/SvtxEvaluatorHaiwang_8C.html" title="analysis/blob/master\l/Tracking/SvtxEvaluatorHaiwang\l/SvtxEvaluatorHaiwang.C" alt="" coords="7886,121,8127,181"/>
-<area shape="rect" id="node4" href="$d3/d23/QAG4SimulationJet_8cc.html" title="coresoftware/blob/master\l/offline/QA/modules/QAG4Simulation\lJet.cc" alt="" coords="292,453,564,513"/>
-<area shape="rect" id="node5" href="$da/d50/JetRecoEval_8h.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetRecoEval.h" alt="" coords="631,237,825,297"/>
-<area shape="rect" id="node12" href="$d0/da3/SoftLeptonTaggingTruth_8C.html" title="analysis/blob/master\l/HF&#45;Jet/SoftLeptonTagging\l/SoftLeptonTaggingTruth.C" alt="" coords="1628,453,1828,513"/>
-<area shape="rect" id="node20" href="$da/dbb/JetTruthEval_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetTruthEval.cc" alt="" coords="1480,237,1675,297"/>
-<area shape="rect" id="node6" href="$db/de2/JetEvalStack_8h.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetEvalStack.h" alt="" coords="1211,345,1405,405"/>
-<area shape="rect" id="node8" href="$dd/db5/JetEvaluator_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetEvaluator.cc" alt="" coords="639,453,833,513"/>
-<area shape="rect" id="node10" href="$d8/d55/JetEnergies_8C.html" title="analysis/blob/master\l/ForwardCalo/Flux_Return\l_Study/JetEnergies.C" alt="" coords="857,561,1052,621"/>
-<area shape="rect" id="node7" href="$d5/dab/JetEvalStack_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetEvalStack.cc" alt="" coords="1076,453,1271,513"/>
-<area shape="rect" id="node9" href="$d4/db0/JetEnergies_8h.html" title="copy of JetEvaluator.h that will add the energy absorbed by the plug door and the black hole to the l..." alt="" coords="857,453,1052,513"/>
-<area shape="rect" id="node18" href="$da/dc2/MyJetAnalysis_8cc.html" title="tutorials/blob/master\l/myjetanalysis/src/MyJetAnalysis.cc" alt="" coords="1345,461,1605,505"/>
+<area shape="rect" id="node3" href="$d8/d04/QAG4SimulationTracking_8cc.html" title="coresoftware/blob/master\l/offline/QA/modules/QAG4Simulation\lTracking.cc" alt="" coords="301,121,573,181"/>
+<area shape="rect" id="node4" href="$de/d49/JetTruthEval_8h.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetTruthEval.h" alt="" coords="1280,121,1475,181"/>
+<area shape="rect" id="node12" href="$dd/dfa/BJetModule_8C.html" title="Gether information from Truth Jet and Tracks, DST &#45;&gt; NTuple." alt="" coords="155,453,383,513"/>
+<area shape="rect" id="node14" href="$d5/db3/PhotonJet_8C.html" title="analysis/blob/master\l/PhotonJet/PhotonJet.C" alt="" coords="1968,461,2141,505"/>
+<area shape="rect" id="node15" href="$d0/d4a/Forward__pi0s_8C.html" title="analysis/blob/master\l/PhotonJet/Photons/Forward\l_pi0s.C" alt="" coords="2165,453,2373,513"/>
+<area shape="rect" id="node16" href="$da/da2/Photons_8C.html" title="analysis/blob/master\l/PhotonJet/Photons/Photons.C" alt="" coords="2398,461,2621,505"/>
+<area shape="rect" id="node17" href="$d1/d87/TruthPhotonJet_8C.html" title="analysis/blob/master\l/PhotonJet/TruthPhotonJet\l/TruthPhotonJet.C" alt="" coords="2645,453,2841,513"/>
+<area shape="rect" id="node18" href="$d0/d67/AnaTutorial_8cc.html" title="tutorials/blob/master\l/AnaTutorial/src/AnaTutorial.cc" alt="" coords="2865,461,3092,505"/>
+<area shape="rect" id="node20" href="$d2/da2/JetRecoEval_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetRecoEval.cc" alt="" coords="648,345,843,405"/>
+<area shape="rect" id="node22" href="$d7/ded/SvtxEvalStack_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxEvalStack.cc" alt="" coords="2181,121,2376,181"/>
+<area shape="rect" id="node23" href="$d7/dd1/SvtxEvaluator_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/SvtxEvaluator.cc" alt="" coords="2400,121,2595,181"/>
+<area shape="rect" id="node24" href="$d0/dfd/LeptoquarksReco_8C.html" title="analysis/blob/master\l/EICAnalysis/LeptoquarksReco.C" alt="" coords="2619,129,2858,173"/>
+<area shape="rect" id="node25" href="$d1/d35/EMCalAna_8C.html" title="analysis/blob/master\l/EMCal&#45;analysis/EMCalAna\l/EMCalAna.C" alt="" coords="2883,121,3083,181"/>
+<area shape="rect" id="node26" href="$df/da3/EMCalLikelihood_8C.html" title="analysis/blob/master\l/EMCal&#45;analysis/EMCalAna\l/EMCalLikelihood.C" alt="" coords="3107,121,3307,181"/>
+<area shape="rect" id="node27" href="$db/d74/EMCalCalib_8C.html" title="analysis/blob/master\l/EMCal&#45;calibration/EMCalCalib\l/EMCalCalib.C" alt="" coords="3330,121,3555,181"/>
+<area shape="rect" id="node28" href="$d7/d97/HFMLTriggerHepMCTrigger_8C.html" title="analysis/blob/master\l/HF&#45;Jet/HFMLTrigger/HFMLTrigger\lHepMCTrigger.C" alt="" coords="3579,121,3821,181"/>
+<area shape="rect" id="node29" href="$d5/dff/HFMLTriggerInterface_8C.html" title="analysis/blob/master\l/HF&#45;Jet/HFMLTrigger/HFMLTrigger\lInterface.C" alt="" coords="3845,121,4086,181"/>
+<area shape="rect" id="node30" href="$d0/d2a/HFMLTriggerOccupancy_8C.html" title="analysis/blob/master\l/HF&#45;Jet/HFMLTrigger/HFMLTrigger\lOccupancy.C" alt="" coords="4110,121,4351,181"/>
+<area shape="rect" id="node31" href="$d5/dee/RecoConversionEval_8cc.html" title="analysis/blob/master\l/PhotonConversion/truthconversion\l/RecoConversionEval.cc" alt="" coords="4376,121,4637,181"/>
+<area shape="rect" id="node32" href="$d1/db3/TruthConversionEval_8C.html" title="analysis/blob/master\l/PhotonConversion/truthconversion\l/TruthConversionEval.C" alt="" coords="4661,121,4923,181"/>
+<area shape="rect" id="node33" href="$d1/dc4/VtxTest_8C.html" title="analysis/blob/master\l/PhotonConversion/truthconversion\l/VtxTest.C" alt="" coords="4947,121,5208,181"/>
+<area shape="rect" id="node34" href="$db/dee/EMCalCalib__TestBeam_8C.html" title="analysis/blob/master\l/Prototype2/EMCal/EMCalCalib\l_TestBeam/EMCalCalib_TestBeam.C" alt="" coords="5232,121,5493,181"/>
+<area shape="rect" id="node35" href="$d1/dda/Proto4SampleFrac_8C.html" title="analysis/blob/master\l/Prototype4/HCal/SampleFrac\l/Proto4SampleFrac.C" alt="" coords="5518,121,5738,181"/>
+<area shape="rect" id="node36" href="$db/d83/psTOFTimezeroEval_8C.html" title="analysis/blob/master\l/psTOF/psTOFTimezeroEval\l/psTOFTimezeroEval.C" alt="" coords="5762,121,5969,181"/>
+<area shape="rect" id="node37" href="$d0/dd3/SimpleTrackingAnalysis_8C.html" title="analysis/blob/master\l/SimpleTrackingAnalysis\l/SimpleTrackingAnalysis.C" alt="" coords="5993,121,6193,181"/>
+<area shape="rect" id="node38" href="$dd/d68/STACalorimeterCharacterization_8C.html" title="analysis/blob/master\l/SimpleTrackingAnalysis\l/STACalorimeterCharacterization.C" alt="" coords="6217,121,6473,181"/>
+<area shape="rect" id="node39" href="$dc/d3d/SvtxSimPerformanceCheckReco_8C.html" title="analysis/blob/master\l/SvtxSimPerformanceCheckReco\l/SvtxSimPerformanceCheckReco.C" alt="" coords="6498,121,6753,181"/>
+<area shape="rect" id="node40" href="$df/dd2/RecoInfoExport_8C.html" title="analysis/blob/master\l/Test/RecoInfoExport\l/RecoInfoExport.C" alt="" coords="6777,121,6940,181"/>
+<area shape="rect" id="node41" href="$d6/d9d/TrackingPerformanceCheck_8C.html" title="analysis/blob/master\l/TPC/TrackingPerformance\l/TrackingPerformanceCheck.C" alt="" coords="6964,121,7188,181"/>
+<area shape="rect" id="node42" href="$de/de1/FastTrackingEval_8cc.html" title="Evaluation module for PHG4TrackFastSim output." alt="" coords="7212,121,7412,181"/>
+<area shape="rect" id="node43" href="$d9/da3/AnaSvtxTracksForGenFit_8cc.html" title="analysis/blob/master\l/Tracking/GenFitTest\l/AnaSvtxTracksForGenFit\l/AnaSvtxTracksForGenFit.cc" alt="" coords="7436,113,7644,189"/>
+<area shape="rect" id="node44" href="$da/d48/GenFitTrackProp_8cc.html" title="Example module to extrapolate SvtxTrack with GenFit swiming." alt="" coords="7669,121,7865,181"/>
+<area shape="rect" id="node45" href="$d7/d7c/SvtxEvaluatorHaiwang_8C.html" title="analysis/blob/master\l/Tracking/SvtxEvaluatorHaiwang\l/SvtxEvaluatorHaiwang.C" alt="" coords="7889,121,8130,181"/>
+<area shape="rect" id="node5" href="$d3/d23/QAG4SimulationJet_8cc.html" title="coresoftware/blob/master\l/offline/QA/modules/QAG4Simulation\lJet.cc" alt="" coords="408,453,680,513"/>
+<area shape="rect" id="node6" href="$da/d50/JetRecoEval_8h.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetRecoEval.h" alt="" coords="927,237,1121,297"/>
+<area shape="rect" id="node13" href="$d0/da3/SoftLeptonTaggingTruth_8C.html" title="analysis/blob/master\l/HF&#45;Jet/SoftLeptonTagging\l/SoftLeptonTaggingTruth.C" alt="" coords="1744,453,1944,513"/>
+<area shape="rect" id="node21" href="$da/dbb/JetTruthEval_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetTruthEval.cc" alt="" coords="1596,237,1791,297"/>
+<area shape="rect" id="node7" href="$db/de2/JetEvalStack_8h.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetEvalStack.h" alt="" coords="1327,345,1521,405"/>
+<area shape="rect" id="node9" href="$dd/db5/JetEvaluator_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetEvaluator.cc" alt="" coords="755,453,949,513"/>
+<area shape="rect" id="node11" href="$d8/d55/JetEnergies_8C.html" title="analysis/blob/master\l/ForwardCalo/Flux_Return\l_Study/JetEnergies.C" alt="" coords="973,561,1168,621"/>
+<area shape="rect" id="node8" href="$d5/dab/JetEvalStack_8cc.html" title="coresoftware/blob/master\l/simulation/g4simulation\l/g4eval/JetEvalStack.cc" alt="" coords="1192,453,1387,513"/>
+<area shape="rect" id="node10" href="$d4/db0/JetEnergies_8h.html" title="copy of JetEvaluator.h that will add the energy absorbed by the plug door and the black hole to the l..." alt="" coords="973,453,1168,513"/>
+<area shape="rect" id="node19" href="$da/dc2/MyJetAnalysis_8cc.html" title="tutorials/blob/master\l/myjetanalysis/src/MyJetAnalysis.cc" alt="" coords="1461,461,1721,505"/>
 </map>

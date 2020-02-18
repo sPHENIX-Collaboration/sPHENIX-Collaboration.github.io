@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('db/d74/EMCalCalib_8C_source.html','../
 <div class="title">EMCalCalib.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../db/d74/EMCalCalib_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/dbd/EMCalCalib_8h.html">EMCalCalib.h</a>&quot;</span></div>
+<a href="../../db/d74/EMCalCalib_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/EMCal-calibration/EMCalCalib/EMCalCalib.C">the newest version in sPHENIX GitHub for file EMCalCalib.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/dbd/EMCalCalib_8h.html">EMCalCalib.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/dac/PhotonPair_8h.html">PhotonPair.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d5/dc2/SubsysReco_8h.html">fun4all/SubsysReco.h</a>&gt;</span></div>
@@ -705,7 +705,7 @@ $(document).ready(function(){initNavTree('db/d74/EMCalCalib_8C_source.html','../
 <div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;</div>
 <div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;  <span class="comment">// curved tracks inside mag field</span></div>
 <div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;  <span class="comment">// straight projections thereafter</span></div>
-<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;  std::vector&lt;double&gt; point;</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;  std::vector&lt;double&gt; <a class="code" href="../../d8/df7/PHCASeeding_8cc.html#a905ba7eea43764a576ea5db7e8b73b0f">point</a>;</div>
 <div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;<span class="comment">//  point.assign(3, -9999.);</span></div>
 <div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;<span class="comment">//  _hough.projectToRadius(track, _magfield, radius, point);</span></div>
 <div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;</div>
@@ -753,7 +753,7 @@ $(document).ready(function(){initNavTree('db/d74/EMCalCalib_8C_source.html','../
 <div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;        &lt;&lt; cemc_towergeo-&gt;<a class="code" href="../../d0/d25/group__cylindrical__calorimeter.html#gad51647b66cc2a98a76a3978368778716">get_phibounds</a>(binphi).second &lt;&lt; <span class="stringliteral">&quot;], phibin_shift = &quot;</span></div>
 <div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        &lt;&lt; phibin_shift &lt;&lt; endl;</div>
 <div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> bin_search_range = (trk.<a class="code" href="../../d6/d91/classMCPhoton.html#a65e88b9b750cd29301882ceb5499f80fa5a0806c9f404d4a3f68b316f74cb2be7">Max_N_Tower</a> - 1) / 2;</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> bin_search_range = (trk.<a class="code" href="../../d6/d91/classMCPhoton.html#ada0c6afebe3d845460e5fa6179caff01a5a0806c9f404d4a3f68b316f74cb2be7">Max_N_Tower</a> - 1) / 2;</div>
 <div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> iphi = binphi - bin_search_range; iphi &lt;= binphi + bin_search_range;</div>
 <div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;      ++iphi)</div>
 <div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;</div>
@@ -1325,7 +1325,7 @@ $(document).ready(function(){initNavTree('db/d74/EMCalCalib_8C_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_37dbb3e62e3f4aebce75874a76c159e7.html">EMCal-calibration</a></li><li class="navelem"><a class="el" href="../../dir_199a3c6fe54885091b108b8c0116d2e2.html">EMCalCalib</a></li><li class="navelem"><a class="el" href="../../db/d74/EMCalCalib_8C.html">EMCalCalib.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:04</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

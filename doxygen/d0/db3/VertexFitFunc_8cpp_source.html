@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d0/db3/VertexFitFunc_8cpp_source.html'
 <div class="title">VertexFitFunc.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d0/db3/VertexFitFunc_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d70/VertexFitFunc_8h.html">VertexFitFunc.h</a>&quot;</span></div>
+<a href="../../d0/db3/VertexFitFunc_8cpp.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/packages/HelixHough/helix_hough/VertexFitFunc.cpp">the newest version in sPHENIX GitHub for file VertexFitFunc.cpp</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d70/VertexFitFunc_8h.html">VertexFitFunc.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/d4b/NewtonMinimizerGradHessian_8h.html">NewtonMinimizerGradHessian.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/de6/SimpleTrack3D_8h.html">SimpleTrack3D.h</a>&quot;</span></div>
@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('d0/db3/VertexFitFunc_8cpp_source.html'
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="code" href="../../d6/dd9/classHelixDCAFunc.html#a740fd6a6a185db4a84bf1b7bc3615fd6">   14</a></span>&#160;<a class="code" href="../../d6/dd9/classHelixDCAFunc.html#a740fd6a6a185db4a84bf1b7bc3615fd6">HelixDCAFunc::HelixDCAFunc</a>() : <a class="code" href="../../d2/d79/classFitNewton_1_1FunctionGradHessian.html">FunctionGradHessian</a>(1, 8)</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <a class="code" href="../../d6/dd9/classHelixDCAFunc.html#a737f75f28b58e8a7d1c6f50e3608d76a">tangent</a>.assign(3,0.);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <a class="code" href="../../d6/dd9/classHelixDCAFunc.html#ab1730264f14ecbf19419ea6c7716f6d5">point</a>.assign(3,0.);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <a class="code" href="../../d8/df7/PHCASeeding_8cc.html#a905ba7eea43764a576ea5db7e8b73b0f">point</a>.assign(3,0.);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
@@ -294,7 +294,7 @@ $(document).ready(function(){initNavTree('d0/db3/VertexFitFunc_8cpp_source.html'
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  </div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  <a class="code" href="../../d6/dd9/classHelixDCAFunc.html#aabb5981acdedee5507a130a08eb394d7">point_covariance</a> += dpdx * <a class="code" href="../../d6/dd9/classHelixDCAFunc.html#a6974a5602808cfd751965b7619421b4e">covariance</a> * (dpdx.transpose());</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  </div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  <a class="code" href="../../d6/dd9/classHelixDCAFunc.html#ab1730264f14ecbf19419ea6c7716f6d5">point</a>[0] = xp;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  <a class="code" href="../../d8/df7/PHCASeeding_8cc.html#a905ba7eea43764a576ea5db7e8b73b0f">point</a>[0] = xp;</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  point[1] = yp;</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  point[2] = zp;</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  </div>
@@ -442,7 +442,7 @@ $(document).ready(function(){initNavTree('d0/db3/VertexFitFunc_8cpp_source.html'
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    </div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    helixfunc.<a class="code" href="../../d6/dd9/classHelixDCAFunc.html#aeb59379b149e6aa57762a8c460caed82">calcValGradHessian</a>(min_point, tval, tgrad, thessian);</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    </div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <span class="keywordtype">float</span> point[3];<span class="keywordtype">float</span> tangent[3];</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d8/df7/PHCASeeding_8cc.html#a905ba7eea43764a576ea5db7e8b73b0f">point</a>[3];<span class="keywordtype">float</span> tangent[3];</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    point[0] = helixfunc.<a class="code" href="../../d6/dd9/classHelixDCAFunc.html#aca6a707dff1febc1e532ccc4e555d183">getPoint</a>(0);</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    point[1] = helixfunc.<a class="code" href="../../d6/dd9/classHelixDCAFunc.html#aca6a707dff1febc1e532ccc4e555d183">getPoint</a>(1);</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    point[2] = helixfunc.<a class="code" href="../../d6/dd9/classHelixDCAFunc.html#aca6a707dff1febc1e532ccc4e555d183">getPoint</a>(2);</div>
@@ -524,7 +524,7 @@ $(document).ready(function(){initNavTree('d0/db3/VertexFitFunc_8cpp_source.html'
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_9a772a1c220e8d6862d681d8ed0f3e46.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_9c5d0d6754a5ab97395e4f321ebded46.html">HelixHough</a></li><li class="navelem"><a class="el" href="../../dir_d78195e9d7eb93def5af33e7ede3de9a.html">helix_hough</a></li><li class="navelem"><a class="el" href="../../d0/db3/VertexFitFunc_8cpp.html">VertexFitFunc.cpp</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:20</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:26</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

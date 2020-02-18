@@ -1,4 +1,11 @@
 <map id="TpcPrototypeGenFitTrkFitter::FillSvtxVertexMap" name="TpcPrototypeGenFitTrkFitter::FillSvtxVertexMap">
-<area shape="rect" id="node2" href="$db/dd7/classSvtxVertexMap.html#a69bfe4ad3d711439ac9fa017d57a7446" title="SvtxVertexMap::clear" alt="" coords="265,5,431,33"/>
-<area shape="rect" id="node3" href="$db/dd7/classSvtxVertexMap.html#aaee5941f2bcac17405bc668b1b8322cc" title="legacy interface. Add vertex to container. Note the container does not take ownership" alt="" coords="263,57,433,101"/>
+<area shape="rect" id="node2" href="$db/dd7/classSvtxVertexMap.html#a69bfe4ad3d711439ac9fa017d57a7446" title="SvtxVertexMap::clear" alt="" coords="297,5,462,33"/>
+<area shape="rect" id="node3" href="$db/da0/classgenfit_1_1GFRaveVertex.html#aa226bc70ee2447569467de599e6d05e7" title="genfit::GFRaveVertex\l::getChi2" alt="" coords="297,57,462,101"/>
+<area shape="rect" id="node4" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a25d5cd4f3c081231c4d77f80fefbade1" title="get 3x3 covariance (error) of position." alt="" coords="297,125,462,169"/>
+<area shape="rect" id="node5" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a49fda0bfc9f1bd338c21ca973e8552b9" title="genfit::GFRaveVertex\l::getNdf" alt="" coords="297,193,462,237"/>
+<area shape="rect" id="node6" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a47ada7742989e3e294a3cc9f1342fee7" title="Number of tracks the vertex is made of." alt="" coords="297,261,462,305"/>
+<area shape="rect" id="node7" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a14875bcfb7c0b9373ec2bb6010c78d8d" title="genfit::GFRaveVertex\l::getParameters" alt="" coords="297,329,462,373"/>
+<area shape="rect" id="node8" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a4818bdeb821d19b283ae026af388e92b" title="get Position" alt="" coords="297,397,462,441"/>
+<area shape="rect" id="node9" href="$d8/d8c/classgenfit_1_1GFRaveTrackParameters.html#ae57b8111cfcb4426a9d00096ad045de4" title="genfit::GFRaveTrackParameters\l::getTrack" alt="" coords="263,465,496,509"/>
+<area shape="rect" id="node10" href="$db/dd7/classSvtxVertexMap.html#aaee5941f2bcac17405bc668b1b8322cc" title="legacy interface. Add vertex to container. Note the container does not take ownership" alt="" coords="294,533,465,577"/>
 </map>

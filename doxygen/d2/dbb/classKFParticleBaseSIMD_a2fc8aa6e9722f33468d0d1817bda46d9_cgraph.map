@@ -1,0 +1,10 @@
+<map id="KFParticleBaseSIMD::RotateXY" name="KFParticleBaseSIMD::RotateXY">
+<area shape="rect" id="node2" href="$d2/dbb/classKFParticleBaseSIMD.html#a4243bcff049f640d8f78da88f17e20db" title="Modifier of C[i] element of the covariance matrix in the lower triangular form." alt="" coords="217,5,372,49"/>
+<area shape="rect" id="node3" href="$d2/dbb/classKFParticleBaseSIMD.html#a4f7b481e281eb3b0bfc45cfb7db1065c" title="Returns C[i] element of the covariance matrix in the lower triangular form." alt="" coords="217,73,372,117"/>
+<area shape="rect" id="node4" href="$d2/dbb/classKFParticleBaseSIMD.html#a6b2c3d26757c9d1b1ac2f2dbaa0b3415" title="Returns the sum of masses of the daughters." alt="" coords="217,141,372,185"/>
+<area shape="rect" id="node5" href="$d2/dbb/classKFParticleBaseSIMD.html#a2bec26d0571f001feb2288519aa2ca67" title="Returns the sum of masses of the daughters." alt="" coords="217,209,372,253"/>
+<area shape="rect" id="node6" href="$d2/dbb/classKFParticleBaseSIMD.html#a3c6b3dbb664b880c348ac6fb0f715e85" title="Returns the sum of masses of the daughters." alt="" coords="217,277,372,321"/>
+<area shape="rect" id="node7" href="$d2/dbb/classKFParticleBaseSIMD.html#ad2188b32c30eaa4822f9f8ee0312c262" title="Retruns X coordinate of the particle, fP[0]." alt="" coords="208,345,381,373"/>
+<area shape="rect" id="node8" href="$d2/dbb/classKFParticleBaseSIMD.html#a0317637c84246ec7f34accf35c9cb8fd" title="Retruns Y coordinate of the particle, fP[1]." alt="" coords="208,397,381,425"/>
+<area shape="rect" id="node9" href="$d2/dbb/classKFParticleBaseSIMD.html#a3189c60d84706832532e315723dca770" title="Retruns Z coordinate of the particle, fP[2]." alt="" coords="208,449,381,477"/>
+</map>

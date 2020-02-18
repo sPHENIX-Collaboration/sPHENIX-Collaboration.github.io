@@ -1,10 +1,10 @@
 var classOhit =
 [
-    [ "Ncore", "d7/daf/classOhit.html#ad1a034af6f90a070fd663c88ded8748fa311f3fc40c7a1ba340bf395dcbdefd09", null ],
-    [ "NXsrch", "d7/daf/classOhit.html#a09137f2888f0535682b850cc9d7d5862abdf7e5712f2e83756ca60fbc5df35be7", null ],
-    [ "NYsrch", "d7/daf/classOhit.html#acfc491b7d6529183864beaf175f2c321abe8962fcb0674f209e449b595a1912aa", null ],
-    [ "NZ", "d7/daf/classOhit.html#aceb0a998f7f229aa3cfa2e6af22053bfaec5ed08ea3c0c1c9e493111aa83a3156", null ],
-    [ "Npar2DI", "d7/daf/classOhit.html#ab7f7da38e643e152d9a890e4a2aa0b86a58b73e4fff6867870a97ba9867e6dcaf", null ],
+    [ "Ncore", "d7/daf/classOhit.html#a09137f2888f0535682b850cc9d7d5862a311f3fc40c7a1ba340bf395dcbdefd09", null ],
+    [ "NXsrch", "d7/daf/classOhit.html#acfc491b7d6529183864beaf175f2c321abdf7e5712f2e83756ca60fbc5df35be7", null ],
+    [ "NYsrch", "d7/daf/classOhit.html#aceb0a998f7f229aa3cfa2e6af22053bfabe8962fcb0674f209e449b595a1912aa", null ],
+    [ "NZ", "d7/daf/classOhit.html#ab7f7da38e643e152d9a890e4a2aa0b86aec5ed08ea3c0c1c9e493111aa83a3156", null ],
+    [ "Npar2DI", "d7/daf/classOhit.html#a3f4e54b0cfe18800635eb5d0127ccf62a58b73e4fff6867870a97ba9867e6dcaf", null ],
     [ "Ohit", "d7/daf/classOhit.html#a272c97992150b614928fce605b439a88", null ],
     [ "~Ohit", "d7/daf/classOhit.html#a335ce076193168e741090e5c22d76349", null ],
     [ "Clear", "d7/daf/classOhit.html#a3431a9342ab883b02e0a449bf4e2e940", null ],

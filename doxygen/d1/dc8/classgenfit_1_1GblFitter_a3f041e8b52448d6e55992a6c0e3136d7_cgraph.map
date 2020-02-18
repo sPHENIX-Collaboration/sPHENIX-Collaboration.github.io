@@ -1,0 +1,19 @@
+<map id="genfit::GblFitter::sortHits" name="genfit::GblFitter::sortHits">
+<area shape="rect" id="node2" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#ae0ad668258839af38e1e8820f1e0c6d6" title="genfit::AbsMeasurement\l::constructPlane" alt="" coords="198,5,386,49"/>
+<area shape="rect" id="node3" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a7bd706bbc248c498f0b451bcadc52b97" title="genfit::StateOnPlane\l::extrapolateToPlane" alt="" coords="211,73,373,117"/>
+<area shape="rect" id="node5" href="$d6/d8a/classgenfit_1_1Track.html#a2aea787962258c48230c6714884827d1" title="genfit::Track::getNumPoints\lWithMeasurement" alt="" coords="188,141,396,185"/>
+<area shape="rect" id="node6" href="$d6/d8a/classgenfit_1_1Track.html#a900763f8b4e4498227851fc51be819c7" title="genfit::Track::getPointWith\lMeasurement" alt="" coords="192,209,392,253"/>
+<area shape="rect" id="node7" href="$db/d40/classgenfit_1_1TrackPoint.html#a2999fc0669beb86b6309f86e040bcdef" title="genfit::TrackPoint\l::getRawMeasurement" alt="" coords="205,277,379,321"/>
+<area shape="rect" id="node8" href="$d6/d8a/classgenfit_1_1Track.html#a3910ed240b6f1c012663b5a621cd7dc8" title="genfit::Track::getStateSeed" alt="" coords="189,345,395,373"/>
+<area shape="rect" id="node9" href="$d6/d8a/classgenfit_1_1Track.html#ac0803749c8a9ad433e976831a3ad8869" title="genfit::Track::getTimeSeed" alt="" coords="191,397,393,425"/>
+<area shape="rect" id="node10" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a6ef84bf5c2a3c96a90ea1d030ecff47b" title="Set position and momentum of state." alt="" coords="214,449,370,493"/>
+<area shape="rect" id="node11" href="$db/d40/classgenfit_1_1TrackPoint.html#a78c0f59b136dc071058b8f78fe4ede05" title="genfit::TrackPoint\l::setSortingParameter" alt="" coords="207,517,377,561"/>
+<area shape="rect" id="node12" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a594593fe5384fff653e359dd903dd1ab" title="Set time at which the state was defined." alt="" coords="214,585,370,629"/>
+<area shape="rect" id="node13" href="$d6/d8a/classgenfit_1_1Track.html#acd5e754e83c67f7dfa2c48613e61dc2a" title="Sort TrackPoint and according to their sorting parameters." alt="" coords="222,653,362,681"/>
+<area shape="rect" id="node4" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a2f8c69950056c0c679d66bfb2eae2431" title="Extrapolates the state to plane, and returns the extrapolation length and, via reference, the extrapolated state." alt="" coords="489,73,648,117"/>
+<area shape="rect" id="node14" href="$d6/d8a/classgenfit_1_1Track.html#a409abb47dc8fb5134031f8af1ce9b44a" title="genfit::Track::deleteBackwardInfo" alt="" coords="445,549,693,577"/>
+<area shape="rect" id="node15" href="$d6/d8a/classgenfit_1_1Track.html#ad4ead0ee2abc2bcb6b616f8976bc559a" title="genfit::Track::trackHasChanged" alt="" coords="741,628,975,656"/>
+<area shape="rect" id="node16" href="$d6/d8a/classgenfit_1_1Track.html#ad6ac9e44842a18fbba2577a887f008c5" title="genfit::Track::deleteForwardInfo" alt="" coords="451,653,687,681"/>
+<area shape="rect" id="node17" href="$d6/d8a/classgenfit_1_1Track.html#aef6313a66e86853f9eef2e38f519bc37" title="genfit::Track::deleteReferenceInfo" alt="" coords="444,705,693,733"/>
+<area shape="rect" id="node18" href="$d6/d8a/classgenfit_1_1Track.html#aebe51cd12b541bb8821c1b919480371d" title="genfit::Track::fillPoints\lWithMeasurement" alt="" coords="483,757,654,801"/>
+</map>

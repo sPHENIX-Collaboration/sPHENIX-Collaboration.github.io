@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['rave',['rave',['../dc/d9a/namespacerave.html',1,'']]],
   ['rawclusterdefs',['RawClusterDefs',['../de/dd7/namespaceRawClusterDefs.html',1,'']]],
   ['rawtowerdefs',['RawTowerDefs',['../da/d58/namespaceRawTowerDefs.html',1,'']]],
   ['root',['ROOT',['../d0/d10/namespaceROOT.html',1,'']]],

@@ -1,0 +1,4 @@
+<map id="genfit::TrackPoint::TrackPoint" name="genfit::TrackPoint::TrackPoint">
+<area shape="rect" id="node2" href="$db/d40/classgenfit_1_1TrackPoint.html#a69f9ef6f8b911b4883b1d99e18086a7b" title="Takes ownership and sets this as measurement&#39;s trackPoint." alt="" coords="192,5,369,49"/>
+<area shape="rect" id="node3" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a2100fca5cca983c4dfb52847a579c745" title="genfit::AbsMeasurement\l::setTrackPoint" alt="" coords="417,5,605,49"/>
+</map>

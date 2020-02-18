@@ -1,0 +1,51 @@
+<map id="KFParticleFinder::NeutralDaughterDecay" name="KFParticleFinder::NeutralDaughterDecay">
+<area shape="rect" id="node2" href="$d5/d41/classKFParticleBase.html#ab29274a82822129a02a2c856e495b8ee" title="Adds index of the daughter particle." alt="" coords="521,73,751,101"/>
+<area shape="rect" id="node3" href="$d2/dbb/classKFParticleBaseSIMD.html#a7e60f55ad9b21a9a196c3ad08a46a52d" title="Adds index of the daughter particle." alt="" coords="559,1073,713,1117"/>
+<area shape="rect" id="node4" href="$db/dcc/classKFParticleSIMD.html#a4e0d887a098c689be061a03b90216a94" title="Returns Chi2 of the fit." alt="" coords="271,123,432,151"/>
+<area shape="rect" id="node5" href="$d5/d41/classKFParticleBase.html#a06b53cef25f218f5eb041197455ad0b4" title="Cleans the vector with the indices of daughter particles." alt="" coords="511,125,761,153"/>
+<area shape="rect" id="node6" href="$db/dcc/classKFParticleSIMD.html#afd250069ba85fae638a7e1285e41c320" title="KFParticleSIMD::Construct" alt="" coords="253,15,449,43"/>
+<area shape="rect" id="node8" href="$db/dcc/classKFParticleSIMD.html#a5ff8e59f8585a26ef141053ee5de0970" title="Returns energy of the particle, fP[6]." alt="" coords="282,277,421,305"/>
+<area shape="rect" id="node9" href="$d1/d86/classKFPTrackVector.html#a10185b227dabdbf526955adfe9a476f2" title="Returns index of the first element of the SIMD vector with the first kaon." alt="" coords="254,329,449,357"/>
+<area shape="rect" id="node10" href="$d1/d86/classKFPTrackVector.html#a5888805117901064114068a6d0fb070c" title="Returns index of the first element of the SIMD vector with the first muon." alt="" coords="253,381,450,409"/>
+<area shape="rect" id="node11" href="$d1/d86/classKFPTrackVector.html#a63b52f72cb7a2dc272b851d96487ee9e" title="Returns index of the first element of the SIMD vector with the first pion." alt="" coords="257,433,446,461"/>
+<area shape="rect" id="node12" href="$d1/d86/classKFPTrackVector.html#a37bfed5b009b8ed7b9ebf179e999e2b3" title="Returns index of the first element of the SIMD vector with the first proton." alt="" coords="249,485,453,513"/>
+<area shape="rect" id="node13" href="$db/dcc/classKFParticleSIMD.html#abee0e1ab2c3a9a40f6618a20fb58f664" title="KFParticleSIMD::GetKFParticle" alt="" coords="241,589,462,617"/>
+<area shape="rect" id="node14" href="$d5/d41/classKFParticleBase.html#ad223c0ea998d4c27a768291b6288c0c2" title="Sets the Id of the particle. After the construction of a particle should be set by user..." alt="" coords="554,177,718,205"/>
+<area shape="rect" id="node15" href="$d2/dbb/classKFParticleBaseSIMD.html#a4f43f26357ae4a6e35ca5b8e4a1d623f" title="Returns Id of the particle." alt="" coords="548,1021,724,1049"/>
+<area shape="rect" id="node17" href="$d5/d41/classKFParticleBase.html#a3acaec6e2b8d7b0e55b37233fd091555" title="Sets the PDG hypothesis." alt="" coords="546,229,726,257"/>
+<area shape="rect" id="node30" href="$db/dcc/classKFParticleSIMD.html#afa4110f0c19aeb0e6416a2ff851c121a" title="Returns transverse momentum." alt="" coords="267,1125,436,1153"/>
+<area shape="rect" id="node32" href="$db/dcc/classKFParticleSIMD.html#a2070ffe1acfd297cdbc04e5c8487f5e4" title="Returns rapidity of the particle." alt="" coords="246,813,457,841"/>
+<area shape="rect" id="node33" href="$d1/d86/classKFPTrackVector.html#a16ad13f2ceada3aa0f08d63e37983ede" title="Returns constant reference to the vector with track Id KFPTrackVector::fId." alt="" coords="279,865,424,893"/>
+<area shape="rect" id="node34" href="$d1/d86/classKFPTrackVector.html#a8db26fc2e9e9a5d4df5584c58a384af5" title="Returns index of the last kaon." alt="" coords="254,917,449,945"/>
+<area shape="rect" id="node35" href="$d1/d86/classKFPTrackVector.html#ac54e8d0edc1454f3635b1e551cb06b41" title="Returns index of the last muon." alt="" coords="253,969,450,997"/>
+<area shape="rect" id="node36" href="$d1/d86/classKFPTrackVector.html#a113e590beda0c6c3ffbc3082b26225f3" title="Returns index of the last pion." alt="" coords="257,1021,445,1049"/>
+<area shape="rect" id="node37" href="$d1/d86/classKFPTrackVector.html#a74ee23e23640850ca42473ff7dfdbfed" title="Returns index of the last proton." alt="" coords="250,1073,453,1101"/>
+<area shape="rect" id="node38" href="$db/dcc/classKFParticleSIMD.html#a0e3c7a0202a62c3c564b22b5d0bfce5e" title="KFParticleSIMD::Load" alt="" coords="270,1573,433,1601"/>
+<area shape="rect" id="node42" href="$db/dcc/classKFParticleSIMD.html#ad1a23cebdcaaedfd0fb7bcd53bcae234" title="Returns number of decrease of freedom." alt="" coords="272,1177,431,1205"/>
+<area shape="rect" id="node43" href="$d1/d86/classKFPTrackVector.html#a29298d91b0824b59e334a302ce09d97d" title="Returns constant reference to the vector with assigned PDG hypothesis KFPTrackVector::fPDG." alt="" coords="271,1229,432,1257"/>
+<area shape="rect" id="node44" href="$d1/d86/classKFPTrackVector.html#af295551842a8cef49391f3f2659d4918" title="Returns constant reference to the vector with indices of corresponding primary vertex KFPTrackVector:..." alt="" coords="258,1281,445,1309"/>
+<area shape="rect" id="node45" href="$db/dcc/classKFParticleSIMD.html#aff00da015d04b572823e5006c3d50eed" title="KFParticleSIMD::Rotate" alt="" coords="264,1333,439,1361"/>
+<area shape="rect" id="node46" href="$d2/dbb/classKFParticleBaseSIMD.html#a81cd387d3cf24a498205ebb4bea5e9ff" title="Sets the Id of the particle. After the construction of a particle should be set by user..." alt="" coords="274,1385,429,1429"/>
+<area shape="rect" id="node47" href="$d2/dbb/classKFParticleBaseSIMD.html#a5583455557dbd2de22cc0adbee47b3be" title="KFParticleBaseSIMD\l::SetNonlinearMassConstraint" alt="" coords="240,1453,463,1497"/>
+<area shape="rect" id="node48" href="$d1/d86/classKFPTrackVector.html#aef516e6ae4eae72f3282e68f390c5f4b" title="KFPTrackVector::Size" alt="" coords="271,1521,431,1549"/>
+<area shape="rect" id="node49" href="$d2/dbb/classKFParticleBaseSIMD.html#afce83e9f433c1ccc698197ae2ffe36d4" title="KFParticleBaseSIMD\l::SubtractDaughter" alt="" coords="274,693,429,737"/>
+<area shape="rect" id="node50" href="$db/dcc/classKFParticleSIMD.html#ac367209d2086eaef3da45172ad16fee7" title="Retruns Z coordinate of the particle, fP[2]." alt="" coords="281,1625,421,1653"/>
+<area shape="rect" id="node7" href="$d2/dbb/classKFParticleBaseSIMD.html#a39c874e11dcc9e5346c2eb6fdd056f5e" title="KFParticleBaseSIMD\l::Construct" alt="" coords="559,5,713,49"/>
+<area shape="rect" id="node16" href="$d2/dbb/classKFParticleBaseSIMD.html#ac827f191d739ef99b5bee7ebc97d5313" title="Returns the vector with the indices of daughter particles." alt="" coords="559,505,713,549"/>
+<area shape="rect" id="node18" href="$d2/dbb/classKFParticleBaseSIMD.html#a34e19ecaaedf374a347e648eca770ca9" title="Returns the PDG hypothesis." alt="" coords="559,573,713,617"/>
+<area shape="rect" id="node19" href="$d0/d49/classKFParticle.html#a25172df44e982a6d08879a9638ca9b07" title="Returns pointer to the parameters fP." alt="" coords="549,641,723,669"/>
+<area shape="rect" id="node20" href="$db/dcc/classKFParticleSIMD.html#a27d7e843526677a4a1a0b755f7fb5d65" title="Returns pointer to the parameters fP." alt="" coords="532,693,740,721"/>
+<area shape="rect" id="node21" href="$d0/d49/classKFParticle.html#ae577c154da7700d54d2300dd344b9130" title="Returns pointer to the covariance matrix fC." alt="" coords="529,745,743,773"/>
+<area shape="rect" id="node22" href="$db/dcc/classKFParticleSIMD.html#aaa2f81f07799d2d9beaede2e7864a1a9" title="Returns pointer to the covariance matrix fC." alt="" coords="533,797,739,841"/>
+<area shape="rect" id="node23" href="$d0/d49/classKFParticle.html#ad82b13a8214920f2a15c1334e41c4776" title="Returns number of decrease of freedom." alt="" coords="574,865,698,893"/>
+<area shape="rect" id="node24" href="$db/dcc/classKFParticleSIMD.html#aed1808e19e4cdf012ff8d84c3dde291a" title="Returns number of decrease of freedom." alt="" coords="545,917,727,945"/>
+<area shape="rect" id="node25" href="$d0/d49/classKFParticle.html#a9005df3f6603347793ad12192892fa5a" title="Returns Chi2 of the fit." alt="" coords="573,969,699,997"/>
+<area shape="rect" id="node26" href="$db/dcc/classKFParticleSIMD.html#a4c08a0472852537829092f117b150aa3" title="Returns Chi2 of the fit." alt="" coords="543,281,729,309"/>
+<area shape="rect" id="node27" href="$d0/d49/classKFParticle.html#a537faaa1cf0c3f36a602302340babe3b" title="Returns charge of the particle." alt="" coords="583,333,689,361"/>
+<area shape="rect" id="node28" href="$db/dcc/classKFParticleSIMD.html#a6bb3acfdd3b1803d9eeb0d7c348f034b" title="Returns charge of the particle." alt="" coords="553,385,719,413"/>
+<area shape="rect" id="node29" href="$d0/d49/classKFParticle.html#a2a1c4001b07352ad6aa73065f502957a" title="Set a flag that particle is at the production point." alt="" coords="534,437,738,481"/>
+<area shape="rect" id="node31" href="$d2/dbb/classKFParticleBaseSIMD.html#a2be75da924159255f3dc954e0e6a3271" title="KFParticleBaseSIMD\l::GetPt" alt="" coords="559,1141,713,1185"/>
+<area shape="rect" id="node39" href="$d1/d86/classKFPTrackVector.html#ad489c56d0f7d957bc3a9e7726ba69710" title="Returns constant reference to the track parameter vector with index &quot;i&quot;." alt="" coords="535,1521,737,1549"/>
+<area shape="rect" id="node40" href="$d1/d86/classKFPTrackVector.html#a345efcd36e9ae91430d6012cd6df6fcb" title="Returns constant reference to the vector of the covariance matrix elements with index &quot;i&quot;..." alt="" coords="532,1573,740,1601"/>
+<area shape="rect" id="node41" href="$d1/d86/classKFPTrackVector.html#afdbad4270667f37d91af768a76e96595" title="Returns constant reference to the vector with charge KFPTrackVector::fQ." alt="" coords="565,1625,707,1653"/>
+</map>

@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d7/d7c/SvtxEvaluatorHaiwang_8C_source.
 <div class="title">SvtxEvaluatorHaiwang.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d7/d7c/SvtxEvaluatorHaiwang_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d59/SvtxEvalStack_8h.html">g4eval/SvtxEvalStack.h</a>&gt;</span></div>
+<a href="../../d7/d7c/SvtxEvaluatorHaiwang_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/Tracking/SvtxEvaluatorHaiwang/SvtxEvaluatorHaiwang.C">the newest version in sPHENIX GitHub for file SvtxEvaluatorHaiwang.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d59/SvtxEvalStack_8h.html">g4eval/SvtxEvalStack.h</a>&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d8/d30/PHCompositeNode_8h.html">phool/PHCompositeNode.h</a>&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/dc1/Fun4AllReturnCodes_8h.html">fun4all/Fun4AllReturnCodes.h</a>&gt;</span></div>
@@ -684,7 +684,7 @@ $(document).ready(function(){initNavTree('d7/d7c/SvtxEvaluatorHaiwang_8C_source.
 <div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;           iter != vertexmap-&gt;<a class="code" href="../../db/dd7/classSvtxVertexMap.html#adfc0da95a91d44a58eb1d48fd10841a6">end</a>();</div>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;           ++iter) {</div>
 <div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        <a class="code" href="../../d2/d6d/classSvtxVertex.html">SvtxVertex</a>* vertex = iter-&gt;second;</div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;        <a class="code" href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a>* point = vertexeval-&gt;<a class="code" href="../../d4/d21/classSvtxVertexEval.html#aa7e59a495f87824e3f1088d1f5436ecb">max_truth_point_by_ntracks</a>(vertex);</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;        <a class="code" href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a>* <a class="code" href="../../d8/df7/PHCASeeding_8cc.html#a905ba7eea43764a576ea5db7e8b73b0f">point</a> = vertexeval-&gt;<a class="code" href="../../d4/d21/classSvtxVertexEval.html#aa7e59a495f87824e3f1088d1f5436ecb">max_truth_point_by_ntracks</a>(vertex);</div>
 <div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;</div>
 <div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;        <span class="keywordtype">float</span> vx         = vertex-&gt;<a class="code" href="../../d2/d6d/classSvtxVertex.html#a233c6da9e4f023ee15b8d1298cde9ac3">get_x</a>();</div>
 <div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;        <span class="keywordtype">float</span> vy         = vertex-&gt;<a class="code" href="../../d2/d6d/classSvtxVertex.html#a2b5eda5e1b6f143c4963c63b249a432c">get_y</a>();</div>
@@ -745,7 +745,7 @@ $(document).ready(function(){initNavTree('d7/d7c/SvtxEvaluatorHaiwang_8C_source.
 <div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;</div>
 <div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    <span class="keywordflow">if</span> (vertexmap &amp;&amp; truthinfo) {</div>
 <div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;      <a class="code" href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a>* point =  truthinfo-&gt;GetPrimaryVtx(truthinfo-&gt;GetPrimaryVertexIndex());</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;      <a class="code" href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a>* <a class="code" href="../../d8/df7/PHCASeeding_8cc.html#a905ba7eea43764a576ea5db7e8b73b0f">point</a> =  truthinfo-&gt;GetPrimaryVtx(truthinfo-&gt;GetPrimaryVertexIndex());</div>
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;</div>
 <div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;      <span class="keywordflow">if</span> (point) {</div>
 <div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;      </div>
@@ -1787,7 +1787,7 @@ $(document).ready(function(){initNavTree('d7/d7c/SvtxEvaluatorHaiwang_8C_source.
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_460c1b7bd34c425e8f2968f8f91be656.html">Tracking</a></li><li class="navelem"><a class="el" href="../../dir_158d3cab8f7bf31defab13894577cc2d.html">SvtxEvaluatorHaiwang</a></li><li class="navelem"><a class="el" href="../../d7/d7c/SvtxEvaluatorHaiwang_8C.html">SvtxEvaluatorHaiwang.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:09</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:15</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

@@ -11,6 +11,7 @@ var functions_type =
     [ "j", "functions_type_0x6a.html", null ],
     [ "l", "functions_type_0x6c.html", null ],
     [ "m", "functions_type_0x6d.html", null ],
+    [ "o", "functions_type_0x6f.html", null ],
     [ "p", "functions_type_0x70.html", null ],
     [ "r", "functions_type_0x72.html", null ],
     [ "s", "functions_type_0x73.html", null ],

@@ -1,38 +1,51 @@
 <map id="hijcrs" name="hijcrs">
-<area shape="rect" id="node2" href="$df/d79/crsjet_8f.html#af2fc33e94c1b4d97324c05704f5e1130" title="crsjet" alt="" coords="111,1237,169,1265"/>
-<area shape="rect" id="node4" href="$db/da1/classHiParnt.html#ac653b598baeeca89d06693fdf4688f38" title="HiParnt::hint1" alt="" coords="567,802,680,830"/>
-<area shape="rect" id="node8" href="$db/da1/classHiParnt.html#a28a5a24ec376a6790e610d7fcc0f5b8e" title="HiParnt::hipr1" alt="" coords="567,701,680,729"/>
-<area shape="rect" id="node10" href="$db/da1/classHiParnt.html#a0d759f134daae3226a7744c9920bd769" title="HiParnt::ihnt2" alt="" coords="567,1694,680,1722"/>
-<area shape="rect" id="node12" href="$db/da1/classHiParnt.html#a1c6a5924524a08fe9641adc64095c0b9" title="HiParnt::ihpr2" alt="" coords="567,1213,680,1241"/>
-<area shape="rect" id="node27" href="$d2/dc8/fhin_8f.html#a3854e12cc7c8249c40ac95e3ea1beda4" title="fhin" alt="" coords="342,523,389,551"/>
-<area shape="rect" id="node32" href="$de/de9/fnjet_8f.html#adc93b7a3062068727b193b5171351ea6" title="fnjet" alt="" coords="339,1059,392,1087"/>
-<area shape="rect" id="node34" href="$d1/d56/ftot_8f.html#a522ebca12394d0d2e29a844de6f05c30" title="ftot" alt="" coords="343,903,388,931"/>
-<area shape="rect" id="node35" href="$dd/daa/ftotjet_8f.html#a6ff5a5dc8a9e861e6e75ecd085970fc5" title="ftotjet" alt="" coords="334,955,397,983"/>
-<area shape="rect" id="node36" href="$d0/dc6/ftotrig_8f.html#a14374e9f2a31df17d79dda6bdaa674de" title="ftotrig" alt="" coords="335,1007,396,1035"/>
-<area shape="rect" id="node37" href="$db/d76/gauss1_8f.html#ae2f1c173c39d4684dca0f7fe3be6f9b3" title="gauss1" alt="" coords="589,1989,658,2017"/>
-<area shape="rect" id="node3" href="$d3/d7a/fjet_8f.html#a8d0f21bb1671cde16dfd781a16848a55" title="fjet" alt="" coords="463,1161,507,1189"/>
-<area shape="rect" id="node14" href="$d6/dbe/fjetrig_8f.html#a9d34d534961292a2ab4c61d39d58a83b" title="fjetrig" alt="" coords="217,1263,279,1291"/>
-<area shape="rect" id="node23" href="$dd/d3f/vegas_8f.html#a9b6da497223053e01de3e570e536fab7" title="vegas" alt="" coords="217,1977,279,2005"/>
-<area shape="rect" id="node5" href="$db/da1/classHiParnt.html#aec7bbf54e836c6b58a40be4e79292972" title="HiParnt::init" alt="" coords="745,1009,847,1037"/>
-<area shape="rect" id="node7" href="$db/da1/classHiParnt.html#a1074072a5774a085cecf879899a44ab3" title="HiParnt::lenHint1" alt="" coords="728,802,864,830"/>
-<area shape="rect" id="node6" href="$d4/d0f/HiParnt_8h.html#ae387711cf1ed2f3d5908e93a113f27e7" title="hiparnt_address_" alt="" coords="912,1009,1049,1037"/>
-<area shape="rect" id="node9" href="$db/da1/classHiParnt.html#a976a341872dd6ef684a319c5e262be46" title="HiParnt::lenHipr1" alt="" coords="728,701,864,729"/>
-<area shape="rect" id="node11" href="$db/da1/classHiParnt.html#a2583f210ac7e15c429d879a65e9626b2" title="HiParnt::lenIhnt2" alt="" coords="729,1694,863,1722"/>
-<area shape="rect" id="node13" href="$db/da1/classHiParnt.html#aa2f216c88e3e9ec0634df4755e281c85" title="HiParnt::lenIhpr2" alt="" coords="729,1213,863,1241"/>
-<area shape="rect" id="node15" href="$d9/d54/ghvq_8f.html#a82d9f3c5d5304a5823f187c2fef0b4ec" title="ghvq" alt="" coords="338,1365,393,1393"/>
-<area shape="rect" id="node21" href="$da/d86/gphoton_8f.html#a6bfec687c600fe6b824232796fa7832b" title="gphoton" alt="" coords="327,1466,404,1494"/>
-<area shape="rect" id="node16" href="$db/d20/parton_8f.html#aa0edf2e3bc4c9634a0c0e2ee25615ad2" title="parton" alt="" coords="453,1822,518,1850"/>
-<area shape="rect" id="node17" href="$de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526" title="go" alt="" coords="777,2259,815,2287"/>
-<area shape="rect" id="node20" href="$dc/dc6/gmre_8f.html#aa6e860c7d81623b3000169df288e5688" title="gmre" alt="" coords="595,2182,651,2210"/>
-<area shape="rect" id="node18" href="$de/de0/matchedfilter_8C.html#a3f4d763c3fdd217c038a53ba4ca5b98a" title="meanw" alt="" coords="945,2285,1016,2313"/>
-<area shape="rect" id="node19" href="$de/de0/matchedfilter_8C.html#ac662fab4d6569f9ab320da1b95bcd663" title="round" alt="" coords="951,2233,1011,2261"/>
-<area shape="rect" id="node22" href="$d1/d5e/classsHelix.html#a6475358b49bdd57d441b23ab9b11182f" title="sHelix::u" alt="" coords="756,1989,836,2017"/>
-<area shape="rect" id="node24" href="$dc/df0/aran9_8f.html#ab5b3d06f0fc032cd40c8f4b3ba1b6815" title="aran9" alt="" coords="335,2029,395,2057"/>
-<area shape="rect" id="node26" href="$db/d5d/test__style_8C.html#a2513fe0eb0478642e44ad1201af61a46" title="f2" alt="" coords="346,1977,385,2005"/>
-<area shape="rect" id="node25" href="$df/d32/Hijing_8cxx.html#ae77486bb5b16ca0fe60314a7d12624f1" title="atl_ran" alt="" coords="452,2182,519,2210"/>
-<area shape="rect" id="node28" href="$d1/d45/omg0_8f.html#a8172eb0cfd4e2c4371654a02192d8958" title="omg0" alt="" coords="455,905,515,933"/>
-<area shape="rect" id="node29" href="$d7/dd8/bk_8f.html#a084aa72b16f800aa352c4efed50eb2af" title="bk" alt="" coords="604,905,643,933"/>
-<area shape="rect" id="node30" href="$da/d8b/gauss2_8f.html#adeae9391a0234825154a4a00bbc9404f" title="gauss2" alt="" coords="589,1161,658,1189"/>
-<area shape="rect" id="node31" href="$d1/d5e/classsHelix.html#a44ff83bf3956f25a18308cc3c7fc1873" title="sHelix::w" alt="" coords="755,1810,837,1838"/>
-<area shape="rect" id="node33" href="$d4/de8/sgmin_8f.html#a1d989119af0a6e826029c8053b8ac1ea" title="sgmin" alt="" coords="454,2027,517,2055"/>
+<area shape="rect" id="node2" href="$df/d79/crsjet_8f.html#af2fc33e94c1b4d97324c05704f5e1130" title="crsjet" alt="" coords="111,1539,169,1567"/>
+<area shape="rect" id="node4" href="$db/da1/classHiParnt.html#ac653b598baeeca89d06693fdf4688f38" title="HiParnt::hint1" alt="" coords="565,574,679,602"/>
+<area shape="rect" id="node8" href="$db/da1/classHiParnt.html#a28a5a24ec376a6790e610d7fcc0f5b8e" title="HiParnt::hipr1" alt="" coords="565,853,679,881"/>
+<area shape="rect" id="node10" href="$db/da1/classHiParnt.html#a0d759f134daae3226a7744c9920bd769" title="HiParnt::ihnt2" alt="" coords="565,1313,679,1341"/>
+<area shape="rect" id="node12" href="$db/da1/classHiParnt.html#a1c6a5924524a08fe9641adc64095c0b9" title="HiParnt::ihpr2" alt="" coords="565,1542,679,1570"/>
+<area shape="rect" id="node40" href="$d2/dc8/fhin_8f.html#a3854e12cc7c8249c40ac95e3ea1beda4" title="fhin" alt="" coords="342,749,389,777"/>
+<area shape="rect" id="node45" href="$de/de9/fnjet_8f.html#adc93b7a3062068727b193b5171351ea6" title="fnjet" alt="" coords="339,1007,392,1035"/>
+<area shape="rect" id="node47" href="$d1/d56/ftot_8f.html#a522ebca12394d0d2e29a844de6f05c30" title="ftot" alt="" coords="343,801,388,829"/>
+<area shape="rect" id="node48" href="$dd/daa/ftotjet_8f.html#a6ff5a5dc8a9e861e6e75ecd085970fc5" title="ftotjet" alt="" coords="334,853,397,881"/>
+<area shape="rect" id="node49" href="$d0/dc6/ftotrig_8f.html#a14374e9f2a31df17d79dda6bdaa674de" title="ftotrig" alt="" coords="335,905,396,933"/>
+<area shape="rect" id="node50" href="$db/d76/gauss1_8f.html#ae2f1c173c39d4684dca0f7fe3be6f9b3" title="gauss1" alt="" coords="587,2041,657,2069"/>
+<area shape="rect" id="node3" href="$d3/d7a/fjet_8f.html#a8d0f21bb1671cde16dfd781a16848a55" title="fjet" alt="" coords="463,1313,507,1341"/>
+<area shape="rect" id="node14" href="$d6/dbe/fjetrig_8f.html#a9d34d534961292a2ab4c61d39d58a83b" title="fjetrig" alt="" coords="217,1615,279,1643"/>
+<area shape="rect" id="node36" href="$dd/d3f/vegas_8f.html#a9b6da497223053e01de3e570e536fab7" title="vegas" alt="" coords="591,2310,653,2338"/>
+<area shape="rect" id="node5" href="$db/da1/classHiParnt.html#aec7bbf54e836c6b58a40be4e79292972" title="HiParnt::init" alt="" coords="785,1083,886,1111"/>
+<area shape="rect" id="node7" href="$db/da1/classHiParnt.html#a1074072a5774a085cecf879899a44ab3" title="HiParnt::lenHint1" alt="" coords="767,574,903,602"/>
+<area shape="rect" id="node6" href="$d4/d0f/HiParnt_8h.html#ae387711cf1ed2f3d5908e93a113f27e7" title="hiparnt_address_" alt="" coords="1023,1083,1161,1111"/>
+<area shape="rect" id="node9" href="$db/da1/classHiParnt.html#a976a341872dd6ef684a319c5e262be46" title="HiParnt::lenHipr1" alt="" coords="767,853,903,881"/>
+<area shape="rect" id="node11" href="$db/da1/classHiParnt.html#a2583f210ac7e15c429d879a65e9626b2" title="HiParnt::lenIhnt2" alt="" coords="768,1313,903,1341"/>
+<area shape="rect" id="node13" href="$db/da1/classHiParnt.html#aa2f216c88e3e9ec0634df4755e281c85" title="HiParnt::lenIhpr2" alt="" coords="768,1542,903,1570"/>
+<area shape="rect" id="node15" href="$d9/d54/ghvq_8f.html#a82d9f3c5d5304a5823f187c2fef0b4ec" title="ghvq" alt="" coords="338,1615,393,1643"/>
+<area shape="rect" id="node34" href="$da/d86/gphoton_8f.html#a6bfec687c600fe6b824232796fa7832b" title="gphoton" alt="" coords="327,1719,404,1747"/>
+<area shape="rect" id="node16" href="$db/d20/parton_8f.html#aa0edf2e3bc4c9634a0c0e2ee25615ad2" title="parton" alt="" coords="452,1923,517,1951"/>
+<area shape="rect" id="node17" href="$de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526" title="go" alt="" coords="816,2145,855,2173"/>
+<area shape="rect" id="node20" href="$d3/df2/classgenfit_1_1GFRavePropagator.html#a0534e516b69488120356d8bfa53f6f5b" title="genfit::GFRavePropagator::to" alt="" coords="727,2222,944,2250"/>
+<area shape="rect" id="node33" href="$dc/dc6/gmre_8f.html#aa6e860c7d81623b3000169df288e5688" title="gmre" alt="" coords="594,2145,650,2173"/>
+<area shape="rect" id="node18" href="$de/de0/matchedfilter_8C.html#a3f4d763c3fdd217c038a53ba4ca5b98a" title="meanw" alt="" coords="1057,2093,1127,2121"/>
+<area shape="rect" id="node19" href="$de/de0/matchedfilter_8C.html#ac662fab4d6569f9ab320da1b95bcd663" title="round" alt="" coords="1062,2145,1122,2173"/>
+<area shape="rect" id="node21" href="$dc/d22/namespacegenfit.html#aec5c8cb927a354edfb23af80108b69d4" title="genfit::PlaneToGFDetPlane" alt="" coords="992,2197,1192,2225"/>
+<area shape="rect" id="node24" href="$dc/d22/namespacegenfit.html#a16248965fc33843bb4f2d9bd8b0a7ce7" title="genfit::GFTrackToTrack" alt="" coords="1005,2366,1179,2394"/>
+<area shape="rect" id="node22" href="$dc/d22/namespacegenfit.html#ad8550f9eaa6237f8ddf48aefd57dfe58" title="genfit::Point3DToTVector3" alt="" coords="1255,2186,1451,2214"/>
+<area shape="rect" id="node23" href="$dc/d22/namespacegenfit.html#ad3ecb92a152c9ea7f5290e3653910473" title="genfit::Vector3DToTVector3" alt="" coords="1251,2134,1456,2162"/>
+<area shape="rect" id="node25" href="$d6/d8a/classgenfit_1_1Track.html#ad06e7a012624bdb03960826b5c9fcd93" title="Get FitStatus for a AbsTrackRep. Per default, return FitStatus for cardinalRep." alt="" coords="1256,2238,1451,2266"/>
+<area shape="rect" id="node27" href="$d0/d8d/classgenfit_1_1FitStatus.html#a56371ce504bee72fcf2f9324ddcb91a8" title="Did the fit converge (in all Points or only partially)?" alt="" coords="1285,2290,1421,2334"/>
+<area shape="rect" id="node28" href="$d6/d8a/classgenfit_1_1Track.html#abf156957d701a9a10a02fef8ac54e4d9" title="Shortcut to get FittedStates." alt="" coords="1267,2630,1440,2674"/>
+<area shape="rect" id="node29" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#a3aab44a6c7155b8258fa34469bc45bc0" title="genfit::MeasuredStateOnPlane\l::getPosMomCov" alt="" coords="1240,2358,1467,2402"/>
+<area shape="rect" id="node30" href="$d0/d8d/classgenfit_1_1FitStatus.html#a7e8ed1d97eec3e3164dc2dd782f5cb85" title="Get the fitted charge." alt="" coords="1285,2426,1421,2470"/>
+<area shape="rect" id="node31" href="$d0/d8d/classgenfit_1_1FitStatus.html#abbeeda61574c284f1d762088b3644770" title="Get chi^2 of the fit." alt="" coords="1285,2494,1421,2538"/>
+<area shape="rect" id="node32" href="$d0/d8d/classgenfit_1_1FitStatus.html#aa73b3566657ea37bf8ab5102d465025d" title="Get the degrees of freedom of the fit." alt="" coords="1285,2562,1421,2606"/>
+<area shape="rect" id="node26" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="1515,2438,1732,2466"/>
+<area shape="rect" id="node35" href="$d1/d5e/classsHelix.html#a6475358b49bdd57d441b23ab9b11182f" title="sHelix::u" alt="" coords="795,1989,875,2017"/>
+<area shape="rect" id="node37" href="$dc/df0/aran9_8f.html#ab5b3d06f0fc032cd40c8f4b3ba1b6815" title="aran9" alt="" coords="805,2381,865,2409"/>
+<area shape="rect" id="node39" href="$db/d5d/test__style_8C.html#a2513fe0eb0478642e44ad1201af61a46" title="f2" alt="" coords="816,2310,855,2338"/>
+<area shape="rect" id="node38" href="$df/d32/Hijing_8cxx.html#ae77486bb5b16ca0fe60314a7d12624f1" title="atl_ran" alt="" coords="1059,2418,1125,2446"/>
+<area shape="rect" id="node41" href="$d1/d45/omg0_8f.html#a8172eb0cfd4e2c4371654a02192d8958" title="omg0" alt="" coords="455,905,515,933"/>
+<area shape="rect" id="node42" href="$d7/dd8/bk_8f.html#a084aa72b16f800aa352c4efed50eb2af" title="bk" alt="" coords="603,905,641,933"/>
+<area shape="rect" id="node43" href="$da/d8b/gauss2_8f.html#adeae9391a0234825154a4a00bbc9404f" title="gauss2" alt="" coords="587,1261,657,1289"/>
+<area shape="rect" id="node44" href="$d1/d5e/classsHelix.html#a44ff83bf3956f25a18308cc3c7fc1873" title="sHelix::w" alt="" coords="794,1743,877,1771"/>
+<area shape="rect" id="node46" href="$d4/de8/sgmin_8f.html#a1d989119af0a6e826029c8053b8ac1ea" title="sgmin" alt="" coords="591,2197,653,2225"/>
 </map>

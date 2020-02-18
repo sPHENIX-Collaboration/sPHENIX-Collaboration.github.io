@@ -1,0 +1,4 @@
+<map id="genfit::TrackCand::setTimePosMomSeedAndPdgCode" name="genfit::TrackCand::setTimePosMomSeedAndPdgCode">
+<area shape="rect" id="node2" href="$d3/da2/classgenfit_1_1TrackCand.html#ad13b659b223ae8f2515e3316de2f88f9" title="This function works the same as setPosMomSeed but instead of a charge hypothesis you can set a pdg co..." alt="" coords="304,5,523,49"/>
+<area shape="rect" id="node3" href="$d3/da2/classgenfit_1_1TrackCand.html#ad5c3293cea3ccf42bcb2257299a9b803" title="Set a particle hypothesis in form of a PDG code. This will also set the charge attribute." alt="" coords="571,5,719,49"/>
+</map>

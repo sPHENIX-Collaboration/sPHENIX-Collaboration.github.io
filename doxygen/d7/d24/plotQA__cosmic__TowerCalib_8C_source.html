@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d7/d24/plotQA__cosmic__TowerCalib_8C_s
 <div class="title">plotQA_cosmic_TowerCalib.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d7/d24/plotQA__cosmic__TowerCalib_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;TFile.h&quot;</span></div>
+<a href="../../d7/d24/plotQA__cosmic__TowerCalib_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/Prototype4/HCal/macros/TowerCalib/plotQA_cosmic_TowerCalib.C">the newest version in sPHENIX GitHub for file plotQA_cosmic_TowerCalib.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;TFile.h&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;TString.h&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;TH1F.h&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;TCanvas.h&quot;</span></div>
@@ -225,7 +225,7 @@ $(document).ready(function(){initNavTree('d7/d24/plotQA__cosmic__TowerCalib_8C_s
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      {</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        h_hcal_tower_raw[i_tower]-&gt;Fit(f_landau_hcal_raw[i_tower],<span class="stringliteral">&quot;R&quot;</span>);</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        adc[i_tower] = f_landau_hcal_raw[i_tower]-&gt;GetParameter(1);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordtype">string</span> lable = Form(<span class="stringliteral">&quot;MPV %4.1f&quot;</span>,f_landau_hcal_raw[i_tower]-&gt;GetParameter(1));</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordtype">string</span> lable = Form(<span class="stringliteral">&quot;MPV %4.1f&quot;</span>,f_landau_hcal_raw[i_tower]-&gt;<a class="code" href="../../d9/d03/KFParticleBaseSIMD_8h.html#a0d92a803a6f9399905407c7550428a77" title="Returns P[i] parameter.">GetParameter</a>(1));</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        TLegend *<a class="code" href="../../d7/d42/200pp__pythia8__CTEQ6L__7GeV__ALL_8cfg__eneg__DSTReader_8root__Draw__HFJetTruth__CrossSection2RAA__deta0_845_8C.html#ae33fc0081626b22666e300032da585e7">leg</a> = <span class="keyword">new</span> TLegend(0.4,0.5,0.8,0.8);</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        leg-&gt;SetFillColor(0);</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        leg-&gt;SetBorderSize(0);</div>
@@ -257,7 +257,7 @@ $(document).ready(function(){initNavTree('d7/d24/plotQA__cosmic__TowerCalib_8C_s
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_8892c13fc117b6668acced72230e17a7.html">Prototype4</a></li><li class="navelem"><a class="el" href="../../dir_cb06fdb61e4f17bcc285a494827036cf.html">HCal</a></li><li class="navelem"><a class="el" href="../../dir_b7695012a111b4a920ddff5a57d33517.html">macros</a></li><li class="navelem"><a class="el" href="../../dir_5c3542427a718a595ea46c59c9ba011e.html">TowerCalib</a></li><li class="navelem"><a class="el" href="../../d7/d24/plotQA__cosmic__TowerCalib_8C.html">plotQA_cosmic_TowerCalib.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:08</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:14</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

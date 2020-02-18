@@ -1,0 +1,11 @@
+<map id="ClassImp" name="ClassImp">
+<area shape="rect" id="node2" href="$d5/d41/classKFParticleBase.html#aef4f146c36bffafe0ac1fa9a5d48ada2" title="Returns Chi2 of the fit." alt="" coords="159,5,343,33"/>
+<area shape="rect" id="node3" href="$d5/d41/classKFParticleBase.html#aa2d4b499ceab3e14819f3fbc98655950" title="Returns C[i] element of the covariance matrix in the lower triangular form." alt="" coords="137,57,366,85"/>
+<area shape="rect" id="node4" href="$d5/d41/classKFParticleBase.html#abc0c970f6089f124e826a1d359de73da" title="KFParticleBase::GetLifeTime" alt="" coords="146,109,357,137"/>
+<area shape="rect" id="node5" href="$d5/d41/classKFParticleBase.html#a31ec53f7baf5b341159d52ea2022013d" title="KFParticleBase::GetMass" alt="" coords="415,136,603,164"/>
+<area shape="rect" id="node6" href="$d5/d41/classKFParticleBase.html#a4b3409c5572d7e7735e8cf24f257e4b5" title="KFParticleBase::GetMomentum" alt="" coords="136,213,367,241"/>
+<area shape="rect" id="node7" href="$d5/d41/classKFParticleBase.html#a128dbedb73783a25e76a9115ec0af9ac" title="Returns number of decrease of freedom." alt="" coords="161,265,342,293"/>
+<area shape="rect" id="node8" href="$d5/d41/classKFParticleBase.html#a73a492eea1644b514e874bbe77543c3a" title="Returns P[i] parameter." alt="" coords="139,317,363,345"/>
+<area shape="rect" id="node9" href="$d5/d41/classKFParticleBase.html#a03ddf1d1cedebfe9265f89d38cc683f7" title="Returns the PDG hypothesis." alt="" coords="161,369,342,397"/>
+<area shape="rect" id="node10" href="$d5/d41/classKFParticleBase.html#a97b4d2ef119c13e0117b0367473cb153" title="Returns charge of the particle." alt="" coords="169,421,333,449"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="genfit::calcAverageState" name="genfit::calcAverageState">
+<area shape="rect" id="node2" href="$d7/dd8/bk_8f.html#a084aa72b16f800aa352c4efed50eb2af" title="bk" alt="" coords="757,227,795,255"/>
+<area shape="rect" id="node3" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a2801bf4fa1196147472cc1807281e23d" title="genfit::StateOnPlane\l::getAuxInfo" alt="" coords="274,52,435,96"/>
+<area shape="rect" id="node4" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#adea48432beb9b8fc30bc4bf05b4c5547" title="genfit::MeasuredStateOnPlane\l::getCov" alt="" coords="241,120,468,164"/>
+<area shape="rect" id="node5" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a30c7e8d87fa50205baa927d4ceccb594" title="genfit::StateOnPlane\l::getPlane" alt="" coords="274,188,435,232"/>
+<area shape="rect" id="node6" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a14f25e4575846dcb14bd91ddb2a534d2" title="genfit::StateOnPlane\l::getRep" alt="" coords="274,256,435,300"/>
+<area shape="rect" id="node7" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="274,324,435,368"/>
+<area shape="rect" id="node8" href="$db/d45/namespacegenfit_1_1tools.html#ad70b08610012fcd630091c66be5cd0c4" title="Invert a matrix, throwing an Exception when inversion fails. Optional calculation of determinant..." alt="" coords="258,392,451,420"/>
+<area shape="rect" id="node10" href="$db/d45/namespacegenfit_1_1tools.html#a409cdc24f5908845f845bf0c4a2d4961" title="Replaces A with an upper right matrix connected to A by an orthongonal transformation. I.e., it computes R from a QR decomposition of A = QR, replacing A." alt="" coords="543,512,675,540"/>
+<area shape="rect" id="node11" href="$da/d55/TPCRateLayered_8m.html#a7507ef556477c204b499f1e189d40796" title="sum" alt="" coords="751,512,801,540"/>
+<area shape="rect" id="node12" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html#aa50d18e563eb6659dcb1dc64660f400e" title="genfit::MeasuredStateOnPlane\l::setCov" alt="" coords="241,564,468,608"/>
+<area shape="rect" id="node13" href="$de/dd5/classgenfit_1_1StateOnPlane.html#ad93a356012617fff04a557d34bd84ce5" title="genfit::StateOnPlane\l::setState" alt="" coords="274,632,435,676"/>
+<area shape="rect" id="node14" href="$db/d45/namespacegenfit_1_1tools.html#a98e2c1ec0611289beb34a8bfb13980a7" title="Inverts the transpose of the upper right matrix R into inv." alt="" coords="261,444,448,488"/>
+<area shape="rect" id="node9" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="537,376,681,420"/>
+<area shape="rect" id="node15" href="$db/d45/namespacegenfit_1_1tools.html#a97e35224c7d7ec5d63f23ffda85aef4c" title="Solves R^t x = b, replacing b with the solution for x. R is assumed to be upper diagonal." alt="" coords="516,444,703,488"/>
+</map>

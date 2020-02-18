@@ -1,0 +1,9 @@
+<map id="genfit::mySpacepointMeasurement::mySpacepointMeasurement" name="genfit::mySpacepointMeasurement::mySpacepointMeasurement">
+<area shape="rect" id="node2" href="$d2/d39/classgenfit_1_1mySpacepointDetectorHit.html#a83dee6b9e594a392fb85ceea8c2248a3" title="genfit::mySpacepointDetector\lHit::getCov" alt="" coords="320,5,545,49"/>
+<area shape="rect" id="node3" href="$da/df3/classgenfit_1_1TrackCandHit.html#abd3f233380e6f805124f878b8c7d88ea" title="genfit::TrackCandHit\l::getDetId" alt="" coords="353,73,513,117"/>
+<area shape="rect" id="node4" href="$da/df3/classgenfit_1_1TrackCandHit.html#a64a7dbfe54ddf6d9098a33ace50aba7a" title="genfit::TrackCandHit\l::getHitId" alt="" coords="353,141,513,185"/>
+<area shape="rect" id="node5" href="$d2/d39/classgenfit_1_1mySpacepointDetectorHit.html#a080aff13f41b4a134fee1b06de8c61fd" title="genfit::mySpacepointDetector\lHit::getPos" alt="" coords="320,209,545,253"/>
+<area shape="rect" id="node6" href="$d4/deb/classgenfit_1_1SpacepointMeasurement.html#a4c91a40109bbc38011893ef53764e440" title="genfit::SpacepointMeasurement\l::initG" alt="" coords="313,277,552,321"/>
+<area shape="rect" id="node7" href="$db/d45/namespacegenfit_1_1tools.html#ad70b08610012fcd630091c66be5cd0c4" title="Invert a matrix, throwing an Exception when inversion fails. Optional calculation of determinant..." alt="" coords="600,285,793,313"/>
+<area shape="rect" id="node8" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="841,277,985,321"/>
+</map>

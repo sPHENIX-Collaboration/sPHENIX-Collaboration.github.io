@@ -1,0 +1,4 @@
+<map id="genfit::GblFitterInfo::getKink" name="genfit::GblFitterInfo::getKink">
+<area shape="rect" id="node2" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a838ec661da762f1ce3ddbf4019b2c367" title="Get kink (residual) (2D) = 0 &#45; ( (+)pred &#45; (&#45;)pred )" alt="" coords="207,5,360,49"/>
+<area shape="rect" id="node3" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a9040cad25be9a3c328a52c186871acf8" title="Get the prediction at this point Always biased in GBL (global fit) There are 2 states, before and after kink (if there is a scatterer at this point). Per default the state after kink for forward propagation is returned." alt="" coords="408,5,561,49"/>
+</map>

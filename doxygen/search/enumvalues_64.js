@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['dafref',['DafRef',['../d1/d35/classPHGenFit_1_1Fitter.html#a62602ffe923f84f510bbc6d3709cb7c9a8c2230b88e84b1116ff9c504a03c1012',1,'PHGenFit::Fitter']]],
-  ['dafsimple',['DafSimple',['../d1/d35/classPHGenFit_1_1Fitter.html#a62602ffe923f84f510bbc6d3709cb7c9acd3d6ad81da284d0cf14eabb43ef2774',1,'PHGenFit::Fitter']]],
+  ['dafref',['DafRef',['../d1/d35/classPHGenFit_1_1Fitter.html#a62602ffe923f84f510bbc6d3709cb7c9a8c2230b88e84b1116ff9c504a03c1012',1,'PHGenFit::Fitter::DafRef()'],['../dc/d22/namespacegenfit.html#a4de4f1536357617123509665bf2bafa1adc423ce15665600c867362024cb2d8e1',1,'genfit::DafRef()']]],
+  ['dafsimple',['DafSimple',['../d1/d35/classPHGenFit_1_1Fitter.html#a62602ffe923f84f510bbc6d3709cb7c9acd3d6ad81da284d0cf14eabb43ef2774',1,'PHGenFit::Fitter::DafSimple()'],['../dc/d22/namespacegenfit.html#a4de4f1536357617123509665bf2bafa1ad57ab34c117ea3a06401cdf2f48b1922',1,'genfit::DafSimple()']]],
   ['dca2d',['DCA2d',['../d7/d87/namespaceBJetDCA.html#a50f2424f199af01e41084d14fb953400a5dedd28eacd6620e2fbdfa3327cb6baf',1,'BJetDCA']]],
   ['dca2d_5fcalc',['DCA2d_calc',['../d7/d87/namespaceBJetDCA.html#a50f2424f199af01e41084d14fb953400a9d0806becfb0fd59e52d911be824d472',1,'BJetDCA']]],
   ['dca3d',['DCA3d',['../d7/d87/namespaceBJetDCA.html#a50f2424f199af01e41084d14fb953400aaba5385e9b3ef30a1010d1d60cdcbb79',1,'BJetDCA']]],

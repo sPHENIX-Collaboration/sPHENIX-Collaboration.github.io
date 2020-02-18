@@ -1,0 +1,5 @@
+<map id="genfit::AbsMeasurement::setTrackPoint" name="genfit::AbsMeasurement::setTrackPoint">
+<area shape="rect" id="node2" href="$db/d40/classgenfit_1_1TrackPoint.html#a69f9ef6f8b911b4883b1d99e18086a7b" title="Takes ownership and sets this as measurement&#39;s trackPoint." alt="" coords="264,5,441,49"/>
+<area shape="rect" id="node4" href="$d9/d77/classgenfit_1_1WireMeasurementNew.html#a9214fc2567bc42385c660f60c81b2bfe" title="genfit::WireMeasurementNew\l::WireMeasurementNew" alt="" coords="241,73,464,117"/>
+<area shape="rect" id="node3" href="$db/d40/classgenfit_1_1TrackPoint.html#aebe46d75ed57b42bdbeca06dbc5d7c5e" title="Contructor taking list of measurements." alt="" coords="512,5,651,49"/>
+</map>

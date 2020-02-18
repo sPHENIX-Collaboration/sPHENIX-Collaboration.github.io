@@ -1,0 +1,11 @@
+<map id="PHGenFit::Measurement" name="PHGenFit::Measurement">
+<area shape="rect" id="node2" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html" title="Contains the measurement and covariance in raw detector coordinates." alt="" coords="247,329,435,357"/>
+<area shape="rect" id="node4" href="$db/d40/classgenfit_1_1TrackPoint.html" title="Object containing AbsMeasurement and AbsFitterInfo objects." alt="" coords="1035,373,1174,401"/>
+<area shape="rect" id="node5" href="$d6/d8a/classgenfit_1_1Track.html" title="Collection of TrackPoint objects, AbsTrackRep objects and FitStatus objects." alt="" coords="1831,206,1936,234"/>
+<area shape="rect" id="node9" href="$d1/d25/classgenfit_1_1AbsTrackRep.html" title="Abstract base class for a track representation." alt="" coords="1027,145,1183,173"/>
+<area shape="rect" id="node13" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html" title="This class collects all information needed and produced by a specific AbsFitter and is specific to on..." alt="" coords="1343,511,1498,539"/>
+<area shape="rect" id="node16" href="$d6/d15/classgenfit_1_1ThinScatterer.html" title="Thin or thick scatterer." alt="" coords="260,477,421,505"/>
+<area shape="rect" id="node7" href="$d0/d8d/classgenfit_1_1FitStatus.html" title="Class where important numbers and properties of a fit can be stored." alt="" coords="1041,7,1169,35"/>
+<area shape="rect" id="node8" href="$d6/d51/structgenfit_1_1PruneFlags.html" title="Info which information has been pruned from the Track." alt="" coords="643,7,787,35"/>
+<area shape="rect" id="node17" href="$da/d5d/structgenfit_1_1Material.html" title="genfit::Material" alt="" coords="5,565,129,593"/>
+</map>

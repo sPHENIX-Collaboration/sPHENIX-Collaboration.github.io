@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d5/d51/DrawHadronShowers_8C_source.htm
 <div class="title">DrawHadronShowers.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d5/d51/DrawHadronShowers_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;TFile.h&gt;</span></div>
+<a href="../../d5/d51/DrawHadronShowers_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/Calorimeter/macros/DrawHadronShowers.C">the newest version in sPHENIX GitHub for file DrawHadronShowers.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;TFile.h&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;TLine.h&gt;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;TString.h&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;TTree.h&gt;</span></div>
@@ -658,7 +658,7 @@ $(document).ready(function(){initNavTree('d5/d51/DrawHadronShowers_8C_source.htm
 <div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;    p = (TPad *) c1-&gt;cd(idx++);</div>
 <div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    c1-&gt;Update();</div>
 <div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> P = Ps[<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>];</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="../../d2/dc5/KFPTrackVector_8h.html#a39a53a622c6abde5e888e4ad46fb04af" title="Returns momentum of the track with index &quot;n&quot;.">P</a> = Ps[<a class="code" href="../../d7/d87/fasthadv4_8C.html#a6f6ccfcf58b31cb6412107d9d5281426">i</a>];</div>
 <div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;</div>
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    TString sEnergy = Form(<span class="stringliteral">&quot;%.0fGeV&quot;</span>, P);</div>
 <div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;</div>
@@ -756,9 +756,9 @@ $(document).ready(function(){initNavTree('d5/d51/DrawHadronShowers_8C_source.htm
 <div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../da/de5/ThicknessScan_8m.html#aff454a14d9dc8148930abb4b532e211d">n</a> = T-&gt;Add(infile);</div>
 <div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;</div>
 <div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;  TObjArray *fileElements = T-&gt;GetListOfFiles();</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;  TIter next(fileElements);</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;  TIter <a class="code" href="../../dc/d19/KFPInputData_8h.html#a0e4bb534e415cd121281a876b7469df2" title="Link to the nex object in the linked list.">next</a>(fileElements);</div>
 <div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;  TChainElement *chEl = 0;</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;  <span class="keywordflow">while</span> ((chEl = (TChainElement *) next()))</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;  <span class="keywordflow">while</span> ((chEl = (TChainElement *) <a class="code" href="../../dc/d19/KFPInputData_8h.html#a0e4bb534e415cd121281a876b7469df2" title="Link to the nex object in the linked list.">next</a>()))</div>
 <div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;  {</div>
 <div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;GetQAHisto - processing &quot;</span> &lt;&lt; chEl-&gt;GetTitle() &lt;&lt; endl;</div>
 <div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;</div>
@@ -797,7 +797,7 @@ $(document).ready(function(){initNavTree('d5/d51/DrawHadronShowers_8C_source.htm
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_fb4b1ed9c44430d099a475d2ab43aca7.html">Calorimeter</a></li><li class="navelem"><a class="el" href="../../dir_b1d4fd907ebc242ab8292e3389f74763.html">macros</a></li><li class="navelem"><a class="el" href="../../d5/d51/DrawHadronShowers_8C.html">DrawHadronShowers.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:03</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

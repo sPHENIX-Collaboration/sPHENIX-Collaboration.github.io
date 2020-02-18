@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dd/dfa/G4__FastSim__Reco__EIC_8C_sourc
 <div class="title">G4_FastSim_Reco_EIC.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dd/dfa/G4__FastSim__Reco__EIC_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<a href="../../dd/dfa/G4__FastSim__Reco__EIC_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/EICAnalysis/macros/diskinematics_fun4all/G4_FastSim_Reco_EIC.C">the newest version in sPHENIX GitHub for file G4_FastSim_Reco_EIC.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno"><a class="code" href="../../dd/dfa/G4__FastSim__Reco__EIC_8C.html#aa2b944f6ab13459d9a8aeea6239b977b">    3</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/dfa/G4__FastSim__Reco__EIC_8C.html#aa2b944f6ab13459d9a8aeea6239b977b">FastSim_Reco_EIC</a>(<span class="keywordtype">int</span> <a class="code" href="../../d6/d29/track2cluster__plot_8C.html#ae2bc69d2191ab7552502f23bee9f8295">verbosity</a> = 0) {</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
@@ -133,11 +133,11 @@ $(document).ready(function(){initNavTree('dd/dfa/G4__FastSim__Reco__EIC_8C_sourc
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  kalman-&gt;<a class="code" href="../../d9/d91/classPHG4TrackFastSim.html#ae35f06337c6128047158425aafe84ae4" title="set verbosity">Verbosity</a>(0);</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  kalman-&gt;<a class="code" href="../../d9/d91/classPHG4TrackFastSim.html#a51f812d9d4b2f7e07b31704992d9c050">set_use_vertex_in_fitting</a>(<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  kalman-&gt;<a class="code" href="../../d9/d91/classPHG4TrackFastSim.html#afb85d26b4cb8655e23e9aadf26dd1ee9">set_vertex_xy_resolution</a>(50<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a>-4);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  kalman-&gt;<a class="code" href="../../d9/d91/classPHG4TrackFastSim.html#ad04b66b724d63c4cf438a1d420ad639a">set_vertex_z_resolution</a>(50<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a>-4);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  kalman-&gt;<a class="code" href="../../d9/d91/classPHG4TrackFastSim.html#afb85d26b4cb8655e23e9aadf26dd1ee9">set_vertex_xy_resolution</a>(50<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a>-4);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  kalman-&gt;<a class="code" href="../../d9/d91/classPHG4TrackFastSim.html#ad04b66b724d63c4cf438a1d420ad639a">set_vertex_z_resolution</a>(50<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a>-4);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  kalman-&gt;set_detector_type(<a class="code" href="../../d9/d91/classPHG4TrackFastSim.html#a4fd967727120644b91efc63e5917020ca87c89ad1297568bf09d64f90e2abe518">PHG4TrackFastSim::Vertical_Plane</a>); <span class="comment">// Vertical_Plane, Cylinder</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  kalman-&gt;set_phi_resolution(50<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#ae3311676f546f4c6e15aa5b199eef14c">E</a>-4);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  kalman-&gt;set_phi_resolution(50<a class="code" href="../../dc/d43/Proto2ShowerCalibFit_8m.html#a93b7cb110b782e59ebd44f83181b9e0e" title="Modifier of energy of the particle, fP[6].">E</a>-4);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  kalman-&gt;set_r_resolution(1.);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  kalman-&gt;<a class="code" href="../../d9/d91/classPHG4TrackFastSim.html#a69b349af81e16b0c30cca883da868854">set_pat_rec_hit_finding_eff</a>(1.);</div>
@@ -171,7 +171,7 @@ $(document).ready(function(){initNavTree('dd/dfa/G4__FastSim__Reco__EIC_8C_sourc
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_1a5005e4eb45e581e130aefdcac35c9d.html">EICAnalysis</a></li><li class="navelem"><a class="el" href="../../dir_1e5d4d28c1bade64ee2538b75bff0d86.html">macros</a></li><li class="navelem"><a class="el" href="../../dir_1965d5cd3e106a5a6a189a0965891048.html">diskinematics_fun4all</a></li><li class="navelem"><a class="el" href="../../dd/dfa/G4__FastSim__Reco__EIC_8C.html">G4_FastSim_Reco_EIC.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:03</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

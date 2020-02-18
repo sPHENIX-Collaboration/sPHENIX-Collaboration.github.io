@@ -1,0 +1,51 @@
+<map id="genfit::GblFitter::processTrackWithRep" name="genfit::GblFitter::processTrackWithRep">
+<area shape="rect" id="node2" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a1a4e58cca5eb9bc922b8fc02dae884da" title="Perform fit of (valid) trajectory." alt="" coords="254,149,418,177"/>
+<area shape="rect" id="node8" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a2924e17ce1d16257c25b476aa0fcd8b2" title="genfit::StateOnPlane\l::getCharge" alt="" coords="255,307,417,351"/>
+<area shape="rect" id="node10" href="$de/d8e/classgenfit_1_1FieldManager.html#a7432ac0fd7ad0d3249ca4546a8ead6cb" title="This does NOT use the cache!" alt="" coords="255,405,417,449"/>
+<area shape="rect" id="node13" href="$d6/d8a/classgenfit_1_1Track.html#abf156957d701a9a10a02fef8ac54e4d9" title="Shortcut to get FittedStates." alt="" coords="249,572,423,616"/>
+<area shape="rect" id="node16" href="$db/d40/classgenfit_1_1TrackPoint.html#ae8b3e743fb436dd6689e0dad4c35ffd9" title="Get fitterInfo for rep. Per default, use cardinal rep." alt="" coords="549,721,688,765"/>
+<area shape="rect" id="node19" href="$de/d8e/classgenfit_1_1FieldManager.html#aaf0b56fea4f0deb428de8749febf792d" title="Get singleton instance." alt="" coords="255,692,417,736"/>
+<area shape="rect" id="node21" href="$d6/d8a/classgenfit_1_1Track.html#a30a99be76e2dbd190d6567830eaeb0fc" title="genfit::Track::getNumPoints" alt="" coords="232,760,440,788"/>
+<area shape="rect" id="node22" href="$d6/d8a/classgenfit_1_1Track.html#a2aea787962258c48230c6714884827d1" title="genfit::Track::getNumPoints\lWithMeasurement" alt="" coords="232,812,440,856"/>
+<area shape="rect" id="node23" href="$d6/d8a/classgenfit_1_1Track.html#a5602573df709db1f68603207d2c3cf90" title="genfit::Track::getPoint" alt="" coords="251,880,421,908"/>
+<area shape="rect" id="node24" href="$d3/dcf/classgenfit_1_1GblFitStatus.html#a7a412eab7290069719c490d6c991ea66" title="genfit::GblFitStatus\l::hasCurvature" alt="" coords="260,932,412,976"/>
+<area shape="rect" id="node25" href="$db/d40/classgenfit_1_1TrackPoint.html#a07c95b54534e11149e4081baed75001e" title="genfit::TrackPoint\l::hasFitterInfo" alt="" coords="267,1000,405,1044"/>
+<area shape="rect" id="node26" href="$da/d3b/classgbl_1_1GblPoint.html#a994d59a4ad171a498c8925defa0d1ced" title="Check for measurement at a point." alt="" coords="219,1068,453,1096"/>
+<area shape="rect" id="node27" href="$da/d3b/classgbl_1_1GblPoint.html#a93dd652a8dfcc16e966108f564abcdc4" title="Check for scatterer at a point." alt="" coords="234,1120,438,1148"/>
+<area shape="rect" id="node28" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a6a5ecb1dd2d2c36cec4582037cc226e0" title="Re&#45;extrapolates between prevFitterInfo and this point using forward state to update the Jacobian (if ..." alt="" coords="255,1172,417,1216"/>
+<area shape="rect" id="node39" href="$d0/d8d/classgenfit_1_1FitStatus.html#aff2d2f3d3941cd7c3bf02883b023a802" title="genfit::FitStatus::\lsetCharge" alt="" coords="268,1240,404,1284"/>
+<area shape="rect" id="node40" href="$d0/d8d/classgenfit_1_1FitStatus.html#af0e35eadc8fe007e1bf2c388c414c93b" title="genfit::FitStatus::\lsetChi2" alt="" coords="268,1308,404,1352"/>
+<area shape="rect" id="node41" href="$d3/dcf/classgenfit_1_1GblFitStatus.html#ae206d938d90add74b91f711daa9293e2" title="genfit::GblFitStatus\l::setCurvature" alt="" coords="260,1376,412,1420"/>
+<area shape="rect" id="node42" href="$d6/d8a/classgenfit_1_1Track.html#afea3810872179a5ae960eb290e78b038" title="genfit::Track::setFitStatus" alt="" coords="239,1444,433,1472"/>
+<area shape="rect" id="node43" href="$d0/d8d/classgenfit_1_1FitStatus.html#ae0caaea22f07f6aacb515e2ccec911d7" title="genfit::FitStatus::\lsetIsFitConvergedFully" alt="" coords="249,1496,423,1540"/>
+<area shape="rect" id="node44" href="$d0/d8d/classgenfit_1_1FitStatus.html#a397e439c2071299a89a0509f9f143bc1" title="genfit::FitStatus::\lsetIsFitConvergedPartially" alt="" coords="238,1564,434,1608"/>
+<area shape="rect" id="node45" href="$d0/d8d/classgenfit_1_1FitStatus.html#a94613203b0d5fe6160facd78b55d018a" title="genfit::FitStatus::\lsetIsFitted" alt="" coords="268,1632,404,1676"/>
+<area shape="rect" id="node46" href="$d3/dcf/classgenfit_1_1GblFitStatus.html#a0d524fee04e9635bac4af3e3141ddd9c" title="genfit::GblFitStatus\l::setIsFittedWithReferenceTrack" alt="" coords="219,1700,453,1744"/>
+<area shape="rect" id="node47" href="$d0/d8d/classgenfit_1_1FitStatus.html#a022656bd1e29a1a1b30f37ee51edab88" title="genfit::FitStatus::\lsetNdf" alt="" coords="268,1768,404,1812"/>
+<area shape="rect" id="node48" href="$d0/d8d/classgenfit_1_1FitStatus.html#aad1855114338f84b5791e819104ce9d3" title="genfit::FitStatus::\lsetNFailedPoints" alt="" coords="268,1836,404,1880"/>
+<area shape="rect" id="node49" href="$d3/dcf/classgenfit_1_1GblFitStatus.html#a5cfb7cf847125d64ec0871aa446cff8b" title="genfit::GblFitStatus\l::setNumIterations" alt="" coords="260,1904,412,1948"/>
+<area shape="rect" id="node50" href="$d3/dcf/classgenfit_1_1GblFitStatus.html#a071bc7e80a41f2f0842430e5d160fac8" title="genfit::GblFitStatus\l::setTrackLen" alt="" coords="260,1972,412,2016"/>
+<area shape="rect" id="node3" href="$dc/d6b/classgbl_1_1GblTrajectory.html#ab9afddd2c1c05cee78c2eab1b22439f1" title="Build linear equation system from data (blocks)." alt="" coords="511,5,727,49"/>
+<area shape="rect" id="node5" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a2de9d95f3eb68bc2d94bd8a0aa223293" title="Down&#45;weight all points." alt="" coords="548,73,689,117"/>
+<area shape="rect" id="node6" href="$dc/d6b/classgbl_1_1GblTrajectory.html#a53a5cd286f9a92058aea93cd59da4990" title="Calculate predictions for all points." alt="" coords="548,141,689,185"/>
+<area shape="rect" id="node7" href="$df/d71/classgbl_1_1BorderedBandMatrix.html#ab4f118be904adfb83c77d1efa3b4f243" title="Solve linear equation system, partially calculate inverse." alt="" coords="505,209,733,253"/>
+<area shape="rect" id="node4" href="$df/d71/classgbl_1_1BorderedBandMatrix.html#ad8cad76e6b4e72f78a8091748850ee37" title="Add symmetric block matrix." alt="" coords="797,5,988,49"/>
+<area shape="rect" id="node9" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a7afa73676edafab028f1f777dd40b770" title="Get the (fitted) charge of a state. This is not always equal the pdg charge (e.g. if the charge sign ..." alt="" coords="541,277,697,321"/>
+<area shape="rect" id="node11" href="$de/d8e/classgenfit_1_1FieldManager.html#a962a11af0a79ed6f380f96f35ce3c4e4" title="genfit::FieldManager\l::checkInitialized" alt="" coords="538,345,699,389"/>
+<area shape="rect" id="node12" href="$d0/dac/classgenfit_1_1AbsBField.html#a0dddaf7062fccdd83dc450f6dffa8fb8" title="Get the magneticField [kGauss] at position." alt="" coords="535,413,702,441"/>
+<area shape="rect" id="node14" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="784,593,1001,621"/>
+<area shape="rect" id="node15" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#a985d0203f46dfbd5dc253bb03b21d76f" title="genfit::AbsFitterInfo\l::getFittedState" alt="" coords="541,517,696,561"/>
+<area shape="rect" id="node17" href="$d6/d8a/classgenfit_1_1Track.html#ad8961b1ff4809ccde5f6f100ffbccb9d" title="genfit::Track::getPointWith\lFitterInfo" alt="" coords="519,585,719,629"/>
+<area shape="rect" id="node18" href="$d8/db3/classgenfit_1_1Exception.html#a13619975a1e1be5c1bd504b254e01f7a" title="Set fatal flag." alt="" coords="547,653,691,697"/>
+<area shape="rect" id="node20" href="$de/d8e/classgenfit_1_1FieldManager.html#a01194f10c4efe8d19286492ba01e104e" title="genfit::FieldManager\l::FieldManager" alt="" coords="538,789,699,833"/>
+<area shape="rect" id="node29" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a9040cad25be9a3c328a52c186871acf8" title="Get the prediction at this point Always biased in GBL (global fit) There are 2 states, before and after kink (if there is a scatterer at this point). Per default the state after kink for forward propagation is returned." alt="" coords="542,885,695,929"/>
+<area shape="rect" id="node30" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a61a05215bec767cf6919b083808a37d2" title="genfit::StateOnPlane\l::getState" alt="" coords="538,953,699,997"/>
+<area shape="rect" id="node31" href="$d9/d8c/classgenfit_1_1AbsFitterInfo.html#ac844445adef7cc138e48f0562242d490" title="genfit::AbsFitterInfo\l::getPlane" alt="" coords="541,1021,696,1065"/>
+<area shape="rect" id="node32" href="$de/dd5/classgenfit_1_1StateOnPlane.html#a2801bf4fa1196147472cc1807281e23d" title="genfit::StateOnPlane\l::getAuxInfo" alt="" coords="538,1089,699,1133"/>
+<area shape="rect" id="node33" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#ad3bc8c2b886cf8fa07c124945d222f07" title="genfit::GblFitterInfo\l::hasMeasurements" alt="" coords="541,1157,696,1201"/>
+<area shape="rect" id="node34" href="$db/d40/classgenfit_1_1TrackPoint.html#a2999fc0669beb86b6309f86e040bcdef" title="genfit::TrackPoint\l::getRawMeasurement" alt="" coords="806,1349,979,1393"/>
+<area shape="rect" id="node35" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#ae0ad668258839af38e1e8820f1e0c6d6" title="genfit::AbsMeasurement\l::constructPlane" alt="" coords="525,1277,713,1321"/>
+<area shape="rect" id="node36" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a2f8c69950056c0c679d66bfb2eae2431" title="Extrapolates the state to plane, and returns the extrapolation length and, via reference, the extrapolated state." alt="" coords="539,1345,698,1389"/>
+<area shape="rect" id="node37" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#aaabf5d464819db19f5542ac201708772" title="Get the jacobian and noise matrix of the last extrapolation." alt="" coords="505,1413,733,1457"/>
+<area shape="rect" id="node38" href="$d3/d5c/classgenfit_1_1GblFitterInfo.html#a80fd6a7510eb55797dc0f57a8740b74f" title="SHOULD BE USED ONLY INTERNALY! Update the plane from measurement constructed with state or take plane..." alt="" coords="501,1481,736,1525"/>
+</map>

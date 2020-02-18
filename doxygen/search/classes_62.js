@@ -16,10 +16,11 @@ var searchData=
   ['bias',['Bias',['../db/d85/classBias.html',1,'']]],
   ['binentrypair5d',['BinEntryPair5D',['../dd/d1e/classBinEntryPair5D.html',1,'']]],
   ['bjetmodule',['BJetModule',['../db/d4c/classBJetModule.html',1,'']]],
+  ['borderedbandmatrix',['BorderedBandMatrix',['../df/d71/classgbl_1_1BorderedBandMatrix.html',1,'gbl']]],
   ['boxpar',['BoxPar',['../d2/d63/classPHG4mRICHDetector_1_1BoxPar.html',1,'PHG4mRICHDetector']]],
   ['buffer',['buffer',['../da/d40/classbuffer.html',1,'']]],
-  ['buffer_5fptr',['buffer_ptr',['../dd/d23/structprdfBuffer_1_1buffer__ptr.html',1,'prdfBuffer']]],
-  ['buffer_5fptr',['buffer_ptr',['../d3/d87/structprdfoStream_1_1buffer__ptr.html',1,'prdfoStream']]],
+  ['buffer_5fptr',['buffer_ptr',['../db/d1f/structoncsBuffer_1_1buffer__ptr.html',1,'oncsBuffer']]],
   ['buffer_5fptr',['buffer_ptr',['../d8/d07/structoBuffer_1_1buffer__ptr.html',1,'oBuffer']]],
-  ['buffer_5fptr',['buffer_ptr',['../db/d1f/structoncsBuffer_1_1buffer__ptr.html',1,'oncsBuffer']]]
+  ['buffer_5fptr',['buffer_ptr',['../dd/d23/structprdfBuffer_1_1buffer__ptr.html',1,'prdfBuffer']]],
+  ['buffer_5fptr',['buffer_ptr',['../d3/d87/structprdfoStream_1_1buffer__ptr.html',1,'prdfoStream']]]
 ];

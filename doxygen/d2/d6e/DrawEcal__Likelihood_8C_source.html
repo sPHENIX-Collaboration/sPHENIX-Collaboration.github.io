@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d2/d6e/DrawEcal__Likelihood_8C_source.
 <div class="title">DrawEcal_Likelihood.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d2/d6e/DrawEcal__Likelihood_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $</span></div>
+<a href="../../d2/d6e/DrawEcal__Likelihood_8C.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/EMCal-analysis/macro/DrawEcal_Likelihood.C">the newest version in sPHENIX GitHub for file DrawEcal_Likelihood.C</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// $Id: $</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;TFile.h&gt;</span></div>
@@ -174,9 +174,9 @@ $(document).ready(function(){initNavTree('d2/d6e/DrawEcal__Likelihood_8C_source.
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      fstream flst(infile + <span class="stringliteral">&quot;.lst&quot;</span>, ios_base::out);</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;      TObjArray *fileElements = t-&gt;GetListOfFiles();</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      TIter next(fileElements);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      TIter <a class="code" href="../../dc/d19/KFPInputData_8h.html#a0e4bb534e415cd121281a876b7469df2" title="Link to the nex object in the linked list.">next</a>(fileElements);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      TChainElement *chEl = 0;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      <span class="keywordflow">while</span> ((chEl = (TChainElement*) next()))</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      <span class="keywordflow">while</span> ((chEl = (TChainElement*) <a class="code" href="../../dc/d19/KFPInputData_8h.html#a0e4bb534e415cd121281a876b7469df2" title="Link to the nex object in the linked list.">next</a>()))</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        {</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;          flst &lt;&lt; chEl-&gt;GetTitle() &lt;&lt; endl;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
@@ -668,7 +668,7 @@ $(document).ready(function(){initNavTree('d2/d6e/DrawEcal__Likelihood_8C_source.
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_80dbd681590cd38f36b55ace290cc73c.html">EMCal-analysis</a></li><li class="navelem"><a class="el" href="../../dir_ce10be3b87d546128ca1ef32ac672925.html">macro</a></li><li class="navelem"><a class="el" href="../../d2/d6e/DrawEcal__Likelihood_8C.html">DrawEcal_Likelihood.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:04</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dc/dc5/PgPostBankBackupManager_8cc_sou
 <div class="title">PgPostBankBackupManager.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dc/dc5/PgPostBankBackupManager_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../dc/dc5/PgPostBankBackupManager_8cc.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/offline/database/pdbcal/pg/PgPostBankBackupManager.cc">the newest version in sPHENIX GitHub for file PgPostBankBackupManager.cc</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d6d/PgPostBankBackupManager_8h.html">PgPostBankBackupManager.h</a>&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d1c/PgPostApplication_8h.html">PgPostApplication.h</a>&quot;</span></div>
@@ -681,9 +681,9 @@ $(document).ready(function(){initNavTree('dc/dc5/PgPostBankBackupManager_8cc_sou
 <div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;  <a class="code" href="../../d4/d67/classshared__ptr.html">shared_ptr&lt;PgPostBankBackupLog&gt;</a> bklog(</div>
 <div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;      static_cast&lt;PgPostBankBackupLog *&gt;(<span class="keyword">nullptr</span>));</div>
 <div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;</div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;  TIter next(f-&gt;GetListOfKeys());</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;  TIter <a class="code" href="../../dc/d19/KFPInputData_8h.html#a0e4bb534e415cd121281a876b7469df2" title="Link to the nex object in the linked list.">next</a>(f-&gt;GetListOfKeys());</div>
 <div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;  TObject *o = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;  <span class="keywordflow">while</span> ((o = next()))</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;  <span class="keywordflow">while</span> ((o = <a class="code" href="../../dc/d19/KFPInputData_8h.html#a0e4bb534e415cd121281a876b7469df2" title="Link to the nex object in the linked list.">next</a>()))</div>
 <div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;  {</div>
 <div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../da/daa/classPgPostBankBackupManager.html#a80d6ac2fab0d3c2a806d8583721ca304" title="Gets the verbosity of this module.">Verbosity</a>() &gt;= 1)</div>
 <div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;    {</div>
@@ -1356,7 +1356,7 @@ $(document).ready(function(){initNavTree('dc/dc5/PgPostBankBackupManager_8cc_sou
 <div class="line"><a name="l01263"></a><span class="lineno"> 1263</span>&#160;{</div>
 <div class="line"><a name="l01264"></a><span class="lineno"> 1264</span>&#160;  <span class="keyword">const</span> TObject *ptr = <span class="keyword">dynamic_cast&lt;</span><span class="keyword">const </span>TObject *<span class="keyword">&gt;</span>(&amp;<a class="code" href="../../d4/d51/vector__math__inline_8h.html#ae0323a9039add2978bf5b49550572c7c">c</a>);</div>
 <div class="line"><a name="l01265"></a><span class="lineno"> 1265</span>&#160;  <a class="code" href="../../df/df7/DrawTrackingEval_8C.html#a6f56363b38edbe2c8f3f447f891ee2c0">assert</a>(ptr);</div>
-<div class="line"><a name="l01266"></a><span class="lineno"> 1266</span>&#160;  std::unique_ptr&lt;TBuffer&gt; b(<span class="keyword">new</span> TBufferFile(TBuffer::kWrite));</div>
+<div class="line"><a name="l01266"></a><span class="lineno"> 1266</span>&#160;  std::unique_ptr&lt;TBuffer&gt; <a class="code" href="../../d7/da4/namespaceKFPMath.html#a1a60fb62c82cf122ca7923fc09cc1f84">b</a>(<span class="keyword">new</span> TBufferFile(TBuffer::kWrite));</div>
 <div class="line"><a name="l01267"></a><span class="lineno"> 1267</span>&#160;</div>
 <div class="line"><a name="l01268"></a><span class="lineno"> 1268</span>&#160;  b-&gt;WriteObject(ptr);</div>
 <div class="line"><a name="l01269"></a><span class="lineno"> 1269</span>&#160;</div>
@@ -1794,7 +1794,7 @@ $(document).ready(function(){initNavTree('dc/dc5/PgPostBankBackupManager_8cc_sou
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_03ca54f9bc43f9507ca0b57e9fa4effa.html">offline</a></li><li class="navelem"><a class="el" href="../../dir_567f7d5fc513c90e98634556381a77a2.html">database</a></li><li class="navelem"><a class="el" href="../../dir_72e4c40678ce916eb5b16c26b6134be4.html">pdbcal</a></li><li class="navelem"><a class="el" href="../../dir_08697229e75b40edc7ca7f611fafa6f2.html">pg</a></li><li class="navelem"><a class="el" href="../../dc/dc5/PgPostBankBackupManager_8cc.html">PgPostBankBackupManager.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:18</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:24</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

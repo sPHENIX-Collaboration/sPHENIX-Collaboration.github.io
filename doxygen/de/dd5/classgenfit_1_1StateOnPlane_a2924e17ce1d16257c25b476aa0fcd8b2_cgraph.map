@@ -1,0 +1,3 @@
+<map id="genfit::StateOnPlane::getCharge" name="genfit::StateOnPlane::getCharge">
+<area shape="rect" id="node2" href="$d1/d25/classgenfit_1_1AbsTrackRep.html#a7afa73676edafab028f1f777dd40b770" title="Get the (fitted) charge of a state. This is not always equal the pdg charge (e.g. if the charge sign ..." alt="" coords="215,5,371,49"/>
+</map>

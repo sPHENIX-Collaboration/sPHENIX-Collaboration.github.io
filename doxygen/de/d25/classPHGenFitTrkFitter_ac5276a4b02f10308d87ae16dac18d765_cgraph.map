@@ -25,14 +25,27 @@
 <area shape="rect" id="node31" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="237,1313,384,1341"/>
 <area shape="rect" id="node32" href="$d6/dfa/classTrkrCluster.html#a73c9bdc559b2906e6cfc942d1bf355ed" title="TrkrCluster::getZError" alt="" coords="226,1365,395,1393"/>
 <area shape="rect" id="node33" href="$d2/db8/classSvtxTrack.html#a62d6cacd3af53d9dfea12d4c1468461a" title="SvtxTrack::identify" alt="" coords="237,1417,384,1445"/>
-<area shape="rect" id="node34" href="$d1/d35/classPHGenFit_1_1Fitter.html#a0ae094389cc773308a3cf9ca98d60bdb" title="PHGenFit::Fitter::process\lTrack" alt="" coords="217,1469,404,1513"/>
-<area shape="rect" id="node36" href="$d2/d6d/classSvtxVertex.html#a030ba465f57960fb04b4752ed3a3edf8" title="SvtxVertex::size_tracks" alt="" coords="222,1537,399,1565"/>
-<area shape="rect" id="node37" href="$d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module." alt="" coords="223,1589,399,1617"/>
+<area shape="rect" id="node34" href="$d5/d1f/classgenfit_1_1AbsMeasurement.html#a1a38188638e8d0f06636724657234f16" title="genfit::AbsMeasurement\l::Print" alt="" coords="217,1469,405,1513"/>
+<area shape="rect" id="node35" href="$d1/d35/classPHGenFit_1_1Fitter.html#a0ae094389cc773308a3cf9ca98d60bdb" title="PHGenFit::Fitter::process\lTrack" alt="" coords="217,1537,404,1581"/>
+<area shape="rect" id="node49" href="$d2/d6d/classSvtxVertex.html#a030ba465f57960fb04b4752ed3a3edf8" title="SvtxVertex::size_tracks" alt="" coords="222,1605,399,1633"/>
+<area shape="rect" id="node50" href="$d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module." alt="" coords="223,1657,399,1685"/>
 <area shape="rect" id="node6" href="$df/d9b/classCylinderGeom__Mvtx.html#aede358e384b225e6555bed9292f0310c" title="CylinderGeom_Mvtx::\lget_world_from_local\l_coords" alt="" coords="489,169,655,229"/>
-<area shape="rect" id="node7" href="$da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8" title="double" alt="" coords="760,185,828,213"/>
-<area shape="rect" id="node19" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="PHNodeIterator::findFirst" alt="" coords="478,787,666,815"/>
-<area shape="rect" id="node22" href="$d1/d3e/classPHDataNode.html#a1f3b856fd3ce165047be8aa97f4ab9f3" title="PHDataNode::getData" alt="" coords="487,839,657,867"/>
-<area shape="rect" id="node20" href="$dc/d82/classPHNode.html#a4ab1f90aed955a652813bfe377087bda" title="PHNode::getType" alt="" coords="725,760,863,788"/>
-<area shape="rect" id="node21" href="$dc/d82/classPHNode.html#aca3576f926a4401eddc3d88bf0ce0de3" title="PHNode::getName" alt="" coords="721,812,867,840"/>
-<area shape="rect" id="node35" href="$d7/dd5/classPHGenFit_1_1Track.html#a8cc267bf5a0014b5ba7e057a3b45ba3e" title="PHGenFit::Track::getGenFit\lTrack" alt="" coords="471,1469,673,1513"/>
+<area shape="rect" id="node7" href="$da/d55/TPCRateLayered_8m.html#ac40e4ec8f2a74a2878f06670249eebb8" title="double" alt="" coords="805,185,873,213"/>
+<area shape="rect" id="node19" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="PHNodeIterator::findFirst" alt="" coords="478,788,666,816"/>
+<area shape="rect" id="node22" href="$d1/d3e/classPHDataNode.html#a1f3b856fd3ce165047be8aa97f4ab9f3" title="PHDataNode::getData" alt="" coords="487,840,657,868"/>
+<area shape="rect" id="node20" href="$dc/d82/classPHNode.html#a4ab1f90aed955a652813bfe377087bda" title="PHNode::getType" alt="" coords="770,763,907,791"/>
+<area shape="rect" id="node21" href="$dc/d82/classPHNode.html#aca3576f926a4401eddc3d88bf0ce0de3" title="PHNode::getName" alt="" coords="766,815,911,843"/>
+<area shape="rect" id="node36" href="$d7/dd5/classPHGenFit_1_1Track.html#a8cc267bf5a0014b5ba7e057a3b45ba3e" title="PHGenFit::Track::getGenFit\lTrack" alt="" coords="471,1335,673,1379"/>
+<area shape="rect" id="node37" href="$d6/d8a/classgenfit_1_1Track.html#aee4eab9e952ee6f0e0c1f1d980552759" title="genfit::Track::checkConsistency" alt="" coords="721,1428,956,1456"/>
+<area shape="rect" id="node42" href="$d8/db3/classgenfit_1_1Exception.html#a5cb44accc5d69d5742ed883a2d4ff88a" title="Standard error message handling for exceptions. use like &quot;std::cerr &lt;&lt; e.what();&quot;." alt="" coords="483,1455,661,1483"/>
+<area shape="rect" id="node43" href="$d0/dba/classgenfit_1_1AbsFitter.html#a03e279c67ca889f5fe6480eb8a1691cf" title="genfit::AbsFitter::\lprocessTrack" alt="" coords="503,1507,641,1551"/>
+<area shape="rect" id="node44" href="$d6/d8a/classgenfit_1_1Track.html#a402b35300e81a48c7f0b9eb082b1cf24" title="Get cardinal track representation." alt="" coords="730,1575,947,1603"/>
+<area shape="rect" id="node46" href="$d6/d8a/classgenfit_1_1Track.html#ad06e7a012624bdb03960826b5c9fcd93" title="Get FitStatus for a AbsTrackRep. Per default, return FitStatus for cardinalRep." alt="" coords="475,1627,669,1655"/>
+<area shape="rect" id="node47" href="$d0/d8d/classgenfit_1_1FitStatus.html#a56371ce504bee72fcf2f9324ddcb91a8" title="Did the fit converge (in all Points or only partially)?" alt="" coords="504,1679,640,1723"/>
+<area shape="rect" id="node48" href="$d4/d1a/classgenfit_1_1EventDisplay.html#a273f0f885e02d740befd1d3b18489a16" title="Add new event." alt="" coords="493,1747,651,1791"/>
+<area shape="rect" id="node38" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#ab74f13ab4f4f1ac99a29e1fa55b83413" title="genfit::KalmanFitterInfo\l::hasReferenceState" alt="" coords="1039,1317,1219,1361"/>
+<area shape="rect" id="node39" href="$d3/d03/classgenfit_1_1KalmanFitterInfo.html#a580ecd10b0c09b257533ca04f2ba460b" title="genfit::KalmanFitterInfo\l::getReferenceState" alt="" coords="1039,1385,1219,1429"/>
+<area shape="rect" id="node40" href="$d2/d6a/classgenfit_1_1ReferenceStateOnPlane.html#abcae7586bd838e27b384e4e001c9b3d3" title="genfit::ReferenceStateOn\lPlane::getForwardSegmentLength" alt="" coords="1004,1453,1255,1497"/>
+<area shape="rect" id="node41" href="$d6/d8a/classgenfit_1_1Track.html#aae3d3066dbd7ab39d87b56e17db5adf9" title="This is used when streaming TrackPoints." alt="" coords="1032,1521,1227,1549"/>
+<area shape="rect" id="node45" href="$d0/dba/classgenfit_1_1AbsFitter.html#a78e589db9e548b60ad129ec631ce9a8e" title="genfit::AbsFitter::\lprocessTrackWithRep" alt="" coords="756,1507,921,1551"/>
 </map>

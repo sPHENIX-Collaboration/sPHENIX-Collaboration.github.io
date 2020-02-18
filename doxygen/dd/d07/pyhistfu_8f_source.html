@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dd/d07/pyhistfu_8f_source.html','../..
 <div class="title">pyhistfu.f</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dd/d07/pyhistfu_8f.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;    </div>
+<a href="../../dd/d07/pyhistfu_8f.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//coresoftware/blob/master/generators/hijing/src/pyhistfu.f">the newest version in sPHENIX GitHub for file pyhistfu.f</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;    </div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">C*********************************************************************  </span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    </div>
 <div class="line"><a name="l00004"></a><span class="lineno"><a class="code" href="../../dd/d07/pyhistfu_8f.html#aff2156d2f044d368c202a463aaa11732">    4</a></span>&#160;<span class="keyword">      SUBROUTINE </span><a class="code" href="../../dd/d07/pyhistfu_8f.html#aff2156d2f044d368c202a463aaa11732">pyhistfu</a>(KF,X,Q2,XPQ,JBT)    </div>
@@ -694,9 +694,9 @@ $(document).ready(function(){initNavTree('dd/d07/pyhistfu_8f_source.html','../..
 <div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;</div>
 <div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;<span class="comment">C...consider nuclear effect on the structure function</span></div>
 <div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;        <span class="keywordflow">IF</span>((jbt.NE.1.AND.jbt.NE.2).OR.<a class="code" href="../../db/da1/classHiParnt.html#a1c6a5924524a08fe9641adc64095c0b9">ihpr2</a>(6).EQ.0</div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;     &amp;                  .OR.<a class="code" href="../../db/da1/classHiParnt.html#a0d759f134daae3226a7744c9920bd769">ihnt2</a>(16).EQ.1) <a class="code" href="../../de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526">go</a> to 400</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;     &amp;                  .OR.<a class="code" href="../../db/da1/classHiParnt.html#a0d759f134daae3226a7744c9920bd769">ihnt2</a>(16).EQ.1) <a class="code" href="../../de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526">go</a> <a class="code" href="../../d3/df2/classgenfit_1_1GFRavePropagator.html#a0534e516b69488120356d8bfa53f6f5b">to</a> 400</div>
 <div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;        atnm=<a class="code" href="../../db/da1/classHiParnt.html#a0d759f134daae3226a7744c9920bd769">ihnt2</a>(2*jbt-1)</div>
-<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;        <span class="keywordflow">IF</span>(atnm.LE.1.0) <a class="code" href="../../de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526">go</a> to 400</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;        <span class="keywordflow">IF</span>(atnm.LE.1.0) <a class="code" href="../../de/de0/matchedfilter_8C.html#ad37474ba23a5f0af2c619aeeaad07526">go</a> <a class="code" href="../../d3/df2/classgenfit_1_1GFRavePropagator.html#a0534e516b69488120356d8bfa53f6f5b">to</a> 400</div>
 <div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;        <span class="keywordflow">IF</span>(jbt.EQ.1) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;          bbr2=(<a class="code" href="../../d3/def/classHijCrdn.html#aeb65f5b18f15574d4ca5337bbb0e28a1">yp</a>(1,<a class="code" href="../../db/da1/classHiParnt.html#a0d759f134daae3226a7744c9920bd769">ihnt2</a>(11))**2+<a class="code" href="../../d3/def/classHijCrdn.html#aeb65f5b18f15574d4ca5337bbb0e28a1">yp</a>(2,<a class="code" href="../../db/da1/classHiParnt.html#a0d759f134daae3226a7744c9920bd769">ihnt2</a>(11))**2)/1.44/atnm**0.66666</div>
 <div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;        <span class="keywordflow">ELSEIF</span>(jbt.EQ.2) <span class="keywordflow">THEN</span></div>
@@ -735,7 +735,7 @@ $(document).ready(function(){initNavTree('dd/d07/pyhistfu_8f_source.html','../..
 		<li class="navelem"><a class="el" href="../../dir_ea0c35d86ce058499c5e406214e14138.html">coresoftware</a></li><li class="navelem"><a class="el" href="../../dir_a3947b60c5880eb3a289c65ac0cb599d.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_38a0466c5b89309cdc538d8570b20962.html">master</a></li><li class="navelem"><a class="el" href="../../dir_8d66a4fea0becf883e91a5407556c38a.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_792e75c1e50add93be3c1d5997a7a09c.html">hijing</a></li><li class="navelem"><a class="el" href="../../dir_c671be3d2a74414e61992625a584bf67.html">src</a></li><li class="navelem"><a class="el" href="../../dd/d07/pyhistfu_8f.html">pyhistfu.f</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:10</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:16</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

@@ -189,6 +189,7 @@ $(document).ready(function(){initNavTree('d0/d30/md_README.html','../../');});
 <p>Use RAA(b-jet)=0.6 (additional inefficiency per jet)</p>
 <h2>Running sims</h2>
 <p>BJet analysis by counting high DCA tracks, originally developped by Dennis V. Perepelitsa</p>
+<p>Please add new subfolder here for modules used in HF hadron reconstruction and analysis.</p>
 <p>The <a href="https://github.com/sPHENIX-Collaboration/analysis/tree/master/ParticleID/RICHAnalysis">main library for RICH analysis</a> (which I think should include ALL Cerenkov PID detectors):</p>
 <ul>
 <li><a class="el" href="../../dd/d15/classFastPid__RICH.html">FastPid_RICH</a>: Fun4All module that should contain the fast simulation / parametrization- right now it extrapolates charged tracks to the gas RICH volume and assigns PID's based on some simple eta and momentum cut and the true PID. It needs work to implement the actual parametrization, but all the input / output calls should be there. This class would need to be copied and adapted for FastPid_mRICH and FastPid_DIRC.</li>
@@ -296,8 +297,8 @@ $(document).ready(function(){initNavTree('d0/d30/md_README.html','../../');});
 <p>The first step to running the tutorial is to build the analysis package from src. Follow these instructions:</p>
 <p>```bash $ cd src $ mkdir build $ cd build $ ../autogen.sh &ndash;prefix=$MYINSTALL $ make $ make install ```</p>
 <p>Here, this assumes that you have set an environment variable <code>$MYINSTALL</code> that points to your install directory. For example, <code>$ echo $MYINSTALL</code> returns <code>/home/vagrant/install</code> for me, where the install directory is set on my virtual machine when running the Singularity container. The install directory can be wherever you like, but it is generally good practice to have one where all of your installation libraries will live.</p>
-<p>You should also make sure that your <code>$LD_LIBRARY_PATH</code> and <code>$ROOT_INCLUDE_PATH</code> point to the correct place for your install directory. See <a href="https://wiki.bnl.gov/sPHENIX/index.php/Example_of_using_DST_nodes">here</a> and <a href="https://wiki.bnl.gov/sPHENIX/index.php/Sphenix_root6">here</a> for more details. You can create a setup script which does this for you, by adding (for example) these lines in a script which you run at login time:</p>
-<p>```bash export MYINSTALL=/home/vagrant/install export LD_LIBRARY_PATH=$MYINSTALL/lib:$LD_LIBRARY_PATH export ROOT_INCLUDE_PATH=$MYINSTALL/include:$ROOT_INCLUDE_PATH ``` or alternatively use the setup script mentioned in the above link.</p>
+<p>You should also make sure that your <code>$LD_LIBRARY_PATH</code> and <code>$ROOT_INCLUDE_PATH</code> point to the correct place for your install directory. See <a href="https://wiki.bnl.gov/sPHENIX/index.php/Example_of_using_DST_nodes">here</a> and <a href="https://wiki.bnl.gov/sPHENIX/index.php/Sphenix_root6">here</a> for more details. You can use the following script to do this for you:</p>
+<p>```bash source /opt/sphenix/core/bin/setup_local.csh $MYINSTALL ```</p>
 <h2>Running the example macro</h2>
 <p>The example macro, found in <code>macro/Fun4All_AnaTutorial.C</code>, is just the default <code>Fun4All_G4_sPHENIX.C</code> macro with the <a class="el" href="../../d0/da9/classAnaTutorial.html" title="Definition of this analysis module class.">AnaTutorial</a> package added to it. If you would like to see how the default macro and this macro are different, you can just open <code>Fun4All_AnaTutorial.C</code> in your favorite text editor and search for <code>anatutorial</code>, or run a <code>diff</code> command on the two files.</p>
 <p>Running the macro requires the rest of the sPHENIX macro repository. If you have already cloned it from git, you can simply do</p>
@@ -317,6 +318,17 @@ $(document).ready(function(){initNavTree('d0/d30/md_README.html','../../');});
 <p>Modifying the Ion Gun:</p>
 <p>// get a pointer to the ion gun <a class="el" href="../../da/ddc/classPHG4IonGun.html">PHG4IonGun</a> *gun = <a class="el" href="../../d3/d64/tutorials_2blob_2master_2block_2DisplayOn_8C.html#aac5b91de18e6005ee617060b3dde4b0b">getgun()</a></p>
 <p>// print current setting: gun-&gt;<a class="el" href="../../db/d5d/test__style_8C.html#aa587a93d9563c8d433bd1736432c4acd">Print()</a></p>
+<p>This is an example <a href="https://github.com/sPHENIX-Collaboration/">sPHENIX</a> <a href="https://root.cern.ch/notebooks/HowTos/HowTo_ROOT-Notebooks.html">ROOT Jupyter Notebook</a> to run the sPHENIX anaysis on the <a href="https://jupyter.sdcc.bnl.gov/">BNL SDCC Jupyter Lab</a>.</p>
+<p><a href="https://jupyter.sdcc.bnl.gov/jupyterhub/htc"></a></p>
+<p>Starting from <a href="https://jupyter.sdcc.bnl.gov/jupyterhub/htc">https://jupyter.sdcc.bnl.gov/jupyterhub/htc</a> ( = <code>lauch</code> button on the <b>HTC</b> Jupyter hub) for this tutorial, the username / password is the same for your BNL RCF / SDCC account. At the 1st time login, SDCC will ask you to setup a two factor anthentication, such as using Google Authenticator (<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US">Android</a>/<a href="https://apps.apple.com/us/app/google-authenticator/id388497605">iPhone</a>).</p>
+<p>Jupyter Notebook provide an analysis interface that can integrate documentation, code and output plot in a single file. It supports all sPHENIX environment and most sPHENIX macros. It is suitable for final analysis step, while large scale analysis and reconstruction should go through the compiled <code>c++</code> analysis module.</p>
+<p>Two examples are provided in this tutorial, one for each supported sPHENIX Jupyter kernels:</p>
+<ul>
+<li><code>sPHENIX <a class="el" href="../../d0/d10/namespaceROOT.html">ROOT</a> C++</code> kernel: An analysis in <a class="el" href="../../d0/d10/namespaceROOT.html">ROOT</a> <code>C++</code> macros: <a href="../.././example_tpc_testbeam2019_root.ipynb">example_tpc_testbeam2019_root.ipynb</a></li>
+<li><code>Python (sPHENIX)</code> kernel: <code>pyROOT</code> macro perform similar task if you would like to use <code>python</code> for analysis: <a href="../.././example_tpc_testbeam2019_python.ipynb">example_tpc_testbeam2019_python.ipynb</a></li>
+</ul>
+<p>Welcome to download either of them and run from the JupyterLab interfance. Also welcome to make a new notebook, during which please select one of these two kernels, which carry the most recent sPHENIX software environment on SDCC/RACF. Notebooks can be previewed on GitHub, and edited/run on <a href="https://jupyter.sdcc.bnl.gov/">BNL SDCC Jupyter Lab</a>.</p>
+<p>The JupyterLab interface can also be launched on your computer/local computing cluster via <a href="https://github.com/sPHENIX-Collaboration/Singularity">sPHENIX Singularity Container</a>. Instruction to come, and please contact Jin Huang if you would like to try early releases.</p>
 <p>How to use: start root and Run the Fun4All_G4_sPHENIX.C (or fsPHENIX or ePHENIX) macro with -1 events (which just loads the G4 configuration). You'll need a lot of sub-macros, you definitely want to run this in another directory.</p>
 <p>.x Fun4All_G4_sPHENIX.C(-1)</p>
 <p>Load the matscan.C macro</p>
@@ -368,11 +380,11 @@ $(document).ready(function(){initNavTree('d0/d30/md_README.html','../../');});
 <p>The <a class="el" href="../../d8/d07/classMySimpleTree.html">MySimpleTree</a> class is stored in a TTree by itself and then inside a TClonesArray (just to show you that the <a class="el" href="../../d8/d07/classMySimpleTree.html">MySimpleTree</a> class doesn't need any modifications for the TClonesArray).</p>
 <p>Unlike our DST's there is no virtual base class to keep old files readable after you change the content of your class. It's not difficult to add this feature but I wanted to keep it straight and simple.</p>
 <p>Library build: Don't build the library in the source area - it can be done but you do not do yourself any favors with this. Create a build area and think of an install area location (the install area will be created during "make install", you need to have write access). Go to the build area and</p>
-<p>&lt;srcdir&gt;/autogen.sh &ndash;prefix=&lt;install area&gt;=""&gt; make install</p>
+<p>&lt;srcdir&gt;/autogen.sh &ndash;prefix=&lt;install area&gt; make install</p>
 <p>To run the macros you have to add your install area to the LD_LIBRARY_PATH and to the ROOT_INCLUDE_PATH (where root6 looks for includes mentioned in the macro). For the ROOT_INCLUDE_PATH we have a setup script which will add your install area but also the includes in OFFLINE_MAIN (and G4 and <a class="el" href="../../d0/d10/namespaceROOT.html">ROOT</a>).</p>
-<p>setenv LD_LIBRARY_PATH &lt;install area&gt;=""&gt;/lib:$LD_LIBRARY_PATH source /opt/sphenix/core/bin/setup_root6.csh &lt;install area&gt;=""&gt;</p>
+<p>setenv LD_LIBRARY_PATH &lt;install area&gt;/lib:$LD_LIBRARY_PATH source /opt/sphenix/core/bin/setup_root6.csh &lt;install area&gt;</p>
 <p>With these settings you can run the macros in the macro directory.</p>
-<p>This tutorial respository carries a few example cases of analysis for <a href="https://www.sphenix.bnl.gov/">sPHENIX collaboration</a>:</p>
+<p>This tutorial respository carries a few example cases of analysis for <a href="https://www.sphenix.bnl.gov/">sPHENIX collaboration</a>.</p>
 <ul>
 <li>Generators<ul>
 <li><b>eventgenerator_display</b>: Display the output of our event generators in an empty world</li>
@@ -389,16 +401,19 @@ $(document).ready(function(){initNavTree('d0/d30/md_README.html','../../');});
 </ul>
 </li>
 <li>Example analysis modules<ul>
+<li><b><a class="el" href="../../d0/da9/classAnaTutorial.html" title="Definition of this analysis module class.">AnaTutorial</a></b>: analysis tutorial with compiled module processing track, clusters and jets. See <a href="https://indico.bnl.gov/event/7254/">Recording and slides by Joe Osborn</a>.</li>
 <li><b>MyOwnTTree</b>: two examples to create your own TTree using analysis module in the Fun4All framework</li>
 <li><b>myjetanalysis</b>: example to analysis jet and to perform jet fragmentation and jet shape analysis</li>
 <li><b><a class="el" href="../../dd/d0c/classCaloAna.html">CaloAna</a></b>: example to fetch calorimeter hit, tower and clusters and save to a NTuple</li>
 </ul>
 </li>
+<li><b>JupyterLab</b>: run the sPHENIX anaysis on the <a href="https://jupyter.sdcc.bnl.gov/">BNL SDCC Jupyter Lab web interface</a>.</li>
 </ul>
 <h1>Useful links</h1>
 <ul>
 <li>Tutorials<ul>
 <li><a href="https://wiki.bnl.gov/sPHENIX/index.php/SPHENIX_software_day-1_checklist">Get started on day-1</a></li>
+<li><a href="https://indico.bnl.gov/event/7254/">Most recent tutorial session</a></li>
 </ul>
 </li>
 <li>Documentation<ul>
@@ -417,7 +432,27 @@ $(document).ready(function(){initNavTree('d0/d30/md_README.html','../../');});
 <p><a href="https://web.racf.bnl.gov/jenkins-sphenix/job/sPHENIX/job/sPHENIX_CoreSoftware_MasterBranch/">![Build Status](https://web.racf.bnl.gov/jenkins-sphenix/buildStatus/icon?job=sPHENIX/sPHENIX_CoreSoftware_MasterBranch)</a> <a href="https://www.phenix.bnl.gov/WWW/sPHENIX/doxygen/html/">![Doxygen](https://img.shields.io/badge/code%20reference-Doxygen-green.svg)</a></p>
 <p><a href="https://github.com/sPHENIX-Collaboration/prototype/issues">![Open Issues](https://img.shields.io/github/issues/sPHENIX-Collaboration/prototype.svg)</a> <a href="https://github.com/sPHENIX-Collaboration/prototype/pulls">![Open Pull Request](https://img.shields.io/github/issues-pr/sPHENIX-Collaboration/prototype.svg)</a> <a href="https://github.com/sPHENIX-Collaboration/prototype/commits/master">![Monthly Commits](https://img.shields.io/github/commit-activity/m/sPHENIX-Collaboration/prototype.svg)</a> <a href="https://github.com/sPHENIX-Collaboration/prototype/commits/master">![Last Commit](https://img.shields.io/github/last-commit/sPHENIX-Collaboration/prototype.svg)</a> <a href="https://github.com/sPHENIX-Collaboration/prototype/archive/master.zip">![Download size](https://img.shields.io/github/languages/code-size/sPHENIX-Collaboration/prototype.svg)</a></p>
 <p>Collection of reconstruction modules and macros for sPHENIX prototypes. The code management model follow that of the <a href="https://github.com/sPHENIX-Collaboration/coresoftware">sPHENIX coresoftware</a>. And these codes are separated from the <code>coresoftware</code> as they have distinct life cycle to fit the test beam analysis. <hr/>
-<p><a href="https://www.sphenix.bnl.gov/">![logo](https://raw.githubusercontent.com/sPHENIX-Collaboration/utilities/master/jenkins/material/sphenix-logo-white-bg-72p.png)</a> </p>
+<p><a href="https://www.sphenix.bnl.gov/">![logo](https://raw.githubusercontent.com/sPHENIX-Collaboration/utilities/master/jenkins/material/sphenix-logo-white-bg-72p.png)</a></p>
+<p><a href="https://travis-ci.org/GenFit/GenFit">![Build Status](https://travis-ci.org/GenFit/GenFit.svg?branch=master)</a></p>
+<h1>GenFit Package</h1>
+<p>GenFit is an experiment-independent framework for track reconstruction for particle and nuclear physics. It consists of three modular components:</p>
+<ul>
+<li><p class="startli">Track fitting algorithms</p>
+<p class="startli">Currently, GENFIT contains a Kalman Filter, a Deterministic Annealing Filter, and a General Broken Lines fitter. Other algorithm modules can be added easily.</p>
+</li>
+</ul>
+<ul>
+<li><p class="startli">Track representations</p>
+<p class="startli">These modules can perform extrapolations of track parameters through material and magnetic fields. GENFIT is distributed with a well-tested track representation. Existing track extrapolation codes can be interfaced in a very straightforward way in this framework, using their native geometry and magnetic field interfaces.</p>
+</li>
+</ul>
+<ul>
+<li><p class="startli">Measurements</p>
+<p class="startli">The measurement dimensionality and the orientation of planar tracking detectors can be chosen freely. GENFIT is especially useful for tracking systems which include detectors which do not measure the passage of particles on predefined planes, like TPCs or wire-based drift chambers. The concept of so-called virtual detector planes provides a simple mechanism to use these detector hits in a transparent way without any geometrical simplifications.</p>
+</li>
+</ul>
+<p>GenFit has been developed in the framework of the PANDA experiment at FAIR, Darmstadt, Germany. It is also used in the Belle-2, Fopi, and GEM-TPC experiments.</p>
+<p>GenFit Homepage: (<a href="https://github.com/GenFit/GenFit">https://github.com/GenFit/GenFit</a>) </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -427,7 +462,7 @@ $(document).ready(function(){initNavTree('d0/d30/md_README.html','../../');});
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:34</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:43</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

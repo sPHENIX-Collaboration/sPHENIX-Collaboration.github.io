@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dd/d39/BDiJetModule_8h_source.html','.
 <div class="title">BDiJetModule.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dd/d39/BDiJetModule_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<a href="../../dd/d39/BDiJetModule_8h.html">Go to the documentation of this file.</a> Or view <a target="top" href="https://github.com/sPHENIX-Collaboration//analysis/blob/master/HF-Jet/HFDiJetMomImbalance/BDiJetModule.h">the newest version in sPHENIX GitHub for file BDiJetModule.h</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef __BDiJetModule_H__</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __BDiJetModule_H__</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span></div>
@@ -181,7 +181,7 @@ $(document).ready(function(){initNavTree('dd/d39/BDiJetModule_8h_source.html','.
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;      <span class="keyword">const</span> std::vector&lt;genfit::Track*&gt; &amp; gf_tracks);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../d1/d04/classBDiJetModule.html#ab57e79fa742881649f449d080f830e02">GetSVMass_mom</a>(</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <span class="keyword">const</span> genfit::GFRaveVertex* rave_vtx,</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <span class="keyword">const</span> <a class="code" href="../../db/da0/classgenfit_1_1GFRaveVertex.html" title="GFRaveVertex class.">genfit::GFRaveVertex</a>* rave_vtx,</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <span class="keywordtype">float</span> &amp; vtx_mass,</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <span class="keywordtype">float</span> &amp; vtx_px,</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <span class="keywordtype">float</span> &amp; vtx_py,</div>
@@ -262,7 +262,7 @@ $(document).ready(function(){initNavTree('dd/d39/BDiJetModule_8h_source.html','.
 <div class="line"><a name="l00155"></a><span class="lineno"><a class="code" href="../../d1/d04/classBDiJetModule.html#a97a7b3e69bc1ab28818fccf291825476">  155</a></span>&#160;  <a class="code" href="../../d1/d35/classPHGenFit_1_1Fitter.html">PHGenFit::Fitter</a>* <a class="code" href="../../d1/d04/classBDiJetModule.html#a97a7b3e69bc1ab28818fccf291825476">_fitter</a>;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
 <div class="line"><a name="l00158"></a><span class="lineno"><a class="code" href="../../d1/d04/classBDiJetModule.html#a465775fe7e73775b5f302010728bcfaf">  158</a></span>&#160;  std::string <a class="code" href="../../d1/d04/classBDiJetModule.html#a465775fe7e73775b5f302010728bcfaf" title="https://rave.hepforge.org/trac/wiki/RaveMethods">_vertexing_method</a>;</div>
-<div class="line"><a name="l00159"></a><span class="lineno"><a class="code" href="../../d1/d04/classBDiJetModule.html#a31d421955774c237ffa7ad1bce4a56f9">  159</a></span>&#160;  genfit::GFRaveVertexFactory* <a class="code" href="../../d1/d04/classBDiJetModule.html#a31d421955774c237ffa7ad1bce4a56f9">_vertex_finder</a>;</div>
+<div class="line"><a name="l00159"></a><span class="lineno"><a class="code" href="../../d1/d04/classBDiJetModule.html#a31d421955774c237ffa7ad1bce4a56f9">  159</a></span>&#160;  <a class="code" href="../../d1/d19/classgenfit_1_1GFRaveVertexFactory.html" title="Vertex factory for producing GFRaveVertex objects from Track objects.">genfit::GFRaveVertexFactory</a>* <a class="code" href="../../d1/d04/classBDiJetModule.html#a31d421955774c237ffa7ad1bce4a56f9">_vertex_finder</a>;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;};</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
@@ -277,7 +277,7 @@ $(document).ready(function(){initNavTree('dd/d39/BDiJetModule_8h_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_28bcbade87c4f5514eba3ebdb3ef6c2b.html">analysis</a></li><li class="navelem"><a class="el" href="../../dir_885886758eef84187a73b1026ad14195.html">blob</a></li><li class="navelem"><a class="el" href="../../dir_25710a8c0a1c81be6fa969c948f341ac.html">master</a></li><li class="navelem"><a class="el" href="../../dir_3960358290b25100780bba0b0e7e61b7.html">HF-Jet</a></li><li class="navelem"><a class="el" href="../../dir_447a9426af56c559f383f85ca0adb096.html">HFDiJetMomImbalance</a></li><li class="navelem"><a class="el" href="../../dd/d39/BDiJetModule_8h.html">BDiJetModule.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:jhuang@bnl.gov">Jin Huang</a></em>.
-			updated: <em>Sun Jan 5 2020 04:18:04</em> using <a
+			updated: <em>Mon Feb 17 2020 04:18:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.2 
 				with <a href="https://github.com/sPHENIX-Collaboration">sPHENIX GitHub integration</a>

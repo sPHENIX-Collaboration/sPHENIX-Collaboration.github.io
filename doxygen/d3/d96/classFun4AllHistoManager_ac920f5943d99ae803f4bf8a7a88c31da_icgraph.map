@@ -25,27 +25,27 @@
 <area shape="rect" id="node24" href="$da/d29/classFun4AllServer.html#a186f6b632bfe6120864a29651f3fff10" title="Fun4AllServer::getHisto" alt="" coords="454,1129,634,1157"/>
 <area shape="rect" id="node25" href="$dc/d86/classTPCIntegratedCharge.html#a81020cfbf5f20cf2696026c8ecf2953d" title="TPCIntegratedCharge\l::process_event" alt="" coords="461,1181,627,1225"/>
 <area shape="rect" id="node26" href="$d4/d6e/classProto4ShowerCalib.html#a6779c358aea1a7a5be8e763e75a494fc" title="Proto4ShowerCalib::\lprocess_event" alt="" coords="465,1249,623,1293"/>
-<area shape="rect" id="node27" href="$d6/da1/classProto2ShowerCalib.html#acdbc70e3d9fd76151ff1ea043ccf7db8" title="Proto2ShowerCalib::\lprocess_event" alt="" coords="465,1317,623,1361"/>
-<area shape="rect" id="node28" href="$da/d27/classTPCDataStreamEmulator.html#a103b0eab10ddf8a3b47e2d6e36b5a59d" title="TPCDataStreamEmulator\l::process_event" alt="" coords="449,1385,639,1429"/>
-<area shape="rect" id="node29" href="$d9/d84/classProto3ShowerCalib.html#aac6fefbb30143ab22df4299ed4d0d522" title="Proto3ShowerCalib::\lprocess_event" alt="" coords="465,1453,623,1497"/>
-<area shape="rect" id="node30" href="$d9/d7b/classQAG4SimulationCalorimeter.html#aa3467829c4182ba4e09f74fd8198cb28" title="QAG4SimulationCalorimeter\l::process_event" alt="" coords="710,2164,922,2208"/>
-<area shape="rect" id="node31" href="$df/d26/classProto4SampleFrac.html#a0233b792645a661433b6874cfd589e96" title="Standard function called at each event." alt="" coords="442,1589,646,1633"/>
-<area shape="rect" id="node32" href="$dd/d7f/classProto4TowerCalib.html#afa3db4ddfec6bc956909f61aee83cd0d" title="Standard function called at each event." alt="" coords="445,1657,643,1701"/>
-<area shape="rect" id="node33" href="$d8/d7c/classTPCMLDataInterface.html#ad8e09026c6e113a6b0a3ad2c5a54eae6" title="TPCMLDataInterface\l::process_event" alt="" coords="465,1725,623,1769"/>
-<area shape="rect" id="node34" href="$dc/dd7/classPHG4ScoringManager.html#a18f06bfae1801c84f524aa4056a32841" title="event processing method" alt="" coords="459,1793,629,1837"/>
-<area shape="rect" id="node35" href="$d5/dee/classTPCFEETestRecov1.html#ad90f272166874334ddecde7b4877f7a7" title="TPCFEETestRecov1::process\l_event" alt="" coords="439,1861,649,1905"/>
+<area shape="rect" id="node27" href="$de/dbf/classQAG4SimulationTracking.html#ac2aeab5238fcf828f70c61b4976b57fe" title="QAG4SimulationTracking\l::process_event" alt="" coords="450,1317,638,1361"/>
+<area shape="rect" id="node28" href="$d6/da1/classProto2ShowerCalib.html#acdbc70e3d9fd76151ff1ea043ccf7db8" title="Proto2ShowerCalib::\lprocess_event" alt="" coords="465,1385,623,1429"/>
+<area shape="rect" id="node29" href="$da/d27/classTPCDataStreamEmulator.html#a103b0eab10ddf8a3b47e2d6e36b5a59d" title="TPCDataStreamEmulator\l::process_event" alt="" coords="449,1453,639,1497"/>
+<area shape="rect" id="node30" href="$d9/d84/classProto3ShowerCalib.html#aac6fefbb30143ab22df4299ed4d0d522" title="Proto3ShowerCalib::\lprocess_event" alt="" coords="465,1521,623,1565"/>
+<area shape="rect" id="node31" href="$d9/d7b/classQAG4SimulationCalorimeter.html#aa3467829c4182ba4e09f74fd8198cb28" title="QAG4SimulationCalorimeter\l::process_event" alt="" coords="710,2232,922,2276"/>
+<area shape="rect" id="node32" href="$df/d26/classProto4SampleFrac.html#a0233b792645a661433b6874cfd589e96" title="Standard function called at each event." alt="" coords="442,1657,646,1701"/>
+<area shape="rect" id="node33" href="$dd/d7f/classProto4TowerCalib.html#afa3db4ddfec6bc956909f61aee83cd0d" title="Standard function called at each event." alt="" coords="445,1725,643,1769"/>
+<area shape="rect" id="node34" href="$d8/d7c/classTPCMLDataInterface.html#ad8e09026c6e113a6b0a3ad2c5a54eae6" title="TPCMLDataInterface\l::process_event" alt="" coords="465,1793,623,1837"/>
+<area shape="rect" id="node35" href="$dc/dd7/classPHG4ScoringManager.html#a18f06bfae1801c84f524aa4056a32841" title="event processing method" alt="" coords="459,1861,629,1905"/>
 <area shape="rect" id="node36" href="$d2/d90/classExampleAnalysisModule.html#ae8a4b6fe1beaa527f3aa92073ea067e4" title="Standard function called at each event." alt="" coords="451,1929,637,1973"/>
-<area shape="rect" id="node37" href="$dd/d60/classTpcPrototypeUnpacker.html#a3c458d1bda422672ff79946e5816f197" title="TpcPrototypeUnpacker\l::process_event" alt="" coords="456,1997,632,2041"/>
-<area shape="rect" id="node38" href="$da/daf/classJetHepMCLoader.html#ae68c17d088405b8d235bb43f8c115988" title="JetHepMCLoader::process\l_event" alt="" coords="447,2065,641,2109"/>
-<area shape="rect" id="node39" href="$d9/d7b/classQAG4SimulationCalorimeter.html#a208fd8c361982115126f11b88541e071" title="QAG4SimulationCalorimeter\l::process_event_Cluster" alt="" coords="438,2253,650,2297"/>
-<area shape="rect" id="node40" href="$d4/d90/classQAG4SimulationCalorimeterSum.html#a43fbffe92b7442566b030407d181c743" title="QAG4SimulationCalorimeter\lSum::process_event_Cluster" alt="" coords="709,911,923,955"/>
-<area shape="rect" id="node41" href="$d9/d7b/classQAG4SimulationCalorimeter.html#a5b70cca03633b9708a6aea0b57e21272" title="QAG4SimulationCalorimeter\l::process_event_G4Hit" alt="" coords="438,1521,650,1565"/>
-<area shape="rect" id="node42" href="$db/d4b/classEMCalAna.html#ab478dd11f24604db6fece30078120c73" title="EMCalAna::process_event_SF" alt="" coords="435,2321,653,2349"/>
-<area shape="rect" id="node43" href="$de/da4/classEMCalCalib.html#af3ce97ca1edf6391105d268935e2872f" title="EMCalCalib::process\l_event_SF" alt="" coords="465,2373,623,2417"/>
-<area shape="rect" id="node44" href="$d9/d7b/classQAG4SimulationCalorimeter.html#a40b24080a67937bdcacae9933f3d4ee3" title="QAG4SimulationCalorimeter\l::process_event_Tower" alt="" coords="438,2133,650,2177"/>
-<area shape="rect" id="node45" href="$db/d4b/classEMCalAna.html#a2dc76e382cb983e3e7765aee0655572e" title="EMCalAna::process_event\l_Tower" alt="" coords="446,2493,642,2537"/>
-<area shape="rect" id="node46" href="$de/da4/classEMCalCalib.html#aa0b96923b3a6aa979859ed0628ce6807" title="EMCalCalib::process\l_event_Tower" alt="" coords="465,2561,623,2605"/>
-<area shape="rect" id="node47" href="$d4/d28/classQAG4SimulationJet.html#ac2803dd2fafe7d6131f3311c9f1e4e27" title="QAG4SimulationJet::\lprocess_Spectrum" alt="" coords="465,2629,623,2673"/>
-<area shape="rect" id="node48" href="$d0/dc8/classSoftLeptonTaggingTruth.html#a3989ff17a01ba304478d558b99c3214f" title="SoftLeptonTaggingTruth\l::process_Spectrum" alt="" coords="454,2697,634,2741"/>
-<area shape="rect" id="node49" href="$d4/d28/classQAG4SimulationJet.html#a3e5c5fe2e5e5cee7fca6173ef6e6bfa2" title="QAG4SimulationJet::\lprocess_TruthMatching" alt="" coords="456,2765,632,2809"/>
+<area shape="rect" id="node37" href="$d5/dee/classTPCFEETestRecov1.html#ad90f272166874334ddecde7b4877f7a7" title="TPCFEETestRecov1::process\l_event" alt="" coords="439,1997,649,2041"/>
+<area shape="rect" id="node38" href="$dd/d60/classTpcPrototypeUnpacker.html#a3c458d1bda422672ff79946e5816f197" title="TpcPrototypeUnpacker\l::process_event" alt="" coords="456,2065,632,2109"/>
+<area shape="rect" id="node39" href="$da/daf/classJetHepMCLoader.html#ae68c17d088405b8d235bb43f8c115988" title="JetHepMCLoader::process\l_event" alt="" coords="447,2133,641,2177"/>
+<area shape="rect" id="node40" href="$d9/d7b/classQAG4SimulationCalorimeter.html#a208fd8c361982115126f11b88541e071" title="QAG4SimulationCalorimeter\l::process_event_Cluster" alt="" coords="438,2321,650,2365"/>
+<area shape="rect" id="node41" href="$d4/d90/classQAG4SimulationCalorimeterSum.html#a43fbffe92b7442566b030407d181c743" title="QAG4SimulationCalorimeter\lSum::process_event_Cluster" alt="" coords="709,911,923,955"/>
+<area shape="rect" id="node42" href="$d9/d7b/classQAG4SimulationCalorimeter.html#a5b70cca03633b9708a6aea0b57e21272" title="QAG4SimulationCalorimeter\l::process_event_G4Hit" alt="" coords="438,1589,650,1633"/>
+<area shape="rect" id="node43" href="$db/d4b/classEMCalAna.html#ab478dd11f24604db6fece30078120c73" title="EMCalAna::process_event_SF" alt="" coords="435,2389,653,2417"/>
+<area shape="rect" id="node44" href="$de/da4/classEMCalCalib.html#af3ce97ca1edf6391105d268935e2872f" title="EMCalCalib::process\l_event_SF" alt="" coords="465,2441,623,2485"/>
+<area shape="rect" id="node45" href="$d9/d7b/classQAG4SimulationCalorimeter.html#a40b24080a67937bdcacae9933f3d4ee3" title="QAG4SimulationCalorimeter\l::process_event_Tower" alt="" coords="438,2201,650,2245"/>
+<area shape="rect" id="node46" href="$db/d4b/classEMCalAna.html#a2dc76e382cb983e3e7765aee0655572e" title="EMCalAna::process_event\l_Tower" alt="" coords="446,2561,642,2605"/>
+<area shape="rect" id="node47" href="$de/da4/classEMCalCalib.html#aa0b96923b3a6aa979859ed0628ce6807" title="EMCalCalib::process\l_event_Tower" alt="" coords="465,2629,623,2673"/>
+<area shape="rect" id="node48" href="$d4/d28/classQAG4SimulationJet.html#ac2803dd2fafe7d6131f3311c9f1e4e27" title="QAG4SimulationJet::\lprocess_Spectrum" alt="" coords="465,2697,623,2741"/>
+<area shape="rect" id="node49" href="$d0/dc8/classSoftLeptonTaggingTruth.html#a3989ff17a01ba304478d558b99c3214f" title="SoftLeptonTaggingTruth\l::process_Spectrum" alt="" coords="454,2765,634,2809"/>
 </map>

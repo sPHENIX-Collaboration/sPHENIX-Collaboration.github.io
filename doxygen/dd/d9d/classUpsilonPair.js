@@ -1,6 +1,6 @@
 var classUpsilonPair =
 [
-    [ "N_trk", "dd/d9d/classUpsilonPair.html#ab6ff4cd4856d9bbd356d39e157e66cbba78a62639fc62399957896d803691c5af", null ],
+    [ "N_trk", "dd/d9d/classUpsilonPair.html#a37cef24cb328e871a9f00651221abd39a78a62639fc62399957896d803691c5af", null ],
     [ "UpsilonPair", "dd/d9d/classUpsilonPair.html#a45225bb24efa881c563618e97edd3c82", null ],
     [ "~UpsilonPair", "dd/d9d/classUpsilonPair.html#ab5f2d231406d6d43af0714ad24628e0e", null ],
     [ "get_trk", "dd/d9d/classUpsilonPair.html#a3ceb99262f3472602c1de01fbf6e7ed7", null ],

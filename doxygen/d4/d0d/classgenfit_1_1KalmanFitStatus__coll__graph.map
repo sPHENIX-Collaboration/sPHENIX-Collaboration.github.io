@@ -1,0 +1,4 @@
+<map id="genfit::KalmanFitStatus" name="genfit::KalmanFitStatus">
+<area shape="rect" id="node2" href="$d0/d8d/classgenfit_1_1FitStatus.html" title="Class where important numbers and properties of a fit can be stored." alt="" coords="31,97,159,125"/>
+<area shape="rect" id="node3" href="$d6/d51/structgenfit_1_1PruneFlags.html" title="Info which information has been pruned from the Track." alt="" coords="23,5,167,33"/>
+</map>

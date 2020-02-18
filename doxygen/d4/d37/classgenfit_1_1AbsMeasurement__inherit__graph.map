@@ -1,0 +1,10 @@
+<map id="genfit::AbsMeasurement" name="genfit::AbsMeasurement">
+<area shape="rect" id="node3" href="$d0/df0/classgenfit_1_1FullMeasurement.html" title="Measurement class implementing a measurement of all track parameters." alt="" coords="391,5,578,33"/>
+<area shape="rect" id="node4" href="$dd/d7d/classgenfit_1_1PlanarMeasurement.html" title="Measurement class implementing a planar hit geometry (1 or 2D)." alt="" coords="382,57,587,85"/>
+<area shape="rect" id="node5" href="$d4/deb/classgenfit_1_1SpacepointMeasurement.html" title="Class for measurements implementing a space point hit geometry." alt="" coords="365,109,604,137"/>
+<area shape="rect" id="node8" href="$d6/dba/classgenfit_1_1WireMeasurement.html" title="Class for measurements in wire detectors (Straw tubes and drift chambers) which do not measure the co..." alt="" coords="388,161,581,189"/>
+<area shape="rect" id="node10" href="$d9/d77/classgenfit_1_1WireMeasurementNew.html" title="Class for measurements in wire detectors (Straw tubes and drift chambers) which do not measure the co..." alt="" coords="373,213,596,241"/>
+<area shape="rect" id="node6" href="$d9/ded/classgenfit_1_1mySpacepointMeasurement.html" title="Example class for a spacepoint measurement which can be created from mySpacepointDetectorHit via the ..." alt="" coords="652,49,912,77"/>
+<area shape="rect" id="node7" href="$dc/d9e/classgenfit_1_1ProlateSpacepointMeasurement.html" title="Class for measurements implementing a space point hit geometry with a very prolate form of the covari..." alt="" coords="685,101,879,145"/>
+<area shape="rect" id="node9" href="$d6/d83/classgenfit_1_1WirePointMeasurement.html" title="Class for measurements in wire detectors (Straw tubes and drift chambers) which can measure the coord..." alt="" coords="669,169,895,197"/>
+</map>

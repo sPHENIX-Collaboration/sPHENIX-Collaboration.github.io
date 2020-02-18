@@ -1,3 +1,4 @@
 <map id="hcal::fitShape" name="hcal::fitShape">
-<area shape="rect" id="node2" href="$d9/d9e/evDisplay_8C.html#aa88c4e96fb52fe557d1b37b229d46f38" title="pedestal" alt="" coords="168,5,247,33"/>
+<area shape="rect" id="node2" href="$d9/d03/KFParticleBaseSIMD_8h.html#a050f88fe67feb3966c18a004ee2db531" title="Returns the sum of masses of the daughters." alt="" coords="180,5,235,33"/>
+<area shape="rect" id="node3" href="$d9/d9e/evDisplay_8C.html#aa88c4e96fb52fe557d1b37b229d46f38" title="pedestal" alt="" coords="168,57,247,85"/>
 </map>
