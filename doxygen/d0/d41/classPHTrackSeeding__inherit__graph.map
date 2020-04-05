@@ -1,8 +1,0 @@
-<map id="PHTrackSeeding" name="PHTrackSeeding">
-<area shape="rect" id="node4" href="$d1/d08/classPHCASeeding.html" title="PHCASeeding" alt="" coords="5,233,119,261"/>
-<area shape="rect" id="node5" href="$d8/dd4/classPHHoughSeeding.html" title="A fun4all implementation of Alan&#39;s Hough Transform." alt="" coords="143,233,282,261"/>
-<area shape="rect" id="node6" href="$da/df1/classPHRTreeSeeding.html" title="PHRTreeSeeding" alt="" coords="306,233,437,261"/>
-<area shape="rect" id="node7" href="$d5/da2/classPHTruthTrackSeeding.html" title="Vertexing using truth info." alt="" coords="461,233,625,261"/>
-<area shape="rect" id="node2" href="$d0/d32/classSubsysReco.html" title="SubsysReco" alt="" coords="241,81,342,109"/>
-<area shape="rect" id="node3" href="$d5/dec/classFun4AllBase.html" title="Fun4AllBase" alt="" coords="239,5,343,33"/>
-</map>

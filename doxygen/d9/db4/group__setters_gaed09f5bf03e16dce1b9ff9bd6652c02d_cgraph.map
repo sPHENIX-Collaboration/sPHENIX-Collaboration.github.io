@@ -1,7 +1,0 @@
-<map id="RawClusterv1::set_chi2" name="RawClusterv1::set_chi2">
-<area shape="rect" id="node2" href="$d9/d6e/group__property__map.html#gab6e68cc3cb2d21fcaa3040e84677ceb3" title="setters" alt="" coords="232,84,440,112"/>
-<area shape="rect" id="node3" href="$d9/d6e/group__property__map.html#ga32e4d878c2140a38512509751b0f8ed3" title="RawCluster::check_property" alt="" coords="498,5,707,33"/>
-<area shape="rect" id="node4" href="$d9/d6e/group__property__map.html#gae2fd02bc2683c96df67f54e7831755df" title="type management" alt="" coords="491,57,715,85"/>
-<area shape="rect" id="node5" href="$d9/d6e/group__property__map.html#gac4539a855658c1b9f3038b1a18276561" title="RawCluster::get_property_type" alt="" coords="488,109,717,137"/>
-<area shape="rect" id="node6" href="$d9/db4/group__setters.html#ga6256ed77a91aa424faa8f53a27f6be5e" title="RawClusterv1::u_property\l::get_storage" alt="" coords="505,161,701,205"/>
-</map>

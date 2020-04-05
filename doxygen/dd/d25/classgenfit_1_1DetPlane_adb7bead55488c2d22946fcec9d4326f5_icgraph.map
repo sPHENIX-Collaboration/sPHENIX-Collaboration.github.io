@@ -1,7 +1,0 @@
-<map id="genfit::DetPlane::setNormal" name="genfit::DetPlane::setNormal">
-<area shape="rect" id="node2" href="$dd/d25/classgenfit_1_1DetPlane.html#ad42e6cc2e4a44c170b68dbc82ea1a76a" title="genfit::DetPlane::DetPlane" alt="" coords="265,5,465,33"/>
-<area shape="rect" id="node3" href="$d2/d12/classgenfit_1_1RKTrackRep.html#abb38b9cdcf9cfa490b795530579bcd73" title="genfit::RKTrackRep\l::extrapToPoint" alt="" coords="291,57,439,101"/>
-<area shape="rect" id="node5" href="$dd/d25/classgenfit_1_1DetPlane.html#a56c2ea252a007b18edafc4c5a91f7336" title="genfit::DetPlane::setNormal" alt="" coords="261,125,469,153"/>
-<area shape="rect" id="node6" href="$dd/d25/classgenfit_1_1DetPlane.html#aaab790972c1b88b5fcd181401ce05bfd" title="genfit::DetPlane::setON" alt="" coords="275,177,455,205"/>
-<area shape="rect" id="node4" href="$d2/d12/classgenfit_1_1RKTrackRep.html#aff9f0db2e194bd9889386cc73ed2d0cd" title="Extrapolates the state to the POCA to a point, and returns the extrapolation length and..." alt="" coords="517,57,673,101"/>
-</map>

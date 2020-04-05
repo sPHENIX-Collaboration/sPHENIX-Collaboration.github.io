@@ -1,8 +1,0 @@
-<map id="KFParticleBase::GetPt" name="KFParticleBase::GetPt">
-<area shape="rect" id="node2" href="$d0/d49/classKFParticle.html#a2521f48c4ee6207b31af48a72fbe1598" title="Returns the error of transverse momentum." alt="" coords="221,5,375,33"/>
-<area shape="rect" id="node3" href="$d0/d49/classKFParticle.html#af84e1b54f8c1c707d5f99b9865843193" title="Returns transverse momentum." alt="" coords="231,57,365,85"/>
-<area shape="rect" id="node4" href="$d6/d9c/classKFPHistogramSet.html#a140b2356c0ea846b0b8774bd8bc895d3" title="KFPHistogramSet::Fill" alt="" coords="423,31,588,59"/>
-<area shape="rect" id="node7" href="$d0/d49/classKFParticle.html#a887de78bd509e9cc0d09fe03fcd22f7d" title="Returns the polar angle in RZ." alt="" coords="426,83,585,111"/>
-<area shape="rect" id="node5" href="$df/d10/classKFPHistogram.html#ad899f4e7138f0f522c618163c53ecb69" title="Fills histograms using parameters of the given particle." alt="" coords="636,31,779,59"/>
-<area shape="rect" id="node6" href="$df/d10/classKFPHistogram.html#aa7ad55a1984737eef3cb0c0a431bcdb8" title="Fills histograms for each particle reconstructed by the KFParticleFinder object from the given KFPart..." alt="" coords="827,31,969,59"/>
-</map>

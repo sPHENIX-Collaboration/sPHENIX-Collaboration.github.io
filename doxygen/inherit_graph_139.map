@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$de/dd5/classgenfit_1_1StateOnPlane.html" title="A state with arbitrary dimension defined in a DetPlane." alt="" coords="5,73,167,101"/>
-<area shape="rect" id="node2" href="$d2/d74/classgenfit_1_1MeasuredStateOnPlane.html" title="StateOnPlane with additional covariance matrix." alt="" coords="215,43,441,71"/>
-<area shape="rect" id="node5" href="$d2/d6a/classgenfit_1_1ReferenceStateOnPlane.html" title="StateOnPlane with linearized transport to that ReferenceStateOnPlane from previous and next Reference..." alt="" coords="232,95,424,139"/>
-<area shape="rect" id="node3" href="$df/d8f/classgenfit_1_1KalmanFittedStateOnPlane.html" title="MeasuredStateOnPlane with additional info produced by a Kalman filter or DAF." alt="" coords="502,5,695,49"/>
-<area shape="rect" id="node4" href="$dd/d4c/classgenfit_1_1MeasurementOnPlane.html" title="Measured coordinates on a plane." alt="" coords="489,73,708,101"/>
-</map>

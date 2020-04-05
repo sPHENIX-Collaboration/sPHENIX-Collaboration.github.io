@@ -1,8 +1,0 @@
-<map id="genfit::GFRaveMagneticField::inTesla" name="genfit::GFRaveMagneticField::inTesla">
-<area shape="rect" id="node2" href="$de/d8e/classgenfit_1_1FieldManager.html#a7432ac0fd7ad0d3249ca4546a8ead6cb" title="This does NOT use the cache!" alt="" coords="268,61,429,105"/>
-<area shape="rect" id="node6" href="$de/d8e/classgenfit_1_1FieldManager.html#aaf0b56fea4f0deb428de8749febf792d" title="Get singleton instance." alt="" coords="268,129,429,173"/>
-<area shape="rect" id="node3" href="$de/d8e/classgenfit_1_1FieldManager.html#a962a11af0a79ed6f380f96f35ce3c4e4" title="genfit::FieldManager\l::checkInitialized" alt="" coords="480,5,641,49"/>
-<area shape="rect" id="node5" href="$d0/dac/classgenfit_1_1AbsBField.html#a0dddaf7062fccdd83dc450f6dffa8fb8" title="Get the magneticField [kGauss] at position." alt="" coords="477,73,644,101"/>
-<area shape="rect" id="node4" href="$de/d8e/classgenfit_1_1FieldManager.html#a311142cb85b746f93c8f45cd50d737bc" title="genfit::FieldManager\l::isInitialized" alt="" coords="692,5,853,49"/>
-<area shape="rect" id="node7" href="$de/d8e/classgenfit_1_1FieldManager.html#a01194f10c4efe8d19286492ba01e104e" title="genfit::FieldManager\l::FieldManager" alt="" coords="480,129,641,173"/>
-</map>

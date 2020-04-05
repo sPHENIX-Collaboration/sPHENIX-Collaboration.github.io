@@ -1,9 +1,0 @@
-<map id="KFParticle::GetPseudoProperDecayTime" name="KFParticle::GetPseudoProperDecayTime">
-<area shape="rect" id="node2" href="$db/d5d/test__style_8C.html#a2513fe0eb0478642e44ad1201af61a46" title="f2" alt="" coords="345,5,384,33"/>
-<area shape="rect" id="node3" href="$d0/d49/classKFParticle.html#a37f62283c40d930c35c34a69c6241520" title="Returns C[i] element of the covariance matrix in the lower triangular form." alt="" coords="267,57,463,85"/>
-<area shape="rect" id="node5" href="$d0/d49/classKFParticle.html#a3e1432bc4099ddca9ebc0fb1a26f26b7" title="Retruns X component of the momentum, fP[3]." alt="" coords="308,109,421,137"/>
-<area shape="rect" id="node6" href="$d0/d49/classKFParticle.html#aa9ecfc304d721bfa6bddb99067fd7d26" title="Retruns Y component of the momentum, fP[4]." alt="" coords="308,161,421,189"/>
-<area shape="rect" id="node7" href="$d0/d49/classKFParticle.html#a390861dd61201d71a49686ef515a6d07" title="Retruns X coordinate of the particle, fP[0]." alt="" coords="311,213,418,241"/>
-<area shape="rect" id="node8" href="$d0/d49/classKFParticle.html#a3f23b1f9b62ede20fe09c1f9a342da57" title="Retruns Y coordinate of the particle, fP[1]." alt="" coords="312,265,417,293"/>
-<area shape="rect" id="node4" href="$d5/d41/classKFParticleBase.html#aa2d4b499ceab3e14819f3fbc98655950" title="Returns C[i] element of the covariance matrix in the lower triangular form." alt="" coords="511,57,740,85"/>
-</map>

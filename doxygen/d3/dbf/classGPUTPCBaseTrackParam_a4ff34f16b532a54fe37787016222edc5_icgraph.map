@@ -1,6 +1,0 @@
-<map id="GPUTPCBaseTrackParam::GetKappa" name="GPUTPCBaseTrackParam::GetKappa">
-<area shape="rect" id="node2" href="$d4/d60/classGPUTPCTrackParam.html#a37cab9b2889592e43d0da9b7a339fb28" title="GPUTPCTrackParam::GetKappa" alt="" coords="240,57,468,85"/>
-<area shape="rect" id="node3" href="$d4/d60/classGPUTPCTrackParam.html#a95928c289f2f8b400a972a2f401ef15d" title="GPUTPCTrackParam::GetS" alt="" coords="516,5,711,33"/>
-<area shape="rect" id="node4" href="$d4/d60/classGPUTPCTrackParam.html#abd0a5cf5fa4e93b6f1eb06e16ef23fd5" title="GPUTPCTrackParam::GetDCAPoint" alt="" coords="759,32,1008,60"/>
-<area shape="rect" id="node5" href="$d1/d08/classPHCASeeding.html#aaa4eca2abbf1065bb9b48de9cb683494" title="PHCASeeding::Process" alt="" coords="527,109,700,137"/>
-</map>

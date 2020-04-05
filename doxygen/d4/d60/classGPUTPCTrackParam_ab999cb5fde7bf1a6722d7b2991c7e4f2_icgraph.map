@@ -1,9 +1,0 @@
-<map id="GPUTPCTrackParam::SinPhi" name="GPUTPCTrackParam::SinPhi">
-<area shape="rect" id="node2" href="$d4/d60/classGPUTPCTrackParam.html#a0b5da9f5709ab74aca734bd4601810d2" title="GPUTPCTrackParam::CheckNumerical\lQuality" alt="" coords="256,5,528,49"/>
-<area shape="rect" id="node3" href="$d4/d60/classGPUTPCTrackParam.html#abd70f63eee16a4313601e170b5073612" title="GPUTPCTrackParam::GetCosPhi" alt="" coords="277,73,507,101"/>
-<area shape="rect" id="node6" href="$d4/d60/classGPUTPCTrackParam.html#a0d666c500468a047e85d17a1993b7a59" title="GPUTPCTrackParam::Rotate" alt="" coords="576,125,781,153"/>
-<area shape="rect" id="node8" href="$d4/d60/classGPUTPCTrackParam.html#a0718e482fa06d217a48daf823c67aa0a" title="GPUTPCTrackParam::TransportToX" alt="" coords="267,177,517,205"/>
-<area shape="rect" id="node4" href="$d4/d60/classGPUTPCTrackParam.html#abd0a5cf5fa4e93b6f1eb06e16ef23fd5" title="GPUTPCTrackParam::GetDCAPoint" alt="" coords="829,48,1079,76"/>
-<area shape="rect" id="node5" href="$d4/d60/classGPUTPCTrackParam.html#a95928c289f2f8b400a972a2f401ef15d" title="GPUTPCTrackParam::GetS" alt="" coords="581,73,776,101"/>
-<area shape="rect" id="node7" href="$d1/d08/classPHCASeeding.html#aaa4eca2abbf1065bb9b48de9cb683494" title="PHCASeeding::Process" alt="" coords="867,125,1041,153"/>
-</map>

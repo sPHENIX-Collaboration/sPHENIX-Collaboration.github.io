@@ -1,8 +1,0 @@
-<map id="KFParticleBase::GetPDG" name="KFParticleBase::GetPDG">
-<area shape="rect" id="node2" href="$d2/d3d/classKFParticleFinder.html#ae9f91e17b13fc0308e91ec759b44aa1f" title="KFParticleFinder::AddCandidate" alt="" coords="235,13,468,41"/>
-<area shape="rect" id="node4" href="$d0/d87/KFParticleTest_8cxx.html#ad32ddaf41db70fe45f970e7bd97f7abe" title="ClassImp" alt="" coords="310,65,393,93"/>
-<area shape="rect" id="node5" href="$df/d10/classKFPHistogram.html#ad899f4e7138f0f522c618163c53ecb69" title="Fills histograms using parameters of the given particle." alt="" coords="280,117,423,145"/>
-<area shape="rect" id="node7" href="$db/dcc/classKFParticleSIMD.html#ae32806bf88791dbf8fb2381a1f7643ce" title="KFParticleSIMD::KFParticleSIMD" alt="" coords="235,169,467,197"/>
-<area shape="rect" id="node3" href="$db/d6d/classKFParticleTopoReconstructor.html#abe8d3eea41f265993c10b2d55748b7a4" title="Adds an external particle candidate to the vector with primary or secondary candidates of KFParticleF..." alt="" coords="516,5,729,49"/>
-<area shape="rect" id="node6" href="$df/d10/classKFPHistogram.html#aa7ad55a1984737eef3cb0c0a431bcdb8" title="Fills histograms for each particle reconstructed by the KFParticleFinder object from the given KFPart..." alt="" coords="551,117,694,145"/>
-</map>

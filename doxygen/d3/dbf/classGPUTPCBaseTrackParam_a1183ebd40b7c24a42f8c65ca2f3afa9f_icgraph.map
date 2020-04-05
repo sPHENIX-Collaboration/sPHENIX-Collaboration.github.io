@@ -1,8 +1,0 @@
-<map id="GPUTPCBaseTrackParam::SetPar" name="GPUTPCBaseTrackParam::SetPar">
-<area shape="rect" id="node2" href="$d4/d60/classGPUTPCTrackParam.html#a18c82d979d748aa0a6178945feb4dc9b" title="GPUTPCTrackParam::SetPar" alt="" coords="240,65,447,93"/>
-<area shape="rect" id="node3" href="$d4/d60/classGPUTPCTrackParam.html#ac0d04446787aa36cef64ed8ff09ca5cd" title="GPUTPCTrackParam::TransportToX" alt="" coords="495,5,744,33"/>
-<area shape="rect" id="node4" href="$d4/d60/classGPUTPCTrackParam.html#aabfa7165819783f888f8699f3bd44a53" title="GPUTPCTrackParam::Correct\lForMeanMaterial" alt="" coords="513,57,725,101"/>
-<area shape="rect" id="node6" href="$d4/d60/classGPUTPCTrackParam.html#af4387261cb22a09328f198cc051c1e1c" title="GPUTPCTrackParam::Filter" alt="" coords="521,125,717,153"/>
-<area shape="rect" id="node5" href="$d4/d60/classGPUTPCTrackParam.html#a246446e01187092b92bbf11da4df98fa" title="GPUTPCTrackParam::Transport\lToXWithMaterial" alt="" coords="792,57,1019,101"/>
-<area shape="rect" id="node7" href="$d1/d08/classPHCASeeding.html#aaa4eca2abbf1065bb9b48de9cb683494" title="PHCASeeding::Process" alt="" coords="819,125,992,153"/>
-</map>

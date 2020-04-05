@@ -1,5 +1,0 @@
-<map id="SetParameter" name="SetParameter">
-<area shape="rect" id="node2" href="$db/d6d/classKFParticleTopoReconstructor.html#ad61db3013ff7eb0f9b211de658987b93" title="KFParticleTopoReconstructor\l::Init" alt="" coords="182,5,395,49"/>
-<area shape="rect" id="node3" href="$db/d6d/classKFParticleTopoReconstructor.html#a6902971d3ad7442052bf4b0195b08115" title="KFParticleTopoReconstructor\l::TransportPVTracksToPrimVertex" alt="" coords="168,73,409,117"/>
-<area shape="rect" id="node4" href="$db/d6d/classKFParticleTopoReconstructor.html#a3013eefd4e16b74ae39c531678623d08" title="KFParticleTopoReconstructor\l::ReconstructParticles" alt="" coords="457,73,671,117"/>
-</map>

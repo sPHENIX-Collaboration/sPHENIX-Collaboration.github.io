@@ -1,6 +1,0 @@
-<map id="VtxRegressor::regress" name="VtxRegressor::regress">
-<area shape="rect" id="node2" href="$d2/db8/classSvtxTrack.html#a991a05caa213e0922d00c76568dade57" title="SvtxTrack::get_eta" alt="" coords="234,5,379,33"/>
-<area shape="rect" id="node3" href="$d2/db8/classSvtxTrack.html#a8ffb0c9b9181cc2dedd6e21f4b462129" title="SvtxTrack::get_phi" alt="" coords="234,57,379,85"/>
-<area shape="rect" id="node4" href="$d2/db8/classSvtxTrack.html#af6f03ad537260f2ceef84cf876e22deb" title="SvtxTrack::get_pt" alt="" coords="237,109,376,137"/>
-<area shape="rect" id="node5" href="$db/da0/classgenfit_1_1GFRaveVertex.html#a4818bdeb821d19b283ae026af388e92b" title="get Position" alt="" coords="224,161,389,205"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="KFParticleBase::GetDeviationFromVertex" name="KFParticleBase::GetDeviationFromVertex">
-<area shape="rect" id="node2" href="$d8/d00/classKFVertex.html#a0398208d64532d964a2c6c4c061c349c" title="KFVertex::ConstructPrimary\lVertex" alt="" coords="276,5,483,49"/>
-<area shape="rect" id="node6" href="$d5/d41/classKFParticleBase.html#af96a10f763186cc66c6a298cdc34f226" title="KFParticleBase::GetDeviation\lFromVertex" alt="" coords="271,73,488,117"/>
-<area shape="rect" id="node3" href="$df/d4e/classKFParticlePVReconstructor.html#a874727a615fe2126fb1611f13eda4b70" title="KFParticlePVReconstructor\l::FindPrimaryClusters" alt="" coords="536,5,736,49"/>
-<area shape="rect" id="node4" href="$df/d4e/classKFParticlePVReconstructor.html#aac8016012886979bbbc71f42a617ad3a" title="KFParticlePVReconstructor\l::ReconstructPrimVertex" alt="" coords="784,5,984,49"/>
-<area shape="rect" id="node5" href="$db/d6d/classKFParticleTopoReconstructor.html#a4f287575a545bea1c34d538c8ed53cde" title="KFParticleTopoReconstructor\l::ReconstructPrimVertex" alt="" coords="1032,5,1245,49"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="genfit::Track::setFitStatus" name="genfit::Track::setFitStatus">
-<area shape="rect" id="node2" href="$d8/d26/classgenfit_1_1KalmanFitterRefTrack.html#ad3a24181b5370cc95f01f49ea148c011" title="genfit::KalmanFitterRefTrack\l::processTrackWithRep" alt="" coords="247,5,460,49"/>
-<area shape="rect" id="node3" href="$d4/db7/classgenfit_1_1KalmanFitter.html#aa44364f202ab52ca2f8fa2000e29a534" title="Hit resorting currently NOT supported." alt="" coords="267,73,440,117"/>
-<area shape="rect" id="node5" href="$d1/dc8/classgenfit_1_1GblFitter.html#a4be6bdc46ad9f13aef275aea2b01f438" title="genfit::GblFitter::\lprocessTrackWithRep" alt="" coords="271,141,436,185"/>
-<area shape="rect" id="node6" href="$d6/d8a/classgenfit_1_1Track.html#a2e1b64a18fd42461d4a62a9e79b85847" title="genfit::Track::Track" alt="" coords="279,209,428,237"/>
-<area shape="rect" id="node7" href="$d5/daa/classPHRaveVertexing.html#af3ca2c60b8b69efdf6fdaf781f19948c" title="PHRaveVertexing::Translate\lSvtxToGenFitTrack" alt="" coords="249,261,457,305"/>
-<area shape="rect" id="node4" href="$d0/d48/GenFit_2blob_2master_2test_2fitterTests_2main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="580,81,635,109"/>
-<area shape="rect" id="node8" href="$d5/daa/classPHRaveVertexing.html#afefcb6ce27ac34016e62172d8519fae8" title="Process Event, called for each event." alt="" coords="508,261,707,305"/>
-</map>

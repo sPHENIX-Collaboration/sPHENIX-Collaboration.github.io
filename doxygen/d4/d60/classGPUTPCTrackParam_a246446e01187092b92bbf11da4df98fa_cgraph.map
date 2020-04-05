@@ -1,8 +1,0 @@
-<map id="GPUTPCTrackParam::TransportToXWithMaterial" name="GPUTPCTrackParam::TransportToXWithMaterial">
-<area shape="rect" id="node2" href="$d4/d60/classGPUTPCTrackParam.html#aabfa7165819783f888f8699f3bd44a53" title="GPUTPCTrackParam::Correct\lForMeanMaterial" alt="" coords="299,37,511,81"/>
-<area shape="rect" id="node7" href="$d4/d60/classGPUTPCTrackParam.html#ab344d2f7786132457b19acf26f9011df" title="GPUTPCTrackParam::TransportToX" alt="" coords="280,105,529,133"/>
-<area shape="rect" id="node3" href="$d4/d60/classGPUTPCTrackParam.html#abaa3dafe3956a618707ab461f0306a8f" title="GPUTPCTrackParam::GetPar" alt="" coords="577,17,785,45"/>
-<area shape="rect" id="node5" href="$d4/d60/classGPUTPCTrackParam.html#a18c82d979d748aa0a6178945feb4dc9b" title="GPUTPCTrackParam::SetPar" alt="" coords="578,73,785,101"/>
-<area shape="rect" id="node4" href="$d3/dbf/classGPUTPCBaseTrackParam.html#aca7f7396e502b66217fd7fb702a25e0b" title="GPUTPCBaseTrackParam\l::GetPar" alt="" coords="833,5,1020,49"/>
-<area shape="rect" id="node6" href="$d3/dbf/classGPUTPCBaseTrackParam.html#a1183ebd40b7c24a42f8c65ca2f3afa9f" title="GPUTPCBaseTrackParam\l::SetPar" alt="" coords="833,73,1020,117"/>
-</map>

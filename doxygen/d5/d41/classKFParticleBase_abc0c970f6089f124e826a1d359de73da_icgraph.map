@@ -1,5 +1,0 @@
-<map id="KFParticleBase::GetLifeTime" name="KFParticleBase::GetLifeTime">
-<area shape="rect" id="node2" href="$d0/d87/KFParticleTest_8cxx.html#ad32ddaf41db70fe45f970e7bd97f7abe" title="ClassImp" alt="" coords="321,5,404,33"/>
-<area shape="rect" id="node3" href="$d0/d49/classKFParticle.html#a28e29b46104f3e96c2923ba0204d1c08" title="Returns the error of life time." alt="" coords="264,57,461,85"/>
-<area shape="rect" id="node4" href="$d0/d49/classKFParticle.html#adaa76bf36576d161af9f1d31a54d4642" title="Returns life time ctau [cm]." alt="" coords="273,109,452,137"/>
-</map>

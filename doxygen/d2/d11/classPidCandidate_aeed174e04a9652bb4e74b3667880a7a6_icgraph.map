@@ -1,8 +1,0 @@
-<map id="PidCandidate::get_property_info" name="PidCandidate::get_property_info">
-<area shape="rect" id="node2" href="$d6/d40/classLeptoquarksReco.html#a4ca0df41994db4c7865adc9a27630109" title="LeptoquarksReco::Init" alt="" coords="309,5,477,33"/>
-<area shape="rect" id="node3" href="$db/db5/classDISKinematicsReco.html#ab86e2c513a63474429455e3cbe219654" title="DISKinematicsReco::Init" alt="" coords="301,57,484,85"/>
-<area shape="rect" id="node4" href="$db/db5/classDISKinematicsReco.html#a0c7cd6bd015aacdc2cc2117a69763212" title="DISKinematicsReco::\lWriteCandidatesToTree" alt="" coords="305,109,481,153"/>
-<area shape="rect" id="node6" href="$d6/d40/classLeptoquarksReco.html#a237794d3f45c3293bfeb72e97d40d743" title="LeptoquarksReco::WritePid\lCandidatesToTree" alt="" coords="292,177,493,221"/>
-<area shape="rect" id="node5" href="$db/db5/classDISKinematicsReco.html#a6d03dc93ccee64fd4d931a06dad1ec55" title="DISKinematicsReco::\lprocess_event" alt="" coords="561,109,721,153"/>
-<area shape="rect" id="node7" href="$d6/d40/classLeptoquarksReco.html#aa5b8ff9665c7a78246bd4f1194d66d1b" title="LeptoquarksReco::process\l_event" alt="" coords="541,177,740,221"/>
-</map>
